@@ -8,7 +8,7 @@ BASE_URL = sys.argv[1] if len(sys.argv) > 1 else "https://esa-eodash.github.io/e
 
 def extract_metadata(file_path, base_url):
     """Extracts first H1, first H3, and image URL from a Markdown file."""
-    h1, h3, img_url = None, None, None
+    h1, h3, img_url = "", "", None
     filename = os.path.basename(file_path)
     file_url = base_url.rstrip("/") + "/" + filename  # Ensure proper URL format
 
