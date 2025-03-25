@@ -28,7 +28,7 @@ jobs:
         run: |
           mkdir -p output
           cp *.md output
-          python .github/extract_metadata.py
+          python .github/extract_metadata.py "https://esa-eodash.github.io/eodashboard-narratives/"
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
