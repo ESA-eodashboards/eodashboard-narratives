@@ -1,20 +1,20 @@
 [
   {
     "file": "https://esa-eodash.github.io/eodashboard-narratives/world_crop_supply_and_demand.md",
-    "title": null,
-    "subtitle": null,
+    "title": "",
+    "subtitle": "",
     "image": "https://eodashboard.org/iframe?poi=W6-N6&embedMap=true&z=4.096465194002971&lat=30.63794819428159&lng=24.885345134708164"
   },
   {
     "file": "https://esa-eodash.github.io/eodashboard-narratives/hunga_tonga_aerosol_plumes.md",
     "title": "Tonga",
-    "subtitle": null,
+    "subtitle": "",
     "image": null
   },
   {
     "file": "https://esa-eodash.github.io/eodashboard-narratives/early_rice_planting.md",
     "title": "Map Example",
-    "subtitle": null,
+    "subtitle": "",
     "image": null
   },
   {
@@ -38,31 +38,31 @@
   {
     "file": "https://esa-eodash.github.io/eodashboard-narratives/record_breaking_temperatures.md",
     "title": "Sentinel-3 LST",
-    "subtitle": null,
+    "subtitle": "",
     "image": null
   },
   {
     "file": "https://esa-eodash.github.io/eodashboard-narratives/rising_global_sea_surface_temperatures.md",
     "title": "European Marine Heatwave",
-    "subtitle": null,
+    "subtitle": "",
     "image": null
   },
   {
     "file": "https://esa-eodash.github.io/eodashboard-narratives/world_crop_supply_and_demand.md",
-    "title": null,
-    "subtitle": null,
+    "title": "",
+    "subtitle": "",
     "image": "https://eodashboard.org/iframe?poi=W6-N6&embedMap=true&z=4.096465194002971&lat=30.63794819428159&lng=24.885345134708164"
   },
   {
     "file": "https://esa-eodash.github.io/eodashboard-narratives/hunga_tonga_aerosol_plumes.md",
     "title": "Tonga",
-    "subtitle": null,
+    "subtitle": "",
     "image": null
   },
   {
     "file": "https://esa-eodash.github.io/eodashboard-narratives/early_rice_planting.md",
     "title": "Map Example",
-    "subtitle": null,
+    "subtitle": "",
     "image": null
   },
   {
@@ -86,13 +86,13 @@
   {
     "file": "https://esa-eodash.github.io/eodashboard-narratives/record_breaking_temperatures.md",
     "title": "Sentinel-3 LST",
-    "subtitle": null,
+    "subtitle": "",
     "image": null
   },
   {
     "file": "https://esa-eodash.github.io/eodashboard-narratives/rising_global_sea_surface_temperatures.md",
     "title": "European Marine Heatwave",
-    "subtitle": null,
+    "subtitle": "",
     "image": null
   }
 ]
