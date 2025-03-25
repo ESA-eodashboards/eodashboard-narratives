@@ -43,9 +43,7 @@ for root, _, files in os.walk("."):
             if metadata["title"] or metadata["subtitle"] or metadata["image"]:
                 metadata_list.append(metadata)
             
-            # Copy the markdown file to the output directory
-            shutil.copy(file_path, os.path.join(output_dir, file))
 
 # Save JSON metadata
-with open(os.path.join(output_dir, "metadata.json"), "w", encoding="utf-8") as json_file:
+with open(os.path.join(output_dir, "narratives.json"), "w", encoding="utf-8") as json_file:
     json.dump(metadata_list, json_file, indent=2, ensure_ascii=False)

@@ -25,7 +25,7 @@ jobs:
         run: |
           mkdir -p output
           cp *.md output
-          python scripts/extract_metadata.py
+          python .github/extract_metadata.py
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
