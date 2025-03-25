@@ -1,7 +1,6 @@
 import os
 import re
 import json
-import shutil
 
 def extract_metadata(file_path):
     """Extracts first H1, first H3, and image URL from a Markdown file."""
