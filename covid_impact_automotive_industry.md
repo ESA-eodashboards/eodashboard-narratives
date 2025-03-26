@@ -1,6 +1,8 @@
 # Covid-19 Impact on the Automotive Industry <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-cars-containers/hero.jpg" }-->
 ### Effect of lockdown on Automotive Industry <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
+## Covid-19 Impact on the Automotive Industry
+
 During the Covid-19 pandemic of 2020, all over the world, countries took measures to reduce the spread of the coronavirus, such as urban lockdowns or stay-at-home requests due. Automotive manufacturers around the world also took steps, such as adjusting, reducing and suspending new car production.
 
 The area bordered by a red rectangle in the next figure shows temporal changes in the density of new cars parked at an automobile factory near Beijing Airport, China from December 2019 to May 2020 based on ALOS-2 Palsar-2 data. During the lockdown in Beijing, from January to March 2020, the density of new cars dropped significantly. 
