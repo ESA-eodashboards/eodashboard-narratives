@@ -1,3 +1,6 @@
+# Satellites are providing insights into agricultural production, crop conditions, and food supply <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Agriculture.jpeg" }-->
+### Read more about satellite data applications for environmental impacts on world cereal supply and demand <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+
 ## Satellite data applications for environmental impacts on world crop (cereal) supply and demand
  
 **Advances in satellite monitoring** deliver a treasure-trove of data that scientists study and analyze for the betterment of humankind. These discoveries can help identify trends that better predict occurrences such as climate change and global warming. Since 2020, researchers at the European Space Agency, (ESA), the Japanese Space Agency, (JAXA), and NASA have been working together on a joint dashboard to combine their satellite data and openly share findings in an effort to elevate and protect the quality of life for the global population.

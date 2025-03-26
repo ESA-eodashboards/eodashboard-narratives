@@ -1,4 +1,5 @@
-## Examples of COVID-19 impact on Air Quality - NO2
+# Covid-19 Impacts on Air Quality <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-no2/hero.jpg" }-->
+### Effect of lockdown on Nitrogen Dioxide <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 In an effort to mitigate the spread of the novel coronavirus, government and public health officials have enacted various social distancing practices and other measures to limit human contact, at times placing entire countries on lockdown.
 As human behavior has changed during the pandemic, ongoing measurements from Earth observing instruments have detected concurrent changes in environmental factors, such as a drop in the air pollutant nitrogen dioxide (NO2). 
