@@ -1,4 +1,5 @@
-# Extreme air pollution episodes in Northern India and Pakistan in 2023
+# Extreme air pollution episodes in Northern India and Pakistan <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/AirPollutionIndia/cover-pakistan.jpg" }-->
+### Authors: Selviga Sinnathamby, Natacha Kaminski, Elie Zoghbi - Sorbonne Universite, Paris, France <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ###### *This story is based on results from the [3<sup>rd</sup> Earth System Science Challenge]( https://sciencehub.esa.int/2024/05/09/3rd-earth-system-science-challenge/) organised and hosted by ESA's ESRIN Science Hub in February 2024*
 

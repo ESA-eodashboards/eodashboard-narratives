@@ -1,50 +1,68 @@
 [
   {
     "file": "https://esa-eodash.github.io/eodashboard-narratives/world_crop_supply_and_demand.md",
-    "title": "",
-    "subtitle": "",
-    "image": "https://eodashboard.org/iframe?poi=W6-N6&embedMap=true&z=4.096465194002971&lat=30.63794819428159&lng=24.885345134708164"
+    "title": "Satellites are providing insights into agricultural production, crop conditions, and food supply",
+    "subtitle": "Read more about satellite data applications for environmental impacts on world cereal supply and demand",
+    "image": "https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Agriculture.jpeg"
+  },
+  {
+    "file": "https://esa-eodash.github.io/eodashboard-narratives/antarctic_sea_ice_lows.md",
+    "title": "Antarctic Ice lows",
+    "subtitle": "Unprecedented Antarctic Sea Ice Decline in 2023: Record Lows and Historic Anomalies",
+    "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.antarcticglaciers.org%2Fwp-content%2Fuploads%2F2013%2F10%2Fsea-ice.jpg&f=1&nofb=1&ipt=6adc1515792ec744345ee0000e71b395a33bb9f6813f34e52f987bfbf3dd7827&ipo=images"
   },
   {
     "file": "https://esa-eodash.github.io/eodashboard-narratives/hunga_tonga_aerosol_plumes.md",
-    "title": "Tonga",
-    "subtitle": "",
-    "image": null
+    "title": "Tracking aerosol plumes from Hunga eruption of 2022",
+    "subtitle": "Authors: Clair Duchamp, Aude Barton & Aiten Alava Baldazo - Sorbonne Universite, Paris, France",
+    "image": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/hunga-tonga/cover-hunga.jpg"
+  },
+  {
+    "file": "https://esa-eodash.github.io/eodashboard-narratives/covid_impact_air_quality_no2.md",
+    "title": "Covid-19 Impacts on Air Quality",
+    "subtitle": "Effect of lockdown on Nitrogen Dioxide",
+    "image": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-no2/hero.jpg"
   },
   {
     "file": "https://esa-eodash.github.io/eodashboard-narratives/early_rice_planting.md",
-    "title": "Map Example",
-    "subtitle": "",
-    "image": null
+    "title": "Covid-19 Impacts on Rice Planting",
+    "subtitle": "Early Rice Planting in Sacramento (California)",
+    "image": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/Earth Observing Dashboard-Agriculture-Rice/hero.jpg"
   },
   {
     "file": "https://esa-eodash.github.io/eodashboard-narratives/covid_impact_automotive_industry.md",
-    "title": "Changes at shipping terminals in Japan",
-    "subtitle": "Observed car containers in the port of Nagoya",
-    "image": "https://safety4sea.com/wp-content/uploads/2023/07/shutterstock_669659890.jpg?itok=swuFgYuA&w=640&q=75?w=1920&ssl=1"
+    "title": "Covid-19 Impact on the Automotive Industry",
+    "subtitle": "Effect of lockdown on Automotive Industry",
+    "image": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-cars-containers/hero.jpg"
   },
   {
     "file": "https://esa-eodash.github.io/eodashboard-narratives/forest_loss_and_degradation.md",
-    "title": "Tipping points",
-    "subtitle": "Tipping points",
-    "image": "https://www.esa.int/content/view/embedjw/559869"
+    "title": "Forests on the Brink: Satellite Imagery unveiling Loss and Shifting Forest Landscapes",
+    "subtitle": "Forest Loss and Degradation worldwide",
+    "image": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/forest_story/hero.jpg"
+  },
+  {
+    "file": "https://esa-eodash.github.io/eodashboard-narratives/covid_impact_atmospheric_co2.md",
+    "title": "Covid-19 Impacts on Greenhouse Gases",
+    "subtitle": "Effect of lockdown on Carbon Dioxide",
+    "image": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-co2/hero.jpg"
   },
   {
     "file": "https://esa-eodash.github.io/eodashboard-narratives/extreme_air_pollution_india_and_pakistan.md",
-    "title": " Daily CO concentrations",
-    "subtitle": " ",
-    "image": null
+    "title": "Extreme air pollution episodes in Northern India and Pakistan",
+    "subtitle": "Authors: Selviga Sinnathamby, Natacha Kaminski, Elie Zoghbi - Sorbonne Universite, Paris, France",
+    "image": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/AirPollutionIndia/cover-pakistan.jpg"
   },
   {
     "file": "https://esa-eodash.github.io/eodashboard-narratives/record_breaking_temperatures.md",
-    "title": "Sentinel-3 LST",
-    "subtitle": "",
-    "image": null
+    "title": "El Niño 2023-2024 (Part 1): Record-breaking temperatures",
+    "subtitle": "Read more about observing land surface temperature from space",
+    "image": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/el_nino_land_temperatures/hawkins-stripes.png"
   },
   {
     "file": "https://esa-eodash.github.io/eodashboard-narratives/rising_global_sea_surface_temperatures.md",
-    "title": "European Marine Heatwave",
-    "subtitle": "",
-    "image": null
+    "title": "El Niño 2023-2024 (Part 2): Rising Global Sea Surface Temperatures",
+    "subtitle": "Read more about record-breaking sea surface temperatures",
+    "image": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/el_nino_SST/cover-ai-1.png"
   }
 ]

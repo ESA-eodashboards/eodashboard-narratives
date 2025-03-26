@@ -1,3 +1,6 @@
+# El Niño 2023-2024 (Part 2): Rising Global Sea Surface Temperatures <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/el_nino_SST/cover-ai-1.png" }-->
+### Read more about record-breaking sea surface temperatures <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+
 # El Niño 2023-2024 (Part 2): Rising Global Sea Surface Temperatures
 
 In the past, natural factors were the primary drivers of El Niño and La Niña cycles. However, human activity, particularly the emission of greenhouse gases, is now influencing these climate patterns. Recent studies [1] suggest that climate change is making both El Niño and La Niña more frequent and more intense [2]. These shifts are already having widespread consequences, affecting an estimated 40 to 50 million people across 16 countries [3], especially in regions like eastern and southern Africa, the Horn of Africa, Latin America, the Caribbean, and the Asia-Pacific.
