@@ -1,6 +1,8 @@
 # Covid-19 Impacts on Greenhouse Gases <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-co2/hero.jpg" }-->
 ### Effect of lockdown on Carbon Dioxide <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
+## Covid-19 Impacts on Greenhouse Gases
+
 Lockdowns and other social distancing measures implemented in response to the COVID-19 pandemic have led to temporary reductions in carbon dioxide (CO2)
 emissions from fossil fuel combustion and other human activities.
 

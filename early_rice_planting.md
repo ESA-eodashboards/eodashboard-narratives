@@ -1,6 +1,8 @@
 # Covid-19 Impacts on Rice Planting <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/Earth Observing Dashboard-Agriculture-Rice/hero.jpg" }-->
 ### Early Rice Planting in Sacramento (California) <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
+## Covid-19 Impacts on Rice Planting
+
 Satellite imagery observed by ALOS-2 PALSAR-2 and GCOM-C operated by JAXA, Sentinel-2 by ESA, and Landsat-8 by NASA/USGS were used to assess the state of rice cultivation near Sacramento, California, USA.
 
  These observations show that the rice planting, heading and harvesting in 2020 began earlier than the past two years in many regions, and rice planting area was larger than in 2019.
