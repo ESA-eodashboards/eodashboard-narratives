@@ -1,3 +1,11 @@
+---
+cover-image: url
+date: 2025-01-01
+theme: theme
+tags: tag1,tag2
+official: true
+---
+
 # Extreme air pollution episodes in Northern India and Pakistan <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/AirPollutionIndia/cover-pakistan.jpg" }-->
 ### Authors: Selviga Sinnathamby, Natacha Kaminski, Elie Zoghbi - Sorbonne Universite, Paris, France <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 

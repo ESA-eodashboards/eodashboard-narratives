@@ -1,3 +1,11 @@
+---
+cover-image: url
+date: 2025-01-01
+theme: theme
+tags: tag1,tag2
+official: true
+---
+
 # El Niño 2023-2024 (Part 2): Rising Global Sea Surface Temperatures <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/el_nino_SST/cover-ai-1.png" }-->
 ### Read more about record-breaking sea surface temperatures <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 

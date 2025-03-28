@@ -1,3 +1,11 @@
+---
+cover-image: url
+date: 2025-01-01
+theme: theme
+tags: tag1,tag2
+official: true
+---
+
 # Forests on the Brink: Satellite Imagery unveiling Loss and Shifting Forest Landscapes <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/forest_story/hero.jpg" }-->
 ### Forest Loss and Degradation worldwide <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
