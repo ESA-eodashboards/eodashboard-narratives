@@ -22,7 +22,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install Dependencies
-        run: pip install markdown yaml
+        run: pip install markdown pyaml
 
       - name: Extract Metadata
         run: |
