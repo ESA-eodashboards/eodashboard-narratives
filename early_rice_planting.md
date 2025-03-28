@@ -1,3 +1,11 @@
+---
+cover-image: url
+date: 2025-01-01
+theme: theme
+tags: tag1,tag2
+official: true
+---
+
 # Covid-19 Impacts on Rice Planting <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/Earth Observing Dashboard-Agriculture-Rice/hero.jpg" }-->
 ### Early Rice Planting in Sacramento (California) <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
