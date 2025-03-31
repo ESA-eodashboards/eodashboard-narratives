@@ -10,7 +10,7 @@ BASE_URL = sys.argv[1] if len(sys.argv) > 1 else "https://esa-eodash.github.io/e
 def extract_metadata(file_path, base_url):
     """Extracts frontmatter metadata, first H1, first H3, and image URL from a Markdown file."""
     metadata = {}
-    h1, h3, img_url = None, None, None
+    h1, h3, img_url = "", "", ""
     filename = os.path.basename(file_path)
     file_url = base_url.rstrip("/") + "/" + filename  # Ensure proper URL format
 
@@ -59,7 +59,7 @@ os.makedirs(output_dir, exist_ok=True)
 metadata_list = []
 for root, _, files in os.walk("."):
     for file in files:
-        if file.endswith(".md") and "scripts" not in root:
+        if file.endswith(".md") and file!="README.md" and "scripts" not in root:
             file_path = os.path.join(root, file)
             metadata = extract_metadata(file_path, BASE_URL)
             if any(metadata.values()):
