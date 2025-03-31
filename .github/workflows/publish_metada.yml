@@ -29,6 +29,7 @@ jobs:
           mkdir -p output
           python .github/extract_metadata.py "https://esa-eodash.github.io/eodashboard-narratives/"
           cp *.md output
+          touch output/.nojekyll
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
