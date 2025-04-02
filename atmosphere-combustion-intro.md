@@ -1,1 +1,5 @@
-# Test Narrative 1
+# NASA, ESA and JAXA, Working Together to Monitor our Atmosphere
+
+Traffic, wildfires, and power plants all emit air pollutants and greenhouse gases as a product of combustion. Humans have known for more than a century that burning fossil fuels and other materials generates smoke that contains a mixture of potentially hazardous particles and trace gases. Breathing air with a high concentration of gases from combustion can irritate airways in the human respiratory system and contribute to respiratory diseases and other health problems.
+
+Using long-term global observations from satellites and ground-based instruments, scientists have kept a watchful eye on several gases emitted by combustion for more than a decade. These Earth observations help predict and track the pollutants that affect human health and contribute to global climate change.
