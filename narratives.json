@@ -94,6 +94,17 @@
     "image": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-co2/hero.jpg"
   },
   {
+    "cover-image": "https://www.eodashboard.org/data/story-images/A2019267212500.CalifornaiCoastalBloom.jpg",
+    "date": "2025-01-01",
+    "theme": "oceans",
+    "tags": "algae,phytoplankton,marine",
+    "official": true,
+    "file": "https://esa-eodash.github.io/eodashboard-narratives/algal-blooms.md",
+    "title": " Global warming and environmental pollution have led to a rise in the number and severity of HAB outbreaks",
+    "subtitle": "Read more about how satellites track phytoplankton’s algal blooms and its impact on tourism and fisheries",
+    "image": "https://www.eodashboard.org/data/story-images/A2019267212500.CalifornaiCoastalBloom.jpg"
+  },
+  {
     "cover-image": "url",
     "date": "2025-01-01",
     "theme": "theme",
