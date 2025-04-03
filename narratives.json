@@ -72,6 +72,17 @@
     "image": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/forest_story/hero.jpg"
   },
   {
+    "cover-image": "https://www.eodashboard.org/data/story-images/1-Atmosphere_Overview_Picture.jpg",
+    "date": "2025-01-01",
+    "theme": "atmosphere",
+    "tags": "wildfire,pollution",
+    "official": true,
+    "file": "https://esa-eodash.github.io/eodashboard-narratives/atmosphere-combustion-intro.md",
+    "title": "",
+    "subtitle": "",
+    "image": ""
+  },
+  {
     "cover-image": "url",
     "date": "2025-01-01",
     "theme": "covid-19",
