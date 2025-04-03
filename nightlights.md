@@ -1,0 +1,1 @@
+#  During COVID-19 lockdowns night lights in central business districts decreased
