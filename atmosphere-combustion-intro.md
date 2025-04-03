@@ -1,3 +1,11 @@
+---
+cover-image: https://www.eodashboard.org/data/story-images/1-Atmosphere_Overview_Picture.jpg
+date: 2025-01-01
+theme: atmosphere
+tags: wildfire,pollution
+official: true
+---
+
 # NASA, ESA and JAXA, Working Together to Monitor our Atmosphere
 
 Traffic, wildfires, and power plants all emit air pollutants and greenhouse gases as a product of combustion. Humans have known for more than a century that burning fossil fuels and other materials generates smoke that contains a mixture of potentially hazardous particles and trace gases. Breathing air with a high concentration of gases from combustion can irritate airways in the human respiratory system and contribute to respiratory diseases and other health problems.
