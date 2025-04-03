@@ -6,8 +6,10 @@ tags: wildfire,pollution
 official: true
 ---
 
-# Antarctic Ice lows <!--{ as="img" mode="hero" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.antarcticglaciers.org%2Fwp-content%2Fuploads%2F2013%2F10%2Fsea-ice.jpg&f=1&nofb=1&ipt=6adc1515792ec744345ee0000e71b395a33bb9f6813f34e52f987bfbf3dd7827&ipo=images" }-->
-### Unprecedented Antarctic Sea Ice Decline in 2023: Record Lows and Historic Anomalies <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+# NASA, ESA and JAXA, Working Together to Monitor our Atmosphere <!--{ as="img" mode="hero" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.antarcticglaciers.org%2Fwp-content%2Fuploads%2F2013%2F10%2Fsea-ice.jpg&f=1&nofb=1&ipt=6adc1515792ec744345ee0000e71b395a33bb9f6813f34e52f987bfbf3dd7827&ipo=images" }-->
+### Traffic, wildfires, and power plants all emit air pollutants and greenhouse gases as a product of combustion <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+
+
 # NASA, ESA and JAXA, Working Together to Monitor our Atmosphere
 
 Traffic, wildfires, and power plants all emit air pollutants and greenhouse gases as a product of combustion. Humans have known for more than a century that burning fossil fuels and other materials generates smoke that contains a mixture of potentially hazardous particles and trace gases. Breathing air with a high concentration of gases from combustion can irritate airways in the human respiratory system and contribute to respiratory diseases and other health problems.
