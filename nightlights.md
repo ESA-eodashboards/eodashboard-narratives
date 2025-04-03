@@ -25,4 +25,11 @@ In Lake Erie in North America (see next page), satellite imagery from a European
 
 It is important to be able to identify and predict blooms. Industries like tourism and fisheries, as well as local health officials can prepare better to mitigate the effect of a HAB. For example, oyster fisheries can close before oysters get contaminated. Municipalities can mobilize resources ahead of time to clean up beaches where a HAB is expected to cause large fish kills.
 
-Satellite data and models can be combined with water samples to identify and eventually predict HAB occurrences to help us understand why they happen and to mitigate the effects. 
+Satellite data and models can be combined with water samples to identify and eventually predict HAB occurrences to help us understand why they happen and to mitigate the effects.
+
+Aqua/MODIS collected this view of algal blooms along the central California coast on September 24, 2019:
+
+![bloom](https://www.eodashboard.org/data/story-images/A2019267212500.CalifornaiCoastalBloom.jpg)
+
+
+
