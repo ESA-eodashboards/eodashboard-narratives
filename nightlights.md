@@ -2,7 +2,7 @@
 cover-image: https://www.eodashboard.org/data/story-images/A2019267212500.CalifornaiCoastalBloom.jpg
 date: 2025-01-01
 theme: oceans
-tags: tag1,tag2
+tags: algae,phytoplankton,marine
 official: true
 ---
 
