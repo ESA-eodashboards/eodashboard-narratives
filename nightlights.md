@@ -19,7 +19,8 @@ However, there are different types of phytoplankton, and some can be less benefi
 
 Global warming and environmental pollution have led to a rise in the number and severity of HAB outbreaks, which can occur in seawater and fresh water around the world. For example, Florida experiences HABs in its coastal waters and in inland lakes, such as Lake Okeechobee. HAB outbreaks are now even happening in the Arctic, because of warming ocean conditions. Scientists are discovering that some HAB species survive well under increased CO2 concentrations and warmer temperatures, which could indicate more HABs in the future.
 
-Satellites are an effective and important tool to detect, study, and observe changes in HABs, helping us to understand how and why they occur.
+Satellites are an effective and important tool to detect, study, and observe changes in HABs, helping us to understand how and 
+why they occur.
 
 In Lake Erie in North America (see next page), satellite imagery from a European Space Agency (ESA) satellite sensor shows how the area affected by blooms has increased. These increases in frequency have been related to human activity, such as agriculture practices, which may increase the amount of nutrients in natural waters, creating an imbalance that may favor HAB. Similarly, global warming may cause increases in water temperature that may create conditions that negatively affect non-HAB forming phytoplankton, but benefit HAB-forming species.
 
@@ -29,7 +30,14 @@ Satellite data and models can be combined with water samples to identify and eve
 
 Aqua/MODIS collected this view of algal blooms along the central California coast on September 24, 2019:
 
-![bloom](https://www.eodashboard.org/data/story-images/A2019267212500.CalifornaiCoastalBloom.jpg)
+![algal blooms along the central California coast on September 24, 2019](https://www.eodashboard.org/data/story-images/A2019267212500.CalifornaiCoastalBloom.jpg)
+
+### Lake Erie Predicted bloom severity data to 2021-05-09
+![Lake Erie Predicted bloom severity data to 2021-05-09](https://www.eodashboard.org/data/story-images/NASA%20Ocean%20Fig%201.png)
+### HAB occurrence (days)
+![HABoccurrence](https://www.eodashboard.org/data/story-images/NASA%20Ocean%20Fig%202.png)
+
+
 
 
 
