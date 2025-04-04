@@ -39,4 +39,46 @@ The world’s Earth observation biomass community is undertaking a collaboration
 
 ![aboveground biomass density](https://www.eodashboard.org/data/story-images/Biomass_Figure1.png)
 
+## Existing Biomass Products
+
+Several current projects are producing continental- to global-scale biomass maps. These include:
+
+- [ESA’s CCI-Biomass global maps](https://climate.esa.int/en/projects/biomass/) at a scale of 100 meters for the years 2010, 2017, 2018, and 2020;
+
+- [JPL’s global 100 meter map](https://ceos.org/gst/jpl-biomass.html) for 2020 and a time series of 10 kilometer biomass maps from 2000 through 2020;
+
+- NASA GEDI’s 1 kilometer map for 2020 covering latitudes between approximately 52° N and 52° S;
+
+-  NASA’s ICESat-2 30 meter boreal map for 2020; and
+
+The UK National Centre for Earth Observation (EO) 100 meter time series of maps for Africa from 2007 to 2017.
+
+Key global biomass production and validation teams, including national experts, are engaged in this effort. These teams share the goal of producing harmonized biomass products for use in the UNFCCC Global Stocktake process.
+
+## Explore Datasets
+
+The map illustrates the NCEO Africa Aboveground Woody Biomass (AGB) map for the year 2017 at 100 m spatial resolution which was developed using a combination of LiDAR, Synthetic Aperture Radar (SAR) and optical based data. This product was developed by the UK’s National Centre for Earth Observation (NCEO) through the Carbon Cycle and Official Development Assistance (ODA) programmes. For more information see CEOS biomass.
+
+On the EXPLORE DATASETS section of this dashboard you can discover several other datasets related to biomass and terrestrial carbon:
+
+
+- [ESA RECCAP-2 Deforestation](https://eodashboard.org/explore?poi=World-RECCAP2_6&x=-5095206.67577&y=-696587.89035&z=5.12625&search=World%3A+Deforestation+%28CCI+RECCAP2%29)
+- [ESA RECCAP-2 Forest Degradation](https://eodashboard.org/explore?poi=World-RECCAP2_7&x=-5095206.67577&y=-696587.89035&z=5.12625&search=World%3A+Degradation+%28CCI+RECCAP2%29)
+- [ESA RECCAP-2 Edge biomass change](https://eodashboard.org/explore?poi=World-RECCAP2_8&x=-5151174.45378&y=-689125.51994&z=5.18758&search=World%3A+Edge+biomass+change+%28CCI+RECCAP2%29)
+- [ESA RECCAP-2 Methods Mean Above Ground Carbon](https://eodashboard.org/explore?x=-5151174.45378&y=-689125.51994&z=5.18758&poi=World-RECCAP2_1&search=World%3A+Methods+mean+aboveground+carbon+%28CCI+RECCAP2%29)
+- [ESA RECCAP-2 Mean intact biomass change trend]()
+- [ESA RECCAP-2 Methods mean intact biomass change]()
+- [ESA RECCAP-2 Secondary forest growth]()
+- [ESA RECCAP-2 Smooth max aboveground carbon]()
+- [ESA RECCAP-2 Smooth max intact biomass change]()
+- [ESA RECCAP-2 Smooth mean intact biomass change]()
+- [ESA RECCAP-2 Trend mean aboveground carbon]()
+- [JAXA Forest-non-forest map]()
+- [JAXA GCOM-C/SGLI L3 Normalized Difference Vegetation Index (NDVI)]()
+- [NASA MODIS / Terra+Aqua BRDF / Albedo Nadir BRD-Adjusted Reflectance Daily L3 Global 0.05 Deg CMG and Vegetation Indices Gross Primary Productivity]()
+- [Net Ecosystem Exchange]()
+
+
+
+
 
