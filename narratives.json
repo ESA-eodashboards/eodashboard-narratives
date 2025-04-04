@@ -39,6 +39,17 @@
     "image": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/hunga-tonga/cover-hunga.jpg"
   },
   {
+    "cover-image": "https://www.eodashboard.org/data/story-images/Biomass.jpeg",
+    "date": "2025-01-01",
+    "theme": "biomass",
+    "tags": "forest,carbon",
+    "official": true,
+    "file": "https://esa-eodash.github.io/eodashboard-narratives/biomass-harmonization-activity.md",
+    "title": "  A view from space monitors land cover and tree to track aboveground biomass and carbon content",
+    "subtitle": "Read more about taking stock of global biomass maps",
+    "image": "https://www.eodashboard.org/data/story-images/Biomass.jpeg"
+  },
+  {
     "cover-image": "url",
     "date": "2025-01-01",
     "theme": "covid-19",
