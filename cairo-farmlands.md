@@ -43,3 +43,16 @@ _Data source: Koehler, P., & Frankenberg, C. (2020). Ungridded TROPOMI SIF (at 7
 **TROPOMI NO2 column density** in daily [mol/m3] TROPOMI observes nitrogen dioxide (NO2) column density with a high resolution of 5 km. NO2 is an air pollution trace gas as a result of anthropogenic activities along with fossil fuel combustion such as oil refinery, power plant, steelwork and automobile transportation the same as the CO2 emission. However, NO2 reduction is processed by decomposition different from CO2 uptake.
 
 _Data source: <https://data-portal.s5p-pal.com/products/no2.html>_
+
+**Windrose in hourly frequency**
+
+Windrose shows the frequency of winds blowing from directions and speed over an hour around GOSAT overpass time in the target city.
+
+_Acknowledgments: The windrose was produced by using wind data from Windergroud.com._
+
+Explore in more details these datasets by clicking on the EXPLORE DATASETS button at the top of the page or directly from the links below:
+
+- [GOSAT-2 CO2 on Cairo](https://www.eodashboard.org/?poi=World-N2_CO2_jaxa_gosat)
+- [OCO-2 CO2 Global](https://www.eodashboard.org/?poi=W4-N2)
+- [TROPOMI NO2](https://www.eodashboard.org/?poi=W1-N1)
+- [TROPOMI SIF](https://www.eodashboard.org/?indicator=SIF&poi=World-SIF)
