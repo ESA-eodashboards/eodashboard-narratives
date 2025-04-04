@@ -2,7 +2,7 @@
 cover-image: https://www.eodashboard.org/data/story-images/Biomass.jpeg
 date: 2025-01-01
 theme: biomass
-tags: forest,landcover,marine
+tags: forest,carbon
 official: true
 ---
 
@@ -77,6 +77,8 @@ On the EXPLORE DATASETS section of this dashboard you can discover several other
 - [JAXA GCOM-C/SGLI L3 Normalized Difference Vegetation Index (NDVI)](https://eodashboard.org/explore?poi=World-E10e&x=-5147073.97998&y=-675971.91814&z=5.18091&search=Global%3A+NDVI)
 - [NASA MODIS / Terra+Aqua BRDF / Albedo Nadir BRD-Adjusted Reflectance Daily L3 Global 0.05 Deg CMG and Vegetation Indices Gross Primary Productivity](https://eodashboard.org/explore?poi=World-ESDC_kndvi&x=4363439.81772&y=-466124.06729&z=3.74777&search=World%3A+KNDVI)
 - [Net Ecosystem Exchange](https://eodashboard.org/explore?x=4363439.81772&y=-466124.06729&z=3.74777&poi=World-ESDC_net_ecosystem_exchange&search=World%3A+Net+Ecosystem+Exchange)
+
+## Aboveground Woody Biomass <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"nceo_africa_2017"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=gist_earth_r&rescale=0.0,400.0&url=s3://nasa-maap-data-store/file-staging/nasa-map/nceo-africa-2017/AGB_map_2017v0m_COG.tif"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="3.8721626413535932" center=[16.795351709540633,-2.177743246907042] }-->
 
 
 
