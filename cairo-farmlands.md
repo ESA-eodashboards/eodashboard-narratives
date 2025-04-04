@@ -35,3 +35,11 @@ Use the **interactive maps** on the next page to see the variations of NO<sub>2<
 **GOSAT lower tropospheric CO2 enhancement** in daily [ppm] GOSAT tropospheric partial column observes global changes of the carbon dioxide (CO2) enhancement; the CO2 density difference between lower atmosphere (0-4 km) influenced by CO2 net flux, i.e., surface emission and uptake, minus upper atmosphere (4-12 km) as background. The report on GOSAT partial column density products was submitted to UNFCCC for the first global stocktake as space-based surface GHG Emission Indicator (GEI) over the city.
 
 _Data source: <https://www.eorc.jaxa.jp/GOSAT/GPCG/index_GOSAT.html>_
+
+**TROPOMI SIF** in monthly average [mW/m2/sr/nm] TROPOMI solar-induced chlorophyll fluorescence (SIF) shows the photosynthetic activity of plant ecosystem. Plant absorbs sunlight but re-emit a small fraction of energy as SIF, which is strongly related to carbon uptake of CO2 through photosynthesis over plant area.
+
+_Data source: Koehler, P., & Frankenberg, C. (2020). Ungridded TROPOMI SIF (at 740nm) (Version 1.0) [Data set]. CaltechDATA. <https://doi.org/10.22002/D1.1347>_
+
+**TROPOMI NO2 column density** in daily [mol/m3] TROPOMI observes nitrogen dioxide (NO2) column density with a high resolution of 5 km. NO2 is an air pollution trace gas as a result of anthropogenic activities along with fossil fuel combustion such as oil refinery, power plant, steelwork and automobile transportation the same as the CO2 emission. However, NO2 reduction is processed by decomposition different from CO2 uptake.
+
+_Data source: <https://data-portal.s5p-pal.com/products/no2.html>_
