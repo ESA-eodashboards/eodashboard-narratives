@@ -61,6 +61,17 @@
     "image": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-cars-containers/hero.jpg"
   },
   {
+    "cover-image": "https://www.eodashboard.org/data/story-images/3-agriculture-crops.jpg",
+    "date": "2025-01-01",
+    "theme": "agriculture",
+    "tags": "carbon,crops,co2",
+    "official": true,
+    "file": "https://esa-eodash.github.io/eodashboard-narratives/cairo-farmlands.md",
+    "title": "Farmlands North of Cairo absorb so much atmospheric CO2 it can be measured from space",
+    "subtitle": "Read more about how crops consume Cairo's Carbon Dioxide",
+    "image": "https://www.eodashboard.org/data/story-images/3-agriculture-crops.jpg"
+  },
+  {
     "cover-image": "url",
     "date": "2025-01-01",
     "theme": "theme",
