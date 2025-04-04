@@ -66,17 +66,19 @@ On the EXPLORE DATASETS section of this dashboard you can discover several other
 - [ESA RECCAP-2 Forest Degradation](https://eodashboard.org/explore?poi=World-RECCAP2_7&x=-5095206.67577&y=-696587.89035&z=5.12625&search=World%3A+Degradation+%28CCI+RECCAP2%29)
 - [ESA RECCAP-2 Edge biomass change](https://eodashboard.org/explore?poi=World-RECCAP2_8&x=-5151174.45378&y=-689125.51994&z=5.18758&search=World%3A+Edge+biomass+change+%28CCI+RECCAP2%29)
 - [ESA RECCAP-2 Methods Mean Above Ground Carbon](https://eodashboard.org/explore?x=-5151174.45378&y=-689125.51994&z=5.18758&poi=World-RECCAP2_1&search=World%3A+Methods+mean+aboveground+carbon+%28CCI+RECCAP2%29)
-- [ESA RECCAP-2 Mean intact biomass change trend]()
-- [ESA RECCAP-2 Methods mean intact biomass change]()
-- [ESA RECCAP-2 Secondary forest growth]()
-- [ESA RECCAP-2 Smooth max aboveground carbon]()
-- [ESA RECCAP-2 Smooth max intact biomass change]()
-- [ESA RECCAP-2 Smooth mean intact biomass change]()
-- [ESA RECCAP-2 Trend mean aboveground carbon]()
-- [JAXA Forest-non-forest map]()
-- [JAXA GCOM-C/SGLI L3 Normalized Difference Vegetation Index (NDVI)]()
-- [NASA MODIS / Terra+Aqua BRDF / Albedo Nadir BRD-Adjusted Reflectance Daily L3 Global 0.05 Deg CMG and Vegetation Indices Gross Primary Productivity]()
-- [Net Ecosystem Exchange]()
+- [ESA RECCAP-2 Mean intact biomass change trend](https://eodashboard.org/explore?x=-5151174.45378&y=-689125.51994&z=5.18758&poi=World-RECCAP2_12&search=World%3A+Mean+intact+biomass+change+trend+%28CCI+RECCAP2%29)
+- [ESA RECCAP-2 Methods mean intact biomass change](https://eodashboard.org/explore?x=-5151174.45378&y=-689125.51994&z=5.18758&poi=World-RECCAP2_9&search=World%3A+Methods+mean+intact+biomass+change+%28CCI+RECCAP2%29)
+- [ESA RECCAP-2 Secondary forest growth](https://eodashboard.org/explore?x=-5151174.45378&y=-689125.51994&z=5.18758&poi=World-RECCAP2_5&search=World%3A+Secondary+forest+growth+%28CCI+RECCAP2%29)
+- [ESA RECCAP-2 Smooth max aboveground carbon](https://eodashboard.org/explore?x=-5212808.46578&y=-675386.61818&z=5.10091&poi=World-RECCAP2_2&search=World%3A+Smooth+max+aboveground+carbon+%28CCI+RECCAP2%29)
+- [ESA RECCAP-2 Smooth max intact biomass change](https://eodashboard.org/explore?x=-5151174.45378&y=-689125.51994&z=5.18758&poi=World-RECCAP2_10&search=World%3A+Smooth+max+intact+biomass+change+%28CCI+RECCAP2%29)
+- [ESA RECCAP-2 Smooth mean intact biomass change](https://eodashboard.org/explore?x=-5212808.46578&y=-675386.61818&z=5.10091&poi=World-RECCAP2_3&search=World%3A+Smooth+mean+aboveground+carbon+%28CCI+RECCAP2%29)
+- [ESA RECCAP-2 Trend mean aboveground carbon](https://eodashboard.org/explore?x=-5212808.46578&y=-675386.61818&z=5.10091&poi=World-RECCAP2_4&search=World%3A+Trend+mean+aboveground+carbon+%28CCI+RECCAP2%29)
+- [JAXA Forest-non-forest map](https://eodashboard.org/explore?poi=World-FNF&x=-62427.30749&y=-1614669.20825&z=4.29849&search=World%3A+Forest%2Fnon-forest+map+PALSAR2)
+- [JAXA GCOM-C/SGLI L3 Normalized Difference Vegetation Index (NDVI)](https://eodashboard.org/explore?poi=World-E10e&x=-5147073.97998&y=-675971.91814&z=5.18091&search=Global%3A+NDVI)
+- [NASA MODIS / Terra+Aqua BRDF / Albedo Nadir BRD-Adjusted Reflectance Daily L3 Global 0.05 Deg CMG and Vegetation Indices Gross Primary Productivity](https://eodashboard.org/explore?poi=World-ESDC_kndvi&x=4363439.81772&y=-466124.06729&z=3.74777&search=World%3A+KNDVI)
+- [Net Ecosystem Exchange](https://eodashboard.org/explore?x=4363439.81772&y=-466124.06729&z=3.74777&poi=World-ESDC_net_ecosystem_exchange&search=World%3A+Net+Ecosystem+Exchange)
+
+
 
 
 
