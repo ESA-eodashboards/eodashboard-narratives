@@ -27,3 +27,11 @@ Egypt has two growing seasons, one in the summer and one in the winter. In the s
 ![Wind_Cairo_2018-06-30](https://www.eodashboard.org/data/story-images/Wind_Cairo_2018-06-30_rev.png)
 ![Wind_Cairo_2019-02-01](https://www.eodashboard.org/data/story-images/Wind_Cairo_2019-02-01_rev.png)
 ![Wind_Cairo_2019-10-05](https://www.eodashboard.org/data/story-images/Wind_Cairo_2019-10-05_rev.png)
+
+## Explore Datasets
+
+Use the **interactive maps** on the next page to see the variations of NO<sub>2</sub>, SIF and XCO<sub>2</sub> levels over Cairo. The compare feature on the map allows looking at the levels two different dates. The following products can be explored:
+
+**GOSAT lower tropospheric CO2 enhancement** in daily [ppm] GOSAT tropospheric partial column observes global changes of the carbon dioxide (CO2) enhancement; the CO2 density difference between lower atmosphere (0-4 km) influenced by CO2 net flux, i.e., surface emission and uptake, minus upper atmosphere (4-12 km) as background. The report on GOSAT partial column density products was submitted to UNFCCC for the first global stocktake as space-based surface GHG Emission Indicator (GEI) over the city.
+
+_Data source: <https://www.eorc.jaxa.jp/GOSAT/GPCG/index_GOSAT.html>_
