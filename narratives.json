@@ -138,6 +138,17 @@
     "image": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/AirPollutionIndia/cover-pakistan.jpg"
   },
   {
+    "cover-image": "https://www.eodashboard.org/data/story-images/8-wildfires.jpg",
+    "date": "2025-01-01",
+    "theme": "atmosphere",
+    "tags": "wildfires,forests,no2,co2",
+    "official": true,
+    "file": "https://esa-eodash.github.io/eodashboard-narratives/australian-bushfires.md",
+    "title": " Australian bushfires in 2019-2020 emitted 700 million metric tons of CO2 into the atmosphere",
+    "subtitle": "Read more about how Air Pollution affects Climate Change",
+    "image": "https://www.eodashboard.org/data/story-images/8-wildfires.jpg"
+  },
+  {
     "cover-image": "url",
     "date": "2025-01-01",
     "theme": "theme",
