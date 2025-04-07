@@ -35,12 +35,16 @@ _Sentinel-5 Precursor is the first Copernicus mission dedicated to monitoring ou
 
 ## Explore Datasets
 
-Use the interactive map on this page to see how carbon monoxide levels vary globally. The compare feature on this map allows looking at the levels of CO on two different dates.
+_Use the interactive map on this page to see how carbon monoxide levels vary globally. The compare feature on this map allows looking at the levels of CO on two different dates._
 
-This EO Dashboard provides access to interactive maps of Carbon Monoxide, Nitrogen Dioxide, and Sulfur Dioxide from TROPOMI. Access these datasets by clicking on the EXPLORE DATASETS button at the top of the page or directly from the links below:
+This **EO Dashboard** provides access to interactive maps of Carbon Monoxide, Nitrogen Dioxide, and Sulfur Dioxide from TROPOMI. Access these datasets by clicking on the [EXPLORE DATASETS](https://www.eodashboard.org/explore) button at the top of the page or directly from the links below:
 
-TROPOMI CO  
-TROPOMI NO2  
-TROPOMI SO2
+- [TROPOMI CO](https://www.eodashboard.org/?poi=World-N1_CO)
+- [TROPOMI NO2](https://www.eodashboard.org/?poi=W1-N1)  
+- [TROPOMI SO2](https://www.eodashboard.org/?poi=SO2-N1)
+
+The following Notebook evaluates fire impact on populated areas on a European site
+
+<iframe width="95%" style="min-height: 70vh" src="https://bids2023-nbviewer.hub.eox.at/localfile/bids2023/notebooks/Fire_impact_analysis.ipynb?format=html_plain" frameborder="0"></iframe>
 
 ## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"CO_3_daily-2025-02-02T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"AWS_VIS_CO_3DAILY_DATA","styles":"","format":"image/png","time":"2025-02-02T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="3.39962467591212" center=[32.580020785192396,15.862729685328446] }-->
