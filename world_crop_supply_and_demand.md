@@ -17,4 +17,25 @@ Any extreme event such as conflict, severe weather, or environmental abnormaliti
 
 **GEOGLAM Crop Monitor for AMIS and Early Warning synthesis map showing where crops are grown around the world, and the current crop conditions as of April 28, 2022. (source: <https://cropmonitor.org/>)**
 
+![](https://www.eodashboard.org/data/story-images/AMIS_EW_synthesis_202205.jpeg)
 
+## What We Monitor
+
+With the help of satellites, we are able to monitor crops throughout the growing seasons and can use a combination of satellite derived time series to quantify critical indicators related to crop health for a specific region and crop over time. One such example of satellite-derived products are the GEOGLAM-NASA Harvest Agrometeorological (AGMET) Earth Observation Indicators, which are supported by the global remote sensing community and updated every 7-12 days to ensure that users are provided with the most up to date information. Displaying climate, environmental, and vegetative variables that impact agricultural outcomes, the AGMET Indicators were born from an agricultural stakeholder-identified need for a simple way to visualize and frequently monitor crop health with the ultimate goal of identifying potential cropping concerns as the growing season progresses and before a food shortage materializes. Satellite data provides a wealth of information to meet these needs including:
+
+### Agromet parameters
+
+##### 1. Normalized Difference Vegetation Index (NDVI): A measure of crop health
+Showing global normalized difference vegetation index (NDVI) is a simple graphical indicator that can be used to analyze remote sensing measurements, often from a space platform, assessing whether or not the target being observed contains live green vegetation. As a crop season progresses, NDVI values will increase during early crop growth and development of leafy vegetation, will reach the peak as the crop fully develops and reaches maturity (before senescence), and then will decrease again as the crop matures and as the leafy vegetation begins to die off. How the NDVI values progress over the course of the season and the individual peak values can help predict the productivity of the crops and be compared to previous seasons.
+
+![](https://www.eodashboard.org/data/story-images/NDVI%20AGMET.png)
+*The AGMET Indicators use satellite data to measure key indicators of crop health, including NDVI and NDVI anomalies. (source: <https://cropmonitor.org/tools/agmet/>)*
+
+##### 2. Surface soil moisture: A measure of water stored in the ground and available to crops  
+
+Like NDVI, surface soil moisture is a key component for crop production that can be measured using satellite data (such as ESA’s SMOS instrument, JAXA’s GCOM-W instrument and NASA’s SMAP instrument). The amount of moisture in the soil will depend on meteorological conditions that can also be measured with the help of satellite data (precipitation, temperature, etc.) as well as sun exposure, wind, runoff/drainage, and soil type. If there is less water in the soil, it will be more difficult for crop roots to take up that water, resulting in a crop that is under greater stress. If the stress continues, the crop will wilt and eventually die. However, if the soil is above field capacity and the pores are oversaturated with water, then oxygen levels are restricted and it can be detrimental for the crop. This is why soil moisture is a key indicator of what may ultimately be a successful or failed crop.
+
+These are just a few examples of the types of measurements that satellite missions can provide, but just as important as the information itself is how we analyze it and apply it. Because of the global coverage, frequent revisit rate, and repeatability of satellite data, we are able to successfully explore food security questions, climate change affects, and agricultural production around the world.
+
+![](https://www.eodashboard.org/data/story-images/SoilMoisture.png)
+*Soil moisture can be measured using satellite data and directly affects crop growth. (source: <https://cropmonitor.org/tools/agmet/>)*
