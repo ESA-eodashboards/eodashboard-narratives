@@ -80,3 +80,17 @@ WorldCereal is a global Research and Development challenge aiming to engage the 
 #### Summer
 ![](https://www.eodashboard.org/data/story-images/Tanzania_summer_zoom.png)
 
+#### Winter
+
+![](https://www.eodashboard.org/data/story-images/Tanzania_winter_zoom.png)
+
+### North Africa and Middle East drought
+
+##### a) NASA Harvest-GEOGLAM AGMET
+
+Not only do satellite data helps us understand the current season’s productivity, but they also provide a rich historical record of agricultural measurements that enable researchers to compare outcomes to previous seasons and evaluate broader trends such as the impacts of climate change. For example, significant parts of Northern Africa and the Middle East are experiencing drought conditions including countries such as Morocco, Tunisia (seen below), Syria and Iraq that are signifincatly impacting crop production. Earth observations are key to identifying and quatifying these impacts early and in providing support for future agricultural planning and mitigation actions when needed. 
+
+![](https://www.eodashboard.org/data/story-images/Sousse.png?raw=true)
+
+*Sousse (Northern Centre, Tunisia) Winter Wheat 2022*
+
