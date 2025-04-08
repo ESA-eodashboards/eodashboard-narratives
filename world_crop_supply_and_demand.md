@@ -108,3 +108,20 @@ The following time series indicators reflect the precipitation, soil moisture an
 
 - Chart 6
 
+### Brazil (World Cereal)
+
+#### Annual cropland
+
+![](https://www.eodashboard.org/data/story-images/Brazil_annual_cropland.png)
+
+#### Summer
+
+![](https://www.eodashboard.org/data/story-images/Brazil_summer.png)
+
+#### Winter
+
+![](https://www.eodashboard.org/data/story-images/Brazil_winter.png)
+
+## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"ndvi-2024-06-15T23:59:30Z"},"source":{"type":"TileWMS","urls":["https://ogcpreview2.restecmap.com/examind/api/WS/wms/default"],"params":{"layers":"NDVI-GCOMC-World-Monthly","styles":"","format":"image/png","time":"2024-06-15T23:59:30Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="3.1699250014423126" center=[-2.88132376829873e-11,-6.2376418306265435] }-->
+*Normalized Difference Vegetation Index (NDVI)*
+
