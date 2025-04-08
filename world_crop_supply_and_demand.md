@@ -122,6 +122,18 @@ The following time series indicators reflect the precipitation, soil moisture an
 
 ![](https://www.eodashboard.org/data/story-images/Brazil_winter.png)
 
+## Satellite Data Provides Critical Agricultural Insights
+
+As data access and technology have made significant advances in recent decades, it comes as no surprise that the amount of available data can often be overwhelming and difficult to decipher. As such, tools such as the JAXA JASMAI, ESA World Cereal system and the GEOGLAM-Harvest AGMET Indicators play a key role for quick and digestible information processing and supporting key agricultural decisions. In order to increase food market stability and reduce price volatility, it is critical that market analysts, farmers, and other agricultural stakeholders have a thorough understanding of the amount of food coming to market - whether that be in line with the average amount seen in previous years or more/less. Just as with any other consumer good, supply and demand are the key drivers of agrifood markets and commodity prices. Satellite data can fill a critical gap in agricultural monitoring, enabling us to not only understand current crop conditions but prepare for potential outcomes in a given growing season, with wider-reaching impacts on market stability, supporting early action and humanitarian response, and bolstering food security.
+
+### Explore Datasets
+
+**Use the interactive map on this page to see how NDVI from GCOM-C varies globally. The compare feature on this map allows looking at the levels of NDVI on two different dates.**
+
+This EO Dashboard provides access to interactive maps of NDVI and other insights on agriculture. Access these datasets by clicking on the EXPLORE DATASETS button at the top of the page or directly from the links below:
+
+- [GCOM NDVI](https://www.eodashboard.org/?poi=World-E10e)
+- [GEOGLAM Crop Monitor](https://www.eodashboard.org/?poi=W6-N6&indicator=N6)
+
 ## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"ndvi-2024-06-15T23:59:30Z"},"source":{"type":"TileWMS","urls":["https://ogcpreview2.restecmap.com/examind/api/WS/wms/default"],"params":{"layers":"NDVI-GCOMC-World-Monthly","styles":"","format":"image/png","time":"2024-06-15T23:59:30Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="3.1699250014423126" center=[-2.88132376829873e-11,-6.2376418306265435] }-->
 *Normalized Difference Vegetation Index (NDVI)*
-
