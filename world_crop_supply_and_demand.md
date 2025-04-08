@@ -39,3 +39,29 @@ These are just a few examples of the types of measurements that satellite missio
 
 ![](https://www.eodashboard.org/data/story-images/SoilMoisture.png)
 *Soil moisture can be measured using satellite data and directly affects crop growth. (source: <https://cropmonitor.org/tools/agmet/>)*
+
+## Global / Regional monitor
+### 2022 drought in the U.S. Southern Plains region
+
+##### a) NASA Harvest-GEOGLAM AGMET
+
+
+The Southern Plains are a major wheat producing region in the U.S. and is monitored closely from planting to harvest given the importance of this major commodity crop. The AGMET Indicator graphic for the 2022 Southern Plains winter wheat season (above) shows below-average cumulative precipitation, NDVI, and soil moisture, consistent with drought conditions trending throughout the Southern Plains. U.S. winter wheat is typically harvested over the summer months but due to the drought conditions affecting the region, there is concern over the potential yields. With the help of satellite data, we understand several months ahead of the harvest that we might expect lower than average production as a result of the environmental indicators measured. With this knowledge comes the ability to respond and prepare appropriately while simultaneously providing market transparency.
+
+![](https://www.eodashboard.org/data/story-images/AMIS-United%20States%20of%20America-Southern%20Plains-Winter%20Wheat-2022.jpeg)
+*Southern Plains (USA) Winter Wheat 2022*
+
+##### b) JAXA JASMIN/Japan JASMAI with MAFF
+
+JAXA with Japanese MAFF provide agrometeorological information including Precipitation, Drought Index, Soil Moisture, Solar Radiation, Surface Temperature, Vegetation Index and anomaly, etc. Rainfall, Agriculture, Land, GPM Core Observatory, SHIZUKU (GCOM-W), MODIS, Multiple Satellites (GSMaP) bi-Monthly on JASMIN for Asia and on JASMAI for selected world areas. By using JAXA WMS with JASMIN/JASMAI products, the anomaly of Southern Plain in the US can be zoomed in with visualized map. The following are examples of composite averaged NDVI and NDVI anomaly.
+
+![](https://www.eodashboard.org/data/story-images/Averaged%20NDVI.png?raw=true)
+
+The following time series indicators reflect the precipitation, soil moisture and NDVI variables from Japan JASMIN/JASMAI for Kansas, USA.
+
+- Chart 1
+
+- Chart 2
+
+- Chart 3
+
