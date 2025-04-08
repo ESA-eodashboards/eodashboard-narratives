@@ -94,3 +94,17 @@ Not only do satellite data helps us understand the current season’s productivi
 
 *Sousse (Northern Centre, Tunisia) Winter Wheat 2022*
 
+---
+
+Accumulated and anormal precipitation information derived from GSMaP by JASMIN/JASMAI on this March is shown in following because in Southern Brazil crops did not receive the expected amount of precipitation, which negatively impacted yields of the spring planted crop.
+
+![](https://www.eodashboard.org/data/story-images/Precipitation%20by%20GSMaP.png)
+
+The following time series indicators reflect the precipitation, soil moisture and NDVI variables from JASMIN/JASMAI for Estado de Paraná:
+
+- Chart 4
+
+- Chart 5
+
+- Chart 6
+
