@@ -65,3 +65,18 @@ The following time series indicators reflect the precipitation, soil moisture an
 
 - Chart 3
 
+## The Benefits of Pairing The WorldCereal Initiative and Satellite Data
+
+WorldCereal is a global Research and Development challenge aiming to engage the global agricultural community to achieve optimal results. WorldCereal relies heavily on satellites, primarily the operational time series of the Copernicus Sentinels missions, which allow an unprecedented dynamic crop monitoring at global scale. By focusing on maize and wheat during the system demonstration, WorldCereal aims to contribute to the global food security challenge as together with rice, these crops form the world’s most widely cultivated species, accounting for an estimated 42.5 percent of the world’s food calorie supply (FAO).
+
+![](https://www.eodashboard.org/data/story-images/worldcereal.jpeg)
+
+### Tanzania
+
+#### Annual Cropland
+
+![](https://www.eodashboard.org/data/story-images/Tanzania_annual_cropland_zoom.png)
+
+#### Summer
+![](https://www.eodashboard.org/data/story-images/Tanzania_summer_zoom.png)
+
