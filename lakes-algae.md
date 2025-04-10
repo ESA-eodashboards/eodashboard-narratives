@@ -31,3 +31,4 @@ The graph shows the variation in Lake Vänern's extent (in km2) between 2010-202
 
     Chart / Graph 1
 ![](https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/04/scandinavian_peninsula/24030319-2-eng-GB/Scandinavian_Peninsula_article.jpg)
+*Almost cloud-free Scandinavian Peninsula captured by Copernicus Sentinel-3 mission on 20 March, lake Vänern is visible in the south, [CC BY-SA 3.0 IGO](https://www.esa.int/ESA_Multimedia/Terms_and_Conditions)*
