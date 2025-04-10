@@ -19,3 +19,17 @@ Inland surface water habitats are non-coastal above-ground open fresh or brackis
     Water surface area is another simple parameter which can be estimated from radar and optical satellite observations through techniques such as image segmentation and classification.
 - **Water quality**. There are multiple parameters that can be measured using optical satellites [4,14] including turbidity and chlorophyll concentrations [5, 10] or salinity, using microwave radiometer [15, 16]. These can be used as indicators of ecosystem health and water quality; and their change can be indicative of increased salinisation; sediment runoff, or excessive nutrient pollution, which can have detrimental effects on freshwater ecosystems.
 
+Researchers at NASA, the European Space Agency (ESA) and the Japan Aerospace Exploration Agency (JAXA) are keeping a watchful eye on inland water bodies. Their observations are below:
+
+
+
+- [**Climate change impacts on inland water**](https://eodashboard.org/story?id=lakes-climate): Climate change is causing rising temperatures globally, and inland waters are not immune to this trend as shown with satellite imagery. Increasing temperatures can impact inland waters in several ways. In this story we illustrate the effects of evapotranspiration, changing precipitation patterns and extreme events on four inland water bodies in the North America, Europe and Asia.
+
+- [**Observing algae blooms**](https://eodashboard.org/story?id=lakes-algae): This story illustrates observed changes in temperature, ice cover and precipitation the impact algae bloom in two inland water bodies in Northern Europe and South-East Asia
+
+- [**Anthropogenic influences on inland water bodies**](https://eodashboard.org/story?id=lakes-human-activity): This story looks at how human activities related to agriculture, industry and urbanisation, can significantly impact inland waters around the world. With Earth Observations from ESA, NASA and JAXA we illustrate such impacts in water bodies in Europe, North America and Africa.
+
+![](https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2019/07/lake_balaton_hungary/19487322-1-eng-GB/Lake_Balaton_Hungary_pillars.jpg)
+*Lake Balaton (Hungary) captured on 27 February 2019 by Sentinel-2, [ESA, CC BY-SA 3.0 IGO](https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2019/07/lake_balaton_hungary/19487322-1-eng-GB/Lake_Balaton_Hungary_pillars.jpg)*
+
+
