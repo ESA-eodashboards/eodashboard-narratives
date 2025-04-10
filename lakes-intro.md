@@ -39,17 +39,31 @@ Researchers at NASA, the European Space Agency (ESA) and the Japan Aerospace Exp
 - [3] [Global lake warming trend threatens freshwater species](https://phys.org/news/2020-10-global-lake-trend-threatens-freshwater.html)
 - [4] [Copernicus Sentinels help to create extended global datasets](https://sentinel.esa.int/web/success-stories/-/copernicus-sentinels-help-to-create-extended-global-lakes-dataset/1.5)
 - [5] [Sea Surface Temperature - Sentinel-3 mission (SLSTR sensor)](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-3-slstr/applications/maritime-monitoring/sea-surface-temperature)
-- [6] [Inland water and Lands - Sentinel-3 mission (altimetry sensor)]()
-- [7] [Satellites for long-term monitoring of inland waters U.S. lakes: The MERIS time series and application for chlorophyll-a]()
-- [8] [MODIS Moderate Resolution Imaging Spectroradiometer]()
-- [9] [Global Change Observation Mission - Water “SHIZUKU” (GCOM-W)]()
-- [10] [GLISA - Sea surface temperature of lakes impacts on algae blooms, stratification, and hipoxia]()
-- [11] [Sentinel-3 (SRAL)]()
-- [12] [Schulz S. 2020.: Climate change or irrigated agriculture: What drives the water level decline of Lake Urmia. Scientific Reports 10: 236.]()
-- [13] [Shugar D, 2020.: Rapid worldwide growth of glacial lakes since 1990. Nature Climate Change 10: 939–945.]()
-- [14] [Sentinel-2 MultiSpectral Instrument (MSI)]()
-- [15] [SMOS L1 and L2 Science data]()
-- [16] [Aquarius Mission Overview]()
+- [6] [Inland water and Lands - Sentinel-3 mission (altimetry sensor)](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-3-altimetry/applications/inland-waters-and-land)
+- [7] [Satellites for long-term monitoring of inland waters U.S. lakes: The MERIS time series and application for chlorophyll-a](https://ntrs.nasa.gov/citations/20210026776)
+- [8] [MODIS Moderate Resolution Imaging Spectroradiometer](https://terra.nasa.gov/about/terra-instruments/modis)
+- [9] [Global Change Observation Mission - Water “SHIZUKU” (GCOM-W)](https://global.jaxa.jp/projects/sat/gcom_w/)
+- [10] [GLISA - Sea surface temperature of lakes impacts on algae blooms, stratification, and hipoxia](https://glisa.umich.edu/resources-tools/climate-impacts/algal-blooms/)
+- [11] [Sentinel-3 (SRAL)](https://sentinel.esa.int/web/sentinel/technical-guides/sentinel-3-altimetry/instrument/sral)
+- [12] [Schulz S. 2020.: Climate change or irrigated agriculture: What drives the water level decline of Lake Urmia. Scientific Reports 10: 236.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6959231/)
+- [13] [Shugar D, 2020.: Rapid worldwide growth of glacial lakes since 1990. Nature Climate Change 10: 939–945.](https://www.nature.com/articles/s41558-020-0855-4)
+- [14] [Sentinel-2 MultiSpectral Instrument (MSI)](https://sentinel.esa.int/web/sentinel/missions/sentinel-2/instrument-payload/)
+- [15] [SMOS L1 and L2 Science data](https://earth.esa.int/eogateway/catalog/smos-science-products)
+- [16] [Aquarius Mission Overview](https://www.nasa.gov/mission_pages/aquarius/overview/index.html)
+
+## Read More
+
+- [California's Lake Oroville hits 100% capacity](https://www.esa.int/ESA_Multimedia/Images/2023/06/California_s_Lake_Oroville_hits_100_capacity)
+- [Severe heatwaves putting lakes in hot water](https://www.esa.int/Applications/Observing_the_Earth/Space_for_our_climate/Severe_heatwaves_putting_lakes_in_hot_water)
+
+## Work with Inland Water Data in the Euro Data Cube
+
+Earth Observations, Essential Climate Variables, Environmental and other geospatial data are available in the [Euro Data Cube (EDC)](https://eurodatacube.com/).
+
+This Notebook illustrates how to access such datasets in EDC. To execute this notebook, an account on EDC is required. Sponsored access is made available by ESA through the [Network of Resources](https://nor-discover.org/).
+
+<iframe width="100%" height="50%" style="min-height: 70vh" src="https://igarss2023-nbviewer.hub.eox.at/localfile/igarss2023/notebooks/Inland_water_with_EDC.ipynb?format=html_plain" frameborder="0"></iframe>
+
 
 
 
