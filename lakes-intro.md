@@ -34,22 +34,22 @@ Researchers at NASA, the European Space Agency (ESA) and the Japan Aerospace Exp
 
 ## References
 
-- [1] Inland surface water habitats
-- [2] Impact of climate warming on European inland waters
-- [3] Global lake warming trend threatens freshwater species
-- [4] Copernicus Sentinels help to create extended global datasets
-- [5] Sea Surface Temperature - Sentinel-3 mission (SLSTR sensor)
-- [6] Inland water and Lands - Sentinel-3 mission (altimetry sensor)
-- [7] Satellites for long-term monitoring of inland waters U.S. lakes: The MERIS time series and application for chlorophyll-a
-- [8] MODIS Moderate Resolution Imaging Spectroradiometer
-- [9] Global Change Observation Mission - Water “SHIZUKU” (GCOM-W)
-- [10] GLISA - Sea surface temperature of lakes impacts on algae blooms, stratification, and hipoxia
-- [11] Sentinel-3 (SRAL)
-- [12] Schulz S. 2020.: Climate change or irrigated agriculture: What drives the water level decline of Lake Urmia. Scientific Reports 10: 236.
-- [13] Shugar D, 2020.: Rapid worldwide growth of glacial lakes since 1990. Nature Climate Change 10: 939–945.
-- [14] Sentinel-2 MultiSpectral Instrument (MSI)
-- [15] SMOS L1 and L2 Science data
-- [16] Aquarius Mission Overview
+- [1] [Inland surface water habitats](https://www.eea.europa.eu/help/glossary/eea-glossary/inland-surface-water-habitats)
+- [2] [Impact of climate warming on European inland waters](https://www.tandfonline.com/doi/epdf/10.5268/IW-4.1.705?needAccess=true&role=button)
+- [3] [Global lake warming trend threatens freshwater species](https://phys.org/news/2020-10-global-lake-trend-threatens-freshwater.html)
+- [4] [Copernicus Sentinels help to create extended global datasets](https://sentinel.esa.int/web/success-stories/-/copernicus-sentinels-help-to-create-extended-global-lakes-dataset/1.5)
+- [5] [Sea Surface Temperature - Sentinel-3 mission (SLSTR sensor)](https://sentinel.esa.int/web/sentinel/user-guides/sentinel-3-slstr/applications/maritime-monitoring/sea-surface-temperature)
+- [6] [Inland water and Lands - Sentinel-3 mission (altimetry sensor)]()
+- [7] [Satellites for long-term monitoring of inland waters U.S. lakes: The MERIS time series and application for chlorophyll-a]()
+- [8] [MODIS Moderate Resolution Imaging Spectroradiometer]()
+- [9] [Global Change Observation Mission - Water “SHIZUKU” (GCOM-W)]()
+- [10] [GLISA - Sea surface temperature of lakes impacts on algae blooms, stratification, and hipoxia]()
+- [11] [Sentinel-3 (SRAL)]()
+- [12] [Schulz S. 2020.: Climate change or irrigated agriculture: What drives the water level decline of Lake Urmia. Scientific Reports 10: 236.]()
+- [13] [Shugar D, 2020.: Rapid worldwide growth of glacial lakes since 1990. Nature Climate Change 10: 939–945.]()
+- [14] [Sentinel-2 MultiSpectral Instrument (MSI)]()
+- [15] [SMOS L1 and L2 Science data]()
+- [16] [Aquarius Mission Overview]()
 
 
 
