@@ -32,4 +32,24 @@ Researchers at NASA, the European Space Agency (ESA) and the Japan Aerospace Exp
 ![](https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2019/07/lake_balaton_hungary/19487322-1-eng-GB/Lake_Balaton_Hungary_pillars.jpg)
 *Lake Balaton (Hungary) captured on 27 February 2019 by Sentinel-2, [ESA, CC BY-SA 3.0 IGO](https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2019/07/lake_balaton_hungary/19487322-1-eng-GB/Lake_Balaton_Hungary_pillars.jpg)*
 
+## References
+
+- [1] Inland surface water habitats
+- [2] Impact of climate warming on European inland waters
+- [3] Global lake warming trend threatens freshwater species
+- [4] Copernicus Sentinels help to create extended global datasets
+- [5] Sea Surface Temperature - Sentinel-3 mission (SLSTR sensor)
+- [6] Inland water and Lands - Sentinel-3 mission (altimetry sensor)
+- [7] Satellites for long-term monitoring of inland waters U.S. lakes: The MERIS time series and application for chlorophyll-a
+- [8] MODIS Moderate Resolution Imaging Spectroradiometer
+- [9] Global Change Observation Mission - Water “SHIZUKU” (GCOM-W)
+- [10] GLISA - Sea surface temperature of lakes impacts on algae blooms, stratification, and hipoxia
+- [11] Sentinel-3 (SRAL)
+- [12] Schulz S. 2020.: Climate change or irrigated agriculture: What drives the water level decline of Lake Urmia. Scientific Reports 10: 236.
+- [13] Shugar D, 2020.: Rapid worldwide growth of glacial lakes since 1990. Nature Climate Change 10: 939–945.
+- [14] Sentinel-2 MultiSpectral Instrument (MSI)
+- [15] SMOS L1 and L2 Science data
+- [16] Aquarius Mission Overview
+
+
 
