@@ -8,3 +8,14 @@ official: true
 
 #  Troubled Waters: Unraveling the Impacts of Climate Change on Inland Waters <!--{ as="img" mode="hero" src="https://eodashboard.org/data/story-images/lakes_cover.jpg" }-->
 ### Read more about how Air Pollution affects Climate Change <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+
+# Impacts of climate on inland water
+
+Inland surface water habitats are non-coastal above-ground open fresh or brackish waterbodies (e.g. rivers, streams, lakes and pools, springs), including their littoral zones [1]. With sustainable management practices, these water resources provide essential services such as food production, flood regulation and water purification [2,3] for the wellbeing of both urban and rural communities. Climate change and anthropogenic actions put multiple pressures on these sources of water, with far-reaching consequences ultimately affecting the health of humans and animals. Satellite remote sensing offers effective ways to monitor these impacts and understand the risks of reaching ‘tipping points’: a critical threshold where a small change in a certain condition can lead to large (and often irreversible) shift in the system. Earth observation satellites from ESA [4-6], NASA [7,8], and JAXA [9] allow scientists to have a clear view on different variables characterising inland water bodies including:
+
+
+- **Surface water temperature**. This parameter provides valuable information about changes in water temperature over time and can be measured with satellites equipped with thermal infrared radiometer sensors [5,8]. Rising water temperatures can trigger growth and proliferation of harmful algae blooms (HABs); thermal stratification; oxygen depletion (also known as hipoxia) leading ultimately to the collapse of lakes’ ecosystems [10].
+- **Water level**. Water level or height can be captured with satellite altimeters [4,11]. Monitoring water level in lakes and reservoirs helps to understand water storage and availability [6, 7]. While in some cases water levels are decreasing due to drought or overuse [e.g. 12], in others, fresh glacial meltwater might lead to higher levels in glacial lakes [13].
+    Water surface area is another simple parameter which can be estimated from radar and optical satellite observations through techniques such as image segmentation and classification.
+- **Water quality**. There are multiple parameters that can be measured using optical satellites [4,14] including turbidity and chlorophyll concentrations [5, 10] or salinity, using microwave radiometer [15, 16]. These can be used as indicators of ecosystem health and water quality; and their change can be indicative of increased salinisation; sediment runoff, or excessive nutrient pollution, which can have detrimental effects on freshwater ecosystems.
+
