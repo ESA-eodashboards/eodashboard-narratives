@@ -25,3 +25,9 @@ Nevertheless, the nutrients are still a contributing factor to the occurrence of
 
 Moreover, the intense algae or cyanobacteria blooms have impacted drinking water production, irrigation and recreation in Vänern [4]. They resulting changes in water quality, including increased turbidity and reduced oxygen levels harm fish populations and other aquatic organisms, and can affect recreational activities such as swimming and fishing.
 
+### Graph
+
+The graph shows the variation in Lake Vänern's extent (in km2) between 2010-2020, based on ESA CCI data:
+
+    Chart / Graph 1
+![](https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/04/scandinavian_peninsula/24030319-2-eng-GB/Scandinavian_Peninsula_article.jpg)
