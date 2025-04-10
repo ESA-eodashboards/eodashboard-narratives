@@ -61,6 +61,17 @@
     "image": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-cars-containers/hero.jpg"
   },
   {
+    "cover-image": "https://eodashboard.org/data/story-images/lakes_cover.jpg",
+    "date": "2025-01-01",
+    "theme": "oceans",
+    "tags": "pollution,lakes,water",
+    "official": true,
+    "file": "https://esa-eodash.github.io/eodashboard-narratives/lakes-intro.md",
+    "title": " Troubled Waters: Unraveling the Impacts of Climate Change on Inland Waters",
+    "subtitle": "Read more about how Air Pollution affects Climate Change",
+    "image": "https://eodashboard.org/data/story-images/lakes_cover.jpg"
+  },
+  {
     "cover-image": "https://www.eodashboard.org/data/story-images/3-agriculture-crops.jpg",
     "date": "2025-01-01",
     "theme": "agriculture",
