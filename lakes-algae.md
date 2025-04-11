@@ -60,7 +60,13 @@ In March 2019, the impact of the warm winter was significant, and for the first 
 
 A study using the Second Global Imager (SGLI) on board the Global Change Observation Mission - Climate "SHIKISAI" (GCOM-C), compared the concentration distribution of phytoplankton chlorophyll-a (Chl-a) and the surface temperature around Lake Biwa from 2018 to 2021. GCOM-C observes from the ground with 19 channels from the near-ultraviolet region to the infrared region, allowing to observe various physical quantities such as land, atmosphere, ocean, snow and ice by using channels according to purpose [4]. When comparing SGLI data of May and November of 2019 and 2020, which were warmer winters, against the same period in 2018 and in 2021, one noticeable difference was the change in the circulation process throughout the year. It is conjectured that 2021 seems to show a normal chlorophyll-a concentration (when compared to the two prior years) which could be possible linked to the fact that during this year, overturn was confirmed for the first time in three years [5, 6,7].
 
+![](https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Inland_lakes_chl_concentration_biwa.png?raw=true)
+![](https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Inland_lakes_chl_concentration_biwa_legend.png?raw=true)
+*May and November monthly Chl-a concentration from 2018 to 2021. Source: JAXA*
 
+Looking at the distribution of Chl-a concentrations in Lake Biwa throughout 2019, the easter coastal area in May presents high concentration values, and it extends northward along the eastern coast as shown in the following figure. According to research by the Goto Laboratory at the University of Shiga Prefecture, this is due to the bloom of the phytoplankton community caused by the supply of nitrogen and phosphorus nutrients from the land (coming from puddling, precipitation, etc.) and the effect of the lake current. In the summer, when the surface layer of Lake Biwa becomes oligotrophic , the concentration of Chl-a is as low as 1 to 3 mg m-3 in most of Lake Biwa. After that, the distribution map in autumn (November), when the depth of the mixed layer becomes deeper, clearly shows that the high-concentration area due to the autumn bloom of phytoplankton spreads throughout Lake Biwa. Especially in the eastern coastal area, with high concentration areas exceeding 20 mg m-3 are continuously distributed in the north-south direction [5, 6,7].
+
+![](https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Inland_lakes_monthly_chl_concentration_2019.png?raw=true)
 
 
 
