@@ -42,6 +42,8 @@ Antarctic: Record minimums (summer) continue to be recorded in 2022 and 2023. In
 </figure>
 
 
+## Simple Image Example <!--{as="img" data-fallback-src="https://raw.githubusercontent.com/santilland/eodashboard-narratives/santilland/kickoffexample/assets/santilland/peakpx-1744373399014.jpg" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/c8ad043770577125c718b746b753975e4aa9afe7/assets/peakpx-1744373399014.jpg" style="width: 100%; height: 600px;"}-->
+
 ## Changes in Antarctic sea ice extent
 
 First, let us look at the interannual variability of the Antarctic summer sea ice extent. Figure 2 shows the minimum sea ice extent for the month of February calculated from microwave radiometer data, including the AMSR series. As mentioned above, sea ice extent in the Arctic Ocean has been on a decreasing trend, while in the Antarctic Ocean it has been on a slightly increasing trend until about 2015. The cause of the difference in trend between the two is not entirely clear, but it is thought to be related to the fact that Antarctic sea ice is more affected by natural variability than anthropogenic climate change due to differences in geographic conditions. In any case, the long-term trend in the Antarctic sea ice extent has not been as dramatic as in the Arctic and has not received as much attention.
