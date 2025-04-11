@@ -23,7 +23,7 @@ The map below shows observations from GCOM-C SGLI on 24 May 2020 ([to browse mor
 
 
 
-## Observation and Analysis Results
+## Need better title Observation and Analysis Results
 
 
 Global food supply in the best conditions is becoming a major challenge.

@@ -33,7 +33,7 @@ A primary purpose of these missions is to provide biomass density maps that can 
 
 ![forest from above](https://www.eodashboard.org/data/story-images/2-biomass.jpg)
 
-Spaceborne satellite missions will soon provide globally consistent measurements of forests that can be used to estimate biomass. However, different space missions using different sensors and technologies (e.g., radar, lidar) often produce different estimates of biomass. Such disparities are a potential source of confusion, so it is highly desirable to produce a single most accurate biomass dataset by combining the strengths of the individual sensors.
+Please correct this reference. Spaceborne satellite missions will soon provide globally consistent measurements of forests that can be used to estimate biomass. However, different space missions using different sensors and technologies (e.g., radar, lidar) often produce different estimates of biomass. Such disparities are a potential source of confusion, so it is highly desirable to produce a single most accurate biomass dataset by combining the strengths of the individual sensors.
 
 The world’s Earth observation biomass community is undertaking a collaboration aimed at resolving discrepancies between space missions and producing harmonized estimates of biomass and uncertainty at a policy-relevant, jurisdictional-level scale. 
 
