@@ -58,5 +58,9 @@ In March 2019, the impact of the warm winter was significant, and for the first 
 
 <small><i>(2) Chemical Oxygen Demand (COD) is a measure of the amount of oxygen required to chemically oxidise organic and inorganic substances in water or wastewater. It is a common parameter used to assess the pollution level and the organic content of water.</small></i>
 
+A study using the Second Global Imager (SGLI) on board the Global Change Observation Mission - Climate "SHIKISAI" (GCOM-C), compared the concentration distribution of phytoplankton chlorophyll-a (Chl-a) and the surface temperature around Lake Biwa from 2018 to 2021. GCOM-C observes from the ground with 19 channels from the near-ultraviolet region to the infrared region, allowing to observe various physical quantities such as land, atmosphere, ocean, snow and ice by using channels according to purpose [4]. When comparing SGLI data of May and November of 2019 and 2020, which were warmer winters, against the same period in 2018 and in 2021, one noticeable difference was the change in the circulation process throughout the year. It is conjectured that 2021 seems to show a normal chlorophyll-a concentration (when compared to the two prior years) which could be possible linked to the fact that during this year, overturn was confirmed for the first time in three years [5, 6,7].
+
+
+
 
 
