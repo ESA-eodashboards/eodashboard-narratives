@@ -37,3 +37,22 @@ The graph shows the variation in Lake Vänern's extent (in km2) between 2010-202
 
 The water quality of Lake Biwa, the largest freshwater lake in Japan, northeast of Kyoto, and its related rivers is improving due to the reduction of inflow pollution load. This lake supplies city and industrial water for 13 million residents in the surrounding megalopolis [1,2]. However, despite improvements resulting from inflow pollution, climate change is still affecting Lake Biwa, and ecosystem issues such as the decrease in native fish and shellfish are becoming apparent.
 
+![](https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Eodashboard_lakebiwa_2307112.png?raw=true)
+
+One of the reasons for this is the direct impact of the increase in alien species and the deterioration of their habitats, as well as changes in the nutrient balance and plankton species composition due to various environmental changes, including climate change. It has also been pointed out that changes in the ecosystem balance of Lake Biwa may affect living things through the food chain. In recent years, it has been observed that the ‘overturn’(1) in Lake Biwa has not been completed and that the oxygen-poor state in the deep-water layer of Lake Biwa has been prolonged because of climate change. The water temperature of Lake Biwa (annual surface layer average) is rising as shown in the following figure.
+
+![](https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Inland_lakes_water_temp_Biwa.jpg?raw=true)
+*Average water temperature change in Lake Biwa, [CC SEndo Kouta](http://endoh7735.sakura.ne.jp/biwako/warming.htm)*
+
+### Map
+
+The map shows the lake surface temperature for lake Biwa based on ESA CCI data. [9] [10] [Access this Dataset](https://eodashboard.org/explore?search=Lake+Biwa%3A+Surface+Water+Temperature&x=15146872.04727&y=4190727.05511&z=9.7556&indicator=Lakes_SWT&poi=Biwa-Lakes_SWT)
+
+Even in the middle of summer when the surface water temperature is around 30°C, it remains around 10°C at a depth of 20m or deeper below the thermocline. When the thermocline is formed, the water does not mix vertically, and the supply of oxygen to the bottom of the thermocline becomes stagnant. In addition, in the deep-water layer, oxygen dissolved in water is consumed by the decomposition of organic matter such as dead plankton deposited on the bottom of the lake, and respiration of organisms in the water and on the bottom of the lake. In many deep lakes in the temperate zone, including Lake Biwa, Overturn reaches the entire lake once a year, supplying oxygen to the bottom of the lake.
+
+In March 2019, the impact of the warm winter was significant, and for the first time in observational history, the lake water did not sufficiently mix into a part of the deep waters off Imazu (water depth of about 90 m). In March 2020, Overturn was not confirmed in this water area and Overturn was not completed for the second consecutive year. In March 2021, Overturn was confirmed for the first time in three years. However, problems such as persistently high Chemical Oxygen Demand (COD)(2); outbreaks of blue-green algae; massive growth of aquatic plants, and a decline in native fish and shellfish are still occurring.
+
+
+
+
+
