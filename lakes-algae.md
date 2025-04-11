@@ -32,3 +32,8 @@ The graph shows the variation in Lake Vänern's extent (in km2) between 2010-202
     Chart / Graph 1
 ![](https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/04/scandinavian_peninsula/24030319-2-eng-GB/Scandinavian_Peninsula_article.jpg)
 *Almost cloud-free Scandinavian Peninsula captured by Copernicus Sentinel-3 mission on 20 March, lake Vänern is visible in the south, [CC BY-SA 3.0 IGO](https://www.esa.int/ESA_Multimedia/Terms_and_Conditions)*
+
+## Rising temperatures and algae bloom
+
+The water quality of Lake Biwa, the largest freshwater lake in Japan, northeast of Kyoto, and its related rivers is improving due to the reduction of inflow pollution load. This lake supplies city and industrial water for 13 million residents in the surrounding megalopolis [1,2]. However, despite improvements resulting from inflow pollution, climate change is still affecting Lake Biwa, and ecosystem issues such as the decrease in native fish and shellfish are becoming apparent.
+
