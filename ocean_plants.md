@@ -33,3 +33,9 @@ All three NPP estimates also show phytoplankton variability between locations (F
 
 ![](https://www.eodashboard.org/data/story-images/Ocean%20joint%20figure%201.png)
 *Figure 1: Net primary productivity (in mg C m<sup>-2</sup> yr<sup>-1</sup>), annual mean for 2020 from ESA (top left plot), JAXA (top right plot), and NASA (bottom plot).*
+
+For example, coastal areas have high levels of phytoplankton productivity due to nutrient-rich waters. These nutrients are brought into the water column by river runoff or coastal upwelling of deep water. Productivity in tropical water is low throughout the year due to warm and highly stratified surface waters that prevent the nutrient-rich deep waters from reaching the surface.
+
+At mid-latitudes, a seasonal cycle is observed, with the lowest productivity in winter due to light scarcity, followed in spring by productivity blooms due to the combination of light and well mixed, nutrient-rich water. In the summer, productivity declines despite strong light availability, due to increased stratification and nutrient depletion by the spring/early summer phytoplankton blooms.
+
+At high latitudes, stratification is weak year-round, but scarcity or absence of light in winter/autumn leads to lower levels of productivity. In spring and summer, similarly to temperate areas, a higher level of productivity is observed due to the combination of sunlight and nutrient abundance. Measuring primary productivity in our oceans is critical to understanding the effects of global warming, now and for the next generation. Our research satellites allow us to do this from the advantageous position of space.
