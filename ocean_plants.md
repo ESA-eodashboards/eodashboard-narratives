@@ -19,3 +19,14 @@ Before satellite sensors, we thought the open ocean was plain and lacking any si
 About half of the oxygen we take in every breath comes from microscopic plants in the ocean called phytoplankton. Similar to land-based plants, phytoplankton are at the base of the food chain, and they release oxygen during photosynthesis – a process in which energy from the sun is used to convert CO<sub>2</sub> into carbon that is used for growth. Phytoplankton come in different shapes and sizes, and different species have different roles in the ocean ecosystem.
 
 As with land vegetation, there are areas of the ocean where phytoplankton are in abundance and other areas where phytoplankton are scarce. One big difference, however, is that phytoplankton are much more difficult to see than a tree in a forest. Satellites give scientists the data to find and measure the amounts of phytoplankton, and to determine ocean primary productivity, which measures the mass of carbon per area of the ocean over time (mg C m<sup>-2</sup> yr<sup>-1</sup>).
+
+![](https://www.eodashboard.org/data/story-images/A2021071.LakeErie.crop.small.jpg)
+*At the end of winter the ice is nearly all gone from Lake Erie, and growing phytoplankton populations are revealed mingling with suspended sediments in this relatively shallow Great Lake. The above Aqua/MODIS image was collected on March 12, 2021. Click on it to get a larger version that includes all of the Great Lakes.*
+
+## Plants and the Climate
+
+Primary productivity is important to the Earth’s environment, notably by capturing large amounts of the CO<sub>2</sub> released from the burning of fossil fuels, which causes global warming. In fact, it is estimated that oceans have captured about half of the CO<sub>2</sub> released by burning fossil fuels.
+
+The Net Primary Productivity (NPP), also known as the net carbon gain by plants, or the measure of plant growth, can be measured via satellite. NASA, JAXA, and ESA base their estimates on slightly different input datasets and methodologies *(Behrenfeld et al. 2005, Kameda et al, 2005; Kulk et al, 2021)*. Nevertheless, all three agencies provide comparable NPP estimates, as highlighted in Fig. 1 which shows maps of global NPP in 2020.
+
+All three NPP estimates also show phytoplankton variability between locations (Fig. 1) and seasons (Fig. 2). This is because phytoplankton primary productivity is affected by conditions in the water column, including temperature, light, and nutrients which, in turn, are themselves influenced by variations in oceanic and atmospheric processes at different spatial and temporal scales. 
