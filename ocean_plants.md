@@ -29,4 +29,7 @@ Primary productivity is important to the Earth’s environment, notably by captu
 
 The Net Primary Productivity (NPP), also known as the net carbon gain by plants, or the measure of plant growth, can be measured via satellite. NASA, JAXA, and ESA base their estimates on slightly different input datasets and methodologies *(Behrenfeld et al. 2005, Kameda et al, 2005; Kulk et al, 2021)*. Nevertheless, all three agencies provide comparable NPP estimates, as highlighted in Fig. 1 which shows maps of global NPP in 2020.
 
-All three NPP estimates also show phytoplankton variability between locations (Fig. 1) and seasons (Fig. 2). This is because phytoplankton primary productivity is affected by conditions in the water column, including temperature, light, and nutrients which, in turn, are themselves influenced by variations in oceanic and atmospheric processes at different spatial and temporal scales. 
+All three NPP estimates also show phytoplankton variability between locations (Fig. 1) and seasons (Fig. 2). This is because phytoplankton primary productivity is affected by conditions in the water column, including temperature, light, and nutrients which, in turn, are themselves influenced by variations in oceanic and atmospheric processes at different spatial and temporal scales.
+
+![](https://www.eodashboard.org/data/story-images/Ocean%20joint%20figure%201.png)
+*Figure 1: Net primary productivity (in mg C m<sup>-2</sup> yr<sup>-1</sup>), annual mean for 2020 from ESA (top left plot), JAXA (top right plot), and NASA (bottom plot).*
