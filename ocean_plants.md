@@ -58,4 +58,8 @@ This EO Dashboard provides access to interactive maps of NPP but also water qual
 - [Water Quality Maps - Chl-a and TSM](https://www.eodashboard.org/?poi=US04-N3a2&indicator=N3a2)
 - [Water Quality Time Series - Chl-a and TSM](https://www.eodashboard.org/?poi=IT10-N3b&indicator=N3b)
 
+## Monthly global Marine Phytoplankton Primary Production
+
+This dataset is produced in the frame of project Biological Pump and Carbon Exchange Processes (BICEP)
+
 
