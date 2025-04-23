@@ -54,6 +54,8 @@ In March 2019, the impact of the warm winter was significant, and for the first 
 
 ## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"Lakes_SWT_surface_water_temperature"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"LAKES_SURFACE_WATER_TEMPERATURE","styles":"","format":"image/png"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.755600344264382" center=[136.06666666666666,35.197308803042446] }-->
 
+##
+
 *(1) Overturn: From autumn to winter, when the temperature of the surface water drops, the thermocline weakens and gradually descends to the deep-water layers, gradually mixing the lake water from the surface to the deep-water layers. The thermocline reaches the depths and disappears, and the mixing of the lake water progresses to the bottom of the lake, making the water temperature, dissolved oxygen concentration, and water quality uniform from the surface layer to the bottom layer (the layer directly above the lake bottom). This phenomenon is called “Overturn.”*
 
 *(2) Chemical Oxygen Demand (COD) is a measure of the amount of oxygen required to chemically oxidise organic and inorganic substances in water or wastewater. It is a common parameter used to assess the pollution level and the organic content of water.*
