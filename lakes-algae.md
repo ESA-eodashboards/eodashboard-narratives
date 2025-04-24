@@ -85,9 +85,9 @@ This **EO Dashboard** provides access to several EO products concerning lakes. V
 ## References (Lake Vänern)
 
 
-- [1] Mitigating the Expansion of Harmful Algal Blooms Across the Freshwater-to-Marine Continuum
-- [2] Study: Increasing algal biomass in Lake Vanern despite decreasing phosphorus concentration: A lake-specific phenomenon?
-- [3] Lake Vanern: The largest lake in the European Union
+- [1] [Mitigating the Expansion of Harmful Algal Blooms Across the Freshwater-to-Marine Continuum](https://pubs.acs.org/doi/10.1021/acs.est.7b05950)
+- [2] [Study: Increasing algal biomass in Lake Vanern despite decreasing phosphorus concentration: A lake-specific phenomenon?](https://scholarlypublishingcollective.org/msup/aehm/article-abstract/17/4/341/171417/Increasing-algal-biomass-in-Lake-Vanern-despite?redirectedFrom=fulltext)
+- [3] [Lake Vanern: The largest lake in the European Union](https://www.lakepedia.com/lake/vanern.html)
 - [4] Increasing algal biomass in Lake Vanern despite decreasing phosphorus concentrations: A Lake-specific phenomenon?
 - [5] Effects of Climate Change; Flooding in Lake Vanern
 - [6] Temporal Change in the remote sensing reflectance at Lake Vanern
