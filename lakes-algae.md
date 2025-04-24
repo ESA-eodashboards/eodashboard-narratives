@@ -96,6 +96,45 @@ This **EO Dashboard** provides access to several EO products concerning lakes. V
 - [9] ESA Climate Change Initiative (ESA CCI)
 - [10] Lakes CCI project
 
+## References (Lake Biwa)
+
+
+- [1] Bequeathing a Clean Lake Biwa to Future Generations Lake Biwa Comprehensive Preservation Initiatives
+- [2] World Lake Database - Lake Biwa
+- [3] About Global Change Observation Mission - Climate “SHIKISAI” (GCOM-C)
+- Lake Biwa Environmental Research Institute
+- [4] Syuhei Ban, Xin Liu, Ken-ichi Osaka, Naoshige Goto, John C. Wells (2021) High resolution monitoring for subsidiary nutrient loadings and phytoplankton production in north basin of Lake Biwa. Japan Geoscience Union Meeting 2021, Online, May 30 - June 6․
+- [5] Tsukamoto et al (2019), Chlorophyll-a estimation using satellite based remote sensing data in Lake Biwa, Remote Sensing Society of Japan, 39(2), 103-111.
+
+## Contributors
+
+**Story editors:**
+- Sara Aparicio (Solenix for ESA)
+- Romina Persi (EJR Quarz for ESA)
+- Derek Koehl (NASA)
+
+**Scientific:**
+- Shinichi Sobue (JAXA)
+- Hiroshi Murakami (JAXA)
+- Karim Douch (ESA)
+- Javier Alonso Concha (Serco for ESA)
+- Clement Albergel (ESA)
+- Claudia Vitolo (ESA)
+- Anca Anghelea (ESA)
+
+**Layout:**
+- Leah Sturm (ESA)
+
+**Data preparation:**
+- Alessandro Scremin (Rhea Group for ESA)
+
+**Technical:**
+- EOX IT Services
+- Development Seed
+- Sinergise
+- Brockmann Consult
+
+
 
 
 
