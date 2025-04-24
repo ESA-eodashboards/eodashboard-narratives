@@ -88,23 +88,23 @@ This **EO Dashboard** provides access to several EO products concerning lakes. V
 - [1] [Mitigating the Expansion of Harmful Algal Blooms Across the Freshwater-to-Marine Continuum](https://pubs.acs.org/doi/10.1021/acs.est.7b05950)
 - [2] [Study: Increasing algal biomass in Lake Vanern despite decreasing phosphorus concentration: A lake-specific phenomenon?](https://scholarlypublishingcollective.org/msup/aehm/article-abstract/17/4/341/171417/Increasing-algal-biomass-in-Lake-Vanern-despite?redirectedFrom=fulltext)
 - [3] [Lake Vanern: The largest lake in the European Union](https://www.lakepedia.com/lake/vanern.html)
-- [4] Increasing algal biomass in Lake Vanern despite decreasing phosphorus concentrations: A Lake-specific phenomenon?
-- [5] Effects of Climate Change; Flooding in Lake Vanern
-- [6] Temporal Change in the remote sensing reflectance at Lake Vanern
-- [7] Warmer Winters: Are Planktonic Algal Populations in Sweden’s Largest Lakes Affected?
-- [8] Environmental Impacts - Lake Ecosystems
-- [9] ESA Climate Change Initiative (ESA CCI)
-- [10] Lakes CCI project
+- [4] [Increasing algal biomass in Lake Vanern despite decreasing phosphorus concentrations: A Lake-specific phenomenon?](https://www.tandfonline.com/doi/abs/10.1080/14634988.2014.976532)
+- [5] [Effects of Climate Change; Flooding in Lake Vanern](https://publications.lib.chalmers.se/records/fulltext/185970/185970.pdf)
+- [6] [Temporal Change in the remote sensing reflectance at Lake Vanern](https://www.sciencedirect.com/science/article/pii/S0380133023000291)
+- [7] [Warmer Winters: Are Planktonic Algal Populations in Sweden’s Largest Lakes Affected?](https://www.researchgate.net/publication/11484772_Warmer_Winters_Are_Planktonic_Algal_Populations_in_Sweden's_Largest_Lakes_Affected)
+- [8] [Environmental Impacts - Lake Ecosystems](https://link.springer.com/chapter/10.1007/978-3-319-39745-0_10)
+- [9] [ESA Climate Change Initiative (ESA CCI)](https://climate.esa.int/)
+- [10] [Lakes CCI project](https://climate.esa.int/en/projects/lakes/)
 
 ## References (Lake Biwa)
 
 
-- [1] Bequeathing a Clean Lake Biwa to Future Generations Lake Biwa Comprehensive Preservation Initiatives
-- [2] World Lake Database - Lake Biwa
-- [3] About Global Change Observation Mission - Climate “SHIKISAI” (GCOM-C)
-- Lake Biwa Environmental Research Institute
-- [4] Syuhei Ban, Xin Liu, Ken-ichi Osaka, Naoshige Goto, John C. Wells (2021) High resolution monitoring for subsidiary nutrient loadings and phytoplankton production in north basin of Lake Biwa. Japan Geoscience Union Meeting 2021, Online, May 30 - June 6․
-- [5] Tsukamoto et al (2019), Chlorophyll-a estimation using satellite based remote sensing data in Lake Biwa, Remote Sensing Society of Japan, 39(2), 103-111.
+- [1] [Bequeathing a Clean Lake Biwa to Future Generations Lake Biwa Comprehensive Preservation Initiatives](https://www.mlit.go.jp/crd/daisei/biwako_hozen/pamphlet/pamphlet_en.pdf)
+- [2] [World Lake Database - Lake Biwa](https://wldb.ilec.or.jp/Display/html/3518)
+- [3] [About Global Change Observation Mission - Climate “SHIKISAI” (GCOM-C)](https://global.jaxa.jp/projects/sat/gcom_c/https://global.jaxa.jp/projects/sat/gcom_c/)
+- [Lake Biwa Environmental Research Institute](https://www.lberi.jp/learn/layers)
+- [4] [Syuhei Ban, Xin Liu, Ken-ichi Osaka, Naoshige Goto, John C. Wells (2021) High resolution monitoring for subsidiary nutrient loadings and phytoplankton production in north basin of Lake Biwa. Japan Geoscience Union Meeting 2021, Online, May 30 - June 6․](https://confit.atlas.jp/guide/event/jpgu2021/subject/AHW22-P06/detail?lang=ja)
+- [5] [Tsukamoto et al (2019), Chlorophyll-a estimation using satellite based remote sensing data in Lake Biwa, Remote Sensing Society of Japan, 39(2), 103-111.](https://www.jstage.jst.go.jp/article/rssj/39/2/39_103/_article/-char/en)
 
 ## Contributors
 
