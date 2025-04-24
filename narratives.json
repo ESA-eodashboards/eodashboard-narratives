@@ -191,5 +191,16 @@
     "title": "Extreme air pollution episodes in Northern India and Pakistan",
     "subtitle": "Authors: Selviga Sinnathamby, Natacha Kaminski, Elie Zoghbi - Sorbonne Universite, Paris, France",
     "image": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/AirPollutionIndia/cover-pakistan.jpg"
+  },
+  {
+    "cover-image": "https://www.eodashboard.org/data/story-images/Cambodian_rivers.jpg",
+    "date": "2025-01-01",
+    "theme": "oceans",
+    "tags": "algae,lakes,water",
+    "official": true,
+    "file": "https://esa-eodash.github.io/eodashboard-narratives/lakes-algae.md",
+    "title": "  Algal blooms in lake waters",
+    "subtitle": "Read more about observing the increases in algal blooms with ESA, NASA and JAXA satellites",
+    "image": "https://www.eodashboard.org/data/story-images/Cambodian_rivers.jpg"
   }
 ]
