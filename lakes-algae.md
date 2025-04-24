@@ -78,5 +78,24 @@ The following Map shows Lake Biwa as imaged by NASA's Landsat7-9 satellites. [Ac
 
 ## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"NLK_lake_biwa-2023-03-19T01:28:30Z"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-lakes-lake-biwa/items/LC08_L2SP_109036_20230319_02_T1/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55&no_data=0"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="7.7147113573639645" center=[136.65322679499997,34.42995106686193] }-->
 
+## Explore Datasets
+
+This **EO Dashboard** provides access to several EO products concerning lakes. Visualize these datasets by clicking on EXPLORE DATASETS button at the top of the page or directly view all available lake products here.
+
+## References (Lake Vänern)
+
+
+- [1] Mitigating the Expansion of Harmful Algal Blooms Across the Freshwater-to-Marine Continuum
+- [2] Study: Increasing algal biomass in Lake Vanern despite decreasing phosphorus concentration: A lake-specific phenomenon?
+- [3] Lake Vanern: The largest lake in the European Union
+- [4] Increasing algal biomass in Lake Vanern despite decreasing phosphorus concentrations: A Lake-specific phenomenon?
+- [5] Effects of Climate Change; Flooding in Lake Vanern
+- [6] Temporal Change in the remote sensing reflectance at Lake Vanern
+- [7] Warmer Winters: Are Planktonic Algal Populations in Sweden’s Largest Lakes Affected?
+- [8] Environmental Impacts - Lake Ecosystems
+- [9] ESA Climate Change Initiative (ESA CCI)
+- [10] Lakes CCI project
+
+
 
 
