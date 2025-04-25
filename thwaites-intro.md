@@ -1,8 +1,8 @@
 ---
 cover-image: https://www.eodashboard.org/data/story-images/Iceberg_in_Antarctica.jpg
 date: 2025-01-01
-theme: oceans
-tags: lake,water, climate
+theme: cryosphere
+tags: glacier,ice,climate
 official: true
 ---
 
