@@ -15,6 +15,11 @@ El Niño-induced heavy rains and flooding across East Africa in October-November
     </figcaption>
 </figure>
 
+A similar event happened in western Somalia, where torrential rains caused the Juba River to overflow, inundating croplands and roads in the town of Luuq. In Baardheere, a bridge was swept away [[4]]() cutting off access to the town. The University of California-Santa Barbara Climate Hazards Center [[5]]() uses NASA hydrological forecast and analysis system (NHyFAS [[6]]()) products to monitor and forecast agroclimatic conditions in global famine-prone regions such as East Africa.   
+In an alert issued on 8 May 2024,  the International Organization for Migration (IOM) noted torrential  rains in the preceding 5-days had caused devastating floods and mudslides that damaged infrastructure and displaced over 234,000 people, with a total of 637,000 affected. The alert covered areas of Burundi, Kenya, Rwanda, Somalia, Ethiopia and Tanzania. The toll of casualties remains unknown as of 8 of May 2024 [[7]](), Aid efforts are underway in Burundi, Ethiopia, Kenya, and Somalia, targeting tens of thousands affected by floods [[8]](). 
+
+In addition to heavy rains and subsequent flooding, which occurred after prolonged drought conditions in these areas, there has also been a surge in water-borne diseases such as cholera, and mosquito and flea-transmitted diseases including malaria, plague, and Rift Valley fever [[9]]() [[10]]() , due to standing water, damaged latrines and a lack of access to safe drinking water. Furthermore, damaged infrastructure and impassable roads, particularly in the hardest-hit areas of  the region, hindered the efforts of aid agencies [[11]](). 
+
 
 ##  Urban and Rural NTL <!--{ as="eox-map" mode="tour" }-->
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Urban"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-URBAN","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="7.568167497148919" center=[-81.69190982357188,36.13000317868601] animationOptions={duration:500}}-->
@@ -74,5 +79,16 @@ This dataset, **NTLR (Nighttime Light Rural)**, also derived from Suomi NPPM pro
 ### References
 - 1 - https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl/index.html
 - 2 - https://earthobservatory.nasa.gov/images/150712/worst-drought-on-record-parches-horn-of-africa
-- 3 -  https://earthobservatory.nasa.gov/images/152108/devastating-flooding-in-east-africa 
+- 3 -  https://earthobservatory.nasa.gov/images/152108/devastating-flooding-in-east-africa
+- 4 - https://www.faoswalim.org/resources/site_files/Somalia_Flood_Advisory_20_November_2023.pdf
+- 5 - https://www.chc.ucsb.edu/
+- 6 -  https://lis.gsfc.nasa.gov/projects/nhyfashttps://fews.net/ 
+- 7 -  https://news.un.org/en/story/2024/05/1149461
+- 8 - https://wmo.int/media/news/flooding-worsens-east-africa 
+- 9 - https://earthobservatory.nasa.gov/features/disease-vector 
+- 10 -  https://www.theguardian.com/environment/2023/aug/10/return-of-el-nino-raises-risk-of-hunger-drought-and-malaria-scientists-warn 
+- 11 -  https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl 
+																																										
+											
+																																										
 
