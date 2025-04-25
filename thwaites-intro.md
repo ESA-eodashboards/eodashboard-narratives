@@ -22,4 +22,4 @@ Researchers at NASA, the European Space Agency (ESA) and the Japan Aerospace Exp
 
 - [NASA's research in the International Thwaites Glacier Collaboration](https://www.eodashboard.org/story?id=nasa-thwaites)
 - [ESA's research of the Thwaites Glacier and subglacial melt in Antarctica](https://www.eodashboard.org/story?id=esa-thwaites)
-- JAXA's research of the recent melting and darkening of the Greenland Ice Sheet
+- [JAXA's research of the recent melting and darkening of the Greenland Ice Sheet](https://www.eodashboard.org/story?id=jaxa-greenland-melting-and-darkening)
