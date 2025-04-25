@@ -15,10 +15,24 @@ El Niño-induced heavy rains and flooding across East Africa in October-November
     </figcaption>
 </figure>
 
-A similar event happened in western Somalia, where torrential rains caused the Juba River to overflow, inundating croplands and roads in the town of Luuq. In Baardheere, a bridge was swept away [[4]]() cutting off access to the town. The University of California-Santa Barbara Climate Hazards Center [[5]]() uses NASA hydrological forecast and analysis system (NHyFAS [[6]]()) products to monitor and forecast agroclimatic conditions in global famine-prone regions such as East Africa.   
-In an alert issued on 8 May 2024,  the International Organization for Migration (IOM) noted torrential  rains in the preceding 5-days had caused devastating floods and mudslides that damaged infrastructure and displaced over 234,000 people, with a total of 637,000 affected. The alert covered areas of Burundi, Kenya, Rwanda, Somalia, Ethiopia and Tanzania. The toll of casualties remains unknown as of 8 of May 2024 [[7]](), Aid efforts are underway in Burundi, Ethiopia, Kenya, and Somalia, targeting tens of thousands affected by floods [[8]](). 
+A similar event happened in western Somalia, where torrential rains caused the Juba River to overflow, inundating croplands and roads in the town of Luuq. In Baardheere, a bridge was swept away [[4]](https://www.faoswalim.org/resources/site_files/Somalia_Flood_Advisory_20_November_2023.pdf) cutting off access to the town. The University of California-Santa Barbara Climate Hazards Center [[5]](https://www.chc.ucsb.edu/) uses NASA hydrological forecast and analysis system (NHyFAS [[6]](https://lis.gsfc.nasa.gov/projects/nhyfashttps://fews.net/)) products to monitor and forecast agroclimatic conditions in global famine-prone regions such as East Africa.   
+In an alert issued on 8 May 2024,  the International Organization for Migration (IOM) noted torrential  rains in the preceding 5-days had caused devastating floods and mudslides that damaged infrastructure and displaced over 234,000 people, with a total of 637,000 affected. The alert covered areas of Burundi, Kenya, Rwanda, Somalia, Ethiopia and Tanzania. The toll of casualties remains unknown as of 8 of May 2024 [[7]](https://news.un.org/en/story/2024/05/1149461), Aid efforts are underway in Burundi, Ethiopia, Kenya, and Somalia, targeting tens of thousands affected by floods [[8]](https://wmo.int/media/news/flooding-worsens-east-africa). 
 
-In addition to heavy rains and subsequent flooding, which occurred after prolonged drought conditions in these areas, there has also been a surge in water-borne diseases such as cholera, and mosquito and flea-transmitted diseases including malaria, plague, and Rift Valley fever [[9]]() [[10]]() , due to standing water, damaged latrines and a lack of access to safe drinking water. Furthermore, damaged infrastructure and impassable roads, particularly in the hardest-hit areas of  the region, hindered the efforts of aid agencies [[11]](). 
+<figure style="text-align: center;">
+    <img src="https://www.copernicus.eu/system/files/styles/image_of_the_day/private/2024-05/image_day/20240503_FloodsKenya.jpg?itok=J7bQdg3N" 
+         alt=" " 
+         style="display: block; margin: 0 auto;"
+         width="800
+								">
+    <figcaption>
+          Copernicus Sentinel-2 image from 29 April, a flooded area near Garissa, Kenya is visible.
+        <a href="https://www.copernicus.eu/system/files/styles/image_of_the_day/private/2024-05/image_day/20240503_FloodsKenya.jpg?itok=J7bQdg3N" target="_blank">
+             European Union, Copernicus Sentinel-2 imagery
+        </a>.
+    </figcaption>
+</figure>
+
+In addition to heavy rains and subsequent flooding, which occurred after prolonged drought conditions in these areas, there has also been a surge in water-borne diseases such as cholera, and mosquito and flea-transmitted diseases including malaria, plague, and Rift Valley fever [[9]](https://earthobservatory.nasa.gov/features/disease-vector) [[10]](https://www.theguardian.com/environment/2023/aug/10/return-of-el-nino-raises-risk-of-hunger-drought-and-malaria-scientists-warn) , due to standing water, damaged latrines and a lack of access to safe drinking water. Furthermore, damaged infrastructure and impassable roads, particularly in the hardest-hit areas of  the region, hindered the efforts of aid agencies [[11]](https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl). 
 
 
 ##  Urban and Rural NTL <!--{ as="eox-map" mode="tour" }-->
@@ -76,11 +90,11 @@ This dataset, **NTLR (Nighttime Light Rural)**, also derived from Suomi NPPM pro
 </figure>
 
 
-### References
+## References
 - 1 - https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl/index.html
 - 2 - https://earthobservatory.nasa.gov/images/150712/worst-drought-on-record-parches-horn-of-africa
 - 3 -  https://earthobservatory.nasa.gov/images/152108/devastating-flooding-in-east-africa
-- 4 - https://www.faoswalim.org/resources/site_files/Somalia_Flood_Advisory_20_November_2023.pdf
+- 4 -https://www.faoswalim.org/resources/site_files/Somalia_Flood_Advisory_20_November_2023.pdf
 - 5 - https://www.chc.ucsb.edu/
 - 6 -  https://lis.gsfc.nasa.gov/projects/nhyfashttps://fews.net/ 
 - 7 -  https://news.un.org/en/story/2024/05/1149461
