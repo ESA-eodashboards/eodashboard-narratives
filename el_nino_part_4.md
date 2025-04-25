@@ -43,19 +43,29 @@ Satellites can serve an important role in monitoring floods worldwide, with sens
 
 Moreover, NASA/JAXA’s Global Precipitation Measurement (GPM) mission provides valuable information on precipitation patterns and intensity, aiding in flood forecasting and early warning systems. To support extreme weather event monitoring and disaster mitigation using satellites, JAXA also develops and operates multi-satellite global precipitation map named “GSMaP” under the GPM Mission, by using Dual-frequency Precipitation Radar (DPR) onboard GPM core satellites, other GPM constellation satellites, and Geostationary satellites in cooperation with partners. The main feature of the GSMaP algorithm is utilization of various attributes derived from the spaceborne precipitation radar, TRMM/PR and GPM/DPR. Precipitation information by GSMaP has been widely used, not only for scientific purposes, but also for meteorology, disaster prevention, climate monitoring, agricultural monitoring, public health, education and so on. GSMaP website offers the following global precipitation information 
 - [JAXA REALTIME RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP_NOW/index.htm)
-You can see global precipitation map, updated every 30 minutes.For users who would like to see precipitation in the past specific date.
+Shows global precipitation map, updated every 30 minutes.For users who would like to see precipitation in the past specific date.
 - [JAXA GLOBAL RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP/index.htm)
-You can see hourly global precipitation map since March 2000. For users who would like to see daily or monthly precipitation.
-JAXA CLIMATE RAINFALL WATCH
-https://sharaku.eorc.jaxa.jp/GSMaP_CLM/index.htm
-
-You can see indices related to extreme heavy rainfall and drought as well as accumulated precipitation. 
+Shows hourly global precipitation map since March 2000. For users who would like to see daily or monthly precipitation.
+- [JAXA CLIMATE RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP_CLM/index.htm)You Shows see indices related to extreme heavy rainfall and drought as well as accumulated precipitation. 
 
 Especially due to extreme weather events (high temperature in Land and Ocean), there were many intense tropical cyclones/hurricanes and typhoons around the world. The intense Tropical Cyclone Freddy was an exceptionally long-lived, powerful, and deadly tropical cyclone that traversed the southern Indian Ocean for more than five weeks in February and March 2023. Freddy made its first landfall near Mananjary, Madagascar, on 21 February 2023. Though it weakened while crossing the island, the cyclone regained strength once it entered the Mozambique Channel. It reached Mozambique on 24 February near Vilankulos, causing further damage. After crossing Mozambique and returning to the channel, Freddy intensified again and made its final landfall near Quelimane on 11 March. By 14 March, the storm had dissipated inland after causing widespread damage and flooding across Madagascar, Mozambique, and surrounding regions.
 
 Its path and multiple landfalls, along with the fact that it persisted through such a lengthy period, made it a standout cyclone in terms of both meteorological history and the human impact it left behind.
 
 By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monitors precipitation and inundated area by Cyclone Freddy.
+
+
+
+IMAGE HERE FROM CICLONE
+caption: The (left) 24- and (right) 48-hour precipitation accumulation estimates (in mm) from GSMaP for the period starting from 0200 UTC 11 March 2023. 
+
+ANOTHER IMAGE HERE FROM THE FLOOD
+Caption: Estimated land change area including inundated area around river (blue color area) by heavy rain using ALOS-2 ScanSAR (25m) observation data on March 15 (Green and Blue) and April 26 (Red) in Mozambique.
+
+
+
+
+
 
 
 ##  Urban and Rural NTL <!--{ as="eox-map" mode="tour" }-->
@@ -127,5 +137,47 @@ This dataset, **NTLR (Nighttime Light Rural)**, also derived from Suomi NPPM pro
 - 11 -  https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl 
 																																										
 											
-																																										
+Datasets identified for ingestion/illustrated the story on EO dashboard:  
+Description
+Dataset ID, dates and AOI
+Dates
+AOI
+False color of flooded area of Beledweyne
+2 images of Beledweyne OLI (Operational Land Imager) on Landsat 8
+November 15, 2023 and September 12, 2023. 
+Beledweyne 
+https://unosat.org/static/unosat_filesystem/3566/UNOSAT_Preliminary_Assessment_Report_FL20230327SOM_Beledweyne_20Apr2023%20(1).pdf 
+24 hour and 48 hour accumulated precipitation
+GSMaP (JAXA GLOBAL RAINFALL WATCH)
+From March 11, 2023 to March 13, 2023
+Around Quelimane
+https://sharaku.eorc.jaxa.jp/GSMaP/
+False color of inundated area (flooded area) in Mozambique
+ALOS-2 ScanSAR (25m) data
+March 15 (Green and Blue) and April 26 (Red) in Mozambique.
+https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR-2_Level2_2_ScanSAR
+ 
+https://earth.jaxa.jp/
+
+
+NASA OPERA operational 30-m dynamic surface water extent
+4 April 2023 to present
+https://podaac.jpl.nasa.gov/dataset/OPERA_L3_DSWX-HLS_V1
+
+
+NASA LANCE MODIS near-realtime 250-m flood product
+15 March 2021 to present
+https://www.earthdata.nasa.gov/data/instruments/modis/near-real-time-data
+
+
+NASA SMAP near-realtime 36-km soil moisture
+From two-weeks preceding through present
+https://www.earthdata.nasa.gov/data/instruments/smap-l-band-radiometer/near-real-time-data
+
+
+NASA SWOT river water surface elevation, slope, and width
+16 December 2022 to present
+https://www.swordexplorer.com/; https://podaac.jpl.nasa.gov/dataset/SWOT_L2_HR_RiverSP_2.0 
+
+																						
 
