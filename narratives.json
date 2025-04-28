@@ -213,5 +213,16 @@
     "title": "  Algal blooms in lake waters",
     "subtitle": "Read more about observing the increases in algal blooms with ESA, NASA and JAXA satellites",
     "image": "https://www.eodashboard.org/data/story-images/Cambodian_rivers.jpg"
+  },
+  {
+    "cover-image": "https://eodashboard.org/data/story-images/CryoSat.jpeg",
+    "date": "2025-01-01",
+    "theme": "cryosphere",
+    "tags": "climate,ice,polar,warming",
+    "official": true,
+    "file": "https://esa-eodash.github.io/eodashboard-narratives/sea-ice-freeboard-thickness.md",
+    "title": "  Measuring Thickness of Sea Ice in the Polar Oceans",
+    "subtitle": "Read more about monitoring Sea Ice Freeboard & Thickness from Satellite Altimetry.",
+    "image": "https://eodashboard.org/data/story-images/CryoSat.jpeg"
   }
 ]
