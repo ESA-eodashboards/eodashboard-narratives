@@ -17,5 +17,4 @@ NASA’s ICESat-2 mission has been measuring the height of the Earth’s feature
 
 Collecting repeated height measurements of the Earth’s ice from space is an important way to view changes happening over the course of seasons and years. While ICESat-2 can only measure the height of Earth’s ice, scientists utilize special formulas (based on Archimedes' principle) to take those height measurements and turn them into measurements of sea ice freeboard that includes the ice above and below the waterline.
 
-
-
+## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"SITI_IS2SITMOGR4-cog-2021-04-01T00:00:00Z"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=plasma&rescale=0.0,4.0&url=s3://veda-data-store/IS2SITMOGR4-cog/IS2SITMOGR4_01_202104_005_002.tif"]}},{"type":"Tile","properties":{"id":"Terrain Light Stereographic North"},"source":{"type":"TileWMS","urls":["https://sxcat-demo.eox.at/sxcat_maps/wms"],"params":{"layers":"sx-cat_ortho680500","format":"image/png"}}}]' zoom="1.4076931936914734" center=[-65.82427470346784,81.0891663077961] }-->
