@@ -2,7 +2,7 @@
 cover-image: https://eodashboard.org/data/story-images/CryoSat.jpeg
 date: 2025-01-01
 theme: cryosphere
-tags: climate,ice,polar
+tags: climate,ice,polar,warming
 official: true
 ---
 
