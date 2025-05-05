@@ -30,3 +30,19 @@ Ice loss from the Thwaites Glacier in West Antarctica ends up in the Amundsen Se
 ![](https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2019/10/cracked_pine_island_glacier/21111549-1-eng-GB/Cracked_Pine_Island_Glacier_pillars.jpg)
 
 *This image shows the two cracks captured by the Copernicus Sentinel-2 satellite on the 14 September 2019. ESA, [CC BY-SA 3.0 IGO](https://www.esa.int/ESA_Multimedia/Terms_and_Conditions)*
+
+## How can satellites help monitor the Thwaites Glacier?
+
+Satellites are a powerful tool used to study the Thwaites Glacier as they provide a long-term view of the ice that is difficult to obtain through ground-based measurements. One of the primary ways satellites are used to measure ice is through the use of radar instruments, such as Copernicus Sentinel-1. This allows scientists to monitor the Thwaites Glacier and other ice sheets and glaciers in Antarctica more frequently and with greater detail than would be possible otherwise.
+
+These instruments can penetrate through the surface of the ice and measure the ice's surface elevation. By comparing elevation measurements over time, scientists can determine whether the ice sheet or glacier is growing or shrinking. Satellites also provide essential information about ice dynamics such as ice velocity, which allows scientists to track ice movement and get information about how fast the ice is moving and calving.
+
+In a recent study, scientists have developed new Artificial Intelligence (AI) techniques using radar images from the Copernicus Sentinel-1 satellite mission, to reveal how the Thwaites Glacier Ice Tongue is being damaged by squeezing and stretching as it flows from the middle of the continent to the coast.
+
+The research focused on a part of the glacier system where the ice flows into the sea and begins to float – the grounding line. It forms the start of the Thwaites Eastern Ice Shelf and the western Thwaites Glacier Ice Tongue, which is also an ice shelf. Sentinel-1’s all-weather radar allows scientists to track ice movement and peer through snow cover to unveil Thwaites Glacier Tongue’s crocodile skin-like appearance, which is normally hidden from sight. Interactive Sentinel-1 data displayed on a map over Thwaites Glacier, users can browse through the datasets on various dates.
+
+Using machine learning, the researchers taught a computer to look at radar images from the Sentinel-1 mission and identify changes over the last decade. The analysis revealed that over the last six years, the Thwaites Glacier Ice Tongue has sped up and slowed down twice, by around 40% each time – from 4 km a year to 6 km a year before slowing. This is a substantial increase in the magnitude and frequency of speed change compared with past records. This new use of artificial intelligence will allow scientists to more accurately monitor and model changes to this important glacier.
+
+### Explore the Sentinel-1 Observations of the Thwaites Glacier
+
+On the map, you can browse the Sentinel-1 images acquired in [EW (extra wide swath) mode](https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-1-sar/acquisition-modes/extra-wide-swath) over the Thwaites glacier from 2017 to 2021. The EW mode acquires data over a 400 km swath at 20 m by 40 m spatial resolution. The EW mode is aimed primarily for use over sea-ice, polar zones and certain maritime areas, in particular for ice, oil spill monitoring and security services.
