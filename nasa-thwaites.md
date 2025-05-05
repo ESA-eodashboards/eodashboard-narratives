@@ -44,4 +44,4 @@ Currently, estimates of the glacier’s grounding line retreat vary widely becau
 On the map, you can browse over 20 years of cloud-free level-2 surface reflectance Landsat data (2001-2023) acquired over the Pine Island Glacier.
 
 ![](https://sealevel.nasa.gov/internal_resources/480)
-
+**Existing data coverage of Antarctica (left) and needed coverage for accurate predictions in the future (right). [Image credit](https://sealevel.nasa.gov/news/237/sharpening-forecasts-for-a-glacier-at-risk/)**
