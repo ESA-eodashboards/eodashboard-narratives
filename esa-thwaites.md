@@ -46,3 +46,7 @@ Using machine learning, the researchers taught a computer to look at radar image
 ### Explore the Sentinel-1 Observations of the Thwaites Glacier
 
 On the map, you can browse the Sentinel-1 images acquired in [EW (extra wide swath) mode](https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-1-sar/acquisition-modes/extra-wide-swath) over the Thwaites glacier from 2017 to 2021. The EW mode acquires data over a 400 km swath at 20 m by 40 m spatial resolution. The EW mode is aimed primarily for use over sea-ice, polar zones and certain maritime areas, in particular for ice, oil spill monitoring and security services.
+
+<iframe width="649" height="360" src="https://www.youtube.com/embed/bPjcl7rlIUM" title="Thwaites flow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+*Contains modified Copernicus Sentinel data (2017–2019), processed by ESA. [Video Credit]()*
