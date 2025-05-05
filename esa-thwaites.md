@@ -16,3 +16,17 @@ Owing to climate change, ice all over the world is melting. Antarctica, Greenlan
 ![](https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/01/thwaites_and_pine_island_glaciers_in_west_antarctica/24672328-1-eng-GB/Thwaites_and_Pine_Island_Glaciers_in_West_Antarctica_pillars.jpg)
 
 *Thwaites and Pine Island Glaciers in West Antarctica. ESA, [CC BY-SA 3.0 IGO](https://www.esa.int/ESA_Multimedia/Terms_and_Conditions)*
+
+## Melting of Thwaites Glacier could affect sea levels for years to come
+
+Ice loss from the Thwaites Glacier in West Antarctica ends up in the Amundsen Sea primarily through two mechanisms: melting and calving.
+
+
+
+- Melting occurs when warm ocean water comes into contact with the glacier's ice shelf, which is the floating extension of the glacier that extends out into the ocean. As the ocean water melts the ice shelf, the glacier's grounding line (the point where the glacier begins to float) retreats inland, allowing more ice to be exposed to the ocean and more ice to be lost through melting.
+
+- Calving, on the other hand, is the process by which large chunks of ice break off the ice shelf and fall into the ocean. This can happen when the ice shelf becomes too thick and heavy, or when meltwater pools on the surface of the ice shelf and causes the ice to fracture. When calving occurs, the ice shelf loses mass and the glacier retreats.
+
+![](https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2019/10/cracked_pine_island_glacier/21111549-1-eng-GB/Cracked_Pine_Island_Glacier_pillars.jpg)
+
+*This image shows the two cracks captured by the Copernicus Sentinel-2 satellite on the 14 September 2019. ESA, [CC BY-SA 3.0 IGO](https://www.esa.int/ESA_Multimedia/Terms_and_Conditions)*
