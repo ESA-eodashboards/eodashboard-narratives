@@ -77,6 +77,17 @@
     "image": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-co2/hero.jpg"
   },
   {
+    "cover-image": "https://eodashboard.org/data/story-images/NASA-thwaites-cover.jpeg",
+    "date": "2025-01-01",
+    "theme": "cryosphere",
+    "tags": "climate,ice,polar,warming",
+    "official": true,
+    "file": "https://esa-eodash.github.io/eodashboard-narratives/nasa-thwaites.md",
+    "title": "   Pine Island Glacier and Thwaites Glacier",
+    "subtitle": "Two of the main pathways for ice from the West Antarctic Ice Sheet entering the Amundsen Sea",
+    "image": "https://eodashboard.org/data/story-images/NASA-thwaites-cover.jpeg"
+  },
+  {
     "cover-image": "url",
     "date": "2025-01-01",
     "theme": "theme",
