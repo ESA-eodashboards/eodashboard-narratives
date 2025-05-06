@@ -80,3 +80,21 @@ The project uses a large range of Earth observation missions (e.g. Sentinel-1, S
 <iframe width="649" height="360" src="https://www.youtube.com/embed/FQ0--oKKD_g" title="FutureEO: 4DAntarctica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *4D Antarctica animation. Copyright: ESA/Planetary Visions. [Source](https://www.esa.int/ESA_Multimedia/Videos/2022/11/FutureEO_4DAntarctica#.Y-tcwXG3EBk.link)*
+
+## Daily Melt in Antarctica
+
+The melt products that can be explored in this interactive map contain Antarctic-wide daily melt maps (showing the presence of liquid water) from 2007 until 2021 derived from the ASCAT Enhanced Resolution Scatterometer Image Reconstruction (SIR) product. The maps show the melt onset, melt season ending and melt duration. They provide insights that help us understand where and how fast melting is taking place.
+
+### More 4D Antarctica Datasets
+
+Several value-added products are provided by the 4D Antarctica Project. Apart from the Daily Melt product that can be explored here on the map, several other products are available.
+
+Such products describe the melt onset, melt duration and the end of melt season.
+
+![](https://eodashboard.org/data/story-images/Melt_days_duration.png)
+
+*Melt Duration Map for the season 2020-2021. The total melt duration refers to the duration from the melt onset to the end date of melt. The various shades of blue indicate the number of consecutive days: from a minimum of 3 (darkest shade) to a maximum of 255 (lightest shade)*
+
+### Access Data
+
+- [4D Antarctica data on ESA Open Science Data Catalogue](https://opensciencedata.esa.int/projects/4d-antarctica)
