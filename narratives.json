@@ -143,6 +143,17 @@
     "image": "https://www.eodashboard.org/data/story-images/3-agriculture-crops.jpg"
   },
   {
+    "cover-image": "https://www.eodashboard.org/data/story-images/Thwaites_and_Pine_Island_Glaciers_in_West_Antarctica.jpg",
+    "date": "2025-01-01",
+    "theme": "cryosphere",
+    "tags": "climate,ice,antarctica,warming",
+    "official": true,
+    "file": "https://esa-eodash.github.io/eodashboard-narratives/esa-thwaites.md",
+    "title": "Rapid Retreat of the Thwaites Glacier",
+    "subtitle": "The observations of the glacier are crucial for understanding and adapting to the impacts of global sea level rise",
+    "image": "https://www.eodashboard.org/data/story-images/Thwaites_and_Pine_Island_Glaciers_in_West_Antarctica.jpg"
+  },
+  {
     "file": "https://esa-eodash.github.io/eodashboard-narratives/world_crop_supply_and_demand.md",
     "title": "Satellites are providing insights into agricultural production, crop conditions, and food supply",
     "subtitle": "Read more about satellite data applications for environmental impacts on world cereal supply and demand",
