@@ -71,8 +71,12 @@ This movement of water gives us a glimpse of where the water is and how much and
 
 ## ESA’s 4D Antarctica
 
-Thwaites is the subject of much international research, not only through the International Thwaites Glacier Collaboration but also through ESA’s 4D Antarctica project. The project aims to advance our understanding of the Antarctic Ice Sheet’s supra and sub-glacial hydrology, its evolution, and its role within the broader ice sheet and ocean systems.
+Thwaites is the subject of much international research, not only through the [International Thwaites Glacier Collaboration](https://thwaitesglacier.org/) but also through [ESA’s 4D Antarctica](https://eo4society.esa.int/projects/4dantarctica/) project. The project aims to advance our understanding of the Antarctic Ice Sheet’s supra and sub-glacial hydrology, its evolution, and its role within the broader ice sheet and ocean systems.
 
 This entails creating and consolidating an unprecedented dataset composed of ice-sheet wide hydrology and lithospheric products, Earth observation datasets, and state of the art ice-sheet and hydrology models, improving our understanding of the physical interaction between electromagnetic radiation, the ice sheet, and liquid water, developing techniques and algorithms to detect surface and basal melting from satellite observations with numerical modelling and applying these techniques across the continental ice sheet to monitor water dynamics and derive new hydrology datasets.
 
 The project uses a large range of Earth observation missions (e.g. Sentinel-1, Sentinel-2, SMOS, CryoSat-2, GOCE, TanDEM-X, AMSR2, Landsat, Icesat-2) coupled with ice-sheet and hydrological models. By the end of this project, the programme of work will lead to a dramatically improved quantification of meltwater in Antarctica, an improved understanding of fluxes across the continent and to the ocean, and an improved understanding of the impact of the hydrological cycle on ice sheet’s mass balance, its basal environment, and its vulnerability to climate change.
+
+<iframe width="649" height="360" src="https://www.youtube.com/embed/FQ0--oKKD_g" title="FutureEO: 4DAntarctica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+*4D Antarctica animation. Copyright: ESA/Planetary Visions. [Source](https://www.esa.int/ESA_Multimedia/Videos/2022/11/FutureEO_4DAntarctica#.Y-tcwXG3EBk.link)*
