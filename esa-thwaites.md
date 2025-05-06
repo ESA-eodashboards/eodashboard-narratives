@@ -124,3 +124,15 @@ This EO narrative provides access to several EO products over Antarctica. Visual
 - [Antarctica Melt duration](https://eodashboard.org/explore?poi=Days-ADD)
 - [Sentinel-1 EW Dataset over Thwaites and Pine Island Glaciers](https://eodashboard.org/explore?poi=World-ADD_West_Antarctica_S1)
 
+### Map baselayer and geometries
+
+The Pine Island Glacier and Thwaites Glacier geometries shown on this map are for illustration purposes only. They were produced using [QGIS](http://www.qgis.org/) by georeferencing maps made available by the [Polar Geospatial Center](https://data.pgc.umn.edu/maps/antarctica/pgc/19/preview/Thwaites%20Glacier%20Regional.jpg) and the [Quantarctica/Norwegian Polar Institute](https://www.carbonbrief.org/guest-post-how-close-is-the-west-antarctic-ice-sheet-to-a-tipping-point/).
+
+This map uses the baselayer Antarctic hillshade and bathymetry south of 60°S. Citation: REMA: Howat, I. M., Porter, C., Smith, B. E., Noh, M.-J., and Morin, P.: The Reference Elevation Model of Antarctica, The Cryosphere, 13, 665-674, [external resource], 2019. GEBCO Compilation Group (2019) GEBCO 2019 Grid (doi:10.5285/836f016a-33be-6ddc-e053-6c86abc0788e)
+
+## Contributors
+
+- Datasets provided by 4D Antarctica Project and SentinelHub (Euro Data Cube)
+- Story prepared by Romina Persi (EJR Quarz for ESA), Anca Anghelea (ESA), and Isobel Laurence (ESA)
+- Data preparation and visualisation by Lubomir Dolezal (EOX) and Alessandro Scremin (Rhea Group). Supporting graphics provided by ESA Multimedia.
+
