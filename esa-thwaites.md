@@ -111,5 +111,5 @@ Discover more on ESA Multimedia:
 - [Thwaites Glacier](https://www.esa.int/ESA_Multimedia/Images/2023/01/Thwaites_Glacier#.Y76TxZj2TFY.link)
 - [Thwaites Ice Tongue from Sentinel-2 -Thwaites’ crevasses in motion](https://www.esa.int/ESA_Multimedia/Images/2023/01/Thwaites_Ice_Tongue_from_Sentinel-2#.Y76Tz4U1uWY.link)
 - [Ebb and flow of lakes deep below Thwaites glacier](https://www.esa.int/ESA_Multimedia/Videos/2020/12/Ebb_and_flow_of_lakes_deep_below_Thwaites_glacier#.Y76T3Ybmw4k.link)
-- [The fracturing of Antarctica’s Pine Island and Thwaites Glaciers (2014–2020)]()
-- [4D Antarctica Animation]()
+- [The fracturing of Antarctica’s Pine Island and Thwaites Glaciers (2014–2020)](https://www.esa.int/ESA_Multimedia/Videos/2020/09/The_fracturing_of_Antarctica_s_Pine_Island_and_Thwaites_Glaciers_2014_2020#.Y76T25AYUKg.link)
+- [4D Antarctica Animation](https://www.esa.int/ESA_Multimedia/Videos/2022/11/FutureEO_4DAntarctica#.Y-tcwXG3EBk.link)
