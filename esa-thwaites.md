@@ -49,4 +49,18 @@ On the map, you can browse the Sentinel-1 images acquired in [EW (extra wide swa
 
 <iframe width="649" height="360" src="https://www.youtube.com/embed/bPjcl7rlIUM" title="Thwaites flow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-*Contains modified Copernicus Sentinel data (2017–2019), processed by ESA. [Video Credit]()*
+*Contains modified Copernicus Sentinel data (2017–2019), processed by ESA. [Video Credit](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-1/Sentinel-1_and_AI_uncover_glacier_crevasses)*
+
+## The lakes that lie below Thwaites
+
+There are few frontiers in the world that can still be said to be unexplored. One of these is the land beneath Antarctica’s ice sheets. Buried under kilometres of ice is a fascinating network of waterways and lakes, where subsurface meltwater affects the speed with which the ice sheet flows towards the ocean. Using a decade of altimetry data from ESA’s CryoSat satellite, scientists have discovered that the lakes beneath Thwaites, the largest of which is over 40 km long, drained in quick succession, in 2013 and then in 2017. This kind of reoccurring drainage under Thwaites has never before been recorded.
+
+Scientists estimate that the rate of drainage peaked at about 500 cubic metres a second – possibly the largest outflow of meltwater ever reported from subglacial lakes in this region. This peak rate is about eight times faster than the River Thames in England discharges on average to the North Sea.
+
+Between 2013 and 2017, the scientists can see that the lakes recharged.
+
+Linking these observations with basal meltwater flowing into the lake through a network of basal channels, gave for the first time, an estimate of the rate of melting at the base of the ice sheet. By comparing these rates to modelled estimates, the scientists were able to demonstrate that models underestimate basal melting under this region of Thwaites by nearly 150%.
+
+These findings will help to assess and constrain models and, in turn, improve the representation of the ice sheet system, and better project its evolution. What takes place under the ice sheet is critical in understanding how the glacier responds to changes in the atmosphere and ocean around Antarctica, and yet it is hidden from view making it difficult to observe.
+
+This movement of water gives us a glimpse of where the water is and how much and how fast it moves across the system. Together this is key information about the nature of the subglacial environment and the processes of the hydrological network under the ice sheet. These findings provide key information that can help us project how the ice sheet adds to sea level as it responds to climate change.
