@@ -113,3 +113,14 @@ Discover more on ESA Multimedia:
 - [Ebb and flow of lakes deep below Thwaites glacier](https://www.esa.int/ESA_Multimedia/Videos/2020/12/Ebb_and_flow_of_lakes_deep_below_Thwaites_glacier#.Y76T3Ybmw4k.link)
 - [The fracturing of Antarctica’s Pine Island and Thwaites Glaciers (2014–2020)](https://www.esa.int/ESA_Multimedia/Videos/2020/09/The_fracturing_of_Antarctica_s_Pine_Island_and_Thwaites_Glaciers_2014_2020#.Y76T25AYUKg.link)
 - [4D Antarctica Animation](https://www.esa.int/ESA_Multimedia/Videos/2022/11/FutureEO_4DAntarctica#.Y-tcwXG3EBk.link)
+
+## Explore Datasets
+
+This EO narrative provides access to several EO products over Antarctica. Visualise these datasets by clicking on the **EXPLORE DATASETS** button at the top of the page or directly from the links below:
+
+- [Antarctica Meltmaps](https://eodashboard.org/explore?poi=World-ADD_Meltmap)
+- [Antarctica Melt onset](https://eodashboard.org/explore?poi=Onset-ADD)
+- [Antarctica End of melt season](https://eodashboard.org/explore?poi=End-ADD)
+- [Antarctica Melt duration](https://eodashboard.org/explore?poi=Days-ADD)
+- [Sentinel-1 EW Dataset over Thwaites and Pine Island Glaciers](https://eodashboard.org/explore?poi=World-ADD_West_Antarctica_S1)
+
