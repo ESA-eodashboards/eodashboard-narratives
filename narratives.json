@@ -33,6 +33,17 @@
     "image": "https://www.eodashboard.org/data/story-images/Cambodian_rivers.jpg"
   },
   {
+    "cover-image": "https://eodashboard.org/data/story-images/SeaIce.jpeg",
+    "date": "2025-01-01",
+    "theme": "cryosphere",
+    "tags": "arctic,ice,polar",
+    "official": true,
+    "file": "https://esa-eodash.github.io/eodashboard-narratives/sea-ice-extent.md",
+    "title": "  The sea ice extent has been rapidly decreasing in recent years as global temperatures have risen",
+    "subtitle": "Read more about monitoring Sea Ice Extent and Concentration from Passive Microwave",
+    "image": "https://eodashboard.org/data/story-images/SeaIce.jpeg"
+  },
+  {
     "cover-image": "https://eodashboard.org/data/story-images/1-EO_PIX_Ocean_COVER_Photo.jpeg",
     "date": "2025-01-01",
     "theme": "oceans",
