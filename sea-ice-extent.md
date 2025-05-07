@@ -41,4 +41,14 @@ Scientists use a variety of satellites and instruments to monitor and analyze ch
 
 ![](https://eodashboard.org/data/story-images/Icebreaking_ships_pillars.jpg)
 
+## Explore Datasets
+ 
+This narrative provides access to interactive maps of Sea Ice Thickness and Sea Ice Concentration. Access these datasets by clicking on the EXPLORE DATASETS button at the top of the page or directly from the links below:
+
+- [Sea Ice Thickness from Cryosat](https://www.eodashboard.org/explore?poi=World-SIC)  
+- [Sea Ice Thickness from Envisat](https://www.eodashboard.org/explore?poi=World-SIE)  
+- [Sea Ice Thickness from IceSAT-2](https://www.eodashboard.org/explore?poi=World-SITI)
+- [Sea Ice Concentration from GCOM-W](https://www.eodashboard.org/explore?poi=World-N12_1_sea_ice_concentration_arctic)
+
+
 
