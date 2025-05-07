@@ -29,4 +29,16 @@ Due to recent climate change, global warming has progressed rapidly. The Arctic 
 
 ![](https://eodashboard.org/data/story-images/1-EO_Dashboard_Cryo-Pix_May_12.jpeg)
 
+*Sea Ice (aerial view)*
+
+##  Northern Sea Route
+
+From an economic standpoint, the sea ice extent decline has increased the commercial availability of the Arctic Ocean, an area previously closed by sea ice. The expansion in the open ocean area will allow vessels to navigate the Arctic Ocean through what is called the Northern Sea Route. There are two routes through the Arctic Ocean: the northeastern route along the Russian coast and the northwestern route along the Canadian coast. In particular, the northeastern route is beginning to be used for commercial operations because it is about 30% shorter than the traditional route between Europe and Asia via the Suez Canal.
+
+Vessels navigating the Arctic Ocean must be equipped with ice resistance and ice breaking capabilities. Appropriate routes must be selected according to ship specifications and sea ice conditions. Information about sea ice concentration is necessary for the safe and economical navigation of vessels. As increased shipping brings additional risks to the severely vulnerable environment and, consequently, risks of increased environmental changes in other regions, adverse impacts on the environment resulting from the opening in the Northwest Passage route must be monitored as shipping traffic increases.
+
+Scientists use a variety of satellites and instruments to monitor and analyze changes in sea ice cover and thickness. Advances in satellite technology enable scientists to monitor and measure sea ice characteristics at a level of detail that cannot be obtained from ship-based or airborne measurements. Over time, continuous data collected by satellite observations help build a record of changing sea ice conditions over time and help people in Arctic coastal regions forecast storms and anticipate changes in walrus populations and shipping routes.
+
+![](https://eodashboard.org/data/story-images/Icebreaking_ships_pillars.jpg)
+
 
