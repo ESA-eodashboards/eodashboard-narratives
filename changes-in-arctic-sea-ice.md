@@ -6,7 +6,7 @@ tags: arctic,ice,polar
 official: true
 ---
 
-# Changes in Arctic Sea Ice <!--{ as="img" mode="hero" src="https://eodashboard.org/data/story-images/1-sea-ice.jpg" }-->
+#  The Arctic region shows changes most characteristic of global warming <!--{ as="img" mode="hero" src="https://eodashboard.org/data/story-images/1-sea-ice.jpg" }-->
 ### Read more about the international collaboration for understanding changes in Arctic Sea Ice <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## An International Collaboration for Understanding Changes in Arctic Sea Ice
