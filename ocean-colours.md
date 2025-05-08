@@ -36,7 +36,7 @@ Use the interactive map to see how Ocean NPP vary globally. The compare feature 
 
 ![](https://eodashboard.org/data/story-images/1-EO_PIX_Ocean_Global_REDTIDE.png)
 
-*Figure 3. Northwest Pacific Oyashio front region, one of the world’s highest productivity waters. *
+*Figure 3. Northwest Pacific Oyashio front region, one of the world’s highest productivity waters.*
 
 ![](https://eodashboard.org/data/story-images/Oyashio%20and%20time%20series.png)
 
