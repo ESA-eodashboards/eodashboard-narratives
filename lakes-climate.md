@@ -23,4 +23,6 @@ The worst known megadrought in the Colorado River occurred around 1800 years ago
 
 After more than two decades of drought, researchers have documented the lowest water levels ever seen at both Powel and Mead reservoirs [3]. Seeing as the river’s resources had been overexploited, combined with the dry conditions, meant that the water was not replenishing as fast as people were using it [11]. In 2022, the Colorado River and Lake Powell were believed to be at a tipping point [9] leading to the discussions on the need for big reductions in water allocation along the river basin. On May 22 2023, three American states announced a historic deal to have a significant cut in the water usage over the next four years to prevent a crisis in the largest reservoir of the country [4]. 
 
+## Map
 
+The interactive map shows the Colorado River observed by ESA's Copernicus Sentinel-2 optical satellite. [Access this dataset](https://www.eodashboard.org/explore?x=-12280172.88676&y=4479118.61867&z=9.11597&clusterOpen=1&poi=Colorado-Lakes_S2L2A&search=Colorado+River+and+Lake+Powel%3A+Sentinel-2+L2A). 
