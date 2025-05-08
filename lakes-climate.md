@@ -9,18 +9,18 @@ official: true
 #  Changes in temperature, precipitation patterns and extremes impacting surface water hydrology <!--{ as="img" mode="hero" src="https://eodashboard.org/data/story-images/Alakol_Lake.jpg" }-->
 ### Read more about monitoring these impacts with Earth Observations <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
-## Changing lakes due to human activity
+## Evapotranspiration and water level in the Colorado River
 
-Anthropogenic actions, such as human activities related to agriculture, industry and urbanisation, have significantly impacted inland waters around the world. Sometimes anthropogenic actions work with climate change towards negative impacts.
+One of the main effects from rising temperatures is the increase in evapotranspiration. Evapotranspiration is the combined process by which water moves from Earth’s surface into the atmosphere through evaporation or transpiration [1]. This can contribute directly to the decrease of waterbodies' extents and levels.
 
-One major impact of anthropogenic actions is pollution of inland water which can come from agricultural runoff, industrial discharge and urban wastewater. A way to assess water quality is to monitor parameters such as chlorophyll-a concentration, suspended solids and turbidity. Another significant impact of anthropogenic actions on inland waters is habitat destruction and alteration. Deforestation, land use changes and dam construction can alter river flow regimes, disrupt natural habitats, and affect aquatic biodiversity. 
+One example of this is the Colorado River, located in the southwest United States and northwest Mexico. This 2330 km-long river passes through arid regions on the west slope of the Rocky Mountains, and is a source of drinking water, irrigation and electricity for more than 40 million people and 5 million acres of farmland [2]. The Colorado River feeds the two largest reservoirs in the country — Lake Powell and Lake Mead, two national park sites that generate hydropower for millions of people [3].
 
-### Map
+![](https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Eodashboard_coloradoriver_230707.png?raw=true)
 
-The [turbidity of a lake](https://land.copernicus.eu/global/products/lwq) describes water clarity, or whether sunlight can penetrate deeper parts of the lake. Turbidity often varies seasonally, both with the discharge of rivers and growth of phytoplankton (algae and cyanobacteria).
+Rising temperatures caused by the climate crisis have led to higher evaporation rates and reduced snowpack in the Rocky Mountains, which are the primary source of water for the Colorado River [4]. For every 1°C in temperature rise, flow along the Colorado River has dipped 9.3%, an equivalent of 1.5 billion tonnes of water [5].
 
-The map shows the turbidity of Lake Trasimeno (Italy) using the [lake Water quality NRT (near-real-time) product at 300, from the Copernicus Land Service](https://land.copernicus.eu/global/products/lwq).
+The worst known megadrought in the Colorado River occurred around 1800 years ago [6]. The cause is not clear, but it is believed to have been caused by natural climate variability. However, the current drought is largely driven by anthropogenic climate change. Climate change along with its overuse of Colorado river water [7, 8], exacerbated a decrease in the river’s flow and water levels, drastically impacting the water available for agriculture, industry, as well as support for aquatic habitats [2,10].
 
-[Access this dataset](https://eodashboard.org/explore?poi=World-Lakes_WQ_TURB&search=World%3A+Lake+Water+Quality+Turbidity&x=1374066.96841&y=5569144.34415&z=10.13446).
+After more than two decades of drought, researchers have documented the lowest water levels ever seen at both Powel and Mead reservoirs [3]. Seeing as the river’s resources had been overexploited, combined with the dry conditions, meant that the water was not replenishing as fast as people were using it [11]. In 2022, the Colorado River and Lake Powell were believed to be at a tipping point [9] leading to the discussions on the need for big reductions in water allocation along the river basin. On May 22 2023, three American states announced a historic deal to have a significant cut in the water usage over the next four years to prevent a crisis in the largest reservoir of the country [4]. 
 
-## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"Lakes_WQ_TURB_water_turbidity-2020-12-21T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"LAKE_WATER_QUALITY_TURBIDITY_MEAN","styles":"","format":"image/png","time":"2020-12-21T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.282620381315622" center=[17.705937684678712,46.844221543968416] }-->
+
