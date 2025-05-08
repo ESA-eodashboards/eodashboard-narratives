@@ -127,24 +127,47 @@ Access environmental and climatic variables using Earth System Data Lab's xcube 
 
 ### Climate extremes reviving a once disappearing lake
 
-    [1] Earth Observatory - Tulare Lake Grows
-    [2] The Flooding in California Isn’t Entirely Bad News
-    [3] California triggers rarely used relief valve on Kern River, diverting flows to state aqueduct
+- [1] Earth Observatory - Tulare Lake Grows
+- [2] The Flooding in California Isn’t Entirely Bad News
+- [3] California triggers rarely used relief valve on Kern River, diverting flows to state aqueduct
 
  
 
 ### Rising temperatures and ice cover
 
-    [1] Lakes in Hot Water: The impacts of a Changing Climate on Aquatic Ecosystems
-    [2] Global lake responses to climate change
+- [1] Lakes in Hot Water: The impacts of a Changing Climate on Aquatic Ecosystems
+- [2] Global lake responses to climate change
     Long-term ice phenology records from Eastern-central Europe
-    [3] More Ice-free Years for Hemisphere Lakes are Predicted Due to Climate Change
-    [4] Forecasting the Permanent Loss of Lake Ice in the Northern Hemisphere Within the 21st Century
-    [5] Our lakes are losing their ice cover faster than ever - here’s what that meant for us
-    [6] EC commission: climate warming may increase algal blooms caused by sediment nutrient release in lakes
-    [7] Historical Trends, Drivers, and Future Projections of Ice Phenology in Small North Temperate Lakes in the Laurentian Great Lakes Region
+- [3] More Ice-free Years for Hemisphere Lakes are Predicted Due to Climate Change
+- [4] Forecasting the Permanent Loss of Lake Ice in the Northern Hemisphere Within the 21st Century
+- [5] Our lakes are losing their ice cover faster than ever - here’s what that meant for us
+- [6] EC commission: climate warming may increase algal blooms caused by sediment nutrient release in lakes
+- [7] Historical Trends, Drivers, and Future Projections of Ice Phenology in Small North Temperate Lakes in the Laurentian Great Lakes Region
 
  
-Contributors
+## Contributors
 
-story editors: Sara Aparicio (Solenix for ESA), Romina Persi (EJR Quarz for ESA), Derek Koehl (NASA); scientific review: Claudia Vitolo (ESA), Shinichi Sobue (JAXA), Hiroshi Murakami (JAXA), Javier Alonso Concha (Serco for ESA), Karim Douch (ESA), Anca Anghelea (ESA); layout: Leah Sturm (ESA); data preparation: Alessandro Scremin (Rhea Group for ESA); technical: Development Seed, Sinergise, Brockmann Consult.
+### Story editors
+
+- Sara Aparicio (Solenix for ESA)
+- Romina Persi (EJR Quarz for ESA)
+- Derek Koehl (NASA)
+
+### Scientific review
+- Claudia Vitolo (ESA)
+- Shinichi Sobue (JAXA)
+- Hiroshi Murakami (JAXA)
+- Javier Alonso Concha (Serco for ESA)
+- Karim Douch (ESA)
+- Anca Anghelea (ESA)
+
+### Layout
+- Leah Sturm (ESA)
+
+### Data preparation
+- Alessandro Scremin (Rhea Group for ESA)
+
+### Technical
+- Development Seed
+- Sinergise
+- Brockmann Consult
