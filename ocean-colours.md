@@ -27,3 +27,16 @@ Satellite sensors that observe ocean color help us estimate the spatial distribu
 Use the interactive map to see how Ocean NPP vary globally. The compare feature on this map allows looking at NPP on two different dates.
 
 ## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N11_ocean_primary_productivity-2024-08-16T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:ONPP-GCOMC-World-Monthly","styles":"","format":"image/png","time":"2024-08-16T11:59:30Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="2.130570562805427" center=[0,-12.739391072848534] }-->
+
+![](https://eodashboard.org/data/story-images/1-EO_PIX_Ocean_Global_NPP.png)
+
+*Figure 2. Global Ocean NPP (net primary productivity)*
+
+![](https://eodashboard.org/data/story-images/1-EO_PIX_Ocean_Global_REDTIDE.png)
+
+*Figure 3. Northwest Pacific Oyashio front region, one of the world’s highest productivity waters. *
+
+![](https://eodashboard.org/data/story-images/Oyashio%20and%20time%20series.png)
+
+*Figure 4. Map of NPP around Oyashio region, and four-year timeseries of NPP in the area. The NPP is derived using SGLI by Kameda and Ishizaka 2005[4].*
+
