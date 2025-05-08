@@ -42,3 +42,26 @@ One of the main consequences of its shrinkage led to a rise in concentration of 
 Today the decline of the basin serves as a cautionary tale, highlighting the need for sustainable water management practices and international cooperation \[7\]. The long-term sustainability and stability of the Aral Sea’s ecosystem remains uncertain. The sea has experienced significant ecological shifts and irreversible damage over the years, and it may have crossed tipping points in some aspects. Efforts have been to mitigate the damage caused by the Aral sea crisis, including the construction of dams to restore water levels and improve its ecological health \[8\].
 
 ## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"Lakes_S2L2A-2023-06-05T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"SENTINEL-2-L2A-TRUE-COLOR","styles":"","format":"image/png","time":"2023-06-05/2023-06-06"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="8.193252572363221" center=[58.96754892514554,45.14811650080986] }-->
+
+##
+
+### Explore Datasets
+
+This **EO Dashboard** provides access to several EO products concerning lakes. Visualize these datasets by clicking on [**EXPLORE DATASETS**](https://eodashboard.org/) button at the top of the page or directly view all available lake products [**here**](https://eodashboard.org/explore?search=lake&x=907921.76691&y=3682562.22397&z=2.90689).
+
+## References
+
+### Aral Sea
+
+* *   \[1\] [World of Change: Shrinking Aral Sea](https://earthobservatory.nasa.gov/world-of-change/aral_sea.php)
+* *   \[2\] [Sins of the Aral Sea (National Geographic)](https://www.nationalgeographic.com/magazine/article/vanishing-aral-sea-kazakhstan-uzbekistan)
+* *   \[3\] [Aral Sea Restoration Projection with 1.6 Million in Funding for Uzbekistan](https://uz.usembassy.gov/aral-sea-restoration/)
+* *   \[4\] [Dust over the aral Sea (NASA)](https://earthobservatory.nasa.gov/images/38682/dust-over-the-aral-sea)
+* *   \[5\] [Impacts of climate change and evapotranspiration on shrinkage of Aral sea](https://www.sciencedirect.com/science/article/abs/pii/S0048969722043017)
+* *   \[6\] [Aral Sea Shrinkage caused by humans](https://www.ucl.ac.uk/news/2007/apr/aral-sea-shrinkage-caused-humans)
+* *   \[7\] [The Shrinking Aral Sea](https://earthobservatory.nasa.gov/images/1396/the-shrinking-aral-sea)
+* *   \[8\] [Climate Adaptation and Mitigaion Program for Aral Sea Basin CAMP4ASB Additional Financing](https://projects.worldbank.org/en/projects-operations/project-detail/P163542)
+
+## Contributors
+
+story editors: Sara Aparicio (Solenix for ESA), Romina Persi (EJR Quarz for ESA), Derek Koehl (NASA); scientific: Shinichi Sobue (JAXA), Hiroshi Murakami (JAXA), Karim Douch (ESA), Javier Alonso Concha (Serco for ESA), Clement Albergel (ESA), Claudia Vitolo (ESA), Anca Anghelea (ESA); layout: Leah Sturm (ESA); data preparation: Alessandro Scremin (Rhea Group for ESA); technical: EOX IT Services, Development Seed, Sinergise, Brockmann Consult.
