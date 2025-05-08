@@ -28,6 +28,8 @@ Use the interactive map to see how Ocean NPP vary globally. The compare feature 
 
 ## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N11_ocean_primary_productivity-2024-08-16T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:ONPP-GCOMC-World-Monthly","styles":"","format":"image/png","time":"2024-08-16T11:59:30Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="2.130570562805427" center=[0,-12.739391072848534] }-->
 
+##
+
 ![](https://eodashboard.org/data/story-images/1-EO_PIX_Ocean_Global_NPP.png)
 
 *Figure 2. Global Ocean NPP (net primary productivity)*
@@ -40,3 +42,12 @@ Use the interactive map to see how Ocean NPP vary globally. The compare feature 
 
 *Figure 4. Map of NPP around Oyashio region, and four-year timeseries of NPP in the area. The NPP is derived using SGLI by Kameda and Ishizaka 2005[4].*
 
+## References
+
+[1] IOCCG (2009). Remote Sensing in Fisheries and Aquaculture. Forget, M.-H., Stuart, V. and Platt, T. (eds.), Reports of the International Ocean-Colour Coordinating Group, No. 8, IOCCG, Dartmouth, Canada., <https://ioccg.org/wp-content/uploads/2015/10/ioccg-report-08.pdf>
+
+[2] Chiba et al., 2009, Geographical shift of zooplankton communities and decadal dynamics of the Kuroshio–Oyashio currents in the western North Pacific, <https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2486.2009.01890.x>
+
+[3] Siswanto et al., 2016, Meridional and seasonal footprints of the Pacific Decadal Oscillation on phytoplankton biomass in the northwestern Pacific Ocean, J Oceanogr (2016) 72:465–477 <https://doi.org/10.1007/s10872-016-0367-z>
+
+[4] NPP Product <https://www.eodashboard.org/?poi=World-N11&indicator=N11>
