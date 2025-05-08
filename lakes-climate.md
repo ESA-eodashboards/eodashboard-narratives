@@ -99,14 +99,52 @@ Access environmental and climatic variables using Earth System Data Lab's xcube 
 
 ### Evapotranspiration and water level in the Colorado River
 
-- [1] Evapotranspiration
-- [2] The top 10 most endangered rivers in America (CNN)
-- [3] Climate Change Forces Difficult Decisions Along the Colorado River
-- [4] Management of the Colorado River: Water Allocations, Drought, and the Federal Role
-- [5] Colorado River flow dwindles as warming-driven loss of reflective snow energises evaporation
-- [6] Worst megadrought in 1800 year (AGU)
-- [7] Saving the iconic Colorado River — scientists say latest plan is not enough
-- [8] Effects of Climate Change and Land Use on Water Resources in the Upper Colorado River Basin
+- [1] [Evapotranspiration]()
+- [2] [The top 10 most endangered rivers in America (CNN)]()
+- [3] [Climate Change Forces Difficult Decisions Along the Colorado River]()
+- [4] [Management of the Colorado River: Water Allocations, Drought, and the Federal Role]()
+- [5] [Colorado River flow dwindles as warming-driven loss of reflective snow energises evaporation]()
+- [6] [Worst megadrought in 1800 year (AGU)]()
+- [7] [Saving the iconic Colorado River — scientists say latest plan is not enough]()
+- [8] [Effects of Climate Change and Land Use on Water Resources in the Upper Colorado River Basin]()
 - [9] Colorado River states brace for the biggest water cuts ever (VOX)
 - [10] Colorado System at Tipping Point
 - [11] Why is the colorado river drying up?
+
+### Changing precipitation patterns affecting lake’s hydrology:
+
+    [1] Assessing Climate Change Impacts on River Flows in the Tonle Sap Lake Basin, Cambodia
+    [2] Cambodia climate change mekong dams
+    [3] Change in Hydrological Regimes and Extremes from the Impact of Climate Change in the Largest Tributary of the Tonly Sap Lake Basin
+    [4] Mekong dams destroy Tonle Sap Lake
+    [5] Tonle Sap Food Security and Agriculture
+    [6] Tonle Sap Lake and Floodplain
+    [7] Impacting of the Mekong River flow alteration on the Tonle Sap flood pulse
+    [8] Environmental Changes in Tonle Sap Lake and its Floodplain: Status and Policy Recommendations
+    [9] What are the impacts of dams on the Mekong river?
+
+ 
+
+Climate extremes reviving a once disappearing lake:
+
+    [1] Earth Observatory - Tulare Lake Grows
+    [2] The Flooding in California Isn’t Entirely Bad News
+    [3] California triggers rarely used relief valve on Kern River, diverting flows to state aqueduct
+
+ 
+
+Rising temperatures and ice cover:
+
+    [1] Lakes in Hot Water: The impacts of a Changing Climate on Aquatic Ecosystems
+    [2] Global lake responses to climate change
+    Long-term ice phenology records from Eastern-central Europe
+    [3] More Ice-free Years for Hemisphere Lakes are Predicted Due to Climate Change
+    [4] Forecasting the Permanent Loss of Lake Ice in the Northern Hemisphere Within the 21st Century
+    [5] Our lakes are losing their ice cover faster than ever - here’s what that meant for us
+    [6] EC commission: climate warming may increase algal blooms caused by sediment nutrient release in lakes
+    [7] Historical Trends, Drivers, and Future Projections of Ice Phenology in Small North Temperate Lakes in the Laurentian Great Lakes Region
+
+ 
+Contributors
+
+story editors: Sara Aparicio (Solenix for ESA), Romina Persi (EJR Quarz for ESA), Derek Koehl (NASA); scientific review: Claudia Vitolo (ESA), Shinichi Sobue (JAXA), Hiroshi Murakami (JAXA), Javier Alonso Concha (Serco for ESA), Karim Douch (ESA), Anca Anghelea (ESA); layout: Leah Sturm (ESA); data preparation: Alessandro Scremin (Rhea Group for ESA); technical: Development Seed, Sinergise, Brockmann Consult.
