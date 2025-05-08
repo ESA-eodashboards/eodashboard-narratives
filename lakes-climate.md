@@ -107,25 +107,25 @@ Access environmental and climatic variables using Earth System Data Lab's xcube 
 - [6] [Worst megadrought in 1800 year (AGU)]()
 - [7] [Saving the iconic Colorado River — scientists say latest plan is not enough]()
 - [8] [Effects of Climate Change and Land Use on Water Resources in the Upper Colorado River Basin]()
-- [9] Colorado River states brace for the biggest water cuts ever (VOX)
-- [10] Colorado System at Tipping Point
-- [11] Why is the colorado river drying up?
+- [9] [Colorado River states brace for the biggest water cuts ever (VOX)]()
+- [10] [Colorado System at Tipping Point]()
+- [11] [Why is the colorado river drying up?]()
 
-### Changing precipitation patterns affecting lake’s hydrology:
+### Changing precipitation patterns affecting lake’s hydrology
 
-    [1] Assessing Climate Change Impacts on River Flows in the Tonle Sap Lake Basin, Cambodia
-    [2] Cambodia climate change mekong dams
-    [3] Change in Hydrological Regimes and Extremes from the Impact of Climate Change in the Largest Tributary of the Tonly Sap Lake Basin
-    [4] Mekong dams destroy Tonle Sap Lake
-    [5] Tonle Sap Food Security and Agriculture
-    [6] Tonle Sap Lake and Floodplain
-    [7] Impacting of the Mekong River flow alteration on the Tonle Sap flood pulse
-    [8] Environmental Changes in Tonle Sap Lake and its Floodplain: Status and Policy Recommendations
-    [9] What are the impacts of dams on the Mekong river?
+- [1] Assessing Climate Change Impacts on River Flows in the Tonle Sap Lake Basin, Cambodia
+- [2] Cambodia climate change mekong dams
+- [3] Change in Hydrological Regimes and Extremes from the Impact of Climate Change in the Largest Tributary of the Tonly Sap Lake Basin
+- [4] Mekong dams destroy Tonle Sap Lake
+- [5] Tonle Sap Food Security and Agriculture
+- [6] Tonle Sap Lake and Floodplain
+- [7] Impacting of the Mekong River flow alteration on the Tonle Sap flood pulse
+- [8] Environmental Changes in Tonle Sap Lake and its Floodplain: Status and Policy Recommendations
+- [9] What are the impacts of dams on the Mekong river?
 
  
 
-Climate extremes reviving a once disappearing lake:
+### Climate extremes reviving a once disappearing lake
 
     [1] Earth Observatory - Tulare Lake Grows
     [2] The Flooding in California Isn’t Entirely Bad News
@@ -133,7 +133,7 @@ Climate extremes reviving a once disappearing lake:
 
  
 
-Rising temperatures and ice cover:
+### Rising temperatures and ice cover
 
     [1] Lakes in Hot Water: The impacts of a Changing Climate on Aquatic Ecosystems
     [2] Global lake responses to climate change
