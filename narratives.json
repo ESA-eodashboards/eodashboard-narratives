@@ -99,6 +99,17 @@
     "image": "https://www.eodashboard.org/data/story-images/Iceberg_in_Antarctica.jpg"
   },
   {
+    "cover-image": "https://eodashboard.org/data/story-images/1-EO_PIX_Ocean_COVER_Photo.jpeg",
+    "date": "2025-01-01",
+    "theme": "oceans",
+    "tags": "ocean,life, diversity",
+    "official": true,
+    "file": "https://esa-eodash.github.io/eodashboard-narratives/ocean-colours.md",
+    "title": "   Understanding climate change effects on water temperature and ocean currents is vital to managing these resources",
+    "subtitle": "Read more about Satellite Sensors Tracking Ocean Color Changes to Predict Phytoplankton Health",
+    "image": "https://eodashboard.org/data/story-images/JAXA%20Ocean%20Cover.jpeg"
+  },
+  {
     "cover-image": "https://eodashboard.org/data/story-images/1-sea-ice.jpg",
     "date": "2025-01-01",
     "theme": "cryosphere",
