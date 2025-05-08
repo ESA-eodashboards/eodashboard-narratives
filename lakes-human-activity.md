@@ -87,4 +87,4 @@ This **EO Dashboard** provides access to several EO products concerning lakes. V
 - EOX IT Services
 - Development Seed
 - Sinergise
-- Brockmann Consult.
+- Brockmann Consult
