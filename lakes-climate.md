@@ -128,23 +128,20 @@ Access environmental and climatic variables using Earth System Data Lab's xcube 
 
 ### Climate extremes reviving a once disappearing lake
 
-- [1] [Earth Observatory - Tulare Lake Grows]()
-- [2] [The Flooding in California Isn’t Entirely Bad News]()
-- [3] [California triggers rarely used relief valve on Kern River, diverting flows to state aqueduct]()
-
- 
+- \[1\] [Earth Observatory - Tulare Lake Grows](https://earthobservatory.nasa.gov/images/151284/tulare-lake-grows)
+- \[2\] [The Flooding in California Isn’t Entirely Bad News](https://www.washingtonpost.com/business/energy/2023/05/13/the-flooding-in-california-and-tulare-lake-isn-t-entirely-bad-news/ef8e65ea-f187-11ed-b67d-a219ec5dfd30_story.html)
+- \[3\] [California triggers rarely used relief valve on Kern River, diverting flows to state aqueduct](https://www.latimes.com/environment/story/2023-05-20/relief-valve-divert-kern-river-floodwaters-california-aqueduct)
 
 ### Rising temperatures and ice cover
 
-- [1] [Lakes in Hot Water: The impacts of a Changing Climate on Aquatic Ecosystems]()
-- [2] [Global lake responses to climate change]()
-- [3] [More Ice-free Years for Hemisphere Lakes are Predicted Due to Climate Change]()
-- [4] [Forecasting the Permanent Loss of Lake Ice in the Northern Hemisphere Within the 21st Century]()
-- [5] [Our lakes are losing their ice cover faster than ever - here’s what that meant for us]()
-- [6] [EC commission: climate warming may increase algal blooms caused by sediment nutrient release in lakes]()
-- [7] [Historical Trends, Drivers, and Future Projections of Ice Phenology in Small North Temperate Lakes in the Laurentian Great Lakes Region]()
-
-- [Long-term ice phenology records from Eastern-central Europe]()
+- \[1\] [Lakes in Hot Water: The impacts of a Changing Climate on Aquatic Ecosystems](https://academic.oup.com/bioscience/article/72/11/1050/6639495)
+- \[2\] [Global lake responses to climate change](https://www.nature.com/articles/s43017-020-0067-5)
+- [Long-term ice phenology records from Eastern-central Europe](https://essd.copernicus.org/articles/10/391/2018/essd-10-391-2018.pdf)
+- \[3\] [More Ice-free Years for Hemisphere Lakes are Predicted Due to Climate Change](https://earth.org/northern-hemisphere-lakes-ice-free/)
+- \[4\] [Forecasting the Permanent Loss of Lake Ice in the Northern Hemisphere Within the 21st Century](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020GL091108)
+- \[5\] [Our lakes are losing their ice cover faster than ever - here’s what that meant for us](https://theconversation.com/our-lakes-are-losing-their-ice-cover-faster-than-ever-heres-what-that-means-for-us-173471)
+- \[6\] [EC commission: climate warming may increase algal blooms caused by sediment nutrient release in lakes](https://environment.ec.europa.eu/news/climate-warming-may-increase-algal-blooms-caused-sediment-nutrient-release-lakes-management-must-2023-01-18_en)
+- \[7\] [Historical Trends, Drivers, and Future Projections of Ice Phenology in Small North Temperate Lakes in the Laurentian Great Lakes Region](https://www.mdpi.com/2073-4441/10/1/70)
 
  
 ## Contributors
