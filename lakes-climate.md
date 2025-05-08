@@ -99,9 +99,9 @@ Access environmental and climatic variables using Earth System Data Lab's xcube 
 
 ### Evapotranspiration and water level in the Colorado River
 
-- [1] [Evapotranspiration]()
-- [2] [The top 10 most endangered rivers in America (CNN)]()
-- [3] [Climate Change Forces Difficult Decisions Along the Colorado River]()
+- [1] [Evapotranspiration](https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/evapotranspiration)
+- [2] [The top 10 most endangered rivers in America (CNN)](https://edition.cnn.com/2022/04/18/us/endangered-rivers-colorado-climate/index.html)
+- [3] [Climate Change Forces Difficult Decisions Along the Colorado River](https://www.npca.org/articles/3336-climate-change-forces-difficult-decisions-along-the-colorado-river)
 - [4] [Management of the Colorado River: Water Allocations, Drought, and the Federal Role]()
 - [5] [Colorado River flow dwindles as warming-driven loss of reflective snow energises evaporation]()
 - [6] [Worst megadrought in 1800 year (AGU)]()
@@ -127,22 +127,23 @@ Access environmental and climatic variables using Earth System Data Lab's xcube 
 
 ### Climate extremes reviving a once disappearing lake
 
-- [1] Earth Observatory - Tulare Lake Grows
-- [2] The Flooding in California Isn’t Entirely Bad News
-- [3] California triggers rarely used relief valve on Kern River, diverting flows to state aqueduct
+- [1] [Earth Observatory - Tulare Lake Grows]()
+- [2] [The Flooding in California Isn’t Entirely Bad News]()
+- [3] [California triggers rarely used relief valve on Kern River, diverting flows to state aqueduct]()
 
  
 
 ### Rising temperatures and ice cover
 
-- [1] Lakes in Hot Water: The impacts of a Changing Climate on Aquatic Ecosystems
-- [2] Global lake responses to climate change
-    Long-term ice phenology records from Eastern-central Europe
-- [3] More Ice-free Years for Hemisphere Lakes are Predicted Due to Climate Change
-- [4] Forecasting the Permanent Loss of Lake Ice in the Northern Hemisphere Within the 21st Century
-- [5] Our lakes are losing their ice cover faster than ever - here’s what that meant for us
-- [6] EC commission: climate warming may increase algal blooms caused by sediment nutrient release in lakes
-- [7] Historical Trends, Drivers, and Future Projections of Ice Phenology in Small North Temperate Lakes in the Laurentian Great Lakes Region
+- [1] [Lakes in Hot Water: The impacts of a Changing Climate on Aquatic Ecosystems]()
+- [2] [Global lake responses to climate change]()
+- [3] [More Ice-free Years for Hemisphere Lakes are Predicted Due to Climate Change]()
+- [4] [Forecasting the Permanent Loss of Lake Ice in the Northern Hemisphere Within the 21st Century]()
+- [5] [Our lakes are losing their ice cover faster than ever - here’s what that meant for us]()
+- [6] [EC commission: climate warming may increase algal blooms caused by sediment nutrient release in lakes]()
+- [7] [Historical Trends, Drivers, and Future Projections of Ice Phenology in Small North Temperate Lakes in the Laurentian Great Lakes Region]()
+
+- [Long-term ice phenology records from Eastern-central Europe]()
 
  
 ## Contributors
