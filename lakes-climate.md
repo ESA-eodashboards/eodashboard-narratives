@@ -52,3 +52,20 @@ The interactive map shows the Tonlé Sap observed by JAXA's ALOS-2 radar satelli
 ![](https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2015/05/cambodian_rivers/15398170-1-eng-GB/Cambodian_rivers_pillars.jpg)
 
 *Flooded landscape in Cambodia between the Mekong River (right) and Tonlé Sap river (left) pictured by Japan’s ALOS satellite, CC JAXA/ESA*
+
+## Climate extremes reviving a once disappearing lake
+
+At the base of the southern Sierra in the San Joaquin Valley lies the lakebed of Tulare Lake – once the largest freshwater lake west of the Mississippi River. Beginning in the 1920s, the diversion of rivers for agricultural purposes completely depleted the lake. 
+
+![](https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Eodashboard_TulareLake_2307112.png?raw=true)
+
+Two major storms in March 2023 caused flooding that revived Tulare Lake although the former lakebed is now covered with farms [1]. This flooding is expected to continue into 2024, impacting residents, farmers and valuable cropland. The town of Corcoran, located on the lake's edge, faces a flooding risk, prompting efforts to raise the height by introducing an artificial levee. Melting snow from the southern Sierra contributes significantly to the water supply in the Tulare Lake basin. The Kern River, fed by Sierra meltwater, flows past Bakersfield and eventually reaches Tulare Lake. As a result, excess water is being discharged into recharge ponds near Bakersfield, allowing for aquifer replenishment. Furthermore, the Sierra snowpack remains twice the normal level, posing ongoing challenges for the San Joaquin Valley [1,2,3].
+
+## Map
+
+The interactive map shows the Tulare Lake observed by ESA's Copernicus Sentinel-2 optical satellite. [Access this dataset](https://eodashboard.org/explore?x=-13308622.40023&y=4289907.88835&z=11.16068&poi=Tulare-Lakes_S2L2A&search=Lake+Tulare%3A+Sentinel-2+L2A)
+
+Read more on the [NASA Earth Observatory](https://earthobservatory.nasa.gov/images/151284/tulare-lake-grows).
+
+
+
