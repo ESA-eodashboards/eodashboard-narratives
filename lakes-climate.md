@@ -27,5 +27,7 @@ After more than two decades of drought, researchers have documented the lowest w
 
 The interactive map shows the Colorado River observed by ESA's Copernicus Sentinel-2 optical satellite. [Access this dataset](https://www.eodashboard.org/explore?x=-12280172.88676&y=4479118.61867&z=9.11597&clusterOpen=1&poi=Colorado-Lakes_S2L2A&search=Colorado+River+and+Lake+Powel%3A+Sentinel-2+L2A). 
 
+*(Compare slider between 2017-05-05 and 2023-05-19)*
+
 ## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"Lakes_S2L2A"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"SENTINEL-2-L2A-TRUE-COLOR","styles":"","format":"image/png"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="8.590791504278648" center=[-111.075,37.251086810061366] }-->
 
