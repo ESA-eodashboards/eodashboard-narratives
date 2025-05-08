@@ -83,4 +83,30 @@ The reduction in ice cover, which results from warming air temperatures [1] [4],
 
 The map below shows a comparison of the lake surface temperature of Lake Balaton (Hungary) for 2010 and 2020.
 
+**TODO: Add comparison between 2010 and 2020**
+
 ## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"Lakes_SWT_surface_water_temperature-2010-01-04T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"LAKES_SURFACE_WATER_TEMPERATURE","styles":"","format":"image/png","time":"2010-01-04T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.820982463200606" center=[17.731559400839483,46.83628851582418] }-->
+
+## Explore Datasets
+
+This EO Dashboard provides access to several EO products concerning lakes. Visualize these datasets by clicking on EXPLORE DATASETS button at the top of the page or [directly view all available lake products here](https://eodashboard.org/explore?search=lake&x=907921.76691&y=3682562.22397&z=2.90689).
+
+## Additional resources
+
+Access environmental and climatic variables using Earth System Data Lab's xcube data stores.
+
+## References
+
+### Evapotranspiration and water level in the Colorado River
+
+- [1] Evapotranspiration
+- [2] The top 10 most endangered rivers in America (CNN)
+- [3] Climate Change Forces Difficult Decisions Along the Colorado River
+- [4] Management of the Colorado River: Water Allocations, Drought, and the Federal Role
+- [5] Colorado River flow dwindles as warming-driven loss of reflective snow energises evaporation
+- [6] Worst megadrought in 1800 year (AGU)
+- [7] Saving the iconic Colorado River — scientists say latest plan is not enough
+- [8] Effects of Climate Change and Land Use on Water Resources in the Upper Colorado River Basin
+- [9] Colorado River states brace for the biggest water cuts ever (VOX)
+- [10] Colorado System at Tipping Point
+- [11] Why is the colorado river drying up?
