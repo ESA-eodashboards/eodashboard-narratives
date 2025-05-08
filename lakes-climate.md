@@ -67,5 +67,19 @@ The interactive map shows the Tulare Lake observed by ESA's Copernicus Sentinel-
 
 Read more on the [NASA Earth Observatory](https://earthobservatory.nasa.gov/images/151284/tulare-lake-grows).
 
+## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"Lakes_S2L2A-2023-05-26T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"SENTINEL-2-L2A-TRUE-COLOR","styles":"","format":"image/png","time":"2023-05-26/2023-05-27"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.397305647995216" center=[-119.68983575326105,35.94075337243754] }-->
 
+## Reduced ice cover on Lake Balaton
+
+Climate change and the consequent warming of lakes is leading to earlier and more prolonged loss of winter ice in lakes [1]. More than 100,000 lakes are at risk of having ice-free winters if air temperatures increase by 4°C [2]. While the probability of having an ice-free winter has risen dramatically for lakes around the world, those in more southern and coastal regions are especially vulnerable due to higher average winter temperatures [3]. Lake Balaton, located in Hungary, is the largest lake in central Europe. Known for its ice cover during winter months, the lake has been experiencing a decrease in the duration and thickness of ice cover in recent decades compared to historical records [4]. 
+
+![](https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Eodashboard_lakebalaton_2307112.png?raw=true)
+
+A study investigated the tipping points of winter ice cover lakes across North America. The research identified critical temperature thresholds at which ice cover transitions from stable to unstable conditions. The authors found that in general, shallow and deep lakes (where winter air temperatures are around 0°C) and large, deep lakes in colder regions are particularly sensitive to losing ice cover [5]. Many lakes in the Northern Hemisphere are experiencing the shortest seasons of ice cover ever recorded, and identified Lake Superior (the largest of the Great Lakes of North America) as one of the fastest warming lakes in the world [6].
+
+The reduction in ice cover, which results from warming air temperatures [1] [4], has significant implications for the local ecosystem and economy as it affects the lake’s hydrodynamics, water quality as well as recreational activities. Also, Lake Balaton had a record-setting algal bloom in 2019, which studies have concluded to be an effect of climate change-induced changes [7]. Long-term time series of freshwater ice have a potential resource for (paleo)climatological research due to the strong link between water and air temperature and freshwater phenomena [4]. The timing of ice melting and water level peaks can have significant impacts for various sectors, including energy production [8]. This sector relies on predictable water supply, and therefore the timing of ice melt and water peaks is crucial for forecasting energy production. Changes in timing can disrupt water resource management, potentially leading to challenges in energy generation or water availability for irrigation [8]. Understanding tipping points and their implications for ice cover loss is crucial for managing water resources, preserving ecosystems and anticipating the impacts across several sectors that depend on these inland water bodies.
+
+## Map
+
+The map below shows a comparison of the lake surface temperature of Lake Balaton (Hungary) for 2010 and 2020.
 
