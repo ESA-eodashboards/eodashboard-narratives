@@ -21,7 +21,7 @@ For example, the northwest Pacific Oyashio front region (Figure 1.) is considere
 Figure 1. Northwest Pacific Oyahio front region
 
 Satellite sensors that observe ocean color help us estimate the spatial distribution and temporal changes in phytoplankton mass, their productivity and ability to absorb carbon dioxide (CO2), and related environmental variables that impact ecosystem health. Satellites provide important information to adequately carry out ecosystem-based management for the sustainable use of marine biological resources.
-Explore Datasets
 
+## Explore Datasets
  
 Use the interactive map to see how Ocean NPP vary globally. The compare feature on this map allows looking at NPP on two different dates.
