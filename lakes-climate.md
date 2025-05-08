@@ -40,3 +40,15 @@ Changing rainfall patterns due to climate change can affect water levels and the
 Water levels in Tonlé Sap hit historic lows for the third year in a row in 2021 [2]. Moreover, the construction of dams and hydropower projects in the upstream areas of the Tonlé Sap basin has altered the natural water flow and sedimentation patterns in the lake [2,4]. In addition to climate change, large-scale dams are disrupting the timing and size of floods during the wet seasons, which are critical to sustaining the health of the Tonlé Sap and the Mekong basin and maintaining the livelihoods of millions of people. In fact, this lake is also at a tipping point, as it faces the imminent risk of ecological collapse due to the combination of threats from dams and climate change [5].
 
 In addition, recent studies have shown that water level changes in the Mekong River due to dams are likely to have dramatic effects on the Tonlé Sap water level, greatly affecting the ecosystem. Relatively small rises in the lake's water level would permanently inundate disproportionately large areas of floodplain, leaving them inaccessible to floodplain vegetation and eroding the productivity basis of the ecosystem [7]. The water changes in water discharge from the Mekong River have also been affecting the inflow of sediments, nutrients and migratory aquatic animals, which are essential to the ecosystem [8]. In fact, in 2019, a combination of climate change, El Nino, and dams on the Mekong resulted in the Tonlé Sap River flowing backwards for weeks (rather than months) leaving the lake’s water warm, shallow and oxygen-deprived, which eventually led to the a decline of 80-90% of fisheries [9].
+
+## Map
+
+The interactive map shows the Tonlé Sap observed by JAXA's ALOS-2 radar satellite. [Access this dataset](https://eodashboard.org/explore?x=11646065.15255&y=1413919.65202&z=9.80439&poi=TonleSap_HV-Lakes_ALOS2&search=Tonl%C3%A9+Sap+Lake%3A+ALOS2+HV+-+Tonl%C3%A9+Sap)
+
+## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"Lakes_ALOS2"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA_LAKES_ALOS2_HH","styles":"","format":"image/png"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.099700430342956" center=[104.13122286094041,12.78557562008588] }-->
+
+##
+
+![](https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2015/05/cambodian_rivers/15398170-1-eng-GB/Cambodian_rivers_pillars.jpg)
+
+*Flooded landscape in Cambodia between the Mekong River (right) and Tonlé Sap river (left) pictured by Japan’s ALOS satellite, CC JAXA/ESA*
