@@ -25,3 +25,5 @@ Satellite sensors that observe ocean color help us estimate the spatial distribu
 ## Explore Datasets
  
 Use the interactive map to see how Ocean NPP vary globally. The compare feature on this map allows looking at NPP on two different dates.
+
+## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N11_ocean_primary_productivity-2024-08-16T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:ONPP-GCOMC-World-Monthly","styles":"","format":"image/png","time":"2024-08-16T11:59:30Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="2.130570562805427" center=[0,-12.739391072848534] }-->
