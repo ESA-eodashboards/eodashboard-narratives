@@ -99,17 +99,17 @@ Access environmental and climatic variables using Earth System Data Lab's xcube 
 
 ### Evapotranspiration and water level in the Colorado River
 
-- [1] [Evapotranspiration](https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/evapotranspiration)
-- [2] [The top 10 most endangered rivers in America (CNN)](https://edition.cnn.com/2022/04/18/us/endangered-rivers-colorado-climate/index.html)
-- [3] [Climate Change Forces Difficult Decisions Along the Colorado River](https://www.npca.org/articles/3336-climate-change-forces-difficult-decisions-along-the-colorado-river)
-- [4] [Management of the Colorado River: Water Allocations, Drought, and the Federal Role]()
-- [5] [Colorado River flow dwindles as warming-driven loss of reflective snow energises evaporation]()
-- [6] [Worst megadrought in 1800 year (AGU)]()
-- [7] [Saving the iconic Colorado River — scientists say latest plan is not enough]()
-- [8] [Effects of Climate Change and Land Use on Water Resources in the Upper Colorado River Basin]()
-- [9] [Colorado River states brace for the biggest water cuts ever (VOX)]()
-- [10] [Colorado System at Tipping Point]()
-- [11] [Why is the colorado river drying up?]()
+- \[1\] [Evapotranspiration](https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/evapotranspiration)
+- \[2\] [The top 10 most endangered rivers in America (CNN)](https://edition.cnn.com/2022/04/18/us/endangered-rivers-colorado-climate/index.html)
+- \[3\] [Climate Change Forces Difficult Decisions Along the Colorado River](https://www.npca.org/articles/3336-climate-change-forces-difficult-decisions-along-the-colorado-river)
+- \[4\] [Management of the Colorado River: Water Allocations, Drought, and the Federal Role](https://sgp.fas.org/crs/misc/R45546.pdf)
+- \[5\] [Colorado River flow dwindles as warming-driven loss of reflective snow energises evaporation](https://www.science.org/doi/10.1126/science.aay9187)
+- \[6\] [Worst megadrought in 1800 year (AGU)](https://news.agu.org/press-release/the-colorado-river-basins-worst-known-megadrought-was-1800-years-ago-scientists-discover/)
+- \[7\] [Saving the iconic Colorado River — scientists say latest plan is not enough](https://doi.org/10.1038/d41586-023-01746-y)
+- \[8\] [Effects of Climate Change and Land Use on Water Resources in the Upper Colorado River Basin](https://pubs.usgs.gov/fs/2010/3123/pdf/FS10-3123.pdf)
+- \[9\] [Colorado River states brace for the biggest water cuts ever (VOX)](https://www.vox.com/science/2023/4/13/23680422/colorado-river-lake-mead-drought-cuts)
+- \[10\] [Colorado System at Tipping Point](https://www.sltrib.com/news/2022/06/18/system-is-tipping-point/)
+- \[11\] [Why is the colorado river drying up?](https://www.newsweek.com/why-colorado-river-drying-1768471)
 
 ### Changing precipitation patterns affecting lake’s hydrology
 
