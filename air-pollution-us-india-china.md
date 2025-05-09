@@ -58,3 +58,7 @@ This highlights the different strategies and technologies employed to reduce the
 
 ![](https://eodashboard.org/data/story-images/China%20SE%20Asia%20OMI%20NO2%202021.png)
 *2021 OMI Tropospheric NO<sub>2</sub> (10<sup>15</sup>mol / cm<sup>2</sup>)*
+
+![](https://eodashboard.org/data/story-images/SO2NO2-China.png)
+
+***CHINA.**   The satellite observations for northeastern China show a different year-to-year story. The timeseries for SO<sub>2</sub> (red) shows a 90% reduction in this pollutant, while the atmospheric levels of NO<sub>2</sub> initially increased after 2005 and then started to decrease after 2011. As of 2021 the atmospheric NO<sub>2</sub> abundance is approximately 20% lower than at the start of the OMI record. This highlights the different strategies and technologies employed to reduce these two pollutants. While SO<sub>2</sub> primarily comes from coal and diesel fuel, the NO<sub>2</sub> is released by all combustion sources and as a result a bit more difficult to control.*
