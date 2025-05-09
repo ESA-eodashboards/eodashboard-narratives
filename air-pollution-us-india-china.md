@@ -68,3 +68,8 @@ This highlights the different strategies and technologies employed to reduce the
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_India.svg/1280px-Flag_of_India.svg.png" alt="drawing" height="50"/>
 
 ## India
+
+The timeseries charts for northeastern India show a steady increase for both NO<sub>2</sub> and SO<sub>2</sub> from 2005-2018, which then leveled off, perhaps due to the deployment of air pollution control technology. The significant drop in both SO<sub>2</sub> and NO<sub>2</sub> in 2020 is most likely the result of the prolonged COVID-19 lockdown in India that resulted in a reduction in fossil fuel combustion.
+
+![](https://eodashboard.org/data/story-images/India%20South%20Asia%20OMI%20NO2%202021.png)
+*2021 OMI Tropospheric NO<sub>2</sub> (10<sup>15</sup>mol / cm<sup>2</sup>)*
