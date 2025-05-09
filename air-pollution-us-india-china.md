@@ -30,7 +30,12 @@ Since its launch, OMI data has seen hazardous gas emissions drop significantly i
 ![](https://eodashboard.org/data/story-images/aura_0.jpg)
 *NASA Aura. Source: [www.nasa.gov](https://www.nasa.gov/directorates/heo/scan/services/missions/earth/Aura.html)*
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Flag_of_the_United_States_%28Pantone%29.svg/1280px-Flag_of_the_United_States_%28Pantone%29.svg.png) UNITED STATES
+##
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Flag_of_the_United_States_%28Pantone%29.svg/1280px-Flag_of_the_United_States_%28Pantone%29.svg.png" alt="drawing" height="50"/>
+
+## United States
+
 
 For example, this image shows decreases in SO<sub>2</sub> and NO<sub>2</sub> in the Ohio River Valley region of the United States. (Note: this website features an interactive tool that allows you to draw a box around areas of interest and see timeseries data for that region). The decreases in the U.S. can be attributed in large part to improved emissions from cars and trucks, as well as a reduction in the sulfur content in fuel. Some improvement is also the result of technology that does a better job of trapping nitrogen and sulfur oxides from power plant smokestacks.  
 
