@@ -36,3 +36,69 @@ Read the full story in this tutorial: [Lockdown is also changing our Planet at n
 High-resolution nighttime images from space, referred to by NASA as the Black Marble HD dataset, provide data on how coronavirus-containment strategies have affected local businesses and neighborhoods. The nightlights sensor can decipher changes in urban business, industry, and transportation activity patterns associated with closures, event cancellations, and reduced vehicle traffic.
 
 ## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"nightlights-2022-03-01T00:00:00Z"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=inferno&rescale=0,255&url=s3://veda-data-store/nightlights-hd-monthly/finalBMHD_ScaledTokyo-23Wards_202203.tif"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="13.925400344493246" center=[139.74557556451532,35.68584873272013] }-->
+
+## The Suomi-NPP Visible Infrared Imaging Radiometer Suite (VIIRS)
+
+ Suomi pioneered the generation of satellite products providing global measurement of nocturnal visible and near-infrared light. The high-resolution nighttime images from space, referred to by NASA as the Black Marble HD dataset, is processed to eliminate light sources like moonlight reflectance and other interferences. Furthermore, before assuming the direct link between decrease of lights and COVID-19-related restrictions it is always important to discard other potential factors for change. Nevertheless, this data can shed a light (pun intended) on how coronavirus-containment strategies have affected local businesses and neighborhoods, deciphering changes in urban business, industry, and transportation activity patterns associated with closures, event cancellations, and reduced vehicle traffic by night.
+ 
+ ### Explore Datasets
+ 
+ This **EO Dashboard** provides access to interactive nightlight maps on a large number of cities, worldwide. Access these datasets by clicking on the [**EXPLORE DATASETS**](https://eodashboard.org/explore) button at the top of the page or directly from the links below:
+
+### NASA Nightlights datasets are available for the following cities:
+
+*   [Dhaka, Bangladesh](https://eodashboard.org/explore?indicator=N5&poi=BD01-N5)
+    
+*   [Ghent, Belgium](https://eodashboard.org/explore?indicator=N5&poi=BE01-N5)
+    
+*   [Beijing, China](https://eodashboard.org/explore?indicator=N5&poi=CN01-N5)
+    
+*   [Hamburg, Germany](https://eodashboard.org/explore?indicator=N5&poi=DE01-N5)
+    
+*   [Barcelona, Spain](https://eodashboard.org/explore?indicator=N5&poi=ES02-N5)
+    
+*   [Madrid, Spain](https://eodashboard.org/explore?indicator=N5&poi=ES01-N5)
+    
+*   [Dunkirk, France](https://eodashboard.org/explore?indicator=N5&poi=FR03-N5)
+    
+*   [Marseille, France](https://eodashboard.org/explore?indicator=N5&poi=FR02-N5)
+    
+*   [Paris, France](https://eodashboard.org/explore?indicator=N5&poi=FR01-N5)
+    
+*   [London, Great Britain](https://eodashboard.org/explore?indicator=N5&poi=GB01-N5)
+    
+*   [Genoa, Italy](https://eodashboard.org/explore?indicator=N5&poi=IT03-N5)
+    
+*   [Milan, Italy](https://eodashboard.org/explore?indicator=N5&poi=IT02-N5)
+    
+*   [Rome, Italy](https://eodashboard.org/explore?indicator=N5&poi=IT02-N5)
+    
+*   [Venice, Italy](https://eodashboard.org/explore?indicator=N5&poi=IT01-N5)
+    
+*   [Aichi Nagoya, Japan](https://eodashboard.org/explore?indicator=N5&poi=JP06-N5)
+    
+*   [Fukuoka, Japan](https://eodashboard.org/explore?indicator=N5&poi=JP05-N5)
+    
+*   [Hokkaido Sapporo, Japan](https://eodashboard.org/explore?indicator=N5&poi=JP04-N5)
+    
+*   [Kyoto, Japan](https://eodashboard.org/explore?indicator=N5&poi=JP03-N5)
+    
+*   [Osaka, Japan](https://eodashboard.org/explore?indicator=N5&poi=JP02-N5)
+    
+*   [Tokyo, Japan](https://eodashboard.org/explore?indicator=N5&poi=JP01-N5)
+    
+*   [Colombo, Sri Lanka](https://eodashboard.org/explore?indicator=N5&poi=LK01-N5)
+    
+*   [Amsterdam, The Netherlands](https://eodashboard.org/explore?indicator=N5&poi=NL01-N5)
+    
+*   [Auckland, Australia](https://eodashboard.org/explore?indicator=N5&poi=NZ01-N5)
+    
+*   [Lima, Peru](https://eodashboard.org/explore?indicator=N5&poi=PE01-N5)
+    
+*   [Gdynia, Poland](https://eodashboard.org/explore?indicator=N5&poi=PL01-N5)
+    
+*   [Puerto Rico, Commonwealth of Puerto Rico](https://eodashboard.org/explore?indicator=N5&poi=PR01-N5)
+    
+*   [Singapore, Republic of Singapore](https://eodashboard.org/explore?indicator=N5&poi=SG01-N5)
+    
+*   [New Orleans, USA](https://eodashboard.org/explore?indicator=N5&poi=US02-N5)
