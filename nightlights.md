@@ -1,8 +1,8 @@
 ---
 cover-image: https://eodashboard.org/data/story-images/13-nightlights.jpg
 date: 2025-01-01
-theme: cryosphere
-tags: arctic,ice,polar
+theme: economy
+tags: light,night,lockdown
 official: true
 ---
 
@@ -102,3 +102,9 @@ High-resolution nighttime images from space, referred to by NASA as the Black Ma
 *   [Singapore, Republic of Singapore](https://eodashboard.org/explore?indicator=N5&poi=SG01-N5)
     
 *   [New Orleans, USA](https://eodashboard.org/explore?indicator=N5&poi=US02-N5)
+
+
+![](https://placehold.co/600x400)
+
+
+*Suomi-NPP. NASA Black Marble data courtesy of Universities Space Research Association (USRA), Earth from Space Institute (EfSI) and NASA Goddard Space Flight Center’s Terrestrial Information Systems Laboratory using VIIRS day-night band data from the Suomi National Polar-orbiting Partnership and Landsat-8 Operational Land Imager (OLI) data from the U.S. Geological Survey.*
