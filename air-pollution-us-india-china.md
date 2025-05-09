@@ -26,3 +26,6 @@ Air pollution is now considered the world's largest environmental health threat,
 NASA scientists began monitoring and measuring nitrogen dioxide (NO2) and sulfur dioxide (SO2) in 2004. The Ozone Monitoring Instrument (OMI), stationed on NASA's [Aura satellite](https://aura.gsfc.nasa.gov/omi.html), provides a unique insight on gasses such as NO2 and SO2, as well as aerosols, such as smoke, dust, and sulfates.
 
 Since its launch, OMI data has seen hazardous gas emissions drop significantly in some areas, while rising in others. Scientists are using the images and data collected to better understand the role of human activities in these changes, and which changes occur through natural processes.
+
+![](https://eodashboard.org/data/story-images/aura_0.jpg)
+*NASA Aura. Source: [www.nasa.gov](https://www.nasa.gov/directorates/heo/scan/services/missions/earth/Aura.html)*
