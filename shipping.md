@@ -35,3 +35,4 @@ Click on the links below to explore ship detections on Planet Labs data on vario
 - [Los Angeles](https://www.eodashboard.org/?indicator=E13c&poi=US02-E13c)
     
 - [Suez Canal](https://www.eodashboard.org/?indicator=E13c&poi=EG01-E13c)
+
