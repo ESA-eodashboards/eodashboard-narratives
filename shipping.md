@@ -36,3 +36,5 @@ Click on the links below to explore ship detections on Planet Labs data on vario
     
 - [Suez Canal](https://www.eodashboard.org/?indicator=E13c&poi=EG01-E13c)
 
+## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Vector","properties":{"id":"Ship detections"},"source":{"type":"Vector"}},{"type":"Tile","properties":{"id":"Shipping Activity at Major Ports-2020-05-20T10:57:05Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"SENTINEL-2-L2A-TRUE-COLOR","format":"image/png","time":"2020-05-20T10:12:05/2020-05-20T11:42:05"}}},{"type":"Tile","properties":{"id":"EOxCloudless 2021"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="12.418491147264769" center=[2.2115209289548927,51.0218377121069] }-->
+
