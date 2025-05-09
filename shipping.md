@@ -38,3 +38,26 @@ Click on the links below to explore ship detections on Planet Labs data on vario
 
 ## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Vector","properties":{"id":"Ship detections"},"source":{"type":"Vector"}},{"type":"Tile","properties":{"id":"Shipping Activity at Major Ports-2020-05-20T10:57:05Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"SENTINEL-2-L2A-TRUE-COLOR","format":"image/png","time":"2020-05-20T10:12:05/2020-05-20T11:42:05"}}},{"type":"Tile","properties":{"id":"EOxCloudless 2021"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="12.418491147264769" center=[2.2115209289548927,51.0218377121069] }-->
 
+## Detection of ships on Sentinel-2 images
+
+
+ ESA engineers based at ESA's [Centre for Earth Observation (ESRIN)](https://www.esa.int/About_Us/ESRIN) trained a Machine Learning algorithm to recognise ships on Copernicus Sentinel-2 satellite images. Sentinel-2 provides high-resolution (10 meters) multi-spectral imagery for land services. It provides for example, imagery of vegetation, soil and water cover, inland waterways and coastal areas. Sentinel-2 also delivers information for emergency services. The Copernicus Sentinel-2 mission comprises a constellation of two polar-orbiting satellites and has a high revisit time (10 days at the equator with one satellite, and 5 days with 2 satellites under cloud-free conditions which results in 2-3 days at mid-latitudes).
+
+To reduce the number of false alarms and mis-detections, a cloud-masking operation is performed on the images before the Machine Learning algorithm is applied. The outputs of the Machine Learning algorithm are bounding boxes of the detected ships within pre-defined areas of interest at major European harbours, such as Genova in Italy or Hamburg in Germany.
+
+Click on the links below to explore ship detections on Planet Labs data on various international ports:
+
+*   [Ghent](https://www.eodashboard.org/?indicator=E13c&poi=BE3-E13c)
+    
+*   [Hamburg](https://www.eodashboard.org/?indicator=E13c&poi=DE1-E13c)
+    
+*   [Dunkirk](https://www.eodashboard.org/?indicator=E13c&poi=FR3-E13c)
+    
+*   [Genoa](https://www.eodashboard.org/?indicator=E13c&poi=IT3-E13c)
+    
+*   [Gdynia](https://www.eodashboard.org/?indicator=E13c&poi=PL1-E13c)
+    
+*   [Suez Canal](https://www.eodashboard.org/?indicator=E13c&poi=EG1-E13c)
+
+## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Vector","properties":{"id":"Ship detections"},"source":{"type":"Vector"}},{"type":"Tile","properties":{"id":"Shipping Activity at Major Ports-2020-05-20T10:57:05Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"SENTINEL-2-L2A-TRUE-COLOR","format":"image/png","time":"2020-05-20T10:12:05/2020-05-20T11:42:05"}}},{"type":"Tile","properties":{"id":"EOxCloudless 2021"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="12.418491147264769" center=[2.2115209289548927,51.0218377121069] }-->
+
