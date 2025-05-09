@@ -165,6 +165,17 @@
     "image": "https://www.eodashboard.org/data/story-images/A2019267212500.CalifornaiCoastalBloom.jpg"
   },
   {
+    "cover-image": "https://eodashboard.org/data/story-images/12-ship-traffic.jpg",
+    "date": "2025-01-01",
+    "theme": "cryosphere",
+    "tags": "climate,ice,polar,warming",
+    "official": true,
+    "file": "https://esa-eodash.github.io/eodashboard-narratives/shipping.md",
+    "title": " Travel restrictions interrupted Global Supply chains dependent on cargo shipping",
+    "subtitle": "Read more about Covid-19 Impacts on global shipping",
+    "image": "https://eodashboard.org/data/story-images/12-ship-traffic.jpg"
+  },
+  {
     "cover-image": "url",
     "date": "2025-01-01",
     "theme": "theme",
