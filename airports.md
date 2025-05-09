@@ -27,15 +27,15 @@ Figure 2 shows a time series animation of SAR images taken from [Sentinel-1](htt
 
 *Figure 2. Sentinel-1 animation at Tokyo International Airport, Haneda from January to June 2020. Brighter pixels in parking areas of the airport may correspond with airplanes at each acquisition date.*
 
-In addition to the SAR imagery, NASA and ESA scientists also used artificial intelligence technology and high-resolution optical imagery from Planet and Copernicus Sentinel-2 to detect and count aircraft on the ground at airports.
+In addition to the SAR imagery, NASA and ESA scientists also used artificial intelligence technology and high-resolution optical imagery from Planet and [Copernicus Sentinel-2](https://sentinel.esa.int/web/sentinel/missions/sentinel-2) to detect and count aircraft on the ground at airports.
 
-Combining high-resolution optical remote sensing data from Planet and Sentinel-2 with SAR imagery from ALOS-2 and Sentinel-1 is a powerful method to provide reliable time series data on the number of aircrafts grounded at airports over time. While imagery from optical satellites like Planet or Sentinel-2 is powerful to monitor changes in grounded aircrafts around the world systematically, their sensors cannot penetrate clouds, limiting the detection capability on cloudy or rainy days. Alternatively, SAR data, while lower resolution, can penetrate clouds. Therefore, scientists are combining these datasets to get the most comprehensive images of changes at aircraft counts at airports during the COVID-19 pandemic.
+Combining high-resolution optical remote sensing data from Planet and Sentinel-2 with SAR imagery from ALOS-2 and [Sentinel-1](https://sentinel.esa.int/web/sentinel/missions/sentinel-1) is a powerful method to provide reliable time series data on the number of aircrafts grounded at airports over time. While imagery from optical satellites like Planet or [Sentinel-2](https://sentinel.esa.int/web/sentinel/missions/sentinel-2) is powerful to monitor changes in grounded aircrafts around the world systematically, their sensors cannot penetrate clouds, limiting the detection capability on cloudy or rainy days. Alternatively, SAR data, while lower resolution, can penetrate clouds. Therefore, scientists are combining these datasets to get the most comprehensive images of changes at aircraft counts at airports during the COVID-19 pandemic.
 
 The following interactive maps show:
 
-    Aircraft detection on the San Francisco airport in the U.S. and Narita airport in Japan, using Planet imagery
-    Aircraft detection over the CDG airport in Paris (France) using Sentinel-2 imagery and AI
+- Aircraft detection on the San Francisco airport in the U.S. and Narita airport in Japan, using Planet imagery
+    
+- Aircraft detection over the CDG airport in Paris (France) using Sentinel-2 imagery and AI
+    
 
- 
-
-More airports can be explored on this dashboard. Click the EXPLORE DATASETS button on top of this page to explore all locations.
+More airports can be explored on this dashboard. Click the [**EXPLORE DATASETS**](https://eodashboard.org/explore) button on top of this page to explore all locations.
