@@ -19,4 +19,6 @@ Researchers are using night lights to track variations in energy use, migration,
 
 They are able to visualize the extent social distancing measures impacted various economic activities based on whether light pollution increased or decreased, which highways were shut down, and which cities stayed the same.
 
+    MISSING IMAGE OF THE PORT OF DUNKIRK
+
 *Port of Dunkirk. Image source: <https://www.cruisemapper.com/ports/dunkirk-port-9901>*
