@@ -91,6 +91,10 @@ This **EO narrative** provides access to interactive maps of Carbon Monoxide, Ni
 - [OMI NO2 - Yearly](https://www.eodashboard.org/?poi=World-N9)
 - [OMI SO2](https://www.eodashboard.org/?poi=W9-N10)
 
-### Accessing the data from NASA's VEDA EOAPI
+## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N9_OMI_trno2-COG-2022-01-01T00:00:00Z"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=reds&rescale=0,37e14&url=s3://veda-data-store/OMI_trno2-COG/OMI_trno2_0.10x0.10_2022_Col3_V4.tif"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="2.562242424221073" center=[18.333333333333336,23.589559810845742] }-->
 
-These datasets are provided by NASA's VEDA EOAPI. The following Notebook illustrates how to access and work with the datasets to recreate the graphs illustrated in this story
+## Accessing the data from NASA's VEDA EOAPI
+
+These datasets are provided by NASA's VEDA EOAPI. The following Notebook illustrates how to access and work with the datasets to recreate the graphs illustrated in this story.
+
+<iframe width="100%" height="90%" src="https://bids2023-nbviewer.hub.eox.at/localfile/bids2023/notebooks/veda_api_bids_2023.ipynb?format=html_plain" frameborder="0"></iframe>
