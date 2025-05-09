@@ -42,3 +42,6 @@ For example, this image shows decreases in SO<sub>2</sub> and NO<sub>2</sub> in 
 ![Ohio River](https://eodashboard.org/data/story-images/ORV%20OMI%20NO2%202021.png)
 
 *2021 OMI Tropospheric NO<sub>2</sub> (10<sup>15</sup>mol / cm<sup>2</sup>)*
+
+![](https://eodashboard.org/data/story-images/SO2NO2-USA.png)
+***USA**.   This image shows decreases in SO<sub>2</sub> and NO<sub>2</sub> in the Ohio River Valley region of the United States. The decreases in the U.S. can be attributed to the improved catalytic converters in cars and trucks and well as a reduction in the sulfur content of fuel that is cleaner than previous years. Some of this improvement is also the result of the implementation of newer technology that does a better job of trapping the nitrogen and sulfur oxides in powerplant smokestacks.*
