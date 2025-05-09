@@ -1,8 +1,8 @@
 ---
 cover-image: https://eodashboard.org/data/story-images/4-ocean-carbon.jpg
 date: 2025-01-01
-theme: atmosphere
-tags: climate,pollution
+theme: oceans
+tags: chlorophyll,marine
 official: true
 ---
 
