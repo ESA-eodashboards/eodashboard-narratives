@@ -76,3 +76,21 @@ The timeseries charts for northeastern India show a steady increase for both NO<
 
 ![](https://eodashboard.org/data/story-images/SO2NO2-India.png)
 ***INDIA**.   The timeseries charts for northeastern India show a steady increase for both NO<sub>2</sub> and SO<sub>2</sub> from 2005 to 2018. Interestingly, the amount of pollution in this region appears to have leveled off over the past few years, perhaps a sign that air pollution control technology has started to be deployed on large pollution sources. The significant drop in both SO<sub>2</sub> and NO<sub>2</sub> for 2020 is most likely the result of the prolonged COVID-19 lockdown in India that resulted in a reduction in fossil fuel combustion.*
+
+## Future Research
+
+These observations represent almost two decades of daily air pollution data that show an increasingly clear picture of where the gas comes from and how the amount entering the atmosphere has changed over time and whether changes in air quality control are making a difference.
+
+## Explore Datasets
+
+Use the **interactive map** on this page to see how yearly nitrogen dioxide levels vary globally. The compare feature on this map allows looking at the levels of NO~2~ in different years.
+
+This **EO narrative** provides access to interactive maps of Carbon Monoxide, Nitrogen Dioxide, and Sulfur Dioxide from NASA's OMI. Access these datasets by clicking on the **[EXPLORE DATASETS](https://www.eodashboard.org/explore)** button at the top of the page or directly from the links below:
+
+- [OMI NO2 - Monthly](https://www.eodashboard.org/?poi=W2-N1)
+- [OMI NO2 - Yearly](https://www.eodashboard.org/?poi=World-N9)
+- [OMI SO2](https://www.eodashboard.org/?poi=W9-N10)
+
+### Accessing the data from NASA's VEDA EOAPI
+
+These datasets are provided by NASA's VEDA EOAPI. The following Notebook illustrates how to access and work with the datasets to recreate the graphs illustrated in this story
