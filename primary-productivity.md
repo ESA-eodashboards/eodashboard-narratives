@@ -46,3 +46,18 @@ Long-term climate records allow us to see how our planet is changing and can pro
 ![](https://eodashboard.org/data/story-images/1-EO-Dashboard_Water_Story_Images_2.png)
 
 *Figure 3: Annual global primary production for each year in the period between 1998 and 2018 (from Kulk et al., 2021)*
+
+The Interactive map below provided by NASA shows Global Ocean Primary Productivity.
+ 
+Explore more datasets by clicking the EXPLORE DATASETS button at the top of this page.
+
+## References
+
+- Kulk, G.; Platt, T.; Dingle, J.; Jackson, T.; Jönsson, B.F.; Bouman, H.A.; Babin, M.; Brewin, R.J.W.; Doblin, M.; Estrada, M.; Figueiras, F.G.; Furuya, K.; González-Benítez, N.; Gudfinnsson, H.G.; Gudmundsson, K.; Huang, B.; Isada, T.; Kovač, Ž.; Lutz, V.A.; Marañón, E.; Raman, M.; Richardson, K.; Rozema, P.D.; Poll, W.H.v.d.; Segura, V.; Tilstone, G.H.; Uitz, J.; Dongen-Vogels, V.v.; Yoshikawa, T.; Sathyendranath, S. Primary Production, an Index of Climate Change in the Ocean: Satellite-Based Estimates over Two Decades. Remote Sens. 2020, 12, 826. https://doi.org/10.3390/rs12050826
+
+- Signorini S. R., Franz Bryan A., McClain Charles R., .: Chlorophyll variability in the oligotrophic gyres: mechanisms, seasonality and trends.Frontiers in Marine Science 2015 Vol. 2, https://www.frontiersin.org/article/10.3389/fmars.2015.00001, DOI=10.3389/fmars.2015.00001
+
+- Leonelli F. E., M. Bellacicco M., Pitarch Portero J., Organelli, E.Buongiorno Nardelli B., V. de Toma V., C. Cammarota C., S. Marullo S., R. Santoleri R. , Ultra-oligotrophic waters expansion in the North Atlantic Subtropical Gyre revealed by 21 years of satellite observations. Submitted to GRL, 2022.
+
+- Behrenfeld, M.J., Falkowski P.G.. Photosynthetic rates derived from satellite-based chlorophyll concentration. Limnology and Oceanography, 1997 Volume 42: 1-20
+
