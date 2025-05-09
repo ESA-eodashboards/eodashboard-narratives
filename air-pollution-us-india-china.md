@@ -73,3 +73,6 @@ The timeseries charts for northeastern India show a steady increase for both NO<
 
 ![](https://eodashboard.org/data/story-images/India%20South%20Asia%20OMI%20NO2%202021.png)
 *2021 OMI Tropospheric NO<sub>2</sub> (10<sup>15</sup>mol / cm<sup>2</sup>)*
+
+![](https://eodashboard.org/data/story-images/SO2NO2-India.png)
+***INDIA**.   The timeseries charts for northeastern India show a steady increase for both NO<sub>2</sub> and SO<sub>2</sub> from 2005 to 2018. Interestingly, the amount of pollution in this region appears to have leveled off over the past few years, perhaps a sign that air pollution control technology has started to be deployed on large pollution sources. The significant drop in both SO<sub>2</sub> and NO<sub>2</sub> for 2020 is most likely the result of the prolonged COVID-19 lockdown in India that resulted in a reduction in fossil fuel combustion.*
