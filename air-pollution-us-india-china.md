@@ -45,3 +45,13 @@ For example, this image shows decreases in SO<sub>2</sub> and NO<sub>2</sub> in 
 
 ![](https://eodashboard.org/data/story-images/SO2NO2-USA.png)
 ***USA**.   This image shows decreases in SO<sub>2</sub> and NO<sub>2</sub> in the Ohio River Valley region of the United States. The decreases in the U.S. can be attributed to the improved catalytic converters in cars and trucks and well as a reduction in the sulfur content of fuel that is cleaner than previous years. Some of this improvement is also the result of the implementation of newer technology that does a better job of trapping the nitrogen and sulfur oxides in powerplant smokestacks.*
+
+##
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/800px-Flag_of_the_People%27s_Republic_of_China.svg.png" alt="drawing" height="50"/>
+
+## China
+
+Satellite observations for northeastern China show a different story. The data for SO<sub>2</sub> (red) show a 90% reduction in this pollutant from 2005-2021. The atmospheric levels of NO<sub>2</sub> initially increased after 2005, then started to decrease after 2011. As of 2021 the atmospheric NO<sub>2</sub> abundance is approximately 20% lower than at the start of the OMI record.
+
+This highlights the different strategies and technologies employed to reduce these two pollutants. While SO<sub>2</sub> primarily comes from coal and diesel fuel, the NO<sub>2</sub> is released by all combustion sources and as a result a bit more difficult to control.
