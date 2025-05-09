@@ -35,6 +35,14 @@ Together, the regional increases and decreases in primary production largely bal
 
 Long-term climate records allow us to see how our planet is changing and can provide the necessary information to mitigate negative effects to our ecosystem and way of life.
 
+![](https://eodashboard.org/data/story-images/1-EO-Dashboard_Water_Story_Images.png)
+
+*Figure 2: (1) Linear trends in primary production between 1998-2018 given as percentage change (the gray areas represent non-significant trends; from Kulk et al., 2021)*
+
+![](https://eodashboard.org/data/story-images/Delta%20NPP.png)
+
+*Figure 2: (2) Changes in primary production based on the VGPM Model (Behrenfeld and Falkowski, 1997) over the period 1998-2022. Red colors indicate increases, while bluish colors indicate decreases. Seasonally ice covered areas, like the poles, are not included in this analysis and are shown in white.*
+
 ![](https://eodashboard.org/data/story-images/1-EO-Dashboard_Water_Story_Images_2.png)
 
 *Figure 3: Annual global primary production for each year in the period between 1998 and 2018 (from Kulk et al., 2021)*
