@@ -7,7 +7,7 @@ official: true
 ---
 
 # Antarctic Ice lows <!--{ as="img" mode="hero" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.antarcticglaciers.org%2Fwp-content%2Fuploads%2F2013%2F10%2Fsea-ice.jpg&f=1&nofb=1&ipt=6adc1515792ec744345ee0000e71b395a33bb9f6813f34e52f987bfbf3dd7827&ipo=images" }-->
-### Unprecedented Antarctic Sea Ice Decline in 2023: Record Lows and Historic Anomalies <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+### CHANGE Unprecedented Antarctic Sea Ice Decline in 2023: Record Lows and Historic Anomalies <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## Antarctic Ice lows
 While the global temperature records in 2023 and 2024 made many headlines, also some remarkable events and record breaking events took place in the Antarctic. On 16 February 2023, the Copernicus Marine Service recorded a new record decline in sea ice coverage around Antarctica, standing at [just 1.77 million km2](https://marine.copernicus.eu/news/antarctic-summer-sea-ice-minimum-lowest-ever-observed ), which was 36% less than the 1979-2022 average daily minimum. Since then, the Antarctic sea ice [continued to drop to record lows](https://marine.copernicus.eu/news/2023-northern-hemisphere-summer-record-breaking-oceanic-events ) in May and June 2023, particularly in the Weddell, Bellingshausen, and the Ross Sea's western part (visualized below). Following the summer minimum, the Antarctic sea ice coverage remained exceptionally low during the autumn and winter advance, which led to the largest negative areal extent anomalies observed ever (with satellites) - meaning that not only the annual minimum in February hit a record, also the annual maximum in September [set a new record](https://www.nature.com/articles/s43247-023-00961-9). On september, the Antarctic sea ice reached its annual maximum extent of 16.96 million km2 setting a new record low maximum in the satellite record (i.e. since 1979). 
@@ -49,6 +49,8 @@ Antarctic: Record minimums (summer) continue to be recorded in 2022 and 2023. In
     </figcaption>
 </figure>
 
+
+## Simple Image Example <!--{as="img" data-fallback-src="https://raw.githubusercontent.com/santilland/eodashboard-narratives/santilland/kickoffexample/assets/santilland/peakpx-1744373399014.jpg" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/c8ad043770577125c718b746b753975e4aa9afe7/assets/peakpx-1744373399014.jpg" style="width: 100%; height: 600px;"}-->
 
 ## Changes in Antarctic sea ice extent
 
