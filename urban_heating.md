@@ -32,7 +32,7 @@ CLIM4cities is a European Space Agency-funded project led by the Danish Meteorol
 
 - [ESA Climate Change Initiative - Land Surface Temperature](https://climate.esa.int/en/projects/land-surface-temperature/) - This ESA-funded project provides comprehensive global land surface temperature datasets derived from multiple satellite sensors (infrared and microwave) on both polar-orbiting and geostationary platforms. 
 
-- [Urban TEP](https://urban-tep.eu/#!) Focuses on urban heat and other urban phenomena, including surface temperature and urban heat island effects. UrbanTEP users can now seek for get sponsored access via the  [ESA Network of Resources (NoR) initiative](https://nor-discover.org/)
+- [Urban TEP](https://urban-tep.eu/#!) Focuses on urban heat and other urban phenomena, including surface temperature and urban heSara Aparício at island effects. UrbanTEP users can now seek for get sponsored access via the  [ESA Network of Resources (NoR) initiative](https://nor-discover.org/)
 
 #### Open data satellite missions:
 - [Copernicus Sentinel-3 satellite mission]() The Copernicus Sentinel-3 SLSTR (Sea and Land Surface Temperature Radiometer), offers day and night surface temperature data; useful for regional heatwave analysis and heatmaps. 
@@ -51,4 +51,5 @@ CLIM4cities is a European Space Agency-funded project led by the Danish Meteorol
 
 ### Contributors
 
-
+Sara Aparício (Solenix c/o ESA), Rajat Shinde (NASA), Derek Koehl (NASA), Manil Maskey (NASA), Ryan Pavlick (NASA), Quentin Paletta (ESA), Paul Fisher (ESA)
+    
