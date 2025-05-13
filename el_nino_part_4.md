@@ -86,11 +86,7 @@ https://www.earthdata.nasa.gov/data/instruments/smap-l-band-radiometer/near-real
 - [NASA SWOT](https://podaac.jpl.nasa.gov/dataset/SWOT_L2_HR_RiverSP_2.0 ) river water surface elevation, slope, and width
 16 December 2022 to present https://www.swordexplorer.com/; 
 
-Especially due to extreme weather events (high temperature in Land and Ocean), there were many intense tropical cyclones/hurricanes and typhoons around the world. The intense Tropical Cyclone Freddy was an exceptionally long-lived, powerful, and deadly tropical cyclone that traversed the southern Indian Ocean for more than five weeks in February and March 2023. Freddy made its first landfall near Mananjary, Madagascar, on 21 February 2023. Though it weakened while crossing the island, the cyclone regained strength once it entered the Mozambique Channel. It reached Mozambique on 24 February near Vilankulos, causing further damage. After crossing Mozambique and returning to the channel, Freddy intensified again and made its final landfall near Quelimane on 11 March. By 14 March, the storm had dissipated inland after causing widespread damage and flooding across Madagascar, Mozambique, and surrounding regions.
 
-Its path and multiple landfalls, along with the fact that it persisted through such a lengthy period, made it a standout cyclone in terms of both meteorological history and the human impact it left behind.
-
-By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monitors precipitation and inundated area by Cyclone Freddy.
 
 
 
@@ -106,10 +102,10 @@ Caption: Estimated land change area including inundated area around river (blue 
 
 
 
-##  ## The 2023 Freddy Cyclone in Mozambique <!--{ as="eox-map" mode="tour" }-->
+##  The 2023 Freddy Cyclone in Mozambique <!--{ as="eox-map" mode="tour" }-->
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Urban"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-URBAN","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="7.568167497148919" center=[-81.69190982357188,36.13000317868601] animationOptions={duration:500}}-->
-#### NTLU (Nighttime Light Urban)
-The **NTLU** provides a comprehensive global spatial representation of nighttime light levels in urban areas. It is derived from satellite observations from the Suomi NPP satellite. This dataset is valuable for studying the **distribution of artificial lighting in urban regions**, offering insights into urban growth, infrastructure development, and socio-economic activity. 
+#### Tropical Cyclone Freddy 
+Especially due to extreme weather events (high temperature in Land and Ocean), there were many intense tropical cyclones/hurricanes and typhoons around the world. The intense Tropical Cyclone Freddy was an exceptionally long-lived, powerful, and deadly tropical cyclone that traversed the southern Indian Ocean for more than five weeks in February and March 2023. 
 <figure style="text-align: center;">
     <img src="https://eospso.nasa.gov/sites/default/files/sat/Suomi-NPP.jpg" 
          alt=" Sea ice concentration in May 2023. " 
@@ -125,8 +121,8 @@ The **NTLU** provides a comprehensive global spatial representation of nighttime
 
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Urban"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-URBAN","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.823650315180059" center=[-73.99550312972447,40.83001718614142] animationOptions={duration:500}}-->
-#### 
-The dataset covers urban areas globally, highlighting nighttime light levels to analyze urbanization, energy use, and economic activities.
+#### Madagascar, 21 February 2023
+Freddy made its first landfall near Mananjary, Madagascar, on 21 February 2023. Though it weakened while crossing the island, the cyclone regained strength once it entered the Mozambique Channel.
 <figure style="text-align: center;">
     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flive.staticflickr.com%2F8745%2F16384318544_178f2f5482_b.jpg&f=1&nofb=1&ipt=25829b7e1b15806e923ac37a1f3283fca53fcec2090012dc5cd4fa2d91cceaa7&ipo=images" 
          alt=" " 
@@ -144,8 +140,12 @@ The dataset covers urban areas globally, highlighting nighttime light levels to 
 This dataset metrics, are **'nighttime radiance values'** (measured in nanowatts per square centimeter per steradian, nW/cm²/sr), which represent the **brightness of artificial lighting in urban areas**. From this, the Nighttime Light Intensity (NTLI) can be generated, a composite of observations reflecting the overall intensity of visible nighttime lights in urban landscapes.
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Rural"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-RURAL","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.351542873898163" center=[2.8882348682431447,44.576074219821635] animationOptions={duration:500}}-->
-#### Nighttime Light Rural (NTLR)
-This dataset, **NTLR (Nighttime Light Rural)**, also derived from Suomi NPPM provides a comprehensive global spatial representation of nighttime light levels in **rural areas**. This dataset is valuable for studying the distribution of artificial lighting in **rural regions**, offering insights into human activity, **infrastructure development**, and **rural electrification**. 
+####  Mozambique on 24 February 
+ It reached Mozambique on 24 February near Vilankulos, causing further damage. After crossing Mozambique and returning to the channel, Freddy intensified again and made its final landfall near Quelimane on 11 March. By 14 March, the storm had dissipated inland after causing widespread damage and flooding across Madagascar, Mozambique, and surrounding regions.
+
+Its path and multiple landfalls, along with the fact that it persisted through such a lengthy period, made it a standout cyclone in terms of both meteorological history and the human impact it left behind.
+
+By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monitors precipitation and inundated area by Cyclone Freddy.
 <figure style="text-align: center;">
     <img src=https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flive.staticflickr.com%2F3235%2F2878685617_eeff89373a_z.jpg&f=1&nofb=1&ipt=6f0925220b598c383594d4fe09dd64cf085f3474e27ddb90ccdb727f5d1e627e&ipo=images" 
          alt=" " 
