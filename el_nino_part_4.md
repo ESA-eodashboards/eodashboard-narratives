@@ -12,8 +12,7 @@ In the case of floodings, these happen to changes in rainfall patterns worldwide
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Horn_of_Africa_%28orthographic_projection%29.svg/800px-Horn_of_Africa_%28orthographic_projection%29.svg.png" 
          alt=" Photograph taken from onboard the International Space Station showing a nighttime Paris and London. . " 
          style="display: block; margin: 0 auto;"
-         width="400
-								">
+         width="400								">
     <figcaption>
          Horn of Africa (orthographic projection) 
         <a href="https://commons.wikimedia.org/w/index.php?curid=8990864" target="_blank">
@@ -21,7 +20,6 @@ In the case of floodings, these happen to changes in rainfall patterns worldwide
         </a>.
     </figcaption>
 </figure>
-
 
 
 El Niño-induced heavy rains and flooding across East Africa in October-November 2023, claimed over 350 lives and displaced more than one million people across  Somalia, Kenya, Ethiopia and Tanzania. In Kenya alone, 136 people lost their lives and nearly half a million were displaced. President William Ruto declared a state of emergency in response to the widespread devastation [[2]]( https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl/index.html). The flooding compounded the region’s ongoing food insecurity crisis brought on by drought conditions that have persisted since 2020 [[3]](https://earthobservatory.nasa.gov/images/150712/worst-drought-on-record-parches-horn-of-africa). In the ‘Horn of Africa’, there are typically two rainy seasons: the short rains from October to December and the long rains from March to May. The October-December 2023 rainy period was extreme with precipitation totals double to quadruple the average in southern and western Ethiopia, Somalia and Kenya. The excessive rainfall led to the Shebelle River overflowing its banks and flooding central Somalia, particularly in Beledweyne [[4]](https://earthobservatory.nasa.gov/images/152108/devastating-flooding-in-east-africa). 
@@ -60,7 +58,7 @@ In an alert issued on 8 May 2024,  the International Organization for Migration 
 In addition to heavy rains and subsequent flooding, which occurred after prolonged drought conditions in these areas, there has also been a surge in water-borne diseases such as cholera, and mosquito and flea-transmitted diseases including malaria, plague, and Rift Valley fever [[10]](https://earthobservatory.nasa.gov/features/disease-vector) [[11]](https://www.theguardian.com/environment/2023/aug/10/return-of-el-nino-raises-risk-of-hunger-drought-and-malaria-scientists-warn) , due to standing water, damaged latrines and a lack of access to safe drinking water. Furthermore, damaged infrastructure and impassable roads, particularly in the hardest-hit areas of  the region, hindered the efforts of aid agencies [[12]](https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl). 
 
 
-##  The 2023 Freddy Cyclone <!--{ as="eox-map" mode="tour" }-->
+##  Freddy, longest-lived tropical Cyclone <!--{ as="eox-map" mode="tour" }-->
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"precipitation-2023-02-16T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:PRC-GSMaP-World-Monthly","styles":"","format":"image/png","time":"2023-02-16T11:59:30Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="5.411189291266405" center=[44.88668807701002,-19.0640383043078] animationOptions={duration:500}}-->
 #### Tropical Cyclone Freddy 
 Especially due to extreme weather events (high temperature in Land and Ocean), there were many intense tropical cyclones/hurricanes and typhoons around the world. The intense Tropical Cyclone Freddy became the longest-lived named tropical cyclone on record. This exceptionally powerful, and deadly tropical cyclone that traversed the southern Indian Ocean for more than five weeks in February and March 2023. 
