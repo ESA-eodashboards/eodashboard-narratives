@@ -35,9 +35,11 @@ CLIM4cities is a European Space Agency-funded project led by the Danish Meteorol
 - [Urban TEP](https://urban-tep.eu/#!) Focuses on urban heat and other urban phenomena, including surface temperature and urban heat island effects. UrbanTEP users can now seek for get sponsored access via the  [ESA Network of Resources (NoR) initiative](https://nor-discover.org/)
 
 #### Open data satellite missions:
-- [Copernicus Sentinel-3 satellite mission]() The Copernicus Sentinel-3 SLSTR (Sea and Land Surface Temperature Radiometer), offers day and night surface temperature data; useful for regional heatwave analysis and heatmaps. Access data via the [Coperni](https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel3.html)
+- [Copernicus Sentinel-3 satellite mission]() The Copernicus Sentinel-3 SLSTR (Sea and Land Surface Temperature Radiometer), offers day and night surface temperature data; useful for regional heatwave analysis and heatmaps. 
+	- Access data via the [Copernicus Data Space Ecosystem](https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel3.html)
 
-- [ECOSTRESS data](https://ecostress.jpl.nasa.gov/data/) -  The images acquired by ECOSTRESS are the most detailed temperature images of the surface ever acquired from space and can be used to measure the temperature of an individual farmers field. The ECOSTRESS radiometer has been deployed on International Space Station (ISS) on the Japanese Experiment Module - External Facility (JEM-EF) site 10. ECOSTRESS data can be access at the [earthdata.nasa.gov](https://search.earthdata.nasa.gov/search?q=ecostress&ac=true).
+- [ECOSTRESS data](https://ecostress.jpl.nasa.gov/data/) -  The images acquired by ECOSTRESS are the most detailed temperature images of the surface ever acquired from space and can be used to measure the temperature of an individual farmers field. The ECOSTRESS radiometer has been deployed on International Space Station (ISS) on the Japanese Experiment Module - External Facility (JEM-EF) site 10. 
+	- ECOSTRESS data can be access at the [earthdata.nasa.gov](https://search.earthdata.nasa.gov/search?q=ecostress&ac=true).
 
 - [Copernicus Climate Change Monitoring Service (C3S) Heatwave Magnitude Index Daily (HWMId)]()
 
