@@ -90,11 +90,6 @@ https://www.earthdata.nasa.gov/data/instruments/smap-l-band-radiometer/near-real
 
 
 
-IMAGE HERE FROM CICLONE
-caption: The (left) 24- and (right) 48-hour precipitation accumulation estimates (in mm) from GSMaP for the period starting from 0200 UTC 11 March 2023. 
-
-ANOTHER IMAGE HERE FROM THE FLOOD
-Caption: Estimated land change area including inundated area around river (blue color area) by heavy rain using ALOS-2 ScanSAR (25m) observation data on March 15 (Green and Blue) and April 26 (Red) in Mozambique.
 
 
 
@@ -159,6 +154,11 @@ By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monito
         </a>
     </figcaption>
 </figure>
+IMAGE HERE FROM CICLONE
+caption: The (left) 24- and (right) 48-hour precipitation accumulation estimates (in mm) from GSMaP for the period starting from 0200 UTC 11 March 2023. 
+
+ANOTHER IMAGE HERE FROM THE FLOOD
+Caption: Estimated land change area including inundated area around river (blue color area) by heavy rain using ALOS-2 ScanSAR (25m) observation data on March 15 (Green and Blue) and April 26 (Red) in Mozambique.
 
 
 ## References
@@ -174,48 +174,5 @@ By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monito
 - 10 -  https://www.theguardian.com/environment/2023/aug/10/return-of-el-nino-raises-risk-of-hunger-drought-and-malaria-scientists-warn 
 - 11 -  https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl 
 																																										
-											
-Datasets identified for ingestion/illustrated the story on EO dashboard:  
-Description
-Dataset ID, dates and AOI
-Dates
-AOI
-False color of flooded area of Beledweyne
-2 images of Beledweyne OLI (Operational Land Imager) on Landsat 8
-November 15, 2023 and September 12, 2023. 
-Beledweyne 
-https://unosat.org/static/unosat_filesystem/3566/UNOSAT_Preliminary_Assessment_Report_FL20230327SOM_Beledweyne_20Apr2023%20(1).pdf 
-24 hour and 48 hour accumulated precipitation
-GSMaP (JAXA GLOBAL RAINFALL WATCH)
-From March 11, 2023 to March 13, 2023
-Around Quelimane
-https://sharaku.eorc.jaxa.jp/GSMaP/
-False color of inundated area (flooded area) in Mozambique
-ALOS-2 ScanSAR (25m) data
-March 15 (Green and Blue) and April 26 (Red) in Mozambique.
-https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR-2_Level2_2_ScanSAR
- 
-https://earth.jaxa.jp/
-
-
-NASA OPERA operational 30-m dynamic surface water extent
-4 April 2023 to present
-https://podaac.jpl.nasa.gov/dataset/OPERA_L3_DSWX-HLS_V1
-
-
-NASA LANCE MODIS near-realtime 250-m flood product
-15 March 2021 to present
-https://www.earthdata.nasa.gov/data/instruments/modis/near-real-time-data
-
-
-NASA SMAP near-realtime 36-km soil moisture
-From two-weeks preceding through present
-https://www.earthdata.nasa.gov/data/instruments/smap-l-band-radiometer/near-real-time-data
-
-
-NASA SWOT river water surface elevation, slope, and width
-16 December 2022 to present
-https://www.swordexplorer.com/; https://podaac.jpl.nasa.gov/dataset/SWOT_L2_HR_RiverSP_2.0 
-
-																						
-
+### Contributors						
+Sara Aparicio (Solenix c/o ESA)
