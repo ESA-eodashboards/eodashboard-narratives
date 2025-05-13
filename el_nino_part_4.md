@@ -43,6 +43,77 @@ In an alert issued on 8 May 2024,  the International Organization for Migration 
 
 In addition to heavy rains and subsequent flooding, which occurred after prolonged drought conditions in these areas, there has also been a surge in water-borne diseases such as cholera, and mosquito and flea-transmitted diseases including malaria, plague, and Rift Valley fever [[10]](https://earthobservatory.nasa.gov/features/disease-vector) [[11]](https://www.theguardian.com/environment/2023/aug/10/return-of-el-nino-raises-risk-of-hunger-drought-and-malaria-scientists-warn) , due to standing water, damaged latrines and a lack of access to safe drinking water. Furthermore, damaged infrastructure and impassable roads, particularly in the hardest-hit areas of  the region, hindered the efforts of aid agencies [[12]](https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl). 
 
+
+##  The 2023 Freddy Cyclone in Mozambique <!--{ as="eox-map" mode="tour" }-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Urban"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-URBAN","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="7.568167497148919" center=[-81.69190982357188,36.13000317868601] animationOptions={duration:500}}-->
+#### Tropical Cyclone Freddy 
+Especially due to extreme weather events (high temperature in Land and Ocean), there were many intense tropical cyclones/hurricanes and typhoons around the world. The intense Tropical Cyclone Freddy was an exceptionally long-lived, powerful, and deadly tropical cyclone that traversed the southern Indian Ocean for more than five weeks in February and March 2023. 
+<figure style="text-align: center;">
+    <img src="https://eospso.nasa.gov/sites/default/files/sat/Suomi-NPP.jpg" 
+         alt=" Sea ice concentration in May 2023. " 
+         style="display: block; margin: 0 auto;"
+         width="500">
+    <figcaption>
+         SUOMI-NPP Satellite. Source:
+        <a href="https://eospso.nasa.gov/missions/suomi-national-polar-orbiting-partnership" target="_blank">
+             NASA
+        </a>.
+    </figcaption>
+</figure>
+
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Urban"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-URBAN","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.823650315180059" center=[-73.99550312972447,40.83001718614142] animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"precipitation-2023-02-16T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:PRC-GSMaP-World-Monthly","styles":"","format":"image/png","time":"2023-02-16T11:59:30Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="5.411189291266405" center=[44.88668807701002,-19.0640383043078] animationOptions={duration:500}}-->
+#### Madagascar, 21 February 2023
+Freddy made its first landfall near Mananjary, Madagascar, on 21 February 2023. Though it weakened while crossing the island, the cyclone regained strength once it entered the Mozambique Channel.
+<figure style="text-align: center;">
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flive.staticflickr.com%2F8745%2F16384318544_178f2f5482_b.jpg&f=1&nofb=1&ipt=25829b7e1b15806e923ac37a1f3283fca53fcec2090012dc5cd4fa2d91cceaa7&ipo=images" 
+         alt=" " 
+         style="display: block; margin: 0 auto;"
+         width="800
+								">
+    <figcaption>
+        Times Square at night, New York. Credit: 
+        <a href="https://www.flickr.com/photos/106447493@N05/16384318544" target="_blank">
+             Leon Yaakkov
+        </a>
+    </figcaption>
+</figure>
+
+Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+
+
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Urban"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-URBAN","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.823650315180059" center=[-73.99550312972447,40.83001718614142] animationOptions={duration:500}}-->
+####  Mozambique on 24 February 
+ It reached Mozambique on 24 February near Vilankulos, causing further damage. After crossing Mozambique and returning to the channel, Freddy intensified again and made its final landfall near Quelimane on 11 March. By 14 March, the storm had dissipated inland after causing widespread damage and flooding across Madagascar, Mozambique, and surrounding regions.
+
+
+<figure style="text-align: center;">
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flive.staticflickr.com%2F8745%2F16384318544_178f2f5482_b.jpg&f=1&nofb=1&ipt=25829b7e1b15806e923ac37a1f3283fca53fcec2090012dc5cd4fa2d91cceaa7&ipo=images" 
+         alt=" " 
+         style="display: block; margin: 0 auto;"
+         width="800
+								">
+    <figcaption>
+        Times Square at night, New York. Credit: 
+        <a href="https://www.flickr.com/photos/106447493@N05/16384318544" target="_blank">
+             Leon Yaakkov
+        </a>
+    </figcaption>
+</figure>
+
+Its path and multiple landfalls, along with the fact that it persisted through such a lengthy period, made it a standout cyclone in terms of both meteorological history and the human impact it left behind.
+
+By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monitors precipitation and inundated area by Cyclone Freddy.
+
+IMAGE HERE FROM CICLONE
+caption: The (left) 24- and (right) 48-hour precipitation accumulation estimates (in mm) from GSMaP for the period starting from 0200 UTC 11 March 2023. 
+
+ANOTHER IMAGE HERE FROM THE FLOOD
+Caption: Estimated land change area including inundated area around river (blue color area) by heavy rain using ALOS-2 ScanSAR (25m) observation data on March 15 (Green and Blue) and April 26 (Red) in Mozambique.
+
+																																										
 ## Open Science datasets
 Satellites can serve an important role in monitoring floods worldwide, with sensors that measure changes in water levels, flood extent, and flood damage to crops and infrastructure.
 
@@ -68,12 +139,9 @@ Shows global precipitation map, updated every 30 minutes.For users who would lik
 	- [JAXA GLOBAL RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP/index.htm)
 Shows hourly global precipitation map since March 2000. For users who would like to see daily or monthly precipitation.
 	- [JAXA CLIMATE RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP_CLM/index.htm)You Shows see indices related to extreme heavy rainfall and drought as well as accumulated precipitation. 
-	
-	
+		
 - [NASA OPERA](https://podaac.jpl.nasa.gov/dataset/OPERA_L3_DSWX-HLS_V1) operational 30-m dynamic surface water extent
 4 April 2023 to present
-
-
 
 - [NASA LANCE MODIS](https://www.earthdata.nasa.gov/data/instruments/modis/near-real-time-data) near-realtime 250-m flood product
 15 March 2021 to present
@@ -82,84 +150,8 @@ Shows hourly global precipitation map since March 2000. For users who would like
 From two-weeks preceding through present
 https://www.earthdata.nasa.gov/data/instruments/smap-l-band-radiometer/near-real-time-data
 
-
 - [NASA SWOT](https://podaac.jpl.nasa.gov/dataset/SWOT_L2_HR_RiverSP_2.0 ) river water surface elevation, slope, and width
 16 December 2022 to present https://www.swordexplorer.com/; 
-
-
-
-
-
-
-
-
-
-
-
-
-##  The 2023 Freddy Cyclone in Mozambique <!--{ as="eox-map" mode="tour" }-->
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Urban"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-URBAN","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="7.568167497148919" center=[-81.69190982357188,36.13000317868601] animationOptions={duration:500}}-->
-#### Tropical Cyclone Freddy 
-Especially due to extreme weather events (high temperature in Land and Ocean), there were many intense tropical cyclones/hurricanes and typhoons around the world. The intense Tropical Cyclone Freddy was an exceptionally long-lived, powerful, and deadly tropical cyclone that traversed the southern Indian Ocean for more than five weeks in February and March 2023. 
-<figure style="text-align: center;">
-    <img src="https://eospso.nasa.gov/sites/default/files/sat/Suomi-NPP.jpg" 
-         alt=" Sea ice concentration in May 2023. " 
-         style="display: block; margin: 0 auto;"
-         width="500">
-    <figcaption>
-         SUOMI-NPP Satellite. Source:
-        <a href="https://eospso.nasa.gov/missions/suomi-national-polar-orbiting-partnership" target="_blank">
-             NASA
-        </a>.
-    </figcaption>
-</figure>
-
-
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Urban"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-URBAN","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.823650315180059" center=[-73.99550312972447,40.83001718614142] animationOptions={duration:500}}-->
-#### Madagascar, 21 February 2023
-Freddy made its first landfall near Mananjary, Madagascar, on 21 February 2023. Though it weakened while crossing the island, the cyclone regained strength once it entered the Mozambique Channel.
-<figure style="text-align: center;">
-    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flive.staticflickr.com%2F8745%2F16384318544_178f2f5482_b.jpg&f=1&nofb=1&ipt=25829b7e1b15806e923ac37a1f3283fca53fcec2090012dc5cd4fa2d91cceaa7&ipo=images" 
-         alt=" " 
-         style="display: block; margin: 0 auto;"
-         width="800
-								">
-    <figcaption>
-        Times Square at night, New York. Credit: 
-        <a href="https://www.flickr.com/photos/106447493@N05/16384318544" target="_blank">
-             Leon Yaakkov
-        </a>
-    </figcaption>
-</figure>
-
-This dataset metrics, are **'nighttime radiance values'** (measured in nanowatts per square centimeter per steradian, nW/cm²/sr), which represent the **brightness of artificial lighting in urban areas**. From this, the Nighttime Light Intensity (NTLI) can be generated, a composite of observations reflecting the overall intensity of visible nighttime lights in urban landscapes.
-
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Rural"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-RURAL","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.351542873898163" center=[2.8882348682431447,44.576074219821635] animationOptions={duration:500}}-->
-####  Mozambique on 24 February 
- It reached Mozambique on 24 February near Vilankulos, causing further damage. After crossing Mozambique and returning to the channel, Freddy intensified again and made its final landfall near Quelimane on 11 March. By 14 March, the storm had dissipated inland after causing widespread damage and flooding across Madagascar, Mozambique, and surrounding regions.
-
-Its path and multiple landfalls, along with the fact that it persisted through such a lengthy period, made it a standout cyclone in terms of both meteorological history and the human impact it left behind.
-
-By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monitors precipitation and inundated area by Cyclone Freddy.
-<figure style="text-align: center;">
-    <img src=https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flive.staticflickr.com%2F3235%2F2878685617_eeff89373a_z.jpg&f=1&nofb=1&ipt=6f0925220b598c383594d4fe09dd64cf085f3474e27ddb90ccdb727f5d1e627e&ipo=images" 
-         alt=" " 
-         style="display: block; margin: 0 auto;"
-         width="800
-								">
-    <figcaption>
-       Beledweyne is shown in the image above (right) on November 15, 2023. For comparison, the image on the left shows the same area on September 12, 2023. The images, acquired by the OLI (Operational Land Imager) on Landsat 8, are a false color to emphasize the presence of water (blue), vegetation (green), and cumulus clouds (white). 
-        <a href="https://www.flickr.com/photos/bcm_photo/2878685617" target="_blank">
-             Ben Murray
-        </a>
-    </figcaption>
-</figure>
-IMAGE HERE FROM CICLONE
-caption: The (left) 24- and (right) 48-hour precipitation accumulation estimates (in mm) from GSMaP for the period starting from 0200 UTC 11 March 2023. 
-
-ANOTHER IMAGE HERE FROM THE FLOOD
-Caption: Estimated land change area including inundated area around river (blue color area) by heavy rain using ALOS-2 ScanSAR (25m) observation data on March 15 (Green and Blue) and April 26 (Red) in Mozambique.
-
 
 ## References
 - 1 - https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl/index.html
@@ -175,4 +167,4 @@ Caption: Estimated land change area including inundated area around river (blue 
 - 11 -  https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl 
 																																										
 ### Contributors						
-Sara Aparicio (Solenix c/o ESA)
+Sara Aparicio (Solenix c/o ESA),  Shinichi Sobue (JAXA), Nao Yoshida (JAXA),  Karim Douch (ESA), Craig Ferguson (NASA) 
