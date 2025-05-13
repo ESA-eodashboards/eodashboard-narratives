@@ -44,25 +44,7 @@ In an alert issued on 8 May 2024,  the International Organization for Migration 
 In addition to heavy rains and subsequent flooding, which occurred after prolonged drought conditions in these areas, there has also been a surge in water-borne diseases such as cholera, and mosquito and flea-transmitted diseases including malaria, plague, and Rift Valley fever [[10]](https://earthobservatory.nasa.gov/features/disease-vector) [[11]](https://www.theguardian.com/environment/2023/aug/10/return-of-el-nino-raises-risk-of-hunger-drought-and-malaria-scientists-warn) , due to standing water, damaged latrines and a lack of access to safe drinking water. Furthermore, damaged infrastructure and impassable roads, particularly in the hardest-hit areas of  the region, hindered the efforts of aid agencies [[12]](https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl). 
 
 
-##  The 2023 Freddy Cyclone in Mozambique <!--{ as="eox-map" mode="tour" }-->
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Urban"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-URBAN","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="7.568167497148919" center=[-81.69190982357188,36.13000317868601] animationOptions={duration:500}}-->
-#### Tropical Cyclone Freddy 
-Especially due to extreme weather events (high temperature in Land and Ocean), there were many intense tropical cyclones/hurricanes and typhoons around the world. The intense Tropical Cyclone Freddy was an exceptionally long-lived, powerful, and deadly tropical cyclone that traversed the southern Indian Ocean for more than five weeks in February and March 2023. 
-<figure style="text-align: center;">
-    <img src="https://eospso.nasa.gov/sites/default/files/sat/Suomi-NPP.jpg" 
-         alt=" Sea ice concentration in May 2023. " 
-         style="display: block; margin: 0 auto;"
-         width="500">
-    <figcaption>
-         SUOMI-NPP Satellite. Source:
-        <a href="https://eospso.nasa.gov/missions/suomi-national-polar-orbiting-partnership" target="_blank">
-             NASA
-        </a>.
-    </figcaption>
-</figure>
-
-
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Urban"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-URBAN","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.823650315180059" center=[-73.99550312972447,40.83001718614142] animationOptions={duration:500}}-->
+##  The 2023 Freddy Cyclone <!--{ as="eox-map" mode="tour" }-->
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"precipitation-2023-02-16T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:PRC-GSMaP-World-Monthly","styles":"","format":"image/png","time":"2023-02-16T11:59:30Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="5.411189291266405" center=[44.88668807701002,-19.0640383043078] animationOptions={duration:500}}-->
 #### Tropical Cyclone Freddy 
 Especially due to extreme weather events (high temperature in Land and Ocean), there were many intense tropical cyclones/hurricanes and typhoons around the world. The intense Tropical Cyclone Freddy was an exceptionally long-lived, powerful, and deadly tropical cyclone that traversed the southern Indian Ocean for more than five weeks in February and March 2023. 
@@ -79,12 +61,10 @@ Especially due to extreme weather events (high temperature in Land and Ocean), t
     </figcaption>
 </figure>
 
-Freddy made its first landfall near Mananjary,  **Madagascar, on 21 February 2023**. Though it weakened while crossing the island, the cyclone regained strength once it entered the Mozambique Channel.
+By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monitors precipitation and inundated area by Cyclone Freddy. Freddy made its first landfall near Mananjary,  **Madagascar, on 21 February 2023**. Though it weakened while crossing the island, the cyclone regained strength once it entered the Mozambique Channel.
 
 
-
-
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Urban"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-URBAN","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.823650315180059" center=[-73.99550312972447,40.83001718614142] animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"precipitation-2023-03-16T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:PRC-GSMaP-World-Monthly","styles":"","format":"image/png","time":"2023-03-16T11:59:30Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="5.740330691441288" center=[32.73943452510538,-19.5103007938022] animationOptions={duration:500}}-->
 ####  Mozambique on 24 February 
  It reached Mozambique on 24 February near Vilankulos, causing further damage. After crossing Mozambique and returning to the channel, Freddy intensified again and made its final landfall near Quelimane on 11 March. By 14 March, the storm had dissipated inland after causing widespread damage and flooding across Madagascar, Mozambique, and surrounding regions.
 
@@ -105,7 +85,7 @@ Freddy made its first landfall near Mananjary,  **Madagascar, on 21 February 202
 
 Its path and multiple landfalls, along with the fact that it persisted through such a lengthy period, made it a standout cyclone in terms of both meteorological history and the human impact it left behind.
 
-By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monitors precipitation and inundated area by Cyclone Freddy.
+
 
 IMAGE HERE FROM CICLONE
 caption: The (left) 24- and (right) 48-hour precipitation accumulation estimates (in mm) from GSMaP for the period starting from 0200 UTC 11 March 2023. 
