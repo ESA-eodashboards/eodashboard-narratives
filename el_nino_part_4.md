@@ -2,7 +2,7 @@
 
 ***The 2023–2024 El Niño has peaked as one of the five strongest on record. This story is the Part 4 of a series dedicated to its impacts. [Part 1](https://eodashboard.org/story?id=el-nino-extremes) focuses on record-breaking land surface temperatures, heatwaves, and nighttime temperatures, while [Part 2](https://eodashboard.org/story?id=sea-surface-temperature-rise) focuses on global sea surface temperature rises and marine heatwaves and [Part 3]() focuses on impacts on food security.***
 
-## El Niño Driving Flooding Events
+## El Niño Driving Flood and storms
 
 El Niño is characterized by the warming of water surfaces in the central and eastern Pacific ocean, causing  - read more about this climate phenomenon in the first story. This warming results in a shift of the global atmospheric circulation, which can lead to extreme weather events such as [heatwaves](https://eodashboard.org/story?id=el-nino-extremes), the [global rise of sea surface temperature](https://eodashboard.org/story?id=sea-surface-temperature-rise), [droughts]() or floodings.
 In the case of floodings, these happen to changes in rainfall patterns worldwide, even if they are far from the Pacific. In 2023, El Niño caused above-average rainfall, which  led to intense and prolonged downpours, causing rivers to overflow and widespread flooding. In East Africa, this rainfall is belived to amplify another ocean-atmosphere phenomenon, the Indian Ocean Dipole (IOD)[[1]](https://www.icpac.net/fsnwg/special-report-el-ni%C3%B1o-and-positive-indian-ocean-dipole-to-have-significant-multi-sectoral-impacts-in-east-africa/), which led to widespread flooding in the Greater Horn of Africa region.
@@ -48,23 +48,43 @@ Satellites can serve an important role in monitoring floods worldwide, with sens
 
 Space agencies including ESA, NASA, and JAXA offer access to these datasets, equipping emergency responders, researchers, and policymakers with critical insights. Below are some satellite missions and satellite-based, open-access datasets dedicated to flood detection and monitoring:
 
-### Satellite missions
+### Missions
 - [Copernicus Sentinel-1 mission]() captures radar imagery, allowing to detect changes in surface water levels, identify flooded areas, and assess the severity of flooding events with high spatial resolution. In fact, the Copernicus Emergency Management Service (CEMS) has developed the Global Flood Monitoring (GFM) system that processes all incoming Sentinel-1 data to provide near-real time flood extent maps. 
 
 - [Copernicus Sentinel-2 mission]() can contribute to flood monitoring through its multispectral imaging capabilities at various wavelengths, enabling the detection of floodwater and the assessment of flood extent, land cover changes, and flood-induced damages, and is used also by Copernicus Emergency Management Service (CEMS). 
 
 - [NASA's Earth Observing System (EOS) satellites]() also play a vital role in flood monitoring. Satellites such as Landsat, Terra, Aqua, and SMAP provide microwave, multispectral,thermal imaging data, which can be used to monitor changes in water bodies, identify flooded areas, and assess flood impacts on surrounding landscapes. 
+
 - [NASA’s SWOT](), launched in 2022, measures global river water level, slope, width, and area, which supports space-based estimates of river discharge.  
+
+- [NASA/JAXA’s Global Precipitation Measurement (GPM) mission]() provides valuable information on precipitation patterns and intensity, aiding in flood forecasting and early warning systems.
 
 ### Datasets
 - [NASA also produces an operational, surface water extent product]() that merges NASA Landsat and ESA Sentinel-2 data. Merging observations from multiple satellites is one way to ensure that extreme hydrological events are comprehensively observed, enhancing flood detectability . 
 
-Moreover, NASA/JAXA’s Global Precipitation Measurement (GPM) mission provides valuable information on precipitation patterns and intensity, aiding in flood forecasting and early warning systems. To support extreme weather event monitoring and disaster mitigation using satellites, JAXA also develops and operates multi-satellite global precipitation map named “GSMaP” under the GPM Mission, by using Dual-frequency Precipitation Radar (DPR) onboard GPM core satellites, other GPM constellation satellites, and Geostationary satellites in cooperation with partners. The main feature of the GSMaP algorithm is utilization of various attributes derived from the spaceborne precipitation radar, TRMM/PR and GPM/DPR. Precipitation information by GSMaP has been widely used, not only for scientific purposes, but also for meteorology, disaster prevention, climate monitoring, agricultural monitoring, public health, education and so on. GSMaP website offers the following global precipitation information 
-- [JAXA REALTIME RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP_NOW/index.htm)
+- [JAXA's multi-satellite global precipitation map named “GSMaP]() JAXA operates the “GSMaP” map under the GPM Mission, by using Dual-frequency Precipitation Radar (DPR) onboard GPM core satellites, other GPM constellation satellites, and Geostationary satellites in cooperation with partners. The main feature of the GSMaP algorithm is utilization of various attributes derived from the spaceborne precipitation radar, TRMM/PR and GPM/DPR. Precipitation information by GSMaP has been widely used, not only for scientific purposes, but also for meteorology, disaster prevention, climate monitoring, agricultural monitoring, public health, education and so on. GSMaP website offers the following global precipitation information: 
+	- [JAXA REALTIME RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP_NOW/index.htm)
 Shows global precipitation map, updated every 30 minutes.For users who would like to see precipitation in the past specific date.
-- [JAXA GLOBAL RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP/index.htm)
+	- [JAXA GLOBAL RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP/index.htm)
 Shows hourly global precipitation map since March 2000. For users who would like to see daily or monthly precipitation.
-- [JAXA CLIMATE RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP_CLM/index.htm)You Shows see indices related to extreme heavy rainfall and drought as well as accumulated precipitation. 
+	- [JAXA CLIMATE RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP_CLM/index.htm)You Shows see indices related to extreme heavy rainfall and drought as well as accumulated precipitation. 
+	
+	
+- [NASA OPERA](https://podaac.jpl.nasa.gov/dataset/OPERA_L3_DSWX-HLS_V1) operational 30-m dynamic surface water extent
+4 April 2023 to present
+
+
+
+- [NASA LANCE MODIS](https://www.earthdata.nasa.gov/data/instruments/modis/near-real-time-data) near-realtime 250-m flood product
+15 March 2021 to present
+
+- [NASA SMAP](https://www.earthdata.nasa.gov/data/instruments/smap-l-band-radiometer/near-real-time-data) near-realtime 36-km soil moisture
+From two-weeks preceding through present
+https://www.earthdata.nasa.gov/data/instruments/smap-l-band-radiometer/near-real-time-data
+
+
+- [NASA SWOT](https://podaac.jpl.nasa.gov/dataset/SWOT_L2_HR_RiverSP_2.0 ) river water surface elevation, slope, and width
+16 December 2022 to present https://www.swordexplorer.com/; 
 
 Especially due to extreme weather events (high temperature in Land and Ocean), there were many intense tropical cyclones/hurricanes and typhoons around the world. The intense Tropical Cyclone Freddy was an exceptionally long-lived, powerful, and deadly tropical cyclone that traversed the southern Indian Ocean for more than five weeks in February and March 2023. Freddy made its first landfall near Mananjary, Madagascar, on 21 February 2023. Though it weakened while crossing the island, the cyclone regained strength once it entered the Mozambique Channel. It reached Mozambique on 24 February near Vilankulos, causing further damage. After crossing Mozambique and returning to the channel, Freddy intensified again and made its final landfall near Quelimane on 11 March. By 14 March, the storm had dissipated inland after causing widespread damage and flooding across Madagascar, Mozambique, and surrounding regions.
 
@@ -86,7 +106,7 @@ Caption: Estimated land change area including inundated area around river (blue 
 
 
 
-##  Urban and Rural NTL <!--{ as="eox-map" mode="tour" }-->
+##  ## The 2023 Freddy Cyclone in Mozambique <!--{ as="eox-map" mode="tour" }-->
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Urban"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-URBAN","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="7.568167497148919" center=[-81.69190982357188,36.13000317868601] animationOptions={duration:500}}-->
 #### NTLU (Nighttime Light Urban)
 The **NTLU** provides a comprehensive global spatial representation of nighttime light levels in urban areas. It is derived from satellite observations from the Suomi NPP satellite. This dataset is valuable for studying the **distribution of artificial lighting in urban regions**, offering insights into urban growth, infrastructure development, and socio-economic activity. 
