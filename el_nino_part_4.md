@@ -1,13 +1,29 @@
-# El Niño 2023-2024: severe flooding in East Africa
+# El Niño 2023-2024: floodings and cyclone impacts in East Africa
 
-***The 2023–2024 El Niño has peaked as one of the five strongest on record. This story is the Part 4 of a series dedicated to its impacts. [Part 1](https://eodashboard.org/story?id=el-nino-extremes) focuses on record-breaking land surface temperatures, heatwaves, and nighttime temperatures, while [Part 2](https://eodashboard.org/story?id=sea-surface-temperature-rise) focuses on global sea surface temperature rises and marine heatwaves and [Part 3]() focuses on impacts on food security.***
+***The 2023–2024 El Niño has peaked as one of the five strongest on record. This story is the Part 4 of a series dedicated to its impacts. [Part 1](https://eodashboard.org/story?id=el-nino-extremes) focuses on record-breaking land surface temperatures, heatwaves, and nighttime temperatures, while [Part 2](https://eodashboard.org/story?id=sea-surface-temperature-rise) focuses on global sea surface temperature rises and marine heatwaves and [Part 3]() focuses on impacts on food security worldwide.***
 
-## El Niño Driving Flood and storms
+El Niño is characterized by the warming of water surfaces in the central and eastern Pacific ocean, causing  - read more about this climate phenomenon in the first story. This warming results in a shift of the global atmospheric circulation, which can lead to extreme weather events such as [heatwaves](https://eodashboard.org/story?id=el-nino-extremes), the [global rise of sea surface temperature](https://eodashboard.org/story?id=sea-surface-temperature-rise), [droughts](), floodings and storms.
 
-El Niño is characterized by the warming of water surfaces in the central and eastern Pacific ocean, causing  - read more about this climate phenomenon in the first story. This warming results in a shift of the global atmospheric circulation, which can lead to extreme weather events such as [heatwaves](https://eodashboard.org/story?id=el-nino-extremes), the [global rise of sea surface temperature](https://eodashboard.org/story?id=sea-surface-temperature-rise), [droughts]() or floodings.
-In the case of floodings, these happen to changes in rainfall patterns worldwide, even if they are far from the Pacific. In 2023, El Niño caused above-average rainfall, which  led to intense and prolonged downpours, causing rivers to overflow and widespread flooding. In East Africa, this rainfall is belived to amplify another ocean-atmosphere phenomenon, the Indian Ocean Dipole (IOD)[[1]](https://www.icpac.net/fsnwg/special-report-el-ni%C3%B1o-and-positive-indian-ocean-dipole-to-have-significant-multi-sectoral-impacts-in-east-africa/), which led to widespread flooding in the Greater Horn of Africa region.
 
-## The 2023 floods in East Africa
+## The 2023 floodings in the 'Horn of Africa'
+In the case of floodings, these happen to changes in rainfall patterns worldwide, even if they are far from the Pacific. In 2023, El Niño caused above-average rainfall, which  led to intense and prolonged downpours, causing rivers to overflow and widespread flooding. In East Africa, this rainfall is belived to amplify another ocean-atmosphere phenomenon, the Indian Ocean Dipole (IOD)[[1]](https://www.icpac.net/fsnwg/special-report-el-ni%C3%B1o-and-positive-indian-ocean-dipole-to-have-significant-multi-sectoral-impacts-in-east-africa/), which led to widespread flooding in the Somali Region, also knonw as the **Horn of Africa**.
+
+<figure style="text-align: center;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Horn_of_Africa_%28orthographic_projection%29.svg/800px-Horn_of_Africa_%28orthographic_projection%29.svg.png" 
+         alt=" Photograph taken from onboard the International Space Station showing a nighttime Paris and London. . " 
+         style="display: block; margin: 0 auto;"
+         width="400
+								">
+    <figcaption>
+         Horn of Africa (orthographic projection) 
+        <a href="https://commons.wikimedia.org/w/index.php?curid=8990864" target="_blank">
+             By L'Américain - Own work, CC BY-SA 3.0
+        </a>.
+    </figcaption>
+</figure>
+
+
+
 El Niño-induced heavy rains and flooding across East Africa in October-November 2023, claimed over 350 lives and displaced more than one million people across  Somalia, Kenya, Ethiopia and Tanzania. In Kenya alone, 136 people lost their lives and nearly half a million were displaced. President William Ruto declared a state of emergency in response to the widespread devastation [[2]]( https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl/index.html). The flooding compounded the region’s ongoing food insecurity crisis brought on by drought conditions that have persisted since 2020 [[3]](https://earthobservatory.nasa.gov/images/150712/worst-drought-on-record-parches-horn-of-africa). In the ‘Horn of Africa’, there are typically two rainy seasons: the short rains from October to December and the long rains from March to May. The October-December 2023 rainy period was extreme with precipitation totals double to quadruple the average in southern and western Ethiopia, Somalia and Kenya. The excessive rainfall led to the Shebelle River overflowing its banks and flooding central Somalia, particularly in Beledweyne [[4]](https://earthobservatory.nasa.gov/images/152108/devastating-flooding-in-east-africa). 
 
 <figure style="text-align: center;">
@@ -47,13 +63,11 @@ In addition to heavy rains and subsequent flooding, which occurred after prolong
 ##  The 2023 Freddy Cyclone <!--{ as="eox-map" mode="tour" }-->
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"precipitation-2023-02-16T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:PRC-GSMaP-World-Monthly","styles":"","format":"image/png","time":"2023-02-16T11:59:30Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="5.411189291266405" center=[44.88668807701002,-19.0640383043078] animationOptions={duration:500}}-->
 #### Tropical Cyclone Freddy 
-Especially due to extreme weather events (high temperature in Land and Ocean), there were many intense tropical cyclones/hurricanes and typhoons around the world. The intense Tropical Cyclone Freddy was an exceptionally long-lived, powerful, and deadly tropical cyclone that traversed the southern Indian Ocean for more than five weeks in February and March 2023. 
+Especially due to extreme weather events (high temperature in Land and Ocean), there were many intense tropical cyclones/hurricanes and typhoons around the world. The intense Tropical Cyclone Freddy became the longest-lived named tropical cyclone on record. This exceptionally powerful, and deadly tropical cyclone that traversed the southern Indian Ocean for more than five weeks in February and March 2023. 
 <figure style="text-align: center;">
-    <img src="https://eospso.nasa.gov/sites/default/files/sat/Suomi-NPP.jpg" 
+    <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/151000/151065/tcfreddy_vir_2023067.jpg" 
          alt=" Sea ice concentration in May 2023. " 
-         style="display: block; margin: 0 auto;"
-         width="500">
-    <figcaption>
+   <figcaption>
          SUOMI-NPP Satellite. Source:
         <a href="https://eospso.nasa.gov/missions/suomi-national-polar-orbiting-partnership" target="_blank">
              NASA
@@ -61,37 +75,36 @@ Especially due to extreme weather events (high temperature in Land and Ocean), t
     </figcaption>
 </figure>
 
-By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monitors precipitation and inundated area by Cyclone Freddy. Freddy made its first landfall near Mananjary,  **Madagascar, on 21 February 2023**. Though it weakened while crossing the island, the cyclone regained strength once it entered the Mozambique Channel.
+By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monitors precipitation and inundated area by Cyclone Freddy. Freddy made its first landfall near Mananjary,  **Madagascar, on 21 February 2023**. Though it weakened while crossing the island, the cyclone regained strength once it entered the Mozambique Channel. It reached Mozambique on 24 February near Vilankulos, causing further damage. 
 
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"precipitation-2023-03-16T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:PRC-GSMaP-World-Monthly","styles":"","format":"image/png","time":"2023-03-16T11:59:30Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="5.740330691441288" center=[32.73943452510538,-19.5103007938022] animationOptions={duration:500}}-->
-####  Mozambique on 24 February 
- It reached Mozambique on 24 February near Vilankulos, causing further damage. After crossing Mozambique and returning to the channel, Freddy intensified again and made its final landfall near Quelimane on 11 March. By 14 March, the storm had dissipated inland after causing widespread damage and flooding across Madagascar, Mozambique, and surrounding regions.
+####  Final landafall in Quelimane, Mozambique
+After crossing Mozambique and returning to the channel, Freddy intensified again and made its final landfall near Quelimane on 11 March. By 14 March, the storm had dissipated inland after causing widespread damage and flooding across Madagascar, Mozambique, and surrounding regions.
 
 
 <figure style="text-align: center;">
-    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flive.staticflickr.com%2F8745%2F16384318544_178f2f5482_b.jpg&f=1&nofb=1&ipt=25829b7e1b15806e923ac37a1f3283fca53fcec2090012dc5cd4fa2d91cceaa7&ipo=images" 
-         alt=" " 
-         style="display: block; margin: 0 auto;"
-         width="800
-								">
-    <figcaption>
-        Times Square at night, New York. Credit: 
-        <a href="https://www.flickr.com/photos/106447493@N05/16384318544" target="_blank">
-             Leon Yaakkov
+    <img 
+        src="https://earthdata.nasa.gov/s3fs-public/styles/hds_large/public/2023-03/Flooding_Moz_Malawi_22Mar2023_Aqua_Terra_wiotw_1.jpg?VersionId=XJs7_Wl4XnQBpYyrTCCgC717H10WNU9p&itok=01aRUJlE" 
+        alt="Flooding in Mozambique and Malawi from NASA MODIS Satellites" 
+        style="max-width: 100%; height: auto; display: block; margin: 0 auto;"
+    >
+    <figcaption style="margin-top: 8px;">
+        True-color corrected reflectance image of flooding in Mozambique and Malawi, acquired with Moderate Resolution Imaging Spectroradiometer (MODIS) instruments aboard NASA's Terra and Aqua satellites. Credit: 
+        <a href="https://www.earthdata.nasa.gov/news/worldview-image-archive/flooding-mozambique-malawi" target="_blank">
+            NASA EarthDATA
         </a>
     </figcaption>
 </figure>
 
+
 Its path and multiple landfalls, along with the fact that it persisted through such a lengthy period, made it a standout cyclone in terms of both meteorological history and the human impact it left behind.
 
-
-
+ ***NOTES FOR THE EDITION OF THE STORY
 IMAGE HERE FROM CICLONE
 caption: The (left) 24- and (right) 48-hour precipitation accumulation estimates (in mm) from GSMaP for the period starting from 0200 UTC 11 March 2023. 
-
 ANOTHER IMAGE HERE FROM THE FLOOD
-Caption: Estimated land change area including inundated area around river (blue color area) by heavy rain using ALOS-2 ScanSAR (25m) observation data on March 15 (Green and Blue) and April 26 (Red) in Mozambique.
+Caption: Estimated land change area including inundated area around river (blue color area) by heavy rain using ALOS-2 ScanSAR (25m) observation data on March 15 (Green and Blue) and April 26 (Red) in Mozambique.***
 
 																																										
 ## Open Science datasets
