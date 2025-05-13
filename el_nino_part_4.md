@@ -64,23 +64,23 @@ Especially due to extreme weather events (high temperature in Land and Ocean), t
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Urban"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-URBAN","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.823650315180059" center=[-73.99550312972447,40.83001718614142] animationOptions={duration:500}}-->
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"precipitation-2023-02-16T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:PRC-GSMaP-World-Monthly","styles":"","format":"image/png","time":"2023-02-16T11:59:30Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="5.411189291266405" center=[44.88668807701002,-19.0640383043078] animationOptions={duration:500}}-->
-#### Madagascar, 21 February 2023
-Freddy made its first landfall near Mananjary, Madagascar, on 21 February 2023. Though it weakened while crossing the island, the cyclone regained strength once it entered the Mozambique Channel.
+#### Tropical Cyclone Freddy 
+Especially due to extreme weather events (high temperature in Land and Ocean), there were many intense tropical cyclones/hurricanes and typhoons around the world. The intense Tropical Cyclone Freddy was an exceptionally long-lived, powerful, and deadly tropical cyclone that traversed the southern Indian Ocean for more than five weeks in February and March 2023. 
 <figure style="text-align: center;">
-    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flive.staticflickr.com%2F8745%2F16384318544_178f2f5482_b.jpg&f=1&nofb=1&ipt=25829b7e1b15806e923ac37a1f3283fca53fcec2090012dc5cd4fa2d91cceaa7&ipo=images" 
-         alt=" " 
+    <img src="https://eospso.nasa.gov/sites/default/files/sat/Suomi-NPP.jpg" 
+         alt=" Sea ice concentration in May 2023. " 
          style="display: block; margin: 0 auto;"
-         width="800
-								">
+         width="500">
     <figcaption>
-        Times Square at night, New York. Credit: 
-        <a href="https://www.flickr.com/photos/106447493@N05/16384318544" target="_blank">
-             Leon Yaakkov
-        </a>
+         SUOMI-NPP Satellite. Source:
+        <a href="https://eospso.nasa.gov/missions/suomi-national-polar-orbiting-partnership" target="_blank">
+             NASA
+        </a>.
     </figcaption>
 </figure>
 
-Text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
+Freddy made its first landfall near Mananjary,  **Madagascar, on 21 February 2023**. Though it weakened while crossing the island, the cyclone regained strength once it entered the Mozambique Channel.
+
 
 
 
