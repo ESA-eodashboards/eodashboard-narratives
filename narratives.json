@@ -330,6 +330,11 @@
     "image": "assets/previews/12-ship-traffic_preview.png"
   },
   {
+    "cover-image": "https://eodashboard.org/data/story-images/12-ship-traffic.jpg",
+    "date": "2025-01-01",
+    "theme": "agriculture",
+    "tags": "crop,food,supply",
+    "official": true,
     "file": "https://esa-eodash.github.io/eodashboard-narratives/world_crop_supply_and_demand.md",
     "title": "Satellites are providing insights into agricultural production, crop conditions, and food supply",
     "subtitle": "Read more about satellite data applications for environmental impacts on world cereal supply and demand",
