@@ -1,5 +1,5 @@
 ---
-cover-image: [https://eodashboard.org/data/story-images/12-ship-traffic.jpg](https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Agriculture.jpeg)
+cover-image: https://eodashboard.org/data/story-images/12-ship-traffic.jpg
 date: 2025-01-01
 theme: agriculture
 tags: crop,food,supply
