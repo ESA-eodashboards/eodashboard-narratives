@@ -1,3 +1,11 @@
+---
+cover-image: [https://eodashboard.org/data/story-images/12-ship-traffic.jpg](https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Agriculture.jpeg)
+date: 2025-01-01
+theme: agriculture
+tags: crop, food supply
+official: true
+---
+
 # Satellites are providing insights into agricultural production, crop conditions, and food supply <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Agriculture.jpeg" }-->
 ### Read more about satellite data applications for environmental impacts on world cereal supply and demand <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
