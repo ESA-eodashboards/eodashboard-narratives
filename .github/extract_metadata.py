@@ -6,21 +6,35 @@ import yaml
 import requests
 from io import BytesIO
 from PIL import Image
-from urllib.parse import urlparse
+from urllib.parse import urlparse, unquote
 
 # Get base URL from command-line argument or set a default
 BASE_URL = sys.argv[1] if len(sys.argv) > 1 else "https://esa-eodash.github.io/eodashboard-narratives/"
 
+def url_to_safe_filename(url, suffix="_preview.png"):
+    parsed_url = urlparse(url)
+    # Extract and decode the base file name from the path
+    filename = os.path.basename(parsed_url.path)
+    filename = unquote(filename)  # Decode URL-encoded parts
+
+    # Remove query parameters if accidentally included in filename
+    filename = filename.split('?')[0].split('#')[0]
+
+    # Remove extension and append your custom suffix
+    name_root = os.path.splitext(filename)[0]
+
+    # Replace unsafe characters with underscores
+    safe_name = re.sub(r'[^A-Za-z0-9._-]', '_', name_root)
+
+    # Add suffix
+    return safe_name + suffix
+
 def fetch_and_resize_image(image_url, output_dir, target_width):
     try:
         # Extract filename from URL
-        parsed_url = urlparse(image_url)
-        image_name = os.path.basename(parsed_url.path)
+        image_name = url_to_safe_filename(image_url)
         if not image_name:  # Fallback if URL ends with '/'
-            image_name = "image.png"
-        else:
-            # Replace file extension with '_preview.png'
-            image_name = os.path.splitext(image_name)[0] + "_preview.png"
+            image_name = "image_preview.png"
 
         # Download image from URL
         response = requests.get(image_url, timeout=10)
