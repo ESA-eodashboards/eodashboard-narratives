@@ -28,8 +28,7 @@ It is important to be able to identify and predict blooms. Industries like touri
 
 Satellite data and models can be combined with water samples to identify and eventually predict HAB occurrences to help us understand why they happen and to mitigate the effects.
 
-Aqua/MODIS collected this view of algal blooms along the central California coast on September 24, 2019:
-
+### Aqua/MODIS collected this view of algal blooms along the central California coast on September 24, 2019:
 ![algal blooms along the central California coast on September 24, 2019](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/A2019267212500.CalifornaiCoastalBloom.jpg)
 
 ### Lake Erie Predicted bloom severity data to 2021-05-09

@@ -85,13 +85,13 @@ These observations represent almost two decades of daily air pollution data that
 
 Use the **interactive map** on this page to see how yearly nitrogen dioxide levels vary globally. The compare feature on this map allows looking at the levels of NO~2~ in different years.
 
-This **EO narrative** provides access to interactive maps of Carbon Monoxide, Nitrogen Dioxide, and Sulfur Dioxide from NASA's OMI. Access these datasets by clicking on the **[EXPLORE DATASETS](https://www.eodashboard.org/explore)** button at the top of the page or directly from the links below:
+This **EO narrative** provides access to interactive maps of Carbon Monoxide, Nitrogen Dioxide, and Sulfur Dioxide from NASA's OMI. Access these datasets by clicking on the **[EXPLORE](https://www.eodashboard.org/explore)** at the top of the page or directly from the links below:
 
-- [OMI NO2 - Monthly](https://www.eodashboard.org/?poi=W2-N1)
-- [OMI NO2 - Yearly](https://www.eodashboard.org/?poi=World-N9)
-- [OMI SO2](https://www.eodashboard.org/?poi=W9-N10)
+- [OMI NO2 - Monthly](https://eodashboard.org/explore?indicator=N1_NO2_monthly)
+- [OMI NO2 - Yearly](https://eodashboard.org/explore?indicator=N9)
+- [OMI SO2](https://eodashboard.org/explore?indicator=N10)
 
-## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N9_OMI_trno2-COG-2022-01-01T00:00:00Z"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=reds&rescale=0,37e14&url=s3://veda-data-store/OMI_trno2-COG/OMI_trno2_0.10x0.10_2022_Col3_V4.tif"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="2.562242424221073" center=[18.333333333333336,23.589559810845742] }-->
+## OMI NO2 - Monthly Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N9_OMI_trno2-COG-2022-01-01T00:00:00Z"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=reds&rescale=0,37e14&url=s3://veda-data-store/OMI_trno2-COG/OMI_trno2_0.10x0.10_2022_Col3_V4.tif"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="2.562242424221073" center=[18.333333333333336,23.589559810845742] }-->
 
 ## Accessing the data from NASA's VEDA EOAPI
 
