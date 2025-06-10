@@ -1,11 +1,11 @@
 ---
-cover-image: https://eodashboard.org/data/story-images/1-EO_PIX_Ocean_COVER_Photo.jpeg
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-EO_PIX_Ocean_COVER_Photo.jpeg
 date: 2025-01-01
 theme: oceans
 tags: ocean,life, diversity
 official: true
 ---
-#    Understanding climate change effects on water temperature and ocean currents is vital to managing these resources <!--{ as="img" mode="hero" src="https://eodashboard.org/data/story-images/JAXA%20Ocean%20Cover.jpeg" }-->
+#    Understanding climate change effects on water temperature and ocean currents is vital to managing these resources <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/JAXA%20Ocean%20Cover.jpeg" }-->
 ### Read more about Satellite Sensors Tracking Ocean Color Changes to Predict Phytoplankton Health <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## Satellite Sensors Tracking Ocean Color Changes to Predict Phytoplankton Health
@@ -16,7 +16,7 @@ These changes are reflected in microscopic plant- and animal-based organisms kno
 
 For example, the northwest Pacific Oyashio front region (Figure 1.) is considered one of the world’s highest productivity waters. In spring (April-May), the phytoplankton bloom comes later in colder years, and earlier in warmer years. The relationship between the bloom period and the growth period of predators may have an impact on higher-level ecosystems which are also used as marine resources.
 
-![](https://eodashboard.org/data/story-images/1-EO_PIX_Ocean_REDTIDE-2.png)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-EO_PIX_Ocean_REDTIDE-2.png)
 
 Figure 1. Northwest Pacific Oyahio front region
 
@@ -30,15 +30,15 @@ Use the interactive map to see how Ocean NPP vary globally. The compare feature 
 
 ##
 
-![](https://eodashboard.org/data/story-images/1-EO_PIX_Ocean_Global_NPP.png)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-EO_PIX_Ocean_Global_NPP.png)
 
 *Figure 2. Global Ocean NPP (net primary productivity)*
 
-![](https://eodashboard.org/data/story-images/1-EO_PIX_Ocean_Global_REDTIDE.png)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-EO_PIX_Ocean_Global_REDTIDE.png)
 
 *Figure 3. Northwest Pacific Oyashio front region, one of the world’s highest productivity waters.*
 
-![](https://eodashboard.org/data/story-images/Oyashio%20and%20time%20series.png)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Oyashio%20and%20time%20series.png)
 
 *Figure 4. Map of NPP around Oyashio region, and four-year timeseries of NPP in the area. The NPP is derived using SGLI by Kameda and Ishizaka 2005[4].*
 

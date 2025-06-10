@@ -1,8 +1,8 @@
 ---
-cover-image: url
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-co2/hero.jpg
 date: 2025-01-01
 theme: covid-19
-tags: tag1,tag2
+tags: co2
 official: true
 ---
 

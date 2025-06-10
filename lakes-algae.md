@@ -1,12 +1,12 @@
 ---
-cover-image: https://www.eodashboard.org/data/story-images/Cambodian_rivers.jpg
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Cambodian_rivers.jpg
 date: 2025-01-01
 theme: oceans
 tags: algae,lakes,water
 official: true
 ---
 
-#   Algal blooms in lake waters <!--{ as="img" mode="hero" src="https://www.eodashboard.org/data/story-images/Cambodian_rivers.jpg" }-->
+#   Algal blooms in lake waters <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Cambodian_rivers.jpg" }-->
 ### Read more about observing the increases in algal blooms with ESA, NASA and JAXA satellites <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## Temperature, ice cover and precipitation changes impacting algae bloom on Lake Vänern

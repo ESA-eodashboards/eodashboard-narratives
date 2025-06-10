@@ -1,8 +1,8 @@
 ---
-cover-image: url
+cover-image: "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/Earth Observing Dashboard-Agriculture-Rice/hero.jpg"
 date: 2025-01-01
-theme: theme
-tags: tag1,tag2
+theme: covid-19
+tags: agriculture
 official: true
 ---
 

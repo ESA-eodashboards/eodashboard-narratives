@@ -1,19 +1,19 @@
 ---
-cover-image: https://eodashboard.org/data/story-images/SeaIce.jpeg
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/SeaIce.jpeg
 date: 2025-01-01
 theme: cryosphere
 tags: arctic,ice,polar
 official: true
 ---
 
-#   The sea ice extent has been rapidly decreasing in recent years as global temperatures have risen <!--{ as="img" mode="hero" src="https://eodashboard.org/data/story-images/SeaIce.jpeg" }-->
+#   The sea ice extent has been rapidly decreasing in recent years as global temperatures have risen <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/SeaIce.jpeg" }-->
 ### Read more about monitoring Sea Ice Extent and Concentration from Passive Microwave <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## Sea Ice Extent and Concentration from Passive Microwave
 
 The sea ice extent has been rapidly decreasing in recent years as global temperatures have risen. As sea ice extent is very important, space agencies are continuously monitoring it from space. Microwave remote sensing from space is the only tool that provides continuous, consistent, and comprehensive information on sea ice changes in polar regions. JAXA provides data of a variety of satellite measurements from passive microwave imagers, including the Advanced Microwave Scanning Radiometer (AMSR) series. These data aim to capture sea ice concentration (i.e., coverage) and sea ice extent trends in the polar oceans on a daily basis from 1978 to the present.
 
-![](https://eodashboard.org/data/story-images/1-sea-ice.jpg)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-sea-ice.jpg)
 
 ## Explore Datasets
 
@@ -27,7 +27,7 @@ In general, snow and ice (i.e., the cryosphere) are widespread in the Arctic reg
 
 Due to recent climate change, global warming has progressed rapidly. The Arctic region shows changes most characteristic of this warming. These changes are expected to further accelerate due to the ice-albedo feedback. It is possible that they will soon reach a tipping point where the future changes will no longer be stoppable. In addition, atmospheric exchange between the Arctic region and mid-latitude regions will be more active with possible increases in extreme weather events such as cold winter or heavy rain in the mid- and high-latitude regions. Therefore, it is necessary to monitor the sea ice continuously.
 
-![](https://eodashboard.org/data/story-images/1-EO_Dashboard_Cryo-Pix_May_12.jpeg)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-EO_Dashboard_Cryo-Pix_May_12.jpeg)
 
 *Sea Ice (aerial view)*
 
@@ -39,7 +39,7 @@ Vessels navigating the Arctic Ocean must be equipped with ice resistance and ice
 
 Scientists use a variety of satellites and instruments to monitor and analyze changes in sea ice cover and thickness. Advances in satellite technology enable scientists to monitor and measure sea ice characteristics at a level of detail that cannot be obtained from ship-based or airborne measurements. Over time, continuous data collected by satellite observations help build a record of changing sea ice conditions over time and help people in Arctic coastal regions forecast storms and anticipate changes in walrus populations and shipping routes.
 
-![](https://eodashboard.org/data/story-images/Icebreaking_ships_pillars.jpg)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Icebreaking_ships_pillars.jpg)
 
 ## Explore Datasets
  

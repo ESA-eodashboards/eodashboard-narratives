@@ -1,12 +1,12 @@
 ---
-cover-image: https://www.eodashboard.org/data/story-images/Thwaites_and_Pine_Island_Glaciers_in_West_Antarctica.jpg
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Thwaites_and_Pine_Island_Glaciers_in_West_Antarctica.jpg
 date: 2025-01-01
 theme: cryosphere
 tags: climate,ice,antarctica,warming
 official: true
 ---
 
-# Rapid Retreat of the Thwaites Glacier<!--{ as="img" mode="hero" src="https://www.eodashboard.org/data/story-images/Thwaites_and_Pine_Island_Glaciers_in_West_Antarctica.jpg" }-->
+# Rapid Retreat of the Thwaites Glacier<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Thwaites_and_Pine_Island_Glaciers_in_West_Antarctica.jpg" }-->
 ### The observations of the glacier are crucial for understanding and adapting to the impacts of global sea level rise <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ##
@@ -91,7 +91,7 @@ Several value-added products are provided by the 4D Antarctica Project. Apart fr
 
 Such products describe the melt onset, melt duration and the end of melt season.
 
-![](https://eodashboard.org/data/story-images/Melt_days_duration.png)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Melt_days_duration.png)
 
 *Melt Duration Map for the season 2020-2021. The total melt duration refers to the duration from the melt onset to the end date of melt. The various shades of blue indicate the number of consecutive days: from a minimum of 3 (darkest shade) to a maximum of 255 (lightest shade)*
 

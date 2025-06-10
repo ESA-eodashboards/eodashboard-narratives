@@ -1,12 +1,12 @@
 ---
-cover-image: https://www.eodashboard.org/data/story-images/Iceberg_in_Antarctica.jpg
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Iceberg_in_Antarctica.jpg
 date: 2025-01-01
 theme: cryosphere
 tags: glacier,ice,climate
 official: true
 ---
 
-#  Collaboration on Glaciers and Ice Sheets Research <!--{ as="img" mode="hero" src="https://www.eodashboard.org/data/story-images/Iceberg_in_Antarctica.jpg" }-->
+#  Collaboration on Glaciers and Ice Sheets Research <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Iceberg_in_Antarctica.jpg" }-->
 ### Researchers and scientists across the globe are paying daily attention to ice formations in Antarctica and Greenland <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## Research Collaboration on Glaciers and other ice formations
