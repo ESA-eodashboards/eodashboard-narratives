@@ -1,12 +1,12 @@
 ---
-cover-image: https://eodashboard.org/data/story-images/7-greenhouse-gases-from-combustion.jpg
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/7-greenhouse-gases-from-combustion.jpg
 date: 2025-01-01
 theme: atmosphere
 tags: climate,pollution
 official: true
 ---
 
-#     Air pollution in India, China and the U.S. have changed significantly over the past two decades<!--{ as="img" mode="hero" src="https://eodashboard.org/data/story-images/7-greenhouse-gases-from-combustion.jpg" }-->
+#     Air pollution in India, China and the U.S. have changed significantly over the past two decades<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/7-greenhouse-gases-from-combustion.jpg" }-->
 ### Read more about how NASA scientists are measuring nitrogen dioxide (NO2) and sulfur dioxide (SO2) from space <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## Nitrogen Dioxide (NO<sub>2</sub>) and Sulfur Dioxide (SO<sub>2</sub>)
@@ -27,7 +27,7 @@ NASA scientists began monitoring and measuring nitrogen dioxide (NO<sub>2</sub>)
 
 Since its launch, OMI data has seen hazardous gas emissions drop significantly in some areas, while rising in others. Scientists are using the images and data collected to better understand the role of human activities in these changes, and which changes occur through natural processes.
 
-![](https://eodashboard.org/data/story-images/aura_0.jpg)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/aura_0.jpg)
 *NASA Aura. Source: [www.nasa.gov](https://www.nasa.gov/directorates/heo/scan/services/missions/earth/Aura.html)*
 
 ##
@@ -39,11 +39,11 @@ Since its launch, OMI data has seen hazardous gas emissions drop significantly i
 
 For example, this image shows decreases in SO<sub>2</sub> and NO<sub>2</sub> in the Ohio River Valley region of the United States. (Note: this website features an interactive tool that allows you to draw a box around areas of interest and see timeseries data for that region). The decreases in the U.S. can be attributed in large part to improved emissions from cars and trucks, as well as a reduction in the sulfur content in fuel. Some improvement is also the result of technology that does a better job of trapping nitrogen and sulfur oxides from power plant smokestacks.  
 
-![Ohio River](https://eodashboard.org/data/story-images/ORV%20OMI%20NO2%202021.png)
+![Ohio River](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/ORV%20OMI%20NO2%202021.png)
 
 *2021 OMI Tropospheric NO<sub>2</sub> (10<sup>15</sup>mol / cm<sup>2</sup>)*
 
-![](https://eodashboard.org/data/story-images/SO2NO2-USA.png)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/SO2NO2-USA.png)
 ***USA**.   This image shows decreases in SO<sub>2</sub> and NO<sub>2</sub> in the Ohio River Valley region of the United States. The decreases in the U.S. can be attributed to the improved catalytic converters in cars and trucks and well as a reduction in the sulfur content of fuel that is cleaner than previous years. Some of this improvement is also the result of the implementation of newer technology that does a better job of trapping the nitrogen and sulfur oxides in powerplant smokestacks.*
 
 ##
@@ -56,10 +56,10 @@ Satellite observations for northeastern China show a different story. The data f
 
 This highlights the different strategies and technologies employed to reduce these two pollutants. While SO<sub>2</sub> primarily comes from coal and diesel fuel, the NO<sub>2</sub> is released by all combustion sources and as a result a bit more difficult to control.
 
-![](https://eodashboard.org/data/story-images/China%20SE%20Asia%20OMI%20NO2%202021.png)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/China%20SE%20Asia%20OMI%20NO2%202021.png)
 *2021 OMI Tropospheric NO<sub>2</sub> (10<sup>15</sup>mol / cm<sup>2</sup>)*
 
-![](https://eodashboard.org/data/story-images/SO2NO2-China.png)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/SO2NO2-China.png)
 
 ***CHINA.**   The satellite observations for northeastern China show a different year-to-year story. The timeseries for SO<sub>2</sub> (red) shows a 90% reduction in this pollutant, while the atmospheric levels of NO<sub>2</sub> initially increased after 2005 and then started to decrease after 2011. As of 2021 the atmospheric NO<sub>2</sub> abundance is approximately 20% lower than at the start of the OMI record. This highlights the different strategies and technologies employed to reduce these two pollutants. While SO<sub>2</sub> primarily comes from coal and diesel fuel, the NO<sub>2</sub> is released by all combustion sources and as a result a bit more difficult to control.*
 
@@ -71,10 +71,10 @@ This highlights the different strategies and technologies employed to reduce the
 
 The timeseries charts for northeastern India show a steady increase for both NO<sub>2</sub> and SO<sub>2</sub> from 2005-2018, which then leveled off, perhaps due to the deployment of air pollution control technology. The significant drop in both SO<sub>2</sub> and NO<sub>2</sub> in 2020 is most likely the result of the prolonged COVID-19 lockdown in India that resulted in a reduction in fossil fuel combustion.
 
-![](https://eodashboard.org/data/story-images/India%20South%20Asia%20OMI%20NO2%202021.png)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/India%20South%20Asia%20OMI%20NO2%202021.png)
 *2021 OMI Tropospheric NO<sub>2</sub> (10<sup>15</sup>mol / cm<sup>2</sup>)*
 
-![](https://eodashboard.org/data/story-images/SO2NO2-India.png)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/SO2NO2-India.png)
 ***INDIA**.   The timeseries charts for northeastern India show a steady increase for both NO<sub>2</sub> and SO<sub>2</sub> from 2005 to 2018. Interestingly, the amount of pollution in this region appears to have leveled off over the past few years, perhaps a sign that air pollution control technology has started to be deployed on large pollution sources. The significant drop in both SO<sub>2</sub> and NO<sub>2</sub> for 2020 is most likely the result of the prolonged COVID-19 lockdown in India that resulted in a reduction in fossil fuel combustion.*
 
 ## Future Research

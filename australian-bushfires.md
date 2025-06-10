@@ -1,12 +1,12 @@
 ---
-cover-image: https://www.eodashboard.org/data/story-images/8-wildfires.jpg
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/8-wildfires.jpg
 date: 2025-01-01
 theme: atmosphere
 tags: wildfires,forests,no2,co2
 official: true
 ---
 
-#  Australian bushfires in 2019-2020 emitted 700 million metric tons of CO2 into the atmosphere <!--{ as="img" mode="hero" src="https://www.eodashboard.org/data/story-images/8-wildfires.jpg" }-->
+#  Australian bushfires in 2019-2020 emitted 700 million metric tons of CO2 into the atmosphere <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/8-wildfires.jpg" }-->
 ### Read more about how Air Pollution affects Climate Change <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 # Monitoring from Space how Air Pollution affects Climate Change
@@ -21,7 +21,7 @@ In southeast Australia, the fires were both intense and extensive. As much as 74
 
 However, the new analysis indicates that this figure was a gross underestimate. Using measurements from the Tropomi instrument on board the Copernicus Sentinel-5P satellite more accurate estimates of the emissions were obtained.
 
-![](https://www.eodashboard.org/data/story-images/Carbon_monoxide_from_fires_in_Australia_article.jpg)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Carbon_monoxide_from_fires_in_Australia_article.jpg)
 _This image uses information from the Copernicus Sentinel-5P mission and shows the average carbon monoxide concentrations from 1 November 2019 to 31 January 2020. Carbon monoxide is commonly associated with traffic, but the concentrations here are due to the bushfires. Naturally, once in the air, it can cause problems for humans by reducing the amount of oxygen that can be transported in the bloodstream. Copyright: contains modified Copernicus Sentinel data (2019-20), processed by ESA_
 
 ## Measurements from Copernicus Sentinel-5p TROPOMI
@@ -30,7 +30,7 @@ While Tropomi doesn’t directly measure carbon dioxide, the instrument takes da
 
 The conclusion is that the bushfires released about 700 million tonnes in just three months. This is twice the amount of carbon dioxide that had previously been suggested by fire inventory estimates and surpasses Australia’s normal annual bushfire and fossil fuel emissions by 80%.
 
-![](https://www.eodashboard.org/data/story-images/Monitoring_air_quality_pillars.jpg)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Monitoring_air_quality_pillars.jpg)
 _Sentinel-5 Precursor is the first Copernicus mission dedicated to monitoring our atmosphere. This satellite carries the state-of-the-art Tropomi instrument to map a multitude of trace gases such as nitrogen dioxide, ozone, formaldehyde, methane, carbon monoxide and aerosols – all of which affect the air we breathe and our climate. Source: esa.int_
 
 ## Explore Datasets

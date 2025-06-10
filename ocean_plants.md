@@ -1,11 +1,12 @@
 ---
-cover-image: https://eodashboard.org/data/story-images/1-EO_PIX_Ocean_COVER_Photo.jpeg
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-EO_PIX_Ocean_COVER_Photo.jpeg
 date: 2025-01-01
 theme: oceans
 tags: ocean,life, diversity
 official: true
 ---
-#   Satellite images reveal a view of the ocean that is as rich and complex as that of land <!--{ as="img" mode="hero" src="https://eodashboard.org/data/story-images/1-EO_PIX_Ocean_COVER_Photo.jpeg" }-->
+
+#   Satellite images reveal a view of the ocean that is as rich and complex as that of land <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-EO_PIX_Ocean_COVER_Photo.jpeg" }-->
 ### Read more about following the activity of plants in the ocean from space <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## Following the Activity of Phytoplankton – The Miracle Plants in The Ocean
@@ -20,7 +21,7 @@ About half of the oxygen we take in every breath comes from microscopic plants i
 
 As with land vegetation, there are areas of the ocean where phytoplankton are in abundance and other areas where phytoplankton are scarce. One big difference, however, is that phytoplankton are much more difficult to see than a tree in a forest. Satellites give scientists the data to find and measure the amounts of phytoplankton, and to determine ocean primary productivity, which measures the mass of carbon per area of the ocean over time (mg C m<sup>-2</sup> yr<sup>-1</sup>).
 
-![](https://www.eodashboard.org/data/story-images/A2021071.LakeErie.crop.small.jpg)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/A2021071.LakeErie.crop.small.jpg)
 *At the end of winter the ice is nearly all gone from Lake Erie, and growing phytoplankton populations are revealed mingling with suspended sediments in this relatively shallow Great Lake. The above Aqua/MODIS image was collected on March 12, 2021. Click on it to get a larger version that includes all of the Great Lakes.*
 
 ## Plants and the Climate
@@ -31,7 +32,7 @@ The Net Primary Productivity (NPP), also known as the net carbon gain by plants,
 
 All three NPP estimates also show phytoplankton variability between locations (Fig. 1) and seasons (Fig. 2). This is because phytoplankton primary productivity is affected by conditions in the water column, including temperature, light, and nutrients which, in turn, are themselves influenced by variations in oceanic and atmospheric processes at different spatial and temporal scales.
 
-![](https://www.eodashboard.org/data/story-images/Ocean%20joint%20figure%201.png)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Ocean%20joint%20figure%201.png)
 *Figure 1: Net primary productivity (in mg C m<sup>-2</sup> yr<sup>-1</sup>), annual mean for 2020 from ESA (top left plot), JAXA (top right plot), and NASA (bottom plot).*
 
 For example, coastal areas have high levels of phytoplankton productivity due to nutrient-rich waters. These nutrients are brought into the water column by river runoff or coastal upwelling of deep water. Productivity in tropical water is low throughout the year due to warm and highly stratified surface waters that prevent the nutrient-rich deep waters from reaching the surface.
@@ -40,10 +41,10 @@ At mid-latitudes, a seasonal cycle is observed, with the lowest productivity in 
 
 At high latitudes, stratification is weak year-round, but scarcity or absence of light in winter/autumn leads to lower levels of productivity. In spring and summer, similarly to temperate areas, a higher level of productivity is observed due to the combination of sunlight and nutrient abundance. Measuring primary productivity in our oceans is critical to understanding the effects of global warming, now and for the next generation. Our research satellites allow us to do this from the advantageous position of space.
 
-![](https://www.eodashboard.org/data/story-images/1-EO_Dashboard_Water_Quality_Phytoplankton_Production.gif)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-EO_Dashboard_Water_Quality_Phytoplankton_Production.gif)
 *Figure 1. Maps of global Phytoplankton Primary Production (NPP) in 2020, from ESA BICEP Project*
 
-![](https://www.eodashboard.org/data/story-images/NPP_2020a.gif)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/NPP_2020a.gif)
 *Figure 2. NPP 2020 from GCOM-C*
 
 ## Explore Datasets

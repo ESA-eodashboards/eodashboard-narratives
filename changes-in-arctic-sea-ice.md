@@ -1,12 +1,12 @@
 ---
-cover-image: https://eodashboard.org/data/story-images/1-sea-ice.jpg
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-sea-ice.jpg
 date: 2025-01-01
 theme: cryosphere
 tags: arctic,ice,polar
 official: true
 ---
 
-#  The Arctic region shows changes most characteristic of global warming <!--{ as="img" mode="hero" src="https://eodashboard.org/data/story-images/1-sea-ice.jpg" }-->
+#  The Arctic region shows changes most characteristic of global warming <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-sea-ice.jpg" }-->
 ### Read more about the international collaboration for understanding changes in Arctic Sea Ice <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## An International Collaboration for Understanding Changes in Arctic Sea Ice

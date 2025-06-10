@@ -1,8 +1,8 @@
 ---
-cover-image: url
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/el_nino_SST/cover-ai-1.png
 date: 2025-01-01
-theme: theme
-tags: tag1,tag2
+theme: extreme-events
+tags: sea-surface-temperature
 official: true
 ---
 

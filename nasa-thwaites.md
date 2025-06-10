@@ -1,12 +1,12 @@
 ---
-cover-image: https://eodashboard.org/data/story-images/NASA-thwaites-cover.jpeg
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/NASA-thwaites-cover.jpeg
 date: 2025-01-01
 theme: cryosphere
 tags: climate,ice,polar,warming
 official: true
 ---
 
-#    Pine Island Glacier and Thwaites Glacier<!--{ as="img" mode="hero" src="https://eodashboard.org/data/story-images/NASA-thwaites-cover.jpeg" }-->
+#    Pine Island Glacier and Thwaites Glacier<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/NASA-thwaites-cover.jpeg" }-->
 ### Two of the main pathways for ice from the West Antarctic Ice Sheet entering the Amundsen Sea <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## Pine Island Glacier and Thwaites Glacier
@@ -21,7 +21,7 @@ On the map, you can browse over 20 years of cloud-free level-2 surface reflectan
 
 The following image pair demonstrates the changes that have occurred since the start of this century. The first image, acquired with the Enhanced Thematic Mapper Plus (ETM+) on Landsat 7, shows the glacier’s floating ice tongue on December 2, 2001 shortly before it calved Iceberg B-22. The second image, acquired with the Operational Land Imager (OLI) on Landsat 8, shows the glacier on December 28, 2019.
 
-![](https://eodashboard.org/data/story-images/NASA-MODIS-thwaites.gif)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/NASA-MODIS-thwaites.gif)
 
 ##
 

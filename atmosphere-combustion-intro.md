@@ -1,12 +1,12 @@
 ---
-cover-image: https://www.eodashboard.org/data/story-images/1-Atmosphere_Overview_Picture.jpg
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-Atmosphere_Overview_Picture.jpg
 date: 2025-01-01
 theme: atmosphere
 tags: wildfire,pollution
 official: true
 ---
 
-# NASA, ESA and JAXA, Working Together to Monitor our Atmosphere <!--{ as="img" mode="hero" src="https://www.eodashboard.org/data/story-images/1-Atmosphere_Overview_Picture.jpg" }-->
+# NASA, ESA and JAXA, Working Together to Monitor our Atmosphere <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-Atmosphere_Overview_Picture.jpg" }-->
 ### Traffic, wildfires, and power plants all emit air pollutants and greenhouse gases as a product of combustion <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 

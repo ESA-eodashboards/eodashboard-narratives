@@ -1,8 +1,8 @@
 ---
-cover-image: url
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/AirPollutionIndia/cover-pakistan.jpg
 date: 2025-01-01
-theme: theme
-tags: tag1,tag2
+theme: extreme-events
+tags: air
 official: true
 ---
 

@@ -1,12 +1,12 @@
 ---
-cover-image: https://eodashboard.org/data/story-images/jaxa-greenland-cover.jpeg
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/jaxa-greenland-cover.jpeg
 date: 2025-01-01
 theme: cryosphere
 tags: climate,ice,greenland,warming
 official: true
 ---
 
-#  Recent melting and darkening of the Greenland Ice Sheet<!--{ as="img" mode="hero" src="https://eodashboard.org/data/story-images/jaxa-greenland-cover.jpeg" }-->
+#  Recent melting and darkening of the Greenland Ice Sheet<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/jaxa-greenland-cover.jpeg" }-->
 ### Read more about how JAXA's JASMES Greenland Monitor provides observations of Greenland Ice Sheet <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## Recent melting and darkening of the Greenland Ice Sheet
@@ -27,7 +27,7 @@ Thus, the darkening of ice sheets is accelerated by surface melting. As the ice 
 
 JAXA has been monitoring the surface conditions of the GrIS, including surface melting, using a combination of microwave radiometer and optical thermal/infrared observations from various satellites (JASMES Greenland Monitor*). As shown above, surface conditions such as melt, bare ice and dark ice exposure are key components in the ice sheet surface radiative balance and their relationship is now investigated through wide and continuous monitoring by satellite observations. It is important to evaluate the dynamics of polar ice sheets to understand the GrIS mass balance and their impacts on the global environment.
 
-![](https://eodashboard.org/data/trilateral/JAXA-greenland.png)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/trilateral/JAXA-greenland.png)
 
 ## Access Data from JASMES Greenland Monitor
 

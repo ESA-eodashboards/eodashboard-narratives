@@ -1,12 +1,12 @@
 ---
-cover-image: https://eodashboard.org/data/story-images/lakes_cover.jpg
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/lakes_cover.jpg
 date: 2025-01-01
 theme: oceans
 tags: pollution,lakes,water
 official: true
 ---
 
-#  Troubled Waters: Unraveling the Impacts of Climate Change on Inland Waters <!--{ as="img" mode="hero" src="https://eodashboard.org/data/story-images/lakes_cover.jpg" }-->
+#  Troubled Waters: Unraveling the Impacts of Climate Change on Inland Waters <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/lakes_cover.jpg" }-->
 ### Read more about how Air Pollution affects Climate Change <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 # Impacts of climate on inland water

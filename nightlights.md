@@ -1,12 +1,12 @@
 ---
-cover-image: https://eodashboard.org/data/story-images/13-nightlights.jpg
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/13-nightlights.jpg
 date: 2025-01-01
 theme: economy
 tags: light,night,lockdown
 official: true
 ---
 
-#   During COVID-19 lockdowns night lights in central business districts decreased <!--{ as="img" mode="hero" src="https://eodashboard.org/data/story-images/13-nightlights.jpg" }-->
+# During COVID-19 lockdowns night lights in central business districts decreased <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/13-nightlights.jpg" }-->
 ### Read more about how researchers are using night lights to track variations in energy use, migration, and transportation <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## Nightlights in the Port of Dunkirk (France)

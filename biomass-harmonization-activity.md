@@ -1,12 +1,12 @@
 ---
-cover-image: https://www.eodashboard.org/data/story-images/Biomass.jpeg
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Biomass.jpeg
 date: 2025-01-01
 theme: biomass
 tags: forest,carbon
 official: true
 ---
 
-#   A view from space monitors land cover and tree to track aboveground biomass and carbon content <!--{ as="img" mode="hero" src="https://www.eodashboard.org/data/story-images/Biomass.jpeg" }-->
+#   A view from space monitors land cover and tree to track aboveground biomass and carbon content <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Biomass.jpeg" }-->
 ### Read more about taking stock of global biomass maps <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 #   The Biomass Harmonization Activity
@@ -31,13 +31,13 @@ These missions will be joined by the upcoming ALOS-4, BIOMASS, and NASA-ISRO Syn
 
 A primary purpose of these missions is to provide biomass density maps that can be used in forest carbon estimation and the management of forest and land use for climate mitigation purposes. Currently, national greenhouse gas estimation and reporting typically depend on either national forest inventories (NFIs) or other sparse, incomplete forest plot data. 
 
-![forest from above](https://www.eodashboard.org/data/story-images/2-biomass.jpg)
+![forest from above](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/2-biomass.jpg)
 
 Spaceborne satellite missions will soon provide globally consistent measurements of forests that can be used to estimate biomass. However, different space missions using different sensors and technologies (e.g., radar, lidar) often produce different estimates of biomass. Such disparities are a potential source of confusion, so it is highly desirable to produce a single most accurate biomass dataset by combining the strengths of the individual sensors.
 
 The world’s Earth observation biomass community is undertaking a collaboration aimed at resolving discrepancies between space missions and producing harmonized estimates of biomass and uncertainty at a policy-relevant, jurisdictional-level scale. 
 
-![aboveground biomass density](https://www.eodashboard.org/data/story-images/Biomass_Figure1.png)
+![aboveground biomass density](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Biomass_Figure1.png)
 
 ## Existing Biomass Products
 

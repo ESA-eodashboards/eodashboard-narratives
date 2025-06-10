@@ -1,12 +1,12 @@
 ---
-cover-image: https://www.eodashboard.org/data/story-images/3-agriculture-crops.jpg
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/3-agriculture-crops.jpg
 date: 2025-01-01
 theme: agriculture
 tags: carbon,crops,co2
 official: true
 ---
 
-# Farmlands North of Cairo absorb so much atmospheric CO2 it can be measured from space <!--{ as="img" mode="hero" src="https://www.eodashboard.org/data/story-images/3-agriculture-crops.jpg" }-->
+# Farmlands North of Cairo absorb so much atmospheric CO2 it can be measured from space <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/3-agriculture-crops.jpg" }-->
 ### Read more about how crops consume Cairo's Carbon Dioxide <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 # Crops Consume Cairo’s Carbon Dioxide
@@ -24,9 +24,9 @@ In this research, researchers from the Japanese Aerospace Exploration Agency dem
 
 Egypt has two growing seasons, one in the summer and one in the winter. In the summer, the map below shows there were low CO2 levels over Cairo, correlated with high SIF.
 
-![Wind_Cairo_2018-06-30](https://www.eodashboard.org/data/story-images/Wind_Cairo_2018-06-30_rev.png)
-![Wind_Cairo_2019-02-01](https://www.eodashboard.org/data/story-images/Wind_Cairo_2019-02-01_rev.png)
-![Wind_Cairo_2019-10-05](https://www.eodashboard.org/data/story-images/Wind_Cairo_2019-10-05_rev.png)
+![Wind_Cairo_2018-06-30](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Wind_Cairo_2018-06-30_rev.png)
+![Wind_Cairo_2019-02-01](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Wind_Cairo_2019-02-01_rev.png)
+![Wind_Cairo_2019-10-05](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Wind_Cairo_2019-10-05_rev.png)
 
 ## Explore Datasets
 
