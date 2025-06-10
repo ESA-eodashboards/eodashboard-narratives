@@ -9,7 +9,7 @@ official: true
 # Rapid Retreat of the Thwaites Glacier<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Thwaites_and_Pine_Island_Glaciers_in_West_Antarctica.jpg" }-->
 ### The observations of the glacier are crucial for understanding and adapting to the impacts of global sea level rise <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
-##
+## Rapid Retreat of the Thwaites Glacier
 
 Owing to climate change, ice all over the world is melting. Antarctica, Greenland and the Arctic are all experiencing some of the fastest melting in recorded history. The Thwaites Glacier in Antarctica is one of the most important glaciers on Earth, not only owing to its size, but because of the massive amounts of ice that will melt due to global warming – threatening coastal communities around the world. Thwaites, also known as the ‘Doomsday Glacier,’ is located in West Antarctica and, according to a 2020 estimate from the International Thwaites Glacier Collaboration, is currently responsible for four percent of total global sea level rise. Thwaites acts as a ‘pin’ that holds back the rest of the ice in the West Antarctic Ice Sheet. If it were to collapse, it could trigger a runway collapse of the entire ice sheet, raising global sea levels by around 60 cm. Understanding the dynamics of Thwaites Glacier and the potential risks it poses to sea level rise is crucial for formulating effective strategies to adapt to and mitigate the impacts of climate change.
 

@@ -1,11 +1,13 @@
 ---
-cover-image: https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fnicubunu.ro%2Fpictures%2Fphotoblog%2Fimg_5052.jpg&f=1&nofb=1&ipt=dd18301d51ef76b09b42babb54e8feb76ac676e60b536bc8734409bfd6c5a139&ipo=images
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/comunity_led_story_extreme_rainfall/hero.jpg
 date: 2025-01-01
 theme: extreme-events
 tags: rain
 official: true
 ---
-# Extreme rainfal events in the South-East of France
+
+# Extreme rainfal events in the South-East of France<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/comunity_led_story_extreme_rainfall/hero.jpg" }-->
+
 ###### *This story is based on results from the [3<sup>rd</sup> Earth System Science Challenge]( https://sciencehub.esa.int/2024/05/09/3rd-earth-system-science-challenge/) organised and hosted by ESA's ESRIN Science Hub in February 2024*
 The research presented in this story was developed in the frame of the [Earth System Science Challenge](https://sciencehub.esa.int/2024/05/09/3rd-earth-system-science-challenge/) organized by the European Space Agency (ESA) and hosted at ESRIN’s Science Hub in February 2024. The scope of this challenge was to identify extreme rainfall events in the South of France, using 3 precipitation datasets. The method was implemented on the [DeepESDL platform](https://www.earthsystemdatalab.net/) by a team of PhD students from Sorbonne Université. The data and code are made openly available.
 

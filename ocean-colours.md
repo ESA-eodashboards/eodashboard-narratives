@@ -5,6 +5,7 @@ theme: oceans
 tags: ocean,life, diversity
 official: true
 ---
+
 #    Understanding climate change effects on water temperature and ocean currents is vital to managing these resources <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/JAXA%20Ocean%20Cover.jpeg" }-->
 ### Read more about Satellite Sensors Tracking Ocean Color Changes to Predict Phytoplankton Health <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 

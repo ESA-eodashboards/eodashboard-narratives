@@ -5,6 +5,9 @@ theme: economy
 tags: light,night,lockdown
 official: true
 ---
+
+# Observing Nighlights from Space<!--{ as="img" mode="hero" src="https://camo.githubusercontent.com/a4dc9401823978935bed98034109c604b1ec8b7360031c17754d1e96728d8e50/68747470733a2f2f7777772e6573612e696e742f7661722f6573612f73746f726167652f696d616765732f6573615f6d756c74696d656469612f696d616765732f323031332f31302f6e696768745f6c69676874732f31333335353137352d312d656e672d47422f4e696768745f6c69676874735f70696c6c6172732e6a7067" }-->
+
 ## Observing Nighlights from Space
 
 At night, on the surface of our planet, multiple sources of illumination, such as streetlights, buildings and ships can be seen from space. These nighttime lights (NTL) are a reliable proxy for measuring the scope and intensity of human activity.  
