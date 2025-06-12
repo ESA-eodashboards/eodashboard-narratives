@@ -97,4 +97,4 @@ This **EO narrative** provides access to interactive maps of Carbon Monoxide, Ni
 
 These datasets are provided by NASA's VEDA EOAPI. The following Notebook illustrates how to access and work with the datasets to recreate the graphs illustrated in this story.
 
-<iframe width="100%" height="90%" src="https://bids2023-nbviewer.hub.eox.at/localfile/bids2023/notebooks/veda_api_bids_2023.ipynb?format=html_plain" frameborder="0"></iframe>
+<iframe width="100%" height="400" src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/veda-api-bids-2023" frameborder="0"></iframe>

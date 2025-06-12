@@ -62,7 +62,7 @@ Earth Observations, Essential Climate Variables, Environmental and other geospat
 
 This Notebook illustrates how to access such datasets in EDC. To execute this notebook, an account on EDC is required. Sponsored access is made available by ESA through the [Network of Resources](https://nor-discover.org/).
 
-<iframe width="100%" height="50%" style="min-height: 70vh" src="https://igarss2023-nbviewer.hub.eox.at/localfile/igarss2023/notebooks/Inland_water_with_EDC.ipynb?format=html_plain" frameborder="0"></iframe>
+<iframe width="100%" height="50%" style="min-height: 70vh" src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/inland-water-with-edc" frameborder="0"></iframe>
 
 
 
