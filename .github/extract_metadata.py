@@ -9,7 +9,7 @@ from PIL import Image
 from urllib.parse import urlparse, unquote
 
 # Get base URL from command-line argument or set a default
-BASE_URL = sys.argv[1] if len(sys.argv) > 1 else "https://esa-eodash.github.io/eodashboard-narratives/"
+BASE_URL = sys.argv[1] if len(sys.argv) > 1 else "https://ESA-eodashboards.github.io/eodashboard-narratives/"
 
 def url_to_safe_filename(url, suffix="_preview.png"):
     parsed_url = urlparse(url)
