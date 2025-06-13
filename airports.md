@@ -38,7 +38,7 @@ The following interactive maps show:
 - Aircraft detection over the CDG airport in Paris (France) using Sentinel-2 imagery and AI
     
 
-More airports can be explored on this dashboard. Click the [**EXPLORE**](https://eodashboard.org/explore) on top of this page to explore all locations.
+More airports can be explored on this dashboard. Click the [**Dashboard**](https://eodashboard.org/explore) on top of this page to explore all locations.
 
 San Francisco airport, US
 ## San Francisco airport, US <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Vector","properties":{"id":"Plane detections"},"source":{"type":"Vector"}},{"type":"Tile","properties":{"id":"Parked Airplanes-2020-10-26T00:00:00Z"},"source":{"type":"XYZ","urls":["https://8ib71h0627.execute-api.us-east-1.amazonaws.com/v1/planet/{z}/{x}/{y}?date=2020_10_26&site=sf"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="13.792332771953118" center=[-122.37750000000001,37.619361707303256] }-->

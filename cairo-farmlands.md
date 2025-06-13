@@ -50,7 +50,7 @@ Windrose shows the frequency of winds blowing from directions and speed over an 
 
 _Acknowledgments: The windrose was produced by using wind data from Windergroud.com._
 
-Explore in more details these datasets by clicking on the EXPLORE DATASETS button at the top of the page or directly from the links below:
+Explore in more details these datasets by clicking on the **Dashboard** button at the top of the page or directly from the links below:
 
 - [GOSAT-2 CO2 on Cairo](https://www.eodashboard.org/?poi=World-N2_CO2_jaxa_gosat)
 - [OCO-2 CO2 Global](https://www.eodashboard.org/?poi=W4-N2)

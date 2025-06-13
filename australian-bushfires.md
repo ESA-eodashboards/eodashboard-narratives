@@ -37,11 +37,11 @@ _Sentinel-5 Precursor is the first Copernicus mission dedicated to monitoring ou
 
 _Use the interactive map on this page to see how carbon monoxide levels vary globally. The compare feature on this map allows looking at the levels of CO on two different dates._
 
-This **EO Dashboard** provides access to interactive maps of Carbon Monoxide, Nitrogen Dioxide, and Sulfur Dioxide from TROPOMI. Access these datasets by clicking on the [EXPLORE DATASETS](https://www.eodashboard.org/explore) button at the top of the page or directly from the links below:
+This **EO Dashboard** provides access to interactive maps of Carbon Monoxide, Nitrogen Dioxide, and Sulfur Dioxide from TROPOMI. Access these datasets by clicking on the [Dashboard](https://www.eodashboard.org/explore) button at the top of the page or directly from the links below:
 
-- [TROPOMI CO](https://www.eodashboard.org/?poi=World-N1_CO)
-- [TROPOMI NO2](https://www.eodashboard.org/?poi=W1-N1)  
-- [TROPOMI SO2](https://www.eodashboard.org/?poi=SO2-N1)
+- [TROPOMI CO](https://www.eodashboard.org/explore?indicator=N1_CO)
+- [TROPOMI NO2](https://www.eodashboard.org/explore?indicator=N1_NO2)  
+- [TROPOMI SO2](https://www.eodashboard.org/explore?indicator=N1_SO2)
 
 The following Notebook evaluates fire impact on populated areas on a European site
 
