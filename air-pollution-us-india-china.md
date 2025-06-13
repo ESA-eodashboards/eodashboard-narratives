@@ -85,7 +85,7 @@ These observations represent almost two decades of daily air pollution data that
 
 Use the **interactive map** on this page to see how yearly nitrogen dioxide levels vary globally. The compare feature on this map allows looking at the levels of NO~2~ in different years.
 
-This **EO narrative** provides access to interactive maps of Carbon Monoxide, Nitrogen Dioxide, and Sulfur Dioxide from NASA's OMI. Access these datasets by clicking on the **[EXPLORE](https://www.eodashboard.org/explore)** at the top of the page or directly from the links below:
+This **EO narrative** provides access to interactive maps of Carbon Monoxide, Nitrogen Dioxide, and Sulfur Dioxide from NASA's OMI. Access these datasets by clicking on the **[Dashboard](https://www.eodashboard.org/explore)** at the top of the page or directly from the links below:
 
 - [OMI NO2 - Monthly](https://eodashboard.org/explore?indicator=N1_NO2_monthly)
 - [OMI NO2 - Yearly](https://eodashboard.org/explore?indicator=N9)

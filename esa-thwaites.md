@@ -116,13 +116,13 @@ Discover more on ESA Multimedia:
 
 ## Explore Datasets
 
-This EO narrative provides access to several EO products over Antarctica. Visualise these datasets by clicking on the **EXPLORE DATASETS** button at the top of the page or directly from the links below:
+This EO narrative provides access to several EO products over Antarctica. Visualise these datasets by clicking on the **Dashboard** button at the top of the page or directly from the links below:
 
-- [Antarctica Meltmaps](https://eodashboard.org/explore?poi=World-ADD_Meltmap)
-- [Antarctica Melt onset](https://eodashboard.org/explore?poi=Onset-ADD)
-- [Antarctica End of melt season](https://eodashboard.org/explore?poi=End-ADD)
-- [Antarctica Melt duration](https://eodashboard.org/explore?poi=Days-ADD)
-- [Sentinel-1 EW Dataset over Thwaites and Pine Island Glaciers](https://eodashboard.org/explore?poi=World-ADD_West_Antarctica_S1)
+- [Antarctica Meltmaps](https://eodashboard.org/explore?indicator=ADD_Meltmap)
+- [Antarctica Melt onset](https://eodashboard.org/explore?indicator=ADD_Melt_Onset)
+- [Antarctica End of melt season](https://eodashboard.org/explore?indicator=ADD_Melt_Season_End)
+- [Antarctica Melt duration](https://eodashboard.org/explore?indicator=ADD_Melt_Duration)
+- [Sentinel-1 EW Dataset over Thwaites and Pine Island Glaciers](https://eodashboard.org/explore?indicator=ADD_West_Antarctica_S1)
 
 ### Map baselayer and geometries
 
