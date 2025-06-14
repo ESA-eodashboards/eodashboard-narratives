@@ -51,13 +51,13 @@ At high latitudes, stratification is weak year-round, but scarcity or absence of
 
 Use the interactive maps on the next pages to see how NPP levels vary globally. The compare feature on the maps allows looking at the NPP on two different dates.
 
-This EO Dashboard provides access to interactive maps of NPP but also water quality at regional level. Access these datasets by clicking on the EXPLORE DATASETS button at the top of the page or directly from the links below:
+This EO Dashboard provides access to interactive maps of NPP but also water quality at regional level. Access these datasets by clicking on the **Dashboard** tab at the top of the page or directly from the links below:
 
-- [NASA NPP](https://www.eodashboard.org/?poi=W11-NPPN)
-- [ESA NPP](https://www.eodashboard.org/?poi=NPP-NPP)
-- [JAXA NPP](https://www.eodashboard.org/?poi=World-N11)
-- [Water Quality Maps - Chl-a and TSM](https://www.eodashboard.org/?poi=US04-N3a2&indicator=N3a2)
-- [Water Quality Time Series - Chl-a and TSM](https://www.eodashboard.org/?poi=IT10-N3b&indicator=N3b)
+- [NASA NPP](https://www.eodashboard.org/explore?indicator=NPPN)
+- [ESA NPP](https://www.eodashboard.org/explore?indicator=NPP)
+- [JAXA NPP](https://www.eodashboard.org/explore?indicator=N11)
+- [Water Quality Maps - Chl-a and TSM](https://www.eodashboard.org/explore?indicator=N3a2_TSM_esa)
+- [Water Quality Time Series - Chl-a and TSM](https://www.eodashboard.org/explore?indicator=N3b_chl)
 
 ## Monthly global Marine Phytoplankton Primary Production
 

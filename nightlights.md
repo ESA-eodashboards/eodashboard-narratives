@@ -43,68 +43,65 @@ High-resolution nighttime images from space, referred to by NASA as the Black Ma
  
  ### Explore Datasets
  
- This **EO Dashboard** provides access to interactive nightlight maps on a large number of cities, worldwide. Access these datasets by clicking on the [**EXPLORE DATASETS**](https://eodashboard.org/explore) button at the top of the page or directly from the links below:
+ This **EO Dashboard** provides access to interactive nightlight maps on a large number of cities, worldwide. Access these datasets by clicking on the [**Dashboard**](https://eodashboard.org/explore) tab at the top of the page or directly from the links below:
 
 ### NASA Nightlights datasets are available for the following cities:
 
-*   [Dhaka, Bangladesh](https://eodashboard.org/explore?indicator=N5&poi=BD01-N5)
+*   [Dhaka, Bangladesh](https://eodashboard.org/explore?indicator=N5&poi=BD01)
     
-*   [Ghent, Belgium](https://eodashboard.org/explore?indicator=N5&poi=BE01-N5)
+*   [Ghent, Belgium](https://eodashboard.org/explore?indicator=N5&poi=BE01)
     
-*   [Beijing, China](https://eodashboard.org/explore?indicator=N5&poi=CN01-N5)
+*   [Beijing, China](https://eodashboard.org/explore?indicator=N5&poi=CN01)
     
-*   [Hamburg, Germany](https://eodashboard.org/explore?indicator=N5&poi=DE01-N5)
+*   [Hamburg, Germany](https://eodashboard.org/explore?indicator=N5&poi=DE01)
     
-*   [Barcelona, Spain](https://eodashboard.org/explore?indicator=N5&poi=ES02-N5)
+*   [Barcelona, Spain](https://eodashboard.org/explore?indicator=N5&poi=ES02)
     
-*   [Madrid, Spain](https://eodashboard.org/explore?indicator=N5&poi=ES01-N5)
+*   [Madrid, Spain](https://eodashboard.org/explore?indicator=N5&poi=ES01)
     
-*   [Dunkirk, France](https://eodashboard.org/explore?indicator=N5&poi=FR03-N5)
+*   [Dunkirk, France](https://eodashboard.org/explore?indicator=N5&poi=FR03)
     
-*   [Marseille, France](https://eodashboard.org/explore?indicator=N5&poi=FR02-N5)
+*   [Marseille, France](https://eodashboard.org/explore?indicator=N5&poi=FR02)
     
-*   [Paris, France](https://eodashboard.org/explore?indicator=N5&poi=FR01-N5)
+*   [Paris, France](https://eodashboard.org/explore?indicator=N5&poi=FR01)
     
-*   [London, Great Britain](https://eodashboard.org/explore?indicator=N5&poi=GB01-N5)
+*   [London, Great Britain](https://eodashboard.org/explore?indicator=N5&poi=GB01)
     
-*   [Genoa, Italy](https://eodashboard.org/explore?indicator=N5&poi=IT03-N5)
+*   [Genoa, Italy](https://eodashboard.org/explore?indicator=N5&poi=IT03)
     
-*   [Milan, Italy](https://eodashboard.org/explore?indicator=N5&poi=IT02-N5)
+*   [Milan, Italy](https://eodashboard.org/explore?indicator=N5&poi=IT02)
     
-*   [Rome, Italy](https://eodashboard.org/explore?indicator=N5&poi=IT02-N5)
+*   [Rome, Italy](https://eodashboard.org/explore?indicator=N5&poi=IT02)
     
-*   [Venice, Italy](https://eodashboard.org/explore?indicator=N5&poi=IT01-N5)
+*   [Venice, Italy](https://eodashboard.org/explore?indicator=N5&poi=IT01)
     
-*   [Aichi Nagoya, Japan](https://eodashboard.org/explore?indicator=N5&poi=JP06-N5)
+*   [Aichi Nagoya, Japan](https://eodashboard.org/explore?indicator=N5&poi=JP06)
     
-*   [Fukuoka, Japan](https://eodashboard.org/explore?indicator=N5&poi=JP05-N5)
+*   [Fukuoka, Japan](https://eodashboard.org/explore?indicator=N5&poi=JP05)
     
-*   [Hokkaido Sapporo, Japan](https://eodashboard.org/explore?indicator=N5&poi=JP04-N5)
+*   [Hokkaido Sapporo, Japan](https://eodashboard.org/explore?indicator=N5&poi=JP04)
     
-*   [Kyoto, Japan](https://eodashboard.org/explore?indicator=N5&poi=JP03-N5)
+*   [Kyoto, Japan](https://eodashboard.org/explore?indicator=N5&poi=JP03)
     
-*   [Osaka, Japan](https://eodashboard.org/explore?indicator=N5&poi=JP02-N5)
+*   [Osaka, Japan](https://eodashboard.org/explore?indicator=N5&poi=JP02)
     
-*   [Tokyo, Japan](https://eodashboard.org/explore?indicator=N5&poi=JP01-N5)
+*   [Tokyo, Japan](https://eodashboard.org/explore?indicator=N5&poi=JP01)
     
-*   [Colombo, Sri Lanka](https://eodashboard.org/explore?indicator=N5&poi=LK01-N5)
+*   [Colombo, Sri Lanka](https://eodashboard.org/explore?indicator=N5&poi=LK01)
     
-*   [Amsterdam, The Netherlands](https://eodashboard.org/explore?indicator=N5&poi=NL01-N5)
+*   [Amsterdam, The Netherlands](https://eodashboard.org/explore?indicator=N5&poi=NL01)
     
-*   [Auckland, Australia](https://eodashboard.org/explore?indicator=N5&poi=NZ01-N5)
+*   [Auckland, Australia](https://eodashboard.org/explore?indicator=N5&poi=NZ01)
     
-*   [Lima, Peru](https://eodashboard.org/explore?indicator=N5&poi=PE01-N5)
+*   [Lima, Peru](https://eodashboard.org/explore?indicator=N5&poi=PE01)
     
-*   [Gdynia, Poland](https://eodashboard.org/explore?indicator=N5&poi=PL01-N5)
+*   [Gdynia, Poland](https://eodashboard.org/explore?indicator=N5&poi=PL01)
     
-*   [Puerto Rico, Commonwealth of Puerto Rico](https://eodashboard.org/explore?indicator=N5&poi=PR01-N5)
+*   [Puerto Rico, Commonwealth of Puerto Rico](https://eodashboard.org/explore?indicator=N5&poi=PR01)
     
-*   [Singapore, Republic of Singapore](https://eodashboard.org/explore?indicator=N5&poi=SG01-N5)
+*   [Singapore, Republic of Singapore](https://eodashboard.org/explore?indicator=N5&poi=SG01)
     
-*   [New Orleans, USA](https://eodashboard.org/explore?indicator=N5&poi=US02-N5)
-
-
-![](https://placehold.co/600x400)
+*   [New Orleans, USA](https://eodashboard.org/explore?indicator=N5&poi=US02)
 
 
 *Suomi-NPP. NASA Black Marble data courtesy of Universities Space Research Association (USRA), Earth from Space Institute (EfSI) and NASA Goddard Space Flight Center’s Terrestrial Information Systems Laboratory using VIIRS day-night band data from the Suomi National Polar-orbiting Partnership and Landsat-8 Operational Land Imager (OLI) data from the U.S. Geological Survey.*

@@ -25,7 +25,7 @@ After more than two decades of drought, researchers have documented the lowest w
 
 ## Map
 
-The interactive map shows the Colorado River observed by ESA's Copernicus Sentinel-2 optical satellite. [Access this dataset](https://www.eodashboard.org/explore?x=-12280172.88676&y=4479118.61867&z=9.11597&clusterOpen=1&poi=Colorado-Lakes_S2L2A&search=Colorado+River+and+Lake+Powel%3A+Sentinel-2+L2A). 
+The interactive map shows the Colorado River observed by ESA's Copernicus Sentinel-2 optical satellite. [Access this dataset](https://www.eodashboard.org/explore?&poi=Colorado&indicator=Lakes_S2L2A). 
 
 *(Compare slider between 2017-05-05 and 2023-05-19)*
 
@@ -43,7 +43,7 @@ In addition, recent studies have shown that water level changes in the Mekong Ri
 
 ## Map
 
-The interactive map shows the Tonlé Sap observed by JAXA's ALOS-2 radar satellite. [Access this dataset](https://eodashboard.org/explore?x=11646065.15255&y=1413919.65202&z=9.80439&poi=TonleSap_HV-Lakes_ALOS2&search=Tonl%C3%A9+Sap+Lake%3A+ALOS2+HV+-+Tonl%C3%A9+Sap)
+The interactive map shows the Tonlé Sap observed by JAXA's ALOS-2 radar satellite. [Access this dataset](https://eodashboard.org/explore?indicator=Lakes_ALOS2&poi=TonleSap_HV)
 
 ## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"Lakes_ALOS2"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA_LAKES_ALOS2_HH","styles":"","format":"image/png"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.099700430342956" center=[104.13122286094041,12.78557562008588] }-->
 
@@ -63,7 +63,7 @@ Two major storms in March 2023 caused flooding that revived Tulare Lake although
 
 ## Map
 
-The interactive map shows the Tulare Lake observed by ESA's Copernicus Sentinel-2 optical satellite. [Access this dataset](https://eodashboard.org/explore?x=-13308622.40023&y=4289907.88835&z=11.16068&poi=Tulare-Lakes_S2L2A&search=Lake+Tulare%3A+Sentinel-2+L2A)
+The interactive map shows the Tulare Lake observed by ESA's Copernicus Sentinel-2 optical satellite. [Access this dataset](https://eodashboard.org/explore?indicator=Lakes_S2L2A&poi=Tulare)
 
 Read more on the [NASA Earth Observatory](https://earthobservatory.nasa.gov/images/151284/tulare-lake-grows).
 
@@ -89,7 +89,7 @@ The map below shows a comparison of the lake surface temperature of Lake Balaton
 
 ## Explore Datasets
 
-This EO Dashboard provides access to several EO products concerning lakes. Visualize these datasets by clicking on EXPLORE DATASETS button at the top of the page or [directly view all available lake products here](https://eodashboard.org/explore?search=lake&x=907921.76691&y=3682562.22397&z=2.90689).
+This EO Dashboard provides access to several EO products concerning lakes. Visualize these datasets by clicking on **Dashboard** tab at the top of the page or [directly view all available lake products - search for lake in filter](https://eodashboard.org/explore).
 
 ## Additional resources
 

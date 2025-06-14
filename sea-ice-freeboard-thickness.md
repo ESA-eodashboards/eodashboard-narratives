@@ -27,18 +27,14 @@ Watch this video to learn how ESA measures sea ice thickness from space.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9einyMSOmHE?si=Sj-70Ym8hiDPkpi_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Globe Map
-
-    Globe Map (Cesium)
-		
 ## Explore Datasets
 
 This **EO Dashboard** provides access to interactive maps of Sea Ice Thickness and Sea Ice Concentration. Access these datasets directly from the links below:
 
-- [Sea Ice Thickness from Cryosat](https://www.eodashboard.org/explore?poi=World-SIC)
-- [Sea Ice Thickness from Envisat](https://www.eodashboard.org/explore?poi=World-SIE)
-- [Sea Ice Thickness from IceSAT-2](https://www.eodashboard.org/explore?poi=World-SITI)
-- [Sea Ice Concentration Antarctic from GCOM-W](https://www.eodashboard.org/explore?poi=World-N12_1_sea_ice_concentration_arctic)
+- [Sea Ice Thickness from Cryosat](https://www.eodashboard.org/explore?indicator=SIC)
+- [Sea Ice Thickness from Envisat](https://www.eodashboard.org/explore?indicator=SIE)
+- [Sea Ice Thickness from IceSAT-2](https://www.eodashboard.org/explore?indicator=SITI)
+- [Sea Ice Concentration Antarctic from GCOM-W](https://www.eodashboard.org/explore?indicator=World-N12_1_sea_ice_concentration_arctic)
 
 ## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"sea_ice_thickness_envisat-2012-03-01T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"ESA-CCI-V2-ENVISAT","styles":"","format":"image/png","time":"2012-03-01"}}},{"type":"Tile","properties":{"id":"Terrain Light Stereographic North"},"source":{"type":"TileWMS","urls":["https://sxcat-demo.eox.at/sxcat_maps/wms"],"params":{"layers":"sx-cat_ortho680500","format":"image/png"}}}]' zoom="2.0680307352535534" center=[-153.8783520795357,87.25976768229664] }-->
 

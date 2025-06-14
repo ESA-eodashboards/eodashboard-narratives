@@ -49,7 +49,7 @@ Long-term climate records allow us to see how our planet is changing and can pro
 
 The Interactive map below provided by NASA shows Global Ocean Primary Productivity.
  
-Explore more datasets by clicking the EXPLORE DATASETS button at the top of this page.
+Explore more datasets by clicking the **Dashboard** tab at the top of this page.
 
 ## References
 

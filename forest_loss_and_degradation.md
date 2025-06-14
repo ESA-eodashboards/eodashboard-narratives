@@ -27,14 +27,12 @@ At COP26, 100 countries endorsed the "Glasgow Leaders’s Declaration on Forests
 
 Several ESA, JAXA and NASA satellites such as the [Copernicus Sentinel missions](https://sentinels.copernicus.eu/web/sentinel), [ALOS-2](https://www.eorc.jaxa.jp/ALOS-2/en/about/palsar2.htm), [MODIS](https://modis.gsfc.nasa.gov/) or [GEDI](https://gedi.umd.edu/), equiped with optical, synthetic aperture radar (SAR) and LiDAR sensors can detect and map forest degradation, supporting conservation management, helping to track fires and to detect illegal logging. ESA's upcoming forest mission, [BIOMASS](https://earth.esa.int/eogateway/missions/biomass), is a P-band SAR satellite with the main objective to determine the global distribution of forest biomass. This satellite is expected to improve the estimates of carbon stocks and fluxes on land associated with land-use change, forest degradation and forest regrowth. 
 
-*Map information: JAXA's Global PALSAR-2/PALSAR Forest/Non-Forest Map. [View dataset](https://www.eodashboard.org/explore?search=World%3A+Forest%2Fnon-forest+map+PALSAR2&x=5065036.83109&y=-2298331.0934&z=2.64386&poi=World-FNF)*
+*Map information: JAXA's Global PALSAR-2/PALSAR Forest/Non-Forest Map. [View dataset](https://www.eodashboard.org/explore?indicator=FNF)*
 
 ###
 
 Data delivered by these missions provides the essential information used in global forest products such as the global Biomass Essential Climate Variable (ECV) of ESA's [Climate Change Initiative](https://climate.esa.int/en/projects/biomass/) (CCI). This product counts with an annual estimate of global above-ground biomass at 100 m spatial resolution over five years based on ESA’s C-band (Sentinel-1 A and -B) and JAXA’s L-band SAR on board of ALOS-2 PALSAR-2 with additional information from Space borne LIDAR (such as NASA’s Global Ecosystem Dynamics Investigation Lidar GEDI). JAXA also offers global 25m resolution SAR mosaics and forest/non-forest maps, based on ALOS PALSAR, ALOS-2 PALSAR-2 and the JERS-1 SAR. In addition, “[JICA-JAXA Forest Early Warning System in the Tropics](https://www.eorc.jaxa.jp/jjfast/)" (JJ-FAST) is now operating for monitoring early deforestation in tropical forests globally collaboration with the Japan International Cooperation Agency (JICA) and JAXA. 
-
-*Map information: JAXA's Global PALSAR-2/PALSAR Forest/Non-Forest Map. [View dataset](https://www.eodashboard.org/explore?search=World%3A+Forest%2Fnon-forest+map+PALSAR2&x=5065036.83109&y=-2298331.0934&z=2.64386&poi=World-FNF)*
-
+*Map information: JAXA's Global PALSAR-2/PALSAR Forest/Non-Forest Map. [View dataset](https://www.eodashboard.org/explore?indicator=FNF)*
 ## Tipping points <!--{as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/forest_story/Climate_tipping_points_in_Earth_s_climate_system.jpg"}-->
 
 ### Tipping points <!--{style="font-size: 4rem"}-->
@@ -49,25 +47,25 @@ Data delivered by these missions provides the essential information used in glob
 
 Boreal forests comprise 44% of Earth’s remaining intact forest landscapes [(10)](https://intactforests.org/shp/IFL_readme_2021.pdf). The boreal forest biome stretches across including Canada, Scandinavia, Russia, and China. An increase of 1.6 degrees Celsius (associated to climate change) can have significant effects on species growth and survival. The UN’s Intergovernmental Panel on Climate Change (IPCC) expects that the vast areas of the boreal forest could experience warming of up to 6 to 11 degrees Celsius by 2100, with the potential to hit a tipping point [(11)](https://www.sciencedaily.com/releases/2015/08/150820144722.htm). 
 
-*Map information: GCOM-C/SGLI L3 Normalized Difference Vegetation Index (NDVI). [View dataset](https://www.eodashboard.org/explore?search=Global%3A+NDVI&x=5065036.83109&y=-2298331.0934&z=2.64386&poi=World-E10e)*
+*Map information: GCOM-C/SGLI L3 Normalized Difference Vegetation Index (NDVI). [View dataset](https://www.eodashboard.org/explore?indicator=E10e)*
 
 ### <!--{ center="[-100,55]" zoom="4" }-->
 
 In the southern latitudes, the boreal tree cover is declining, whereas at northern latitudes it is turning into a tundra, a biome characterised by lower albedo, less vegetation and lower biomass, which can have significant impacts on the global carbon cycle, accelerating climate change. These shifts of the above-ground biomass in boreal forests (a key biophysical ecosystem variable describing all living biomass above the soil including stem, stump, branches, bark, seeds and foliage) can be measured by radar satellites such as ALOS-PALSAR. 
 
-*Map information: GCOM-C/SGLI L3 Normalized Difference Vegetation Index (NDVI). [View dataset](https://www.eodashboard.org/explore?search=Global%3A+NDVI&x=5065036.83109&y=-2298331.0934&z=2.64386&poi=World-E10e)*
+*Map information: GCOM-C/SGLI L3 Normalized Difference Vegetation Index (NDVI). [View dataset](https://www.eodashboard.org/explore?indicator=E10e)*
 
 ###
 
 The northern forests of Canada and Alaska are shifting northwards as a result of climate change, with trees expected to grow in areas previously was too cold for them. At the same time, in the southern parts of the boreal forest, where trees were adapted to colder conditions, the climate is expected to become too warm and dry. As the loss of trees in the southern boreal forest is expected to happen at a faster rate than their gain in northern regions [(12)](https://www.nature.com/articles/s41467-023-39092-2), the boreal forest is on the verge of contracting. 
 
-*Map information: GCOM-C/SGLI L3 Normalized Difference Vegetation Index (NDVI). [View dataset](https://www.eodashboard.org/explore?search=Global%3A+NDVI&x=5065036.83109&y=-2298331.0934&z=2.64386&poi=World-E10e)*
+*Map information: GCOM-C/SGLI L3 Normalized Difference Vegetation Index (NDVI). [View dataset](https://www.eodashboard.org/explore?indicator=E10e)*
 
 ###
 
 The shift to tundra along with the more frequent wildfires, contribute to a concerning pattern wherein boreal forests are approaching a critical threshold - more carbon is being released from organic soils in boreal forests than the ecosystems can absorb. This is resulting in a transition of boreal forest from being carbon sinks to becoming significant sources of global emission [(13)][https://climate.nasa.gov/news/2905/boreal-forest-fires-could-release-deep-soil-carbon/], [(14)](https://alaskabeacon.com/2023/03/03/extreme-wildfires-are-turning-worlds-largest-forest-ecosystem-from-carbon-sink-into-net-emitter/). In fact, in 2021 boreal fires emissions accounted for nearly one quarter of global carbon emissions, setting a record-high CO2 emissions from boreal fires. 
 
-*Map information: GCOM-C/SGLI L3 Normalized Difference Vegetation Index (NDVI). [View dataset](https://www.eodashboard.org/explore?search=Global%3A+NDVI&x=5065036.83109&y=-2298331.0934&z=2.64386&poi=World-E10e)*
+*Map information: GCOM-C/SGLI L3 Normalized Difference Vegetation Index (NDVI). [View dataset](https://www.eodashboard.org/explore?indicator=E10e)*
 
 ###
 
@@ -75,7 +73,7 @@ To better understanding the vulnerability and resilience of the Arctic and borea
 
 ![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/forest_story/ABoVE_Logo_large_blue.png)
 
-*Map information: GCOM-C/SGLI L3 Normalized Difference Vegetation Index (NDVI). [View dataset](https://www.eodashboard.org/explore?search=Global%3A+NDVI&x=5065036.83109&y=-2298331.0934&z=2.64386&poi=World-E10e)* 
+*Map information: GCOM-C/SGLI L3 Normalized Difference Vegetation Index (NDVI). [View dataset](https://www.eodashboard.org/explore?indicator=E10e)* 
 
 ### <!--{ layers='[{"type":"STAC","properties":{"id":"step-1"},"url":"https://eurodatacube.github.io/eodash-catalog/trilateral/LIS_Global_DA_Evap/LIS_Global_DA_Evap/lis-global-da-evap/2021/LIS_Evap_202112010000.d01.cog.json","displayWebMapLink":true,"displayFootprint":false},{"type":"Tile","properties":{"id":"cloudless-2"},"source":{"type":"XYZ","url":"https://s2maps-tiles.eu/wmts?layer=s2cloudless-2022_3857&style=default&tilematrixset=GoogleMapsCompatible&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix={z}&TileCol={x}&TileRow={y}"}}]' center=[-75,-5] zoom="5" }-->
 
@@ -87,19 +85,19 @@ In the Amazon, deforestation and climate change enhance the risk to reach a tipp
 
 This ecosystem, thanks to its trees, has the ability to generate its own rainfall. However, ongoing deforestation is fundamentally changing how the land and atmosphere interact, leading to higher surface temperatures and reduced evapotranspiration leading to the ‘drying out’ of the forest.’ This alteration is particularly pronounced during dry seasons when rainfall in the southern Amazon diminishes significantly. Simultaneously, climate change, spurred by escalating greenhouse gas concentrations, further curtails evapotranspiration due to CO2 fertilisation and the closing of stomata in response to escalating temperatures. Both mechanisms collectively decrease rainfall recycling across the Amazon, intensifying drought stress and elevating the likelihood of fires [(17)](https://www.nature.com/articles/s41558-022-01287-8).
 
-*Map information: NASA Evapotranspiration - LIS 10km Global DA. [View dataset](https://www.eodashboard.org/explore?search=World%3A+Evapotranspiration%2C+LIS&x=8381574.94156&y=-1001875.41714&z=2.64386&poi=World-LIS_Global_DA_Evap)* 
+*Map information: NASA Evapotranspiration - LIS 10km Global DA. [View dataset](https://www.eodashboard.org/explore?indicator=LIS_Global_DA_Evap)* 
 
 ###
 
 Less trees mean a diminished release of water vapour in the atmosphere, consequently reducing cloud formation and precipitation, which ultimately lead to droughts and wildfires [(18)](https://www.scientificamerican.com/article/amazon-rain-forest-nears-dangerous-tipping-point/). This cycle forms a positive feedback loop, perpetuating reduced evapotranspiration and carbon stocks. Whether stemming from localised deforestation impacts or broader global climate shifts, scientific consensus asserts a future for the Amazon characterised by increased warmth and aridity. As a result, the Amazon rainforest is gradually losing its unique ability to ‘bounce back’ after disruptive occurrences, like droughts or other extreme events, leading to a downward spiral where rainforest will shift into a savanna [(19)](https://www.nature.com/articles/s41558-022-01287-8).
 
-*Map information: NASA Evapotranspiration - LIS 10km Global DA. [View dataset](https://www.eodashboard.org/explore?search=World%3A+Evapotranspiration%2C+LIS&x=8381574.94156&y=-1001875.41714&z=2.64386&poi=World-LIS_Global_DA_Evap)* 
+*Map information: NASA Evapotranspiration - LIS 10km Global DA. [View dataset](https://www.eodashboard.org/explore?indicator=LIS_Global_DA_Evap)* 
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"RECCAP2_6_deforested_biomass-2018-01-01T00:00:00Z"},"source":{"type":"XYZ","urls":["https://reccap2.api.brockmann-consult.de/api/tiles/cop28~reccap2-9x108x139-0.0.1.zarr/deforested_biomass/{z}/{y}/{x}?crs=EPSG:3857&time=2018-01-01T00:00:00Z&vmin=0&vmax=5&cbar=YlOrRd"]}},{"type":"Tile","properties":{"id":"osm"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"osm_3857"}}]' center="[-75,-5]" zoom="5" }--> 
 
 Savannas are generally less efficient than tropical forests at sequestering carbon dioxide from the atmosphere, and recent studies indicate that certain areas of the Amazon are now releasing more carbon dioxide than they absorb. However, there remains no definitive agreement on a tipping point leading to widespread rainforest depletion and the proliferation of savanna species (Cerrado) from the biome. Given the intricate interplay between regional land-use alterations and global climate shifts, scientists are working to gain more understanding about this potential 'point of no return' for the Amazon rainforest. The threshold has been estimated to occur when deforestation reaches 20-25%. Currently, the Amazon has already undergone approximately 17% deforestation, which highlights the urgency of conservation efforts to prevent reaching an ecological tiping point.
 
-*Map information: ESA Deforested Biomass CCI RECCAP-2. [View dataset](https://www.eodashboard.org/explore?search=World%3A+Deforestation+%28CCI+RECCAP2%29&x=-4728884.58935&y=-802462.43364&z=4.52712&poi=World-RECCAP2_6)* 
+*Map information: ESA Deforested Biomass CCI RECCAP-2. [View dataset](https://www.eodashboard.org/explore?indicator=RECCAP2_6)* 
 
 ## Wildfires <!--{as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/forest_story/wildfire.jpg"}-->
 
@@ -115,7 +113,7 @@ Wildfires are becoming more destructive due to several factors, which include ri
 
 Find more information about the South American Fires in 2023 on the [NASA Earth Observatory](https://earthobservatory.nasa.gov/images/event/151021/south-american-fires-in-2023).
 
-*Map information: Carbon Dioxide (CO2) from NASA’s OCO-2. [View dataset](https://www.eodashboard.org/explore?search=World%3A+Carbon+Dioxide+%28daily%29&x=-17393.67044&y=-859057.16368&z=2.86573&indicator=N2_CO2_mean)* 
+*Map information: Carbon Dioxide (CO2) from NASA’s OCO-2. [View dataset](https://www.eodashboard.org/explore?indicator=N2_CO2_mean)* 
 
 ###
 
@@ -125,7 +123,7 @@ Find more information about the South American Fires in 2023 on the [NASA Earth 
 
 In August 2021, wildfires in Siberia produced 800 megatons of carbon dioxide, nearly double the previous year [(23)](https://www.space.com/siberia-wildfires-greenhouse-gas-emissions-satellite-images). According to estimates by the European Copernicus Atmosphere Monitoring Service (CAMS), more carbon dioxide was released in two and half months than the world’s six most polluting countries emit in a year. Climate change is exacerbating both drier and warmer conditions, fueling more frequent and farther-reaching wildfires that release massive amount of carbon into the atmosphere [(24)](https://www.nrdc.org/stories/climate-tipping-points-are-closer-once-thought). Also, there is consistent evidence that the intervals between fires are shortening, meaning that more carbon is being released from organic soils in boreal forests than the ecosystems can reabsorb, adding up to the trend where boreal forests are leading to a tipping point in that they are becoming a source for global emissions from biomass burning [(25)](https://earthsky.org/earth/wildfires-turn-worlds-largest-forests-carbon-sinks-emitters/) [(26)](https://alaskabeacon.com/2023/03/03/extreme-wildfires-are-turning-worlds-largest-forest-ecosystem-from-carbon-sink-into-net-emitter/) [(27)](https://climate.nasa.gov/news/2905/boreal-forest-fires-could-release-deep-soil-carbon/).
 
-*Map information: Carbon Dioxide (CO2) from NASA’s OCO-2. [View dataset](https://www.eodashboard.org/explore?search=World%3A+Carbon+Dioxide+%28daily%29&x=-17393.67044&y=-859057.16368&z=2.86573&indicator=N2_CO2_mean)* 
+*Map information: Carbon Dioxide (CO2) from NASA’s OCO-2. [View dataset](https://www.eodashboard.org/explore?indicator=N2_CO2_mean)* 
 
 ###
 
@@ -196,7 +194,7 @@ Another article also published in the same journal estimated a global decline in
 
 One of the main drives of degradation in sub/tropical countries is unsustainable logging [(46)](https://iopscience.iop.org/article/10.1088/1748-9326/7/4/044009). To counter this, many private companies, public institutions and non-governmental organisations (NGOs) are stepping up their forestry conservation pledges. But given the size and accessibility of many locations on Earth, a crucial component in these efforts is the use of satellite-based forest monitoring systems. For instance, such system have been instrumental in slowing down deforestation in Brazil [(47)](https://earthobservatory.nasa.gov/images/145988/tracking-amazon-deforestation-from-above).
 
-*Map information: Secondary forest growth - CCI RECCAP2 [View dataset](https://www.eodashboard.org/explore?search=World%3A+Secondary+forest+growth+%28CCI+RECCAP2%29&x=-6860063.62014&y=-850287.36643&z=4.35591&indicator=RECCAP2_5)* 
+*Map information: Secondary forest growth - CCI RECCAP2 [View dataset](https://www.eodashboard.org/explore?indicator=RECCAP2_5)* 
 
 ## <!--{ as="iframe" src="https://www.youtube.com/embed/wF_td3QRBuM" width="100%" height="500px" frameBorder="0" scroll="no" style="overflow:hidden" }-->
 
@@ -204,7 +202,7 @@ One of the main drives of degradation in sub/tropical countries is unsustainable
 
 <figcaption>A series of USGS Landsat and Copernicus Sentinel-2 images showing secondary forest regrowth near Rio Capim, in the Brazilian Amazon, from 1985 to 2022.
 
-[Read full story]( https://www.esa.int/Applications/Observing_the_Earth/Space_for_our_climate/Recovering_forests_regain_a_quarter_of_carbon_lost_from_deforestation)
+[Read full story](https://www.esa.int/Applications/Observing_the_Earth/Space_for_our_climate/Recovering_forests_regain_a_quarter_of_carbon_lost_from_deforestation)
 </figcaption>
 
 ###

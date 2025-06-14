@@ -46,7 +46,7 @@ One of the reasons for this is the direct impact of the increase in alien specie
 
 ### Map
 
-The map shows the lake surface temperature for lake Biwa based on ESA CCI data. [9] [10] [Access this Dataset](https://eodashboard.org/explore?search=Lake+Biwa%3A+Surface+Water+Temperature&x=15146872.04727&y=4190727.05511&z=9.7556&indicator=Lakes_SWT&poi=Biwa-Lakes_SWT)
+The map shows the lake surface temperature for lake Biwa based on ESA CCI data. [9] [10] [Access this Dataset](https://eodashboard.org/explore?indicator=Lakes_SWT&poi=Biwa)
 
 Even in the middle of summer when the surface water temperature is around 30°C, it remains around 10°C at a depth of 20m or deeper below the thermocline. When the thermocline is formed, the water does not mix vertically, and the supply of oxygen to the bottom of the thermocline becomes stagnant. In addition, in the deep-water layer, oxygen dissolved in water is consumed by the decomposition of organic matter such as dead plankton deposited on the bottom of the lake, and respiration of organisms in the water and on the bottom of the lake. In many deep lakes in the temperate zone, including Lake Biwa, Overturn reaches the entire lake once a year, supplying oxygen to the bottom of the lake.
 
@@ -74,13 +74,13 @@ Looking at the distribution of Chl-a concentrations in Lake Biwa throughout 2019
 Phenomena thought to be caused by climate change have already occurred in Lake Biwa, so there is an urgent need to further understand the impact of climate change and consider countermeasures. The continuous water quality and temperature data of Lake Biwa, along with new monitoring methods is important to understand the potential tipping point faced by this lake, as prolonged altered conditions such as warmer temperatures and absence of overturn might lead to significant changes in the lake ecological balance. Cases like this highlight the importance of understanding the risk of reaching tipping point where the ecosystem undergoes irreversible transformations impacting important water resources which millions depend on.
 
 ## Map
-The following Map shows Lake Biwa as imaged by NASA's Landsat7-9 satellites. [Access this dataset](https://eodashboard.org/explore?poi=NLK_lake_biwa-NLK&search=Lake+Biwa%3A+Landsat&x=15305861.16017&y=4103996.71911&z=8.96936).
+The following Map shows Lake Biwa as imaged by NASA's Landsat7-9 satellites. [Access this dataset](https://eodashboard.org/explore?indicator=NLK&poi=NLK_lake_biwa).
 
 ## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"NLK_lake_biwa-2023-03-19T01:28:30Z"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-lakes-lake-biwa/items/LC08_L2SP_109036_20230319_02_T1/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55&no_data=0"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="7.7147113573639645" center=[136.65322679499997,34.42995106686193] }-->
 
 ## Explore Datasets
 
-This **EO Dashboard** provides access to several EO products concerning lakes. Visualize these datasets by clicking on EXPLORE DATASETS button at the top of the page or directly view all available lake products here.
+This **EO Dashboard** provides access to several EO products concerning lakes. Visualize these datasets by clicking on *Dashboard* tab at the top of the page or directly view all available lake products here.
 
 ## References (Lake Vänern)
 
