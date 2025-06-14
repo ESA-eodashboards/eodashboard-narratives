@@ -52,10 +52,10 @@ _Acknowledgments: The windrose was produced by using wind data from Windergroud.
 
 Explore in more details these datasets by clicking on the **Dashboard** button at the top of the page or directly from the links below:
 
-- [GOSAT-2 CO2 on Cairo](https://www.eodashboard.org/?poi=World-N2_CO2_jaxa_gosat)
-- [OCO-2 CO2 Global](https://www.eodashboard.org/?poi=W4-N2)
-- [TROPOMI NO2](https://www.eodashboard.org/?poi=W1-N1)
-- [TROPOMI SIF](https://www.eodashboard.org/?indicator=SIF&poi=World-SIF)
+- [GOSAT-2 CO2 on Cairo](https://www.eodashboard.org/explore?indicator=N2_CO2_jaxa_gosat)
+- [OCO-2 CO2 Global](https://www.eodashboard.org/explore?indicator=N2_CO2_mean)
+- [TROPOMI NO2](https://www.eodashboard.org/explore?indicator=N1_NO2)
+- [TROPOMI SIF](https://www.eodashboard.org/explore?indicator=SIF)
 
 ## Map Example 1 <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N2_CO2_jaxa_gosat-2019-10-05T11:59:59Z"},"source":{"type":"TileWMS","urls":["https://ogcpreview2.restecmap.com/examind/api/WS/wms/default"],"params":{"layers":"XCO2-GOSAT-Cairo","styles":"","format":"image/png","time":"2019-10-05T11:59:59Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="8.882264758037921" center=[30.999999999999996,29.90175613555934] }-->
 

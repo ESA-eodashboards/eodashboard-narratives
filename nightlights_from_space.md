@@ -124,7 +124,7 @@ The notebok allows to visualize urban expansion and infrastrucutre development u
 
 * **NASA-ESA-JAXA Earth observing Dashboard**
 
-The [NASA-ESA-JAXA Earth observing Dashboard](https://eodashboard.org/explore?x=5442409.90488&y=525133.72922&z=2.81378&clusterOpen=1&indicator=N5) allows to crosscompare multiyear data over particular cities in Europe, exploring the Nighlights from SUOMI-NPP indicator, in particular the [Night lights in rural areas](https://eodashboard.org/explore?x=-2948638.45321&y=1639002.77598&z=3.45759&indicator=NTLR) and in [urban areas](https://eodashboard.org/explore?x=-2948638.45321&y=1639002.77598&z=3.45759&indicator=NTLU) datasets described in this story. 
+The [NASA-ESA-JAXA Earth observing Dashboard](https://eodashboard.org/explore?indicator=N5) allows to crosscompare multiyear data over particular cities in Europe, exploring the Nighlights from SUOMI-NPP indicator, in particular the [Night lights in rural areas](https://eodashboard.org/explore?indicator=NTLR) and in [urban areas](https://eodashboard.org/explore?indicator=NTLU) datasets described in this story. 
 
 * **NASA EarthData VEDA Dashboard**
 
