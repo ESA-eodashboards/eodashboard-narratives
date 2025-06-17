@@ -374,17 +374,6 @@
     "image": "assets/previews/NASA-thwaites-cover_preview.png"
   },
   {
-    "cover-image": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/comunity_led_story_extreme_rainfall/hero.jpg",
-    "date": "2025-01-01",
-    "theme": "extreme-events",
-    "tags": "rain",
-    "official": true,
-    "file": "https://ESA-eodashboards.github.io/eodashboard-narratives/comunity_led_story_extreme_rainfall.md",
-    "title": "Extreme rainfal events in the South-East of France",
-    "subtitle": " ",
-    "image": "assets/previews/hero_preview.png"
-  },
-  {
     "cover-image": "https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-no2/hero.jpg",
     "date": "2025-01-01",
     "theme": "covid-19",
