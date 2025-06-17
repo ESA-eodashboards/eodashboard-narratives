@@ -52,11 +52,9 @@ Figure 2 shows car container density change in a time series GIF from November 2
 Figure 3 shows the density of car containers in the ALOS-2 and Sentinel-1 image since the end of November 2019 to October 2020. The density dropped around March and has been lower until the end of August. According on the report of the Nagoya Port Customs, it was also confirmed that the amount of exports had been declining since March. We found the car density level might be slow down and bottomed in August as well as the trend might be turned around October by satellite image analysis. 
 
 <center>
+<img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/E9_car_containers/JP03-E9-chart.png" width="500">
 
-<iframe class="item" src="https://eodash-trilateral-staging.eox.at/iframe?poi=JP03-E9" width="800px" height="500px" frameBorder="0" scroll="no" style="overflow:hidden"></iframe>
-	
 *Figure 3. The car container density change in Shimpomachi in the Port of Nagoya, Aichi, Japan using data fused from the JAXA ALOS-2 satellite and the European Space Agency’s (ESA) Sentinel-1 satellite*
-
 </center>
 
 # Changes in number of new containers at terminal in Singapore<!--{ as="img" mode="hero" src="https://wpassets.porttechnology.org/wp-content/uploads/2019/11/25162519/singapore-msc.jpg" }-->
