@@ -102,23 +102,12 @@ Like NTLU (Nighttime Light Urban), the temporal coverage includes multi-year dat
 
 VIIRS satellite nightime ligh data are provided with open access, allowing interested researchers to gain deeper insights over particular areas, understand how cities grow, find economic patterns, and much more. 
 
-Supporting Open Science, here we reproduce the method developed by Professor Tojo to create the new dataset, in the following [notebook](https://hub.eox.at/services/eoxhub-gateway/eurodatacube/notebook-view/notebooks/contributions/NightLights/Night_Lights_Blending.ipynb). 
-The notebok allows to visualize urban expansion and infrastrucutre development using additive color blending - i.e. assigning different years to RGB channels to reveal where artificial areas increased (which could be linked to economic growth) or decreased (suggesting reduced activity).
+Supporting Open Science, here we reproduce the method developed by Professor Tojo to create the new dataset, in the following [notebook](https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/nightlights-notebook/night-lights-blending). 
+The notebook allows to visualize urban expansion and infrastrucutre development using additive color blending - i.e. assigning different years to RGB channels to reveal where artificial areas increased (which could be linked to economic growth) or decreased (suggesting reduced activity).
 
-<figure style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/Nightlights/nightime_notebook_image.jpg?raw=true" 
-         alt=" . " 
-         style="display: block; margin: 0 auto;"
-         width="500">
-    <figcaption>
-         Jupyter Notebook: Nightime Lights with SUOMI NPP.
-        <a href="https://hub.eox.at/services/eoxhub-gateway/eurodatacube/notebook-view/notebooks/contributions/NightLights/Night_Lights_Blending.ipynb" target="_blank">
-             Access the Notebook
-        </a>.
-    </figcaption>
-</figure>
+<iframe width="100%" height="600" src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/nightlights-notebook/night-lights-blending" frameborder="0"></iframe>
 
-[Access the notebook](https://hub.eox.at/services/eoxhub-gateway/eurodatacube/notebook-view/notebooks/contributions/NightLights/Night_Lights_Blending.ipynb) to analyze trends, and uncover patterns of human activity on a location of your choice. 
+[Access the notebook](https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/nightlights-notebook/night-lights-blending) to analyze trends, and uncover patterns of human activity on a location of your choice. 
 
 ### Visualisation Portals
 
