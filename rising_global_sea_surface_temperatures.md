@@ -1,8 +1,8 @@
 ---
 cover-image: https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2014/05/crop_yield/14537834-1-eng-GB/Crop_yield_pillars.jpg
 date: 2025-01-01
-theme: agriculture
-tags: sea-surface-temperature
+theme: extreme-events
+tags: ocean,sea-surface-temperature
 official: true
 ---
 

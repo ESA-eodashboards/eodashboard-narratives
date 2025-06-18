@@ -2,7 +2,7 @@
 cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-EO_PIX_Ocean_COVER_Photo.jpeg
 date: 2025-01-01
 theme: oceans
-tags: ocean,life, diversity
+tags: ocean,life,diversity
 official: true
 ---
 
