@@ -1,8 +1,8 @@
 ---
 cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/12-ship-traffic.jpg
 date: 2025-01-01
-theme: cryosphere
-tags: climate,ice,polar,warming
+theme: covid-19
+tags: shipping
 official: true
 ---
 
