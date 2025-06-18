@@ -35,16 +35,20 @@ _Sentinel-5 Precursor is the first Copernicus mission dedicated to monitoring ou
 
 ## Explore Datasets
 
-_Use the interactive map on this page to see how carbon monoxide levels vary globally. The compare feature on this map allows looking at the levels of CO on two different dates._
-
 This **EO Dashboard** provides access to interactive maps of Carbon Monoxide, Nitrogen Dioxide, and Sulfur Dioxide from TROPOMI. Access these datasets by clicking on the [Dashboard](https://www.eodashboard.org/explore) button at the top of the page or directly from the links below:
 
 - [TROPOMI CO](https://www.eodashboard.org/explore?indicator=N1_CO)
 - [TROPOMI NO2](https://www.eodashboard.org/explore?indicator=N1_NO2)  
 - [TROPOMI SO2](https://www.eodashboard.org/explore?indicator=N1_SO2)
 
+The compare feature in the dashboard allows looking at the levels of CO on two different dates or compare two variables on similar dates.
+
+Use the interactive map on this page to see how carbon monoxide levels vary globally on 2.2.2025.
+
+## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"CO_3_daily-2025-02-02T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"AWS_VIS_CO_3DAILY_DATA","styles":"","format":"image/png","time":"2025-02-02T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="3.39962467591212" center=[32.580020785192396,15.862729685328446] }-->
+
+## Fire impact analysis notebook
+
 The following Notebook evaluates fire impact on populated areas on a European site
 
 <iframe width="95%" style="min-height: 70vh" src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/fire-impact-analysis" frameborder="0"></iframe>
-
-## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"CO_3_daily-2025-02-02T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"AWS_VIS_CO_3DAILY_DATA","styles":"","format":"image/png","time":"2025-02-02T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="3.39962467591212" center=[32.580020785192396,15.862729685328446] }-->
