@@ -1,14 +1,19 @@
-## Megacities glow
-#### How lockdown impacted differently megacities across the world
+# Different cities, different glow... this is what satellites show <!--{ as="img" data-fallback-src="" mode="hero" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F4%2F4f%2FSummit-lake-wv-night-sky-reflection_-_West_Virginia_-_ForestWander.jpg&f=1&nofb=1&ipt=b8d7ce7f474e953355fc8e58b45c9122e6a1d4e5cafc7e8dbc6cbf48cc91e137" }-->
+### by Name <!--{ style="font-size:1rem;opacity:0.7;margin-top:1rem;" }-->
 
-When COVID-19 swept across the globe in early 2020, life as we knew it came to a halt. Streets emptied, businesses closed, and bustling cities fell silent. But what if we could see these changes from space?
+## Lockdown impacts seen from Space
 
-Thanks to satellite technology, *we actually can*.
+When COVID-19 swept across the globe in early 2020, life as we knew it came to a halt. Streets emptied, businesses closed, and bustling cities fell silent. But what if we could see these changes from space? Thanks to satellite technology, *we actually can*. But we noticed stricking differences across the world.
 
-### What Did the Satellites See?
-The research revealed three main patterns in how cities' night-time brightness changed during lockdowns. 
+## SUOMI <!--{as="img" data-fallback-src="" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.O9XxqWTtFP4yDZqnpaaOZwHaEK%26pid%3DApi&f=1&ipt=89a678a00b9523ff430a8d47a36d664e9a21c95d388dc2c6938cd65e7871bf92" style="width: 100%"}-->
+One source of nighttime light imagery is the Visible Infrared Imaging Radiometer Suite (VIIRS) aboard the Suomi National Polar-orbiting Partnership (Suomi NPP), a joint mission of the National Oceanic and Atmospheric Administration (NOAA) and NASA. 
 
-##  Tracking cities night lights <!--{ as="eox-map" mode="tour" }-->
+### But what has SUOMI allowed to show?
+A research from Uuhan Univeristy  revealed three main patterns in how cities' night-time light (NTL) brightness changed during lockdowns: in some NTL  reduced (in Asia most pronouncde), but in Europe there were no significant changes. However, most keep their center unchanded.
+
+
+## Tracking cities across the world <!--{ as="eox-map" mode="tour" }-->
+
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Urban"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-URBAN","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.30581710053702" center=[-73.93914817048991,40.70434299459535] animationOptions={duration:500}}-->
 #### New york - the city that never sleeps (or does?)
 Text describing the current step of the tour and why it is interesting what the map shows currently
@@ -16,6 +21,12 @@ Text describing the current step of the tour and why it is interesting what the 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Urban"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-URBAN","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.018274014279505" center=[34.92944497405267,33.01099679469256] animationOptions={duration:500}}-->
 #### Stricking differences across the borders
 Text describing the current step of the tour and why it is interesting what the map shows currently
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Urban"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-URBAN","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="8.193021972550813" center=[-102.84620021918404,32.12946828230076] animationOptions={duration:500}}-->
+#### Industry impacted in Texas
+Text describing the current step of the tour and why it is interesting what the map shows currently
+
+
 
 
 
