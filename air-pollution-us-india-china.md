@@ -85,36 +85,34 @@ The timeseries charts for northeastern India show a steady increase for both NO<
   <img src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/SO2NO2-India.png" alt="India">
   <figcaption>The timeseries charts for northeastern India show a steady increase for both NO<sub>2</sub> and SO<sub>2</sub> from 2005 to 2018. Interestingly, the amount of pollution in this region appears to have leveled off over the past few years, perhaps a sign that air pollution control technology has started to be deployed on large pollution sources. The significant drop in both SO<sub>2</sub> and NO<sub>2</sub> for 2020 is most likely the result of the prolonged COVID-19 lockdown in India that resulted in a reduction in fossil fuel combustion.</figcaption>
 </figure>	
-	
+
 ### Future Research
 
 These observations represent almost two decades of daily air pollution data that show an increasingly clear picture of where the gas comes from and how the amount entering the atmosphere has changed over time and whether changes in air quality control are making a difference.
-
-## EO Datasets
-
-Use the **interactive map** on this page to see how yearly nitrogen dioxide levels vary globally. The compare feature on this map allows looking at the levels of NO~2~ in different years.
-
-This **EO narrative** provides access to interactive maps of Carbon Monoxide, Nitrogen Dioxide, and Sulfur Dioxide from NASA's OMI. Access these datasets by clicking on the **[Dashboard](https://www.eodashboard.org/explore)** at the top of the page or directly from the links below:
-
-- [OMI NO2 - Monthly](https://eodashboard.org/explore?indicator=N1_NO2_monthly)
-- [OMI NO2 - Yearly](https://eodashboard.org/explore?indicator=N9)
-- [OMI SO2](https://eodashboard.org/explore?indicator=N10)
-
-	## Map Tour Example <!--{ as="eox-map" mode="tour" }-->
+	
+## Map Tour Example <!--{ as="eox-map" mode="tour" }-->
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N9_OMI_trno2-COG-2022-01-01T00:00:00Z"},"opacity":0,"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=reds&rescale=0,37e14&url=s3://veda-data-store/OMI_trno2-COG/OMI_trno2_0.10x0.10_2022_Col3_V4.tif"]}},{"type":"Tile","properties":{"id":"OSM Background"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="6.90795031205442" center=[-81.51716087269001,39.78949635236157] animationOptions={duration:500}}-->
 #### Ohio River basin
  The Ohio River flows through or borders six states: Illinois, Indiana, Kentucky, Ohio, Pennsylvania, and West Virginia.
 	
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N9_OMI_trno2-COG-2009-01-01T00:00:00Z"},"opacity":0.7,"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=reds&rescale=0,37e14&url=s3://veda-data-store/OMI_trno2-COG/OMI_trno2_0.10x0.10_2009_Col3_V4.tif"]}},{"type":"Tile","properties":{"id":"OSM Background"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="6.90795031205442" center=[-81.51716087269001,39.78949635236157] animationOptions={duration:500}}-->
+#### Air Quality in the Ohio River Valley in 2009
+Nitrogen Dioxide yearly concentration in the Ohio River Valley in 2009
 
-	
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N9_OMI_trno2-COG-2022-01-01T00:00:00Z"},"opacity":0.7,"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=reds&rescale=0,37e14&url=s3://veda-data-store/OMI_trno2-COG/OMI_trno2_0.10x0.10_2022_Col3_V4.tif"]}},{"type":"Tile","properties":{"id":"OSM Background"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="6.90795031205442" center=[-81.51716087269001,39.78949635236157] animationOptions={duration:500}}-->
-#### Air Quality in the Ohio River Valley
-NASA satellite data has shown significant improvements in air quality over the Ohio River Valley, particularly a decrease in nitrogen dioxide (NO2) levels. [Read more at NASA](https://svs.gsfc.nasa.gov/11573/#:~:text=The%20impact%20of%20technology%20to,greenhouse%20gas%20%E2%80%93%20remain%20an%20issue.).
-
-
+#### Air Quality in the Ohio River Valley in 2022
+NASA satellite data has shown significant improvements in air quality over the Ohio River Valley, particularly a decrease in nitrogen dioxide (NO2) levels. This map illustrates the Nitrogen Dioxide for the year 2022. Further dates are available on the  **[Dashboard](https://www.eodashboard.org/explore?indicator=N9&x=-9074448.83926&y=4835399.44958&z=6.90795)**.
+	
+[Read more at NASA](https://svs.gsfc.nasa.gov/11573/#:~:text=The%20impact%20of%20technology%20to,greenhouse%20gas%20%E2%80%93%20remain%20an%20issue.). 
 
 ## Open Data
+	
+Further datasets, including Carbon Monoxide, Nitrogen Dioxide, and Sulfur Dioxide from NASA's OMI are available on EO Dashboard:
+
+- [OMI NO2 - Monthly](https://eodashboard.org/explore?indicator=N1_NO2_monthly)
+- [OMI NO2 - Yearly](https://eodashboard.org/explore?indicator=N9)
+- [OMI SO2](https://eodashboard.org/explore?indicator=N10)
 
 These datasets are provided by NASA's VEDA EOAPI. The following Notebook illustrates how to access and work with the datasets to recreate the graphs illustrated in this story.
 
