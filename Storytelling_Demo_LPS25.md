@@ -9,7 +9,7 @@ When COVID-19 swept across the globe in early 2020, life as we knew it came to a
 One source of nighttime light imagery is the Visible Infrared Imaging Radiometer Suite (VIIRS) aboard the Suomi National Polar-orbiting Partnership (Suomi NPP), a joint mission of the National Oceanic and Atmospheric Administration (NOAA) and NASA. 
 
 ### But what has SUOMI allowed to show?
-A research from Uuhan Univeristy  revealed three main patterns in how cities' night-time light (NTL) brightness changed during lockdowns: in some NTL  reduced (in Asia most pronouncde), but in Europe there were no significant changes. However, most keep their center unchanded.
+A research from Uuhan Univeristy  revealed three main patterns in how cities' night-time light (NTL) brightness changed during lockdowns: in some NTL  **reduced (in Asia most pronounced)**, but in Europe there were no significant changes. However, most keep somthing in common: their center unchanded.
 
 
 ## Tracking cities across the world <!--{ as="eox-map" mode="tour" }-->
@@ -30,4 +30,7 @@ Text describing the current step of the tour and why it is interesting what the 
 
 
 
-
+## References <!--{ as="div" }-->
+1. Referenca A
+2. Reference B
+3. Reference C
