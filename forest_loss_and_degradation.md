@@ -105,107 +105,85 @@ Fires are declining in savannas and grasslands. In fact, global burned area has 
 
 On the other hand, fires are increasing in boreal forest ecosystems, albeit with large interannual variability [(22)](https://www.fao.org/3/xii/0207-b3.htm), making it difficult to attribute recent high fire years to an overall positive trend in burned areas. The ESA CCI programme also delivers Global maps of burned area, based on the NASA's Moderate Resolution Imaging Spectroradiometer (MODIS) on board the Terra satellite. 
 
-![](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/forest_story/wildfire.jpg)
 ## <!--{ id="wildfires-map" as="eox-map" mode="tour" }-->
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N2_CO2_diff-2022-02-13T00:00:00Z"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=rdbu_r&rescale=-1e-06,1e-06&url=s3://veda-data-store/co2-diff/xco2_16day_diff._2022-02-13.tif"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="3.321928094887362" center=[49.110112218277,42.5045134584679] animationOptions={duration:500}}-->
+#### NASA OCO-2 Carbon Dioxide Difference
+This map shows the difference in carbon dioxide (CO2) levels on the observation date (28 July 2021) compared to the 2015-2019 baseline. Redder colors indicate increases in CO2. Bluer colors indicate lower levels of CO2.
+
+[View dataset](https://www.eodashboard.org/explore?search=Global%3A+NDVI&x=9777576.63986&y=6761469.91318&z=4.04859&indicator=N2_diff&area=POLYGON%28%2891.6860897901812+59.16301123078122%2C139.41269053968733+59.16301123078122%2C139.41269053968733+69.43080822422633%2C91.6860897901812+69.43080822422633%2C91.6860897901812+59.16301123078122%29%29)
+
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N2_CO2_diff-2021-07-30T00:00:00Z"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=rdbu_r&rescale=-1e-06,1e-06&url=s3://veda-data-store/co2-diff/xco2_16day_diff._2021-07-30.tif"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="4.048594761554028" center=[87.83346537234536,51.78570157047935] animationOptions={duration:500}}-->
 
 
-#### Siberian Boreal forests
+#### Siberian Boreal Forests - 2021 Wildfires 
+**NASA OCO-2 Carbon Dioxide Difference, 28 July 2021**
 
 ![Siberia](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/forest_story/Siberia.png)
 
 In August 2021, wildfires in Siberia produced 800 megatons of carbon dioxide, nearly double the previous year [(23)](https://www.space.com/siberia-wildfires-greenhouse-gas-emissions-satellite-images). According to estimates by the European Copernicus Atmosphere Monitoring Service (CAMS), more carbon dioxide was released in two and half months than the world’s six most polluting countries emit in a year. Climate change is exacerbating both drier and warmer conditions, fueling more frequent and farther-reaching wildfires that release massive amount of carbon into the atmosphere [(24)](https://www.nrdc.org/stories/climate-tipping-points-are-closer-once-thought). Also, there is consistent evidence that the intervals between fires are shortening, meaning that more carbon is being released from organic soils in boreal forests than the ecosystems can reabsorb, adding up to the trend where boreal forests are leading to a tipping point in that they are becoming a source for global emissions from biomass burning [(25)](https://earthsky.org/earth/wildfires-turn-worlds-largest-forests-carbon-sinks-emitters/) [(26)](https://alaskabeacon.com/2023/03/03/extreme-wildfires-are-turning-worlds-largest-forest-ecosystem-from-carbon-sink-into-net-emitter/) [(27)](https://climate.nasa.gov/news/2905/boreal-forest-fires-could-release-deep-soil-carbon/).
 
-*Map information: Carbon Dioxide (CO2) from NASA’s OCO-2. [View dataset](https://www.eodashboard.org/explore?indicator=N2_CO2_mean)* 
-
-###
-
-## Simple Image Example <!--{as="img" data-fallback-src="https://raw.githubusercontent.com/aapopescu/eodashboard-narratives/aapopescu/corrections-stories-before-lps/assets/aapopescu/Screenshot-2025-06-20-at-14.52.04-1750424086846.png" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/a22dd03632d19f724946eadb83c3f550f9ebed6a/assets/Screenshot-2025-06-20-at-14.52.04-1750424086846.png" style="width: 100%; height: 600px;"}-->
-
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N2_CO2_diff-2022-02-13T00:00:00Z"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=rdbu_r&rescale=-1e-06,1e-06&url=s3://veda-data-store/co2-diff/xco2_16day_diff._2022-02-13.tif"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="4.005261428220694" center=[-71.06956073988155,-21.13234596475597] animationOptions={duration:500}}-->
 #### Grasslands and Savannas
+**NASA OCO-2 Carbon Dioxide Difference, 13 February 2022**
 
 Some of the world’s most relevant woody biomes, the savannas, might be facing tipping point [(28)](https://www.researchgate.net/publication/257198227_Mega-fires_tipping_points_and_ecosystem_services_Managing_forests_and_woodlands_in_an_uncertain_future). Fires which play a crucial role in the maintenance and stabilisation of savannas in regions where forest is also a viable stable ecosystem state. Across the grasslands of Asia, the tropical forests of South America, and the savannas of Africa, shifting livelihoods are leading to a significant decline in burned area. By using space assets to detect fires and burn scars, researchers found an ongoing transition from nomadic cultures to settled lifestyles and intensifying agriculture, which has led to a steep drop in the use of fire for land clearing and an overall drop in natural and human-caused fires worldwide. In traditional savanna cultures, people often set fires to keep grazing lands productive and free of shrubs and trees. But as many of these communities have shifted to cultivating permanent fields and building more houses, roads, and villages, the use of fire has declined [(29)](https://earthobservatory.nasa.gov/images/90493/researchers-detect-a-global-drop-in-fires).
 
 Conversely, other activities such as fire suppression have allowed fuel loads to accumulate, resulting in a dramatic increase of wildfire intensity. While much of the evidence comes from Australia and the USA,
 additional insights can be gained from other regions as well.
 
-###
-
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N2_CO2_diff-2019-04-28T00:00:00Z"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=rdbu_r&rescale=-1e-06,1e-06&url=s3://veda-data-store/co2-diff/xco2_16day_diff._2019-04-28.tif"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="4.005261428220694" center=[7.2278600853748705,-14.509631285836164] animationOptions={duration:500}}-->
+#### Central Africa
+**NASA OCO-2 Carbon Dioxide Difference, 28 April 2019**
 In Central Africa, the slash-and-burn agriculture practice combined with the seasonal rise in temperature are primarily responsible for wildfires in Central Africa. In 2019, data from NASA's MODIS satellite revealed Central Africa experienced five times the number of wildfires as the Amazon, although the phenomena and impacts in the two regions are not equivalent [(30)](https://www.newsweek.com/nasa-images-show-africa-has-five-times-more-wildfires-burning-amazonheres-why-theyre-1456382) . The changes in savanna, grassland, and tropical forest fire patterns are so large that they have so far offset some of the increased risk of fire caused by global warming. The impact of a warming and drying climate is more obvious at higher latitudes, where fire has increased in Canada and the American West. Regions of China, India, Brazil, and southern Africa also showed increases in burned area.
 
-### <!--{ layers='[{"type":"STAC","properties":{"id":"methane"},"url":"https://eurodatacube.github.io/eodash-catalog/trilateral/Gridded_EPA_Methane/EPA_Field_burning_Monthly/EPA-monthly-emissions_4F_Field_Burning/2012/EPA-monthly-emissions_4F_Field_Burning_201205.json","displayWebMapLink":true,"displayFootprint":false},{"type":"Tile","properties":{"id":"cloudless-3"},"source":{"type":"XYZ","url":"https://s2maps-tiles.eu/wmts?layer=s2cloudless-2022_3857&style=default&tilematrixset=GoogleMapsCompatible&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix={z}&TileCol={x}&TileRow={y}"}}]' center="[-130, 40]" zoom="4" }-->
-
-#### California's giant sequoias
-
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N2_CO2_diff-2021-09-25T00:00:00Z"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=rdbu_r&rescale=-1e-06,1e-06&url=s3://veda-data-store/co2-diff/xco2_16day_diff._2021-09-24.tif"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="6.953333333333323" center=[-120.93207191099233,35.63636581719439] animationOptions={duration:500}}-->
+#### California, US
+#### Central Africa
+**NASA OCO-2 Carbon Dioxide Difference, 25 September 2021**
 ![California](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/forest_story/California.png)
 
 According to the U.S. Forest Service, recent fires have killed from 13 to 19% of the world’s giant sequoias in 2020 and 2021 alone [(31)](https://insideclimatenews.org/news/23092022/california-sequioa-wildfires/). [(32)](https://www.nps.gov/articles/000/2021-fire-season-impacts-to-giant-sequoias.htm), causing concern in the scientific community that California forests may be nearing a tipping point from wildfires. Giant sequoias evolved to survive and thrive under lightning-ignited wildfires. In fact, the giant trees depend on fire to release the seeds inside their cones and to remove competing trees that would otherwise deprive them of the ample sunlight they need to flourish [(33)](https://150.parks.ca.gov/?page_id=27588).
 
-*Map information: EPA Methane Emissions [View dataset](https://www.eodashboard.org/explore?indicator=EPA_Field_burning_Monthly&x=-10575351.41304&y=4201451.01648&z=3.34556)*
+However, the increased severity of fires in recent years, fueled by the racing pace of global warming, is threatening the giant sequoias. In 2021 two very large fires, the Kings Canyon National Park “(KNP) Complex Fire ”and the “Windy Fire”, burned in the southern Sierra Nevada mountains of California in 2021. They had a significant impact on the region's giant sequoia groves, killing thousands of trees. On September 15, 2021 the Operational Land Imager (OLI) on Landsat 8 [(34)](https://landsat.gsfc.nasa.gov/satellites/landsat-8/) acquired an imagery of the “KNP Complex fire” - the largest wildfire in California history at the time. 
 
-###
-
-However, the increased severity of fires in recent years, fueled by the racing pace of global warming, is threatening the giant sequoias. In 2021 two very large fires, the Kings Canyon National Park “(KNP) Complex Fire ”and the “Windy Fire”, burned in the southern Sierra Nevada mountains of California in 2021. They had a significant impact on the region's giant sequoia groves, killing thousands of trees. On September 15, 2021 the Operational Land Imager (OLI) on Landsat 8 [(34)](https://landsat.gsfc.nasa.gov/satellites/landsat-8/) acquired an imagery of the “KNP Complex fire” - the largest wildfire in California history at the time. The instrument allowed to depict fire fronts beneath the plumes thanks to the thermal signature provided by infrared data [(35)](https://earthobservatory.nasa.gov/images/148840/fire-encroaching-on-giant-sequoias). Satellite images of the KNP Complex and Windy Fire, both within the Sequoia National Park, were captured by the Geostationary Operational Environmental Satellite 17 (GOES-17) [(36)](https://www.goes-r.gov/multimedia/dataAndImageryImagesGoes-17.html), which prompted authorities to issue evacuation orders [(37)](https://earthobservatory.nasa.gov/images/148878/southern-california-under-smoke).
-
-### <!--{ layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"overlay_base_bright_3857"}},{"type":"Tile","properties":{"id":"sequoia"},"source":{"type":"TileWMS","url": "https://services-uswest2.sentinel-hub.com/ogc/wms/6be61090-7d26-4e41-aeaa-1eab79b1bf68","params": {"LAYERS":"TRUE-COLOR","TIME":"2021-09-15"}}}]' center="[-119.5, 36.27]" zoom="10" }-->
+The instrument allowed to depict fire fronts beneath the plumes thanks to the thermal signature provided by infrared data [(35)](https://earthobservatory.nasa.gov/images/148840/fire-encroaching-on-giant-sequoias). Satellite images of the KNP Complex and Windy Fire, both within the Sequoia National Park, were captured by the Geostationary Operational Environmental Satellite 17 (GOES-17) [(36)](https://www.goes-r.gov/multimedia/dataAndImageryImagesGoes-17.html), which prompted authorities to issue evacuation orders [(37)](https://earthobservatory.nasa.gov/images/148878/southern-california-under-smoke).
 
 The following year, 4800 acres burned from 7th to 30th of July causing road closures for multiple weeks. These fires were part of a larger pattern of wildfires in the western United States, where wildland fires occur more frequently and over a longer period each year as the fire season extends. NASA Earth has been spatializing and mapping wildfires since 1950 [(38)](https://appliedsciences.nasa.gov/our-impact/news/washburn-fire-fits-pattern-longer-and-more-frequent-wildfires).
 
-## Human proximity and resilience <!--{as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/forest_story/trees_city.jpeg"}-->
+## Human proximity and resilience 
 
-### Human proximity and resilience <!--{style="font-size: 4rem"}-->
-
-## <!--{ id="human-proximity-map" as="eox-map" mode="tour" layers='[{"type":"Tile","source":{"type":"XYZ","url":"https://s2maps-tiles.eu/wmts?layer=s2cloudless-2022_3857&style=default&tilematrixset=GoogleMapsCompatible&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix={z}&TileCol={x}&TileRow={y}"}}]' }-->
-
-### <!--{ center=[15,48] zoom="5" }-->
-
-#### Human Settlements impact resilience of temperate forests
-
-![temperate](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/forest_story/temperate.png)
+### Temperate forests
 
 Due to their moderate climates, fertile soils, and vegetation productivity, temperate forest regions have historically attracted human settlement. Consequently, these forests are often situated in proximity to large human populations and have faced substantial impacts from human activities. These impacts encompass pollution, deforestation for agricultural expansion, and the introduction of invasive pests and diseases, all of which significantly affect the health and sustainability of these ecosystems [(39)](https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/temperate-forest).
 
-###
+![temperate](https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/forest_story/temperate.png)
 
 Recent studies [(41)](https://www.nature.com/articles/s41586-022-04959-9) indicate that this type of forest is on the verge of reaching a tipping point. This looming risk stems from several factors, including climate change, land-use alterations, the introduction of invasive species, and other disturbances. These factors can result in a notable decline in forest resilience, characterized by two primary aspects: the forest's ability to recover after a disturbance and its capacity to withstand the highest level of disturbance [(42)](https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2745.12337). Reductions in forest resilience are statistically associated with abrupt declines in forest primary productivity, occurring as a response to gradual movement toward a critical resilience threshold.
 
-###
-
 The biomass of some temperate forests exceeds that of any tropical forest. They provide critical ecosystem services, and recent evidence indicates the global importance of carbon sinks in the temperate forest zone, especially in eastern North America. While temperate forests generally have lower biodiversity compared to tropical forests, they do feature hotspots with high levels of endemism [(43)](https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/temperate-forest). In Europe, the situation is concerning, with less than half of the continent’s original forested areas remaining. Deforestation is accelerating across the developing word, largely driven by human population growth [(44)](https://www.esa.int/Applications/Observing_the_Earth/Space_for_our_climate/Forests). A study published in Nature reported a worrying trend: canopy mortality has doubled in Europe’s temperate forests over the past three decades [(45)](https://www.nature.com/articles/s41467-018-07539-6).
-
-###
 
 Another article also published in the same journal estimated a global decline in forest resilience over the past two decades, affecting not just temperate forests but also tropical and arid forests. This decline is likely linked to increased water stress and the broader impacts of climate change [(41)](https://www.nature.com/articles/s41586-022-04959-9).
 
 
+## Restoration and conservation 
 
-## Restoration and conservation <!--{as="img" mode="hero" src="https://images.pexels.com/photos/142497/pexels-photo-142497.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1278&dpr=1"}-->
+![](https://images.pexels.com/photos/142497/pexels-photo-142497.jpeg)
 
-### Restoration and conservation <!--{style="font-size: 4rem"}-->
 
-## <!--{ id="restoration-conservation" as="eox-map" mode="tour" layers='[{"type":"Tile","properties":{"id":"RECCAP2_5_SF_biomass_growth-2018-01-01T00:00:00Z"},"source":{"type":"XYZ","urls":["https://reccap2.api.brockmann-consult.de/api/tiles/cop28~reccap2-9x108x139-0.0.1.zarr/SF_biomass_growth/{z}/{y}/{x}?crs=EPSG:3857&time=2018-01-01T00:00:00Z&vmin=0&vmax=2&cbar=YlGn"]}},{"type":"Tile","properties":{"id":"cloudless-4"},"source":{"type":"XYZ","url":"https://s2maps-tiles.eu/wmts?layer=s2cloudless-2022_3857&style=default&tilematrixset=GoogleMapsCompatible&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fjpeg&TileMatrix={z}&TileCol={x}&TileRow={y}"}}]' }-->
 
-### <!--{ center=[-74,-3] zoom="5" }-->
+#### Secondary forest growth - ESA CCI RECCAP2
 
-#### Satellite for restoration and conservation and monitoring illegal activities
-
-One of the main drives of degradation in sub/tropical countries is unsustainable logging [(46)](https://iopscience.iop.org/article/10.1088/1748-9326/7/4/044009). To counter this, many private companies, public institutions and non-governmental organisations (NGOs) are stepping up their forestry conservation pledges. But given the size and accessibility of many locations on Earth, a crucial component in these efforts is the use of satellite-based forest monitoring systems. For instance, such system have been instrumental in slowing down deforestation in Brazil [(47)](https://earthobservatory.nasa.gov/images/145988/tracking-amazon-deforestation-from-above).
-
-*Map information: Secondary forest growth - CCI RECCAP2 [View dataset](https://www.eodashboard.org/explore?indicator=RECCAP2_5)* 
+One of the main drives of degradation in sub/tropical countries is unsustainable logging [(46)](https://iopscience.iop.org/article/10.1088/1748-9326/7/4/044009). To counter this, many private companies, public institutions and non-governmental organisations (NGOs) are stepping up their forestry conservation pledges. But given the size and accessibility of many locations on Earth, a crucial component in these efforts is the use of satellite-based forest monitoring systems. For instance, such system have been instrumental in slowing down deforestation in Brazil [(47)](https://earthobservatory.nasa.gov/images/145988/tracking-amazon-deforestation-from-above). [View dataset](https://www.eodashboard.org/explore?indicator=RECCAP2_5)
 
 ## <!--{ as="iframe" src="https://www.youtube.com/embed/wF_td3QRBuM" width="100%" height="500px" frameBorder="0" scroll="no" style="overflow:hidden" }-->
 
 ##
 
-<figcaption>A series of USGS Landsat and Copernicus Sentinel-2 images showing secondary forest regrowth near Rio Capim, in the Brazilian Amazon, from 1985 to 2022.
-
-[Read full story](https://www.esa.int/Applications/Observing_the_Earth/Space_for_our_climate/Recovering_forests_regain_a_quarter_of_carbon_lost_from_deforestation)
+<figcaption>A series of USGS Landsat and Copernicus Sentinel-2 images showing secondary forest regrowth near Rio Capim, in the Brazilian Amazon, from 1985 to 2022.Source: https://www.esa.int
 </figcaption>
 
-###
 
 One notable example of these technologies in action is the Global Forest Watch. This online platform leverages satellite data to support monitoring and evaluation of conservation projects, playing a vital role in international efforts to reduce deforestation.
-
-###
 
 Synthetic aperture radar (SAR), which can observe land surface through clouds, is also useful technology for monitoring deforestation especially in tropical forests. Japan International Cooperation Agency (JICA) and JAXA are operating “the JICA-JAXA Forest Early Warning System in the Tropics” (JJ-FAST), which provides the latest information on deforestation and forest changes in tropical regions globally, on an average of once every 45 days by utilizing ALOS-2 observation data. JJ-FAST is utilized operationally in some countries in the South America and Africa for monitoring deforestation including illegal logging.
