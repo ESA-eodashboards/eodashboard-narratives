@@ -7,10 +7,9 @@ official: true
 ---
 
 # Farmlands North of Cairo absorb so much atmospheric CO2 it can be measured from space <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/3-agriculture-crops.jpg" }-->
-### Read more about how crops consume Cairo's Carbon Dioxide <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+### Satellite observations of solar-induced fluorescence shed light on plant photosynthetic activity<!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
-# Crops Consume Cairo’s Carbon Dioxide
-## Story of Cairo
+## Crops Consume Cairo’s CO2
 
 Cairo, the capital city of Egypt, is home to more than 20 million people, making it the most populated city in Africa. The city is located on the fertile floodplain of the Nile River and is surrounded by farmland, with a high concentration of farmland to the north. The farmland stands out in satellite imagery against the drier deserts of Egypt, and during the growing season crops absorb atmospheric carbon dioxide (CO2) that can be measured from space.
 
@@ -24,15 +23,17 @@ In this research, researchers from the Japanese Aerospace Exploration Agency dem
 
 Egypt has two growing seasons, one in the summer and one in the winter. In the summer, the map below shows there were low CO2 levels over Cairo, correlated with high SIF.
 
-![Wind_Cairo_2018-06-30](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Wind_Cairo_2018-06-30_rev.png)
-![Wind_Cairo_2019-02-01](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Wind_Cairo_2019-02-01_rev.png)
-![Wind_Cairo_2019-10-05](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Wind_Cairo_2019-10-05_rev.png)
+<center>
+<img src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Wind_Cairo_2018-06-30_rev.png" width="30%">
+	
+<img src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Wind_Cairo_2019-02-01_rev.png" width="30%">
+	
+<img src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Wind_Cairo_2019-10-05_rev.png" width="30%">
+	
+Wind direction and speed over Cairo on 2018-06-30, 2019-02-01 and 2019-10-05.
+	
 
-## Explore Datasets
-
-Use the **interactive maps** on the next page to see the variations of NO<sub>2</sub>, SIF and XCO<sub>2</sub> levels over Cairo. The compare feature on the map allows looking at the levels two different dates. The following products can be explored:
-
-**GOSAT lower tropospheric CO2 enhancement** in daily [ppm] GOSAT tropospheric partial column observes global changes of the carbon dioxide (CO2) enhancement; the CO2 density difference between lower atmosphere (0-4 km) influenced by CO2 net flux, i.e., surface emission and uptake, minus upper atmosphere (4-12 km) as background. The report on GOSAT partial column density products was submitted to UNFCCC for the first global stocktake as space-based surface GHG Emission Indicator (GEI) over the city.
+## Earth Observations
 
 _Data source: <https://www.eorc.jaxa.jp/GOSAT/GPCG/index_GOSAT.html>_
 
@@ -57,8 +58,23 @@ Explore in more details these datasets by clicking on the **Dashboard** button a
 - [TROPOMI NO2](https://www.eodashboard.org/explore?indicator=N1_NO2)
 - [TROPOMI SIF](https://www.eodashboard.org/explore?indicator=SIF)
 
-## Map Example 1 <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N2_CO2_jaxa_gosat-2019-10-05T11:59:59Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:XCO2-GOSAT-Cairo","styles":"","format":"image/png","time":"2019-10-05T11:59:59Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="8.882264758037921" center=[30.999999999999996,29.90175613555934] }-->
+## Map Tour Example <!--{ as="eox-map" mode="tour" }-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}}]' center=[15,48] zoom="5" animationOptions="{duration:500}" }-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"EOxCloudless 2021"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.316288840107912" center=[31.091596890300035,30.153847605728885] animationOptions={duration:500}}-->
+#### Cairo, Egypt
+This Copernicus Sentinel-2 view of Cairo, Egypt, reveals a rapidly expanding metropolis located at the southern end of the Nile Delta - one of the world’s fastest-growing cities. This urban sprawl is encroaching on what was once prime farmland, as grey urbanized areas continue to consume the green cropland along the Nile River, which represents Egypt’s only arable land. About 96 percent of Egypt’s total areais classified as desert, lacking forests, permanent meadows, or pastures. This increases the pressure on this limited fertile land. Despite its small size, this land is highly productive, sustaining an average of 8 persons per acre (20 per hectare) and often being cropped more than once a year.
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N2_CO2_jaxa_gosat-2018-06-30T11:59:59Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:XCO2-GOSAT-Cairo","styles":"","format":"image/png","time":"2018-06-30T11:59:59Z"}}},{"type":"Tile","properties":{"id":"EOxCloudless 2021"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.316288840107912" center=[31.091596890300035,30.153847605728885] animationOptions={duration:500}}-->
+#### CO2 observed on 30 June 2018
+**GOSAT lower tropospheric CO2 enhancement** in daily [ppm] GOSAT tropospheric partial column observes global changes of the carbon dioxide (CO2) enhancement; the CO2 density difference between lower atmosphere (0-4 km) influenced by CO2 net flux, i.e., surface emission and uptake, minus upper atmosphere (4-12 km) as background. The report on GOSAT partial column density products was submitted to UNFCCC for the first global stocktake as space-based surface GHG Emission Indicator (GEI) over the city.
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N2_CO2_jaxa_gosat-2019-02-01T11:59:59Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:XCO2-GOSAT-Cairo","styles":"","format":"image/png","time":"2019-02-01T11:59:59Z"}}},{"type":"Tile","properties":{"id":"EOxCloudless 2021"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.316288840107912" center=[31.091596890300035,30.153847605728885] animationOptions={duration:500}}-->
+#### CO2 observed on 01 February 2019
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N2_CO2_jaxa_gosat-2019-10-05T11:59:59Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:XCO2-GOSAT-Cairo","styles":"","format":"image/png","time":"2019-10-05T11:59:59Z"}}},{"type":"Tile","properties":{"id":"EOxCloudless 2021"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.316288840107912" center=[31.091596890300035,30.153847605728885] animationOptions={duration:500}}-->
+#### CO2 observed on 10 May 2019
 
-## Map Example 2 <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"solar_induced_chlorophyll_fluorescence-2019-10-16T11:59:59Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:SIF-TROPOMI-Cairo-Monthly","styles":"","format":"image/png","time":"2019-10-16T11:59:59Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="8.7689217932126" center=[31.0497035559458,29.904435474339962] }-->
 
-## Map Example 3 <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N1_NO2_jaxa-2019-10-05T11:59:59Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:NO2-TROPOMI-Cairo-Daily","styles":"","format":"image/png","time":"2019-10-05T11:59:59Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="8.887838602862514" center=[30.999999999999996,29.90215460490269] }-->
+### References
+	
+* [NASA Earth Observatory](https://earthobservatory.nasa.gov/features/Lights2/lights_soil5.php)
+* [Britannica](https://www.britannica.com/place/Egypt/Agriculture-and-fishing)
+	
+	
