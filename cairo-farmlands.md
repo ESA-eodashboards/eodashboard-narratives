@@ -23,58 +23,65 @@ In this research, researchers from the Japanese Aerospace Exploration Agency dem
 
 Egypt has two growing seasons, one in the summer and one in the winter. In the summer, the map below shows there were low CO2 levels over Cairo, correlated with high SIF.
 
-<center>
-<img src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Wind_Cairo_2018-06-30_rev.png" width="30%">
-	
-<img src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Wind_Cairo_2019-02-01_rev.png" width="30%">
-	
-<img src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Wind_Cairo_2019-10-05_rev.png" width="30%">
-	
-Wind direction and speed over Cairo on 2018-06-30, 2019-02-01 and 2019-10-05.
-	
-
-## Earth Observations
-
-_Data source: <https://www.eorc.jaxa.jp/GOSAT/GPCG/index_GOSAT.html>_
-
-**TROPOMI SIF** in monthly average [mW/m2/sr/nm] TROPOMI solar-induced chlorophyll fluorescence (SIF) shows the photosynthetic activity of plant ecosystem. Plant absorbs sunlight but re-emit a small fraction of energy as SIF, which is strongly related to carbon uptake of CO2 through photosynthesis over plant area.
-
-_Data source: Koehler, P., & Frankenberg, C. (2020). Ungridded TROPOMI SIF (at 740nm) (Version 1.0) [Data set]. CaltechDATA. <https://doi.org/10.22002/D1.1347>_
-
-**TROPOMI NO2 column density** in daily [mol/m3] TROPOMI observes nitrogen dioxide (NO2) column density with a high resolution of 5 km. NO2 is an air pollution trace gas as a result of anthropogenic activities along with fossil fuel combustion such as oil refinery, power plant, steelwork and automobile transportation the same as the CO2 emission. However, NO2 reduction is processed by decomposition different from CO2 uptake.
-
-_Data source: <https://data-portal.s5p-pal.com/products/no2.html>_
-
-**Windrose in hourly frequency**
-
-Windrose shows the frequency of winds blowing from directions and speed over an hour around GOSAT overpass time in the target city.
-
-_Acknowledgments: The windrose was produced by using wind data from Windergroud.com._
-
-Explore in more details these datasets by clicking on the **Dashboard** button at the top of the page or directly from the links below:
-
-- [GOSAT-2 CO2 on Cairo](https://www.eodashboard.org/explore?indicator=N2_CO2_jaxa_gosat)
-- [OCO-2 CO2 Global](https://www.eodashboard.org/explore?indicator=N2_CO2_mean)
-- [TROPOMI NO2](https://www.eodashboard.org/explore?indicator=N1_NO2)
-- [TROPOMI SIF](https://www.eodashboard.org/explore?indicator=SIF)
-
-## Map Tour Example <!--{ as="eox-map" mode="tour" }-->
+## GOSAT Data <!--{ as="eox-map" mode="tour" }-->
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}}]' center=[15,48] zoom="5" animationOptions="{duration:500}" }-->
+	
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"EOxCloudless 2021"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.316288840107912" center=[31.091596890300035,30.153847605728885] animationOptions={duration:500}}-->
 #### Cairo, Egypt
 This Copernicus Sentinel-2 view of Cairo, Egypt, reveals a rapidly expanding metropolis located at the southern end of the Nile Delta - one of the world’s fastest-growing cities. This urban sprawl is encroaching on what was once prime farmland, as grey urbanized areas continue to consume the green cropland along the Nile River, which represents Egypt’s only arable land. About 96 percent of Egypt’s total areais classified as desert, lacking forests, permanent meadows, or pastures. This increases the pressure on this limited fertile land. Despite its small size, this land is highly productive, sustaining an average of 8 persons per acre (20 per hectare) and often being cropped more than once a year.
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N2_CO2_jaxa_gosat-2018-06-30T11:59:59Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:XCO2-GOSAT-Cairo","styles":"","format":"image/png","time":"2018-06-30T11:59:59Z"}}},{"type":"Tile","properties":{"id":"EOxCloudless 2021"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.316288840107912" center=[31.091596890300035,30.153847605728885] animationOptions={duration:500}}-->
 #### CO2 observed on 30 June 2018
 **GOSAT lower tropospheric CO2 enhancement** in daily [ppm] GOSAT tropospheric partial column observes global changes of the carbon dioxide (CO2) enhancement; the CO2 density difference between lower atmosphere (0-4 km) influenced by CO2 net flux, i.e., surface emission and uptake, minus upper atmosphere (4-12 km) as background. The report on GOSAT partial column density products was submitted to UNFCCC for the first global stocktake as space-based surface GHG Emission Indicator (GEI) over the city.
+
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Wind_Cairo_2018-06-30_rev.png)
+
+Wind direction and speed over Cairo on 2018-06-30.
+Windrose shows the frequency of winds blowing from directions and speed over an hour around GOSAT overpass time in the target city.
+
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N2_CO2_jaxa_gosat-2019-02-01T11:59:59Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:XCO2-GOSAT-Cairo","styles":"","format":"image/png","time":"2019-02-01T11:59:59Z"}}},{"type":"Tile","properties":{"id":"EOxCloudless 2021"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.316288840107912" center=[31.091596890300035,30.153847605728885] animationOptions={duration:500}}-->
 #### CO2 observed on 01 February 2019
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Wind_Cairo_2019-02-01_rev.png)
+Wind direction and speed over Cairo on 2019-02-01.
+Windrose shows the frequency of winds blowing from directions and speed over an hour around GOSAT overpass time in the target city.
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N2_CO2_jaxa_gosat-2019-10-05T11:59:59Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:XCO2-GOSAT-Cairo","styles":"","format":"image/png","time":"2019-10-05T11:59:59Z"}}},{"type":"Tile","properties":{"id":"EOxCloudless 2021"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.316288840107912" center=[31.091596890300035,30.153847605728885] animationOptions={duration:500}}-->
 #### CO2 observed on 10 May 2019
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Wind_Cairo_2019-10-05_rev.png)
+Wind direction and speed over Cairo on 2019-10-05.
+Windrose shows the frequency of winds blowing from directions and speed over an hour around GOSAT overpass time in the target city.
+
+## TROPOMI Data <!--{ as="eox-map" mode="tour" }-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"solar_induced_chlorophyll_fluorescence-2018-06-15T23:59:59Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:SIF-TROPOMI-Cairo-Monthly","styles":"","format":"image/png","time":"2018-06-15T23:59:59Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.352955506774572" center=[30.64824319798807,30.01273241483284] animationOptions={duration:500}}-->
+#### Solar Induced Fluorescence (SIF) in monthly average [mW/m2/sr/nm] 
+
+#### 30 June 2018
+TROPOMI solar-induced chlorophyll fluorescence (SIF) shows the photosynthetic activity of plant ecosystem. Plant absorbs sunlight but re-emit a small fraction of energy as SIF, which is strongly related to carbon uptake of CO2 through photosynthesis over plant area.
+
+Explore further dates on [EO Dashboard](https://www.eodashboard.org/explore?indicator=SIF&area=POLYGON%28%2841.84832763671875%2027.581815963034614,42.34326171875%2027.581815963034614,42.34326171875%2028.736837344826014,41.84832763671875%2028.736837344826014,41.84832763671875%2027.581815963034614%29%29&x=3411746.82651&y=3505186.58173&z=9.35296)
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N1_NO2_jaxa-2018-06-30T11:59:59Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:NO2-TROPOMI-Cairo-Daily","styles":"","format":"image/png","time":"2018-06-30T11:59:59Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.352955506774572" center=[30.64824319798807,30.01273241483284] animationOptions={duration:500}}-->
+#### Nitrogen Dioxide (NO2) Column Density in daily [mol/m3] 
+#### 30 June 2018
+TROPOMI observes nitrogen dioxide (NO2) column density with a high resolution of 5 km. NO2 is an air pollution trace gas as a result of anthropogenic activities along with fossil fuel combustion such as oil refinery, power plant, steelwork and automobile transportation the same as the CO2 emission. However, NO2 reduction is processed by decomposition different from CO2 uptake.
+
+Explore more dates on [EO Dashboard](https://www.eodashboard.org/explore?indicator=N1_NO2_jaxa&area=POLYGON%28%2841.84832763671875%2027.581815963034614,42.34326171875%2027.581815963034614,42.34326171875%2028.736837344826014,41.84832763671875%2028.736837344826014,41.84832763671875%2027.581815963034614%29%29&x=3411746.82651&y=3505186.58173&z=9.35296)
+
+## Open Data
+Explore in more details these datasets:
+
+- [GOSAT-2 CO2 on Cairo](https://www.eodashboard.org/explore?indicator=N2_CO2_jaxa_gosat)
+- [OCO-2 CO2 Global](https://www.eodashboard.org/explore?indicator=N2_CO2_mean)
+- [TROPOMI NO2](https://www.eodashboard.org/explore?indicator=N1_NO2)
+- [TROPOMI SIF](https://www.eodashboard.org/explore?indicator=SIF)
 
 
-### References
+### References & Data Sources
 	
+* [JAXA GOSAT](https://www.eorc.jaxa.jp/GOSAT/GPCG/index_GOSAT.html)
 * [NASA Earth Observatory](https://earthobservatory.nasa.gov/features/Lights2/lights_soil5.php)
 * [Britannica](https://www.britannica.com/place/Egypt/Agriculture-and-fishing)
+* Koehler, P., & Frankenberg, C. (2020). Ungridded TROPOMI SIF (at 740nm) (Version 1.0) [Data set]. CaltechDATA. <https://doi.org/10.22002/D1.1347>
+* [S-5P PAL](https://data-portal.s5p-pal.com/products/no2.html)
+* The windrose was produced by using wind data from Windergroud.com.
 	
 	
+
