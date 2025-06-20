@@ -171,7 +171,6 @@ Another article also published in the same journal estimated a global decline in
 ![](https://images.pexels.com/photos/142497/pexels-photo-142497.jpeg)
 
 
-
 #### Secondary forest growth - ESA CCI RECCAP2
 
 One of the main drives of degradation in sub/tropical countries is unsustainable logging [(46)](https://iopscience.iop.org/article/10.1088/1748-9326/7/4/044009). To counter this, many private companies, public institutions and non-governmental organisations (NGOs) are stepping up their forestry conservation pledges. But given the size and accessibility of many locations on Earth, a crucial component in these efforts is the use of satellite-based forest monitoring systems. For instance, such system have been instrumental in slowing down deforestation in Brazil [(47)](https://earthobservatory.nasa.gov/images/145988/tracking-amazon-deforestation-from-above). [View dataset](https://www.eodashboard.org/explore?indicator=RECCAP2_5)
