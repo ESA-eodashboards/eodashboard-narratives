@@ -90,6 +90,7 @@ As a result, the Amazon rainforest is gradually losing its unique ability to ‘
 Savannas are generally less efficient than tropical forests at sequestering carbon dioxide from the atmosphere, and recent studies indicate that certain areas of the Amazon are now releasing more carbon dioxide than they absorb. 
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"RECCAP2_6_deforested_biomass-2018-01-01T00:00:00Z"},"source":{"type":"XYZ","urls":["https://reccap2.api.brockmann-consult.de/api/tiles/cop28~reccap2-9x108x139-0.0.1.zarr/deforested_biomass/{z}/{y}/{x}?crs=EPSG:3857&time=2018-01-01T00:00:00Z&vmin=0&vmax=5&cbar=YlOrRd"]}},{"type":"Tile","properties":{"id":"osm"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"osm_3857"}}]' center="[-75,-5]" zoom="5" }--> 
+
 ### ESA Deforestation Dataset  
 #### observation date: 2018
 
