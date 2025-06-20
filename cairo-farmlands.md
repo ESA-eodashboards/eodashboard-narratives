@@ -24,8 +24,6 @@ In this research, researchers from the Japanese Aerospace Exploration Agency dem
 Egypt has two growing seasons, one in the summer and one in the winter. In the summer, the map below shows there were low CO2 levels over Cairo, correlated with high SIF.
 
 ## GOSAT Data <!--{ as="eox-map" mode="tour" }-->
-### <!--{ layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}}]' center=[15,48] zoom="5" animationOptions="{duration:500}" }-->
-	
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"EOxCloudless 2021"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2021_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.316288840107912" center=[31.091596890300035,30.153847605728885] animationOptions={duration:500}}-->
 #### Cairo, Egypt
 This Copernicus Sentinel-2 view of Cairo, Egypt, reveals a rapidly expanding metropolis located at the southern end of the Nile Delta - one of the world’s fastest-growing cities. This urban sprawl is encroaching on what was once prime farmland, as grey urbanized areas continue to consume the green cropland along the Nile River, which represents Egypt’s only arable land. About 96 percent of Egypt’s total areais classified as desert, lacking forests, permanent meadows, or pastures. This increases the pressure on this limited fertile land. Despite its small size, this land is highly productive, sustaining an average of 8 persons per acre (20 per hectare) and often being cropped more than once a year.
@@ -56,7 +54,7 @@ Windrose shows the frequency of winds blowing from directions and speed over an 
 #### 30 June 2018
 TROPOMI solar-induced chlorophyll fluorescence (SIF) shows the photosynthetic activity of plant ecosystem. Plant absorbs sunlight but re-emit a small fraction of energy as SIF, which is strongly related to carbon uptake of CO2 through photosynthesis over plant area.
 
-Explore further dates on [EO Dashboard](https://www.eodashboard.org/explore?indicator=SIF&area=POLYGON%28%2841.84832763671875%2027.581815963034614,42.34326171875%2027.581815963034614,42.34326171875%2028.736837344826014,41.84832763671875%2028.736837344826014,41.84832763671875%2027.581815963034614%29%29&x=3411746.82651&y=3505186.58173&z=9.35296)
+Explore more dates on [EO Dashboard](https://www.eodashboard.org/explore?indicator=SIF&area=POLYGON%28%2841.84832763671875%2027.581815963034614,42.34326171875%2027.581815963034614,42.34326171875%2028.736837344826014,41.84832763671875%2028.736837344826014,41.84832763671875%2027.581815963034614%29%29&x=3411746.82651&y=3505186.58173&z=9.35296)
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N1_NO2_jaxa-2018-06-30T11:59:59Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:NO2-TROPOMI-Cairo-Daily","styles":"","format":"image/png","time":"2018-06-30T11:59:59Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.352955506774572" center=[30.64824319798807,30.01273241483284] animationOptions={duration:500}}-->
 #### Nitrogen Dioxide (NO2) Column Density in daily [mol/m3] 
