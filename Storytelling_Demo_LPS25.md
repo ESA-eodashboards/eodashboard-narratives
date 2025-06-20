@@ -1,4 +1,4 @@
-# Different cities, different glow... this is what satellites show <!--{ as="img" data-fallback-src="" mode="hero" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F4%2F4f%2FSummit-lake-wv-night-sky-reflection_-_West_Virginia_-_ForestWander.jpg&f=1&nofb=1&ipt=b8d7ce7f474e953355fc8e58b45c9122e6a1d4e5cafc7e8dbc6cbf48cc91e137" }-->
+# Different cities, different glows... this is what a satellite shows <!--{ as="img" data-fallback-src="" mode="hero" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F4%2F4f%2FSummit-lake-wv-night-sky-reflection_-_West_Virginia_-_ForestWander.jpg&f=1&nofb=1&ipt=b8d7ce7f474e953355fc8e58b45c9122e6a1d4e5cafc7e8dbc6cbf48cc91e137" }-->
 ### by Name <!--{ style="font-size:1rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## Lockdown impacts seen from Space
