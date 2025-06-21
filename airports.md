@@ -38,13 +38,22 @@ The following interactive maps show:
 - Aircraft detection over the CDG airport in Paris (France) using Sentinel-2 imagery and AI
     
 
-More airports can be explored on this dashboard. Click the [**Dashboard**](https://eodashboard.org/explore) on top of this page to explore all locations.
-
-San Francisco airport, US
 ## San Francisco airport, US <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Vector","properties":{"id":"Plane detections"},"source":{"type":"Vector"}},{"type":"Tile","properties":{"id":"Parked Airplanes-2020-10-26T00:00:00Z"},"source":{"type":"XYZ","urls":["https://8ib71h0627.execute-api.us-east-1.amazonaws.com/v1/planet/{z}/{x}/{y}?date=2020_10_26&site=sf"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="13.792332771953118" center=[-122.37750000000001,37.619361707303256] }-->
 
-Narita airport, Japan 
 ## Narita airport, Japan <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Vector","properties":{"id":"Plane detections"},"source":{"type":"Vector"}},{"type":"Tile","properties":{"id":"Parked Airplanes-2020-10-25T00:00:00Z"},"source":{"type":"XYZ","urls":["https://8ib71h0627.execute-api.us-east-1.amazonaws.com/v1/planet/{z}/{x}/{y}?date=2020_10_25&site=tk"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="12.982544998850098" center=[140.385,35.768367472164485] }-->
 
-CDG airport in Paris, France
-## CDG airport in Paris, France <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Vector","properties":{"id":"Plane detections"},"source":{"type":"Vector"}},{"type":"Tile","properties":{"id":"Parked Airplanes-2022-11-24T11:07:24Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"SENTINEL-2-L2A-TRUE-COLOR","format":"image/png","time":"2022-11-24T10:22:24/2022-11-24T11:52:24"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="12.545858516542904" center=[2.5694357161733556,49.000904522387] }-->
+
+
+## Paris Airport (CDG) <!--{ as="eox-map" mode="tour" }-->
+
+### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"FR8;:;2019-04-21T11:11:06;:;E13b_parked_airplanes;:;EPSG:3857","title":"E13b_parked_airplanes"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2019-04-21T11:11:06/2019-04-21T23:11:05"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="14.292591536229368" center=[2.57512311456145,49.00363044105609] projection="" animationOptions={duration:500}}-->
+#### Copernicus Sentinel-2
+#### observation date: 21 April 2019
+
+### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"FR8;:;2020-04-25T10:57:23;:;E13b_parked_airplanes;:;EPSG:3857","title":"E13b_parked_airplanes"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2020-04-25T10:57:23/2020-04-25T22:57:22"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="14.292591536229368" center=[2.57512311456145,49.00363044105609] projection="" animationOptions={duration:500}}-->
+#### Copernicus Sentinel-2
+#### observation date: 25 April 2020
+
+
+
+## CDG-parked-planes <!--{as="img" data-fallback-src="https://raw.githubusercontent.com/aapopescu/eodashboard-narratives/aapopescu/corrections-stories-before-lps/assets/aapopescu/CDG-parked-planes-1750505646482.png" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b3b2dedbd81b973d3e832761f94101a3e9ecccf5/assets/CDG-parked-planes-1750505646482.png" style="width: 100%; height: 600px;"}-->
