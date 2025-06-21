@@ -9,7 +9,7 @@ official: true
 #  Changes in temperature, precipitation patterns and extremes impacting surface water hydrology <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Alakol_Lake.jpg" }-->
 ### Read more about monitoring these impacts with Earth Observations <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
-## Evapotranspiration and water level in the Colorado River
+## Colorado River
 
 One of the main effects from rising temperatures is the increase in evapotranspiration. Evapotranspiration is the combined process by which water moves from Earth’s surface into the atmosphere through evaporation or transpiration [1]. This can contribute directly to the decrease of waterbodies' extents and levels.
 
@@ -23,13 +23,20 @@ The worst known megadrought in the Colorado River occurred around 1800 years ago
 
 After more than two decades of drought, researchers have documented the lowest water levels ever seen at both Powel and Mead reservoirs [3]. Seeing as the river’s resources had been overexploited, combined with the dry conditions, meant that the water was not replenishing as fast as people were using it [11]. In 2022, the Colorado River and Lake Powell were believed to be at a tipping point [9] leading to the discussions on the need for big reductions in water allocation along the river basin. On May 22 2023, three American states announced a historic deal to have a significant cut in the water usage over the next four years to prevent a crisis in the largest reservoir of the country [4]. 
 
-## Map
 
 The interactive map shows the Colorado River observed by ESA's Copernicus Sentinel-2 optical satellite. [Access this dataset](https://www.eodashboard.org/explore?&poi=Colorado&indicator=Lakes_S2L2A). 
 
 *(Compare slider between 2017-05-05 and 2023-05-19)*
 
-## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"Lakes_S2L2A"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"SENTINEL-2-L2A-TRUE-COLOR","styles":"","format":"image/png"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="8.590791504278648" center=[-111.075,37.251086810061366] }-->
+
+
+### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Colorado;:;2017-06-27T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2017-06-27T00:00:00Z/2017-06-27T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="11.041891035502706" center=[-110.74216064881361,37.46457077196689] projection="" animationOptions={duration:500}}-->
+#### Colorado River 
+
+#### observed by ESA's Copernicus Sentinel-2 optical satellite
+
+observtion date: **27 June 2017**
+
 
 ## Changing precipitation patterns affecting Tonlé Sap Lake’s hydrology
 
