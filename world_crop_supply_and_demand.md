@@ -19,6 +19,16 @@ As demonstrated by recent global crises including the COVID-19 pandemic and the 
 
 The following map illustrates the global crop conditions for January 2022. More dates are available on the **[Dashboard](https://eodashboard.org/explore?indicator=N6&x=0&y=-500937.70857&z=3.64386)**.
 
+
+
+
+
+## Precipitation-Kansas <!--{as="img" data-fallback-src="https://raw.githubusercontent.com/aapopescu/eodashboard-narratives/aapopescu/corrections-stories-before-lps/assets/aapopescu/1-1750504059635.png" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/6ac475e2cc724bbb9f7ece3a01fa6998a4a30164/assets/1-1750504059635.png" style="width: 100%; height: 600px;"}-->
+
+## Soil-Moisture-Kansas <!--{as="img" data-fallback-src="https://raw.githubusercontent.com/aapopescu/eodashboard-narratives/aapopescu/corrections-stories-before-lps/assets/aapopescu/2-1750504118297.png" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/62c903fa737f07aa2deffe46616b219d7c1929c4/assets/2-1750504118297.png" style="width: 100%; height: 600px;"}-->
+
+## NDVI-Kansas <!--{as="img" data-fallback-src="https://raw.githubusercontent.com/aapopescu/eodashboard-narratives/aapopescu/corrections-stories-before-lps/assets/aapopescu/3-1750504149130.png" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b6a14ec6b74a7471d97e21c0cb9e8ebf516892f0/assets/3-1750504149130.png" style="width: 100%; height: 600px;"}-->
+
 ## GEOGLAM <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Vector","properties":{"id":"Administrative zones ADM0"},"source":{"type":"Vector"}},{"type":"Tile","properties":{"id":"N6_geoglam-2025-01-01T00:00:00Z"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap=%7B%221%22%3A%20%5B120%2C%20120%2C%20120%2C%20255%5D%2C%222%22%3A%20%5B130%2C%2065%2C%200%2C%20255%5D%2C%223%22%3A%20%5B66%2C%20207%2C%2056%2C%20255%5D%2C%224%22%3A%20%5B245%2C%20239%2C%200%2C%20255%5D%2C%225%22%3A%20%5B241%2C%2089%2C%2032%2C%20255%5D%2C%226%22%3A%20%5B168%2C%200%2C%200%2C%20255%5D%2C%227%22%3A%20%5B0%2C%20143%2C%20201%2C%20255%5D%7D&url=s3://veda-data-store/geoglam/CropMonitor_202201.tif"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="3.1699250014423126" center=[16.790831657981713,22.201786861954943] }-->
 
 ## Agriculture Monitoring
