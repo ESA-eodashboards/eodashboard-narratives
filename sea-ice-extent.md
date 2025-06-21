@@ -24,10 +24,13 @@ On EO Dashboard users can explore over 12 years of GCOM-W products of sea ice co
 <center>
 	<figure>
 		<img src="https://raw.githubusercontent.com/aapopescu/eodashboard-narratives/aapopescu/corrections-stories-before-lps/assets/aapopescu/Screenshot-2025-06-21-at-18.32.49-1750523662568.png">
-## 2012-GCOM-W-sea-ice-concentration <!--{as="img" data-fallback-src="https://raw.githubusercontent.com/aapopescu/eodashboard-narratives/aapopescu/corrections-stories-before-lps/assets/aapopescu/Screenshot-2025-06-21-at-18.32.49-1750523662568.png" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e8b684567979858ff9f42f44e2af43990f88abcd/assets/Screenshot-2025-06-21-at-18.32.49-1750523662568.png" style="width: 100%; height: 600px;"}-->
-
-## 2024-GCOM-W-sea-ice-concentration <!--{as="img" data-fallback-src="https://raw.githubusercontent.com/aapopescu/eodashboard-narratives/aapopescu/corrections-stories-before-lps/assets/aapopescu/Screenshot-2025-06-21-at-18.33.32-1750523697642.png" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/92380533edc3a38eb4c4e3a35d378d711b85b238/assets/Screenshot-2025-06-21-at-18.33.32-1750523697642.png" style="width: 100%; height: 600px;"}-->
-
+<figcaption>2012-04-07 GCOM-W Sea ice Concentration</figcaption>
+		</figure>
+	<figure>
+				<img src="https://raw.githubusercontent.com/aapopescu/eodashboard-narratives/aapopescu/corrections-stories-before-lps/assets/aapopescu/Screenshot-2025-06-21-at-18.33.32-1750523697642.png" >
+		<figcaption>31-07- 2024 GCOM-W Sea ice Concentration</figcaption>
+		</figure>
+	</center>
 
 ## Climate Change and Ice-Albedo Feedback
 
@@ -35,15 +38,12 @@ In general, snow and ice (i.e., the cryosphere) are widespread in the Arctic reg
 
 Due to recent climate change, global warming has progressed rapidly. The Arctic region shows changes most characteristic of this warming. These changes are expected to further accelerate due to the ice-albedo feedback. It is possible that they will soon reach a tipping point where the future changes will no longer be stoppable. In addition, atmospheric exchange between the Arctic region and mid-latitude regions will be more active with possible increases in extreme weather events such as cold winter or heavy rain in the mid- and high-latitude regions. Therefore, it is necessary to monitor the sea ice continuously.
 
-![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-EO_Dashboard_Cryo-Pix_May_12.jpeg)
-
-*Sea Ice (aerial view)*
-
-
-
-
-
-
+<center>
+	<figure>
+		<img src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-EO_Dashboard_Cryo-Pix_May_12.jpeg">
+		<figcaption>Sea Ice (aerial view)</figcaption>
+		</figure>
+	</center>
 
 ##  Northern Sea Route
 
@@ -53,9 +53,14 @@ Vessels navigating the Arctic Ocean must be equipped with ice resistance and ice
 
 Scientists use a variety of satellites and instruments to monitor and analyze changes in sea ice cover and thickness. Advances in satellite technology enable scientists to monitor and measure sea ice characteristics at a level of detail that cannot be obtained from ship-based or airborne measurements. Over time, continuous data collected by satellite observations help build a record of changing sea ice conditions over time and help people in Arctic coastal regions forecast storms and anticipate changes in walrus populations and shipping routes.
 
-![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Icebreaking_ships_pillars.jpg)
+<center>
+	<figure>
+		<img src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Icebreaking_ships_pillars.jpg">
+		<figcaption>Vessels navigating the Arctic Ocean</figcaption>
+		</figure>
+	</center>
 
-## Explore Datasets
+## Open Data
  
 This narrative provides access to interactive maps of Sea Ice Thickness and Sea Ice Concentration. Access these datasets by clicking on the EXPLORE DATASETS button at the top of the page or directly from the links below:
 
