@@ -78,7 +78,7 @@ The interactive map shows the Tonlé Sap observed by JAXA's ALOS-2 radar satelli
 ## Tonlé Sap Lake <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"Lakes_ALOS2"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA_LAKES_ALOS2_HH","styles":"","format":"image/png"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.099700430342956" center=[104.13122286094041,12.78557562008588] }-->
 
 
-## Climate extremes reviving a once disappearing lake
+## Climate extremes revive a disappearing lake
 
 At the base of the southern Sierra in the San Joaquin Valley lies the lakebed of Tulare Lake – once the largest freshwater lake west of the Mississippi River. Beginning in the 1920s, the diversion of rivers for agricultural purposes completely depleted the lake. 
 
@@ -90,21 +90,37 @@ At the base of the southern Sierra in the San Joaquin Valley lies the lakebed of
   >
 </figure>
 
+## Lake Tulare <!--{ as="eox-map" mode="tour" }-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Tulare;:;2023-01-01T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2023-01-01T00:00:00Z/2023-01-01T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="10.91459625355369" center=[-119.8898548709609,35.999287519590226] projection="" animationOptions={duration:500}}-->
+#### Tulare Lake in January 2023
 
-Two major storms in March 2023 caused flooding that revived Tulare Lake although the former lakebed is now covered with farms [1]. This flooding is expected to continue into 2024, impacting residents, farmers and valuable cropland. The town of Corcoran, located on the lake's edge, faces a flooding risk, prompting efforts to raise the height by introducing an artificial levee. Melting snow from the southern Sierra contributes significantly to the water supply in the Tulare Lake basin. The Kern River, fed by Sierra meltwater, flows past Bakersfield and eventually reaches Tulare Lake. As a result, excess water is being discharged into recharge ponds near Bakersfield, allowing for aquifer replenishment. Furthermore, the Sierra snowpack remains twice the normal level, posing ongoing challenges for the San Joaquin Valley [1,2,3].
+The map shows the Tulare Lake observed by ESA's Copernicus Sentinel-2 optical satellite. 
 
+[Access this dataset](https://eodashboard.org/explore?indicator=Lakes_S2L2A&poi=Tulare)
 
-The following map shows the Tulare Lake observed by ESA's Copernicus Sentinel-2 optical satellite. [Access this dataset](https://eodashboard.org/explore?indicator=Lakes_S2L2A&poi=Tulare)
+### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Tulare;:;2023-05-26T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2023-05-26T00:00:00Z/2023-05-26T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="10.91459625355369" center=[-119.8898548709609,35.999287519590226] projection="" animationOptions={duration:500}}-->
+#### Tulare Lake in May 2023
+
+Two major storms in March 2023 caused flooding that revived Tulare Lake although the former lakebed is now covered with farms [1]. This flooding was expected to continue into 2024, impacting residents, farmers and valuable cropland. The town of Corcoran, located on the lake's edge, faces a flooding risk, prompting efforts to raise the height by introducing an artificial levee. Melting snow from the southern Sierra contributes significantly to the water supply in the Tulare Lake basin. 
+
+The Kern River, fed by Sierra meltwater, flows past Bakersfield and eventually reaches Tulare Lake. As a result, excess water is being discharged into recharge ponds near Bakersfield, allowing for aquifer replenishment. Furthermore, the Sierra snowpack remains twice the normal level, posing ongoing challenges for the San Joaquin Valley [1,2,3].
 
 Read more on the [NASA Earth Observatory](https://earthobservatory.nasa.gov/images/151284/tulare-lake-grows).
 
-## Tulare Lake <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"Lakes_S2L2A-2023-05-26T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"SENTINEL-2-L2A-TRUE-COLOR","styles":"","format":"image/png","time":"2023-05-26/2023-05-27"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.397305647995216" center=[-119.68983575326105,35.94075337243754] }-->
 
 ## Reduced ice cover on Lake Balaton
 
 Climate change and the consequent warming of lakes is leading to earlier and more prolonged loss of winter ice in lakes [1]. More than 100,000 lakes are at risk of having ice-free winters if air temperatures increase by 4°C [2]. While the probability of having an ice-free winter has risen dramatically for lakes around the world, those in more southern and coastal regions are especially vulnerable due to higher average winter temperatures [3]. Lake Balaton, located in Hungary, is the largest lake in central Europe. Known for its ice cover during winter months, the lake has been experiencing a decrease in the duration and thickness of ice cover in recent decades compared to historical records [4]. 
 
-![](https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Eodashboard_lakebalaton_2307112.png?raw=true)
+
+<figure style="text-align:center;">
+  <img
+    src="https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Eodashboard_lakebalaton_2307112.png?raw=true"
+  width=300
+    style="max-width:100%; height:auto; display:block; margin:0 auto;"
+  >
+</figure>
+
 
 A study investigated the tipping points of winter ice cover lakes across North America. The research identified critical temperature thresholds at which ice cover transitions from stable to unstable conditions. The authors found that in general, shallow and deep lakes (where winter air temperatures are around 0°C) and large, deep lakes in colder regions are particularly sensitive to losing ice cover [5]. Many lakes in the Northern Hemisphere are experiencing the shortest seasons of ice cover ever recorded, and identified Lake Superior (the largest of the Great Lakes of North America) as one of the fastest warming lakes in the world [6].
 
@@ -112,21 +128,35 @@ The reduction in ice cover, which results from warming air temperatures [1] [4],
 
 The map below shows a comparison of the lake surface temperature of Lake Balaton (Hungary) for 2010 and 2020.
 
-**TODO: Add comparison between 2010 and 2020**
+ 
+## Lake Balaton <!--{ as="eox-map" mode="tour" }-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;f537cc9e-efe0-41bc-8613-6a361ca629b6;:;Lakes_SWT_surface_water_temperature;:;EPSG:3857","title":"Lakes_SWT_surface_water_temperature"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["LAKES_SURFACE_WATER_TEMPERATURE"],"TILED":true,"TIME":"2010-01-04T00:00:00Z/2010-01-04T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="10.763937067796148" center=[17.497951653164634,46.883137615767595] projection="" animationOptions={duration:500}}-->
+#### Lake Balaton 
+#### ESA CCI Surface water temperature
 
-## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"Lakes_SWT_surface_water_temperature-2010-01-04T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"LAKES_SURFACE_WATER_TEMPERATURE","styles":"","format":"image/png","time":"2010-01-04T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.820982463200606" center=[17.731559400839483,46.83628851582418] }-->
+observation: **January 2010**
+
+[Access dataset](https://eodashboard.org/explore/?indicator=Lakes_SWT&x=17.4980&y=46.8831&z=10.7639&datetime=2010-01-03&template=expert&poi=Balaton)
+
+
+<img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_SWT_surface_water_temperature/SWT_legend.png" width=300>
+
+### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;fa6f28b4-f936-4f47-a847-776144895cee;:;Lakes_SWT_surface_water_temperature;:;EPSG:3857","title":"Lakes_SWT_surface_water_temperature"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["LAKES_SURFACE_WATER_TEMPERATURE"],"TILED":true,"TIME":"2020-01-06T00:00:00Z/2020-01-06T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="10.763937067796148" center=[17.497951653164634,46.883137615767595] projection="" animationOptions={duration:500}}-->
+#### Lake Balaton 
+#### ESA CCI Surface water temperature
+
+observation: **January 2020**
+
+<img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/Lakes_SWT_surface_water_temperature/SWT_legend.png" width=300>
+
 
 ## Explore Datasets
 
 This EO Dashboard provides access to several EO products concerning lakes. Visualize these datasets by clicking on **Dashboard** tab at the top of the page or [directly view all available lake products - search for lake in filter](https://eodashboard.org/explore).
 
-## Additional resources
+### References
 
-Access environmental and climatic variables using Earth System Data Lab's xcube data stores.
-
-## References
-
-### Evapotranspiration and water level in the Colorado River
+**Evapotranspiration and water level in the Colorado River**
 
 - \[1\] [Evapotranspiration](https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/evapotranspiration)
 - \[2\] [The top 10 most endangered rivers in America (CNN)](https://edition.cnn.com/2022/04/18/us/endangered-rivers-colorado-climate/index.html)
@@ -140,9 +170,7 @@ Access environmental and climatic variables using Earth System Data Lab's xcube 
 - \[10\] [Colorado System at Tipping Point](https://www.sltrib.com/news/2022/06/18/system-is-tipping-point/)
 - \[11\] [Why is the colorado river drying up?](https://www.newsweek.com/why-colorado-river-drying-1768471)
 
-### Changing precipitation patterns affecting lake’s hydrology
-
-  
+**Changing precipitation patterns affecting lake’s hydrology**
 
 *   \[1\] [Assessing Climate Change Impacts on River Flows in the Tonle Sap Lake Basin, Cambodia](https://www.mdpi.com/2073-4441/11/3/618)
 *   \[2\] [Cambodia climate change mekong dams](https://www.dw.com/en/cambodia-climate-change-mekong-dams-threaten-worlds-biggest-inland-fishery/a-59274218)
@@ -154,14 +182,13 @@ Access environmental and climatic variables using Earth System Data Lab's xcube 
 *   \[8\] [Environmental Changes in Tonle Sap Lake and its Floodplain: Status and Policy Recommendations](https://www.iges.or.jp/en/pub/tonlesapsatreps/en)
 *   \[9\] [What are the impacts of dams on the Mekong river?](https://www.thethirdpole.net/en/energy/what-are-the-impacts-of-dams-on-the-mekong-river/)
  
-
-### Climate extremes reviving a once disappearing lake
+**Climate extremes reviving a once disappearing lake**
 
 - \[1\] [Earth Observatory - Tulare Lake Grows](https://earthobservatory.nasa.gov/images/151284/tulare-lake-grows)
 - \[2\] [The Flooding in California Isn’t Entirely Bad News](https://www.washingtonpost.com/business/energy/2023/05/13/the-flooding-in-california-and-tulare-lake-isn-t-entirely-bad-news/ef8e65ea-f187-11ed-b67d-a219ec5dfd30_story.html)
 - \[3\] [California triggers rarely used relief valve on Kern River, diverting flows to state aqueduct](https://www.latimes.com/environment/story/2023-05-20/relief-valve-divert-kern-river-floodwaters-california-aqueduct)
 
-### Rising temperatures and ice cover
+**Rising temperatures and ice cover**
 
 - \[1\] [Lakes in Hot Water: The impacts of a Changing Climate on Aquatic Ecosystems](https://academic.oup.com/bioscience/article/72/11/1050/6639495)
 - \[2\] [Global lake responses to climate change](https://www.nature.com/articles/s43017-020-0067-5)
@@ -172,16 +199,17 @@ Access environmental and climatic variables using Earth System Data Lab's xcube 
 - \[6\] [EC commission: climate warming may increase algal blooms caused by sediment nutrient release in lakes](https://environment.ec.europa.eu/news/climate-warming-may-increase-algal-blooms-caused-sediment-nutrient-release-lakes-management-must-2023-01-18_en)
 - \[7\] [Historical Trends, Drivers, and Future Projections of Ice Phenology in Small North Temperate Lakes in the Laurentian Great Lakes Region](https://www.mdpi.com/2073-4441/10/1/70)
 
- 
-## Contributors
 
-### Story editors
+
+### Contributors
+
+**Story editors**
 
 - Sara Aparicio (Solenix for ESA)
 - Romina Persi (EJR Quarz for ESA)
 - Derek Koehl (NASA)
 
-### Scientific review
+**Scientific review**
 - Claudia Vitolo (ESA)
 - Shinichi Sobue (JAXA)
 - Hiroshi Murakami (JAXA)
@@ -189,13 +217,13 @@ Access environmental and climatic variables using Earth System Data Lab's xcube 
 - Karim Douch (ESA)
 - Anca Anghelea (ESA)
 
-### Layout
+**Layout**
 - Leah Sturm (ESA)
 
-### Data preparation
+**Data preparation**
 - Alessandro Scremin (Rhea Group for ESA)
 
-### Technical
+**Technical**
 - Development Seed
 - Sinergise
 - Brockmann Consult
