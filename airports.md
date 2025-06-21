@@ -31,29 +31,23 @@ In addition to the SAR imagery, NASA and ESA scientists also used artificial int
 
 Combining high-resolution optical remote sensing data from Planet and Sentinel-2 with SAR imagery from ALOS-2 and [Sentinel-1](https://sentinel.esa.int/web/sentinel/missions/sentinel-1) is a powerful method to provide reliable time series data on the number of aircrafts grounded at airports over time. While imagery from optical satellites like Planet or [Sentinel-2](https://sentinel.esa.int/web/sentinel/missions/sentinel-2) is powerful to monitor changes in grounded aircrafts around the world systematically, their sensors cannot penetrate clouds, limiting the detection capability on cloudy or rainy days. Alternatively, SAR data, while lower resolution, can penetrate clouds. Therefore, scientists are combining these datasets to get the most comprehensive images of changes at aircraft counts at airports during the COVID-19 pandemic.
 
-The following interactive maps show:
-
-- Aircraft detection on the San Francisco airport in the U.S. and Narita airport in Japan, using Planet imagery
-    
-- Aircraft detection over the CDG airport in Paris (France) using Sentinel-2 imagery and AI
-    
-
-## San Francisco airport, US <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Vector","properties":{"id":"Plane detections"},"source":{"type":"Vector"}},{"type":"Tile","properties":{"id":"Parked Airplanes-2020-10-26T00:00:00Z"},"source":{"type":"XYZ","urls":["https://8ib71h0627.execute-api.us-east-1.amazonaws.com/v1/planet/{z}/{x}/{y}?date=2020_10_26&site=sf"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="13.792332771953118" center=[-122.37750000000001,37.619361707303256] }-->
-
-## Narita airport, Japan <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Vector","properties":{"id":"Plane detections"},"source":{"type":"Vector"}},{"type":"Tile","properties":{"id":"Parked Airplanes-2020-10-25T00:00:00Z"},"source":{"type":"XYZ","urls":["https://8ib71h0627.execute-api.us-east-1.amazonaws.com/v1/planet/{z}/{x}/{y}?date=2020_10_25&site=tk"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="12.982544998850098" center=[140.385,35.768367472164485] }-->
-
-
-
 ## Paris Airport (CDG) <!--{ as="eox-map" mode="tour" }-->
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"FR8;:;2019-04-21T11:11:06;:;E13b_parked_airplanes;:;EPSG:3857","title":"E13b_parked_airplanes"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2019-04-21T11:11:06/2019-04-21T23:11:05"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="14.292591536229368" center=[2.57512311456145,49.00363044105609] projection="" animationOptions={duration:500}}-->
-#### Copernicus Sentinel-2
-#### observation date: 21 April 2019
+#### Copernicus Sentinel-2 observations 
+#### Paris Airport Charles de Gaule
+
+observation date: **21 April 2019**
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"FR8;:;2020-04-25T10:57:23;:;E13b_parked_airplanes;:;EPSG:3857","title":"E13b_parked_airplanes"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2020-04-25T10:57:23/2020-04-25T22:57:22"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="14.292591536229368" center=[2.57512311456145,49.00363044105609] projection="" animationOptions={duration:500}}-->
 #### Copernicus Sentinel-2
-#### observation date: 25 April 2020
+#### Paris Airport Charles de Gaule
 
+observation date: **25 April 2020**
 
+The COVID-19 pandemic has resulted in airlines temporarily grounding large numbers of aircrafts. These observations from Copernicus Sentinel-2 capture the differences between the number of parked planes at approximately the same date in April 2019 (before the pandemic) and 2020 (at the peak of the pandemic restrictions). 
 
-## CDG-parked-planes <!--{as="img" data-fallback-src="https://raw.githubusercontent.com/aapopescu/eodashboard-narratives/aapopescu/corrections-stories-before-lps/assets/aapopescu/CDG-parked-planes-1750505646482.png" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b3b2dedbd81b973d3e832761f94101a3e9ecccf5/assets/CDG-parked-planes-1750505646482.png" style="width: 100%; height: 600px;"}-->
+![](https://raw.githubusercontent.com/aapopescu/eodashboard-narratives/aapopescu/corrections-stories-before-lps/assets/aapopescu/CDG-parked-planes-1750505646482.png)
+
+Futher dates can be explored on the [Dashboard](https://eodashboard.org/explore/?x=2.5751&y=49.0036&z=14.2926&datetime=2020-04-25&template=expert&indicator=E13b&poi=FR8)
+
