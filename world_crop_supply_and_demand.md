@@ -115,11 +115,12 @@ Accumulated and anormal precipitation information derived from GSMaP by JASMIN/J
 
 The following time series indicators reflect the precipitation, soil moisture and NDVI variables from JASMIN/JASMAI for Estado de Paraná:
 
-<iframe class="item" src="https://eodashboard.org/iframe?poi=BR04-PRCTS" width="800px" height="500px" frameBorder="0" scroll="no" style="overflow:hidden"></iframe>
+![precipitation-parana](https://raw.githubusercontent.com/aapopescu/eodashboard-narratives/aapopescu/corrections-stories-before-lps/assets/aapopescu/4-1750504654815.png)
 
-<iframe class="item" src="https://eodashboard.org/iframe?poi=BR04-SMCTS" width="800px" height="500px" frameBorder="0" scroll="no" style="overflow:hidden"></iframe>
+![soil-moisture-parana](https://raw.githubusercontent.com/aapopescu/eodashboard-narratives/aapopescu/corrections-stories-before-lps/assets/aapopescu/5-1750504675245.png)
 
-<iframe class="item" src="https://eodashboard.org/iframe?poi=BR04-VITS" width="800px" height="500px" frameBorder="0" scroll="no" style="overflow:hidden"></iframe>
+![ndvi-parana](https://raw.githubusercontent.com/aapopescu/eodashboard-narratives/aapopescu/corrections-stories-before-lps/assets/aapopescu/6-1750504694607.png)
+
 
 ### 3. Brazil - WorldCereal examples
 
@@ -140,12 +141,3 @@ The following time series indicators reflect the precipitation, soil moisture an
 As data access and technology have made significant advances in recent decades, it comes as no surprise that the amount of available data can often be overwhelming and difficult to decipher. As such, tools such as the JAXA JASMAI, ESA World Cereal system and the GEOGLAM-Harvest AGMET Indicators play a key role for quick and digestible information processing and supporting key agricultural decisions. In order to increase food market stability and reduce price volatility, it is critical that market analysts, farmers, and other agricultural stakeholders have a thorough understanding of the amount of food coming to market - whether that be in line with the average amount seen in previous years or more/less. Just as with any other consumer good, supply and demand are the key drivers of agrifood markets and commodity prices. Satellite data can fill a critical gap in agricultural monitoring, enabling us to not only understand current crop conditions but prepare for potential outcomes in a given growing season, with wider-reaching impacts on market stability, supporting early action and humanitarian response, and bolstering food security.
 
 - [GEOGLAM Crop Monitor Data on EO Dashboard](https://www.eodashboard.org/explore?indicator=N6&x=0&y=-626172.13571&z=3.32193)
-
-
-## precipitation-parana <!--{as="img" data-fallback-src="https://raw.githubusercontent.com/aapopescu/eodashboard-narratives/aapopescu/corrections-stories-before-lps/assets/aapopescu/4-1750504654815.png" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/52f8212341e2c4a97f6ea87cefafb9ba073eebd1/assets/4-1750504654815.png" style="width: 100%; height: 600px;"}-->
-
-
-
-## soil-moisture-parana <!--{as="img" data-fallback-src="https://raw.githubusercontent.com/aapopescu/eodashboard-narratives/aapopescu/corrections-stories-before-lps/assets/aapopescu/5-1750504675245.png" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/d8d1d2e3c14eb02ae0970e366da114b7464b2be5/assets/5-1750504675245.png" style="width: 100%; height: 600px;"}-->
-
-## ndvi-parana <!--{as="img" data-fallback-src="https://raw.githubusercontent.com/aapopescu/eodashboard-narratives/aapopescu/corrections-stories-before-lps/assets/aapopescu/6-1750504694607.png" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/107820d90a4744e7bde4911079e93bc098470673/assets/6-1750504694607.png" style="width: 100%; height: 600px;"}-->
