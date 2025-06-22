@@ -2,15 +2,18 @@
 ### by Name <!--{ style="font-size:1rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## Lockdown impacts seen from Space
-
 When COVID-19 swept across the globe in early 2020, life as we knew it came to a halt. Streets emptied, businesses closed, and bustling cities fell silent. But what if we could see these changes from space? 
-Thanks to satellite technology, *we actually can*. But we noticed stricking differences across the world.
+Thanks to satellite technology, we actually can. But we noticed stricking differences across the world.
+*
 
+The Visible Infrared Imaging Radiometer Suite (VIIRS) aboard the Suomi National Polar-orbiting Partnership (Suomi NPP), a joint mission of the National Oceanic and Atmospheric Administration (NOAA) and NASA provides global measurements of nigthtime lights. Based on it, a new dataset was developed (by professor Bumpei Tojo - Associate Professor at the Graduate School of Global Studies, Tokyo University of Foreign Studies ) to observe the impact of the COVID-19 pandemic on socio-economic activities by analyzing variations in nighttime light levels from 2019 to 2022. It was designed to eliminate interference from natural sources such as moonlight and cloud cover, ensuring a clear representation of human-made light sources. The dataset uses varying shades of color to represent different intensities of light; darker shades indicate areas with less artificial light (e.g., rural or undeveloped regions), while lighter shades of yellow signify regions with higher concentrations of light (e.g., cities and industrial zones).
 ## SUOMI <!--{as="img" data-fallback-src="" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.O9XxqWTtFP4yDZqnpaaOZwHaEK%26pid%3DApi&f=1&ipt=89a678a00b9523ff430a8d47a36d664e9a21c95d388dc2c6938cd65e7871bf92" style="width: 100%"}-->
-One source of nighttime light imagery is the Visible Infrared Imaging Radiometer Suite (VIIRS) aboard the Suomi National Polar-orbiting Partnership (Suomi NPP), a joint mission of the National Oceanic and Atmospheric Administration (NOAA) and NASA. 
+
 
 ### But what has SUOMI allowed to show?
-A [research from Wuhan Univeristy](https://pmc.ncbi.nlm.nih.gov/articles/PMC8241690/)  revealed three main patterns in how cities' night-time light (NTL) brightness changed during lockdowns: in some NTL  **reduced (in Asia most pronounced)**, but in Europe there were no significant changes. However, most keep somthing in common: their center unchanded.
+
+
+A [research from Wuhan Univeristy](https://pmc.ncbi.nlm.nih.gov/articles/PMC8241690/)  revealed three main patterns in how cities' night-time light (NTL) brightness changed during lockdowns: in some NTL  **reduced (in Asia most pronounced)**, but in Europe there were no significant changes. Some contries showed an increase of NTL, and others presented a diverse/scattered light repsonse. However, most keep somthing in common: **their center unchanded**.
 
 ## Let's take a look across the word
 
