@@ -56,7 +56,7 @@ Today the decline of the basin serves as a cautionary tale, highlighting the nee
 ## Aral Lake <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"NLK_lake_aral;:;LC09_L2SP_160029_20230620_02_T1;:;NLK_lake_aral;:;EPSG:3857","title":"NLK_lake_aral"},"source":{"type":"XYZ","url":"https://openveda.cloud/api/raster/collections/landsat-c2l2-sr-lakes-aral-sea/items/LC09_L2SP_160029_20230620_02_T1/tiles/WebMercatorQuad/{z}/{x}/{y}?&assets=red&assets=green&assets=blue&color_formula=gamma+RGB+2.7%2C+saturation+1.5%2C+sigmoidal+RGB+15+0.55","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="8.083527368528372" center=[60.466028274095265,44.60461968782673] projection="" }-->
 
 
-### References
+## References
 
 **Aral Sea**
 
