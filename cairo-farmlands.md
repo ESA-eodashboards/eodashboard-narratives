@@ -54,22 +54,22 @@ Windrose shows the frequency of winds blowing from directions and speed over an 
 #### 30 June 2018
 TROPOMI solar-induced chlorophyll fluorescence (SIF) shows the photosynthetic activity of plant ecosystem. Plant absorbs sunlight but re-emit a small fraction of energy as SIF, which is strongly related to carbon uptake of CO2 through photosynthesis over plant area.
 
-Explore more dates on [EO Dashboard](https://www.eodashboard.org/explore?indicator=SIF&area=POLYGON%28%2841.84832763671875%2027.581815963034614,42.34326171875%2027.581815963034614,42.34326171875%2028.736837344826014,41.84832763671875%2028.736837344826014,41.84832763671875%2027.581815963034614%29%29&x=3411746.82651&y=3505186.58173&z=9.35296)
+Explore more dates on [EO Dashboard](https://eodashboard.org/explore?indicator=SIF&area=POLYGON%28%2841.84832763671875%2027.581815963034614,42.34326171875%2027.581815963034614,42.34326171875%2028.736837344826014,41.84832763671875%2028.736837344826014,41.84832763671875%2027.581815963034614%29%29&x=3411746.82651&y=3505186.58173&z=9.35296)
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N1_NO2_jaxa-2018-06-30T11:59:59Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:NO2-TROPOMI-Cairo-Daily","styles":"","format":"image/png","time":"2018-06-30T11:59:59Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.352955506774572" center=[30.64824319798807,30.01273241483284] animationOptions={duration:500}}-->
 #### Nitrogen Dioxide (NO2) Column Density in daily [mol/m3] 
 #### 30 June 2018
 TROPOMI observes nitrogen dioxide (NO2) column density with a high resolution of 5 km. NO2 is an air pollution trace gas as a result of anthropogenic activities along with fossil fuel combustion such as oil refinery, power plant, steelwork and automobile transportation the same as the CO2 emission. However, NO2 reduction is processed by decomposition different from CO2 uptake.
 
-Explore more dates on [EO Dashboard](https://www.eodashboard.org/explore?indicator=N1_NO2_jaxa&area=POLYGON%28%2841.84832763671875%2027.581815963034614,42.34326171875%2027.581815963034614,42.34326171875%2028.736837344826014,41.84832763671875%2028.736837344826014,41.84832763671875%2027.581815963034614%29%29&x=3411746.82651&y=3505186.58173&z=9.35296)
+Explore more dates on [EO Dashboard](https://eodashboard.org/explore?indicator=N1_NO2_jaxa&area=POLYGON%28%2841.84832763671875%2027.581815963034614,42.34326171875%2027.581815963034614,42.34326171875%2028.736837344826014,41.84832763671875%2028.736837344826014,41.84832763671875%2027.581815963034614%29%29&x=3411746.82651&y=3505186.58173&z=9.35296)
 
 ## Open Data
 Explore in more details these datasets:
 
-- [GOSAT-2 CO2 on Cairo](https://www.eodashboard.org/explore?indicator=N2_CO2_jaxa_gosat)
-- [OCO-2 CO2 Global](https://www.eodashboard.org/explore?indicator=N2_CO2_mean)
-- [TROPOMI NO2](https://www.eodashboard.org/explore?indicator=N1_NO2)
-- [TROPOMI SIF](https://www.eodashboard.org/explore?indicator=SIF)
+- [GOSAT-2 CO2 on Cairo](https://eodashboard.org/explore?indicator=N2_CO2_jaxa_gosat)
+- [OCO-2 CO2 Global](https://eodashboard.org/explore?indicator=N2_CO2_mean)
+- [TROPOMI NO2](https://eodashboard.org/explore?indicator=N1_NO2)
+- [TROPOMI SIF](https://eodashboard.org/explore?indicator=SIF)
 
 
 ### References & Data Sources

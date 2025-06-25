@@ -38,10 +38,10 @@ Watch this video to learn how ESA measures sea ice thickness from space.
 
 This **EO Dashboard** provides access to interactive maps of Sea Ice Thickness and Sea Ice Concentration. Access these datasets directly from the links below:
 
-- [Sea Ice Thickness from Cryosat](https://www.eodashboard.org/explore?indicator=SIC)
-- [Sea Ice Thickness from Envisat](https://www.eodashboard.org/explore?indicator=SIE)
-- [Sea Ice Thickness from IceSAT-2](https://www.eodashboard.org/explore?indicator=SITI)
-- [Sea Ice Concentration Antarctic from GCOM-W](https://www.eodashboard.org/explore?indicator=World-N12_1_sea_ice_concentration_arctic)
+- [Sea Ice Thickness from Cryosat](https://eodashboard.org/explore?indicator=SIC)
+- [Sea Ice Thickness from Envisat](https://eodashboard.org/explore?indicator=SIE)
+- [Sea Ice Thickness from IceSAT-2](https://eodashboard.org/explore?indicator=SITI)
+- [Sea Ice Concentration Antarctic from GCOM-W](https://eodashboard.org/explore?indicator=World-N12_1_sea_ice_concentration_arctic)
 
 
 

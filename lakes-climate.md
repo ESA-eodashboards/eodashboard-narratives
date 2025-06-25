@@ -37,7 +37,7 @@ After more than two decades of drought, researchers have documented the lowest w
 
 observtion date: **27 June 2017**
 
-[Access this dataset](https://www.eodashboard.org/explore?&poi=Colorado&indicator=Lakes_S2L2A). 
+[Access this dataset](https://eodashboard.org/explore?&poi=Colorado&indicator=Lakes_S2L2A). 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Colorado;:;2023-05-22T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2023-05-22T00:00:00Z/2023-05-22T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="11.041891035502706" center=[-110.74216064881361,37.46457077196689] projection="" animationOptions={duration:500}}-->
 #### Colorado River 
 

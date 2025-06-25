@@ -53,11 +53,11 @@ Use the interactive maps on the next pages to see how NPP levels vary globally. 
 
 This EO Dashboard provides access to interactive maps of NPP but also water quality at regional level. Access these datasets by clicking on the **Dashboard** tab at the top of the page or directly from the links below:
 
-- [NASA NPP](https://www.eodashboard.org/explore?indicator=NPPN)
-- [ESA NPP](https://www.eodashboard.org/explore?indicator=NPP)
-- [JAXA NPP](https://www.eodashboard.org/explore?indicator=N11)
-- [Water Quality Maps - Chl-a and TSM](https://www.eodashboard.org/explore?indicator=N3a2_TSM_esa)
-- [Water Quality Time Series - Chl-a and TSM](https://www.eodashboard.org/explore?indicator=N3b_chl)
+- [NASA NPP](https://eodashboard.org/explore?indicator=NPPN)
+- [ESA NPP](https://eodashboard.org/explore?indicator=NPP)
+- [JAXA NPP](https://eodashboard.org/explore?indicator=N11)
+- [Water Quality Maps - Chl-a and TSM](https://eodashboard.org/explore?indicator=N3a2_TSM_esa)
+- [Water Quality Time Series - Chl-a and TSM](https://eodashboard.org/explore?indicator=N3b_chl)
 
 ## Monthly global Marine Phytoplankton Primary Production
 
