@@ -79,7 +79,4 @@ Explore in more details these datasets:
 * [Britannica](https://www.britannica.com/place/Egypt/Agriculture-and-fishing)
 * Koehler, P., & Frankenberg, C. (2020). Ungridded TROPOMI SIF (at 740nm) (Version 1.0) [Data set]. CaltechDATA. <https://doi.org/10.22002/D1.1347>
 * [S-5P PAL](https://data-portal.s5p-pal.com/products/no2.html)
-* The windrose was produced by using wind data from <Windergroud.com>.
-	
-	
-
+* The windrose was produced by using wind data from <Wundergroud.com>.
