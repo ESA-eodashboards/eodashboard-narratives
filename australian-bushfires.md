@@ -42,11 +42,11 @@ The conclusion is that the bushfires released about 700 million tonnes in just t
 
 ## Explore Datasets
 
-This **EO Dashboard** provides access to interactive maps of Carbon Monoxide, Nitrogen Dioxide, and Sulfur Dioxide from TROPOMI. Access these datasets by clicking on the [Dashboard](https://www.eodashboard.org/explore) button at the top of the page or directly from the links below:
+This **EO Dashboard** provides access to interactive maps of Carbon Monoxide, Nitrogen Dioxide, and Sulfur Dioxide from TROPOMI. Access these datasets by clicking on the [Dashboard](https://eodashboard.org/explore) button at the top of the page or directly from the links below:
 
-- [TROPOMI CO](https://www.eodashboard.org/explore?indicator=N1_CO)
-- [TROPOMI NO2](https://www.eodashboard.org/explore?indicator=N1_NO2)  
-- [TROPOMI SO2](https://www.eodashboard.org/explore?indicator=N1_SO2)
+- [TROPOMI CO](https://eodashboard.org/explore?indicator=N1_CO)
+- [TROPOMI NO2](https://eodashboard.org/explore?indicator=N1_NO2)  
+- [TROPOMI SO2](https://eodashboard.org/explore?indicator=N1_SO2)
 
 The compare feature in the dashboard allows looking at the levels of CO on two different dates or compare two variables on similar dates.
 
@@ -72,7 +72,7 @@ Scroll to visualise further dates and see the evolution of the emissions
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"CO_3_daily-2019-11-09T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"AWS_VIS_CO_3DAILY_DATA","styles":"","format":"image/png","time":"2019-11-09T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="4.391928094887362" center=[128.1361269438078,-31.53688018319827] animationOptions={duration:500}}-->
 #### 09 November 2019
-Explore more dates on the [Dashboard](https://www.eodashboard.org/explore?x=14264048.40361&y=-3702671.30498&z=4.39193&indicator=N1_CO)
+Explore more dates on the [Dashboard](https://eodashboard.org/explore?x=14264048.40361&y=-3702671.30498&z=4.39193&indicator=N1_CO)
 
 
 ## Jupyter Notebook

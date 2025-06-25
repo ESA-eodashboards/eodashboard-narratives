@@ -32,7 +32,7 @@ The following animation shows above ground biomass 2020. While deforestation ref
 
 This product counts with an annual estimate of global above-ground biomass at 100 m spatial resolution over five years based on ESA’s C-band (Sentinel-1 A and -B) and JAXA’s L-band SAR on board of ALOS-2 PALSAR-2 with additional information from Space borne LIDAR (such as NASA’s Global Ecosystem Dynamics Investigation Lidar GEDI). JAXA also offers global 25m resolution SAR mosaics and forest/non-forest maps, based on ALOS PALSAR, ALOS-2 PALSAR-2 and the JERS-1 SAR. In addition, “[JICA-JAXA Forest Early Warning System in the Tropics](https://www.eorc.jaxa.jp/jjfast/)" (JJ-FAST) is now operating for monitoring early deforestation in tropical forests globally collaboration with the Japan International Cooperation Agency (JICA) and JAXA. 
 
- [View dataset](https://www.eodashboard.org/explore?indicator=FNF)
+ [View dataset](https://eodashboard.org/explore?indicator=FNF)
  
 ## Boreal Forests <!--{ as="eox-map" mode="tour" }-->
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"ndvi-2024-04-16T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:NDVI-GCOMC-World-Monthly","styles":"","format":"image/png","time":"2024-04-16T11:59:30Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="3.5452614282206953" center=[12.729978307915157,44.02861456759007] animationOptions={duration:500}}-->
@@ -46,14 +46,14 @@ Boreal forests comprise 44% of Earth’s remaining intact forest landscapes [(10
 
 #### observation date: 16 April 2024
  
- [View dataset](https://www.eodashboard.org/explore?indicator=E10e)
+ [View dataset](https://eodashboard.org/explore?indicator=E10e)
  
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"ndvi-2024-07-16T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:NDVI-GCOMC-World-Monthly","styles":"","format":"image/png","time":"2024-07-16T11:59:30Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="3.5452614282206953" center=[12.729978307915157,44.02861456759007] animationOptions={duration:500}}-->
 #### GCOM-C/SGLI L3 Normalized Difference Vegetation Index (NDVI)
 
 #### observation date: 16 July 2024
  
- [View dataset](https://www.eodashboard.org/explore?indicator=E10e)
+ [View dataset](https://eodashboard.org/explore?indicator=E10e)
 
 ### <!--{ center="[-100,55]" zoom="4" }-->
 
@@ -82,7 +82,7 @@ This ecosystem, thanks to its trees, has the ability to generate its own rainfal
 ### NASA Evapotranspiration Dataset
 #### observation date: December 2021
 
-[View the LIS 10km Global DA dataset](https://www.eodashboard.org/explore?indicator=LIS_Global_DA_Evap)
+[View the LIS 10km Global DA dataset](https://eodashboard.org/explore?indicator=LIS_Global_DA_Evap)
 
 Less trees mean a diminished release of water vapour in the atmosphere, consequently reducing cloud formation and precipitation, which ultimately lead to droughts and wildfires [(18)](https://www.scientificamerican.com/article/amazon-rain-forest-nears-dangerous-tipping-point/). This cycle forms a positive feedback loop, perpetuating reduced evapotranspiration and carbon stocks. Whether stemming from localised deforestation impacts or broader global climate shifts, scientific consensus asserts a future for the Amazon characterised by increased warmth and aridity. 
 
@@ -94,7 +94,7 @@ Savannas are generally less efficient than tropical forests at sequestering carb
 ### ESA Deforestation Dataset  
 #### observation date: 2018
 
-[View the Biomass CCI RECCAP-2 dataset](https://www.eodashboard.org/explore?indicator=RECCAP2_6)
+[View the Biomass CCI RECCAP-2 dataset](https://eodashboard.org/explore?indicator=RECCAP2_6)
 
 There remains no definitive agreement on a tipping point leading to widespread rainforest depletion and the proliferation of savanna species (Cerrado) from the biome. Given the intricate interplay between regional land-use alterations and global climate shifts, scientists are working to gain more understanding about this potential 'point of no return' for the Amazon rainforest. The threshold has been estimated to occur when deforestation reaches 20-25%. Currently, the Amazon has already undergone approximately 17% deforestation, which highlights the urgency of conservation efforts to prevent reaching an ecological tiping point.
 
@@ -112,7 +112,7 @@ On the other hand, fires are increasing in boreal forest ecosystems, albeit with
 #### NASA OCO-2 Carbon Dioxide Difference
 This map shows the difference in carbon dioxide (CO2) levels on the observation date (28 July 2021) compared to the 2015-2019 baseline. Redder colors indicate increases in CO2. Bluer colors indicate lower levels of CO2.
 
-[View dataset](https://www.eodashboard.org/explore?search=Global%3A+NDVI&x=9777576.63986&y=6761469.91318&z=4.04859&indicator=N2_diff&area=POLYGON%28%2891.6860897901812+59.16301123078122%2C139.41269053968733+59.16301123078122%2C139.41269053968733+69.43080822422633%2C91.6860897901812+69.43080822422633%2C91.6860897901812+59.16301123078122%29%29)
+[View dataset](https://eodashboard.org/explore?search=Global%3A+NDVI&x=9777576.63986&y=6761469.91318&z=4.04859&indicator=N2_diff&area=POLYGON%28%2891.6860897901812+59.16301123078122%2C139.41269053968733+59.16301123078122%2C139.41269053968733+69.43080822422633%2C91.6860897901812+69.43080822422633%2C91.6860897901812+59.16301123078122%29%29)
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"N2_CO2_diff-2021-07-30T00:00:00Z"},"source":{"type":"XYZ","urls":["https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?resampling_method=nearest&bidx=1&colormap_name=rdbu_r&rescale=-1e-06,1e-06&url=s3://veda-data-store/co2-diff/xco2_16day_diff._2021-07-30.tif"]}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="4.048594761554028" center=[87.83346537234536,51.78570157047935] animationOptions={duration:500}}-->
 
@@ -174,7 +174,7 @@ Another article also published in the same journal estimated a global decline in
 
 #### Secondary forest growth - ESA CCI RECCAP2
 
-One of the main drives of degradation in sub/tropical countries is unsustainable logging [(46)](https://iopscience.iop.org/article/10.1088/1748-9326/7/4/044009). To counter this, many private companies, public institutions and non-governmental organisations (NGOs) are stepping up their forestry conservation pledges. But given the size and accessibility of many locations on Earth, a crucial component in these efforts is the use of satellite-based forest monitoring systems. For instance, such system have been instrumental in slowing down deforestation in Brazil [(47)](https://earthobservatory.nasa.gov/images/145988/tracking-amazon-deforestation-from-above). [View dataset](https://www.eodashboard.org/explore?indicator=RECCAP2_5)
+One of the main drives of degradation in sub/tropical countries is unsustainable logging [(46)](https://iopscience.iop.org/article/10.1088/1748-9326/7/4/044009). To counter this, many private companies, public institutions and non-governmental organisations (NGOs) are stepping up their forestry conservation pledges. But given the size and accessibility of many locations on Earth, a crucial component in these efforts is the use of satellite-based forest monitoring systems. For instance, such system have been instrumental in slowing down deforestation in Brazil [(47)](https://earthobservatory.nasa.gov/images/145988/tracking-amazon-deforestation-from-above). [View dataset](https://eodashboard.org/explore?indicator=RECCAP2_5)
 
 ## <!--{ as="iframe" src="https://www.youtube.com/embed/wF_td3QRBuM" width="100%" height="500px" frameBorder="0" scroll="no" style="overflow:hidden" }-->
 
