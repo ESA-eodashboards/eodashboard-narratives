@@ -5,6 +5,7 @@
 El Niño is characterized by the warming of water surfaces in the central and eastern Pacific ocean, causing shifts in weather patterns. This warming results in a shift of the global atmospheric circulation, which can lead to extreme weather events such as [heatwaves](https://eodashboard.org/story?id=el-nino-extremes), the [global rise of sea surface temperature](https://eodashboard.org/story?id=sea-surface-temperature-rise), [droughts](https://eodashboard.org/story/?id=el_nino_part_3_food_security), floodings and storms.
 
 
+
 ## The 2023 floodings in the 'Horn of Africa'
 In the case of floodings, these events occur due to changes in rainfall patterns worldwide, even if they are far from the Pacific. In 2023, El Niño caused above-average rainfall, which  led to intense and prolonged downpours, causing rivers to overflow and widespread flooding. In East Africa, this rainfall is belived to amplify another ocean-atmosphere phenomenon, the Indian Ocean Dipole (IOD)[[1]](https://www.icpac.net/fsnwg/special-report-el-ni%C3%B1o-and-positive-indian-ocean-dipole-to-have-significant-multi-sectoral-impacts-in-east-africa/), which led to widespread flooding in the Somali Region, also knonw as the **Horn of Africa**.
 
@@ -57,13 +58,11 @@ In an alert issued on 8 May 2024,  the International Organization for Migration 
 
 In addition to heavy rains and subsequent flooding, which occurred after prolonged drought conditions in these areas, there has also been a surge in water-borne diseases such as cholera, and mosquito and flea-transmitted diseases including malaria, plague, and Rift Valley fever [[10]](https://earthobservatory.nasa.gov/features/disease-vector) [[11]](https://www.theguardian.com/environment/2023/aug/10/return-of-el-nino-raises-risk-of-hunger-drought-and-malaria-scientists-warn) , due to standing water, damaged latrines and a lack of access to safe drinking water. Furthermore, damaged infrastructure and impassable roads, particularly in the hardest-hit areas of  the region, hindered the efforts of aid agencies [[12]](https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl). 
 
-The impacts of the 2023–2024 El Niño extended beyond East Africa, contributing to broader global climate disruptions,  fueling extreme weather events around the world, including an increase in the frequency and intensity of tropical cyclones [13](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024GL111964).
-
 
 ##  Freddy, longest-lived tropical Cyclone <!--{ as="eox-map" mode="tour" }-->
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"precipitation-2023-02-16T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:PRC-GSMaP-World-Monthly","styles":"","format":"image/png","time":"2023-02-16T11:59:30Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="5.411189291266405" center=[44.88668807701002,-19.0640383043078] animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlaylabels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"customId"},"source":{"type":"XYZ","url":"https://sharaku.eorc.jaxa.jp/cgi-bin/trmm/GSMaP/tilemap/tile_rain.py?prod=rain&year=2023&month=2&day=21&hour=8&min=0&x={x}&y={-y}&z={z}"}},{"type":"Tile","properties":{"id":"Terrainlight"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]'zoom="5.036541747131764"center=[35.633378549999996,-18.82747120552102]}-->
 #### Tropical Cyclone Freddy 
-One of the most striking examples was Tropical Cyclone Freddy, which broke records for both duration and impact.
+The impacts of the 2023–2024 El Niño extended beyond East Africa, contributing to broader global climate disruptions,  fueling extreme weather events around the world, including an increase in the frequency and intensity of tropical cyclones [13](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024GL111964). One of the most striking examples was Tropical Cyclone Freddy, which broke records for both duration and impact. Freddy made its first landfall near Mananjary,  Madagascar, on 21 February 2023. 
 <figure style="text-align: center;">
     <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/151000/151065/tcfreddy_vir_2023067.jpg" 
          alt=" Sea ice concentration in May 2023. " 
@@ -74,17 +73,18 @@ One of the most striking examples was Tropical Cyclone Freddy, which broke recor
         </a>.
     </figcaption>
 </figure>
-Especially due to extreme weather events (high temperature in Land and Ocean), there were many intense tropical cyclones/hurricanes and typhoons around the world. The intense Tropical Cyclone Freddy became the longest-lived named tropical cyclone on record. This exceptionally powerful, and deadly tropical cyclone that traversed the southern Indian Ocean for more than five weeks in February and March 2023. 
 
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlaylabels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"customId"},"source":{"type":"XYZ","url":"https://sharaku.eorc.jaxa.jp/cgi-bin/trmm/GSMaP/tilemap/tile_rain.py?prod=rain&year=2023&month=2&day=24&hour=8&min=0&x={x}&y={-y}&z={z}"}},{"type":"Tile","properties":{"id":"Terrainlight"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]'zoom="6.036541747131764"center=[35.633378549999996,-18.82747120552102]}-->
+Though it weakened while crossing the island, the cyclone regained strength once it entered the Mozambique Channel. Especially due to extreme weather events (high temperature in Land and Ocean), there were many intense tropical cyclones/hurricanes and typhoons around the world. The intense Tropical Cyclone Freddy became the longest-lived named tropical cyclone on record. This exceptionally powerful, and deadly tropical cyclone that traversed the southern Indian Ocean for more than five weeks in February and March 2023. It reached Mozambique on 24 February near Vilankulos, causing further damage. 
 
-Freddy made its first landfall near Mananjary,  **Madagascar, on 21 February 2023**. Though it weakened while crossing the island, the cyclone regained strength once it entered the Mozambique Channel. It reached Mozambique on 24 February near Vilankulos, causing further damage. 
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlaylabels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"customId"},"source":{"type":"XYZ","url":"https://sharaku.eorc.jaxa.jp/cgi-bin/trmm/GSMaP/tilemap/tile_rain.py?prod=rain&year=2023&month=3&day=14&hour=8&min=0&x={x}&y={-y}&z={z}"}},{"type":"Tile","properties":{"id":"Terrainlight"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]'zoom="6.036541747131764"center=[35.633378549999996,-18.82747120552102]}-->
+####  Final landafall in Quelimane, Mozambique caused floods
+After crossing Mozambique and returning to the channel, Freddy intensified again and made its final landfall near Quelimane on 11 March. Though it weakened while crossing the island, the 
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"alos2_floods;:;2023-03-15T00:00:00Z;:;alos2_floods;:;EPSG:3857","title":"alos2_floods"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["JAXA_ALOS2_FLOODMAPS"],"TILED":true,"TIME":"2023-03-15T00:00:00Z"}},"opacity":1}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2023;:;EPSG:3857","title":"EOxCloudless 2023"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="8.73907793405558" center=[35.93771646002912,-18.278112939983657] projection="" animationOptions={duration:500}}-->
-####  Final landafall in Quelimane, Mozambique caused floods
-After crossing Mozambique and returning to the channel, Freddy intensified again and made its final landfall near Quelimane on 11 March. By 14 March, the storm had dissipated inland after causing widespread damage and flooding across Madagascar, Mozambique, and surrounding regions.
-By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monitors precipitation and inundated area by Cyclone Freddy. 
-
-
+#### The Aftermath 
+By 14 March, the storm had dissipated inland after causing widespread damage and flooding across Madagascar, Mozambique, and surrounding regions. Its path and multiple landfalls, along with the fact that it persisted through such a lengthy period, made it a standout cyclone in terms of both meteorological history and the human impact it left behind.
+By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monitored precipitation and inundated area by Cyclone Freddy. 
 <figure style="text-align: center;">
     <img 
         src="https://earthdata.nasa.gov/s3fs-public/styles/hds_large/public/2023-03/Flooding_Moz_Malawi_22Mar2023_Aqua_Terra_wiotw_1.jpg?VersionId=XJs7_Wl4XnQBpYyrTCCgC717H10WNU9p&itok=01aRUJlE" 
@@ -95,6 +95,25 @@ By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monito
         True-color corrected reflectance image of flooding in Mozambique and Malawi, acquired with Moderate Resolution Imaging Spectroradiometer (MODIS) instruments aboard NASA's Terra and Aqua satellites. Credit: 
         <a href="https://www.earthdata.nasa.gov/news/worldview-image-archive/flooding-mozambique-malawi" target="_blank">
             NASA EarthDATA
+        </a>
+    </figcaption>
+</figure>
+
+### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"alos2_floods;:;2023-03-15T00:00:00Z;:;alos2_floods;:;EPSG:3857","title":"alos2_floods"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["JAXA_ALOS2_FLOODMAPS"],"TILED":true,"TIME":"2023-03-15T00:00:00Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2023;:;EPSG:3857","title":"EOxCloudless 2023"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="11.774612669982734" center=[35.88201367268074,-18.75698819454024] projection="" animationOptions={duration:500}}-->
+Its path and multiple landfalls, along with the fact that it persisted through such a lengthy period, made it a standout cyclone in terms of both meteorological history and the human impact it left behind.
+By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monitored precipitation and inundated area by Cyclone Freddy. 
+
+
+<figure style="text-align: center;">
+    <img 
+        src="https://africanarguments.org/wp-content/uploads/2023/03/mozambique-cyclone-freddy.jpg" 
+        alt="Flooding in Mozambique and Malawi from NASA MODIS Satellites" 
+        style="max-width: 100%; height: auto; display: block; margin: 0 auto;"
+    >
+    <figcaption style="margin-top: 8px;">
+        The scene from the city of Quelimane in Mozambique after Cyclone Freddy struck on 11 March. Credit:  
+        <a href="https://africanarguments.org/2023/03/nobody-imagined-it-would-be-so-intense-mozambique-cyclone-freddy/" target="_blank">
+            UNICEF
         </a>
     </figcaption>
 </figure>
@@ -117,7 +136,7 @@ Space agencies including ESA, NASA, and JAXA offer access to these datasets, equ
 
 - [NASA’s SWOT](), launched in 2022, measures global river water level, slope, width, and area, which supports space-based estimates of river discharge.  
 
-- [NASA/JAXA’s Global Precipitation Measurement (GPM) mission]() provides valuable information on precipitation patterns and intensity, aiding in flood forecasting and early warning systems.
+- [NASA/JAXA’s Global Precipitation Measurement (GPM) mission]() provides valuable information on precipitation patterns  and intensity, aiding in flood forecasting and early warning systems.
 
 ### Datasets
 - [NASA also produces an operational, surface water extent product]() that merges NASA Landsat and ESA Sentinel-2 data. Merging observations from multiple satellites is one way to ensure that extreme hydrological events are comprehensively observed, enhancing flood detectability . 
@@ -159,10 +178,3 @@ https://www.earthdata.nasa.gov/data/instruments/smap-l-band-radiometer/near-real
 Sara Aparicio (Solenix c/o ESA),  Shinichi Sobue (JAXA), Nao Yoshida (JAXA),  Karim Douch (ESA), Craig Ferguson (NASA) 
 
 
-Its path and multiple landfalls, along with the fact that it persisted through such a lengthy period, made it a standout cyclone in terms of both meteorological history and the human impact it left behind.
-
- ***NOTES FOR THE EDITION OF THE STORY
-IMAGE HERE FROM CICLONE
-caption: The (left) 24- and (right) 48-hour precipitation accumulation estimates (in mm) from GSMaP for the period starting from 0200 UTC 11 March 2023. 
-ANOTHER IMAGE HERE FROM THE FLOOD
-Caption: Estimated land change area including inundated area around river (blue color area) by heavy rain using ALOS-2 ScanSAR (25m) observation data on March 15 (Green and Blue) and April 26 (Red) in Mozambique.***
