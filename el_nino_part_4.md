@@ -60,7 +60,8 @@ In addition to heavy rains and subsequent flooding, which occurred after prolong
 ##  Freddy, longest-lived tropical Cyclone <!--{ as="eox-map" mode="tour" }-->
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlaylabels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"customId"},"source":{"type":"XYZ","url":"https://sharaku.eorc.jaxa.jp/cgi-bin/trmm/GSMaP/tilemap/tile_rain.py?prod=rain&year=2023&month=2&day=21&hour=8&min=0&x={x}&y={-y}&z={z}"}},{"type":"Tile","properties":{"id":"Terrainlight"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]'zoom="5.036541747131764"center=[35.633378549999996,-18.82747120552102]}-->
 #### Tropical Cyclone Freddy 
-The impacts of the 2023–2024 El Niño extended beyond East Africa, contributing to broader global climate disruptions,  fueling extreme weather events around the world, including an increase in the frequency and intensity of tropical cyclones [13](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024GL111964). One of the most striking examples was Tropical Cyclone Freddy, which broke records for both duration and impact. Freddy made its first landfall near Mananjary,  Madagascar, on **21 February 2023**. 
+The impacts of the 2023–2024 El Niño extended beyond East Africa, contributing to broader global climate disruptions,  fueling extreme weather events around the world, including an increase in the frequency and intensity of tropical cyclones [13](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024GL111964). 
+
 <figure style="text-align: center;">
     <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/151000/151065/tcfreddy_vir_2023067.jpg" 
          alt=" Sea ice concentration in May 2023. " 
@@ -72,12 +73,37 @@ The impacts of the 2023–2024 El Niño extended beyond East Africa, contributin
     </figcaption>
 </figure>
 
+One of the most striking examples was Tropical Cyclone Freddy, which broke records for both duration and impact. Freddy made its first landfall near Mananjary,  Madagascar, on **21 February 2023**. 
+
+
+The map behind shows the Global Satellite Mapping of Precipitation (GSMaP) from JAXA.
+<figure style="text-align: center;">
+    <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_legend.png" 
+         alt=" Sea ice concentration in May 2023. " 
+    </figcaption>
+</figure>
+
+
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlaylabels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"customId"},"source":{"type":"XYZ","url":"https://sharaku.eorc.jaxa.jp/cgi-bin/trmm/GSMaP/tilemap/tile_rain.py?prod=rain&year=2023&month=2&day=24&hour=8&min=0&x={x}&y={-y}&z={z}"}},{"type":"Tile","properties":{"id":"Terrainlight"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]'zoom="6.036541747131764"center=[35.633378549999996,-18.82747120552102]}-->
 Though it weakened while crossing the island, the cyclone regained strength once it entered the Mozambique Channel. Especially due to extreme weather events (high temperature in Land and Ocean), there were many intense tropical cyclones/hurricanes and typhoons around the world. The intense Tropical Cyclone Freddy became the longest-lived named tropical cyclone on record. This exceptionally powerful, and deadly tropical cyclone that traversed the southern Indian Ocean for more than five weeks in February and March 2023. It **reached Mozambique on 24 February** near Vilankulos, causing further damage. 
+
+The map behind shows the Global Satellite Mapping of Precipitation (GSMaP) from JAXA.
+<figure style="text-align: center;">
+    <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_legend.png" 
+         alt=" Sea ice concentration in May 2023. " 
+    </figcaption>
+</figure>
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlaylabels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"customId"},"source":{"type":"XYZ","url":"https://sharaku.eorc.jaxa.jp/cgi-bin/trmm/GSMaP/tilemap/tile_rain.py?prod=rain&year=2023&month=3&day=14&hour=8&min=0&x={x}&y={-y}&z={z}"}},{"type":"Tile","properties":{"id":"Terrainlight"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]'zoom="6.036541747131764"center=[35.633378549999996,-18.82747120552102]}-->
 ####  Final landafall in Quelimane, Mozambique
 After crossing Mozambique and returning to the channel, Freddy intensified again and made its final landfall **near Quelimane on 11 March**. Though it weakened while crossing the island.
+
+The map behind shows the Global Satellite Mapping of Precipitation (GSMaP) from JAXA.
+<figure style="text-align: center;">
+    <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_legend.png" 
+         alt=" Sea ice concentration in May 2023. " 
+    </figcaption>
+</figure>
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"alos2_floods;:;2023-03-15T00:00:00Z;:;alos2_floods;:;EPSG:3857","title":"alos2_floods"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["JAXA_ALOS2_FLOODMAPS"],"TILED":true,"TIME":"2023-03-15T00:00:00Z"}},"opacity":1}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2023;:;EPSG:3857","title":"EOxCloudless 2023"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="8.73907793405558" center=[35.93771646002912,-18.278112939983657] projection="" animationOptions={duration:500}}-->
 #### The Aftermath 
@@ -99,8 +125,6 @@ By 14 March, the storm had dissipated inland after causing widespread damage and
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"alos2_floods;:;2023-03-15T00:00:00Z;:;alos2_floods;:;EPSG:3857","title":"alos2_floods"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["JAXA_ALOS2_FLOODMAPS"],"TILED":true,"TIME":"2023-03-15T00:00:00Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2023;:;EPSG:3857","title":"EOxCloudless 2023"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="11.774612669982734" center=[35.88201367268074,-18.75698819454024] projection="" animationOptions={duration:500}}-->
 Its path and multiple landfalls, along with the fact that it persisted through such a lengthy period, made it a standout cyclone in terms of both meteorological history and the human impact it left behind.
-By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monitored precipitation and inundated area by Cyclone Freddy. 
-
 
 <figure style="text-align: center;">
     <img 
@@ -113,6 +137,17 @@ By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monito
         <a href="https://africanarguments.org/2023/03/nobody-imagined-it-would-be-so-intense-mozambique-cyclone-freddy/" target="_blank">
             UNICEF
         </a>
+    </figcaption>
+</figure>
+
+
+By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monitored precipitation and inundated area by Cyclone Freddy. The map behind shows flooded areas, based on ALOS-2 data.
+<figure style="text-align: center;">
+    <img 
+        src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/alos2_floods/cm_legend.png.png" 
+        alt="" 
+        style="max-width: 100%; height: auto; display: block; margin: 0 auto;"
+    >
     </figcaption>
 </figure>
 
