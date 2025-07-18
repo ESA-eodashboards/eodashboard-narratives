@@ -57,5 +57,5 @@ This chart shows the variation in the detected number of parked airplanes at CDG
 	
 ![](https://raw.githubusercontent.com/aapopescu/eodashboard-narratives/aapopescu/corrections-stories-before-lps/assets/aapopescu/CDG-parked-planes-1750505646482.png)
 
-Futher dates can be explored on the [Dashboard](https://eodashboard.org/explore/?x=2.5751&y=49.0036&z=14.2926&datetime=2020-04-25&template=expert&indicator=E13b&poi=FR8).
+Further dates can be explored on the [Dashboard](https://eodashboard.org/explore/?x=2.5751&y=49.0036&z=14.2926&datetime=2020-04-25&template=expert&indicator=E13b&poi=FR8).
 

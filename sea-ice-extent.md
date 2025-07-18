@@ -13,24 +13,21 @@ official: true
 
 The sea ice extent has been rapidly decreasing in recent years as global temperatures have risen. As sea ice extent is very important, space agencies are continuously monitoring it from space. Microwave remote sensing from space is the only tool that provides continuous, consistent, and comprehensive information on sea ice changes in polar regions. JAXA provides data of a variety of satellite measurements from passive microwave imagers, including the Advanced Microwave Scanning Radiometer (AMSR) series. These data aim to capture sea ice concentration (i.e., coverage) and sea ice extent trends in the polar oceans on a daily basis from 1978 to the present.
 
-## GCOM-W Observations 
-
 JAXA’s GCOM-W satellite, carrying the AMSR2 microwave sensor (1450 km swath, 7 bands), circles Earth daily to “see” sea-ice even through clouds and polar night.
 
 Its data are averaged into a handy Level-3 map on a 0.1° grid, showing—at a glance—how much of every Arctic and Antarctic square is ice-covered (0 % = open water, 100 % = solid ice).
 
 On EO Dashboard users can explore over 12 years of GCOM-W products of sea ice concentration, as illustrated in the images below. The entire time series can be explored [here](https://eodashboard.org/explore/?x=-156.1298&y=83.6059&z=4.8156&datetime=2024-07-31&template=expert&indicator=N12_1_sea_ice_concentration_arctic). 
 
-<center>
-	<figure>
-		<img src="https://raw.githubusercontent.com/aapopescu/eodashboard-narratives/aapopescu/corrections-stories-before-lps/assets/aapopescu/Screenshot-2025-06-21-at-18.32.49-1750523662568.png">
-<figcaption>2012-04-07 GCOM-W Sea ice Concentration</figcaption>
-		</figure>
-	<figure>
-				<img src="https://raw.githubusercontent.com/aapopescu/eodashboard-narratives/aapopescu/corrections-stories-before-lps/assets/aapopescu/Screenshot-2025-06-21-at-18.33.32-1750523697642.png" >
-		<figcaption>31-07- 2024 GCOM-W Sea ice Concentration</figcaption>
-		</figure>
-	</center>
+## GCOM-W Observations  <!--{ as="eox-map" mode="tour" }-->
+### <!--{ projection="EPSG:3411" layers='[{"type":"Tile","properties":{"id":"N12_1_sea_ice_concentration_arctic-2023-04-07T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:SIC_N","styles":"","format":"image/png","time":"2012-04-07T11:59:30.000Z"}}},{"type":"Tile","properties":{"id":"sx-cat_ortho680500;:;EPSG:3411","title":"Terrain Light Stereographic North"},"source":{"type":"TileWMS","url":"//sxcat-demo.eox.at/sxcat_maps/wms","projection":"ORTHO:680500","tileGrid":{"tileSize":[512,512]},"attributions":"{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }","params":{"LAYERS":"sx-cat_ortho680500","TILED":true}}}]' zoom="2.4556138087264377" center=[0,0]}-->
+
+#### 2012-04-07
+
+### <!--{ projection="EPSG:3411" layers='[{"type":"Tile","properties":{"id":"N12_1_sea_ice_concentration_arctic-2024-07-31T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:SIC_N","styles":"","format":"image/png","time":"2024-07-31T11:59:30.000Z"}}},{"type":"Tile","properties":{"id":"sx-cat_ortho680500;:;EPSG:3411","title":"Terrain Light Stereographic North"},"source":{"type":"TileWMS","url":"//sxcat-demo.eox.at/sxcat_maps/wms","projection":"ORTHO:680500","tileGrid":{"tileSize":[512,512]},"attributions":"{ Terrain light: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"//maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }","params":{"LAYERS":"sx-cat_ortho680500","TILED":true}}}]' zoom="2.4556138087264377" center=[0,0]}-->
+
+#### 2024-07-31
+
 
 ## Climate Change and Ice-Albedo Feedback
 
@@ -40,10 +37,10 @@ Due to recent climate change, global warming has progressed rapidly. The Arctic 
 
 <center>
 	<figure>
-		<img src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-EO_Dashboard_Cryo-Pix_May_12.jpeg">
-		<figcaption>Sea Ice (aerial view)</figcaption>
-		</figure>
-	</center>
+    <img src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-EO_Dashboard_Cryo-Pix_May_12.jpeg">
+    <figcaption>Sea Ice (aerial view)</figcaption>
+    </figure>
+</center>
 
 ##  Northern Sea Route
 
@@ -55,9 +52,9 @@ Scientists use a variety of satellites and instruments to monitor and analyze ch
 
 <center>
 	<figure>
-		<img src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Icebreaking_ships_pillars.jpg">
-		<figcaption>Vessels navigating the Arctic Ocean</figcaption>
-		</figure>
+    <img src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Icebreaking_ships_pillars.jpg">
+    <figcaption>Vessels navigating the Arctic Ocean</figcaption>
+    </figure>
 	</center>
 
 ## Open Data
@@ -68,6 +65,3 @@ This narrative provides access to interactive maps of Sea Ice Thickness and Sea 
 - [Sea Ice Thickness from Envisat](https://eodashboard.org/explore?indicator=SIE)  
 - [Sea Ice Thickness from IceSAT-2](https://eodashboard.org/explore?indicator=SITI)
 - [Sea Ice Concentration from GCOM-W](https://eodashboard.org/explore?indicator=N12_1_sea_ice_concentration_arctic)
-
-
-
