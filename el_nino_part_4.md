@@ -1,113 +1,85 @@
-# El Niño 2023-2024: floodings and cyclone impacts in East Africa 
+# El Niño 2023–2024: Flooding and Cyclone Impacts in East Africa Tracked from Space
 
-***The 2023–2024 El Niño has peaked as one of the five strongest on record. This story is Part 4 of a series dedicated to its impacts. [Part 1](https://eodashboard.org/story?id=el-nino-extremes) focuses on record-breaking land surface temperatures, heatwaves, and nighttime temperatures, while [Part 2](https://eodashboard.org/story?id=sea-surface-temperature-rise) focuses on global sea surface temperature rises and marine heatwaves and [Part 3](https://eodashboard.org/story/?id=el_nino_part_3_food_security) focuses on impacts on food security worldwide.***
+**The 2023–2024 El Niño has peaked as one of the five strongest on record. This story is Part 4 of a series on its global impacts. [Part 1](https://eodashboard.org/story?id=el-nino-extremes) explores rising land surface temperatures, [Part 2](https://eodashboard.org/story?id=sea-surface-temperature-rise) covers sea surface warming and marine heatwaves, and [Part 3](https://eodashboard.org/story/?id=el_nino_part_3_food_security) examines food security disruptions.**
+ 
+Whether you’re a farmer watching the skies, a family navigating flooded roads, or someone checking the weather from thousands of kilometers away, climate extremes affect us all. During the 2023–2024 El Niño, these extremes - heatwaves, storms, floods, and droughts - made headlines around the world.
 
-El Niño is characterized by the warming of water surfaces in the central and eastern Pacific ocean, causing shifts in weather patterns. This warming results in a shift of the global atmospheric circulation, which can lead to extreme weather events such as [heatwaves](https://eodashboard.org/story?id=el-nino-extremes), the [global rise of sea surface temperature](https://eodashboard.org/story?id=sea-surface-temperature-rise), [droughts](https://eodashboard.org/story/?id=el_nino_part_3_food_security), floodings and storms.
+What we may not see in those headlines is how these events are monitored in near real-time by satellites orbiting high above. Earth Observation (EO) satellites allow us to detect changes in rainfall, monitor floodwaters as they rise, and map storm damage over vast areas. These capabilities are made possible through collaboration among global space agencies - ESA, NASA, JAXA, and others - who make their datasets open for public use.
 
 
+This story explores the impacts of El Niño in East Africa, one of the regions hardest hit, using the lens of these open EO datasets, which include rainfall maps, flood extents, and river observations.
+ 
+## El Niño 2023
+**A Global Climate Driver**
 
-## The 2023 floodings in the 'Horn of Africa'
-In the case of floodings, these events occur due to changes in rainfall patterns worldwide, even if they are far from the Pacific. In 2023, El Niño caused above-average rainfall, which  led to intense and prolonged downpours, causing rivers to overflow and widespread flooding. In East Africa, this rainfall is belived to amplify another ocean-atmosphere phenomenon, the Indian Ocean Dipole (IOD)[[1]](https://www.icpac.net/fsnwg/special-report-el-ni%C3%B1o-and-positive-indian-ocean-dipole-to-have-significant-multi-sectoral-impacts-in-east-africa/), which led to widespread flooding in the Somali Region, also knonw as the **Horn of Africa**.
+El Niño is a climate phenomenon marked by warming sea surface temperatures in the central and eastern Pacific Ocean. These temperature changes alter global atmospheric circulation, disrupting weather systems across continents. The result is often a rise in extreme events, from heatwaves and marine heatwaves to droughts and food insecurity, floods, and powerful storms.
+Earth Observation satellites play a vital role in documenting El Niño impacts. Through their optical, radar, infrared, and microwave sensors, satellites reveal what can’t always be seen from eye level: how fast floodwaters rise, where crops fail, or how rainfall changes in real time.
+ 
+## Horn of Africa: Floods of 2023
+**Rainfall Patterns and Climate Drivers**
 
-<figure style="text-align: center;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Horn_of_Africa_%28orthographic_projection%29.svg/800px-Horn_of_Africa_%28orthographic_projection%29.svg.png" 
-         alt=" Photograph taken from onboard the International Space Station showing a nighttime Paris and London. . " 
-         style="display: block; margin: 0 auto;"
-         width="400								">
-    <figcaption>
-         Horn of Africa (orthographic projection) 
-        <a href="https://commons.wikimedia.org/w/index.php?curid=8990864" target="_blank">
-             By L'Américain - Own work, CC BY-SA 3.0
-        </a>.
-    </figcaption>
-</figure>
+During the short rains season (October–December) of 2023, East Africa was hit by exceptional rainfall. This was due to the combined effects of El Niño and a positive Indian Ocean Dipole (IOD)—another ocean-atmosphere system that enhances rainfall over the region [[1]](https://www.icpac.net/fsnwg/special-report-el-ni%C3%B1o-and-positive-indian-ocean-dipole-to-have-significant-multi-sectoral-impacts-in-east-africa/).
 
-El Niño-induced heavy rains and flooding across East Africa in October-November 2023, claimed over 350 lives and displaced more than one million people across  Somalia, Kenya, Ethiopia and Tanzania. In Kenya alone, 136 people lost their lives and nearly half a million were displaced. President William Ruto declared a state of emergency in response to the widespread devastation [[2]]( https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl/index.html). The flooding compounded the region’s ongoing food insecurity crisis brought on by drought conditions that have persisted since 2020 [[3]](https://earthobservatory.nasa.gov/images/150712/worst-drought-on-record-parches-horn-of-africa). In the ‘Horn of Africa’, there are typically two rainy seasons: the short rains from October to December and the long rains from March to May. The October-December 2023 rainy period was extreme with precipitation totals double to quadruple the average in southern and western Ethiopia, Somalia and Kenya. The excessive rainfall led to the Shebelle River overflowing its banks and flooding central Somalia, particularly in Beledweyne [[4]](https://earthobservatory.nasa.gov/images/152108/devastating-flooding-in-east-africa). 
+Signs of anomaly were visible in EO data from multiple satellite missions: precipitation far above average levels, changes in vegetation, and swelling river systems. These observations were crucial in tracking the development of the flood season as it unfolded.
 
-<figure style="text-align: center;">
-    <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/152000/152108/somaliafloodingzm_oli_2023319.jpg" 
-         alt=" Photograph taken from onboard the International Space Station showing a nighttime Paris and London. . " 
-         style="display: block; margin: 0 auto;"
-         width="800
-								">
-    <figcaption>
-         Beledweyne on November 15, 2023 acquired by the OLI (Operational Land Imager) on Landsat 8. This is a false color image to emphasize the presence of water (blue), vegetation (green), and cumulus clouds (white).
-        <a href="https://earthobservatory.nasa.gov/images/152108/devastating-flooding-in-east-africa" target="_blank">
-             NASA Earth Observatory
-        </a>.
-    </figcaption>
-</figure>
+<figure style="text-align: center;"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Horn_of_Africa_%28orthographic_projection%29.svg/800px-Horn_of_Africa_%28orthographic_projection%29.svg.png" alt="Horn of Africa (orthographic projection)" style="display: block; margin: 0 auto;" width="400"> <figcaption> Horn of Africa (orthographic projection). <a href="https://commons.wikimedia.org/w/index.php?curid=8990864" target="_blank">By L'Américain – Own work, CC BY-SA 3.0</a>. </figcaption> </figure> 
 
-A similar event happened in western Somalia, where torrential rains caused the Juba River to overflow, inundating croplands and roads in the town of Luuq. In Baardheere, a bridge was swept away [[5]](https://www.faoswalim.org/resources/site_files/Somalia_Flood_Advisory_20_November_2023.pdf) cutting off access to the town. The University of California-Santa Barbara Climate Hazards Center [[6]](https://www.chc.ucsb.edu/) uses NASA hydrological forecast and analysis system (NHyFAS [[7]](https://lis.gsfc.nasa.gov/projects/nhyfashttps://fews.net/)) products to monitor and forecast agroclimatic conditions in global famine-prone regions such as East Africa.   
-In an alert issued on 8 May 2024,  the International Organization for Migration (IOM) noted torrential  rains in the preceding 5-days had caused devastating floods and mudslides that damaged infrastructure and displaced over 234,000 people, with a total of 637,000 affected. The alert covered areas of Burundi, Kenya, Rwanda, Somalia, Ethiopia and Tanzania with a great toll of casualities[[8]](https://news.un.org/en/story/2024/05/1149461), thriggering aid efforts to be sent to Burundi, Ethiopia, Kenya, and Somalia, targeting tens of thousands affected by floods [[9]](https://wmo.int/media/news/flooding-worsens-east-africa). 
 
-<figure style="text-align: center;">
-    <img src="https://www.copernicus.eu/system/files/styles/image_of_the_day/private/2024-05/image_day/20240503_FloodsKenya.jpg?itok=J7bQdg3N" 
-         alt=" " 
-         style="display: block; margin: 0 auto;"
-         width="800
-								">
-    <figcaption>
-          Copernicus Sentinel-2 image from 29 April, a flooded area near Garissa, Kenya is visible.
-        <a href="https://www.copernicus.eu/system/files/styles/image_of_the_day/private/2024-05/image_day/20240503_FloodsKenya.jpg?itok=J7bQdg3N" target="_blank">
-             European Union, Copernicus Sentinel-2 imagery
-        </a>.
-    </figcaption>
-</figure>
+## Satellite Observations
 
-In addition to heavy rains and subsequent flooding, which occurred after prolonged drought conditions in these areas, there has also been a surge in water-borne diseases such as cholera, and mosquito and flea-transmitted diseases including malaria, plague, and Rift Valley fever [[10]](https://earthobservatory.nasa.gov/features/disease-vector) [[11]](https://www.theguardian.com/environment/2023/aug/10/return-of-el-nino-raises-risk-of-hunger-drought-and-malaria-scientists-warn) , due to standing water, damaged latrines and a lack of access to safe drinking water. Furthermore, damaged infrastructure and impassable roads, particularly in the hardest-hit areas of  the region, hindered the efforts of aid agencies [[12]](https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl). 
+By November 2023, heavy rains had triggered deadly flooding across Somalia, Kenya, Ethiopia, and Tanzania, displacing over one million people and resulting in more than 350 deaths [[2]]( https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl/index.html). The floods came on the heels of years of drought, compounding the region’s food insecurity [[3]](https://earthobservatory.nasa.gov/images/150712/worst-drought-on-record-parches-horn-of-africa).
+In some areas of Ethiopia, Somalia, and Kenya, rainfall totals were two to four times the seasonal average. This led to major rivers, such as the Shebelle River, overflowing and flooding towns like Beledweyne, Somalia. Satellite imagery from NASA’s Landsat 8 captured the scale of flooding. The false color image below highlights the contrast between inundated areas and surrounding terrain [[4]](https://earthobservatory.nasa.gov/images/152108/devastating-flooding-in-east-africa).
 
-##  Freddy, longest-lived tropical Cyclone <!--{ as="eox-map" mode="tour" }-->
+<figure style="text-align: center;"> <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/152000/152108/somaliafloodingzm_oli_2023319.jpg" alt="Flooding in Beledweyne" style="display: block; margin: 0 auto;" width="800"> <figcaption> Beledweyne on November 15, 2023. Landsat 8 false-color image highlights floodwaters (blue), vegetation (green) and cumulus clouds (white). <a href="https://earthobservatory.nasa.gov/images/152108/devastating-flooding-in-east-africa" target="_blank">NASA Earth Observatory</a>. </figcaption> </figure>
+
+In western Somalia, the Juba River also overtopped its banks, damaging roads and croplands in towns like Luuq and Baardheere, where a key bridge was swept away [[5]](https://www.faoswalim.org/resources/site_files/Somalia_Flood_Advisory_20_November_2023.pdf).
+To monitor such conditions, the University of California–Santa Barbara Climate Hazards Center uses near-real time analyses and forecasts from NASA’s Goddard Earth Observing System Subseasonal to Seasonal prediction system (GEOS-S2S). This system integrates EO data to track and predict rainfall and soil conditions in regions vulnerable to food insecurity [[6]](https://www.chc.ucsb.edu/), [[7]](https://gmao.gsfc.nasa.gov/gmao-products/).
+
+### A Growing Toll
+In May 2024, new flooding and mudslides struck Burundi, Kenya, Rwanda, Somalia, Ethiopia, and Tanzania after five days of torrential rain. According to the International Organization for Migration (IOM), over 234,000 people were displaced and more than 637,000 were affected [[8]](https://news.un.org/en/story/2024/05/1149461), [[9]](https://wmo.int/media/news/flooding-worsens-east-africa).
+<figure style="text-align: center;"> <img src="https://www.copernicus.eu/system/files/styles/image_of_the_day/private/2024-05/image_day/20240503_FloodsKenya.jpg?itok=J7bQdg3N" alt="Floods in Kenya" style="display: block; margin: 0 auto;" width="800"> <figcaption> Copernicus Sentinel-2 image from 29 April shows flooded terrain near Garissa, Kenya. <a href="https://www.copernicus.eu/system/files/styles/image_of_the_day/private/2024-05/image_day/20240503_FloodsKenya.jpg?itok=J7bQdg3N" target="_blank">European Union, Copernicus</a>. </figcaption> </figure> 
+Flooding in the region also led to secondary impacts. Standing water, damaged sanitation systems, and blocked roads contributed to outbreaks of waterborne diseases such as cholera, as well as mosquito- and flea-borne diseases including malaria, plague, and Rift Valley fever [[10]](https://earthobservatory.nasa.gov/features/disease-vector), [[11]](https://www.theguardian.com/environment/2023/aug/10/return-of-el-nino-raises-risk-of-hunger-drought-and-malaria-scientists-warn), [[12]](https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl).
+
+## Tracking Tropical Cyclone Freddy
+**A Record Storm Tracked from Space**
+
+Beyond rainfall, El Niño’s effects were also evident in the storm season. One of the most striking examples was Tropical Cyclone Freddy, which broke records for both longevity and impact [[13]](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024GL111964).
+
+EO systems captured its full trajectory and impact using satellite-based precipitation, surface water, and vegetation data—demonstrating the crucial role of global monitoring networks in understanding storm behavior over time.
+
+Freddy made landfall in Madagascar on 21 February 2023, then moved across the Mozambique Channel, where it regained strength and hit Mozambique on 24 February near Vilankulos.
+<figure style="text-align: center;"> <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/151000/151065/tcfreddy_vir_2023067.jpg" alt="Cyclone Freddy" style="display: block; margin: 0 auto;"> <figcaption> SUOMI-NPP satellite view of Cyclone Freddy. <a href="https://eospso.nasa.gov/missions/suomi-national-polar-orbiting-partnership" target="_blank">NASA</a>. </figcaption> </figure> 
+
+
+## Cyclone Observations <!--{ as="eox-map" mode="tour" }-->
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlaylabels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"customId"},"source":{"type":"XYZ","url":"https://sharaku.eorc.jaxa.jp/cgi-bin/trmm/GSMaP/tilemap/tile_rain.py?prod=rain&year=2023&month=2&day=21&hour=8&min=0&x={x}&y={-y}&z={z}"}},{"type":"Tile","properties":{"id":"Terrainlight"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]'zoom="5.036541747131764"center=[35.633378549999996,-18.82747120552102]}-->
-#### Tropical Cyclone Freddy 
-The impacts of the 2023–2024 El Niño extended beyond East Africa, contributing to broader global climate disruptions,  fueling extreme weather events around the world, including an increase in the frequency and intensity of tropical cyclones [13](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024GL111964). 
+#### On 21 February 2023 Cyclone Freddy made landfall in Madagascar
 
-<figure style="text-align: center;">
-    <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/151000/151065/tcfreddy_vir_2023067.jpg" 
-         alt=" Sea ice concentration in May 2023. " 
-   <figcaption>
-         SUOMI-NPP Satellite. Source:
-        <a href="https://eospso.nasa.gov/missions/suomi-national-polar-orbiting-partnership" target="_blank">
-             NASA
-        </a>.
-    </figcaption>
-</figure>
+**Map: Global Satellite Mapping of Precipitation (GSMaP) from JAXA**
 
-One of the most striking examples was Tropical Cyclone Freddy, which broke records for both duration and impact. Freddy made its first landfall near Mananjary,  Madagascar, on **21 February 2023**. 
-
-
-The map behind shows the Global Satellite Mapping of Precipitation (GSMaP) from JAXA.
-<figure style="text-align: center;">
+<figure style="text-align:center;">
     <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_legend.png" 
-         alt=" Sea ice concentration in May 2023. " 
+         alt="GSMaP 21 February 2023. " 
     </figcaption>
 </figure>
 
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlaylabels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"customId"},"source":{"type":"XYZ","url":"https://sharaku.eorc.jaxa.jp/cgi-bin/trmm/GSMaP/tilemap/tile_rain.py?prod=rain&year=2023&month=2&day=24&hour=8&min=0&x={x}&y={-y}&z={z}"}},{"type":"Tile","properties":{"id":"Terrainlight"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]'zoom="6.036541747131764"center=[35.633378549999996,-18.82747120552102]}-->
-Though it weakened while crossing the island, the cyclone regained strength once it entered the Mozambique Channel. Especially due to extreme weather events (high temperature in Land and Ocean), there were many intense tropical cyclones/hurricanes and typhoons around the world. The intense Tropical Cyclone Freddy became the longest-lived named tropical cyclone on record. This exceptionally powerful, and deadly tropical cyclone that traversed the southern Indian Ocean for more than five weeks in February and March 2023. It **reached Mozambique on 24 February** near Vilankulos, causing further damage. 
 
-The map behind shows the Global Satellite Mapping of Precipitation (GSMaP) from JAXA.
-<figure style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_legend.png" 
-         alt=" Sea ice concentration in May 2023. " 
-    </figcaption>
-</figure>
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlaylabels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"customId"},"source":{"type":"XYZ","url":"https://sharaku.eorc.jaxa.jp/cgi-bin/trmm/GSMaP/tilemap/tile_rain.py?prod=rain&year=2023&month=2&day=24&hour=8&min=0&x={x}&y={-y}&z={z}"}},{"type":"Tile","properties":{"id":"Terrainlight"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]'zoom="5.036541747131764"center=[35.633378549999996,-18.82747120552102]}-->
+#### 24 February 2023: the Cyclone reaches Mozambique
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlaylabels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"customId"},"source":{"type":"XYZ","url":"https://sharaku.eorc.jaxa.jp/cgi-bin/trmm/GSMaP/tilemap/tile_rain.py?prod=rain&year=2023&month=3&day=14&hour=8&min=0&x={x}&y={-y}&z={z}"}},{"type":"Tile","properties":{"id":"Terrainlight"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]'zoom="6.036541747131764"center=[35.633378549999996,-18.82747120552102]}-->
-####  Final landafall in Quelimane, Mozambique
-After crossing Mozambique and returning to the channel, Freddy intensified again and made its final landfall **near Quelimane on 11 March**. Though it weakened while crossing the island.
+Though Cyclone Freddy weakened while crossing the island of Madagascar, it regained strength over the Mozambique Channel. On 24 February, it made landfall near Vilankulos as a tropical storm, causing further damage. Cyclone Freddy would go on to traverse the southern Indian Ocean for more than five weeks in February and March 2023, making it the longest-lived cyclone on record.
 
-The map behind shows the Global Satellite Mapping of Precipitation (GSMaP) from JAXA.
-<figure style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_legend.png" 
-         alt=" Sea ice concentration in May 2023. " 
-    </figcaption>
-</figure>
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlaylabels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"customId"},"source":{"type":"XYZ","url":"https://sharaku.eorc.jaxa.jp/cgi-bin/trmm/GSMaP/tilemap/tile_rain.py?prod=rain&year=2023&month=3&day=14&hour=8&min=0&x={x}&y={-y}&z={z}"}},{"type":"Tile","properties":{"id":"Terrainlight"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]'zoom="5.036541747131764"center=[35.633378549999996,-18.82747120552102]}-->
+####  Final landfall in Quelimane, Mozambique
+
+Cylone Freddy circled back to the Mozambique Channel and made a final landfall near Quelimane on 11 March- this time with even more severe rain and winds than before. 
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"alos2_floods;:;2023-03-15T00:00:00Z;:;alos2_floods;:;EPSG:3857","title":"alos2_floods"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["JAXA_ALOS2_FLOODMAPS"],"TILED":true,"TIME":"2023-03-15T00:00:00Z"}},"opacity":1}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2023;:;EPSG:3857","title":"EOxCloudless 2023"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="8.73907793405558" center=[35.93771646002912,-18.278112939983657] projection="" animationOptions={duration:500}}-->
 #### The Aftermath 
-By 14 March, the storm had dissipated inland after causing widespread damage and flooding across Madagascar, Mozambique, and surrounding regions. Its path and multiple landfalls, along with the fact that it persisted through such a lengthy period, made it a standout cyclone in terms of both meteorological history and the human impact it left behind.
+By 14 March, the storm had dissipated inland after causing widespread damage and flooding across Madagascar, Mozambique, and surrounding regions. 
+
+Its path and multiple landfalls, along with the fact that it persisted through such a lengthy period, made it a standout cyclone in terms of both meteorological history and the human impact it left behind.
 
 <figure style="text-align: center;">
     <img 
@@ -123,8 +95,8 @@ By 14 March, the storm had dissipated inland after causing widespread damage and
     </figcaption>
 </figure>
 
-### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"alos2_floods;:;2023-03-15T00:00:00Z;:;alos2_floods;:;EPSG:3857","title":"alos2_floods"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["JAXA_ALOS2_FLOODMAPS"],"TILED":true,"TIME":"2023-03-15T00:00:00Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2023;:;EPSG:3857","title":"EOxCloudless 2023"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="11.774612669982734" center=[35.88201367268074,-18.75698819454024] projection="" animationOptions={duration:500}}-->
-Its path and multiple landfalls, along with the fact that it persisted through such a lengthy period, made it a standout cyclone in terms of both meteorological history and the human impact it left behind.
+### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"alos2_floods;:;2023-03-15T00:00:00Z;:;alos2_floods;:;EPSG:3857","title":"alos2_floods"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["JAXA_ALOS2_FLOODMAPS"],"TILED":true,"TIME":"2023-03-15T00:00:00Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2023;:;EPSG:3857","title":"EOxCloudless 2023"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="11.774612669982734" center=[35.88201367268074,-18.75698819454024] projection="" animationOptions={duration:400}}-->
+#### Mapping Flooded Areas with JAXA's ALOS-2 
 
 <figure style="text-align: center;">
     <img 
@@ -141,7 +113,9 @@ Its path and multiple landfalls, along with the fact that it persisted through s
 </figure>
 
 
-By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monitored precipitation and inundated area by Cyclone Freddy. The map behind shows flooded areas, based on ALOS-2 data.
+By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monitored precipitation and inundated area by Cyclone Freddy. 
+
+**Map: Flooded areas, based on ALOS-2 data**.
 <figure style="text-align: center;">
     <img 
         src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/alos2_floods/cm_legend.png.png" 
@@ -152,62 +126,36 @@ By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monito
 </figure>
 
 
+## Open Science Datasets
+**Supporting Climate Monitoring**
 
-
-																																										
-## Open Science datasets
-Satellites can serve an important role in monitoring floods worldwide, with sensors that measure changes in water levels, flood extent, and flood damage to crops and infrastructure.
-
-Space agencies including ESA, NASA, and JAXA offer access to these datasets, equipping emergency responders, researchers, and policymakers with critical insights. Below are some satellite missions and satellite-based, open-access datasets dedicated to flood detection and monitoring:
-
-### Missions
-- [Copernicus Sentinel-1 mission]() captures radar imagery, allowing to detect changes in surface water levels, identify flooded areas, and assess the severity of flooding events with high spatial resolution. In fact, the Copernicus Emergency Management Service (CEMS) has developed the Global Flood Monitoring (GFM) system that processes all incoming Sentinel-1 data to provide near-real time flood extent maps. 
+The ability to monitor floods and storms from space relies on collaboration among space agencies and open access to satellite data. Missions from ESA, NASA, and JAXA provide global datasets that measure rainfall, water extent, soil moisture, and surface conditions—critical for understanding events like those in East Africa.
+### Satellite Missions
+- [Copernicus Sentinel-1 mission]() captures radar imagery, allowing the detection of changes in surface water levels, identification of flooded areas, and assessment of flood severity with high spatial resolution. In fact, the Copernicus Emergency Management Service (CEMS) has developed the Global Flood Monitoring (GFM) system that processes all incoming Sentinel-1 data to provide near-real time flood extent maps. 
 
 - [Copernicus Sentinel-2 mission]() can contribute to flood monitoring through its multispectral imaging capabilities at various wavelengths, enabling the detection of floodwater and the assessment of flood extent, land cover changes, and flood-induced damages, and is used also by Copernicus Emergency Management Service (CEMS). 
 
-- [NASA's Earth Observing System (EOS) satellites]() also play a vital role in flood monitoring. Satellites such as Landsat, Terra, Aqua, and SMAP provide microwave, multispectral,thermal imaging data, which can be used to monitor changes in water bodies, identify flooded areas, and assess flood impacts on surrounding landscapes. 
+- [NASA's Earth Observing System (EOS) satellites]() also play a vital role in flood monitoring. Satellites such as Landsat, Terra, Aqua, and SMAP provide microwave, multispectral, and thermal imaging data that can be used to monitor changes in water bodies, identify flooded areas, and assess flood impacts on surrounding landscapes. 
 
-- [NASA’s SWOT](), launched in 2022, measures global river water level, slope, width, and area, which supports space-based estimates of river discharge.  
+- [NASA’s SWOT mission](), launched in 2022, measures global river water level, slope, width, and area, which supports space-based estimates of river discharge.  
 
 - [NASA/JAXA’s Global Precipitation Measurement (GPM) mission]() provides valuable information on precipitation patterns  and intensity, aiding in flood forecasting and early warning systems.
 
-### Datasets
-- [NASA also produces an operational, surface water extent product]() that merges NASA Landsat and ESA Sentinel-2 data. Merging observations from multiple satellites is one way to ensure that extreme hydrological events are comprehensively observed, enhancing flood detectability . 
+### Open Datasets
 
-- [JAXA's multi-satellite global precipitation map named “GSMaP]() JAXA operates the “GSMaP” map under the GPM Mission, by using Dual-frequency Precipitation Radar (DPR) onboard GPM core satellites, other GPM constellation satellites, and Geostationary satellites in cooperation with partners. The main feature of the GSMaP algorithm is utilization of various attributes derived from the spaceborne precipitation radar, TRMM/PR and GPM/DPR. Precipitation information by GSMaP has been widely used, not only for scientific purposes, but also for meteorology, disaster prevention, climate monitoring, agricultural monitoring, public health, education and so on. GSMaP website offers the following global precipitation information: 
-	- [JAXA REALTIME RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP_NOW/index.htm)
+* [JAXA's multi-satellite global precipitation map named “GSMaP]() JAXA operates the “GSMaP” map under the GPM Mission, by using Dual-frequency Precipitation Radar (DPR) onboard GPM core satellites, other GPM constellation satellites, and Geostationary satellites in cooperation with partners. The main feature of the GSMaP algorithm is utilization of various attributes derived from the spaceborne precipitation radar, TRMM/PR and GPM/DPR. Precipitation information by GSMaP has been widely used, not only for scientific purposes, but also for meteorology, disaster prevention, climate monitoring, agricultural monitoring, public health, education and so on. GSMaP website offers the following global precipitation information: 
+	* [JAXA REALTIME RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP_NOW/index.htm)
 Shows global precipitation map, updated every 30 minutes.For users who would like to see precipitation in the past specific date.
-	- [JAXA GLOBAL RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP/index.htm)
+	* [JAXA GLOBAL RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP/index.htm)
 Shows hourly global precipitation map since March 2000. For users who would like to see daily or monthly precipitation.
-	- [JAXA CLIMATE RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP_CLM/index.htm)You Shows see indices related to extreme heavy rainfall and drought as well as accumulated precipitation. 
-		
-- [NASA OPERA](https://podaac.jpl.nasa.gov/dataset/OPERA_L3_DSWX-HLS_V1) operational 30-m dynamic surface water extent
-4 April 2023 to present
+	* [JAXA CLIMATE RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP_CLM/index.htm) Shows indices related to extreme heavy rainfall and drought as well as accumulated precipitation. 
 
-- [NASA LANCE MODIS](https://www.earthdata.nasa.gov/data/instruments/modis/near-real-time-data) near-realtime 250-m flood product
-15 March 2021 to present
+* [NASA's OPERA project's operational 30-m surface water extent product ((https://podaac.jpl.nasa.gov/dataset/OPERA_L3_DSWX-HLS_V1)), available since April 2023, merges NASA Landsat and ESA Sentinel-2 data to ensure that extreme hydrological events are comprehensively observed, enhancing flood detectability.
 
-- [NASA SMAP](https://www.earthdata.nasa.gov/data/instruments/smap-l-band-radiometer/near-real-time-data) near-realtime 36-km soil moisture
-From two-weeks preceding through present
-https://www.earthdata.nasa.gov/data/instruments/smap-l-band-radiometer/near-real-time-data
+* [NASA's LANCE project generates MODIS 250-m flood maps and SMAP 36-km soil moisture maps within 2-hours of satellite overpass](https://www.earthdata.nasa.gov/data/instruments/modis/near-real-time-data) (https://www.earthdata.nasa.gov/data/instruments/smap-l-band-radiometer/near-real-time-data) 
 
-- [NASA SWOT](https://podaac.jpl.nasa.gov/dataset/SWOT_L2_HR_RiverSP_2.0 ) river water surface elevation, slope, and width
-16 December 2022 to present https://www.swordexplorer.com/; 
-
-## References
-- 1 - https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl/index.html
-- 2 - https://earthobservatory.nasa.gov/images/150712/worst-drought-on-record-parches-horn-of-africa
-- 3 -  https://earthobservatory.nasa.gov/images/152108/devastating-flooding-in-east-africa
-- 4 -https://www.faoswalim.org/resources/site_files/Somalia_Flood_Advisory_20_November_2023.pdf
-- 5 - https://www.chc.ucsb.edu/
-- 6 -  https://lis.gsfc.nasa.gov/projects/nhyfashttps://fews.net/ 
-- 7 -  https://news.un.org/en/story/2024/05/1149461
-- 8 - https://wmo.int/media/news/flooding-worsens-east-africa 
-- 9 - https://earthobservatory.nasa.gov/features/disease-vector 
-- 10 -  https://www.theguardian.com/environment/2023/aug/10/return-of-el-nino-raises-risk-of-hunger-drought-and-malaria-scientists-warn 
-- 11 -  https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl 
+* [NASA's SWOT mission](https://podaac.jpl.nasa.gov/SWOT; https://podaac.github.io/tutorials/quarto_text/SWOT.html ) For global river reaches (approximately 10km in length and exceeding 30m in width), up to six estimates of water surface elevation, slope, and width are produced every 21 days. 
 																																										
-## Contributors						
+### Contributors						
 Sara Aparicio (Solenix c/o ESA),  Shinichi Sobue (JAXA), Nao Yoshida (JAXA),  Karim Douch (ESA), Craig Ferguson (NASA) 
-
 
