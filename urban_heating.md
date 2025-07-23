@@ -33,18 +33,12 @@ To quantify vegetation and its cooling effects, researchers used the normalized 
 
 
 
-## AI to analyse Urban heat stress Analysis
-#### The case of Danish cities
+## Taking Action: AI applications 
+#### Urban Heat Stress Analysis: The Case of Danish Cities
 CLIM4cities is a European Space Agency-funded project led by the Danish Meteorological Institute (DMI) and co-developed with +ATLANTIC CoLAB. The project focuses on a Proof-of-Concept Application in Danish cities, featuring downscaled short-term predictions and climate change scenarios, aimed at supporting local stakeholders in addressing the impacts of extreme heat events (through adaptation and mitigation strategies). To do so, the project is developing advanced Machine Learning (ML) and Artificial Intelligence (AI) models to significantly enhance air and land surface temperature predictions in urban areas for the adoption by local actors. In the first phase of CLIM4cities, the team held a series of user need workshops, engaging citizens, city planners and other local stakeholders in Denmark to understand and evaluate their needs and priorities for the solution. This engagement also provides the foundation for further interactions with users for validation of the solution. On the technical side, we are integrating citizen observations, numerical weather data, and processed Earth Observation (EO) data to create a comprehensive ML Database. This database trains and tests the models, providing cost-effective, integrated urban climate services. Local Climate Zone classifications (LCZ) originated from Copernicus Land Monitoring Service datasets are used to understand the impacts that the urban heat island effect has across a city's land use and land cover characteristics. In the frame of the project, the consortium is developing a set of high-resolution LCZ baselines, categorised using criteria such as dominant built-up densities, impervious surfaces, tree cover densities, and predominant leaf types.
 
 
-## Taking Action: AI applications
-### Urban Heat Stress Analysis: The Case of Danish Cities
-The CLIM4cities project is a European Space Agency-funded initiative led by the Danish Meteorological Institute (DMI) and co-developed with +ATLANTIC CoLAB. It focuses on a Proof-of-Concept Application in Danish cities, featuring downscaled short-term predictions and climate change scenarios aimed at supporting local stakeholders in addressing the impacts of extreme heat events through adaptation and mitigation strategies.
 
-In the first phase of CLIM4cities, the team held a series of user need workshops, engaging citizens, city planners, and other local stakeholders in Denmark to understand and evaluate their needs and priorities for the solution. This engagement also provides the foundation for further interactions with users for validation of the solution. On the technical side, we are integrating citizen observations, numerical weather data, and processed Earth Observation (EO) data to create a comprehensive ML Database. This database trains and tests models, providing cost-effective, integrated urban climate services.
-
-Local Climate Zone (LCZ) classifications, which originated from Copernicus Land Monitoring Service datasets, are used to understand the impacts that the urban heat island effect has across a city's land use and land cover characteristics. The CLIM4cities consortium is developing a set of high-resolution LCZ baselines, categorized using criteria such as dominant built-up densities, impervious surfaces, tree cover densities, and predominant leaf types. These tools can now be used to help local authorities make more informed decisions, especially in light of record-breaking events like the June 2025 heatwave.
 
 ## Open Science datasets
 
