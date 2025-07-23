@@ -61,7 +61,10 @@ Check if make sense
 ## A Growing Toll
 In May 2024, new flooding and mudslides struck Burundi, Kenya, Rwanda, Somalia, Ethiopia, and Tanzania after five days of torrential rain. According to the International Organization for Migration (IOM), over 234,000 people were displaced and more than 637,000 were affected [[8]](https://news.un.org/en/story/2024/05/1149461), [[9]](https://wmo.int/media/news/flooding-worsens-east-africa).
 <figure style="text-align: center;"> <img src="https://www.copernicus.eu/system/files/styles/image_of_the_day/private/2024-05/image_day/20240503_FloodsKenya.jpg?itok=J7bQdg3N" alt="Floods in Kenya" style="display: block; margin: 0 auto;" width="800"> <figcaption> Copernicus Sentinel-2 image from 29 April shows flooded terrain near Garissa, Kenya. <a href="https://www.copernicus.eu/system/files/styles/image_of_the_day/private/2024-05/image_day/20240503_FloodsKenya.jpg?itok=J7bQdg3N" target="_blank">European Union, Copernicus</a>. </figcaption> </figure> 
-Flooding in the region also led to secondary impacts. Standing water, damaged sanita tion systems, and blocked roads contributed to outbreaks of waterborne diseases such as cholera, as well as mosquito- and flea-borne diseases including malaria, plague, and Rift Valley fever [10](https://earthobservatory.nasa.gov/features/disease-vector), [11](https://www.theguardian.com/environment/2023/aug/10/return-of-el-nino-raises-risk-of-hunger-drought-and-malaria-scientists-warn), [12](https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl).
+
+Flooding in the region also led to secondary impacts. Standing water, damaged sanita tion systems, and blocked roads contributed to outbreaks of waterborne diseases such as cholera, as well as mosquito- and flea-borne diseases including malaria, plague, and Rift Valley fever 
+[[10]](https://earthobservatory.nasa.gov/features/disease-vector), 
+[[11]](https://www.theguardian.com/environment/2023/aug/10/return-of-el-nino-raises-risk-of-hunger-drought-and-malaria-scientists-warn), [[12]](https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl).
 
 ## Tracking Tropical Cyclone Freddy
 **A Record Storm Tracked from Space**
