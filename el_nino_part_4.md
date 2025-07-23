@@ -51,7 +51,7 @@ The Sentinel-2 collects data across 13 spectral bands, ranging from visible to s
 
 
 ### <!--{ layers='[{ "type": "Group", "properties": { "id": "OverlayGroup", "title": "Overlay Layers" }, "layers": [ { "type": "Tile", "properties": { "id": "overlay_bright;:;EPSG:3857", "title": "Overlay labels" }, "source": { "type": "XYZ", "url": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png", "projection": "EPSG:3857" } } ] },{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;2023-06-01T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-NDWI"],"TILED":true,"TIME":"2023-11-20T00:00:00Z/2023-11-20T23:59:59Z"}},"visible":true}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="11.899126433739314" center=[45.13806578136379,4.696772861425785] projection="" animationOptions={duration:500}}-->
-#### Improving flood detection with band combiation 
+#### Improving flood detection with band combination 
 This **false color** image uses the Normalized Difference Water Index (NDWI) to highlight water. In this view, water appears bright blue, making it easier to identify flood extent. NDWI enhances water detection by comparing **green and near-infrared light** (Bands 3 and 8, respectively) reflected from the surface. In this image, we can clearly see how floodwaters, which are **highlighted in blue** have spread across land areas, especially in low-lying or agricultural zones.
 
 ### <!--{ layers='[{ "type": "Group", "properties": { "id": "OverlayGroup", "title": "Overlay Layers" }, "layers": [ { "type": "Tile", "properties": { "id": "overlay_bright;:;EPSG:3857", "title": "Overlay labels" }, "source": { "type": "XYZ", "url": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png", "projection": "EPSG:3857" } } ] },{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;2023-06-01T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-NDWI"],"TILED":true,"TIME":"2023-09-26T00:00:00Z/2023-09-26T23:59:59Z"}},"visible":true}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="11.899126433739314" center=[45.13806578136379,4.696772861425785] projection="" animationOptions={duration:500}}-->
@@ -120,20 +120,26 @@ Its path and multiple landfalls, along with the fact that it persisted through s
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"alos2_floods;:;2023-03-15T00:00:00Z;:;alos2_floods;:;EPSG:3857","title":"alos2_floods"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["JAXA_ALOS2_FLOODMAPS"],"TILED":true,"TIME":"2023-03-15T00:00:00Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]'zoom="11.774612669982734" center=[35.88201367268074,-18.75698819454024] projection="" animationOptions={duration:400}}-->
 #### Mapping Flooded Areas with JAXA's ALOS-2 
-By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monitored precipitation and inundated area by Cyclone Freddy.  Unlike optical satellites, ALOS-2 uses **radar, which can see independently of clouds and even at night**. This allows it to capture clear images of flooded areas, even when other satellites are blocked by weather. It's a crucial tool for monitoring floods in real-time, even in poor visibility conditions.
+By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monitored precipitation and inundated area by Cyclone Freddy.  
+
 <figure style="text-align: center;">
     <img 
-        src="https://africanarguments.org/wp-content/uploads/2023/03/mozambique-cyclone-freddy.jpg" 
-        alt="Flooding in Mozambique and Malawi from NASA MODIS Satellites" 
+        src="https://global.jaxa.jp/projects/sat/alos2/images/alos2_main_001.jpg " 
+        alt="ALOS-2 " 
         style="max-width: 100%; height: auto; display: block; margin: 0 auto;"
     >
     <figcaption style="margin-top: 8px;">
-        The scene from the city of Quelimane in Mozambique after Cyclone Freddy struck on 11 March. Credit:  
-        <a href="https://africanarguments.org/2023/03/nobody-imagined-it-would-be-so-intense-mozambique-cyclone-freddy/" target="_blank">
-            UNICEF
+        ALOS-2. Credit:  
+        <a href="https://global.jaxa.jp/projects/sat/alos2/" target="_blank">
+            JAXA
         </a>
     </figcaption>
 </figure>
+
+
+
+Unlike optical satellites, ALOS-2 uses **radar, which can see independently of clouds and even at night**. This allows it to capture clear images of flooded areas, even when other satellites are blocked by weather. It's a crucial tool for monitoring floods in real-time, even in poor visibility conditions.
+
 
 
 
@@ -152,6 +158,20 @@ By using GSMaP data with ALOS-2 data for inundation area estimation, JAXA monito
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"alos2_floods;:;2023-03-15T00:00:00Z;:;alos2_floods;:;EPSG:3857","title":"alos2_floods"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["JAXA_ALOS2_FLOODMAPS"],"TILED":true,"TIME":"2023-03-15T00:00:00Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2023;:;EPSG:3857","title":"EOxCloudless 2023"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="12.840205295938151" center=[36.92265812343261,-17.874697018316283] projection="" animationOptions={duration:500}}-->
 #### Quelimane
 Text describing the current step of the tour and why it is interesting what the map shows currently
+
+<figure style="text-align: center;">
+    <img 
+        src="https://africanarguments.org/wp-content/uploads/2023/03/mozambique-cyclone-freddy.jpg" 
+        alt="Flooding in Mozambique and Malawi from NASA MODIS Satellites" 
+        style="max-width: 100%; height: auto; display: block; margin: 0 auto;"
+    >
+    <figcaption style="margin-top: 8px;">
+        The scene from the city of Quelimane in Mozambique after Cyclone Freddy struck on 11 March. Credit:  
+        <a href="https://africanarguments.org/2023/03/nobody-imagined-it-would-be-so-intense-mozambique-cyclone-freddy/" target="_blank">
+            UNICEF
+        </a>
+    </figcaption>
+</figure>
 
 
 
@@ -188,3 +208,4 @@ Shows hourly global precipitation map since March 2000. For users who would like
 ### Contributors						
 Sara Aparicio (Solenix c/o ESA),  Shinichi Sobue (JAXA), Nao Yoshida (JAXA),  Karim Douch (ESA), Craig Ferguson (NASA) 
 
+ 
