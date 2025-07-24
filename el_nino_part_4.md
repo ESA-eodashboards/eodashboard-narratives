@@ -74,6 +74,8 @@ This **false color** image was made using data from Sentinel-2 satellite, combin
  
    
 
+
+
 ## A Growing Toll
 
 In western Somalia, the Juba River also overtopped its banks, damaging roads and croplands in towns like Luuq and Baardheere, where a key bridge was swept away [[5]](https://www.faoswalim.org/resources/site_files/Somalia_Flood_Advisory_20_November_2023.pdf).
@@ -83,8 +85,7 @@ In May 2024, new flooding and mudslides struck Burundi, Kenya, Rwanda, Somalia, 
 <figure style="text-align: center;"> <img src="https://www.copernicus.eu/system/files/styles/image_of_the_day/private/2024-05/image_day/20240503_FloodsKenya.jpg?itok=J7bQdg3N" alt="Floods in Kenya" style="display: block; margin: 0 auto;" width="800"> <figcaption> Copernicus Sentinel-2 image from 29 April shows flooded terrain near Garissa, Kenya. <a href="https://www.copernicus.eu/system/files/styles/image_of_the_day/private/2024-05/image_day/20240503_FloodsKenya.jpg?itok=J7bQdg3N" target="_blank">European Union, Copernicus</a>. </figcaption> </figure> 
 
 Flooding in the region also led to secondary impacts. Standing water, damaged sanita tion systems, and blocked roads contributed to outbreaks of waterborne diseases such as cholera, as well as mosquito- and flea-borne diseases including malaria, plague, and Rift Valley fever 
-[[10]](https://earthobservatory.nasa.gov/features/disease-vector), 
-[[11]](https://www.theguardian.com/environment/2023/aug/10/return-of-el-nino-raises-risk-of-hunger-drought-and-malaria-scientists-warn), [[12]](https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl).
+[[10]](https://earthobservatory.nasa.gov/features/disease-vector),  [[11]](https://www.theguardian.com/environment/2023/aug/10/return-of-el-nino-raises-risk-of-hunger-drought-and-malaria-scientists-warn), [[12]](https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl).
 
 ## Tracking Tropical Cyclone Freddy
 **A Record Storm Tracked from Space**
@@ -205,19 +206,22 @@ Unlike optical satellites, ALOS-2 uses **radar, which can see independently of c
 </figure>
 
 
-### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"alos2_floods;:;2023-03-15T00:00:00Z;:;alos2_floods;:;EPSG:3857","title":"alos2_floods"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["JAXA_ALOS2_FLOODMAPS"],"TILED":true,"TIME":"2023-03-15T00:00:00Z"}},"opacity":0.83}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2023;:;EPSG:3857","title":"EOxCloudless 2023"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":false},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":true,"opacity":0.86}],"visible":true}]' zoom="10.400098307427832" center=[35.16209554037849,-17.0978419743265] projection="" animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"alos2_floods;:;2023-03-15T00:00:00Z;:;alos2_floods;:;EPSG:3857","title":"alos2_floods"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["JAXA_ALOS2_FLOODMAPS"],"TILED":true,"TIME":"2023-03-15T00:00:00Z"}},"opacity":0.83}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2023;:;EPSG:3857","title":"EOxCloudless 2023"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":false},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":true,"opacity":0.86}],"visible":true}]' zoom="13.53807707156392" center=[35.2809748464517,-16.932035135183213] projection="" animationOptions={duration:500}}-->
 #### Nsanje - a region particularly hard-hit
 This caused also severe flooding in Nsanje, a district in southern Malawi, shares a significant portion of its western and southern borders with Mozambique. Tropical Cyclone Freddy caused severe flooding in Nsanje, Malawi, displacing thousands and impacting access to essential services. The cyclone's heavy rainfall and strong winds led to widespread flooding, mudslides, and [damage to infrastructure like roads and bridges](https://reliefweb.int/map/malawi/malawi-tropical-cyclone-freddy-nsanje-district-overview-road-access-flooding-and-location-schools-acting-idp-camps-27-mar-2023). 
 
 <figure style="text-align: center;"> <img src="https://cdn.lifegate.it/ylhm1DBgHDSsOqQ2I-_yWkFAVhI=/1960x980/smart/https://www.lifegate.it/app/uploads/2023/03/i-danni-provocati-dal-passaggio-del-ciclone-freddy.jpg
 " alt="Cyclone Freddy" style="display: block; margin: 0 auto;"> <figcaption> Damage done with the passage of Cyclone Freddy  <a href="https://www.lifegate.it/ciclone-freddy-africa-malawi-mozambico" target="_blank">© Amos Gumulira/Afp/Getty Images. </a>. </figcaption> </figure> 
+ 
+ 
+
 
 
 
 
 
 ## Open Science
-**Supporting Climate Monitoring - **
+**Supporting Climate Monitoring**
 
 The ability to monitor floods and storms from space relies on collaboration among space agencies and open access to satellite data. Missions from ESA, NASA, and JAXA provide global datasets that measure rainfall, water extent, soil moisture, and surface conditions—critical for understanding events like those in East Africa.
 
