@@ -183,10 +183,12 @@ Text describing the current step of the tour and why it is interesting what the 
 
 The ability to monitor floods and storms from space relies on collaboration among space agencies and open access to satellite data. Missions from ESA, NASA, and JAXA provide global datasets that measure rainfall, water extent, soil moisture, and surface conditions—critical for understanding events like those in East Africa.
 ### Satellite Missions
-- [Copernicus Sentinel-1 mission]() captures radar imagery, allowing the detection of changes in surface water levels, identification of flooded areas, and assessment of flood severity with high spatial resolution. In fact, the Copernicus Emergency Management Service (CEMS) has developed the Global Flood Monitoring (GFM) system that processes all incoming Sentinel-1 data to provide near-real time flood extent maps. 
+**ESA**
+* [Copernicus Sentinel-1 mission]() captures radar imagery, allowing the detection of changes in surface water levels, identification of flooded areas, and assessment of flood severity with high spatial resolution. In fact, the Copernicus Emergency Management Service (CEMS) has developed the Global Flood Monitoring (GFM) system that processes all incoming Sentinel-1 data to provide near-real time flood extent maps. 
 
 - [Copernicus Sentinel-2 mission]() can contribute to flood monitoring through its multispectral imaging capabilities at various wavelengths, enabling the detection of floodwater and the assessment of flood extent, land cover changes, and flood-induced damages, and is used also by Copernicus Emergency Management Service (CEMS). 
 
+**NASA**
 - [NASA's Earth Observing System (EOS) satellites]() also play a vital role in flood monitoring. Satellites such as Landsat, Terra, Aqua, and SMAP provide microwave, multispectral, and thermal imaging data that can be used to monitor changes in water bodies, identify flooded areas, and assess flood impacts on surrounding landscapes. 
 
 - [NASA’s SWOT mission](), launched in 2022, measures global river water level, slope, width, and area, which supports space-based estimates of river discharge.  
@@ -201,8 +203,8 @@ Shows global precipitation map, updated every 30 minutes.For users who would lik
 	* [JAXA GLOBAL RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP/index.htm)
 Shows hourly global precipitation map since March 2000. For users who would like to see daily or monthly precipitation.
 	* [JAXA CLIMATE RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP_CLM/index.htm) Shows indices related to extreme heavy rainfall and drought as well as accumulated precipitation. 
-
-* [NASA's OPERA project's operational 30-m surface water extent product ((https://podaac.jpl.nasa.gov/dataset/OPERA_L3_DSWX-HLS_V1)), available since April 2023, merges NASA Landsat and ESA Sentinel-2 data to ensure that extreme hydrological events are comprehensively observed, enhancing flood detectability.
+	
+	* [NASA's OPERA project's operational 30-m surface water extent product] (https://podaac.jpl.nasa.gov/dataset/OPERA_L3_DSWX-HLS_V1), available since April 2023, merges NASA Landsat and ESA Sentinel-2 data to ensure that extreme hydrological events are comprehensively observed, enhancing flood detectability.
 
 * [NASA's LANCE project generates MODIS 250-m flood maps and SMAP 36-km soil moisture maps within 2-hours of satellite overpass](https://www.earthdata.nasa.gov/data/instruments/modis/near-real-time-data) (https://www.earthdata.nasa.gov/data/instruments/smap-l-band-radiometer/near-real-time-data) 
 
