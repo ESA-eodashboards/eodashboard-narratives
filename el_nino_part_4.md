@@ -64,7 +64,7 @@ Approximately 85–90% of Beledweyne [was submerged]( https://www.islamic-relief
 
 
 
-### <!--{ layers='[{ "type": "Group", "properties": { "id": "OverlayGroup", "title": "Overlay Layers" }, "layers": [ { "type": "Tile", "properties": { "id": "overlay_bright;:;EPSG:3857", "title": "Overlay labels" }, "source": { "type": "XYZ", "url": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png", "projection": "EPSG:3857" } } ] },{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;2023-06-01T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-NDWI"],"TILED":true,"TIME":"2023-11-20T00:00:00Z/2023-11-20T23:59:59Z"}},"visible":true}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="11.899126433739314" center=[45.13806578136379,4.696772861425785] projection="" animationOptions={duration:500}}-->
+### <!--{ layers='[{ "type": "Group", "properties": { "id": "OverlayGroup", "title": "Overlay Layers" }, "layers": [ { "type": "Tile", "properties": { "id": "overlay_bright;:;EPSG:3857", "title": "Overlay labels" }, "source": { "type": "XYZ", "url": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png", "projection": "EPSG:3857" } } ] },{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;2023-06-01T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-NDWI"],"TILED":true,"TIME":"2023-11-20T00:00:00Z/2023-11-20T23:59:59Z"}},"visible":true}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="11.199126433739314" center=[45.13806578136379,4.696772861425785] projection="" animationOptions={duration:500}}-->
 #### Enhancing flood detection 
 A **false color**, also from Sentinel-2,  allows to highlight the contrast between inundated areas and surrounding terrain, .  
 In this view, water appears **bright blue, making it easier to identify flood**, aiding to enhanced understanding of the flood extention and detection.
@@ -72,7 +72,7 @@ In this view, water appears **bright blue, making it easier to identify flood**,
 This **false color** image was made using data from Sentinel-2 satellite, combining **green and near-infrared light** (Bands 3 and 8). It uses something called the Normalized Difference Water Index (NDWI), which helps highlight water by comparing how the surface reflects light. In the image, floodwaters appear **in blue**, clearly showing how they’ve spread across the land—especially in flat or farming areas.
 
  
-
+   
 
 ## A Growing Toll
 
@@ -198,37 +198,27 @@ Text describing the current step of the tour and why it is interesting what the 
 
 
 
-## Open Science Datasets
+## Open Science
 **Supporting Climate Monitoring - **
 
 The ability to monitor floods and storms from space relies on collaboration among space agencies and open access to satellite data. Missions from ESA, NASA, and JAXA provide global datasets that measure rainfall, water extent, soil moisture, and surface conditions—critical for understanding events like those in East Africa.
-### Satellite and Open Datasets mentioned in this story
 
-* [Copernicus Sentinel-1 mission]() captures radar imagery, allowing the detection of changes in surface water levels, identification of flooded areas, and assessment of flood severity with high spatial resolution. In fact, the Copernicus Emergency Management Service (CEMS) has developed the Global Flood Monitoring (GFM) system that processes all incoming Sentinel-1 data to provide near-real time flood extent maps. 
+## Open Science <!--{ as="div" }-->
 
-- [Copernicus Sentinel-2 mission]() can contribute to flood monitoring through its multispectral imaging capabilities at various wavelengths, enabling the detection of floodwater and the assessment of flood extent, land cover changes, and flood-induced damages, and is used also by Copernicus Emergency Management Service (CEMS). 
+### Open Datasets and Satellite Missions Used in the Story
 
-**NASA**
-- [NASA's Earth Observing System (EOS) satellites]() also play a vital role in flood monitoring. Satellites such as Landsat, Terra, Aqua, and SMAP provide microwave, multispectral, and thermal imaging data that can be used to monitor changes in water bodies, identify flooded areas, and assess flood impacts on surrounding landscapes. 
+| **Name** | **Type** | **Agency / Provider** | **Description / Usage** |
+|----------|----------|------------------------|--------------------------|
+| **Copernicus Sentinel-2** | Satellite/Mission | ESA / Copernicus | Optical imagery (13 spectral bands); used to generate *true-color* and *NDWI* datasets for flood detection in Beledweyne. |
+| **SUOMI-NPP (VIIRS)** | Satellite/Mission | NASA / NOAA | Captured cloud cover and storm systems like Cyclone Freddy. |
+| **MODIS (on Terra & Aqua)** | Satellite/Mission | NASA | Provided true-color imagery of flooded areas in southern Africa (Mozambique and Malawi). |
+| **ALOS-2 (PALSAR-2 radar)** | Satellite/Mission | JAXA | L-band radar; penetrates clouds to map floods and land changes. Processed radar flood extents, used for mapping after Cyclone Freddy in Mozambique. |
+| **GSMaP (Global Satellite Mapping of Precipitation)** | [Dataset/Tool](https://sharaku.eorc.jaxa.jp/GSMaP/index.htm) | JAXA | Near real-time precipitation estimates; used during cyclone rainfall monitoring. |
+| **GEOS-S2S (Goddard Earth Observing System Subseasonal to Seasonal Forecast)** | Dataset/Tool | NASA | Seasonal forecasts of rainfall and soil moisture; used by UCSB Climate Hazards Center. |
+| **OpenStreetMap (OSM)** | Dataset/Tool | Open-source | Used for base map overlays in flood visualization. |
+| **EODashboard**                    | Platform / Web Tool      | EO Dashboard Consortium (ESA, NASA, JAXA) | Aggregates and visualizes multisource EO data in near real‑time—including precipitation, flood extents, and land‑surface anomalies. Enabling the interactive map tours and storytelling. |
 
-- [NASA’s SWOT mission](), launched in 2022, measures global river water level, slope, width, and area, which supports space-based estimates of river discharge.  
 
-- [NASA/JAXA’s Global Precipitation Measurement (GPM) mission]() provides valuable information on precipitation patterns  and intensity, aiding in flood forecasting and early warning systems.
-
-### Open Datasets
-
-* [JAXA's multi-satellite global precipitation map named “GSMaP]() JAXA operates the “GSMaP” map under the GPM Mission, by using Dual-frequency Precipitation Radar (DPR) onboard GPM core satellites, other GPM constellation satellites, and Geostationary satellites in cooperation with partners. The main feature of the GSMaP algorithm is utilization of various attributes derived from the spaceborne precipitation radar, TRMM/PR and GPM/DPR. Precipitation information by GSMaP has been widely used, not only for scientific purposes, but also for meteorology, disaster prevention, climate monitoring, agricultural monitoring, public health, education and so on. GSMaP website offers the following global precipitation information: 
-	* [JAXA REALTIME RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP_NOW/index.htm)
-Shows global precipitation map, updated every 30 minutes.For users who would like to see precipitation in the past specific date.
-	* [JAXA GLOBAL RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP/index.htm)
-Shows hourly global precipitation map since March 2000. For users who would like to see daily or monthly precipitation.
-	* [JAXA CLIMATE RAINFALL WATCH](https://sharaku.eorc.jaxa.jp/GSMaP_CLM/index.htm) Shows indices related to extreme heavy rainfall and drought as well as accumulated precipitation. 
-	
-	* [NASA's OPERA project's operational 30-m surface water extent product] (https://podaac.jpl.nasa.gov/dataset/OPERA_L3_DSWX-HLS_V1), available since April 2023, merges NASA Landsat and ESA Sentinel-2 data to ensure that extreme hydrological events are comprehensively observed, enhancing flood detectability.
-
-* [NASA's LANCE project generates MODIS 250-m flood maps and SMAP 36-km soil moisture maps within 2-hours of satellite overpass](https://www.earthdata.nasa.gov/data/instruments/modis/near-real-time-data) (https://www.earthdata.nasa.gov/data/instruments/smap-l-band-radiometer/near-real-time-data) 
-
-* [NASA's SWOT mission](https://podaac.jpl.nasa.gov/SWOT; https://podaac.github.io/tutorials/quarto_text/SWOT.html ) For global river reaches (approximately 10km in length and exceeding 30m in width), up to six estimates of water surface elevation, slope, and width are produced every 21 days. 
 																																										
 ### Contributors						
 Sara Aparicio (Solenix c/o ESA),  Shinichi Sobue (JAXA), Nao Yoshida (JAXA),  Karim Douch (ESA), Craig Ferguson (NASA) 
@@ -237,8 +227,3 @@ Sara Aparicio (Solenix c/o ESA),  Shinichi Sobue (JAXA), Nao Yoshida (JAXA),  Ka
 
 
 
-
-
-
-
- 
