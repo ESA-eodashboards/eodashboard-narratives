@@ -48,27 +48,27 @@ The Sentinel-2 collects data across 13 spectral bands, ranging from visible to s
 
 ### <!--{ layers='[{ "type": "Group", "properties": { "id": "OverlayGroup", "title": "Overlay Layers" }, "layers": [ { "type": "Tile", "properties": { "id": "overlay_bright;:;EPSG:3857", "title": "Overlay labels" }, "source": { "type": "XYZ", "url": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png", "projection": "EPSG:3857" } } ] },{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;2023-06-01T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2023-11-20T00:00:00Z/2023-11-20T23:59:59Z"}},"visible":true}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="13.901362010349746" center=[45.186886414511534,4.739628155214561] projection="" animationOptions={duration:500}}-->
 #### 20 November 2023: Flooded Landscapes of Beledweyne
-Between 12 and 15th November, Satellite imagery from Coperincus Sentinel-2 captured the scale of flooding. This Copernicus Sentinel-2 true color image shows a natural-color view of the flooded region of Beledweyne. Areas covered in water appear dark blue or black, while vegetation appears green and urban zones appear gray. 
+Beledweyne is grappling with a severe humanitarian crisis triggered by extensive flooding on November 12th
+when rising river water levels led to extensive flooding that engulfed the town. This crisis persisted, culminating in a surge of water levels on November 17th due to heavy rainfall.
+
+Satellite imagery from Coperincus Sentinel-2 captured the scale of flooding. In this true color image shows a natural-color view of the flooded region of Beledweyne. Areas covered in water appear **dark blue or black**, while vegetation appears green and urban zones appear gray. 
 
 
 ### <!--{ layers='[{ "type": "Group", "properties": { "id": "OverlayGroup", "title": "Overlay Layers" }, "layers": [ { "type": "Tile", "properties": { "id": "overlay_bright;:;EPSG:3857", "title": "Overlay labels" }, "source": { "type": "XYZ", "url": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png", "projection": "EPSG:3857" } } ] },{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;2023-06-01T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2023-11-20T00:00:00Z/2023-11-20T23:59:59Z"}},"visible":true}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="11.899126433739314" center=[45.13806578136379,4.696772861425785] projection="" animationOptions={duration:500}}-->
-#### 20 November 2023: Flooded Landscapes of Beledweyne 
-Approximately 85–90% of Beledweyne [was submerged]( https://www.islamic-relief.org.uk/somali-city-of-beledweyne-is-85-under-water-following-devastating-floods/?utm_source=chatgpt.com), rendering large parts of the city underwater. According to the humanitarian group Save the Children, the flooding has forced an estimated 250,000 people, or 90 per cent of Beledweyne's population, out of their homes.
-
-
+#### The impacts of extensive floods 
 The flooding is visible where water has overflowed rivers or coastlines, covering fields, roads, and settlements, offering a realistic snapshot of the affected landscape.  
 
-
-
-
+Approximately 85–90% of Beledweyne [was submerged]( https://www.islamic-relief.org.uk/somali-city-of-beledweyne-is-85-under-water-following-devastating-floods/?utm_source=chatgpt.com), rendering large parts of the city underwater. According to the humanitarian group Save the Children, the flooding has forced an estimated [250,000 people](https://www.latimes.com/world-nation/story/2023-11-23/el-nino-worsened-flooding-has-somalia-in-a-state-of-emergency-residents-of-one-town-are-desperate), or 90 per cent of Beledweyne's population, out of their homes.
 
 
 
 
 ### <!--{ layers='[{ "type": "Group", "properties": { "id": "OverlayGroup", "title": "Overlay Layers" }, "layers": [ { "type": "Tile", "properties": { "id": "overlay_bright;:;EPSG:3857", "title": "Overlay labels" }, "source": { "type": "XYZ", "url": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png", "projection": "EPSG:3857" } } ] },{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;2023-06-01T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-NDWI"],"TILED":true,"TIME":"2023-11-20T00:00:00Z/2023-11-20T23:59:59Z"}},"visible":true}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="11.899126433739314" center=[45.13806578136379,4.696772861425785] projection="" animationOptions={duration:500}}-->
 #### Improving flood detection with band combination 
-This **false color** image uses the Normalized Difference Water Index (NDWI) to highlight water. In this view, water appears bright blue, making it easier to identify flood extent. NDWI enhances water detection by comparing **green and near-infrared light** (Bands 3 and 8, respectively) reflected from the surface. In this image, we can clearly see how floodwaters, which are **highlighted in blue** have spread across land areas, especially in low-lying or agricultural zones.
-The false color image below highlights the contrast between inundated areas and surrounding terrain.
+The **false color** image allows to highlight the contrast between inundated areas and surrounding terrain. In this view, water appears **bright blue, making it easier to identify flood extent**.
+
+This **false color** image was created combining other bands of the Sentinel-2. In this, using the **green and near-infrared light** (Bands 3 and 8, respectively), it generated a Normalized Difference Water Index (NDWI) to highlight water. NDWI enhances water detection by comparing reflected from the surface. In this image, we can clearly see how floodwaters, which are **highlighted in blue** have spread across land areas, especially in low-lying or agricultural zones.
+
  
 
 
