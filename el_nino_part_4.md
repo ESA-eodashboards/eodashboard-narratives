@@ -6,7 +6,6 @@ Whether you’re a farmer watching the skies, a family navigating flooded roads,
 
 What we may not see in those headlines is how these events are monitored in near real-time by satellites orbiting high above. Earth Observation (EO) satellites allow us to detect changes in rainfall, monitor floodwaters as they rise, and map storm damage over vast areas. These capabilities are made possible through collaboration among global space agencies - ESA, NASA, JAXA, and others - who make their datasets open for public use.
 
-
 This story explores the impacts of El Niño in East Africa, one of the regions hardest hit, using the lens of these open EO datasets, which include rainfall maps, flood extents, and river observations.
  
 ## El Niño 2023
@@ -28,14 +27,15 @@ Signs of anomaly were visible in EO data from multiple satellite missions: preci
 ## Satellite Observations
 
 By November 2023, heavy rains had triggered deadly flooding across Somalia, Kenya, Ethiopia, and Tanzania, displacing over one million people and resulting in more than 350 deaths [[2]]( https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl/index.html). The floods came on the heels of years of drought, compounding the region’s food insecurity [[3]](https://earthobservatory.nasa.gov/images/150712/worst-drought-on-record-parches-horn-of-africa).
-In some areas of Ethiopia, Somalia, and Kenya, rainfall totals were two to four times the seasonal average. This led to major rivers, such as the Shebelle River, overflowing and flooding towns like Beledweyne, Somalia. Satellite imagery from NASA’s Landsat 8 captured the scale of flooding. The false color image below highlights the contrast between inundated areas and surrounding terrain [[4]](https://earthobservatory.nasa.gov/images/152108/devastating-flooding-in-east-africa).
+In some areas of Ethiopia, Somalia, and Kenya, rainfall totals were two to four times the seasonal average. This led to major rivers, such as the Shebelle River, overflowing and flooding towns like Beledweyne, Somalia. 
 
-<figure style="text-align: center;"> <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/152000/152108/somaliafloodingzm_oli_2023319.jpg" alt="Flooding in Beledweyne" style="display: block; margin: 0 auto;" width="800"> <figcaption> Beledweyne on November 15, 2023. Landsat 8 false-color image highlights floodwaters (blue), vegetation (green) and cumulus clouds (white). <a href="https://earthobservatory.nasa.gov/images/152108/devastating-flooding-in-east-africa" target="_blank">NASA Earth Observatory</a>. </figcaption> </figure>
-
-In western Somalia, the Juba River also overtopped its banks, damaging roads and croplands in towns like Luuq and Baardheere, where a key bridge was swept away [[5]](https://www.faoswalim.org/resources/site_files/Somalia_Flood_Advisory_20_November_2023.pdf).
-To monitor such conditions, the University of California–Santa Barbara Climate Hazards Center uses near-real time analyses and forecasts from NASA’s Goddard Earth Observing System Subseasonal to Seasonal prediction system (GEOS-S2S). This system integrates EO data to track and predict rainfall and soil conditions in regions vulnerable to food insecurity [[6]](https://www.chc.ucsb.edu/), [[7]](https://gmao.gsfc.nasa.gov/gmao-products/).
+Satellite imagery from Coperincus Sentinel-2 captured the scale of flooding. The false color image below highlights the contrast between inundated areas and surrounding terrain [[4]](https://earthobservatory.nasa.gov/images/152108/devastating-flooding-in-east-africa).
 
 ## Map Tour Example <!--{ as="eox-map" mode="tour" }-->
+
+### <!--{ layers='[{ "type": "Group", "properties": { "id": "OverlayGroup", "title": "Overlay Layers" }, "layers": [ { "type": "Tile", "properties": { "id": "overlay_bright;:;EPSG:3857", "title": "Overlay labels" }, "source": { "type": "XYZ", "url": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png", "projection": "EPSG:3857" } } ] },{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;2023-06-01T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2023-09-26T00:00:00Z/2023-09-26T23:59:59Z"}},"visible":true}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="13.901362010349746" center=[45.186886414511534,4.739628155214561] projection="" animationOptions={duration:500}}-->
+#### Beledweyne: image from 26 October 2023 
+Beledweyne is a city in central Somalia and serves as the capital of the Hiiraan region, which is part of the larger Hirshabelle State. It holds significant strategic, economic, and cultural importance in the country. The city has a largely agro-pastoral economy, with farming along the riverbanks. Flooding is a recurring issue due to the Shabelle River overflowing, displacing thousands and hindering development of the region. 
 
 ### <!--{ layers='[{ "type": "Group", "properties": { "id": "OverlayGroup", "title": "Overlay Layers" }, "layers": [ { "type": "Tile", "properties": { "id": "overlay_bright;:;EPSG:3857", "title": "Overlay labels" }, "source": { "type": "XYZ", "url": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png", "projection": "EPSG:3857" } } ] },{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;2023-06-01T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2023-11-20T00:00:00Z/2023-11-20T23:59:59Z"}},"visible":true}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="11.899126433739314" center=[45.13806578136379,4.696772861425785] projection="" animationOptions={duration:500}}-->
 #### 20 November 2023: Flooded Landscapes of Beledweyne 
@@ -59,6 +59,10 @@ This **false color** image uses the Normalized Difference Water Index (NDWI) to 
 Check if make sense
 
 ## A Growing Toll
+
+In western Somalia, the Juba River also overtopped its banks, damaging roads and croplands in towns like Luuq and Baardheere, where a key bridge was swept away [[5]](https://www.faoswalim.org/resources/site_files/Somalia_Flood_Advisory_20_November_2023.pdf).
+To monitor such conditions, the University of California–Santa Barbara Climate Hazards Center uses near-real time analyses and forecasts from NASA’s Goddard Earth Observing System Subseasonal to Seasonal prediction system (GEOS-S2S). This system integrates EO data to track and predict rainfall and soil conditions in regions vulnerable to food insecurity [[6]](https://www.chc.ucsb.edu/), [[7]](https://gmao.gsfc.nasa.gov/gmao-products/).
+
 In May 2024, new flooding and mudslides struck Burundi, Kenya, Rwanda, Somalia, Ethiopia, and Tanzania after five days of torrential rain. According to the International Organization for Migration (IOM), over 234,000 people were displaced and more than 637,000 were affected [[8]](https://news.un.org/en/story/2024/05/1149461), [[9]](https://wmo.int/media/news/flooding-worsens-east-africa).
 <figure style="text-align: center;"> <img src="https://www.copernicus.eu/system/files/styles/image_of_the_day/private/2024-05/image_day/20240503_FloodsKenya.jpg?itok=J7bQdg3N" alt="Floods in Kenya" style="display: block; margin: 0 auto;" width="800"> <figcaption> Copernicus Sentinel-2 image from 29 April shows flooded terrain near Garissa, Kenya. <a href="https://www.copernicus.eu/system/files/styles/image_of_the_day/private/2024-05/image_day/20240503_FloodsKenya.jpg?itok=J7bQdg3N" target="_blank">European Union, Copernicus</a>. </figcaption> </figure> 
 
@@ -179,11 +183,11 @@ Text describing the current step of the tour and why it is interesting what the 
 
 
 ## Open Science Datasets
-**Supporting Climate Monitoring**
+**Supporting Climate Monitoring - **
 
 The ability to monitor floods and storms from space relies on collaboration among space agencies and open access to satellite data. Missions from ESA, NASA, and JAXA provide global datasets that measure rainfall, water extent, soil moisture, and surface conditions—critical for understanding events like those in East Africa.
-### Satellite Missions
-**ESA**
+### Satellite and Open Datasets mentioned in this story
+
 * [Copernicus Sentinel-1 mission]() captures radar imagery, allowing the detection of changes in surface water levels, identification of flooded areas, and assessment of flood severity with high spatial resolution. In fact, the Copernicus Emergency Management Service (CEMS) has developed the Global Flood Monitoring (GFM) system that processes all incoming Sentinel-1 data to provide near-real time flood extent maps. 
 
 - [Copernicus Sentinel-2 mission]() can contribute to flood monitoring through its multispectral imaging capabilities at various wavelengths, enabling the detection of floodwater and the assessment of flood extent, land cover changes, and flood-induced damages, and is used also by Copernicus Emergency Management Service (CEMS). 
@@ -212,5 +216,13 @@ Shows hourly global precipitation map since March 2000. For users who would like
 																																										
 ### Contributors						
 Sara Aparicio (Solenix c/o ESA),  Shinichi Sobue (JAXA), Nao Yoshida (JAXA),  Karim Douch (ESA), Craig Ferguson (NASA) 
+
+
+
+
+
+
+
+
 
  
