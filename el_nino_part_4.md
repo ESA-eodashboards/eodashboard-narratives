@@ -135,6 +135,10 @@ By 14 March, the storm had dissipated inland after causing widespread damage and
 <figure style="text-align: center;"> <img src="https://cdn.lifegate.it/ylhm1DBgHDSsOqQ2I-_yWkFAVhI=/1960x980/smart/https://www.lifegate.it/app/uploads/2023/03/i-danni-provocati-dal-passaggio-del-ciclone-freddy.jpg
 " alt="Cyclone Freddy" style="display: block; margin: 0 auto;"> <figcaption> I danni provocati dal passaggio del ciclone Freddy <a href="https://www.lifegate.it/ciclone-freddy-africa-malawi-mozambico" target="_blank">© Amos Gumulira/Afp/Getty Images. </a>. </figcaption> </figure> 
 
+
+
+### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"alos2_floods;:;2023-03-15T00:00:00Z;:;alos2_floods;:;EPSG:3857","title":"alos2_floods"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["JAXA_ALOS2_FLOODMAPS"],"TILED":true,"TIME":"2023-03-15T00:00:00Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2023;:;EPSG:3857","title":"EOxCloudless 2023"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="11.138049312775395" center=[35.91340191562133,-18.74061226590169] projection="" animationOptions={duration:500}}-->
+#### 
 Its path and multiple landfalls, along with the fact that it persisted through such a lengthy period, made it a standout cyclone in terms of both meteorological history and the human impact it left behind.
 
 <figure style="text-align: center;">
@@ -150,6 +154,8 @@ Its path and multiple landfalls, along with the fact that it persisted through s
         </a>
     </figcaption>
 </figure>
+
+
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"alos2_floods;:;2023-03-15T00:00:00Z;:;alos2_floods;:;EPSG:3857","title":"alos2_floods"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["JAXA_ALOS2_FLOODMAPS"],"TILED":true,"TIME":"2023-03-15T00:00:00Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]'zoom="11.774612669982734" center=[35.88201367268074,-18.75698819454024] projection="" animationOptions={duration:400}}-->
 #### Mapping Flooded Areas with JAXA's ALOS-2 
