@@ -26,7 +26,7 @@ Signs of anomaly were visible in EO data from multiple satellite missions: preci
 
 ## Satellite Observations
 
-By November 2023, heavy rains had triggered deadly flooding across Somalia, Kenya, Ethiopia, and Tanzania, displacing over one million people and resulting in more than 350 deaths [[2]]( https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl/index.html). The floods came on the heels of years of drought, compounding the region’s food insecurity [[3]](https://earthobservatory.nasa.gov/images/150712/worst-drought-on-record-parches-horn-of-africa).
+By November 2023, heavy rains had tr iggered deadly flooding across Somalia, Kenya, Ethiopia, and Tanzania, displacing over one million people and resulting in more than 350 deaths [[2]]( https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl/index.html). The floods came on the heels of years of drought, compounding the region’s food insecurity [[3]](https://earthobservatory.nasa.gov/images/150712/worst-drought-on-record-parches-horn-of-africa).
 In some areas of Ethiopia, Somalia, and Kenya, rainfall totals were two to four times the seasonal average. This led to major rivers, such as the Shebelle River, overflowing and flooding towns like Beledweyne, Somalia. 
 
 
@@ -35,7 +35,7 @@ In some areas of Ethiopia, Somalia, and Kenya, rainfall totals were two to four 
 
 ### <!--{ layers='[{ "type": "Group", "properties": { "id": "OverlayGroup", "title": "Overlay Layers" }, "layers": [ { "type": "Tile", "properties": { "id": "overlay_bright;:;EPSG:3857", "title": "Overlay labels" }, "source": { "type": "XYZ", "url": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png", "projection": "EPSG:3857" } } ] },{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;2023-06-01T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2023-09-26T00:00:00Z/2023-09-26T23:59:59Z"}},"visible":true}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="13.901362010349746" center=[45.186886414511534,4.739628155214561] projection="" animationOptions={duration:500}}-->
 #### Beledweyne: image from 26 October 2023 
-Beledweyne is a city in central Somalia and serves as the capital of the Hiiraan region#. It holds significant strategic, economic, and cultural importance in the country. The city has a largely agro-pastoral economy, with farming along the riverbanks. Flooding is a recurring issue due to the Shabelle River overflowing, displacing thousands and hindering development of the region. 
+**Beledweyne** is a city in central Somalia and serves as the **capital of the Hiiraan region**. It holds significant strategic, economic, and cultural importance in the country. The city has a largely agro-pastoral economy, with farming along the riverbanks. Flooding is a recurring issue due to the Shabelle River overflowing, displacing thousands and hindering development of the region. 
 
 <center>
 <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2012/02/sentinel-2/9658480-3-eng-GB/Sentinel-2_pillars.jpg" width="400">
@@ -43,15 +43,16 @@ Beledweyne is a city in central Somalia and serves as the capital of the Hiiraan
 <span style="font-size:15px;">Copernicus Sentinel-2 </span>
 </center>
 
-The Sentinel-2 collects data across 13 spectral bands, ranging from visible to shortwave infrared wavelengths. What you're seeing here is a true color composite, created using the Red (Band 4), Green (Band 3), and Blue (Band 2) bands—similar to how the **human eye perceives color**. This allows us to view the landscape as it would appear in **real life**.
+The Copernicus Sentinel-2 collects data across 13 spectral bands, ranging from visible to shortwave infrared wavelengths. In the image, we are seeing a **true color composite**, since it uses the Red (Band 4), Green (Band 3), and Blue (Band 2) bands—similar to how the **human eye perceives color**. This allows us to view the landscape as it would appear in **real life**.
 
 
 ### <!--{ layers='[{ "type": "Group", "properties": { "id": "OverlayGroup", "title": "Overlay Layers" }, "layers": [ { "type": "Tile", "properties": { "id": "overlay_bright;:;EPSG:3857", "title": "Overlay labels" }, "source": { "type": "XYZ", "url": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png", "projection": "EPSG:3857" } } ] },{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;2023-06-01T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2023-11-20T00:00:00Z/2023-11-20T23:59:59Z"}},"visible":true}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="13.901362010349746" center=[45.186886414511534,4.739628155214561] projection="" animationOptions={duration:500}}-->
 #### 20 November 2023: Flooded Landscapes of Beledweyne
-Beledweyne is grappling with a severe humanitarian crisis triggered by extensive flooding on November 12th
-when rising river water levels led to extensive flooding that engulfed the town. This crisis persisted, culminating in a surge of water levels on November 17th due to heavy rainfall.
+In November, Beledweyne faced a severe humanitarian crisis triggered by **extensive flooding** on November 12th when rising river water levels led to extensive flooding that engulfed the town. 
+This crisis persisted, culminating in a surge of water levels on November 17th due to **heavy rainfall**.
 
-Satellite imagery from Coperincus Sentinel-2 captured the scale of flooding. In this true color image shows a natural-color view of the flooded region of Beledweyne. Areas covered in water appear **dark blue or black**, while vegetation appears green and urban zones appear gray. 
+Sentinel-2 captured the scale of flooding. The true color image shows a natural-color view of the flooded region of Beledweyne. 
+Areas covered in water appear **dark blue or black**, while vegetation appears green and urban zones appear gray. 
 
 
 ### <!--{ layers='[{ "type": "Group", "properties": { "id": "OverlayGroup", "title": "Overlay Layers" }, "layers": [ { "type": "Tile", "properties": { "id": "overlay_bright;:;EPSG:3857", "title": "Overlay labels" }, "source": { "type": "XYZ", "url": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png", "projection": "EPSG:3857" } } ] },{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;2023-06-01T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2023-11-20T00:00:00Z/2023-11-20T23:59:59Z"}},"visible":true}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="11.899126433739314" center=[45.13806578136379,4.696772861425785] projection="" animationOptions={duration:500}}-->
@@ -64,10 +65,11 @@ Approximately 85–90% of Beledweyne [was submerged]( https://www.islamic-relief
 
 
 ### <!--{ layers='[{ "type": "Group", "properties": { "id": "OverlayGroup", "title": "Overlay Layers" }, "layers": [ { "type": "Tile", "properties": { "id": "overlay_bright;:;EPSG:3857", "title": "Overlay labels" }, "source": { "type": "XYZ", "url": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png", "projection": "EPSG:3857" } } ] },{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;2023-06-01T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-NDWI"],"TILED":true,"TIME":"2023-11-20T00:00:00Z/2023-11-20T23:59:59Z"}},"visible":true}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="11.899126433739314" center=[45.13806578136379,4.696772861425785] projection="" animationOptions={duration:500}}-->
-#### Improving flood detection with band combination 
-The **false color** image allows to highlight the contrast between inundated areas and surrounding terrain. In this view, water appears **bright blue, making it easier to identify flood extent**.
+#### Enhancing flood detection 
+A **false color**, also from Sentinel-2,  allows to highlight the contrast between inundated areas and surrounding terrain, .  
+In this view, water appears **bright blue, making it easier to identify flood**, aiding to enhanced understanding of the flood extention and detection.
 
-This **false color** image was created combining other bands of the Sentinel-2. In this, using the **green and near-infrared light** (Bands 3 and 8, respectively), it generated a Normalized Difference Water Index (NDWI) to highlight water. NDWI enhances water detection by comparing reflected from the surface. In this image, we can clearly see how floodwaters, which are **highlighted in blue** have spread across land areas, especially in low-lying or agricultural zones.
+This **false color** image was made using data from Sentinel-2 satellite, combining **green and near-infrared light** (Bands 3 and 8). It uses something called the Normalized Difference Water Index (NDWI), which helps highlight water by comparing how the surface reflects light. In the image, floodwaters appear **in blue**, clearly showing how they’ve spread across the land—especially in flat or farming areas.
 
  
 
