@@ -122,7 +122,7 @@ Though Cyclone Freddy weakened while crossing the island of Madagascar, it regai
 Cylone Freddy circled back to the Mozambique Channel and made a final landfall near Quelimane on 11 March- this time with even more severe rain and winds than before. 
 
 <figure style="text-align: center;"> <img src="https://africanarguments.org/wp-content/uploads/2023/03/mozambique-cyclone-freddy.jpg
-" alt="Cyclone Freddy" style="display: block; margin: 0 auto;"> <figcaption> The scene from the city of Quelimane in Mozambique after Cyclone Freddy struck on 11 March. Credit: <a href="https://africanarguments.org/2023/03/nobody-imagined-it-would-be-so-intense-mozambique-cyclone-freddy/" target="_blank">UNICEF. </a>. </figcaption> </figure> 
+" alt="Cyclone Freddy" style="display: block; margin: 0 auto;"> <figcaption> The scene from the city of Quelimane in Mozambique after Cyclone Freddy struck on 11 March. Credit: <a href="https://africanarguments.org/2023/03/nobody-imagined-it-would-be-so-intense-mozambique-cyclone-freddy/" target="_blank">UNICEF</a>. </figcaption> </figure> 
 
 
 
@@ -131,9 +131,20 @@ Cylone Freddy circled back to the Mozambique Channel and made a final landfall n
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"alos2_floods;:;2023-03-15T00:00:00Z;:;alos2_floods;:;EPSG:3857","title":"alos2_floods"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["JAXA_ALOS2_FLOODMAPS"],"TILED":true,"TIME":"2023-03-15T00:00:00Z"}},"opacity":1}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2023;:;EPSG:3857","title":"EOxCloudless 2023"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2023_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="8.73907793405558" center=[35.93771646002912,-18.278112939983657] projection="" animationOptions={duration:500}}-->
 #### The Aftermath 
 By 14 March, the storm had dissipated inland after causing widespread damage and flooding across Madagascar, Mozambique, and surrounding regions. 
+<figure style="text-align: center;">
+    <img 
+        src="https://africanarguments.org/wp-content/uploads/2023/03/mozambique-cyclone-freddy.jpg" 
+        alt="Flooding in Mozambique and Malawi from NASA MODIS Satellites" 
+        style="max-width: 100%; height: auto; display: block; margin: 0 auto;"
+    >
+    <figcaption style="margin-top: 8px;">
+        The scene from the city of Quelimane in Mozambique after Cyclone Freddy struck on 11 March. Credit:  
+        <a href="https://africanarguments.org/2023/03/nobody-imagined-it-would-be-so-intense-mozambique-cyclone-freddy/" target="_blank">
+            UNICEF
+        </a>
+    </figcaption>
+</figure>
 
-<figure style="text-align: center;"> <img src="https://cdn.lifegate.it/ylhm1DBgHDSsOqQ2I-_yWkFAVhI=/1960x980/smart/https://www.lifegate.it/app/uploads/2023/03/i-danni-provocati-dal-passaggio-del-ciclone-freddy.jpg
-" alt="Cyclone Freddy" style="display: block; margin: 0 auto;"> <figcaption> I danni provocati dal passaggio del ciclone Freddy <a href="https://www.lifegate.it/ciclone-freddy-africa-malawi-mozambico" target="_blank">© Amos Gumulira/Afp/Getty Images. </a>. </figcaption> </figure> 
 
 
 
@@ -198,19 +209,10 @@ Unlike optical satellites, ALOS-2 uses **radar, which can see independently of c
 #### Nsanje - a region particularly hard-hit
 This caused also severe flooding in Nsanje, a district in southern Malawi, shares a significant portion of its western and southern borders with Mozambique. Tropical Cyclone Freddy caused severe flooding in Nsanje, Malawi, displacing thousands and impacting access to essential services. The cyclone's heavy rainfall and strong winds led to widespread flooding, mudslides, and [damage to infrastructure like roads and bridges](https://reliefweb.int/map/malawi/malawi-tropical-cyclone-freddy-nsanje-district-overview-road-access-flooding-and-location-schools-acting-idp-camps-27-mar-2023). 
 
-<figure style="text-align: center;">
-    <img 
-        src="https://africanarguments.org/wp-content/uploads/2023/03/mozambique-cyclone-freddy.jpg" 
-        alt="Flooding in Mozambique and Malawi from NASA MODIS Satellites" 
-        style="max-width: 100%; height: auto; display: block; margin: 0 auto;"
-    >
-    <figcaption style="margin-top: 8px;">
-        The scene from the city of Quelimane in Mozambique after Cyclone Freddy struck on 11 March. Credit:  
-        <a href="https://africanarguments.org/2023/03/nobody-imagined-it-would-be-so-intense-mozambique-cyclone-freddy/" target="_blank">
-            UNICEF
-        </a>
-    </figcaption>
-</figure>
+<figure style="text-align: center;"> <img src="https://cdn.lifegate.it/ylhm1DBgHDSsOqQ2I-_yWkFAVhI=/1960x980/smart/https://www.lifegate.it/app/uploads/2023/03/i-danni-provocati-dal-passaggio-del-ciclone-freddy.jpg
+" alt="Cyclone Freddy" style="display: block; margin: 0 auto;"> <figcaption> Damage done with the passage of Cyclone Freddy  <a href="https://www.lifegate.it/ciclone-freddy-africa-malawi-mozambico" target="_blank">© Amos Gumulira/Afp/Getty Images. </a>. </figcaption> </figure> 
+
+
 
 
 
