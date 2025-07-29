@@ -14,7 +14,7 @@ Cevenols events are heavy and persistent rainfall episodes typically occuring in
 <img src="https://www.universalis.fr/typo3temp/assets/_processed_/5/e/csm_ca151093_788244508f.webp" width="600">
 <span style="font-size:15px;">Cevenols Events. Source: Encyclopaedia Universalis under CC BY-NC license.</span>
 </center>
-
+ 
 The consequences of Cevenols events can be very impactful. The large volumes of rainwater can quickly overwhelm rivers contributing to a rapid runoff overleading to destructive flooding in urban and rural regions or landslides. The human and economic toll of such events can be substantial with the destruction of houses, roads and other infrastructures. 
 
 ## Method and datasets
@@ -78,6 +78,23 @@ To enhance this study, future research will focus on **refining the threshold me
 
 
 ## Open Science
+#### Notebook
+The notebook can be acessible below:
+
+<iframe src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/openchallengenotebook-c1-jessel-hezzi-roussel" 
+        width="100%" 
+        height="800" 
+        frameborder="0"
+        style="border: 1px solid #ddd; border-radius: 8px;">
+  <p>Your browser does not support iframes. <a href="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/openchallengenotebook-c1-jessel-hezzi-roussel">View the notebook here</a></p>
+</iframe>
+
+<iframe src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/openchallengenotebook-c1-jessel-hezzi-roussel" 
+        width="100%" 
+        height="600" 
+        frameborder="0">
+</iframe>
+
 #### Datasets
 - The [Hydrology Cube/GPM-CPC SM2RAIN-ASCAT precipitation dataset](https://agupubs.onlinelibrary.wiley.com/doi/10.1002/2014JD021489)
 - The [GPCP dataset  precipitation dataset](https://journals.ametsoc.org/view/journals/hydr/2/1/1525-7541_2001_002_0036_gpaodd_2_0_co_2.xml)
