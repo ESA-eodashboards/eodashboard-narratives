@@ -21,7 +21,7 @@ During the short rains season (October–December) of 2023, East Africa was hit 
 
 Signs of anomaly were visible in EO data from multiple satellite missions: precipitation far above average levels, changes in vegetation, and swelling river systems. These observations were crucial in tracking the development of the flood season as it unfolded.
 
-<figure style="text-align: center;"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Horn_of_Africa_%28orthographic_projection%29.svg/800px-Horn_of_Africa_%28orthographic_projection%29.svg.png" alt="Horn of Africa (orthographic projection)" style="display: block; margin: 0 auto;" width="400"> <figcaption> Horn of Africa (orthographic projection). <a href="https://commons.wikimedia.org/w/index.php?curid=8990864" target="_blank">By L'Américain – Own work, CC BY-SA 3.0</a>. </figcaption> </figure> 
+<figure style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/el_nino_part_3/el_nino_part_4_visual1.png?raw=true" alt="Horn of Africa (orthographic projection)" style="display: block; margin: 0 auto;" width="400"> <figcaption>   <a href="https://commons.wikimedia.org/w/index.php?curid=8990864" target="_blank"></a>. </figcaption> </figure> 
 
 
 ## Satellite Observations
@@ -105,7 +105,7 @@ Freddy made landfall in Madagascar on 21 February 2023, then moved across the Mo
 **Map: Global Satellite Mapping of Precipitation (GSMaP) from JAXA**
 
 <figure style="text-align:center;">
-    <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/PRCG_precipitation/PRCG_legend.png" 
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/el_nino_part_3/el_nino_part4_visual3.png?raw=true" 
          alt="GSMaP 21 February 2023. " 
     </figcaption>
 </figure>
@@ -198,7 +198,7 @@ Unlike optical satellites, ALOS-2 uses **radar, which can see independently of c
 **Map: Flooded areas, based on ALOS-2 data**.
 <figure style="text-align: center;">
     <img 
-        src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/alos2_floods/cm_legend.png.png" 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/el_nino_part_3/el_nino_part4_visual2.png?raw=true" 
         alt="" 
         style="max-width: 100%; height: auto; display: block; margin: 0 auto;"
     >
