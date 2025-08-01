@@ -1,11 +1,11 @@
 ---
-cover-image: https://placehold.co/600x400
+cover-image: https://img.freepik.com/free-vector/online-test-concept-illustration_114360-30917.jpg?semt=ais_hybrid&w=740
 date: 2025-01-01
 theme: atmosphere
 tags: climate,pollution
 official: true
 ---
-# test1 <!--{ as="img" mode="hero" src="https://placehold.co/600x400" }-->
+# test1 <!--{ as="img" mode="hero" src="https://img.freepik.com/free-vector/online-test-concept-illustration_114360-30917.jpg?semt=ais_hybrid&w=740" }-->
 
 ### subsection!
 
