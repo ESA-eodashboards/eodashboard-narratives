@@ -75,7 +75,7 @@ jobs:
           body: |
             🚀 Preview ready!
 
-            👉 [View your narrative changes preview](https://eoxhub-workspaces.github.io/preview-narratives/?preview_url=https://esa-eodashboards.github.io/eodashboard-narratives/pr-preview/pr-${{ github.event.pull_request.number }})
+            👉 [View your narrative changes preview](https://eoxhub-workspaces.github.io/preview-narratives/?preview_url=https://esa-eodashboards.github.io/eodashboard-narratives/pr-preview/pr-${{ github.event.pull_request.number }}/)
           comment-id: ${{ steps.find-comment.outputs.comment-id }}
           edit-mode: replace
       - if: github.event.action != 'closed' && steps.get_pr_commit_message.outputs.should_skip != 'true'
