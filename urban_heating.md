@@ -13,57 +13,67 @@ Across the globe, and increasingly in Europe, heat waves are becoming more frequ
 
 These prolonged periods of excessive heat have significant implications for public health, infrastructure, and urban planning. The [Paris Agreement](https://www.consilium.europa.eu/en/policies/paris-agreement-climate/) calls for urgent adaptation strategies to protect vulnerable populations from the worsening impacts of a warming climate. The latest European heatwave underscores the urgency of these actions.
 
-Land surface temperature (LST), an essential climate variable, plays a critical role in tracking urban heat. Unlike air temperature, LST measures the heat radiating from the ground—crucial for understanding heat retention in cities dominated by asphalt, concrete, and other heat-absorbing materials. In urban areas like Paris, where surface temperatures can reach up to 60°C on asphalt, the risk of heat stress is compounded by the lack of green spaces and high-density building structures.
+#### Heat stress
+**Land surface temperature (LST)**, an essential climate variable, plays a critical role in tracking urban heat. Unlike air temperature, LST measures the heat radiating from the ground—crucial for understanding heat retention in cities dominated by asphalt, concrete, and other heat-absorbing materials. In urban areas like Paris, where surface temperatures can reach up to 60°C on asphalt, the risk of **heat stress is compounded by the lack of green spaces and high-density building structures**.
 Heat stress doesn’t affect everyone equally. In urban environments, socio-economic factors heavily influence vulnerability. Children, the elderly, people with chronic illnesses, and communities in low-income neighborhoods are disproportionately affected by extreme heat events. The 2025 heatwave brought this inequality into sharp focus, with hospitals in Southern Europe reporting a surge in heatstroke and dehydration cases [[2]](https://www.theguardian.com/world/2023/jul/18/italian-hospitals-report-rise-in-heat-cases-as-rome-hits-41-point-8c)[[3]](https://phys.org/news/2025-06-cold-climate-southern-europe.html), particularly among those in vulnerable communities who had limited access to cooling facilities.
 
-
-
-
 ## Understanding Urban Heat Stress
+#### Heat and Human Inequality 20-year long study
+A recent study [[4]](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GH001079)  explored the **impact of urban growth and climate change on heat stress in Houston**, Texas, focusing on heat inequalities influenced by socioeconomic and geographic factors. Satellite data, including land cover and vegetation measurements from NASA's MODIS sensor, helped analyze the urban heat island effect, revealing how urbanization and increased surface temperatures exacerbate heat-related health risks. 
+The research also integrates population vulnerability data from the CDC to better understand the social dimensions of heat stress in urban populations. In Houston, structural inequalities and patterns of urban development intensify these risks. Social vulnerability indices from the CDC highlight communities where race, income, and access to resources intersect with heightened exposure to heat stress. These are often the same areas with limited green space and increased infrastructure development, creating urban heat islands. NASA Earth observations have been instrumental in understanding how Houston’s urban landscape has evolved over the past two decades.
+## Houston <!--{ as="eox-map" mode="tour" }-->
 
-#### Heat and Human Inequality 20-year long study: the case of the growing city of Houston 
-A recent study [[4]](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GH001079)  explored the impact of urban growth and climate change on heat stress in Houston, Texas, focusing on heat inequalities influenced by socioeconomic and geographic factors. Satellite data, including land cover and vegetation measurements from NASA's MODIS sensor, helped analyze the urban heat island effect, revealing how urbanization and increased surface temperatures exacerbate heat-related health risks. 
-The research also integrates population vulnerability data from the CDC to better understand the social dimensions of heat stress in urban populations. In Houston, structural inequalities and patterns of urban development intensify these risks. Social vulnerability indices from the CDC highlight communities where race, income, and access to resources intersect with heightened exposure to heat stress. These are often the same areas with limited green space and increased infrastructure development, creating urban heat islands. NASA Earth observations have been instrumental in understanding how Houston’s urban landscape has evolved over the past two decades. Between 2001 and 2019, satellite-derived land cover maps reveal a significant expansion—over 20%—of urban and built-up land. This growth, concentrated in the city’s southwest, directly correlates with rising LST.
+### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"grdi-v1-built;:;povmap-grdi-v1_BUILT_2015-01-01_2021-12-31;:;grdi-v1-built;:;EPSG:3857","title":"grdi-v1-built"},"source":{"type":"XYZ","url":"https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/grdi-v1-built/povmap-grdi-v1_BUILT_2015-01-01_2021-12-31.tif&resampling_method=nearest&bidx=1&colormap_name=viridis&rescale=0.0,100.0","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="8.232367701972546" center=[-96.08143276085875,29.688495685404078] projection="" animationOptions={duration:500}}-->
+#### The case of the growing city of Houston 
+Between 2001 and 2019, satellite-derived land cover maps reveal a significant expansion—over 20%—of urban and built-up land. This growth, concentrated in the city’s southwest, directly **correlates with rising LST**.
+
+Leveraging data from NASA’s Moderate Resolution Imaging Spectroradiometer (MODIS)) platform, we delve into Houston’s changing landscape over two decades by examining multi-decadal changes both LST and the Normalized Difference Vegetation Index (NDVI), offering a technical perspective on this urban phenomenon.
+
+
+
+### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Sentinel-3-SLSTR-L2-LST;:;2023-06-15T00:00:00Z;:;Sentinel-3-SLSTR-L2-LST;:;EPSG:3857","title":"Sentinel-3-SLSTR-L2-LST"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-3-SLSTR-L2-LST"],"TILED":true,"TIME":"2023-06-15T00:00:00Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="9.116573981748752" center=[-95.66753398613908,29.492609057699] projection="" animationOptions={duration:500}}-->
+#### NDVI
 To quantify vegetation and its cooling effects, researchers used the normalized difference vegetation index from the MODIS sensor on NASA’s Terra satellite. As green space decreased, heat intensity rose. Day and nighttime LST data showed that higher temperatures persist even after the sun sets, exacerbating health risks overnight.
- 
- 
- 
- 
- Day and nighttime LST data showed that higher temperatures persist even after the sun sets, exacerbating health risks overnight. During the June 2025 European heatwave, similar patterns were observed, with temperatures in urban areas staying up to 10°C higher than in surrounding rural zones well into the night.
+
+
+
+### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Sentinel-3-SLSTR-L2-LST;:;2023-06-15T00:00:00Z;:;Sentinel-3-SLSTR-L2-LST;:;EPSG:3857","title":"Sentinel-3-SLSTR-L2-LST"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-3-SLSTR-L2-LST"],"TILED":true,"TIME":"2023-06-15T00:00:00Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="9.116573981748752" center=[-95.66753398613908,29.492609057699] projection="" animationOptions={duration:500}}-->
+#### LST 
+Day and nighttime LST data showed that higher temperatures persist even after the sun sets, exacerbating health risks overnight. During the June 2025 European heatwave, similar patterns were observed, with temperatures in urban areas staying up to 10°C higher than in surrounding rural zones well into the night.
+
+
+
+## VEDA
+Urban heat islands (UHIs) are no longer merely academic concepts; they’re palpable urban challenges. In rapdily urbanizing cities such as Houston, understanding the dynamics of land surface temperature (LST) is not just about decoding satellite data, but comprehending its implications for urban planning, health, and socioeconomic dynamics. Leveraging data from NASA’s Moderate Resolution Imaging Spectroradiometer (MODIS)) platform, we delve into Houston’s changing landscape over two decades by examining multi-decadal changes both LST and the Normalized Difference Vegetation Index (NDVI), offering a technical perspective on this urban phenomenon. 
+
+
+LST is the temperature of the earth’s surface derived from the Terra satellite that houses the MODIS instrumentation, encompassing both natural terrains and man-made infrastructures. Unlike ambient air temperature, which gauges the immediate atmospheric conditions we feel, LST provides a granular temperature profile of surfaces from park greens to asphalt roads. Exmaining this in conjunction with NDVI gives an idea of the changing access to green space in sprawling urban spaces such as Houston.
+
+Terra has been instrumental in capturing this data. This platform, orbiting Earth, scans our planet in multiple spectral bands, allowing for a detailed analysis of LST and NDVI. The decadal periods of 2000-20009 and 2010-2019 were examined specifically to study the growth of Houston's UHI.
+
+#### VEDA
+Comparative analysis of LST data from the two decades indicate a tangible uptick in surface temperatures, especially in Houston’s southwestern regions. Urban expansion is likely culprit, with infrastructural growth leading to increased heat absorption and radiation. This phenomenon, known as the urban heat island effect, can intensify local temperatures, leading to a cascade of socio-environmental effects.
+
+Users can access MODIS data for anywhere across the globe here, or click 'Explore Data' at the top of this page for a quick examination of the specific data used in this study.
+
 
 
 
 ## Taking Action: AI applications 
-#### Urban Heat Stress Analysis: The Case of Danish Cities
+#### Urban Heat Stress Analysis: The Case of Danish Cities   
 CLIM4cities is a European Space Agency-funded project led by the Danish Meteorological Institute (DMI) and co-developed with +ATLANTIC CoLAB. The project focuses on a Proof-of-Concept Application in Danish cities, featuring downscaled short-term predictions and climate change scenarios, aimed at supporting local stakeholders in addressing the impacts of extreme heat events (through adaptation and mitigation strategies). To do so, the project is developing advanced Machine Learning (ML) and Artificial Intelligence (AI) models to significantly enhance air and land surface temperature predictions in urban areas for the adoption by local actors. In the first phase of CLIM4cities, the team held a series of user need workshops, engaging citizens, city planners and other local stakeholders in Denmark to understand and evaluate their needs and priorities for the solution. This engagement also provides the foundation for further interactions with users for validation of the solution. On the technical side, we are integrating citizen observations, numerical weather data, and processed Earth Observation (EO) data to create a comprehensive ML Database. This database trains and tests the models, providing cost-effective, integrated urban climate services. Local Climate Zone classifications (LCZ) originated from Copernicus Land Monitoring Service datasets are used to understand the impacts that the urban heat island effect has across a city's land use and land cover characteristics. In the frame of the project, the consortium is developing a set of high-resolution LCZ baselines, categorised using criteria such as dominant built-up densities, impervious surfaces, tree cover densities, and predominant leaf types.
 
+## Open Science <!--{ as="div" }-->
 
+### Open Datasets and Satellite Missions Used in the Story
 
-
-## Open Science datasets
-
-#### Open heat data-dedicated platforms:
-- [NASA Extreme Head Data - Pathfinders](https://www.earthdata.nasa.gov/topics/human-dimensions/heat) - NASA’s Earth science data help researchers understand heat dangers around the world, including urban heat islands, humidity, and global warming. The heat data and tools include:
-
-	- [AppEEARS](https://www.earthdata.nasa.gov/data/tools/appeears) The The Application for Extracting and Exploring Analysis Ready Samples (AppEEARS) offers users a simple and efficient way to perform data access and transformation processes.
-	- [Panoply](https://www.earthdata.nasa.gov/data/tools/panoply) Panoply is a cross-platform application that plots geo-referenced and other arrays from netCDF, HDF, GRIB, and other datasets.
-	- [TESViS](https://www.earthdata.nasa.gov/data/tools/tesvis) The Terrestrial Ecology Subsetting & Visualization Services Global Subsets Tool provides on-demand, customized subsets of several terrestrial ecology data products.
-
-- [ESA Climate Change Initiative - Land Surface Temperature](https://climate.esa.int/en/projects/land-surface-temperature/) - This ESA-funded project provides comprehensive global land surface temperature datasets derived from multiple satellite sensors (infrared and microwave) on both polar-orbiting and geostationary platforms. 
-
-- [Urban TEP](https://urban-tep.eu/#!) Focuses on urban heat and other urban phenomena, including surface temperature and urban heSara Aparício at island effects. UrbanTEP users can now seek for get sponsored access via the  [ESA Network of Resources (NoR) initiative](https://nor-discover.org/)
-
-#### Open data satellite missions:
-- [Copernicus Sentinel-3 satellite mission]() The Copernicus Sentinel-3 SLSTR (Sea and Land Surface Temperature Radiometer), offers day and night surface temperature data; useful for regional heatwave analysis and heatmaps. 
-	- Access data via the [Copernicus Data Space Ecosystem](https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel3.html)
-
-- [ECOSTRESS data](https://ecostress.jpl.nasa.gov/data/) -  The images acquired by ECOSTRESS are the most detailed temperature images of the surface ever acquired from space and can be used to measure the temperature of an individual farmers field. The ECOSTRESS radiometer has been deployed on International Space Station (ISS) on the Japanese Experiment Module - External Facility (JEM-EF) site 10. 
-	- ECOSTRESS data can be access at the [earthdata.nasa.gov](https://search.earthdata.nasa.gov/search?q=ecostress&ac=true).
-
-- [Copernicus Climate Change Monitoring Service (C3S) Heatwave Magnitude Index Daily (HWMId)]()
-
-- [Urban Heat Mapping with ECOSTRESS and Future LSTM Mission]()
-
+| **Name**                                      | **Type**          | **Agency / Provider** | **Description / Usage**                                                                                           |
+| --------------------------------------------- | ----------------- | --------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| **Copernicus Sentinel-3**                     | Satellite/Mission | ESA / Copernicus      | Provided land and sea surface temperature (LST) data during the 2025 European heatwave.                           |
+| **MODIS (on Terra)**                          | Satellite/Sensor  | NASA                  | Used to measure land cover, LST, and NDVI over time in Houston to analyze urban heat islands and vegetation loss. |
+| **VEDA**                                      | Platform / Tool   | NASA                  | Used for accessing and analyzing multi-decadal MODIS data, including LST and NDVI, to study urban heat trends.    |
+| **Copernicus Land Monitoring Service (CLMS)** | Dataset/Tool      | ESA / Copernicus      | Provides Local Climate Zone (LCZ) classifications used in urban climate modeling for the CLIM4cities project.     |
+| **EODashboard**                    | Platform / Web Tool      | EO Dashboard Consortium (ESA, NASA, JAXA) | Aggregates and visualizes multisource EO data in near real‑time—including precipitation, flood extents, and land‑surface anomalies. Enabling the interactive map tours and storytelling. |
 
 
 ### References
