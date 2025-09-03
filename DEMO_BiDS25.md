@@ -25,7 +25,7 @@ In March 2022, India experienced one of its most severe heatwaves on record. New
 GCOM-C satellite data shows how Delhi's concrete landscape creates "heat islands" - urban areas significantly warmer than surrounding rural regions. These temperature differences can exceed 5-8°C, turning the city into a furnace during heatwave conditions.
 
 
-## 1. The Air Quality
+## 2. The Air Quality
 In March 2022, India experienced one of its most severe heatwaves on record. New Delhi bore the brunt of this extreme weather event, with temperatures soaring above 45°C (113°F) for consecutive days.
 
 
@@ -42,3 +42,26 @@ TROPOMI satellite data reveals extremely high concentrations of nitrogen dioxide
 * **Urban emissions**: Vehicle exhaust and industrial activities added to the toxic mix
 
 The Data Story: The overlay of fire detection data with NO2 concentrations clearly shows the connection between agricultural burning and urban air pollution, demonstrating how regional practices directly impact city-dwellers' health.
+
+## 3. Economic Activity and Human Mobility
+
+Lights Out: COVID-19's Socio-Economic Impact
+When COVID-19 lockdowns hit Delhi in 2020, the city's nighttime lights dimmed dramatically - a clear indicator of reduced economic activity and human mobility.
+
+
+## Exploring cities <!--{ as="eox-map" mode="tour" }-->
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Urban"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-URBAN","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.9224951359818" center=[77.3150332431322,28.490762442253427] animationOptions={duration:500}}-->
+#### Delhi
+During Lockdown: April 2020
+The contrast is striking. Nighttime lights decreased by 20-30% across much of Delhi during the lockdown period, indicating:Reduced commercial activity: Shops, restaurants, and businesses closed Limited transportation: Fewer vehicles on roads meant less street lighting usage
+Changed residential patterns: People staying home, potentially using less electricity
+Socio-Economic Implications: This reduction in nighttime lights correlates with significant economic hardship, job losses, and changes in daily life patterns that affected millions of Delhi residents.
+
+## 4. Vulnerability and Urban Health
+
+Mapping Inequality: The Relative Deprivation Index
+Not all of Delhi's residents face these challenges equally. Areas with high population density often coincide with higher poverty rates, creating zones of extreme vulnerability to environmental and health stressors.
+
+## Exploring cities <!--{ as="eox-map" mode="tour" }-->
+
