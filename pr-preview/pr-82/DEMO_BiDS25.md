@@ -1,25 +1,23 @@
-# A Satellite Perspective on Urban Health: the case of New Delhi
-How Earth Observation data reveals the interconnected challenges facing one of the world's most populous cities
+# Urban Health: the case of New Delhi
+This story will show Earth observation data reveals the interconnected challenges facing one of the **world's most populous cities**. This analysis examines New Delhi through satellite-derived health and urban indicators, exploring four key indicators: **Population Density** (NASA),  **Heatwave Patterns** (JAXA/ESA), **Air Quality** (ESA), **Socio-Economic Activity** (NASA).
+
+A final indicato, the **Global Gridded Relative Deprivation Index (GRDI)** synthesizes these dimensions, showing how New Delhi's high density and elevated poverty rates amplify vulnerability to these interconnected health-related stressors.
  
-  
+
 
 #### 0. Setting the Scene: A City Under Stress
 
 ## Map Example <!--{ as="eox-map" mode="tour" }-->
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"population_density;:;b0e07ca0-ffc4-4e24-93a4-e5f54d13e440;:;population_density;:;EPSG:3857","title":"population_density"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["AWS_POPULATION_DENSITY"],"TILED":true,"TIME":"2020-05-01T01:00:00Z/2020-05-02T00:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="5.218874813028399" center=[73.68994240802607,21.201400963870427] projection="" animationOptions={duration:500}}-->
-#### New Delhi: home to over 30 million people 
-In its metropolitan area, represents **one of the world's most densely populated urban centers**. 
-This megacity faces a perfect storm of environmental and socio-economic challenges that directly impact public health. Through the lens of satellite data, we can observe how multiple stressors converge to create a complex urban health landscape.
+#### Population Densitiy:  The Foundation of Urban Vulnerability
+The **Gridded Population of the World** dataset, consists of estimates of human population density (number of persons per square kilometer). **High population density can act as a multiplier for other urban stressors**, since it creates a cascating effect: increased energy demand, higher pollution levels, greated strain on infrasctructure might lead to amplified vulnerability to environmental hazards. 
 
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"population_density;:;b0e07ca0-ffc4-4e24-93a4-e5f54d13e440;:;population_density;:;EPSG:3857","title":"population_density"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["AWS_POPULATION_DENSITY"],"TILED":true,"TIME":"2020-05-01T01:00:00Z/2020-05-02T00:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="9.401339389024082" center=[77.07719595752367,28.66129569622332] projection="" animationOptions={duration:500}}-->
 
 
-#### Population Densitiy:  The Foundation of Urban Vulnerability
-
-The satellite data reveals New Delhi's extreme population concentration, with some areas exceeding 30,000 people per square kilometer. This density creates cascading effects: increased energy demand, higher pollution levels, greater strain on infrastructure, and amplified vulnerability to environmental hazards.
-Key Insight: High population density acts as a multiplier for all other urban stressors, making environmental and health challenges more severe and widespread.
-
+#### New Delhi: home to over 30 million people 
+In its metropolitan area, represents **one of the world's most densely populated urban centers**.  The darked shade of this datasets, reveals New Delhi's extreme population concentration, (with some areas exceeding 30,000 people per square kilometer). 
 
 ## 1. The Heat Crisis
 In March 2022, India experienced one of its most severe heatwaves on record. New Delhi bore the brunt of this extreme weather event, with temperatures soaring above 45°C (113°F) for consecutive days.
