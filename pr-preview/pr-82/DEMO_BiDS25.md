@@ -48,8 +48,7 @@ GCOM-C satellite data shows how Delhi's concrete landscape creates "heat islands
 
 
 ## 2. The Air Quality
-In March 2022, India experienced one of its most severe heatwaves on record. New Delhi bore the brunt of this extreme weather event, with temperatures soaring above 45°C (113°F) for consecutive days.
-
+Delhi's air quality challenges represent a complex intersection of **urban pollution** and **regional environmental factors**. 
 
 
 ## Map Tour Example <!--{ as="eox-map" mode="tour" }-->
@@ -57,13 +56,28 @@ In March 2022, India experienced one of its most severe heatwaves on record. New
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"NO2_daily;:;9cc22158-1b1d-4b15-b0c7-a868e4288282;:;NO2_daily;:;EPSG:3857","title":"NO2_daily"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["AWS_NO2-VISUALISATION"],"TILED":true,"TIME":"2024-11-18T00:00:00Z/2024-11-18T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="5.6777895547601425" center=[80.02162874292893,19.096503146328843] projection="" animationOptions={duration:500}}-->
 
 #### The Perfect Storm of Pollution: November 18, 2024
-TROPOMI satellite data reveals extremely high concentrations of nitrogen dioxide (NO2) over Delhi during this period. The pollution spike resulted from multiple factors:
+Earth observing satellites like the **TROPOMI instrument** on the  are being used to map air pollution worldwide. One of the variables that it can provide information is on tropospheric **nitrogen dioxide (NO2)** which is linked to pollutant sectors such as **traffic and industrial activities**. 
 
-* **Massive crop burning**: Satellite fire maps show thousands of agricultural fires surrounding the city
-* **Weather patterns**: Calm winds and temperature inversions trapped pollutants close to the ground
-* **Urban emissions**: Vehicle exhaust and industrial activities added to the toxic mix
 
-The Data Story: The overlay of fire detection data with NO2 concentrations clearly shows the connection between agricultural burning and urban air pollution, demonstrating how regional practices directly impact city-dwellers' health.
+<center>
+<img src="https://github.com/eurodatacube/eodash-assets/blob/main/collections/N1_NO2/N1_NO2_legend.png?raw=true" width="400">
+
+</center>
+
+### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"NO2_daily;:;9cc22158-1b1d-4b15-b0c7-a868e4288282;:;NO2_daily;:;EPSG:3857","title":"NO2_daily"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["AWS_NO2-VISUALISATION"],"TILED":true,"TIME":"2024-11-18T00:00:00Z/2024-11-18T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="8.010646952488841" center=[76.27467813141472,28.104211017431737] projection="" animationOptions={duration:500}}-->
+#### November 2024: Recording breaking pollution in Dehli
+On November 18th, Dehli recorded  **pollution levels were more than 50 times higher** than the World Health Organization’s recommended safe limit, creating a public health emegency that forced school closures and esitrcted outdoor activities. In several areas of the city,
+<center>
+<img src="https://d3i6fh83elv35t.cloudfront.net/static/2024/11/2024-11-18T110820Z_218494839_RC2H7BA6CRTJ_RTRMADP_3_INDIA-POLLUTION-1024x683.jpg" width="400">
+	
+<span style="font-size:15px;">New Delhi, India, November 18, 2024. Credit: REUTERS/Anushree Fadnavis)</span>
+</center>
+
+
+
+Air pollution in northern India rises every year, particularly in winter, as farmers **burn crop residue in agricultural areas**. The burning coincides with colder temperatures, which trap the smoke in the air. The smoke is then blown into cities, where auto emissions add to the pollution.
+
+
 
 ## 3. Economic Activity and Human Mobility
 
