@@ -87,9 +87,19 @@ On November 18th, Dehli recorded  **pollution levels were more than 50 times hig
 <span style="font-size:15px;">New Delhi, India, November 18, 2024. Credit: REUTERS/Anushree Fadnavis)</span>
 </center>
 
+### <!--{ layers='[{ "type": "Group", "properties": { "id": "OverlayGroup", "title": "Overlay Layers" }, "layers": [ { "type": "Tile", "properties": { "id": "overlay_bright;:;EPSG:3857", "title": "Overlay labels" }, "source": { "type": "XYZ", "url": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png", "projection": "EPSG:3857" } } ] },{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;2023-06-01T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2023-11-20T00:00:00Z/2023-11-20T23:59:59Z"}},"visible":true}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="9.988858376400314" center=[76.52837601328282,28.362437026500317] projection="" animationOptions={duration:500}}-->
 
-
+#### Air polution sources
 Air pollution in northern India rises every year, particularly in winter, as farmers **burn crop residue in agricultural areas**. The burning coincides with colder temperatures, which trap the smoke in the air. The smoke is then blown into cities, where auto emissions add to the pollution.
+
+In this true color imagery from **Sentinel-2 (bands 4, 3, and 2 — red, green, and blue)** gives a view similar to what the human eye sees. While it's not specifically designed for detecting fires or crop burning, it allows to see the smoke coming from surrounding areas of New Dehli.
+
+<center>
+<img src="https://images.indianexpress.com/2017/10/crop-burning.jpg" width="400">
+	
+<span style="font-size:15px;">Delhi air pollution: A (crop) burning issue. Credit:  Express Photo -  Harmeet Sodhi)</span>
+</center>
+
 
 
 
