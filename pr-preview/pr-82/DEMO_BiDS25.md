@@ -1,4 +1,6 @@
-# Urban Health: the case of New Delhi
+# Urban Health: the case of New Delhi <!--{ as="img" data-fallback-src="" mode="hero" src="https://live.staticflickr.com/3600/3409479660_54cc371386_b.jpg" }-->
+### Satellite perspective provide urban health indicators <!--{ style="font-size:1rem;opacity:0.7;margin-top:1rem;" }-->
+# 
 This story will show Earth observation data reveals the interconnected challenges facing one of the **world's most populous cities**. This analysis examines New Delhi through satellite-derived health and urban indicators, exploring four key indicators: **Population Density** (NASA),  **Heatwave Patterns** (JAXA/ESA), **Air Quality** (ESA), **Socio-Economic Activity** (NASA).
 
 A final indicato, the **Global Gridded Relative Deprivation Index (GRDI)** synthesizes these dimensions, showing how New Delhi's high density and elevated poverty rates amplify vulnerability to these interconnected health-related stressors.
@@ -6,6 +8,8 @@ A final indicato, the **Global Gridded Relative Deprivation Index (GRDI)** synth
 
 
 #### 1. Setting the Scene: A City Under Stress 
+
+
 
 ## Map Example <!--{ as="eox-map" mode="tour" }-->
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"population_density;:;b0e07ca0-ffc4-4e24-93a4-e5f54d13e440;:;population_density;:;EPSG:3857","title":"population_density"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["AWS_POPULATION_DENSITY"],"TILED":true,"TIME":"2020-05-01T01:00:00Z/2020-05-02T00:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="5.218874813028399" center=[73.68994240802607,21.201400963870427] projection="" animationOptions={duration:500}}-->
@@ -122,6 +126,8 @@ What makes GRDI particularly valuable is its integration of **six distinct dimen
 In this context, New Delhi's remarkably high GRDI values (approaching 100) compared to surrounding areas present a fascinating case study of urban deprivation patterns. Despite being India's capital and a major economic center, New Delhi's high scores on this multidimensional index reveal the complex challenges facing megacities in the developing world.
 
 The elevated deprivation values likely reflect several converging factors: high child dependency ratios driven by dense populations and demographic transitions, infrastructure systems strained beyond capacity affecting health outcomes like infant mortality, and the paradoxical relationship between urbanization and human development indicators. 
+
+
 
 
 
