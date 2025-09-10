@@ -1,4 +1,4 @@
-# Urban Health: the case of New Delhi <!--{ as="img" data-fallback-src="" mode="hero" src="https://live.staticflickr.com/3600/3409479660_54cc371386_b.jpg" }-->
+# Urban Health and Megacities: the case of New Delhi <!--{ as="img" data-fallback-src="" mode="hero" src="https://live.staticflickr.com/3600/3409479660_54cc371386_b.jpg" }-->
 ### Satellite perspective provide urban health indicators <!--{ style="font-size:1rem;opacity:0.7;margin-top:1rem;" }-->
 # 
 This story will show Earth observation data reveals the interconnected challenges facing one of the **world's most populous cities**. This analysis examines New Delhi through satellite-derived health and urban indicators, exploring four key indicators: **Population Density** (NASA),  **Heatwave Patterns** (JAXA/ESA), **Air Quality** (ESA), **Socio-Economic Activity** (NASA).
