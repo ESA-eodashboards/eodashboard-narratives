@@ -1,5 +1,6 @@
-# El Niño 2023–2024: Flooding and Cyclone Impacts in East Africa Tracked from Space 
-
+# El Niño 2023–2024: Flooding and Cyclone Impacts in East Africa Tracked from Space <!--{ as="img" data-fallback-src="" mode="hero" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Flooding_in_Tamale%2C_Northern_Ghana.jpg" }-->
+###  <!--{ style="font-size:1rem;opacity:0.7;margin-top:1rem;" }-->
+## El Niño 2023–2024
 **The 2023–2024 El Niño has peaked as one of the five strongest on record. This story is Part 4 of a series on its global impacts. [Part 1](https://eodashboard.org/story?id=el-nino-extremes) explores rising land surface temperatures, [Part 2](https://eodashboard.org/story?id=sea-surface-temperature-rise) covers sea surface warming and marine heatwaves, and [Part 3](https://eodashboard.org/story/?id=el_nino_part_3_food_security) examines food security disruptions.**
  
 Whether you’re a farmer watching the skies, a family navigating flooded roads, or someone checking the weather from thousands of kilometers away, climate extremes affect us all. During the 2023–2024 El Niño, these extremes - heatwaves, storms, floods, and droughts - made headlines around the world.
@@ -8,6 +9,8 @@ What we may not see in those headlines is how these events are monitored in near
 
 This story explores the impacts of El Niño in East Africa, one of the regions hardest hit, using the lens of these open EO datasets, which include rainfall maps, flood extents, and river observations.
  
+
+
 ## El Niño 2023
 **A Global Climate Driver**
 
