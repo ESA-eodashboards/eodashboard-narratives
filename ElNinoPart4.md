@@ -22,8 +22,7 @@ This story explores the impacts of El Niño in East Africa, one of the regions h
  
 
 
-## El Niño 2023
-**A Global Climate Driver**
+### A Global Climate Driver
 
 El Niño is a climate phenomenon marked by warming sea surface temperatures in the central and eastern Pacific Ocean. These temperature changes alter global atmospheric circulation, disrupting weather systems across continents. The result is often a rise in extreme events, from heatwaves and marine heatwaves to droughts and food insecurity, floods, and powerful storms.
 Earth Observation satellites play a vital role in documenting El Niño impacts. Through their optical, radar, infrared, and microwave sensors, satellites reveal what can’t always be seen from eye level: how fast floodwaters rise, where crops fail, or how rainfall changes in real time.
@@ -38,14 +37,14 @@ Signs of anomaly were visible in EO data from multiple satellite missions: preci
 <figure style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/el_nino_part_3/el_nino_part_4_visual1.png?raw=true" alt="Horn of Africa (orthographic projection)" style="display: block; margin: 0 auto;" width="400"> <figcaption>   <a href="https://commons.wikimedia.org/w/index.php?curid=8990864" target="_blank"></a>. </figcaption> </figure> 
 
 
-## Satellite Observations
+### Satellite Observations
 
 By November 2023, heavy rains had tr iggered deadly flooding across Somalia, Kenya, Ethiopia, and Tanzania, displacing over one million people and resulting in more than 350 deaths [[2]]( https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl/index.html). The floods came on the heels of years of drought, compounding the region’s food insecurity [[3]](https://earthobservatory.nasa.gov/images/150712/worst-drought-on-record-parches-horn-of-africa).
 In some areas of Ethiopia, Somalia, and Kenya, rainfall totals were two to four times the seasonal average. This led to major rivers, such as the Shebelle River, overflowing and flooding towns like Beledweyne, Somalia. 
 
 
 
-## Map Tour Example <!--{ as="eox-map" mode="tour" }-->
+## Beledweyne Floodings <!--{ as="eox-map" mode="tour" }-->
 
 ### <!--{ layers='[{ "type": "Group", "properties": { "id": "OverlayGroup", "title": "Overlay Layers" }, "layers": [ { "type": "Tile", "properties": { "id": "overlay_bright;:;EPSG:3857", "title": "Overlay labels" }, "source": { "type": "XYZ", "url": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png", "projection": "EPSG:3857" } } ] },{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;2023-06-01T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2023-09-26T00:00:00Z/2023-09-26T23:59:59Z"}},"visible":true}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="13.901362010349746" center=[45.186886414511534,4.739628155214561] projection="" animationOptions={duration:500}}-->
 #### Beledweyne: image from 26 October 2023 
@@ -90,7 +89,7 @@ This **false color** image was made using data from Sentinel-2 satellite, combin
 
 
 
-## A Growing Toll
+### A Growing Toll
 
 In western Somalia, the Juba River also overtopped its banks, damaging roads and croplands in towns like Luuq and Baardheere, where a key bridge was swept away [[5]](https://www.faoswalim.org/resources/site_files/Somalia_Flood_Advisory_20_November_2023.pdf).
 To monitor such conditions, the University of California–Santa Barbara Clim ate Hazards Center uses near-real time analyses and forecasts from NASA’s Goddard Earth Observing System Subseasonal to Seasonal prediction system (GEOS-S2S). This system integrates EO data to track and predict rainfall and soil conditions in regions vulnerable to food insecurity [[6]](https://www.chc.ucsb.edu/), [[7]](https://gmao.gsfc.nasa.gov/gmao-products/).
@@ -239,7 +238,7 @@ This caused also severe flooding in Nsanje, a district in southern Malawi, share
 
 The ability to monitor floods and storms from space relies on collaboration among space agencies and open access to satellite data. Missions from ESA, NASA, and JAXA provide global datasets that measure rainfall, water extent, soil moisture, and surface conditions—critical for understanding events like those in East Africa.
 
-## Open Science <!--{ as="div" }-->
+##  <!--{ as="div" }-->
 
 ### Open Datasets and Satellite Missions Used in the Story
 
