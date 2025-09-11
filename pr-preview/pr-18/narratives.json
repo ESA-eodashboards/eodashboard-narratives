@@ -116,10 +116,15 @@
     "image": "https://www.eodashboard.org/data/story-images/8-wildfires.jpg"
   },
   {
+    "cover-image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Flooding_in_Tamale%2C_Northern_Ghana.jpg",
+    "date": "2025-01-01",
+    "theme": "oceans",
+    "tags": "algae,phytoplankton,marine",
+    "official": true,
     "file": "https://ESA-eodashboards.github.io/eodashboard-narratives/pr-preview/pr-18/el_nino_part_4.md",
-    "title": "El Niño 2023–2024: Flooding and Cyclone Impacts in East Africa Tracked from Space",
-    "subtitle": " ",
-    "image": ""
+    "title": " El Niño 2023–2024: Flooding and Cyclone Impacts in East Africa Tracked from Space",
+    "subtitle": "Example subtitle",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Flooding_in_Tamale%2C_Northern_Ghana.jpg"
   },
   {
     "cover-image": "https://eodashboard.org/data/story-images/1-EO_PIX_Ocean_COVER_Photo.jpeg",
