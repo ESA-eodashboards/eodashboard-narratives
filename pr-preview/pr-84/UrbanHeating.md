@@ -1,3 +1,14 @@
+
+---
+cover-image: https://i2.res.24o.it/images2010/S24/Documenti/2025/07/02/Immagini/Ritagli/esa-temp-U52063276275NdV-1440x752@IlSole24Ore-Web.jpg?r=810x425E
+date: 2025-01-01
+theme: extremes
+tags: extremes
+official: true
+---
+
+#  Urban heating  <!--{ as="img" mode="hero" src="https://i2.res.24o.it/images2010/S24/Documenti/2025/07/02/Immagini/Ritagli/esa-temp-U52063276275NdV-1440x752@IlSole24Ore-Web.jpg?r=810x425E" }-->
+### Read more about the Rising Heat Waves <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 # Urban heating 
 
 ## Rising Heat Waves
