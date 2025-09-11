@@ -1,12 +1,12 @@
 ---
-cover-image: https://www.eodashboard.org/data/story-images/A2019267212500.CalifornaiCoastalBloom.jpg
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/A2019267212500.CalifornaiCoastalBloom.jpg
 date: 2025-01-01
 theme: oceans
 tags: algae,phytoplankton,marine
 official: true
 ---
 
-#  Global warming and environmental pollution have led to a rise in the number and severity of HAB outbreaks <!--{ as="img" mode="hero" src="https://www.eodashboard.org/data/story-images/A2019267212500.CalifornaiCoastalBloom.jpg" }-->
+#  Global warming and environmental pollution have led to a rise in the number and severity of HAB outbreaks <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/A2019267212500.CalifornaiCoastalBloom.jpg" }-->
 ### Read more about how satellites track phytoplankton’s algal blooms and its impact on tourism and fisheries <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 #  Global warming and environmental pollution have led to a rise in the number and severity of HAB outbreaks
@@ -28,11 +28,10 @@ It is important to be able to identify and predict blooms. Industries like touri
 
 Satellite data and models can be combined with water samples to identify and eventually predict HAB occurrences to help us understand why they happen and to mitigate the effects.
 
-Aqua/MODIS collected this view of algal blooms along the central California coast on September 24, 2019:
-
-![algal blooms along the central California coast on September 24, 2019](https://www.eodashboard.org/data/story-images/A2019267212500.CalifornaiCoastalBloom.jpg)
+### Aqua/MODIS collected this view of algal blooms along the central California coast on September 24, 2019:
+![algal blooms along the central California coast on September 24, 2019](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/A2019267212500.CalifornaiCoastalBloom.jpg)
 
 ### Lake Erie Predicted bloom severity data to 2021-05-09
-![Lake Erie Predicted bloom severity data to 2021-05-09](https://www.eodashboard.org/data/story-images/NASA%20Ocean%20Fig%201.png)
+![Lake Erie Predicted bloom severity data to 2021-05-09](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/NASA%20Ocean%20Fig%201.png)
 ### HAB occurrence (days)
-![HABoccurrence](https://www.eodashboard.org/data/story-images/NASA%20Ocean%20Fig%202.png)
+![HABoccurrence](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/NASA%20Ocean%20Fig%202.png)
