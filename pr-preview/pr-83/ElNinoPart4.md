@@ -27,7 +27,7 @@ This story explores the impacts of El Niño in East Africa, one of the regions h
 El Niño is a climate phenomenon marked by warming sea surface temperatures in the central and eastern Pacific Ocean. These temperature changes alter global atmospheric circulation, disrupting weather systems across continents. The result is often a rise in extreme events, from heatwaves and marine heatwaves to droughts and food insecurity, floods, and powerful storms.
 Earth Observation satellites play a vital role in documenting El Niño impacts. Through their optical, radar, infrared, and microwave sensors, satellites reveal what can’t always be seen from eye level: how fast floodwaters rise, where crops fail, or how rainfall changes in real time.
  
-## Horn of Africa: Floods of 2023
+## Severe Impacts in the Horn of Africa
 **Rainfall Patterns and Climate Drivers**
 
 During the short rains season (October–December) of 2023, East Africa was hit by exceptional rainfall. This was due to the combined effects of El Niño and a positive Indian Ocean Dipole (IOD)—another ocean-atmosphere system that enhances rainfall over the region [[1]](https://www.icpac.net/fsnwg/special-report-el-ni%C3%B1o-and-positive-indian-ocean-dipole-to-have-significant-multi-sectoral-impacts-in-east-africa/).
