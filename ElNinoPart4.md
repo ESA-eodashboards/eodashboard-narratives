@@ -6,8 +6,8 @@ tags: extremes
 official: true
 ---
 
-#  El Niño 2023–2024 (Part 4): Floods and Cyclones in East Africa <!--{ as="img" mode="hero" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Flooding_in_Tamale%2C_Northern_Ghana.jpg" }-->
-### Read more about the Impacts of El Niño in East Africa landscape as seen from Space<!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+#  El Niño 2023–2024 (Part 4): Floods and Cyclone impacts in East Africa <!--{ as="img" mode="hero" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Flooding_in_Tamale%2C_Northern_Ghana.jpg" }-->
+### Read more about the observations of the severe impacts of El Niño in East Africa landscape <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
  
 
