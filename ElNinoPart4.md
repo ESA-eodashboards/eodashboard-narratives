@@ -100,7 +100,7 @@ In May 2024, new flooding and mudslides struck Burundi, Kenya, Rwanda, Somalia, 
 Flooding in the region also led to secondary impacts. Standing water, damaged sanita tion systems, and blocked roads contributed to outbreaks of waterborne diseases such as cholera, as well as mosquito- and flea-borne diseases including malaria, plague, and Rift Valley fever 
 [[10]](https://earthobservatory.nasa.gov/features/disease-vector),  [[11]](https://www.theguardian.com/environment/2023/aug/10/return-of-el-nino-raises-risk-of-hunger-drought-and-malaria-scientists-warn), [[12]](https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl).
 
-## Tracking Tropical Cyclone Freddy
+## Cyclone Freddy
 **A Record Storm Tracked from Space**
 
 Beyond rainfall, El Niño’s effects were also evident in the storm season. One of the most striking examples was Tropical Cyclone Freddy, which broke records for both longevity and impact [[13]](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024GL111964).
@@ -111,7 +111,7 @@ Freddy made landfall in Madagascar on 21 February 2023, then moved across the Mo
 <figure style="text-align: center;"> <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/151000/151065/tcfreddy_vir_2023067.jpg" alt="Cyclone Freddy" style="display: block; margin: 0 auto;"> <figcaption> SUOMI-NPP satellite view of Cyclone Freddy. <a href="https://eospso.nasa.gov/missions/suomi-national-polar-orbiting-partnership" target="_blank">NASA</a>. </figcaption> </figure> 
 
 
-## Cyclone Observations <!--{ as="eox-map" mode="tour" }-->
+## Tracking Cyclone and its impacts  <!--{ as="eox-map" mode="tour" }-->
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlaylabels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"customId"},"source":{"type":"XYZ","url":"https://sharaku.eorc.jaxa.jp/cgi-bin/trmm/GSMaP/tilemap/tile_rain.py?prod=rain&year=2023&month=2&day=21&hour=8&min=0&x={x}&y={-y}&z={z}"}},{"type":"Tile","properties":{"id":"Terrainlight"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]'zoom="5.036541747131764"center=[35.633378549999996,-18.82747120552102]}-->
 #### On 21 February 2023 Cyclone Freddy made landfall in Madagascar
 
