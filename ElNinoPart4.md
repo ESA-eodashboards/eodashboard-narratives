@@ -44,7 +44,7 @@ In some areas of Ethiopia, Somalia, and Kenya, rainfall totals were two to four 
 
 
 
-## Beledweyne Floodings <!--{ as="eox-map" mode="tour" }-->
+##  Flooding monitoring in Beledweyne<!--{ as="eox-map" mode="tour" }-->
 
 ### <!--{ layers='[{ "type": "Group", "properties": { "id": "OverlayGroup", "title": "Overlay Layers" }, "layers": [ { "type": "Tile", "properties": { "id": "overlay_bright;:;EPSG:3857", "title": "Overlay labels" }, "source": { "type": "XYZ", "url": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png", "projection": "EPSG:3857" } } ] },{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;2023-06-01T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2023-09-26T00:00:00Z/2023-09-26T23:59:59Z"}},"visible":true}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="13.901362010349746" center=[45.186886414511534,4.739628155214561] projection="" animationOptions={duration:500}}-->
 #### Beledweyne: image from 26 October 2023 
@@ -111,7 +111,7 @@ Freddy made landfall in Madagascar on 21 February 2023, then moved across the Mo
 <figure style="text-align: center;"> <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/151000/151065/tcfreddy_vir_2023067.jpg" alt="Cyclone Freddy" style="display: block; margin: 0 auto;"> <figcaption> SUOMI-NPP satellite view of Cyclone Freddy. <a href="https://eospso.nasa.gov/missions/suomi-national-polar-orbiting-partnership" target="_blank">NASA</a>. </figcaption> </figure> 
 
 
-## Tracking Cyclone and its impacts  <!--{ as="eox-map" mode="tour" }-->
+## Tracking Cyclone and its impacts in Mozambique  <!--{ as="eox-map" mode="tour" }-->
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlaylabels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"customId"},"source":{"type":"XYZ","url":"https://sharaku.eorc.jaxa.jp/cgi-bin/trmm/GSMaP/tilemap/tile_rain.py?prod=rain&year=2023&month=2&day=21&hour=8&min=0&x={x}&y={-y}&z={z}"}},{"type":"Tile","properties":{"id":"Terrainlight"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]'zoom="5.036541747131764"center=[35.633378549999996,-18.82747120552102]}-->
 #### On 21 February 2023 Cyclone Freddy made landfall in Madagascar
 
