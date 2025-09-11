@@ -1,13 +1,14 @@
 ---
-cover-image: https://upload.wikimedia.org/wikipedia/commons/0/0b/Flooding_in_Tamale%2C_Northern_Ghana.jpg
+cover-image: https://some.image.jpg
 date: 2025-01-01
 theme: oceans
 tags: algae,phytoplankton,marine
 official: true
 ---
 
-#  El Niño 2023–2024: Flooding and Cyclone Impacts in East Africa Tracked from Space <!--{ as="img" mode="hero" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Flooding_in_Tamale%2C_Northern_Ghana.jpg" }-->
+#  Example global title <!--{ as="img" mode="hero" src="https://some.image.jpg" }-->
 ### Example subtitle <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+
 
 
 ## El Niño 2023–2024
