@@ -22,12 +22,12 @@ jobs:
           python-version: '3.x'
 
       - name: Install Dependencies
-        run: pip install markdown pyaml
+        run: pip install markdown pyaml pillow requests
 
       - name: Extract Metadata
         run: |
           mkdir -p output
-          python .github/extract_metadata.py "https://esa-eodash.github.io/eodashboard-narratives/"
+          python .github/extract_metadata.py "https://ESA-eodashboards.github.io/eodashboard-narratives/"
           cp *.md output
           touch output/.nojekyll
 

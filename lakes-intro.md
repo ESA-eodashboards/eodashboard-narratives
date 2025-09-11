@@ -1,15 +1,15 @@
 ---
-cover-image: https://eodashboard.org/data/story-images/lakes_cover.jpg
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/lakes_cover.jpg
 date: 2025-01-01
 theme: oceans
 tags: pollution,lakes,water
 official: true
 ---
 
-#  Troubled Waters: Unraveling the Impacts of Climate Change on Inland Waters <!--{ as="img" mode="hero" src="https://eodashboard.org/data/story-images/lakes_cover.jpg" }-->
+#  Troubled Waters: Unraveling the Impacts of Climate Change on Inland Waters <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/lakes_cover.jpg" }-->
 ### Read more about how Air Pollution affects Climate Change <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
-# Impacts of climate on inland water
+## Impacts of climate on inland water
 
 Inland surface water habitats are non-coastal above-ground open fresh or brackish waterbodies (e.g. rivers, streams, lakes and pools, springs), including their littoral zones [1]. With sustainable management practices, these water resources provide essential services such as food production, flood regulation and water purification [2,3] for the wellbeing of both urban and rural communities. Climate change and anthropogenic actions put multiple pressures on these sources of water, with far-reaching consequences ultimately affecting the health of humans and animals. Satellite remote sensing offers effective ways to monitor these impacts and understand the risks of reaching ‘tipping points’: a critical threshold where a small change in a certain condition can lead to large (and often irreversible) shift in the system. Earth observation satellites from ESA [4-6], NASA [7,8], and JAXA [9] allow scientists to have a clear view on different variables characterising inland water bodies including:
 
@@ -51,18 +51,18 @@ Researchers at NASA, the European Space Agency (ESA) and the Japan Aerospace Exp
 - [15] [SMOS L1 and L2 Science data](https://earth.esa.int/eogateway/catalog/smos-science-products)
 - [16] [Aquarius Mission Overview](https://www.nasa.gov/mission_pages/aquarius/overview/index.html)
 
-## Read More
+### Read More
 
 - [California's Lake Oroville hits 100% capacity](https://www.esa.int/ESA_Multimedia/Images/2023/06/California_s_Lake_Oroville_hits_100_capacity)
 - [Severe heatwaves putting lakes in hot water](https://www.esa.int/Applications/Observing_the_Earth/Space_for_our_climate/Severe_heatwaves_putting_lakes_in_hot_water)
 
-## Work with Inland Water Data in the Euro Data Cube
+## Jupyter Notebook
 
 Earth Observations, Essential Climate Variables, Environmental and other geospatial data are available in the [Euro Data Cube (EDC)](https://eurodatacube.com/).
 
 This Notebook illustrates how to access such datasets in EDC. To execute this notebook, an account on EDC is required. Sponsored access is made available by ESA through the [Network of Resources](https://nor-discover.org/).
 
-<iframe width="100%" height="50%" style="min-height: 70vh" src="https://igarss2023-nbviewer.hub.eox.at/localfile/igarss2023/notebooks/Inland_water_with_EDC.ipynb?format=html_plain" frameborder="0"></iframe>
+<iframe width="100%" height="50%" style="min-height: 70vh" src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/inland-water-with-edc" frameborder="0"></iframe>
 
 
 
