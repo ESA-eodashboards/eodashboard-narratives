@@ -54,22 +54,24 @@ Urban heat represents one of the most direct and deadly threats to public health
 
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"WebGLTile","source":{"type":"GeoTIFF","normalize":false,"interpolate":false,"sources":[{"url":"https://s3.ap-northeast-1.wasabisys.com/je-pds/cog/v1/JAXA.G-Portal_GCOM-C.SGLI_standard.L3-LST.daytime.v3_global_monthly/2024-07/1/E000.00-E090.00/E000.00-N00.00-E090.00-N90.00-LST.tiff"}]},"properties":{"id":"GCOM_global_monthly;:;2024-07-01T00:00:00Z;:;0","title":"GCOM"},"style":{"color":["case",[">",["band",1],0],["interpolate",["linear"],["/",["-",["band",1],15000],["-",17000,15000]],0,[13,8,135,1],0.1,[75,3,161,1],0.2,[125,3,168,1],0.3,[168,34,150,1],0.4,[203,70,121,1],0.5,[229,107,93,1],0.6,[248,148,65,1],0.7,[253,195,40,1],0.8,[240,249,33,1],1,[240,249,33,1]],["color",0,0,0,0]]}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="9.389550914375219" center=[76.6932693292333,28.470907278677743] projection="" animationOptions={duration:500}}-->
-#### June 2024: 
-In June 2024, India experienced one of its most and longest severe heatwaves on record. New Delhi bore the brunt of this extreme weather event, with temperatures soaring above 45°C.
+#### June 2024: recording-breaking temperatures
+In June 2024, India experienced one of its most and longest severe heatwaves on record. The heat wave occurred during the Indian dry season, which typically lasts from March to July, with peak temperatures in April and May.
+
+<center>
+<img src="https://th-i.thgim.com/public/incoming/ifa6rc/article68228316.ece/alternates/LANDSCAPE_1200/07_Standalone_Hot_Weather_Mirage_29_05_Delhi.jpg" width="400">
+	
+<span style="font-size:15px;">A mirage appears on Kartavya Path on a hot in the Capital on May 29, 2024. Photo Credit: [SHIV KUMAR PUSHPAKAR](https://www.thehindu.com/news/cities/Delhi/delhi-breaches-8300-mw-first-time-ever-as-heatwave-sends-power-demand-soaring/article68228263.ece)</span>
+</center>
 
 
+New Delhi bore the brunt of this extreme weather event, with temperatures soaring above 45°C. The extreme summer heat in Delhi pushed its peak power demand to an all-time high of 8,302 MW on Wednesday afternoon, officials said. This shows how extreme temperatures sharply increase urban energy demand while simultaneously posing serious risks to public health.
 
 
-
-
-
-
-
-## 3. Air Quality
+## Air Quality
 Delhi's air quality challenges represent a complex intersection of **urban pollution** and **regional environmental factors**. 
 
 
-## Map Tour Example <!--{ as="eox-map" mode="tour" }-->
+## Air Quality <!--{ as="eox-map" mode="tour" }-->
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"NO2_daily;:;9cc22158-1b1d-4b15-b0c7-a868e4288282;:;NO2_daily;:;EPSG:3857","title":"NO2_daily"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["AWS_NO2-VISUALISATION"],"TILED":true,"TIME":"2024-11-18T00:00:00Z/2024-11-18T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="5.6777895547601425" center=[80.02162874292893,19.096503146328843] projection="" animationOptions={duration:500}}-->
 
