@@ -1,12 +1,11 @@
 # Urban Health and Megacities: the case of New Delhi <!--{ as="img" data-fallback-src="" mode="hero" src="https://live.staticflickr.com/3600/3409479660_54cc371386_b.jpg" }-->
 ### Satellite perspective provide urban health indicators <!--{ style="font-size:1rem;opacity:0.7;margin-top:1rem;" }-->
 # 
-New Delhi, home to more than 30 million people, is one of the **most densely populated urban centers on Earth**. Like many megacities, it faces numerous challenges that threatens the health and well-being of the residents. 
+New Delhi, home to more than 30 million people, is one of the most **densely populated urban centers on Earth**. Like many megacities, it faces numerous challenges that threaten the health and well-being of its residents.
 
-Satellite observations, combined with ground-based and socio-econmic data, allow to monitor these challenges, providing scientis with better insights and indicators on the urban health. This story explore key dimensions, using data from three Space agencies: ESA, NASA and JAXA, allowing to measure, monitor the city's vulnerability to heat, hazardous air and the cascading risks of living in a megacity under strain.
+By combining satellite observations with ground-based and socio-economic data, researchers can track these challenges across key dimensions of urban health. This story draws on open data and tools from three space agencies—ESA, NASA, and JAXA—to measure and monitor the city’s vulnerability to extreme heat, hazardous air, and the cascading risks of life in a megacity under strain.
 
-
-#### 1. Setting the Scene: A City Under Stress 
+#### Setting the Scene: A City Under Stress 
 
 
 
