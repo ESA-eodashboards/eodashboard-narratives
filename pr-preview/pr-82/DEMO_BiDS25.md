@@ -182,3 +182,22 @@ The elevated deprivation values likely reflect several converging factors: high 
 
   
 
+
+## Open Science
+**Supporting Urban Health Monitoring**
+
+## <!--{ as="div" }--> ### Open Datasets and Satellite Missions Used in the Story
+The ability to track extreme heat, hazardous air, human activity, and deprivation in megacities like New Delhi depends on open access to global satellite datasets and socio-economic indicators. Missions and datasets from ESA, NASA, JAXA, and open research consortia provide the information needed to monitor risks and resilience in urban environments.
+
+| **Name**                                                | **Type**            | **Agency / Provider**                     | **Description / Usage**                                                                                                                        |
+| ------------------------------------------------------- | ------------------- | ----------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Gridded Population of the World (GPW)**               | Dataset             | NASA SEDAC                                | High-resolution population density estimates (persons/km²); used to map New Delhi’s extreme population concentrations.                         |
+| **GCOM-C (SGLI Land Surface Temperature)**              | Satellite/Mission   | JAXA                                      | Provides land surface temperature (LST); used to analyze Delhi’s record-breaking June 2024 heatwave.                                           |
+| **Sentinel-5P (TROPOMI)**                               | Satellite/Mission   | ESA                                       | Measures atmospheric pollution, including NO₂; used to monitor Delhi and Gurugram’s severe air quality in late 2024.                           |
+| **Sentinel-2**                                          | Satellite/Mission   | ESA / Copernicus                          | Optical true-color imagery (RGB bands); used to observe smoke plumes from crop burning near Delhi.                                             |
+| **SUOMI-NPP (VIIRS Nighttime Lights)**                  | Satellite/Mission   | NASA / NOAA                               | Captures nighttime light intensity; used to assess urban activity changes during the COVID-19 lockdown in Delhi.                               |
+| **Global Gridded Relative Deprivation Index (GRDI v1)** | Dataset             | World Bank & partners (hosted on VEDA)    | Multidimensional poverty index (0–100); integrates health, demographics, urbanization, and economic proxies; used to map deprivation in Delhi. |
+| **OpenStreetMap (OSM)**                                 | Dataset/Tool        | Open-source                               | Used for base map overlays in urban visualization.                                                                                             |
+| **EO Dashboard / EOxCloudless**                         | Platform / Web Tool | EO Dashboard Consortium (ESA, NASA, JAXA) | Provides base layers and visualization tools for interactive storytelling of urban health indicators.                                          |
+
+
