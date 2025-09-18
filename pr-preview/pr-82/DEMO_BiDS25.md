@@ -23,7 +23,7 @@ The image shows the  **Gridded Population of the World** dataset, consisting of 
 
 
 #### New Delhi: A Megacity of 30 Million 
-In its metropolitan area, represents **one of the world's most densely populated urban centers**.  The darked shade of this datasets, reveals New Delhi's extreme population concentration, (with some areas exceeding 10000 people per square kilometer). 
+In its metropolitan area, New Delhi is among the planet’s most crowded metropolitan regions. The darker shades in this dataset reveal the city’s extreme population concentration, with some areas exceeding 10,000 people per square kilometer.
 
 <center>
 <img src="https://images.pexels.com/photos/25469898/pexels-photo-25469898/free-photo-of-crowd-on-street-in-delhi-in-india.jpeg" width="400">
