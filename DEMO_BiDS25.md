@@ -121,19 +121,20 @@ In this true color imagery from **Sentinel-2** (bands 4, 3, and 2 — red, green
 
 #
 
-A city's **nightime lights**, can offer a reliable proxy for economic activity, population density and energy consuption. In global scale events, such as the COVID-19, lockdwon measures imposed worldwide affected human activities, which can be another element of pressure on the dyncamis of a city population. 
+A city's **nighttime lights** can offer a reliable proxy for economic activity, population density, and energy consumption. During global-scale events, such as COVID-19, lockdown measures imposed worldwide affected human activities, adding another element of pressure on the dynamics of a city's population.
 
 ## Human Activity <!--{ as="eox-map" mode="tour" }-->
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Urban"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-URBAN","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.9224951359818" center=[77.3150332431322,28.490762442253427] animationOptions={duration:500}}-->
 
 #### Delhi in Lockdown
-The **Nighttime Light Urban (NLTU)** dataset, derived fom Suomi NPP sallite observations,  captures the intensity of artificial lighting across urban areas—a reliable proxy for economic activity, population density, and energy consumption. 
-This colors represented in the dataset could be interpretated the following way: **pink, red and yellow** correspond to areas where a decrease in nighttime light level occurred (indicating a presumed reduction in social activity), **green, violet and blue** are areas where an increase occurred (indicating a presumed increase in social activity), and **white areas** correspond to apparent no changes.
+The **Nighttime Light Urban (NLTU)** dataset, derived from Suomi NPP satellite observations operated jointly by NASA and the National Oceanic and Atmospheric Administration (NOAA), captures the intensity of artificial lighting across urban areas—a reliable proxy for economic activity, population density, and energy consumption.
 
-In 2020, the city's nighttime **lights dimmed dramatically**. Nighttime lights decreased by **20-30%** across much of Delhi during the lockdown period, potentially indicating: reduced commercial activity like shops, restaurants, and businesses closed. However, in some residential patterns, in the outskirs, could indicate people staying home.
+The colors represented in the dataset can be interpreted as follows: **pink, red, and yellow** correspond to areas where a decrease in nighttime light levels occurred (indicating a **presumed reduction in social activity**), **green, violet, and blue** represent areas where an increase occurred (indicating a **presumed rise in social activity**), and white areas correspond to apparent stability, with no significant changes.
 
-The decrease of activity could be linked to significant economic hardship, job losses, and changes in daily life patterns that affected millions of Delhi residents.
+In 2020, the city’s nighttime lights dimmed dramatically. Nighttime light levels decreased by 20–30% across much of Delhi during the lockdown period, potentially reflecting reduced commercial activity as shops, restaurants, and businesses closed. However, in some residential areas on the outskirts, the observed patterns may reflect people staying home.
+
+This decline in activity could be linked to significant economic hardship, widespread job losses, and changes in daily life that affected millions of Delhi residents.
 
 # 
 Vulnerability and Urban Health
