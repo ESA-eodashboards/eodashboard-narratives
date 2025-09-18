@@ -1,10 +1,9 @@
 # Urban Health and Megacities: the case of New Delhi <!--{ as="img" data-fallback-src="" mode="hero" src="https://live.staticflickr.com/3600/3409479660_54cc371386_b.jpg" }-->
 ### Satellite perspective provide urban health indicators <!--{ style="font-size:1rem;opacity:0.7;margin-top:1rem;" }-->
 # 
-This story will show Earth observation data reveals the interconnected challenges facing one of the **world's most populous cities**. This analysis examines New Delhi through satellite-derived health and urban indicators, exploring four key indicators: **Population Density** (NASA),  **Heatwave Patterns** (JAXA/ESA), **Air Quality** (ESA), **Socio-Economic Activity** (NASA).
+New Delhi, home to more than 30 million people, is one of the **most densely populated urban centers on Earth**. Like many megacities, it faces numerous challenges that threatens the health and well-being of the residents. 
 
-A final indicato, the **Global Gridded Relative Deprivation Index (GRDI)** synthesizes these dimensions, showing how New Delhi's high density and elevated poverty rates amplify vulnerability to these interconnected health-related stressors.
-  
+Satellite observations, combined with ground-based and socio-econmic data, allow to monitor these challenges, providing scientis with better insights and indicators on the urban health. This story explore key dimensions, using data from three Space agencies: ESA, NASA and JAXA, allowing to measure, monitor the city's vulnerability to heat, hazardous air and the cascading risks of living in a megacity under strain.
 
 
 #### 1. Setting the Scene: A City Under Stress 
