@@ -35,9 +35,7 @@ In its metropolitan area, New Delhi is among the planet’s most crowded metropo
 
 
 
-
-
-## Record-breaking temperatures
+# 
 Urban heat represents one of the most direct and deadly threats to public health in megacities like Delhi. Unlike other environmental stressors that may take years to manifest their health effects, extreme heat kills within hours—making it a silent but immediate danger for Delhi's 30+ million residents.
 
 
@@ -67,8 +65,8 @@ In June 2024, India experienced one of its most severe and longest heatwaves on 
 New Delhi bore the brunt of this extreme weather event, with temperatures soaring above 45°C. The extreme summer heat in Delhi pushed its peak power demand to an all-time high of 8,302 MW on Wednesday afternoon, officials said. This demonstrates how extreme temperatures sharply increase urban energy demand while simultaneously posing serious risks to public health.
 
 
-## Air Quality
-Delhi's air quality challenges represent a complex intersection of **urban pollution** and **regional environmental factors**. 
+# 
+Delhi's **air quality** challenges represent a complex intersection of **urban pollution** and **regional environmental factors**. 
 
 
 ## Air Quality <!--{ as="eox-map" mode="tour" }-->
@@ -122,11 +120,11 @@ In this true color imagery from **Sentinel-2 (bands 4, 3, and 2 — red, green, 
 
 
 
-## 3. Economic Activity and Human Mobility
+#
 
-A city's nightime lights, can offer a reliable proxy for economic activity, population density and energy consuption. In global scale events, such as the COVID-19, lockdwon measures imposed worldwide affected human activities, which can be another element of pressure on the dyncamis of a city population. 
+A city's **nightime lights**, can offer a reliable proxy for economic activity, population density and energy consuption. In global scale events, such as the COVID-19, lockdwon measures imposed worldwide affected human activities, which can be another element of pressure on the dyncamis of a city population. 
 
-## Exploring cities <!--{ as="eox-map" mode="tour" }-->
+## Human Activity <!--{ as="eox-map" mode="tour" }-->
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"JAXA_Nighttimelevel_Urban"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"JAXA-NIGHTTIMELEVEL-URBAN","styles":"","format":"image/png","time":"2019-01-01T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="9.9224951359818" center=[77.3150332431322,28.490762442253427] animationOptions={duration:500}}-->
 
