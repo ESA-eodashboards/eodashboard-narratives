@@ -10,7 +10,7 @@ By combining satellite observations with ground-based and socio-economic data, r
 #### The weight of numbers: crowded reality
 **High population density can act as a multiplier for other urban stressors**, creating a cascading effect: increased energy demand, higher pollution levels, and greater strain on infrastructure can all lead to amplified vulnerability to environmental hazards.
 
-The image shows the  **Gridded Population of the World** dataset, consisting of estimates of human population density (number of persons per square kilometer). This dataset, developed by  is like a **high-resolution heatmap of humanity**: it helps not only to see *how many people* leave on Earth, but also *where they are*.  
+The image shows the  **Gridded Population of the World (GPW)** dataset, consisting of estimates of human population density (number of persons per square kilometer). This dataset, developed by  is like a **high-resolution heatmap of humanity**: it helps not only to see *how many people* leave on Earth, but also *where they are*.  
 
 <center>
 <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NASAPopulation/NASAPopulation_legend.png" width="400">
@@ -23,7 +23,7 @@ The image shows the  **Gridded Population of the World** dataset, consisting of 
 
 
 #### New Delhi: A Megacity of 30 Million 
-In its metropolitan area, New Delhi is among the planet’s most crowded metropolitan regions. The darker shades in this dataset reveal the city’s extreme population concentration, with some areas exceeding 10,000 people per square kilometer.
+In its metropolitan area, New Delhi is among the planet’s most crowded metropolitan regions. The darker shades from GWP dataset reveal the city’s extreme population concentration, with areas exceeding 10,000 people per square kilometer.
 
 <center>
 <img src="https://images.pexels.com/photos/25469898/pexels-photo-25469898/free-photo-of-crowd-on-street-in-delhi-in-india.jpeg" width="400">
