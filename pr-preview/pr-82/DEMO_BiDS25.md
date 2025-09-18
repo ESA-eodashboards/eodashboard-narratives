@@ -10,7 +10,7 @@ By combining satellite observations with ground-based and socio-economic data, r
 #### The weight of numbers: crowded reality
 **High population density can act as a multiplier for other urban stressors**, since it creates a cascating effect: increased energy demand, higher pollution levels, greated strain on infrasctructure might lead to amplified vulnerability to environmental hazards.  
 
-The image shows the  **Gridded Population of the World** dataset, consists of estimates of human population density (number of persons per square kilometer). 
+The image shows the  **Gridded Population of the World** dataset, consisting of estimates of human population density (number of persons per square kilometer). This dataset, developed by NASA & >>> is like a **high-resolution heatmap of humanity**: it helps not only to see *how many people* leave on Earth, but also *where they are*.  
 
 <center>
 <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/NASAPopulation/NASAPopulation_legend.png" width="400">
