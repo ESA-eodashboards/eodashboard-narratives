@@ -84,7 +84,7 @@ Earth-observing satellites like the **TROPOMI** instrument on the **Sentinel-5P 
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"NO2_daily;:;9cc22158-1b1d-4b15-b0c7-a868e4288282;:;NO2_daily;:;EPSG:3857","title":"NO2_daily"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["AWS_NO2-VISUALISATION"],"TILED":true,"TIME":"2024-11-18T00:00:00Z/2024-11-18T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="8.010646952488841" center=[76.27467813141472,28.104211017431737] projection="" animationOptions={duration:500}}-->
 #### November 2024: Recording breaking pollution in Dehli
-On November 18th, Delhi recorded pollution levels more than 50 times higher than the World Health Organization’s recommended safe limit, creating a public health emergency that forced school closures and restricted outdoor activities. In several areas of the city, residents wore masks outdoors and authorities issued health advisories.
+On November 18th, Delhi recorded pollution levels **more than 50 times higher** than the World Health Organization’s recommended safe limit, creating a public health emergency that forced school closures and restricted outdoor activities. In several areas of the city, residents wore masks outdoors and authorities issued health advisories.
 
 <center> <img src="https://d3i6fh83elv35t.cloudfront.net/static/2024/11/2024-11-18T110820Z_218494839_RC2H7BA6CRTJ_RTRMADP_3_INDIA-POLLUTION-1024x683.jpg" width="400">
 
@@ -94,11 +94,18 @@ On November 18th, Delhi recorded pollution levels more than 50 times higher than
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"NO2_daily;:;4d82f040-8a45-42a0-9a50-f697b71b6890;:;NO2_daily;:;EPSG:3857","title":"NO2_daily"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["AWS_NO2-VISUALISATION"],"TILED":true,"TIME":"2024-12-30T00:00:00Z/2024-12-30T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="9.886748420127219" center=[76.9451509006783,28.464743066069005] projection="" animationOptions={duration:500}}-->
 #### December 2024: Gurugram 
-In the city of Gurugram, located just southwest of New Delhi and part of the National Capital Region, high-density residential and industrial zones contribute to significant local emissions. As a result, it also experienced a pronounced peak in NO2 concentrations the following month, mirroring the severe pollution trends observed in the capital.
+In the city of Gurugram, located just southwest of New Delhi and part of the National Capital Region, high-density residential and industrial zones contribute to significant local emissions. 
 
-<center> <img src="https://assets.publishing.service.gov.uk/media/685a672e6e0a19f50feca7e2/fig02_nitrogen_dioxide_road_hours_above_moderate.jpg" width="400">
+<center>
+<img src="https://github.com/eurodatacube/eodash-assets/blob/main/collections/N1_NO2/N1_NO2_legend.png?raw=true" width="400">
 
-<span style="font-size:15px;"> PLACEHOLDE GRAPH</span>
+</center>
+
+In December, the city experienced a pronounced peak in NO2 concentrations, mirroring the severe pollution trends observed in the capital  the previous month.
+
+<center> <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-6/stories/DEMO_BiDS25/Screenshot%202025-09-17%20155021.jpg?raw=true" width="400">
+
+<span style="font-size:15px;"> NO2 Concentrations in Gurugram city</span>
 
 </center>
 
@@ -107,14 +114,15 @@ In the city of Gurugram, located just southwest of New Delhi and part of the Nat
 ### <!--{ layers='[{ "type": "Group", "properties": { "id": "OverlayGroup", "title": "Overlay Layers" }, "layers": [ { "type": "Tile", "properties": { "id": "overlay_bright;:;EPSG:3857", "title": "Overlay labels" }, "source": { "type": "XYZ", "url": "//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png", "projection": "EPSG:3857" } } ] },{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Balaton;:;2023-06-01T00:00:00Z;:;Lakes_S2L2A;:;EPSG:3857","title":"Lakes_S2L2A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2024-11-20T00:00:00Z/2024-12-19T23:59:59Z"}},"visible":true}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]}]' zoom="13.124544090347598" center=[76.75465522601512,28.07212891153435] projection="" animationOptions={duration:500}}-->
 
 #### Pollution sources
-Air pollution in northern India rises every year, particularly in winter, as farmers burn crop residue in agricultural areas. The burning coincides with colder temperatures, which trap the smoke in the air. The smoke is then blown into cities, where auto emissions add to the pollution. Specifically for NO2, the main sources are mainly human-made, with the combustion of fossil fuels in vehicles, power plants, and industrial processes being the largest contributors.
-
-In this true color imagery from **Sentinel-2** (bands 4, 3, and 2 — red, green, and blue; operated by the European Space Agency, ESA), the view is similar to what the human eye sees. While it is not specifically designed for detecting fires, crop burning, or measuring specific gases, it allows observation of smoke plumes coming from surrounding areas of New Delhi. **Despite what Sentinel-2 shows, one cannot determine the exact type of gas or confidently trace its source**.
+Air pollution in northern India rises every year, particularly in winter, as farmers burn crop residue in agricultural areas. The burning coincides with colder temperatures, which trap the smoke in the air. The smoke is then blown into cities, where auto emissions add to the pollution. 
 <center>
 <img src="https://images.indianexpress.com/2017/10/crop-burning.jpg" width="400">
 	
 <span style="font-size:15px;">Delhi air pollution: A (crop) burning issue. Credit:  Express Photo -  Harmeet Sodhi)</span>
 </center>
+
+
+For NO2, the main sources are mainly human-made, with the combustion of fossil fuels in vehicles, power plants, and industrial processes being the largest contributors. In this true color imagery from **Sentinel-2** (bands 4, 3, and 2 — red, green, and blue; operated by the European Space Agency, ESA), the view is similar to what the human eye sees. While it is not specifically designed for detecting fires, crop burning, or measuring specific gases, it allows observation of smoke plumes coming from surrounding areas of New Delhi. **Despite what Sentinel-2 shows, one cannot determine the exact type of gas or confidently trace its source**.
 
 
 
@@ -131,6 +139,13 @@ A city's **nighttime lights** can offer a reliable proxy for economic activity, 
 The **Nighttime Light Urban (NLTU)** dataset, derived from Suomi NPP satellite observations operated jointly by NASA and the National Oceanic and Atmospheric Administration (NOAA), captures the intensity of artificial lighting across urban areas—a reliable proxy for economic activity, population density, and energy consumption.
 
 The colors represented in the dataset can be interpreted as follows: **pink, red, and yellow** correspond to areas where a decrease in nighttime light levels occurred (indicating a **presumed reduction in social activity**), **green, violet, and blue** represent areas where an increase occurred (indicating a **presumed rise in social activity**), and white areas correspond to apparent stability, with no significant changes.
+
+<center> <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-6/stories/DEMO_BiDS25/nightime_legend.png?raw=true" width="400">
+
+<span style="font-size:15px;"> City's activity</span>
+
+</center>
+
 
 In 2020, the city’s nighttime lights dimmed dramatically. Nighttime light levels decreased by 20–30% across much of Delhi during the lockdown period, potentially reflecting reduced commercial activity as shops, restaurants, and businesses closed. However, in some residential areas on the outskirts, the observed patterns may reflect people staying home.
 
