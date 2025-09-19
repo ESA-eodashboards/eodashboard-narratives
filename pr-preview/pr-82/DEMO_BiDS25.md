@@ -149,7 +149,10 @@ The heart of the city, however, shown in **white**, may represent unchanged acti
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"grdi-vnl-slope-raster;:;povmap-grdi-v1_VNL-slope_2012-01-01_2020-12-31;:;grdi-vnl-slope-raster;:;EPSG:3857","title":"grdi-vnl-slope-raster"},"source":{"type":"XYZ","url":"https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/grdi-vnl-slope-raster/povmap-grdi-v1_VNL-slope_2012-01-01_2020-12-31.tif&resampling_method=nearest&bidx=1&colormap_name=viridis&rescale=0.0,100.0","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="9.9224951359818" center=[77.3150332431322,28.490762442253427] projection="" animationOptions={duration:500}}-->
 #### Nighttime lights patterns a link to poverty?
 Also based on Visibile Nighttime Lights (VNL) data, but for a longer period of time, from 2012 and 2020, researchers at NASA Socioeconomic Data and Applications Center (SEDAC). calculated a linear regression slope for each area (the VNL slope) and used it as a measure of change in nighttime brightness over time. Higher slope values, indicating **increasing brightness, were interpreted as signs of decreasing deprivation**, while lower or negative slope values, indicating decreasing brightness, were taken as signs of **increasing deprivation**. This VNL slope forms one of six key indicators used to create a groundbreaking global index of poverty and deprivation across the world.
+<center> <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-6/stories/DEMO_BiDS25/vnl%20slope.png?raw=true" width="400">
 
+</center>
+ 
 
 #
 Mapping inequality:  a groundbreaking approach to mapping multidimensional poverty and deprivation: the **Global Gridded Relative Deprivation Index (GRDI) Version 1**.
@@ -161,6 +164,11 @@ Mapping inequality:  a groundbreaking approach to mapping multidimensional pover
 #### The Global Gridded Relative Deprivation Index (GRDI)
  The Global Gridded Relative Deprivation Index (GRDI) Version 1 maps **multidimensional-based poverty and deprivation**, providing a comprehensive view of relative deprivation by assigning each pixel (~1 km) a value between **0 (lowest deprivation) and 100 (highest deprivation)**.
  
+ 
+<center> <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-6/stories/DEMO_BiDS25/vnl%20slope.png?raw=true" width="400">
+
+</center>
+ 
 
 Together wiht the nighgtime intensity trends from 2012-2020, it integrates of **five more distinct dimensions** of deprivation into a single, spatially explicit index, combinining demographic indicators (**child dependency ratio**), health outcomes (**infant mortality rates**), human development measures (**Subnational Human Development Index**) and urbanization patterns (**built-up area ratios**).  
  
@@ -168,6 +176,10 @@ Together wiht the nighgtime intensity trends from 2012-2020, it integrates of **
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"grdi-v1-raster;:;povmap-grdi-v1_2010-01-01_2021-12-31;:;grdi-v1-raster;:;EPSG:3857","title":"grdi-v1-raster"},"source":{"type":"XYZ","url":"https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/grdi-v1-raster/povmap-grdi-v1_2010-01-01_2021-12-31.tif&resampling_method=nearest&bidx=1&colormap_name=viridis&rescale=0.0,100.0","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="3.362222743276048" center=[9.878639621810514,31.523043898653583] projection="" animationOptions={duration:500}}-->
 #### Mapping poverty and deprivation Worldwide
  The GRDI dataset allows to capture the complex, interconnected nature of deprivation that traditional income-based poverty measures often miss, representing a **groundbreaking approach** to mapping multidimensional poverty and deprivation across the world - while **combining the power of satellite data and ground truth, national levels data**.
+ 
+ <center> <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-6/stories/DEMO_BiDS25/vnl%20slope.png?raw=true" width="400">
+</center>
+ 
 
 
 
