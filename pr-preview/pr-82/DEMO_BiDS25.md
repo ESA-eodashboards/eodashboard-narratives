@@ -137,17 +137,14 @@ A city's **nighttime lights** can offer a reliable proxy for economic activity, 
 #### Delhi in Lockdown
 The **Nighttime Light Urban (NLTU)** dataset, derived from Suomi NPP satellite observations operated jointly by NASA and the National Oceanic and Atmospheric Administration (NOAA), captures the intensity of artificial lighting across urban areas—a reliable proxy for economic activity, population density, and energy consumption.
 
-The colors represented in the dataset can be interpreted as follows: **pink, red, and yellow** correspond to areas where a decrease in nighttime light levels occurred (indicating a **presumed reduction in social activity**), **green, violet, and blue** represent areas where an increase occurred (indicating a **presumed rise in social activity**), and white areas correspond to apparent stability, with no significant changes.
-
 <center> <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-6/stories/DEMO_BiDS25/nightime_legend.png?raw=true" width="400">
 
 <span style="font-size:15px;"> City's activity</span>
-
 </center>
 
-In 2020, the city’s nighttime lights dimmed dramatically. Nighttime light levels decreased by 20–30% across much of Delhi during the lockdown period, potentially reflecting reduced commercial activity as shops, restaurants, and businesses closed. However, in some residential areas on the outskirts, the observed patterns may reflect people staying home.
+In 2020, the city’s nighttime lights dimmed dramatically. Nighttime light levels decreased by 20–30% across much of Delhi, as shown by the **shades of pink and red**, which correspond to areas where a **decline in nighttime light levels occurred**. This indicates a **presumed reduction in social activity** during the lockdown period, potentially reflecting decreased commercial activity as shops, restaurants, and businesses closed. This decline could be linked to significant economic hardship, widespread job losses, and changes in daily life that affected millions of Delhi residents.
 
-This decline in activity could be linked to significant economic hardship, widespread job losses, and changes in daily life that affected millions of Delhi residents.
+The heart of the city, however, shown in **white**, may represent unchanged activity, while some residential areas on the outskirts, indicated by **violet, and blue** shades, show an increase in nighttime lights and presumably increased activity, possibly reflecting people **staying at home due to lockdown measures**.
 
 #
 Mapping inequality:  a groundbreaking approach to mapping multidimensional poverty and deprivation.
