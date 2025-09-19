@@ -170,7 +170,7 @@ It's based on the integration of **six distinct dimensions** of deprivation into
 
 
 
-## <!--{ as="div" }--> ### Open Science
+## <!--{ as="div" }--> Open Science
 The ability to track extreme heat, hazardous air, human activity, and deprivation in megacities like New Delhi depends on open access to global satellite datasets and socio-economic indicators. Missions and datasets from ESA, NASA, JAXA, and open research consortia provide the information needed to monitor risks and resilience in urban environments.
 
 | **Name**                                                | **Type**            | **Agency / Provider**                     | **Description / Usage**                                                                                                                        |
