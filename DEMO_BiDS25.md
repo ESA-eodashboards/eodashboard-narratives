@@ -104,7 +104,7 @@ In the city of Gurugram, located just southwest of New Delhi and part of the Nat
 
 In December, the city experienced a pronounced peak in NO2 concentrations, mirroring the severe pollution trends observed in the capital  the previous month.
 
-<center> <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-6/stories/DEMO_BiDS25/Screenshot%202025-09-17%20155021.jpg?raw=true" width="400">
+<center> <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-6/stories/DEMO_BiDS25/NO2_Gurugram.png?raw=true" width="400">
 
 <span style="font-size:15px;"> NO2 Concentrations in Gurugram city</span>
 
