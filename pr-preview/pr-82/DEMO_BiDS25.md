@@ -206,3 +206,8 @@ The ability to track extreme heat, hazardous air, human activity, and deprivatio
 
 
 
+
+## Jupyter notebook used:
+<iframe width="100%" height="600" src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/nightlights-notebook/night-lights-blending" frameborder="0"></iframe>
+Access the notebook to analyze trends, and uncover patterns of human activity on a location of your choice.
+
