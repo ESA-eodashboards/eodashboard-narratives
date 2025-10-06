@@ -41,3 +41,9 @@ The objective of this study was to design and implement a reproducible framework
 Finally, these methods were evaluated based on **accuracy (R², RMSE)** and **computational efficiency**.
 Overall, this approach allows a controlled comparison of interpolation methods under different ecosystem types (high vs. low seasonality) and gap durations, enabling an evaluation of both accuracy and computational performance.
 
+
+## Results
+Interpolation accuracy decreases as gap length increases, with short gaps generally producing better results. **Gaussian Process Regression (GPR)** provides strong performance but requires roughly twice the processing time compared to other methods. For seasonal vegetation patterns, the most effective interpolation method **depends on gap length**: Linear and Cubic Spline work best for **short gaps**, while Seasonal and GPR methods are more reliable for **longer gaps**. For non-seasonal patterns, either Linear or Seasonal interpolation performs best.
+#### Future work
+The current data (~28 km) is suitable for large forests, but finer-resolution data (e.g., Sentinel-2) is needed for smaller or more fragmented areas. The choice of interpolation method depends on the characteristics of the time series and the length of missing data gaps. Future work will focus on testing these methods on high-resolution datasets across diverse ecosystems and incorporating additional environmental variables to improve accuracy.
+
