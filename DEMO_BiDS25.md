@@ -185,7 +185,7 @@ Together wiht the nighgtime intensity trends from 2012-2020, it integrates of **
 </center>
  
 #
-### Open datasets used in the story
+### Open Science
 
 
 ## <!--{ as="div" }--> Open Science
@@ -203,11 +203,8 @@ The ability to track extreme heat, hazardous air, human activity, and deprivatio
 | **[EO Dashboard](https://eodashboard.org/explore/?x=15.0000&y=48.0000&z=4.0000&datetime=2025-09-19&template=expert)**                         | Platform / Web Tool | EO Dashboard Consortium (ESA, NASA, JAXA) | Provides base layers and visualization tools for interactive storytelling of urban health indicators.                                          |
 
 
+### Jupyter Notebook
+Access the notebook to reproduce part of the use cases used in the story.
+<iframe width="100%" height="600" src="https://eodashboard.org/notebook/?id=external-notebooks/group1/2025-bids-eodashboard/notebook/urban-health-and-megacities" frameborder="0"></iframe>
 
-
-
-
-## Jupyter notebook used:
-<iframe width="100%" height="600" src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/nightlights-notebook/night-lights-blending" frameborder="0"></iframe>
-Access the notebook to analyze trends, and uncover patterns of human activity on a location of your choice.
 
