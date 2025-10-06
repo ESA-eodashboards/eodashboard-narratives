@@ -154,9 +154,14 @@ The current data (~28 km) is suitable for large forests, but finer-resolution da
 
 ## Open Science
 #### Data used
-
+| **Name**                                                                                                                                                 | **Type**            | **Agency / Provider**                     | **Description / Usage**                                                                                                                                                                                                                 |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[NDVI](https://eodashboard.org/explore/?x=0&y=0&z=2.5&datetime=2020-01-01&template=expert&indicator=NDVI)** | Dataset             | DeepESDL / ESDC                           | Normalized Difference Vegetation Index (NDVI) time series. |
+| **[EO Dashboard](https://eodashboard.org/explore/?x=15.0000&y=48.0000&z=4.0000&datetime=2025-09-19&template=expert)**                                    | Platform / Web Tool | EO Dashboard Consortium (ESA, NASA, JAXA) | Provides base layers and visualization tools for interactive exploration of NDVI and other Earth observation indicators.                                                                                                                |
 
 #### Notebook
+Access the notebook to reproduce the study workflow.
+<iframe width="100%" height="600" src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/" frameborder="0"></iframe>
 
 
 #### References
@@ -166,5 +171,9 @@ from remotely sensed global data. International Journal of Applied Earth Observa
 - de Oliveira, M.L.; dos Santos, C.A.C.; Santos, F.A.C.; de Oliveira, G.; Santos, C.A.G.; Bezerra, U.A.; de B. L. Cunha,
 J.E.; da Silva, R.M. Evaluation of Water and Carbon Estimation Models in the Caatinga Biome Based on Remote
 Sensing. Forests 2023, 14, 828. https://doi.org/10.3390/f14040828.
+
+
+
+
 
 
