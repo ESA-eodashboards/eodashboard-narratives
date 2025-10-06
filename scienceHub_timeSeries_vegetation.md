@@ -137,10 +137,16 @@ Finally, these methods were evaluated based on **accuracy (R², RMSE)** and **co
 
 ## Results
 Best interpolation teechnique depends on land cover being observed and length of missing data gap:
-1. Interpolation accuracy decreases as gap length increases, with short gaps generally producing better results. 
-2. **Gaussian Process Regression (GPR)** provides strong performance but requires roughly twice the processing time compared to other methods. 
-3. For seasonal vegetation patterns, the most effective interpolation method **depends on gap length**: Linear and Cubic Spline work best for **short gaps**, while Seasonal and GPR methods are more reliable for **longer gaps**. 
-4. For non-seasonal patterns, either **Linear** or **Seasonal** interpolation performs best.
+<div style="text-align: center;">
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_4.png?raw=true"/>
+    <p><b>Summary of results:</b> Metrics for each forest type and missing data gap.</p>
+</div>
+
+
+* **1)** Interpolation accuracy decreases as gap length increases, with short gaps generally producing better results. 
+* **2)** **Gaussian Process Regression (GPR)** provides strong performance but requires roughly twice the processing time compared to other methods. 
+* **3)** For seasonal vegetation patterns, the most effective interpolation method **depends on gap length**: Linear and Cubic Spline work best for **short gaps**, while Seasonal and GPR methods are more reliable for **longer gaps**. 
+* **4)** For non-seasonal patterns, either **Linear** or **Seasonal** interpolation performs best.
 
 ## Conclusions
 The current data (~28 km) is suitable for large forests, but finer-resolution data (e.g., Sentinel-2) is needed for smaller or more fragmented areas. The choice of interpolation method depends on the characteristics of the time series and the length of missing data gaps. Future work will focus on testing these methods on high-resolution datasets across diverse ecosystems and incorporating additional environmental variables to improve accuracy.
