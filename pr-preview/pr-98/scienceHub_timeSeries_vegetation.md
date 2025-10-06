@@ -152,8 +152,7 @@ Best interpolation teechnique depends on land cover being observed and length of
 The current data (~28 km) is suitable for large forests, but finer-resolution data (e.g., Sentinel-2) is needed for smaller or more fragmented areas. The choice of interpolation method depends on the characteristics of the time series and the length of missing data gaps. Future work will focus on testing these methods on high-resolution datasets across diverse ecosystems and incorporating additional environmental variables to improve accuracy.
 
 
-## Open Science
-#### Data used
+## <!--{ as="div" }--> Open Science
 | **Name**                                                                                                                                                 | **Type**            | **Agency / Provider**                     | **Description / Usage**                                                                                                                                                                                                                 |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **[NDVI](https://eodashboard.org/explore/?x=0&y=0&z=2.5&datetime=2020-01-01&template=expert&indicator=NDVI)** | Dataset             | DeepESDL / ESDC                           | Normalized Difference Vegetation Index (NDVI) time series. |
