@@ -7,13 +7,13 @@ tags: some,tags
 ---
 
 # Evaluating time series interpolation techniques for vegetation monitoring using remote sensing data <!--{ as="img" mode="hero" src="https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/10678/production/_92329176_c0157414-lowland_rainforest_danum_valley_sabah-spl.jpg.webp" }-->
-### Authors: Fran, Denise, Mae <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+### Authors: Fran, Denise Hick and Mae <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 #
 *This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in February 2025. It was developed by a team from University of Leeds, Edinburgh and Venice*
 
 ## Challenge
-Vegetation Earth Observation (EO) time series are essential for monitoring ecosystem health, agricultural productivity, and the impacts of climate change. One of the most widely used indicators in this context is the **Normalised Difference Vegetation Index (NDVI)**, which measures vegetation greenness and health based on how plants reflect light in the red and near-infrared parts of the spectrum. 
+Vegetation Earth Observation (EO) time series are essential for monitoring ecosystem health, agricultural productivity, and the impacts of climate change. One of the most widely used indicators in this context is the **Normalised Difference Vegetation Index (NDVI)**, which measures vegetation greenness and health based on how plants reflect light in the red and near-infrared parts of the spectrum. Sensors like MODIS (Moderate Resolution Imaging Spectroradiometer), onboard NASA’s Terra and Aqua satellites, collect reflectance in these red and NIR bands, allowing NDVI to capture vegetation health over time.
 
 <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timesSeries_2.png?raw=true"/>
 <p style="text-align:center;"><b>NDVI:</b> A proxy for vegetation health.</p>
