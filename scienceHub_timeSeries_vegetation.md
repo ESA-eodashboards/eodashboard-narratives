@@ -108,13 +108,13 @@ The North Central Rockies Forests, spanning parts of the northwestern United Sta
 
 
 ## Data and Methods
-#### Data
+#### Dataset
 - **Source**: NDVI (Normalized Difference Vegetation Index) data were obtained from the DeepESDL Earth System Datacube (ESDC) v.3.0.1, which is a curated dataset derived from MODIS Terra and Aqua satellites.
 - **Temporal resolution**: 8-day intervals, providing a moderately high temporal sampling of vegetation dynamics.
 - **Spatial resolution**: 0.25° (~28 km), which is suitable for large-scale ecosystem analysis.
 - **Preprocessing**: NDVI values are derived from BRDF-corrected daily reflectance data, which reduces biases caused by view angle, atmospheric conditions, and illumination.
 
-#### Methods
+#### Methodology workflow
 **NDVI time series (2017–2022)** were extracted at selected sites. Then, **artificial gaps** of varying lengths (3 weeks, 3 months, 6 months) were introduced to mimic missing data. Four **interpolation methods**, namely Linear, Cubic Spline, Gaussian Process, and Seasonal Cycles, were used to reconstruct the gaps. 
 ###### Interpolation techniques:
 * **Linear**  – connects data points with straight lines.
