@@ -62,6 +62,22 @@ Data integration and future prediction by data assimilation to the aerosol trans
 
 It enables us to bridge data gaps (including temporal and spatial gaps as well as providing variables that cannot be estimated by only satellite observation) and to predict the movement of aerosols and species of aerosols such as dust, urban pollutants, sea salt and fire smoke and can give us time for prevention and quantitative evidence for policy making in the future.
 
+#
+## Open Science
+**All the datasets and platforms can be further explored in the table bellow**
+
+| **Name**                                                                                                      | **Type**            | **Agency / Provider**                     | **Description / Usage**                                                                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[Himawari-8/9 (AHI)](https://www.data.jma.go.jp/mscweb/en/operation8/index.html)**                          | Satellite/Mission   | JMA (Japan Meteorological Agency)         | Advanced Himawari Imager provides 10-minute interval observations across Asia-Pacific. Tracks aerosol optical thickness (AOT), wildfire smoke, dust storms, and urban haze in near real-time. |
+| **[GCOM-C (SGLI)](https://suzaku.eorc.jaxa.jp/GCOM_C/index.html.en)**                                         | Satellite/Mission   | JAXA                                      | Monitors land surface, aerosol properties, and burned areas. Used to observe wildfire impacts and post-burn albedo changes.                                                                   |
+| **[GEMS (Geostationary Environment Monitoring Spectrometer)](https://nesc.nier.go.kr/eng/gems/introduction)** | Satellite/Mission   | NIER / KARI (South Korea)                 | Provides hourly air quality data over East Asia. Measures NO₂ and AOT. Ideal for tracking pollution events over China, Korea, and Japan.                                                      |
+| **[EarthCARE (ATLID)](https://earth.esa.int/eogateway/missions/earthcare)**                                   | Satellite/Mission   | ESA / JAXA                                | Launched in 2024, EarthCARE profiles vertical distribution of aerosols and clouds. Useful for assessing dust layer heights and transport.                                                     |
+| **[AHI Aerosol Data Monitor (JAXA)](https://www.eorc.jaxa.jp/ptree/aerosol_model/index.html)**                | Model/Tool          | JAXA EORC                                 | Aerosol modeling platform integrating AHI and other observations. Used for aerosol type classification (dust, smoke, pollution) and prediction.                                               |
+| **[EO Dashboard](https://eodashboard.org/)**                                                                  | Platform / Web Tool | EO Dashboard Consortium (ESA, NASA, JAXA) | Web-based visualization tool for indicators like AOT, NO₂, wildfire impacts, and urban air quality. Enables storytelling with satellite data.                                                 |
+
+## References
+
+## Contributors
 
 
 
