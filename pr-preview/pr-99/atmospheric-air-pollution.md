@@ -21,7 +21,9 @@ Satellite remote sensing now provides the observational capability needed to tra
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"NO2_daily;:;10a0b9e3-6c77-408f-a200-a7fcf2a637b1;:;NO2_daily;:;EPSG:3857","title":"NO2_daily"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["AWS_NO2-VISUALISATION"],"TILED":true,"TIME":"2025-06-23T00:00:00Z/2025-06-23T23:59:59Z"}},"opacity":0}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":true},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":false}]}]' zoom="7.073885363053369" center=[81.26858135898271,38.099545486981754] projection="" animationOptions={duration:500}}-->
 #### Dust storms
- Dust storms, Yellow sand from Gobi and Taklamakan Desert, travels for a long distance from central to eastern Asia and the Pacific Ocean. It affects public health and visibility in China, Korea and Japan when they reach the surface. **NOTE(imagery to be ingested: AHI RGB (or dust index) images for broad areas e.g., from 80E-150E 15N-60N in Yellow dust events).** 
+ Dust storms, Yellow sand from Gobi and Taklamakan Desert, travels for a long distance from central to eastern Asia and the Pacific Ocean. It affects public health and visibility in China, Korea and Japan when they reach the surface. 
+ 
+ **NOTE(imagery to be ingested: AHI RGB (or dust index) images for broad areas e.g., from 80E-150E 15N-60N in Yellow dust events).** 
  
 <center>
   <img src="https://eoimages.gsfc.nasa.gov/images/imagerecords/1000/1925/Taklimakan.jpg" width="400">
@@ -34,6 +36,7 @@ Satellite remote sensing now provides the observational capability needed to tra
 </center>
 
 In different aspects, when it reaches the ocean, it can give nutrients for the phytoplankton and may influence the carbon cycle in the ocean.
+
 **NOTE:(EarthCARE ATLID profile in dust event in Spring 2025, e.g., around 25 March 2025). If there were long-distance transport events from the Saharan Desert after 2025, we can connect MTG/FCI and AHI images.*** 
  
  
