@@ -6,7 +6,7 @@ tags: some,tags
 
 ---
 
-# Monitoring Atmospheric Aerosol in Asia-Pacific <!--{ as="img" mode="hero" src="https://live.staticflickr.com/67/352250460_ee2f9e5565_b.jpg" }-->
+# Monitoring Atmospheric Aerosol in Asia-Pacific  <!--{ as="img" mode="hero" src="https://live.staticflickr.com/67/352250460_ee2f9e5565_b.jpg" }-->
 ### Operational Aerosol Observation Using Himawari-AHI and Multi-Platform Integration <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## Atmospheric Aerosols
