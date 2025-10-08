@@ -160,7 +160,7 @@ The current data (~28 km) is suitable for large forests, but finer-resolution da
 
 #### Notebook
 Access the notebook to reproduce the study workflow.
-<iframe width="100%" height="600" src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/" frameborder="0"></iframe>
+<iframe width="100%" height="600" src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/openchallangenotebook-team-5-challenge-3-timeserie//" frameborder="0"></iframe>
 
 
 #### References
