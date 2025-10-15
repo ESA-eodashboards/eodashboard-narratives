@@ -1,12 +1,12 @@
 ---
-cover-image: "https://upload.wikimedia.org/wikipedia/commons/0/0b/Flooding_in_Tamale%2C_Northern_Ghana.jpg"
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/stories/el_nino_part_4/Flooding_in_Tamale_Northern_Ghana.jpg
 date: 2025-01-01
 theme: extreme-events
 tags: extremes
 official: true
 ---
 
-#  El Niño 2023–2024 (Part 4): Floods and Cyclone impacts in East Africa <!--{ as="img" mode="hero" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Flooding_in_Tamale%2C_Northern_Ghana.jpg" }-->
+#  El Niño 2023–2024 (Part 4): Floods and Cyclone impacts in East Africa <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/stories/el_nino_part_4/Flooding_in_Tamale_Northern_Ghana.jpg" }-->
 ### Read more about the observations of the severe impacts of El Niño in East Africa landscape <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
  
