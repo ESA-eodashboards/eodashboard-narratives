@@ -1,7 +1,7 @@
 ---
 cover-image: https://upload.wikimedia.org/wikipedia/commons/0/0b/Flooding_in_Tamale%2C_Northern_Ghana.jpg
 date: 2025-01-01
-theme: extremes
+theme: extreme-events
 tags: extremes
 official: true
 ---
@@ -39,7 +39,7 @@ Signs of anomaly were visible in EO data from multiple satellite missions: preci
 
 ### Satellite Observations
 
-By November 2023, heavy rains had tr iggered deadly flooding across Somalia, Kenya, Ethiopia, and Tanzania, displacing over one million people and resulting in more than 350 deaths [[2]]( https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl/index.html). The floods came on the heels of years of drought, compounding the region’s food insecurity [[3]](https://earthobservatory.nasa.gov/images/150712/worst-drought-on-record-parches-horn-of-africa).
+By November 2023, heavy rains had triggered deadly flooding across Somalia, Kenya, Ethiopia, and Tanzania, displacing over one million people and resulting in more than 350 deaths [[2]]( https://edition.cnn.com/2023/12/04/africa/east-africa-floods-more-than-300-killed-intl/index.html). The floods came on the heels of years of drought, compounding the region’s food insecurity [[3]](https://earthobservatory.nasa.gov/images/150712/worst-drought-on-record-parches-horn-of-africa).
 In some areas of Ethiopia, Somalia, and Kenya, rainfall totals were two to four times the seasonal average. This led to major rivers, such as the Shebelle River, overflowing and flooding towns like Beledweyne, Somalia. 
 
 
