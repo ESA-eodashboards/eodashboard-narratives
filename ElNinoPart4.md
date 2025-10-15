@@ -1,5 +1,5 @@
 ---
-cover-image: https://upload.wikimedia.org/wikipedia/commons/0/0b/Flooding_in_Tamale%2C_Northern_Ghana.jpg
+cover-image: "https://upload.wikimedia.org/wikipedia/commons/0/0b/Flooding_in_Tamale%2C_Northern_Ghana.jpg"
 date: 2025-01-01
 theme: extreme-events
 tags: extremes
