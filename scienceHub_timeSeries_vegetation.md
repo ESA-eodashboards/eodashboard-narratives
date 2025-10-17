@@ -38,26 +38,39 @@ Five different types of forests were used as case studies to test and compare in
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ndvi_deepESDL;:;2021-12-31T00:00:00Z;:;xcube tiles;:;EPSG:3857","title":"xcube tiles"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/ndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-31T00:00:00Z&vmin=-1&vmax=1&cbar=RdYlGn","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="6.254309813092814" center=[-64.55063927299018,-5.039648675050586] projection="" animationOptions={duration:500}}-->
 #### The Amazon forest
-The Amazon Forest, the world’s largest tropical rainforest, is characterized by a humid, aseasonal climate with persistently high precipitation and serves as a major global carbon reservoir, storing approximately 123 billion tonnes of carbon (NOAA, 2021).
+The Amazon Forest, the world’s largest tropical rainforest, is characterized by a humid, aseasonal climate with persistently high precipitation and serves as a major global carbon reservoir, storing approximately 123 billion tonnes of carbon (NOAA, 2021). 
+<div style="text-align: center;">
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_amazonNDVI.png?raw=true" width="500"/>
+    <p><b>Figure 4.</b> NDVI in Amazon</p>
+</div>
+
+It is also home to an extraordinary diversity of plant and animal species, playing a vital role in regulating the Earth’s climate and supporting global biodiversity.
 <a href="https://commons.wikimedia.org/wiki/File:Amazon_Manaus_forest.jpg" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Amazon_Manaus_forest.jpg/960px-Amazon_Manaus_forest.jpg?20091220154622" 
        alt="Elmstein Am Möllberg" />
 </a>
 <p style="text-align:center;">
-  <b>Amazon Forest:</b> View of Amazon basin forest north of Manaus, Brazil. <br>
+  <b>Figure 5.</b> View of Amazon basin forest north of Manaus, Brazil. <br>
   <small>Image credit: <a href="https://commons.wikimedia.org/wiki/File:Amazon_Manaus_forest.jpg" target="_blank">Phil P Harris</a></small>
 </p>
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ndvi_deepESDL;:;2021-12-31T00:00:00Z;:;xcube tiles;:;EPSG:3857","title":"xcube tiles"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/ndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-31T00:00:00Z&vmin=-1&vmax=1&cbar=RdYlGn","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="6.021064855421141" center=[-40.72037883145828,-8.190443898666047] projection="" animationOptions={duration:500}}-->
 #### Caatinga Forest, Brazil
-Encompassing the semi-arid region of northeastern Brazil, the Caatinga is the largest dry forest biome in South America and one of the most biodiverse dry forests globally. This seasonal tropical ecosystem exhibits pronounced climatic seasonality and variable precipitation across its ~100,000 km² extent, characterized by large seasonal fluxes of carbon, water, and other biogeochemical compounds.
+Encompassing the semi-arid region of northeastern Brazil, the Caatinga is the largest dry forest biome in South America and one of the most biodiverse dry forests globally. 
+
+<div style="text-align: center;">
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_caatingaNDVI.png?raw=true" width="500"/>
+    <p><b>Figure 7.</b> NDVI in Caatinga Forest</p>
+</div>
+
+This seasonal tropical ecosystem exhibits pronounced climatic seasonality and variable precipitation across its ~100,000 km² extent, characterized by large seasonal fluxes of carbon, water, and other biogeochemical compounds.
 
 <a href="https://www.latinamericareports.com/new-ucla-research-reveals-worrying-land-degradation-in-northeast-brazil/11869/" target="_blank">
   <img src="https://www.latinamericareports.com/wp-content/uploads/2025/07/Estrada_entre_Canudos_e_Jeremoabo_na_Bahia_Road_between_Canudos_and_Jeremoabo_in_Bahia_12182535453-1024x591.jpg" 
-       alt="Elmstein Am Möllberg" />
+       alt="" />
 </a>
 <p style="text-align:center;">
-  <b>Palatinate Forest Nature Park:</b> View to the north at the Möllbachweiher in Elmstein. <br>
+  <b>Figure 8.</b> Caatinga Forest, one of the driest regions in the semi-arid region of Brazil. <br>
   <small>Image credit: <a href="https://commons.wikimedia.org/wiki/File:Estrada_entre_Canudos_e_Jeremoabo_na_Bahia_Road_between_Canudos_and_Jeremoabo_in_Bahia_%2812182535453%29.jpg" target="_blank">A. Duarte</a></small>
 </p>
 
