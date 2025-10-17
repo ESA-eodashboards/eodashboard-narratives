@@ -159,7 +159,7 @@ This ecosystem exhibits pronounced seasonality and moderate precipitation and pl
 
 <div style="text-align: center;">
     <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_3.png?raw=true" width="500"/>
-    <p><b>Interpolation techniques:</b> Examples in Caatinga Forest.</p>
+    <p><b>Figure 15.</b> Interpolation techniques: Examples in Caatinga Forest.</p>
 </div>
 
 
@@ -174,7 +174,7 @@ Finally, these methods were evaluated based on **accuracy (R², RMSE)** and **co
 Best interpolation technique depends on land cover being observed and length of missing data gap:
 <div style="text-align: center;">
     <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/Results_example.png?raw=true"/>
-    <p><b>Summary of results:</b> Metrics for each forest type and missing data gap.</p>
+    <p><b>Figure 16. </b> Summary of results: Metrics for each forest type and missing data gap.</p>
 </div>
 
 
