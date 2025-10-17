@@ -76,13 +76,20 @@ This seasonal tropical ecosystem exhibits pronounced climatic seasonality and va
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ndvi_deepESDL;:;2021-12-31T00:00:00Z;:;xcube tiles;:;EPSG:3857","title":"xcube tiles"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/ndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-31T00:00:00Z&vmin=-1&vmax=1&cbar=RdYlGn","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="7.153104075250305" center=[8.589631563526611,49.79640091295067] projection="" animationOptions={duration:500}}-->
 #### Palatinate Forest, Elmstein, Germany 
-As Germany’s largest contiguous forest, the Palatinate Forest, including the Elmstein region, forms a core component of the Palatinate Forest–Vosges du Nord Biosphere Reserve. It is characterized by temperate mixed forests dominated by beech (Fagus sylvatica) and oak (Quercus spp.). This temperate ecosystem exhibits pronounced seasonality and moderate precipitation typical of Central European forest climates.
+As Germany’s largest contiguous forest, the Palatinate Forest, including the Elmstein region, forms a core component of the Palatinate Forest–Vosges du Nord Biosphere Reserve. 
+
+<div style="text-align: center;">
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_elmesteinNDVI.png?raw=true" width="500"/>
+    <p><b>Figure 9.</b> NDVI in Platinate Forest</p>
+</div>
+
+It is characterized by temperate mixed forests dominated by beech (Fagus sylvatica) and oak (Quercus spp.). This temperate ecosystem exhibits pronounced seasonality and moderate precipitation typical of Central European forest climates.
 <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Elmstein_Am_M%C3%B6llberg_001_2017_05_20.jpg/960px-Elmstein_Am_M%C3%B6llberg_001_2017_05_20.jpg?20190519064440" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Elmstein_Am_M%C3%B6llberg_001_2017_05_20.jpg/960px-Elmstein_Am_M%C3%B6llberg_001_2017_05_20.jpg?20190519064440" 
        alt="Elmstein Am Möllberg" />
 </a>
 <p style="text-align:center;">
-  <b>Palatinate Forest Nature Park:</b> View to the north at the Möllbachweiher in Elmstein. <br>
+  <b>Figure 10. </b> Palatinate Forest Nature Park:View to the north at the Möllbachweiher in Elmstein. <br>
   <small>Image credit: <a href="https://commons.wikimedia.org/wiki/File:Elmstein_Am_M%C3%B6llberg_001_2017_05_20.jpg" target="_blank">Friedrich Haag</a></small>
 </p>
 
