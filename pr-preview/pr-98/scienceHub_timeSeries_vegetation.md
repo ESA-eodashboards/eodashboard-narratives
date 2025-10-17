@@ -96,28 +96,43 @@ It is characterized by temperate mixed forests dominated by beech (Fagus sylvati
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ndvi_deepESDL;:;2021-12-31T00:00:00Z;:;xcube tiles;:;EPSG:3857","title":"xcube tiles"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/ndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-31T00:00:00Z&vmin=-1&vmax=1&cbar=RdYlGn","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="7.79555872724114" center=[105.9056537023329,-7.151663183893675] projection="" animationOptions={duration:500}}-->
 #### Muara Angke Mangrove Forest, Indonesia
-The Muara Angke Mangrove Forest in Borneo, Indonesia is a protected wildlife sanctuary and nature conservation area. This coastal tropical ecosystem is characterized by high seasonality and monsoonal precipitation typical of moist tropical mangrove forests.
+The Muara Angke Mangrove Forest in Borneo, Indonesia is a protected wildlife sanctuary and nature conservation area. 
+
+<div style="text-align: center;">
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_muaraNDVI.png?raw=true" width="500"/>
+    <p><b>Figure 11.</b> NDVI in Muara Forest</p>
+</div>
+
+
+This coastal tropical ecosystem is characterized by high seasonality and monsoonal precipitation typical of moist tropical mangrove forests.
 
 <a href="https://commons.wikimedia.org/wiki/File:Monyet_Ekor_Panjang_Hutan_Mangrove_Angke.jpg" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Monyet_Ekor_Panjang_Hutan_Mangrove_Angke.jpg/960px-Monyet_Ekor_Panjang_Hutan_Mangrove_Angke.jpg?20200529104522" 
        alt="Monyet Ekor Panjang Hutan Mangrove Angke" />
 </a>
 <p style="text-align:center;">
-  <b>Angke Mangrove Forest:</b> Monkey long tails in mangrove forest Angke. <br>
+  <b>Figure 12. </b> Angke Mangrove Forest: Monkey long tails in mangrove forest Angke. <br>
   <small>Image credit: <a href="https://commons.wikimedia.org/wiki/File:Monyet_Ekor_Panjang_Hutan_Mangrove_Angke.jpg" target="_blank">Sigarwengi</a></small>
 </p>
 
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ndvi_deepESDL;:;2021-12-31T00:00:00Z;:;xcube tiles;:;EPSG:3857","title":"xcube tiles"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/ndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-31T00:00:00Z&vmin=-1&vmax=1&cbar=RdYlGn","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="6.327652699530251" center=[-116.63503920729454,51.63812480402609] projection="" animationOptions={duration:500}}-->
 #### Rockies Forest, Canada-USA
-The North Central Rockies Forests, spanning parts of the northwestern United States and southwestern Canada, represent a boreal forest ecosystem dominated by conifers trees. This ecosystem exhibits pronounced seasonality and moderate precipitation and plays a critical role in carbon storage, hydrological regulation, and providing habitat for diverse wildlife, including elk, grizzly bears, and various bird species.
+The North Central Rockies Forests, spanning parts of the northwestern United States and southwestern Canada, represent a boreal forest ecosystem dominated by conifers trees. 
+
+<div style="text-align: center;">
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_roockiesNDVI.png?raw=true" width="500"/>
+    <p><b>Figure 13.</b> NDVI in Rockies Forest</p>
+</div>
+
+This ecosystem exhibits pronounced seasonality and moderate precipitation and plays a critical role in carbon storage, hydrological regulation, and providing habitat for diverse wildlife, including elk, grizzly bears, and various bird species.
 
 <a href="https://commons.wikimedia.org/wiki/File:Canadian_Rockies_-_Lake_Louise.jpg" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Canadian_Rockies_-_Lake_Louise.jpg/1200px-Canadian_Rockies_-_Lake_Louise.jpg?20090831175516" 
-       alt="Monyet Ekor Panjang Hutan Mangrove Angke" />
+       alt="" />
 </a>
 <p style="text-align:center;">
-  <b>Canadian Rockies:</b> Lake Louise. <br>
+  <b>Figure 14. </b> Canadian Rockies: Lake Louise. <br>
   <small>Image credit: <a href="https://commons.wikimedia.org/wiki/File:Canadian_Rockies_-_Lake_Louise.jpg" target="_blank">Harvey Barryson</a></small>
 </p>
 
