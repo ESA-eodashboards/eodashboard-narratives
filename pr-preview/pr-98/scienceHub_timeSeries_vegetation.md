@@ -76,7 +76,7 @@ As Germany’s largest contiguous forest, the Palatinate Forest, including the E
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ndvi_deepESDL;:;2021-12-31T00:00:00Z;:;xcube tiles;:;EPSG:3857","title":"xcube tiles"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/ndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-31T00:00:00Z&vmin=-1&vmax=1&cbar=RdYlGn","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="7.79555872724114" center=[105.9056537023329,-7.151663183893675] projection="" animationOptions={duration:500}}-->
 #### Muara Angke Mangrove Forest, Indonesia
-The Muara Angke Mangrove Forest in Indonesia is a protected wildlife sanctuary and nature conservation area located at Kapuk Muara, Penjaringan, along Jakarta’s northern coast. This coastal tropical ecosystem is characterized by high seasonality and monsoonal precipitation typical of moist tropical mangrove forests.
+The Muara Angke Mangrove Forest in Borneo, Indonesia is a protected wildlife sanctuary and nature conservation area. This coastal tropical ecosystem is characterized by high seasonality and monsoonal precipitation typical of moist tropical mangrove forests.
 
 <a href="https://commons.wikimedia.org/wiki/File:Monyet_Ekor_Panjang_Hutan_Mangrove_Angke.jpg" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Monyet_Ekor_Panjang_Hutan_Mangrove_Angke.jpg/960px-Monyet_Ekor_Panjang_Hutan_Mangrove_Angke.jpg?20200529104522" 
@@ -138,7 +138,7 @@ Finally, these methods were evaluated based on **accuracy (R², RMSE)** and **co
 ## Results
 Best interpolation technique depends on land cover being observed and length of missing data gap:
 <div style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_4.png?raw=true"/>
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/Results_example.png?raw=true"/>
     <p><b>Summary of results:</b> Metrics for each forest type and missing data gap.</p>
 </div>
 
