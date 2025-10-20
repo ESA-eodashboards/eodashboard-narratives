@@ -207,6 +207,8 @@ Access the notebook to reproduce the study workflow.
 
 
 #### References
+-  NOAA (2021). Deforestation, warming flip part of Amazon forest from carbon sink to source. Available online at: https://research.noaa.gov/deforestation-warming-flip-part-of-amazon-forest-from-carbon-sink-to-source/ [Accessed 17 Oct 2025].
+
 - Julien, Y. and Sobrino, J.A. (2019). Optimizing and comparing gap-filling techniques using simulated NDVI time series
 from remotely sensed global data. International Journal of Applied Earth Observation and Geoinformation, 76, pp.93-111
 
