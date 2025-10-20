@@ -7,7 +7,7 @@ tags: some,tags
 ---
 
 # Evaluating time series interpolation techniques for vegetation monitoring using remote sensing data <!--{ as="img" mode="hero" src="https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/10678/production/_92329176_c0157414-lowland_rainforest_danum_valley_sabah-spl.jpg.webp" }-->
-### Authors: Denise Hick, Francesca O'Leary and Mae Evans (Univeristy of Leeds) <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+### Authors: Denise Hick, Frances O'Leary and Mae Evans (Univeristy of Leeds) <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 # 
 *This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in September 2025. It was developed by a team from University of Leeds.*
