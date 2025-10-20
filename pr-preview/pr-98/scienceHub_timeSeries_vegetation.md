@@ -7,7 +7,7 @@ tags: some,tags
 ---
 
 # Evaluating time series interpolation techniques for vegetation monitoring using remote sensing data <!--{ as="img" mode="hero" src="https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/10678/production/_92329176_c0157414-lowland_rainforest_danum_valley_sabah-spl.jpg.webp" }-->
-### Authors: Denise Hick, Fran O'Leary and Mae Evan (Univeristy of Leeds) <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+### Authors: Denise Hick, Francesca O'Leary and Mae Evans (Univeristy of Leeds) <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 # 
 *This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in September 2025. It was developed by a team from University of Leeds.*
@@ -46,93 +46,91 @@ https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/Sc
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ndvi_deepESDL;:;2021-12-31T00:00:00Z;:;xcube tiles;:;EPSG:3857","title":"xcube tiles"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/ndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-31T00:00:00Z&vmin=-1&vmax=1&cbar=RdYlGn","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="6.254309813092814" center=[-64.55063927299018,-5.039648675050586] projection="" animationOptions={duration:500}}-->
 #### The Amazon forest
-The Amazon Forest, the world’s largest tropical rainforest, is characterized by a humid, aseasonal climate with persistently high precipitation and serves as a major global carbon reservoir, storing approximately 123 billion tonnes of carbon (NOAA, 2021). 
-<div style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_amazonNDVI.png?raw=true" width="500"/>
-    <p><b>Figure 4.</b> NDVI in Amazon</p>
-</div>
-
-It is also home to an extraordinary diversity of plant and animal species, playing a vital role in regulating the Earth’s climate and supporting global biodiversity.
+The Amazon Forest, the world’s largest tropical rainforest, is characterized by a humid, aseasonal climate with persistently high precipitation and serves as a major global carbon reservoir, storing approximately 123 billion tonnes of carbon (NOAA, 2021). It is also home to an extraordinary diversity of plant and animal species, playing a vital role in regulating the Earth’s climate and supporting global biodiversity.
 <a href="https://commons.wikimedia.org/wiki/File:Amazon_Manaus_forest.jpg" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Amazon_Manaus_forest.jpg/960px-Amazon_Manaus_forest.jpg?20091220154622" 
        alt="Elmstein Am Möllberg" />
 </a>
 <p style="text-align:center;">
-  <b>Figure 5.</b> View of Amazon basin forest north of Manaus, Brazil. <br>
+  <b>Figure 4.</b> View of Amazon basin forest north of Manaus, Brazil. <br>
   <small>Image credit: <a href="https://commons.wikimedia.org/wiki/File:Amazon_Manaus_forest.jpg" target="_blank">Phil P Harris</a></small>
 </p>
 
-### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ndvi_deepESDL;:;2021-12-31T00:00:00Z;:;xcube tiles;:;EPSG:3857","title":"xcube tiles"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/ndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-31T00:00:00Z&vmin=-1&vmax=1&cbar=RdYlGn","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="6.021064855421141" center=[-40.72037883145828,-8.190443898666047] projection="" animationOptions={duration:500}}-->
-#### Caatinga Forest, Brazil
-Encompassing the semi-arid region of northeastern Brazil, the Caatinga is the largest dry forest biome in South America and one of the most biodiverse dry forests globally. 
-
+NDVI time series of Amazon forest shows consistently high vegetation greenness with minor seasonal fluctuations, reflecting the forest’s year-round productivity and dense canopy cover.
 <div style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_caatingaNDVI.png?raw=true" width="500"/>
-    <p><b>Figure 7.</b> NDVI in Caatinga Forest</p>
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_amazonNDVI.png?raw=true" width="500"/>
+    <p><b>Figure 5.</b> NDVI in Amazon</p>
 </div>
 
-This seasonal tropical ecosystem exhibits pronounced climatic seasonality and variable precipitation across its ~100,000 km² extent, characterized by large seasonal fluxes of carbon, water, and other biogeochemical compounds.
+### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ndvi_deepESDL;:;2021-12-31T00:00:00Z;:;xcube tiles;:;EPSG:3857","title":"xcube tiles"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/ndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-31T00:00:00Z&vmin=-1&vmax=1&cbar=RdYlGn","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="6.021064855421141" center=[-40.72037883145828,-8.190443898666047] projection="" animationOptions={duration:500}}-->
+#### Caatinga Forest, Brazil
+Encompassing the semi-arid region of northeastern Brazil, the Caatinga is the largest dry forest biome in South America and one of the most biodiverse dry forests globally. This seasonal tropical ecosystem exhibits pronounced climatic seasonality and variable precipitation across its ~100,000 km² extent, characterized by large seasonal fluxes of carbon, water, and other biogeochemical compounds.
 
 <a href="https://www.latinamericareports.com/new-ucla-research-reveals-worrying-land-degradation-in-northeast-brazil/11869/" target="_blank">
   <img src="https://www.latinamericareports.com/wp-content/uploads/2025/07/Estrada_entre_Canudos_e_Jeremoabo_na_Bahia_Road_between_Canudos_and_Jeremoabo_in_Bahia_12182535453-1024x591.jpg" 
        alt="" />
 </a>
 <p style="text-align:center;">
-  <b>Figure 8.</b> Caatinga Forest, one of the driest regions in the semi-arid region of Brazil. <br>
+  <b>Figure 7.</b> Caatinga Forest, one of the driest regions in the semi-arid region of Brazil. <br>
   <small>Image credit: <a href="https://commons.wikimedia.org/wiki/File:Estrada_entre_Canudos_e_Jeremoabo_na_Bahia_Road_between_Canudos_and_Jeremoabo_in_Bahia_%2812182535453%29.jpg" target="_blank">A. Duarte</a></small>
 </p>
 
-### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ndvi_deepESDL;:;2021-12-31T00:00:00Z;:;xcube tiles;:;EPSG:3857","title":"xcube tiles"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/ndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-31T00:00:00Z&vmin=-1&vmax=1&cbar=RdYlGn","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="7.153104075250305" center=[8.589631563526611,49.79640091295067] projection="" animationOptions={duration:500}}-->
-#### Palatinate Forest, Elmstein, Germany 
-As Germany’s largest contiguous forest, the Palatinate Forest, including the Elmstein region, forms a core component of the Palatinate Forest–Vosges du Nord Biosphere Reserve. 
+NDVI time series of Caatinga forest, reveals strong seasonal variability, with vegetation greenness peaking during the rainy months and declining sharply in the dry season, reflecting the biome’s sensitivity to precipitation patterns.
 
 <div style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_elmesteinNDVI.png?raw=true" width="500"/>
-    <p><b>Figure 9.</b> NDVI in Platinate Forest</p>
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_caatingaNDVI.png?raw=true" width="500"/>
+    <p><b>Figure 8.</b> NDVI in Caatinga Forest</p>
 </div>
 
-It is characterized by temperate mixed forests dominated by beech (Fagus sylvatica) and oak (Quercus spp.). This temperate ecosystem exhibits pronounced seasonality and moderate precipitation typical of Central European forest climates.
+
+
+
+### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ndvi_deepESDL;:;2021-12-31T00:00:00Z;:;xcube tiles;:;EPSG:3857","title":"xcube tiles"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/ndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-31T00:00:00Z&vmin=-1&vmax=1&cbar=RdYlGn","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="7.153104075250305" center=[8.589631563526611,49.79640091295067] projection="" animationOptions={duration:500}}-->
+#### Palatinate Forest, Elmstein, Germany 
+As Germany’s largest contiguous forest, the Palatinate Forest, including the Elmstein region, forms a core component of the Palatinate Forest–Vosges du Nord Biosphere Reserve. It is characterized by temperate mixed forests dominated by beech (Fagus sylvatica) and oak (Quercus spp.). This temperate ecosystem exhibits pronounced seasonality and moderate precipitation typical of Central European forest climates.
 <a href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Elmstein_Am_M%C3%B6llberg_001_2017_05_20.jpg/960px-Elmstein_Am_M%C3%B6llberg_001_2017_05_20.jpg?20190519064440" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Elmstein_Am_M%C3%B6llberg_001_2017_05_20.jpg/960px-Elmstein_Am_M%C3%B6llberg_001_2017_05_20.jpg?20190519064440" 
        alt="Elmstein Am Möllberg" />
 </a>
 <p style="text-align:center;">
-  <b>Figure 10. </b> Palatinate Forest Nature Park:View to the north at the Möllbachweiher in Elmstein. <br>
+  <b>Figure 9. </b> Palatinate Forest Nature Park:View to the north at the Möllbachweiher in Elmstein. <br>
   <small>Image credit: <a href="https://commons.wikimedia.org/wiki/File:Elmstein_Am_M%C3%B6llberg_001_2017_05_20.jpg" target="_blank">Friedrich Haag</a></small>
 </p>
 
-
-### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ndvi_deepESDL;:;2021-12-31T00:00:00Z;:;xcube tiles;:;EPSG:3857","title":"xcube tiles"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/ndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-31T00:00:00Z&vmin=-1&vmax=1&cbar=RdYlGn","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="7.79555872724114" center=[105.9056537023329,-7.151663183893675] projection="" animationOptions={duration:500}}-->
-#### Muara Angke Mangrove Forest, Indonesia
-The Muara Angke Mangrove Forest in Borneo, Indonesia is a protected wildlife sanctuary and nature conservation area. 
-
+The NDVI time series of this forest, show clear seasonal patterns, with high vegetation greenness during the summer growing season and low values in winter, reflecting the deciduous nature of this temperate forest.
 <div style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_muaraNDVI.png?raw=true" width="500"/>
-    <p><b>Figure 11.</b> NDVI in Muara Forest</p>
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_elmesteinNDVI.png?raw=true" width="500"/>
+    <p><b>Figure 10.</b> NDVI in Platinate Forest</p>
 </div>
 
 
-This coastal tropical ecosystem is characterized by high seasonality and monsoonal precipitation typical of moist tropical mangrove forests.
+
+### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ndvi_deepESDL;:;2021-12-31T00:00:00Z;:;xcube tiles;:;EPSG:3857","title":"xcube tiles"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/ndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-31T00:00:00Z&vmin=-1&vmax=1&cbar=RdYlGn","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="7.79555872724114" center=[105.9056537023329,-7.151663183893675] projection="" animationOptions={duration:500}}-->
+#### Borneo Tropical Rainforest (Muara), Indonesia
+The Borneo Tropical Rainforest is a humid tropical ecosystem that remains green year-round. It's one of the oldest and most diverse tropical forests in the world. Rainfall is high but varies seasonally with the monsoon, influencing vegetation growth and canopy density. This forest plays a key role in carbon storage, water regulation, and maintaining regional climate balance across Southeast Asia.
 
 <a href="https://commons.wikimedia.org/wiki/File:Monyet_Ekor_Panjang_Hutan_Mangrove_Angke.jpg" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Monyet_Ekor_Panjang_Hutan_Mangrove_Angke.jpg/960px-Monyet_Ekor_Panjang_Hutan_Mangrove_Angke.jpg?20200529104522" 
        alt="Monyet Ekor Panjang Hutan Mangrove Angke" />
 </a>
 <p style="text-align:center;">
-  <b>Figure 12. </b> Angke Mangrove Forest: Monkey long tails in mangrove forest Angke. <br>
+  <b>Figure 11. </b> Angke Mangrove Forest: Monkey long tails in mangrove forest Angke. <br>
   <small>Image credit: <a href="https://commons.wikimedia.org/wiki/File:Monyet_Ekor_Panjang_Hutan_Mangrove_Angke.jpg" target="_blank">Sigarwengi</a></small>
 </p>
+
+The NDVI of this type of forest reflects a productive canopy year-round, with seasonal variations driven by monsoon rainfall.
+
+<div style="text-align: center;">
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_muaraNDVI.png?raw=true" width="500"/>
+    <p><b>Figure 12.</b> NDVI in Muara Forest</p>
+</div>
+
+
 
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ndvi_deepESDL;:;2021-12-31T00:00:00Z;:;xcube tiles;:;EPSG:3857","title":"xcube tiles"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/ndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-31T00:00:00Z&vmin=-1&vmax=1&cbar=RdYlGn","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="6.327652699530251" center=[-116.63503920729454,51.63812480402609] projection="" animationOptions={duration:500}}-->
 #### Rockies Forest, Canada-USA
 The North Central Rockies Forests, spanning parts of the northwestern United States and southwestern Canada, represent a boreal forest ecosystem dominated by conifers trees. 
-
-<div style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_roockiesNDVI.png?raw=true" width="500"/>
-    <p><b>Figure 13.</b> NDVI in Rockies Forest</p>
-</div>
-
 This ecosystem exhibits pronounced seasonality and moderate precipitation and plays a critical role in carbon storage, hydrological regulation, and providing habitat for diverse wildlife, including elk, grizzly bears, and various bird species.
 
 <a href="https://commons.wikimedia.org/wiki/File:Canadian_Rockies_-_Lake_Louise.jpg" target="_blank">
@@ -140,9 +138,17 @@ This ecosystem exhibits pronounced seasonality and moderate precipitation and pl
        alt="" />
 </a>
 <p style="text-align:center;">
-  <b>Figure 14. </b> Canadian Rockies: Lake Louise. <br>
+  <b>Figure 13. </b> Canadian Rockies: Lake Louise. <br>
   <small>Image credit: <a href="https://commons.wikimedia.org/wiki/File:Canadian_Rockies_-_Lake_Louise.jpg" target="_blank">Harvey Barryson</a></small>
 </p>
+
+The NDVI time series indicates strong seasonal fluctuations, with peak greenness during the summer months and low values in winter, reflecting the region’s distinct growing season and snow cover period.
+<div style="text-align: center;">
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_roockiesNDVI.png?raw=true" width="500"/>
+    <p><b>Figure 14.</b> NDVI in Rockies Forest</p>
+</div>
+
+
 
 
 
