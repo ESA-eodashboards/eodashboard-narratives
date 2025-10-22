@@ -29,7 +29,7 @@ The objective of this study was to develop a reproducible framework to classify 
 
 Predictions from the model were then validated against ground-truth data, enabling assessment of classification accuracy and operational potential for snow mapping applications.
 
-## Use cases <!--{ as="eox-map" mode="tour" }-->
+## Use case <!--{ as="eox-map" mode="tour" }-->
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"SSLC1_Seasonal_S1_AMP_hv_interferometric_coherence;:;2d96aa0d-5170-4979-b00e-e9e3eb1d3308;:;SSLC1_Seasonal_S1_AMP_hv_interferometric_coherence;:;EPSG:3857","title":"SSLC1_Seasonal_S1_AMP_hv_interferometric_coherence"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["S1_AMP_HV"],"TILED":true,"TIME":"2020-09-21T00:00:00Z/200-09-21T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="7.940926886189218" center=[17.92901856264105,78.07209721925807] projection="" animationOptions={duration:500}}-->
 #### Svalbard
@@ -37,11 +37,17 @@ Svalbard, an Arctic archipelago, is an ideal testbed for wet snow mapping due to
 
 
 
-<div style="text-align: center;">
-    <img src="
-https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-4/Globe4_svalbard.png?raw=true" width="500"/>
-    <p><b>Figure X.</b> Use cases/forests locations.</p>
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
+    <img 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-4/Globe4_svalbard.png?raw=true" 
+        style="max-width: 100%; width: 800px; height: auto;"
+        alt="Use cases/forests locations"
+    />
+    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
+        <b>Figure X.</b> Use cases/forests locations.
+    </p>
 </div>
+
 
 
 
