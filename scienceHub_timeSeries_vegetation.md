@@ -10,7 +10,7 @@ tags: some,tags
 ### Authors: Denise Hick, Frances O'Leary and Mae Evans (University of Leeds) <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 # 
-*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in September 2025. It was developed by a team from University of Leeds.*
+*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in September 2025. It was developed by a team from University of Leeds.* 
 
 ## Challenge
 Earth Observation (EO) based time series of vegetation are essential for monitoring ecosystem health, agricultural yield, and the impacts of climate change. One of the most widely used indicators in this context is the **Normalised Difference Vegetation Index (NDVI)**, which measures vegetation greenness and health based on how plants reflect light in the red and near-infrared parts of the electromagnetic spectrum. Sensors like MODIS (Moderate Resolution Imaging Spectroradiometer), onboard NASA’s Terra and Aqua satellites, collect data in these red and NIR bands, allowing NDVI to capture vegetation health over time.
