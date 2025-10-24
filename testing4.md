@@ -13,10 +13,9 @@ tags: some,tags
 
 Some text for the first section
 
-
 ## Testing
 
 Testing data.
-## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"NO2-2023-11-28T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://eccharts.ecmwf.int/wms/?token=public&"],"params":{"layers":"composition_europe_no2_analysis_surface","styles":"sh_OrangesTransparent40_surface_concentration","format":"image/png","time":"2023-11-28T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="4.932639746597878" center=[9.143518788034312,44.52383030819641] }-->
+## Map Example<!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Sentinel-2 True Color"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/YOUR_INSTANCE_ID"],"params":{"LAYERS":"TRUE_COLOR","FORMAT":"image/jpeg","TIME":"2024-07-10","MAXCC":20}}}]' zoom="8" center=[139.76,35.68] }-->
 
 
