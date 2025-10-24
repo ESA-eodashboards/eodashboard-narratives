@@ -14,25 +14,9 @@ tags: some,tags
 Some text for the first section
 
 
-## Landsat 8 True Color — June 15, 2023
+## Testing
 
-Below is a Landsat 8 image (Bands 4,3,2) showing Tokyo area.
+Testing data.
+## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"NO2-2023-11-28T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://eccharts.ecmwf.int/wms/?token=public&"],"params":{"layers":"composition_europe_no2_analysis_surface","styles":"sh_OrangesTransparent40_surface_concentration","format":"image/png","time":"2023-11-28T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="4.932639746597878" center=[9.143518788034312,44.52383030819641] }-->
 
-<!--{ 
-  as: "eox-map", 
-  style: "width: 100%; height: 400px;", 
-  center: [139.7, 35.6],
-  zoom: 9,
-  layers: [
-    {
-      as: "eox-layer",
-      type: "wmts",
-      title: "Landsat 8 True Color (NASA GIBS)",
-      url: "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/wmts.cgi",
-      layer: "Landsat_WELD_CorrectedReflectance_TrueColor",
-      format: "image/jpeg",
-      tileMatrixSet: "GoogleMapsCompatible_Level9",
-      time: "2023-06-15"
-    }
-  ]
-}-->
+
