@@ -53,7 +53,8 @@ Svalbard, an Arctic archipelago, is an ideal testbed for wet snow mapping due to
         <b>Figure 3.</b> Use cases: the Svalbard archipelago.
     </p>
 </div>
-	
+
+https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-4/results2.png?raw=true
 	
 ## Data and Methods
 #### Dataset
@@ -84,6 +85,7 @@ The approach builds on a Geospatial Foundational Model (GFM) that has been pre-t
 	
 
 ## Results
+#### Accuracy metrics
 The model learns quickly, **reaching over 90% accuracy** within the first few training rounds and staying stable afterward. Its **ability to distinguish between different surface types**, measured by the IoU metric, improves more gradually and levels off around 55–60%. Some ups and downs in the curve suggest that the model finds it harder to tell apart certain classes — a common issue when dealing with radar data where some surfaces reflect signals in similar ways.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
@@ -97,9 +99,14 @@ The model learns quickly, **reaching over 90% accuracy** within the first few tr
     </p>
 </div>
 
+#### Visual interpreation
+From the VV and VH backscatter images, clear textural differences can be observed (brighter and darker streaks) likely corresponding to variations in surface roughness, water, and snow conditions. However, while some areas show strong contrast, others appear smoother, indicating that the model needs to learn subtle backscatter differences.
 
+Looking at the first row of images as an example, the model generalizes well for larger snow zones but struggles with mixed or transitional pixels (e.g., where radar signals change rapidly). This could be due to coarse labeling or spatial smoothing introduced by the decoder.
 
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-4/results2.png?raw=true" style="max-width: 100%; width: 800px; height: auto;" alt="" /> <p style="text-align: center; font-size: 1.2em; margin-top: 10px;"> <b>Figure 6.</b> Comparison of input Sentinel-1 VV and VH images, predicted segmentation mask, and target mask. </p> </div>
 
+In contrast, the second (bottom) row shows that the model reliably detects large homogeneous features (such as water bodies) but misses smaller-scale heterogeneity, again suggesting limitations related to radar ambiguity or spatial resolution.
 
 
 
