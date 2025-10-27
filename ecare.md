@@ -24,3 +24,5 @@ Changes in the number of fdroplets that the cloud is mafde of, their physical st
 ## How can a satellite help?
 
 ##Earthcare
+
+<!--{ as="locations" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/stories/ScienceHub-Challenge-September-2025/Team-1/Globe1_pacific.png" }-->
