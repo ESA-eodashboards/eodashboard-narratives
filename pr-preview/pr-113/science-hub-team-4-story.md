@@ -21,13 +21,13 @@ Mapping wet snow is critical because it influences water resource management, fl
 
 </div>
   
-	
 
 
 The emergence of **Geospatial Foundation Models (GFMs)**, large AI models pre-trained on diverse satellite and airborne data, can fuse multi-modal signals (SAR, optical, thermal, DEM, and reanalysis data) and implicitly learn complex cues for wet snow detection without needing summer reference data, **potentially overcoming existing limitations**.
+<div style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-4/GFM.png?raw=true" width="500"/> <p><b>Figure 2.</b>Unified multimodal Earth foundation model. Large AI models trained on diverse airborne and satellite data integrate multiple sensor types to enable scalable, transferable, and few-/zero-shot learning for tasks such as land cover mapping, flood detection, and forest monitoring.</p> 
 
-
-<div style="text-align: center;"> <img src=https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-4/GFM.png?raw=true" width="500"/> <p><b>Figure 2.</b> Unified multimodal Earth foundation model. Large AI models trained on diverse airborne and satellite data integrate multiple sensor types to enable scalable, transferable, and few-/zero-shot learning for tasks such as land cover mapping, flood detection, and forest monitoring.</p> </div>
+</div>
+  
 
 ## Objective
 
@@ -53,6 +53,55 @@ Svalbard, an Arctic archipelago, is an ideal testbed for wet snow mapping due to
         <b>Figure 3.</b> Use cases: the Svalbard archipelago.
     </p>
 </div>
+	
+	
+## Data and Methods
+#### Dataset
+- **Source/Input data**: Sentinel-1 satellite imagery (VV and VH polarization patches)
+- **Classes/Output data**: Wet snow, dry snow, no data, bare ground, and water.
+-  **Coverage**:  A subset of approximately 150 images was used for this project
+
+
+#### Methodology workflow
+The approach builds on a Geospatial Foundational Model (GFM) that has been pre-trained on large-scale geospatial data. The process involves:
+
+- **Model Initialization:** The CROMA model is used as the pretrained backbone (encoder) to extract meaningful geospatial features from Sentinel-1 input data.
+
+- **Decoder Integration:** A UPerNet decoder is added to the pretrained encoder to enable pixel-wise classification, producing a snow segmentation map.
+
+- **Fine-Tuning Process:** The model is fine-tuned using a small labeled dataset (~150 images). The encoder is partially frozen to retain foundational geospatial knowledge, while the decoder is trained for the specific segmentation task.
+- **Loss function:** Cross Entropy.
+
+- **Framework:** PANGAEA-BENCH:  a [standardized evaluation protocol](https://arxiv.org/abs/2412.04204) that covers a diverse set of datasets, tasks, resolutions, sensor modalities, and temporalities.
+
+## Results
+The fine-tuned model generates a class map from input VV and VH patches, identifying wet snow, dry snow, bare ground, water, and no data regions.
+
+
+## Conclusions
+
+
+
+## <!--{ as="div" }--> Open Science
+| **Name**                                                                                                                                                 | **Type**            | **Agency / Provider**                     | **Description / Usage**                                                                                                                                                                                                                 |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[DATASET NAME](LINK)** | Dataset             | DeepESDL / ESDC                           | Description how this dataset was used in this story |
+| **[EO Dashboard](https://eodashboard.org/explore/?x=15.0000&y=48.0000&z=4.0000&datetime=2025-09-19&template=expert)**                                    | Platform / Web Tool | EO Dashboard Consortium (ESA, NASA, JAXA) | Provides base layers and visualization tools for interactive exploration of NDVI and other Earth observation indicators.                                                                                                                |
+
+#### Notebook
+Access the notebook to reproduce the study workflow.
+<iframe width="100%" height="600" src="LINK TO NOTEBOOK" frameborder="0"></iframe>
+
+
+#### References
+- PANGAEA: A Global and Inclusive Benchmark for Geospatial Foundation Models [Access](https://arxiv.org/abs/2412.04204)
+
+- Reference 2
+
+
+
+## Contributors
+Authors, contibutors, reviewers 
 
 
 
