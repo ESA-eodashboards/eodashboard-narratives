@@ -54,7 +54,7 @@ Svalbard, an Arctic archipelago, is an ideal testbed for wet snow mapping due to
     </p>
 </div>
 
-https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-4/results2.png?raw=true
+
 	
 ## Data and Methods
 #### Dataset
