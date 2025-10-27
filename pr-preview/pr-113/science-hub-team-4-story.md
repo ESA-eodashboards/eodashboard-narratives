@@ -66,27 +66,58 @@ Svalbard, an Arctic archipelago, is an ideal testbed for wet snow mapping due to
 The approach builds on a Geospatial Foundational Model (GFM) that has been pre-trained on large-scale geospatial data. The process involves:
 
 - **Model Initialization:** The CROMA model is used as the pretrained backbone (encoder) to extract meaningful geospatial features from Sentinel-1 input data.
-
 - **Decoder Integration:** A UPerNet decoder is added to the pretrained encoder to enable pixel-wise classification, producing a snow segmentation map.
-
 - **Fine-Tuning Process:** The model is fine-tuned using a small labeled dataset (~150 images). The encoder is partially frozen to retain foundational geospatial knowledge, while the decoder is trained for the specific segmentation task.
 - **Loss function:** Cross Entropy.
-
 - **Framework:** PANGAEA-BENCH:  a [standardized evaluation protocol](https://arxiv.org/abs/2412.04204) that covers a diverse set of datasets, tasks, resolutions, sensor modalities, and temporalities.
 
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
+    <img 
+        src=" https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-4/methods1.png?raw=true" 
+        style="max-width: 100%; width: 800px; height: auto;"
+        alt=""
+    />
+    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
+        <b>Figure 4.</b> Using the Fine-Tuned Geospatial FM.
+    </p>
+</div>
+	
+
 ## Results
-The fine-tuned model generates a class map from input VV and VH patches, identifying wet snow, dry snow, bare ground, water, and no data regions.
+The model learns quickly, **reaching over 90% accuracy** within the first few training rounds and staying stable afterward. Its **ability to distinguish between different surface types**, measured by the IoU metric, improves more gradually and levels off around 55–60%. Some ups and downs in the curve suggest that the model finds it harder to tell apart certain classes — a common issue when dealing with radar data where some surfaces reflect signals in similar ways.
+
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
+    <img 
+        src=" https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-4/results.png?raw=truee" 
+        style="max-width: 100%; width: 800px; height: auto;"
+        alt=""
+    />
+    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
+        <b>Figure 5.</b> Validation results.
+    </p>
+</div>
+
+
+
+
+
 
 
 ## Conclusions
+Looking at each class, water and dry snow are identified with very high precision, while wet snow performs fairly well but becomes less consistent after longer training. Bare ground remains the most difficult to detect, likely because its radar signal overlaps with that of wet snow or because there weren’t enough training examples.
+
+Overall, the results show that Sentinel-1 radar data is excellent for spotting water and snow-covered areas but less reliable for distinguishing wet snow from bare ground. The current setup, combining the CROMA encoder with a UPerNet decoder, already performs strongly. Future improvements could come from adding time-series data, integrating extra context such as elevation or temperature, and using better class balancing to help the model learn from underrepresented surfaces.
 
 
 
 ## <!--{ as="div" }--> Open Science
-| **Name**                                                                                                                                                 | **Type**            | **Agency / Provider**                     | **Description / Usage**                                                                                                                                                                                                                 |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **[DATASET NAME](LINK)** | Dataset             | DeepESDL / ESDC                           | Description how this dataset was used in this story |
-| **[EO Dashboard](https://eodashboard.org/explore/?x=15.0000&y=48.0000&z=4.0000&datetime=2025-09-19&template=expert)**                                    | Platform / Web Tool | EO Dashboard Consortium (ESA, NASA, JAXA) | Provides base layers and visualization tools for interactive exploration of NDVI and other Earth observation indicators.                                                                                                                |
+| **Name**                                                                                                                                       | **Type**            | **Agency / Provider**                     | **Description / Usage**                                                                                                                                                                                                                 |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[Sentinel-1 Snow Classification Dataset](https://sentinel.esa.int/web/sentinel/missions/sentinel-1)**                                        | Dataset             | ESA (European Space Agency)               | A small dataset (~150 images) of Sentinel-1 VV and VH polarization patches used to train a segmentation model for snow classification. Classes include wet snow, dry snow, bare ground, water, and no data.                            |
+| **[PANGAEA-BENCH Framework](https://arxiv.org/abs/2412.04204)**                                                                                       | Framework / Toolkit | PANGAEA Consortium                        | Used to fine-tune geospatial foundational models (GFMs) for Earth observation tasks. Enabled the training of the decoder (UPerNet) on the pre-trained CROMA encoder for the snow segmentation task.                                     |
+| **[CROMA Geospatial Foundational Model](https://www.esa.int/Applications/Observing_the_Earth/CROMA)**                                          | Model / Encoder     | ESA (European Space Agency)               | Pre-trained encoder providing general geospatial representations. Used as the backbone model, fine-tuned with a UPerNet decoder to produce pixel-wise snow classification outputs.                                                     |
+| **[EO Dashboard](https://eodashboard.org/explore/?x=15.0000&y=48.0000&z=4.0000&datetime=2025-09-19&template=expert)**                          | Platform / Web Tool | EO Dashboard Consortium (ESA, NASA, JAXA) | Provides base layers and visualization tools for interactive exploration of NDVI and other Earth observation indicators, potentially useful for validating and visualizing model outputs.                                               |
+
 
 #### Notebook
 Access the notebook to reproduce the study workflow.
@@ -96,7 +127,7 @@ Access the notebook to reproduce the study workflow.
 #### References
 - PANGAEA: A Global and Inclusive Benchmark for Geospatial Foundation Models [Access](https://arxiv.org/abs/2412.04204)
 
-- Reference 2
+- [CROMA Geospatial Foundational Model](https://www.esa.int/Applications/Observing_the_Earth/CROMA)
 
 
 
