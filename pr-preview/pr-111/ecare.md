@@ -23,6 +23,13 @@ Changes in the number of fdroplets that the cloud is mafde of, their physical st
 
 ## How can a satellite help?
 
-##Earthcare
+## Our challenge 
+We decided to take a look at the aerosols and clouds from EarthCare by comparing 3 different regions. 
 
-<!--{ as="locations" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/stories/ScienceHub-Challenge-September-2025/Team-1/Globe1_pacific.png" }-->
+The first ones are located in the tropics, in what we call the Inter-Tropical Convergence Zone. 
+
+The third one, quite different, is located in the Southern Sea, nearby Antartica. 
+
+
+
+
