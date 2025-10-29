@@ -22,7 +22,13 @@ Because aerosols influence the clouds dropplets since their formation, they can 
 Changes in the number of fdroplets that the cloud is mafde of, their physical state, their thickness, can lead to changes in the way they reflect the sunlight or trap the radiation that is reflected by the Earth surface. Understanding these changes is important as clouds can be both an ally or an enemy in the warming effect on the planets surface. 
 
 ## How can a satellite help?
+Sadly, we cannot pop-up inside a cloud and take a sample of the droplets and aerosols continuouly. However, scientist have developed over the years many ways to have a measure of this. How can a satellite measure the clouds and aerosls, if it's so far away and the particles are so tiny? 
 
+Our first tool, when we didn't have the technology to do it, was the theory. Physics can predict the behaviuor of clouds and their relation with the aerosols. SO over the years we have developed many equations to understand this, in an idealized context.
+
+The more we understood, then the equations began to be more complicated and we tryed to incorporate more realistic thisngs that happen in the atmosphere. Then we had models. COmputational models run a lot of equations that we couln'd do with just pen and paper. These models are still idealized, but help to understand the processes involved and re-deiscover things that we might have missed before. 
+
+To 
 
 ## Our challenge 
 We decided to take a look at the aerosols and clouds from EarthCare by comparing 3 different regions. 
