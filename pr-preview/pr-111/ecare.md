@@ -23,12 +23,20 @@ Changes in the number of fdroplets that the cloud is mafde of, their physical st
 
 ## How can a satellite help?
 
+
 ## Our challenge 
 We decided to take a look at the aerosols and clouds from EarthCare by comparing 3 different regions. 
 
-The first ones are located in the tropics, in what we call the Inter-Tropical Convergence Zone. 
+The first ones are located in the tropics, in what we call the Inter-Tropical Convergence Zone in the Pacific Ocean. 
+The Pacific ITCZ is a strip that goes from West to East, a bit northern to the Equator, where characteristic deep convective/ high clouds occurs consistently all the time. 
+In the West of this region is very interesting because air raises as very strong updrafts, mostly because the sea serface temperature is usually high. The strong updraft and sometimes storms can produce strong waves and mix, raising sea salt, a non-antropogenic aerosol. The Pacific here is surrounden by east Asia to the south and China to the north, places that could be sources of antropogenic aerosols, for example pollution and mass burn. ref!
 
-The third one, quite different, is located in the Southern Sea, nearby Antartica. 
+We wanted to compare this region to the East Pacific, which under normal condicions is a region of downdrafts, BUT STILL HIGH CLOUDS. Being so far away from populated areas and having the Andes to the East, we were wondering if the aerosls sources are low, exept maybe from some sea salt. 
+
+The third one, quite different, is located in the Southern Sea, nearby Antartica. In the southern ocean, incoming aerosols from higher latitudes could potentially produce changes in the clouds.
+We can mostly expect sea salt aerosols in these area, although there might also be some stratospheric aerosols incoming mostly from volcanic eruptions. 
+
+Comparing these three very interesting regions with quite distinctive characteristics could give us a hint on whether the aerosols are influencing changes in the clouds. 
 
 
 
