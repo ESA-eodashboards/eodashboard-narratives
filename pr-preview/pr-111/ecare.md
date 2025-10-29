@@ -28,7 +28,9 @@ Our first tool, when we didn't have the technology to do it, was the theory. Phy
 
 The more we understood, then the equations began to be more complicated and we tryed to incorporate more realistic thisngs that happen in the atmosphere. Then we had models. COmputational models run a lot of equations that we couln'd do with just pen and paper. These models are still idealized, but help to understand the processes involved and re-deiscover things that we might have missed before. 
 
-To 
+How do we know if models are ok? With observations! We have different ways to do this. The first one is in the lab. Many scientist study the grouwth of ice crystals with different aerosols, or create clouds inside a cloud chamber to study their properties. But this is still an ideal environment, and the real atmosphere is more complex. Luckyly, we have airplanes! Yes, with airplanes we can collect pieces of clouds and aerosols, with what is called a probe, and then take them to the lab to analyse them. Of course airplanes have other isntruments that help to measure the general state of the clouds an aerosols from inside. But then, these campaings are very expensive, we can't be flying an airplane all the time across all the Earth. That's why we have satellites! 
+
+All of these things complement each other and we need them to have a better picture of what in reality is very complex and sometimes fast. Having a better understanding will guide us towards having better predictions of the weather and climates, which are essential in a fast-changing and warming world. 
 
 ## Our challenge 
 We decided to take a look at the aerosols and clouds from EarthCare by comparing 3 different regions. 
