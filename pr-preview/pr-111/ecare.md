@@ -51,18 +51,14 @@ Together, these instruments provide comprehensive and blended data that will hel
 
 ## Our challenge 
 In the latest ESA challenge workshop, we decided to take a look at clouds and aerosols at three different locations with quite special characteristics. 
+The first region lies just north of the Equator and stretches west to east across the Pacific Ocean. It's called the call the Inter-Tropical Convergence Zone (ITCZ) and it is characterized by persistent clouds with high and icy tops. The second region is in Antartica, the southern ocean. Here the conditions are quite different and clouds are lower, but because of the temperature these are mostly made of ice. 
 
-The first ones are located in the tropics, in what we call the Inter-Tropical Convergence Zone in the Pacific Ocean. 
-The Pacific ITCZ is a strip that goes from West to East, a bit northern to the Equator, where characteristic deep convective/ high clouds occurs consistently all the time. 
-In the West of this region is very interesting because air raises as very strong updrafts, mostly because the sea serface temperature is usually high. The strong updraft and sometimes storms can produce strong waves and mix, raising sea salt, a non-antropogenic aerosol. The Pacific here is surrounden by east Asia to the south and China to the north, places that could be sources of antropogenic aerosols, for example pollution and mass burn. ref!
+1. West Pacific: 
+The western ITCZ is very interesting because air raises in very strong updrafts (air moving upwards), mostly because the sea serface temperature is usually high. These updrafts and the clouds can form storms that can stir the ocean, lifting sea salt aerosols into the atmosphere. These are natural aerosols. However, nearby regions such as Southeast Asia and China may contribute anthropogenic aerosols, from pollution or biomass burning.
 
-We wanted to compare this region to the East Pacific, which under normal condicions is a region of downdrafts, BUT STILL HIGH CLOUDS. Being so far away from populated areas and having the Andes to the East, we were wondering if the aerosls sources are low, exept maybe from some sea salt. 
+2.  Eastern Pacific:  This region typically experiences downdrafts, where air sinks rather than rises. Yet, high clouds still form here. Being far from major population centers and bordered by the Andes to the east, we expect fewer aerosol sources, except perhaps some sea salt.
 
-The third one, quite different, is located in the Southern Sea, nearby Antartica. In the southern ocean, incoming aerosols from higher latitudes could potentially produce changes in the clouds.
-We can mostly expect sea salt aerosols in these area, although there might also be some stratospheric aerosols incoming mostly from volcanic eruptions. 
+3.  Southern Ocean: This region presents a different scenario. Aerosols from higher latitudes may influence cloud formation here. We mostly expect sea salt aerosols, but there could also be stratospheric aerosols, especially from volcanic eruptions.
 
 Comparing these three very interesting regions with quite distinctive characteristics could give us a hint on whether the aerosols are influencing changes in the clouds. 
-
-
-
 
