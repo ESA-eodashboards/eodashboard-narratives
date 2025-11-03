@@ -2,12 +2,12 @@
 cover-image: https://placehold.co/600x400/png
 date: 2025-01-01
 theme: theme_name
-tags: some,tags
+tags: EarthCARE, clouds, aerosols, ITCZ, southern ocean
 
 ---
 
 # The power of EarthCare, the new ESA Earth explorer <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
-### From clouds to aerosols<!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+### From aerosols to clouds <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## Aerosols and clouds belong together
 
@@ -61,4 +61,6 @@ The western ITCZ is very interesting because air raises in very strong updrafts 
 3.  Southern Ocean: This region presents a different scenario. Aerosols from higher latitudes may influence cloud formation here. We mostly expect sea salt aerosols, but there could also be stratospheric aerosols, especially from volcanic eruptions.
 
 Comparing these three very interesting regions with quite distinctive characteristics could give us a hint on whether the aerosols are influencing changes in the clouds. 
+
+## Results
 
