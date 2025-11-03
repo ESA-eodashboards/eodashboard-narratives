@@ -25,18 +25,32 @@ Because aerosols influence cloud droplets from the moment they form, they can al
 Changes in droplet number, phase (liquid or ice), and cloud thickness can alter how clouds reflect solar radiation or trap heat emitted from the Earth's surface. Understanding these interactions is crucial, as clouds can either mitigate or amplify the warming of the planet.
 
 ## How can a satellite help?
-Sadly, we cannot pop-up inside a cloud and take a sample of the droplets and aerosols continuouly. However, scientist have developed over the years many ways to have a measure of this. How can a satellite measure the clouds and aerosls, if it's so far away and the particles are so tiny? 
+We can't continuously sample cloud droplets and aerosols directly from within clouds. However, researchers have developed several methods to study them remotely. You might ask: How did we develop understanding of clouds when we didn't have satellites to watch them from avobe and how can a satellite measure aerosols from space, given their small size? 
 
-Our first tool, when we didn't have the technology to do it, was the theory. Physics can predict the behaviuor of clouds and their relation with the aerosols. SO over the years we have developed many equations to understand this, in an idealized context.
+Our first tool was and still is the theory. Physics allows us to predict how clouds behave and interact with aerosols. Over time, researchers developed equations to describe these processes under ideal conditions.
 
-The more we understood, then the equations began to be more complicated and we tryed to incorporate more realistic thisngs that happen in the atmosphere. Then we had models. COmputational models run a lot of equations that we couln'd do with just pen and paper. These models are still idealized, but help to understand the processes involved and re-deiscover things that we might have missed before. 
+As our understanding improved, these equations became more complex, incorporating more realistic features of the atmosphere. The advances in computing led to the development of computational models. These models are simulations that solve thousands of equations to represent atmospheric processes. While still simplified, these models help us explore interactions and uncover new insights.
 
-How do we know if models are ok? With observations! We have different ways to do this. The first one is in the lab. Many scientist study the grouwth of ice crystals with different aerosols, or create clouds inside a cloud chamber to study their properties. But this is still an ideal environment, and the real atmosphere is more complex. Luckyly, we have airplanes! Yes, with airplanes we can collect pieces of clouds and aerosols, with what is called a probe, and then take them to the lab to analyse them. Of course airplanes have other isntruments that help to measure the general state of the clouds an aerosols from inside. But then, these campaings are very expensive, we can't be flying an airplane all the time across all the Earth. That's why we have satellites! 
+To understand if the models are representing the real-life processes, we rely on observations.
+One approach is laboratory experiments. Scientists study how ice crystals grow with different types of aerosols or simulate clouds in controlled chambers. However, lab conditions are still idelized compared to how complex is real atmosphere.
 
-All of these things complement each other and we need them to have a better picture of what in reality is very complex and sometimes fast. Having a better understanding will guide us towards having better predictions of the weather and climates, which are essential in a fast-changing and warming world. 
+Fortunately, we also have airborne measurements. Aircraft equipped with specialized instruments, called probes, can collect samples of clouds and aerosols, which are then analyzed in laboratories. These aircraft can also carry sensors to measure cloud and aerosol properties in real time. However, such field campaigns are costly and cannot be conducted everywhere or continuously. This is where satellites become essential.
+
+Satellites provide global, long-term observations that complement lab experiments, aircraft missions, and models. Together, these tools offer a more complete picture of a system that is both complex and rapidly changing. Improving our understanding helps refine weather and climate predictions and is critical in a warming world.
+
+### Why EarthCare? 
+
+EarthCARE is a first-of-its-kind mission that offers an unlikely opportunity to understand the complexity of cloud changes using a single satellite. What makes EarthCARE special is its four instruments working together to study clouds, aerosols, and radiation in detail.
+
+ATLID (Atmospheric Lidar) uses laser pulses to detect aerosols and thin cloud layers by measuring how light scatters back from particles, providing high-resolution profiles that improve on previous lidar missions like CALIPSO.
+CPR (Cloud Profiling Radar) can "see" across the clouds with radar signals to measure their vertical structure and water content, adding the capability to  capture cloud motion and the speed of precipitation. This imporves the previous mission called CloudSat .
+MSI (Multi-Spectral Imager) delivers multi-wavelength images in 7 different bands that reveal cloud structure and aerosol distribution over large areas, complementing MODIS with higher spatial resolution. 
+BBR (Broadband Radiometer) measures solar and thermal radiation reflected and emitted by Earth, enabling direct estimates of top-of-atmosphere radiative effects and energy balance. 
+
+Together, these instruments provide comprehensive and blended data that will help us explore interactions and uncover new insights into how clouds and aerosols influence climate.
 
 ## Our challenge 
-We decided to take a look at the aerosols and clouds from EarthCare by comparing 3 different regions. 
+In the latest ESA challenge workshop, we decided to take a look at clouds and aerosols at three different locations with quite special characteristics. 
 
 The first ones are located in the tropics, in what we call the Inter-Tropical Convergence Zone in the Pacific Ocean. 
 The Pacific ITCZ is a strip that goes from West to East, a bit northern to the Equator, where characteristic deep convective/ high clouds occurs consistently all the time. 
