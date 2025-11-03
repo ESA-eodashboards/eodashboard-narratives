@@ -11,10 +11,11 @@ tags: some,tags
 
 ## Aerosols and clouds belong together
 
-Some clouds will find it difficult to exist if it wasn't for aerosols. 
-Aerosols can act as a nuclei that will help cloud droplets form. 
-Parcels of air raises from the surface of the air across the tropospphere, carring water vapour, which is water in gas state. 
-As they raise, the temperature drops and they can meet some aerosol particles on the way. Some of these particles are hygroscopic, they blend well with water molecules. At the right cold temperature, water will start condensing around the aerosol particles, changing from gas state to liquid. The particles that serve to activate cloud droples are called cloud condensation Nuclei (CCN). Some other particles will help water molecules to form ice crystals around them, changing to solid state. These woill happen higher in the troposphere or at lower temperatures. These particl;es, which are usually insolluble, are called Ice Nucleting Particles (INPs). Depending on which is the state of the majority of the cloud droplets we can have ice clouds, liquid clouds, or a mix of both. 
+Some clouds would struggle to exist without aerosols.
+Aerosols are made of small particles that can act as a nuclei that help cloud droplets form.
+In a simplified way, the way this works is that as parcels of air rise from the Earth's surface through the troposphere (the part of the atmosphere that is in contact with the surface) they carry water vapor, which is water in its gaseous state. As the air ascends, it cools, because the temperature in the troposphere drops as height increase. Along the way, it may encounter aerosol particles. Some of these particles are hygroscopic, meaning they attract and interact well with water molecules. When the temperature drops sufficiently, water vapor begins to condense around these particles, forming liquid droplets. These particles that help activating cloud droplets are known as Cloud Condensation Nuclei (CCN).
+
+Some other particles will help water molecules to form ice crystals around them, changing to solid state. These woill happen higher in the troposphere or at lower temperatures. These particl;es, which are usually insolluble, are called Ice Nucleting Particles (INPs). Depending on which is the state of the majority of the cloud droplets we can have ice clouds, liquid clouds, or a mix of both. 
 
 <!--{ as="ccn" mode="hero" src="https://github.com/paula-rj/eodashboard-narratives/blob/paula-rj/first-story-narrative/assets/aapopescu/clouds_formation.png" }-->
 
