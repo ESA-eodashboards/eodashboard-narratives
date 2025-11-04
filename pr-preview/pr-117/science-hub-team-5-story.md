@@ -214,8 +214,4 @@ Access the processing scripts and analysis notebooks to reproduce the study work
 - Holzer, N., Vijay, S., Yao, T., Xu, B., Buchroithner, M., and Bolch, T. (2015). Four decades of glacier variations at Muztagh Ata (eastern Pamir): a multi-sensor study including Hexagon KH-9 and Pléiades data. *The Cryosphere*, 9, 2071–2088. [https://doi.org/10.5194/tc-9-2071-2015](https://doi.org/10.5194/tc-9-2071-2015)
 
 ## Contributors
-**Authors**: Sheharyar Ahmad, Federico Scoto, Ginevra Chelli, Arslaan Akhtar
-
-**Challenge**: DeepESDL Challenge 7 - Monitoring properties of snow, glaciers and sea ice
-
-**Institution**: ESA Science Hub, ESRIN
+**Students**: Sheharyar Ahmad, Federico Scoto, Ginevra Chelli, Arslaan Akhtar
