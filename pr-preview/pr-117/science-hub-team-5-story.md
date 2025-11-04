@@ -64,77 +64,55 @@ Temperature trend analysis was supplemented with ECMWF ERA5 reanalysis data to p
 #### Methodology workflow
 
 **1. Land Surface Temperature Analysis (MODIS L3C)**
-- Acquisition of LST data from the ESA CCI Cube
-- Annual and seasonal aggregation of temperature data
-- Quantification of LST specifically for the glacier area
-- Spatial analysis distinguishing between accumulation and ablation zones
-- Time series trend analysis with linear regression to quantify seasonal warming/cooling trends
+<div style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-5/team5_method1.png?raw=true" /> <p><b>Figure 3.</b> Annual & Seasonal Mean LST ove Kekesayi Glacier.</p> </div>
+
 
 **2. Supraglacial Lake Detection (Sentinel-2)**
-- Extraction of Green and Near-Infrared (NIR) bands from the data cube
-- Calculation of Normalized Difference Water Index (NDWI)
-- Thresholding (NDWI ≥ 0.11) to detect water pixels
-- Binary water mask application in GIS environment
-- Lake area calculation for 2015 and 2020 to quantify changes
+<div style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-5/team5_method2.png?raw=true" /> <p><b>Figure 4.</b> Glacier lake area change detection.</p> </div>
+
 
 **3. Moisture Extent Mapping (Sentinel-1)**
-- Acquisition of Sentinel-1 GRD data cube from Sentinel Hub
-- Conversion of linear backscatter values to decibels (dB)
-- Thresholding for binary classification of wet/dry surfaces
-- Moisture extent quantification over the glacier surface
-- Temporal comparison (2015, 2017, 2020) to identify trends
+<div style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-5/team5_method3.png?raw=true" /> <p><b>Figure 5.</b> Moisture extent over the Kekesayi glacier.</p> </div>
 
-<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
-    <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-7/methodology_workflow.png?raw=true" 
-        style="max-width: 100%; width: 800px; height: auto;"
-        alt="Methodology workflow"
-    />
-    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 3.</b> Integrated multi-sensor workflow combining MODIS thermal, Sentinel-2 optical, and Sentinel-1 radar observations.
-    </p>
-</div>
 
-## Results
+## Results <!--{ as="eox-map" mode="tour" }-->
 
-#### Seasonal Land Surface Temperature Patterns
+### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"MODIS_LST_Pamir;:;2d96aa0d-5170-4979-b00e-e9e3eb1d3308;:;MODIS_LST_Pamir;:;EPSG:3857","title":"MODIS Land Surface Temperature"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["MODIS_LST"],"TILED":true,"TIME":"2015-09-01T00:00:00Z/2015-09-30T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="10.5" center=[75.1,38.3] projection="" animationOptions={duration:500}}-->
+#### Seasonal Land Surface Temperature Patterns (MODIS L3C)
 Maps of seasonal LST averaged over 2002-2018 reveal marked spatial variability between different areas of the Kekesayi Glacier, particularly between accumulation and ablation zones. As expected, during autumn and spring seasons, LST is higher in the ablation zone compared to the accumulation zone. 
 
 **The most striking finding is the summer temperature pattern**: while warming would be expected, summer mean LST actually shows cooling in the ablation part of the glacier. This counterintuitive result is key to understanding the glacier's anomalous behavior.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-7/seasonal_LST_maps.png?raw=true" 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-5/results_team5.png?raw=true" 
         style="max-width: 100%; width: 800px; height: auto;"
-        alt="Seasonal LST maps"
+        alt="Kekesayi Glacier location"
     />
     <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 4.</b> Seasonal Land Surface Temperature maps for Kekesayi Glacier (2002-2018 average): Winter, Spring, Summer, and Autumn.
+        <b>Figure X.</b> Caption.
     </p>
 </div>
 
+### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"MODIS_LST_Pamir;:;2d96aa0d-5170-4979-b00e-e9e3eb1d3308;:;MODIS_LST_Pamir;:;EPSG:3857","title":"MODIS Land Surface Temperature"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["MODIS_LST"],"TILED":true,"TIME":"2015-09-01T00:00:00Z/2015-09-30T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="10.5" center=[75.1,38.3] projection="" animationOptions={duration:500}}-->
 #### Temperature Trend Analysis
-Time series analysis quantifying LST trends within the ablation zone reveals contrasting seasonal patterns:
-
-- **Winter**: Significant warming trend (R² = 0.56) 
-- **Autumn**: Cooling trend (R² = 0.34)
-- **Spring**: Cooling trend (R² = 0.43)
-- **Summer**: Non-significant cooling trend (R² = 0.05)
-
-The strong winter warming combined with summer cooling creates a unique thermal regime that helps explain the glacier's stability despite regional warming trends.
+We analysed LST time series trend by quantifying pixels inside the ablation zone of glacier for linear trend estimation. A significant warming trend (R²= 0.56) is observed in winter, while autumn and spring show a cooling trend (R² 0.34 and 0.43, respectively). Notably during Summer a non significant cooling trend (R² = 0.05) can be also observed.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-7/LST_trends.png?raw=true" 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-5/results2_team5.png?raw=true" 
         style="max-width: 100%; width: 800px; height: auto;"
-        alt="LST trend analysis"
+        alt="Kekesayi Glacier location"
     />
     <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 5.</b> Seasonal LST trend analysis showing contrasting warming (winter) and cooling (spring, autumn, summer) patterns.
+        <b>Figure X.</b> Caption.
     </p>
 </div>
 
-#### Supraglacial Lake Expansion
+
+
+<!--no-nav=true -->  
+## Supraglacial Lake Expansion (Sentinel-2)
 Sentinel-2 analysis using NDWI (threshold ≥ 0.11) to detect water pixels revealed substantial growth in supraglacial lake area:
 
 - **September 2015**: 0.16 km²
@@ -144,7 +122,7 @@ This represents a **154% increase** in lake area over five years, indicating enh
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-7/supraglacial_lakes.png?raw=true" 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-5/results3_team5.png?raw=true" 
         style="max-width: 100%; width: 800px; height: auto;"
         alt="Supraglacial lake comparison"
     />
@@ -153,7 +131,7 @@ This represents a **154% increase** in lake area over five years, indicating enh
     </p>
 </div>
 
-#### Moisture Extent Evolution
+## Moisture Extent Evolution (Sentinel-1)
 Sentinel-1 moisture mapping at the end of summer season shows a dramatic increase in surface moisture extent:
 
 - **September 2015**: 2.54 km²
@@ -164,7 +142,7 @@ The moisture extent maps generally coincide with supraglacial lake locations but
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-7/moisture_extent.png?raw=true" 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-5/results4_team5.png?raw=true" 
         style="max-width: 100%; width: 800px; height: auto;"
         alt="Moisture extent evolution"
     />
@@ -173,20 +151,18 @@ The moisture extent maps generally coincide with supraglacial lake locations but
     </p>
 </div>
 
+
 ## Conclusions
 
-This study demonstrates that glaciers in the Third Pole region do not respond uniformly to climate change. The Kekesayi Glacier exhibits a complex pattern of **warming winters with increasing meltwater production** while experiencing **slightly cooler summers** that reduce ablation. This combination results in slightly positive mass balance over recent decades, contrary to the global trend of glacier retreat.
+The study shows that some of the glaciers in the third pole do not respond uniformly to climate change, and shows slightly positive mass balance for the last decades.
 
-The key findings reveal:
+The focused “ Kekesayi Glacier” is found to be experiencing warming winters with increasing meltwater which contributes in expanding supraglacial lakes, whereas the glacier experiences slightly cooler summer. These mixed signals highlight the importance of combining climatic analysis with morphometric proxies to capture
+the full story.
 
-1. **Seasonal temperature paradox**: Strong winter warming (R² = 0.56) contrasts with summer cooling, creating unique thermal conditions
-2. **Enhanced water storage**: Supraglacial lakes expanded by 154% and moisture extent increased by 223% between 2015-2020
-3. **Stable glacier margins**: Despite increased meltwater, the debris-covered glacier shows no significant frontal retreat
-4. **Complex climate response**: Mixed thermal signals highlight the importance of combining climatic analysis with morphometric proxies
+The integration of multiple sensors (MODIS, Sentinel-1 & 2) and reanalysis products (ECMWF ERA5) can help in better understanding of evolving water balance of glaciers, and by extension, their role in regional hydrology and global climate change.
 
-The integration of multiple sensors (MODIS for thermal monitoring, Sentinel-1 for moisture detection, and Sentinel-2 for lake mapping) combined with reanalysis products (ECMWF ERA5) provides a comprehensive understanding of evolving glacier water balance. This approach is essential for assessing the role of Third Pole glaciers in regional hydrology and their contribution to downstream water resources.
-
-**Future perspectives** include utilizing newer remote sensing products such as CRISTAL/Sentinel-3 to measure snow depth, quantify moisture content more accurately, and better differentiate debris-covered areas from snow-covered surfaces. Long-term monitoring will be crucial for understanding whether the current slight mass gain represents a temporary anomaly or a sustained response to changing climate patterns.
+#### Future work
+**Future perspectives** foresees to use newer remote sensing products such as Crystal/Sentinel 3 to measure snow depth, quantifying moisture content, differentiating debris from snow etc.
 
 ## <!--{ as="div" }--> Open Science
 
