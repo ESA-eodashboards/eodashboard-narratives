@@ -32,7 +32,11 @@ Figure 4: Cloud radiative effects. The amount of clouds, their height in the atm
 Because aerosols influence cloud droplets from the moment they form, they can also affect the overall structure and behavior of the cloud. For example, a higher concentration of CCNs leads to the formation of more and smaller droplets. In liquid clouds, this increases their reflectivity to sunlight, a phenomenon known as the Twomey effect.
 Changes in droplet number, phase (liquid or ice), and cloud thickness can alter how clouds reflect solar radiation or trap heat emitted from the Earth's surface. Understanding these interactions is crucial, as clouds can either mitigate or amplify the warming of the planet.
 
-## How can a satellite help?
+## Challenge 
+Delate. That's an introduction rather than the challenge. Challenge and objective can be merged. 
+
+How can a satellite help?
+
 We can't continuously sample cloud droplets and aerosols directly from within clouds. However, researchers have developed several methods to study them remotely. You might ask: How did we develop understanding of clouds when we didn't have satellites to watch them from avobe and how can a satellite measure aerosols from space, given their small size? 
 
 Our first tool was and still is the theory. Physics allows us to predict how clouds behave and interact with aerosols. Over time, researchers developed equations to describe these processes under ideal conditions.
@@ -80,5 +84,44 @@ The atmospheric dynamics are quite particular. Ice clouds form at much lower alt
 
 Comparing these three very interesting regions with quite distinctive characteristics could give us a hint on whether the aerosols are influencing changes in the clouds. 
 
-## Results
+## Data and methods
 
+### EarthCARE Instruments
+
+We've used two of the forurth instruments on-board of EarthCare, the ones that can provide a vertical profiliong of the atmosphere:
+- Cloud Profiling Radar (CPR): 94 GHz nadir-viewing radar with ~750m horizontal resolution and 100m vertical resolution, providing cloud structure, ice and liquid water content. 
+    Atmospheric Lidar (ATLID): 354.8 nm nadir-viewing lidar with <30m horizontal resolution and 100m vertical resolution, detecting aerosols and thin clouds
+ 
+		Remove Earthcare instruments pic from here
+		
+### Datesets
+
+The analysis used three primary EarthCARE data products:
+ - CPR_CLD_2A: Derived from CPR reflectivity measurement, it provides cloud variables including Liquid Water Path (LWP) and Ice Water Path (IWP), plus land/ocean flags. 
+ - ATL_ALD_2A: Derived from ATLID backscatter measurement, it provides aerosol variables including Aerosol Optical Thickness (AOT) at 355nm. 
+ - AC_TC_2A: This is a synergistic radar-lidar product, that provides target classification distinguishing cloud types and aerosol layers. 
+
+Data coverage: We've used approximately 600-700 scenes from June-July and September 2025 (limited by early mission data availability). Analysis was conducted using the Multi-Mission Algorithm and Analysis Platform (MAAP).
+
+### Methodology workflow
+
+To get some insights in the possible links between clouds and aerosols, we've developed a K-Means clusterring classiffication using the liquid water path, ice water path and aorosols optical thickness variables. This is an unsupervised machine learning algorithm that groups the data points in a given number of groups, according to the characteristics they have in common. This is basically quantified through the distance of the points to the center of the group or centroid. 
+
+The data processing followed a systematic processing pipeline:
+
+    1- Extract all the data available for the areas we're interested in (600~700 scenes)
+    2- Resample data by time at 1s temporal resolution for co-location
+    3- Merge datasets(radar+lidar) at 1 m temporal definition (AOT, L/IWP, Target classification)
+    4- Resample at 1 minute temporal
+    5- Select only the months for which all data is available: June-July, September 2025
+    5- Normalize variables (X - min/ max-min)
+    6 - Clustering approach using simple K-means to understand centroids distance and relations between variables
+
+Finally, the synergetic product will give us insights on the types of clouds or aerosols that are grouped on each cluster.
+
+We used the elbow method to understand the3 ideal amount of clousters for our data, which is 5 (where the "elbow" lies).  
+! Include elbow method plot
+The code was run at MAAP portal.
+
+
+### Results
