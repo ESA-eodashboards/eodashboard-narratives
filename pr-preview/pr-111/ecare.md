@@ -25,7 +25,10 @@ https://github.com/paula-rj/eodashboard-narratives/blob/paula-rj/first-story-nar
     <p><b>Figure 1.</b> Schematic representation of how liquiod cloud droplets form with the help of aerosol particles.</p>
 </div>
 
-Figure 3: 
+Figure 3: Aerosols radiative effects. Aerosols particles can change the way the radiation is reflected and reemited themselves, this is called a direct effect. They can also modify the size and amount of particles that a cloud is made of, consecuently changing how much cradiation is reflected by the cloud. This is an indirect effect from the aerosols.
+
+Figure 4: Cloud radiative effects. The amount of clouds, their height in the atmosphere and their thickness are fundamental variables that determine how they interact with the incomming and outgoing radiation. 
+
 Because aerosols influence cloud droplets from the moment they form, they can also affect the overall structure and behavior of the cloud. For example, a higher concentration of CCNs leads to the formation of more and smaller droplets. In liquid clouds, this increases their reflectivity to sunlight, a phenomenon known as the Twomey effect.
 Changes in droplet number, phase (liquid or ice), and cloud thickness can alter how clouds reflect solar radiation or trap heat emitted from the Earth's surface. Understanding these interactions is crucial, as clouds can either mitigate or amplify the warming of the planet.
 
@@ -66,10 +69,10 @@ https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Chall
 </div>
 
 1. **West Pacific**
-The western ITCZ is very interesting because air raises in very strong updrafts (air moving upwards), mostly because the sea serface temperature is usually high. These updrafts and the clouds can form storms that can stir the ocean, lifting sea salt aerosols into the atmosphere. These are natural aerosols. However, nearby regions such as Southeast Asia and China may contribute anthropogenic aerosols, from pollution or biomass burning.
+The western ITCZ is very interesting because air raises in very strong updrafts (air moving upwards), mostly because the sea serface temperature is usually high. These updrafts and the clouds can form storms that can stir the ocean, lifting sea salt aerosols into the atmosphere. These are natural aerosols (non-anthropogenic). However, nearby regions such as Southeast Asia and China may contribute with anthropogenic aerosols derived from human activities, like pollution or industrial activity.
 
 2.  **Eastern Pacific**  
-This region typically experiences downdrafts, where air sinks rather than rises. Yet, high clouds still form here. Being far from major population centers and bordered by the Andes to the east, we expect fewer aerosol sources, except perhaps some sea salt.
+This region typically experiences downdrafts, where air sinks rather than rises, as the sea temperature is usually lower than in the West.Yet, high clouds still form here. Being far from major population centers, we expect fewer aerosol sources. 
 
 3.   **Southern Ocean** 
 This region presents a different scenario. Aerosols from higher latitudes may influence cloud formation here. We mostly expect sea salt aerosols, but there could also be stratospheric aerosols, especially from volcanic eruptions.
