@@ -72,10 +72,11 @@ https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Chall
 The western ITCZ is very interesting because air raises in very strong updrafts (air moving upwards), mostly because the sea serface temperature is usually high. These updrafts and the clouds can form storms that can stir the ocean, lifting sea salt aerosols into the atmosphere. These are natural aerosols (non-anthropogenic). However, nearby regions such as Southeast Asia and China may contribute with anthropogenic aerosols derived from human activities, like pollution or industrial activity.
 
 2.  **Eastern Pacific**  
-This region typically experiences downdrafts, where air sinks rather than rises, as the sea temperature is usually lower than in the West.Yet, high clouds still form here. Being far from major population centers, we expect fewer aerosol sources. 
+This region typically experiences downdrafts, where air sinks rather than rises, as the sea temperature is usually lower than in the West. Yet, high clouds still form here. Being far from major population centers, we expect fewer aerosol sources. 
 
 3.   **Southern Ocean** 
-This region presents a different scenario. Aerosols from higher latitudes may influence cloud formation here. We mostly expect sea salt aerosols, but there could also be stratospheric aerosols, especially from volcanic eruptions.
+This region presents a completely different scenario. 
+The atmospheric dynamics are quite particular. Ice clouds form at much lower altitudes given the extremely low temperature of the atmosphere. However, there can also be some supercooled clouds at low altitudes. Aerosols might potentially be carried from far away, and influence cloud formation here. We mostly expect sea salt aerosols, but there could also be stratospheric aerosols, especially from volcanic eruptions.
 
 Comparing these three very interesting regions with quite distinctive characteristics could give us a hint on whether the aerosols are influencing changes in the clouds. 
 
