@@ -20,16 +20,17 @@ Some clouds would not exist without aerosols, tiny particles that act as nuclei 
 Some aerosols help form ice crystals instead, acting as Ice **Nucleating Particles (INPs)**, common at higher, colder altitudes. Depending on whether droplets are liquid, ice, or both, clouds are classified as liquid, ice, or mixed-phase. Natural aerosols include sea salt, volcanic sulfates, and desert dust, while anthropogenic aerosols arise from pollution and biomass burning. Because aerosols influence droplet formation, they also affect cloud structure and behavior. For instance, more CCNs create numerous smaller droplets, increasing cloud reflectivity: **the Twomey effect**. By altering droplet number, phase, and thickness, aerosols modify how clouds reflect sunlight and trap heat, playing a key role in how clouds either amplify or mitigate global warming.
 
 ## How can a satellite help?
-We can't continuously sample cloud droplets and aerosols directly from within clouds. However, researchers have developed several methods to study them remotely. You might ask: How did we develop understanding of clouds when we didn't have satellites to watch them from avobe and how can a satellite measure aerosols from space, given their small size? Our first tool was and still is the theory. Physics allows us to predict how clouds behave and interact with aerosols. Over time, researchers developed equations to describe these processes under ideal conditions.
+We cannot continuously sample cloud droplets and aerosols directly within clouds, so researchers use several remote methods to study them. You might wonder: how did we understand clouds before satellites, and how can satellites detect such tiny particles?
 
-As our understanding improved, these equations became more complex, incorporating more realistic features of the atmosphere. The advances in computing led to the development of computational models. These models are simulations that solve thousands of equations to represent atmospheric processes. While still simplified, these models help us explore interactions and uncover new insights. To understand if the models are representing the real-life processes, we rely on observations.
-One approach is laboratory experiments. Scientists study how ice crystals grow with different types of aerosols or simulate clouds in controlled chambers. However, lab conditions are still idelized compared to how complex is real atmosphere. Fortunately, we also have airborne measurements. Aircraft equipped with specialized instruments, or probes, collect samples of clouds and aerosols for laboratory analysis and can also measure their properties in real time. However, such field campaigns are expensive and limited in space and time, this is where satellites become essential.Satellites provide continuous, global observations that complement lab experiments, aircraft missions, and models. Together, these tools offer a more complete picture of a complex and changing system, improving our ability to refine weather and climate predictions in a warming world.
+Our first tool was and remains theory. Physics helps predict how clouds behave and interact with aerosols. Over time, scientists developed equations to describe these processes, later enhanced by computational models that simulate thousands of atmospheric equations. Though simplified, these models reveal valuable insights into cloud–aerosol interactions. To verify models, we rely on observations. In the lab, scientists study ice crystal growth or simulate clouds in controlled conditions. Aircraft equipped with specialized instruments can collect samples and measure properties in real time, but these missions are costly and limited. Satellites, on the other hand, provide continuous, global coverage that complements models, lab work, and field campaigns.
+
+Together, these tools offer a more complete picture of this complex system, helping us improve weather and climate predictions in a warming world.
 
 ### Why EarthCare? 
 
 EarthCARE is a first-of-its-kind mission that offers an unlikely opportunity to understand the complexity of cloud changes using a single satellite. What makes EarthCARE special is its four instruments working together to study clouds, aerosols, and radiation in detail.
 
-<div style="text-align: center;"> <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/01/earthcare_over_desert_dust/25391626-1-eng-GB/EarthCARE_over_desert_dust_pillars.png" width="500"/> <p><b>Figure 2.</b> EarthCare Satellite (source: ESA).</p> </div>
+<div style="text-align: center;"> <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/01/earthcare_over_desert_dust/25391626-1-eng-GB/EarthCARE_over_desert_dust_pillars.png" width="800"/> <p><b>Figure 2.</b> EarthCare Satellite (source: ESA).</p> </div>
 
 
 ATLID (Atmospheric Lidar) uses laser pulses to detect aerosols and thin cloud layers by measuring how light scatters back from particles, providing high-resolution profiles that improve on previous lidar missions like CALIPSO.
@@ -67,7 +68,7 @@ To capture the diversity of aerosol-cloud interactions, this study focuses on th
 
 Comparing these three very interesting regions with quite distinctive characteristics could give us a hint on whether the aerosols are influencing changes in the clouds. 
 
-<img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/Globe1_pacific.png?raw=true" width="600"/> <p style="text-align:center;"><b>Figure 3.</b> Location of use cases.</p>
+<img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/Globe1_pacific.png?raw=true" width="800" style="display:block; margin:auto;"/> <p style="text-align:center;"><b>Figure 3.</b> Location of use cases.</p>
 
 
 
