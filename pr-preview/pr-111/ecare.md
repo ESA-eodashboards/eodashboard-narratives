@@ -25,6 +25,7 @@ https://github.com/paula-rj/eodashboard-narratives/blob/paula-rj/first-story-nar
     <p><b>Figure 1.</b> Schematic representation of how liquiod cloud droplets form with the help of aerosol particles.</p>
 </div>
 
+Figure 3: 
 Because aerosols influence cloud droplets from the moment they form, they can also affect the overall structure and behavior of the cloud. For example, a higher concentration of CCNs leads to the formation of more and smaller droplets. In liquid clouds, this increases their reflectivity to sunlight, a phenomenon known as the Twomey effect.
 Changes in droplet number, phase (liquid or ice), and cloud thickness can alter how clouds reflect solar radiation or trap heat emitted from the Earth's surface. Understanding these interactions is crucial, as clouds can either mitigate or amplify the warming of the planet.
 
