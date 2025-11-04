@@ -48,6 +48,8 @@ EarthCARE is a first-of-its-kind mission that offers an unlikely opportunity to 
 * **MSI (Multi-Spectral Imager)** delivers multi-wavelength images in 7 different bands that reveal cloud structure and aerosol distribution over large areas, complementing MODIS with higher spatial resolution. 
 * **BBR (Broadband Radiometer)** measures solar and thermal radiation reflected and emitted by Earth, enabling direct estimates of top-of-atmosphere radiative effects and energy balance. 
 
+<div style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/team1-earthcare-sensors-image.png?raw=true" width="800"/> <p><b>Figure 2.</b> EarthCare Satellite (source: ESA).</p> </div>
+
 Together, these instruments provide comprehensive and blended data that will help us explore interactions and uncover new insights into how clouds and aerosols influence climate.
 
 ## Use cases
@@ -109,27 +111,15 @@ Data coverage: Approximately 600-700 scenes from June-July and September 2025 (l
 #### Methodology workflow
 
 The analysis followed a systematic processing pipeline:
+* **1- Extract** all the data available for the areas we're interested in (600~700 scenes)
+* **2- Resample** data by time at 1s temporal resolution
+* **3- Merge** datasets(radar+lidar+synergetic) at 1 m temporal definition (AOT, L/IWP, Target classification)
+* **4- Resample** at 1 minute temporal
+* **5- Select** only the months for which all data is available: June-July, September 2025
+* **5- Normalize** variables (x-min/max-min)
+* **6 - Clustering** approach using simple **K-means** to understand centroids distance and relations between variables
 
-**1. Data Extraction and Preparation**
-- Extracted all available data for West Pacific, East Pacific, and Southern Ocean regions (~600-700 scenes)
-- Identified land/ocean surfaces using CPR flags
-
-**2. Temporal Resampling and Integration**
-- Resampled data to 1-second temporal resolution
-- Merged radar, lidar, and synergetic products at 1-meter temporal definition
-- Combined AOT, LWP, IWP, and target classification into unified dataset
-- Further resampled to 1-minute temporal resolution for analysis
-
-**3. Data Filtering and Normalization**
-- Selected only months with complete data availability: June-July and September 2025
-- Normalized variables using min-max scaling: (x - min)/(max - min)
-- Separated ocean and land observations (dataset predominantly oceanic)
-
-**4. Clustering Analysis**
-- Applied K-means clustering to identify natural groupings in aerosol-cloud relationships
-- Variables used: Aerosol Optical Thickness (AOT), Liquid Water Path (LWP), Ice Water Path (IWP)
-- Tested multiple cluster numbers (k=5 shown in results) to understand centroid distances and variable relationships
-- Analyzed cluster spatial distribution and vertical structure
+The code was run at MAAP portal.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
@@ -147,33 +137,45 @@ The analysis followed a systematic processing pipeline:
 ## Results
 
 #### Cluster Identification in Tropical Pacific
-
-K-means clustering revealed five distinct aerosol-cloud regimes in the West and East Pacific regions. The clusters show clear separation in the three-dimensional space defined by AOT, LWP, and IWP, indicating distinct physical relationships between aerosol loading and cloud water content.
+<span style="color:red">MISSING CONTENT: WRITTEN INTERPRETATION OF RESULTS </span>
+- **West Pacific** shows that... <span style="color:red">MISSING CONTENT: WRITTEN INTERPRETATION OF RESULTS </span>
+- **East Pacific** exhibits... <span style="color:red">MISSING CONTENT: WRITTEN INTERPRETATION OF RESULTS </span>
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/pacific_clusters.png?raw=true" 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/results1_team1.png?raw=true" 
         style="max-width: 100%; width: 800px; height: auto;"
         alt="Pacific region clusters"
     />
     <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 5.</b> K-means clustering results for West Pacific (left) and East Pacific (right) showing five distinct aerosol-cloud regimes.
+        <b>Figure 5.</b> K-means clustering results for West Pacific (upper row) and East Pacific (bottom row).
     </p>
 </div>
-
-**Key findings from Pacific analysis:**
-
-- **West Pacific** shows higher aerosol loading clusters associated with increased liquid water content, consistent with CCN enhancement effects from biomass burning and pollution
-- **East Pacific** exhibits cleaner marine clusters with lower AOT but still showing varied cloud water content, suggesting natural aerosol influences
-- Distinct cluster separation indicates robust relationships between aerosol properties and cloud microphysics
-
-#### Vertical Structure Analysis
-
-Analysis of cluster distribution with height reveals important vertical patterns in aerosol-cloud interactions. Different clusters dominate at different atmospheric levels, reflecting the vertical structure of aerosol layers and cloud types.
+<span style="color:red">MISSING CONTENT: WRITTEN INTERPRETATION OF RESULTS </span>
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/vertical_clusters.png?raw=true" 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/results2_team1.png?raw=true" 
+        style="max-width: 100%; width: 800px; height: auto;"
+        alt="Methodology workflow"
+    />
+    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
+        <b>Figure 6.</b> West Pacific K-Means Clustering.
+    </p>
+</div>
+
+
+
+
+
+
+#### Vertical Structure Analysis
+
+Analysis of cluster distribution with height reveals important vertical patterns in aerosol-cloud interactions. The vertical profiles show transitions between cluster types at different height levels (2.5km, 5km, 7.5km, 10km, 12.5km, 15km, 17.5km, 20km).  <span style="color:red">MISSING CONTENT: WRITTEN INTERPRETATION OF RESULTS </span>
+
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
+    <img 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/results4_team1.png?raw=true" 
         style="max-width: 100%; width: 800px; height: auto;"
         alt="Vertical cluster distribution"
     />
@@ -182,15 +184,16 @@ Analysis of cluster distribution with height reveals important vertical patterns
     </p>
 </div>
 
-The vertical profiles show transitions between cluster types at different height levels (2.5km, 5km, 7.5km, 10km, 12.5km, 15km, 17.5km, 20km), indicating that aerosol-cloud interactions vary significantly with temperature and atmospheric conditions.
+
 
 #### Spatial Patterns
 
-Examination of cluster spatial distribution reveals longitudinal patterns, despite latitude and longitude not being included in the clustering variables. This emergent spatial structure suggests that aerosol-cloud regimes are geographically organized, likely reflecting regional patterns in aerosol sources and meteorological conditions.
+Examination of cluster spatial distribution reveals longitudinal patterns, despite latitude and longitude not being included in the clustering variables. This probably means
+we should wait for more data to become available on MAAP.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/spatial_distribution.png?raw=true" 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/results5_team1.png?raw=true" 
         style="max-width: 100%; width: 800px; height: auto;"
         alt="Spatial cluster distribution"
     />
@@ -199,36 +202,31 @@ Examination of cluster spatial distribution reveals longitudinal patterns, despi
     </p>
 </div>
 
-The presence of spatial patterns emerging from purely microphysical variables validates the physical basis of the clustering but also suggests that more complete temporal coverage will strengthen pattern detection.
-
 #### Antarctica Results
 
-Preliminary analysis of the Southern Ocean and Antarctica region shows distinct cluster characteristics compared to tropical regions, reflecting the unique aerosol and cloud environment of polar regions. The pristine conditions with minimal anthropogenic aerosols provide important context for understanding natural aerosol-cloud interactions.
+
+<span style="color:red">MISSING CONTENT </span>
+
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
+    <img 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/results3_team1.png?raw=true" 
+        style="max-width: 100%; width: 800px; height: auto;"
+        alt="Spatial cluster distribution"
+    />
+    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
+        <b>Figure 8.</b> Antartida results.
+    </p>
+</div>
+
 
 ## Conclusions
 
 This study demonstrates the capability of EarthCARE's integrated sensor suite to reveal relationships between aerosol properties and cloud microphysics across different climate regions. Key findings include:
+<span style="color:red">MISSING CONTENT: WRITTEN INTERPRETATION OF RESULTS </span>
 
-1. **Robust aerosol-cloud regimes identified**: K-means clustering successfully separated five distinct regimes based on AOT, LWP, and IWP relationships
-2. **Regional differences**: West Pacific shows high-aerosol regimes with enhanced liquid water, while East Pacific exhibits cleaner marine conditions
-3. **Vertical structure**: Aerosol-cloud interactions vary systematically with altitude, reflecting changes in temperature and cloud phase
-4. **Emergent spatial patterns**: Geographic organization of clusters suggests regional coherence in aerosol sources and meteorological controls
+#### Limitations and future work:
+<span style="color:red">MISSING CONTENT: WRITTEN INTERPRETATION OF RESULTS </span>
 
-The analysis confirms laboratory and modeling predictions that increased CCN availability relates to changes in cloud droplet populations, though the relationship between aerosols and ice content requires further investigation with longer time series.
-
-**Limitations and future work:**
-- Limited temporal coverage (June-July, September 2025) restricts seasonal analysis
-- Integration challenges between MSI and active sensors (CPR, ATLID) remain
-- Target classification integration with clusters needs refinement
-
-**Next steps include:**
-- Extending analysis to longer time periods as more EarthCARE data becomes available
-- Incorporating full vertical profiles and MSI swath coverage
-- Relating clusters to specific target classifications (cloud types, aerosol layers)
-- Developing question-driven strategies for integrating categorical classifications
-- Including additional study regions and seasonal variations
-
-The framework established here provides a foundation for systematic investigation of aerosol-cloud interactions using EarthCARE's unique observational capabilities, with important implications for climate model validation and weather prediction.
 
 ## <!--{ as="div" }--> Open Science
 
