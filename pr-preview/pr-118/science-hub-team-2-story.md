@@ -51,18 +51,6 @@ https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Chall
 
 **Climate Change Monitoring**: Tracking physico-chemical parameters of Mediterranean waters in a changing climate is crucial, particularly considering the basin's contribution to the Atlantic Meridional Overturning Circulation (AMOC) and its sensitivity to warming trends.
 
-<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
-    <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-6/mediterranean_map.png?raw=true" 
-        style="max-width: 100%; width: 800px; height: auto;"
-        alt="Mediterranean Sea study region"
-    />
-    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 2.</b> Mediterranean Sea study region showing diverse oceanographic conditions from productive coastal areas to oligotrophic open waters.
-    </p>
-</div>
-
-The Mediterranean's gradient from nutrient-rich coastal and upwelling zones to nutrient-poor oligotrophic central basins provides natural variation ideal for identifying distinct water type clusters.
 
 ## Data and Methods
 
@@ -110,19 +98,6 @@ All datasets were obtained from operational oceanography products including opti
 - Calculated inertia error (within-cluster sum of squares) for different cluster numbers
 - **Elbow analysis suggested 5 clusters as optimal** based on inertia curve inflection
 
-<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
-    <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-6/elbow_method.png?raw=true" 
-        style="max-width: 100%; width: 600px; height: auto;"
-        alt="Elbow method results"
-    />
-    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 4.</b> Elbow method showing inertia error versus number of clusters, with optimal value at 5 clusters.
-    </p>
-</div>
-
-However, testing revealed that 5, 6, and 7 clusters produced oversimplified classifications with only two dominant water types (coastal and open ocean), lacking the ecological detail needed for management applications. **Therefore, 8 clusters were selected** to capture finer-scale oceanographic features, despite this exceeding the statistical optimum.
-
 **4. K-means Clustering Application**
 - Applied K-means algorithm with k=8 clusters
 - Used multiple random initializations to ensure robust convergence
@@ -140,7 +115,7 @@ However, testing revealed that 5, 6, and 7 clusters produced oversimplified clas
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-6/workflow_diagram.png?raw=true" 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/team2_method.png?raw=true" 
         style="max-width: 100%; width: 800px; height: auto;"
         alt="Analysis workflow"
     />
@@ -299,8 +274,3 @@ Access the complete analysis notebook to reproduce the clustering workflow.
 - Volpe, G., Colella, S., Brando, V.E., et al. (2019). Mediterranean ocean colour Level 3 operational multi-sensor processing. *Ocean Science*, 15(1), 127-146.
 
 ## Contributors
-**Authors**: Enrico Biscaro, William Luty, Katie Lowery
-
-**Challenge**: Ocean Water Type Classification Using Unsupervised Learning
-
-**Institution**: ESA Science Hub, ESRIN
