@@ -6,11 +6,11 @@ tags: glaciers,climate,third-pole
 
 ---
 
-# Glacier monitoring under global warming trends through remote sensing <!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/03/pamir_mountains/25234567-1-eng-GB/Pamir_mountains_pillars.jpg" }-->
-### Authors: Sheharyar Ahmad, Federico Scoto, Ginevra Chelli, Arslaan Akhtar <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+# Glacier monitoring under global warming trends through remote sensing – An example from The Third Pole  <!--{ as="img" mode="hero" src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Tajikistan_wikivoyage_banner.jpg" }-->
+### Authors: Sheharyar Ahmad, Federico Scoto, Ginevra Chelli, Arslaan Akhtar (University of Leeds) <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 # 
-*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in September 2025. The challenge focused on monitoring properties of snow, glaciers and sea ice using the DeepESDL platform.*
+*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in September 2025. The challenge focused on monitoring properties of snow, glaciers and sea ice using the DeepESDL platform. It was developed by a team from University of Leeds.*
 
 ## Challenge
 The Third Pole region, encompassing the Hindu Kush-Karakoram-Himalaya mountain ranges, contains the largest concentration of glaciers outside the polar regions. These glaciers are critical water sources for over two billion people in Asia. However, understanding glacier dynamics in this region is complicated by the "Karakoram anomaly" — a phenomenon where some glaciers show stability or even slight growth despite global warming trends.
