@@ -33,7 +33,10 @@ Because aerosols influence cloud droplets from the moment they form, they can al
 Changes in droplet number, phase (liquid or ice), and cloud thickness can alter how clouds reflect solar radiation or trap heat emitted from the Earth's surface. Understanding these interactions is crucial, as clouds can either mitigate or amplify the warming of the planet.
 
 ## Challenge 
-Delate. That's an introduction rather than the challenge. Challenge and objective can be merged. 
+
+**Delate. **
+
+That's an introduction rather than the challenge. Challenge and objective can be merged. 
 
 How can a satellite help?
 
@@ -120,8 +123,27 @@ The data processing followed a systematic processing pipeline:
 Finally, the synergetic product will give us insights on the types of clouds or aerosols that are grouped on each cluster.
 
 We used the elbow method to understand the3 ideal amount of clousters for our data, which is 5 (where the "elbow" lies).  
-! Include elbow method plot
+**! Include elbow method plot**
 The code was run at MAAP portal.
 
 
 ### Results
+Although this was only an exploratory analysis, we can see some insights. 
+	The following plots show the clusters obtained in 2 dimensions, where each dimension is one of the variables we worked with. The red crosses show the clusters centroid. 
+	The first thing to notice is that, ovearall, the West Pacific classification is different than the East one. 
+	The second thing to notice is that there are many outliers driving the positions of the clousters. This can be due to the pecularities of the atmospheric dynamics at specific times. 
+	
+#### Vertical structure analysis 
+
+#### Spatial Paterns
+
+DELATE
+
+#### Antartica
+
+In Antartica, we clearly see a much more pristine environment. 
+The first plot shows that there don't seem to be many links between the aerosols and the ice clouds, exept perhaps for one outlier that would need further research. 
+The second and third plot show that there are not many liquid clouds. 
+
+### Conclusions 
+
