@@ -6,7 +6,7 @@ tags: EarthCARE, clouds, aerosols, ITCZ, southern ocean
 
 ---
 
-# The power of EarthCare, the new ESA Earth explorer <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
+# Exploring our atmosphere with EarthCARE <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
 ### From aerosols to clouds <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## Aerosols and clouds belong together
@@ -19,7 +19,11 @@ Some aerosols are made of particles that will help water molecules form ice crys
 
 Different types of aerosols are made of different particles. We often distinguish between aerosols derived from human activity (anthropogenic aerosols) and natural aerosols (non-anthropogenic). Examples of natural aerosols include sea salt spray, sulfates from volcanic eruptions, and dust from deserts. Examples of anthropogenic aerosols include those coming from industrial activity, generally pollution, and smoke from biomass burning.
 
-<!--{ as="ccn" mode="hero" src="https://github.com/paula-rj/eodashboard-narratives/blob/paula-rj/first-story-narrative/assets/aapopescu/clouds_formation.png" }-->
+<div style="text-align: center;">
+    <img src="
+https://github.com/paula-rj/eodashboard-narratives/blob/paula-rj/first-story-narrative/assets/aapopescu/clouds_formation.png " width="500"/>
+    <p><b>Figure 1.</b> Schematic representation of how liquiod cloud droplets form with the help of aerosol particles.</p>
+</div>
 
 Because aerosols influence cloud droplets from the moment they form, they can also affect the overall structure and behavior of the cloud. For example, a higher concentration of CCNs leads to the formation of more and smaller droplets. In liquid clouds, this increases their reflectivity to sunlight, a phenomenon known as the Twomey effect.
 Changes in droplet number, phase (liquid or ice), and cloud thickness can alter how clouds reflect solar radiation or trap heat emitted from the Earth's surface. Understanding these interactions is crucial, as clouds can either mitigate or amplify the warming of the planet.
@@ -49,16 +53,25 @@ BBR (Broadband Radiometer) measures solar and thermal radiation reflected and em
 
 Together, these instruments provide comprehensive and blended data that will help us explore interactions and uncover new insights into how clouds and aerosols influence climate.
 
-## Our challenge 
-In the latest ESA challenge workshop, we decided to take a look at clouds and aerosols at three different locations with quite special characteristics. 
-The first region lies just north of the Equator and stretches west to east across the Pacific Ocean. It's called the call the Inter-Tropical Convergence Zone (ITCZ) and it is characterized by persistent clouds with high and icy tops. The second region is in Antartica, the southern ocean. Here the conditions are quite different and clouds are lower, but because of the temperature these are mostly made of ice. 
+## The challenge 
 
-1. West Pacific: 
+In the latest ESA challenge workshop, we set out to explore the clouds and aerosols at three different locations with quite special characteristics. 
+The first region lies just north of the Equator and stretches West to East across the Pacific Ocean. It's called the call the Inter-Tropical Convergence Zone (ITCZ) and it is characterized by persistent clouds with high and icy tops. The second region is in Antartica, the southern ocean. Here the conditions are quite different and clouds are lower, but because of the temperature these are mostly made of ice. 
+
+<div style="text-align: center;">
+    <img src="
+https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/Globe1_pacific.png?raw=true  " width="500"/>
+    <p><b>Figure 2.</b> The three locations of our study for ESA challenge.</p>
+</div>
+
+1. **West Pacific**
 The western ITCZ is very interesting because air raises in very strong updrafts (air moving upwards), mostly because the sea serface temperature is usually high. These updrafts and the clouds can form storms that can stir the ocean, lifting sea salt aerosols into the atmosphere. These are natural aerosols. However, nearby regions such as Southeast Asia and China may contribute anthropogenic aerosols, from pollution or biomass burning.
 
-2.  Eastern Pacific:  This region typically experiences downdrafts, where air sinks rather than rises. Yet, high clouds still form here. Being far from major population centers and bordered by the Andes to the east, we expect fewer aerosol sources, except perhaps some sea salt.
+2.  **Eastern Pacific**  
+This region typically experiences downdrafts, where air sinks rather than rises. Yet, high clouds still form here. Being far from major population centers and bordered by the Andes to the east, we expect fewer aerosol sources, except perhaps some sea salt.
 
-3.  Southern Ocean: This region presents a different scenario. Aerosols from higher latitudes may influence cloud formation here. We mostly expect sea salt aerosols, but there could also be stratospheric aerosols, especially from volcanic eruptions.
+3.   **Southern Ocean** 
+This region presents a different scenario. Aerosols from higher latitudes may influence cloud formation here. We mostly expect sea salt aerosols, but there could also be stratospheric aerosols, especially from volcanic eruptions.
 
 Comparing these three very interesting regions with quite distinctive characteristics could give us a hint on whether the aerosols are influencing changes in the clouds. 
 
