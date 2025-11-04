@@ -1,5 +1,5 @@
 ---
-cover-image: https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/03/pamir_mountains/25234567-1-eng-GB/Pamir_mountains_pillars.jpg
+cover-image: https://upload.wikimedia.org/wikipedia/commons/c/c6/Tajikistan_wikivoyage_banner.jpg
 date: 2025-01-01
 theme: theme_name
 tags: glaciers,climate,third-pole
@@ -13,11 +13,9 @@ tags: glaciers,climate,third-pole
 *This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in September 2025. The challenge focused on monitoring properties of snow, glaciers and sea ice using the DeepESDL platform. It was developed by a team from University of Leeds.*
 
 ## Challenge
-The Third Pole region, encompassing the Hindu Kush-Karakoram-Himalaya mountain ranges, contains the largest concentration of glaciers outside the polar regions. These glaciers are critical water sources for over two billion people in Asia. However, understanding glacier dynamics in this region is complicated by the "Karakoram anomaly" — a phenomenon where some glaciers show stability or even slight growth despite global warming trends.
+The Third Pole region, encompassing the Hindu Kush-Karakoram-Himalaya mountain ranges, contains the largest concentration of glaciers outside the polar regions. These glaciers are critical water sources for over two billion people in Asia. However, understanding glacier dynamics in this region is complicated by the **"Karakoram anomaly"**, a phenomenon where some glaciers show *stability or even slight growth* despite global warming trends. Monitoring glacier properties such as surface temperature, mass balance, and supraglacial lake formation is essential for water resource management, understanding climate impacts, and predicting flood risks. Traditional field measurements are challenging in these remote, high-altitude environments, making satellite remote sensing the primary tool for comprehensive glacier monitoring.
 
-Monitoring glacier properties such as surface temperature, mass balance, and supraglacial lake formation is essential for water resource management, understanding climate impacts, and predicting flood risks. Traditional field measurements are challenging in these remote, high-altitude environments, making satellite remote sensing the primary tool for comprehensive glacier monitoring.
-
-<div style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-7/glacier_dynamics.png?raw=true" width="500"/> <p><b>Figure 1.</b> Conceptual diagram showing the key components of glacier monitoring: surface temperature variations, mass balance changes, and the formation of supraglacial lakes in response to climate forcing.</p> 
+<div style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-5/figure1_team5.png?raw=true" /> <p><b>Figure 1.</b> Conceptual diagram showing the key components of glacier monitoring: surface temperature variations, mass balance changes, and the formation of supraglacial lakes in response to climate forcing.</p> 
 
 </div>
 
@@ -44,7 +42,7 @@ The Pamir Mountains, often called the "Roof of the World," are situated in Centr
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-7/kekesayi_location.png?raw=true" 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-5/Globe5_Pamir.png?raw=true" 
         style="max-width: 100%; width: 800px; height: auto;"
         alt="Kekesayi Glacier location"
     />
