@@ -76,3 +76,198 @@ https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Chall
     <p><b>Figure 3.</b> caption.</p>
 </div>
 
+## Data and Methods
+
+#### EarthCARE Mission and Instruments
+EarthCARE (Earth Cloud, Aerosol and Radiation Explorer), launched by ESA and JAXA, provides unprecedented simultaneous observations of clouds, aerosols, and radiation. The mission integrates four instruments:
+
+- **Cloud Profiling Radar (CPR)**: 94 GHz nadir-viewing radar with ~750m horizontal resolution and 100m vertical resolution, providing cloud structure and water content
+- **Atmospheric Lidar (ATLID)**: 354.8 nm nadir-viewing lidar with <30m horizontal resolution and 100m vertical resolution, detecting aerosols and thin clouds
+- **Multi-Spectral Imager (MSI)**: Seven spectral channels with 0.5km × 0.5km nadir resolution for cloud context
+- **Broad Band Radiometer (BBR)**: Three viewing angles (forward, nadir, backward) at 10km × 10km resolution for radiative flux measurements
+
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
+    <img 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/earthcare_instruments.png?raw=true" 
+        style="max-width: 100%; width: 800px; height: auto;"
+        alt="EarthCARE instruments"
+    />
+    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
+        <b>Figure 3.</b> EarthCARE satellite instrument complement showing radar, lidar, imager, and radiometer configurations.
+    </p>
+</div>
+
+#### Dataset
+The analysis used three primary EarthCARE data products:
+
+- **CPR_CLD_2A**: Cloud variables including Liquid Water Path (LWP) and Ice Water Path (IWP), plus land/ocean flags
+- **ATL_ALD_2A**: Aerosol Optical Thickness (AOT) at 355nm from lidar measurements
+- **AC_TC_2A**: Synergistic radar-lidar target classification distinguishing cloud types and aerosol layers
+
+Data coverage: Approximately 600-700 scenes from June-July and September 2025 (limited by early mission data availability). Analysis was conducted using the Multi-Mission Algorithm and Analysis Platform (MAAP).
+
+#### Methodology workflow
+
+The analysis followed a systematic processing pipeline:
+
+**1. Data Extraction and Preparation**
+- Extracted all available data for West Pacific, East Pacific, and Southern Ocean regions (~600-700 scenes)
+- Identified land/ocean surfaces using CPR flags
+
+**2. Temporal Resampling and Integration**
+- Resampled data to 1-second temporal resolution
+- Merged radar, lidar, and synergetic products at 1-meter temporal definition
+- Combined AOT, LWP, IWP, and target classification into unified dataset
+- Further resampled to 1-minute temporal resolution for analysis
+
+**3. Data Filtering and Normalization**
+- Selected only months with complete data availability: June-July and September 2025
+- Normalized variables using min-max scaling: (x - min)/(max - min)
+- Separated ocean and land observations (dataset predominantly oceanic)
+
+**4. Clustering Analysis**
+- Applied K-means clustering to identify natural groupings in aerosol-cloud relationships
+- Variables used: Aerosol Optical Thickness (AOT), Liquid Water Path (LWP), Ice Water Path (IWP)
+- Tested multiple cluster numbers (k=5 shown in results) to understand centroid distances and variable relationships
+- Analyzed cluster spatial distribution and vertical structure
+
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
+    <img 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/methodology_flow.png?raw=true" 
+        style="max-width: 100%; width: 800px; height: auto;"
+        alt="Methodology workflow"
+    />
+    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
+        <b>Figure 4.</b> Data processing workflow from EarthCARE products to clustering analysis.
+    </p>
+</div>
+
+**Limitations**: Not all EarthCARE data products are yet available, and merging different instruments (particularly MSI with CPR and ATLID) remains challenging in early mission phases.
+
+## Results
+
+#### Cluster Identification in Tropical Pacific
+
+K-means clustering revealed five distinct aerosol-cloud regimes in the West and East Pacific regions. The clusters show clear separation in the three-dimensional space defined by AOT, LWP, and IWP, indicating distinct physical relationships between aerosol loading and cloud water content.
+
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
+    <img 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/pacific_clusters.png?raw=true" 
+        style="max-width: 100%; width: 800px; height: auto;"
+        alt="Pacific region clusters"
+    />
+    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
+        <b>Figure 5.</b> K-means clustering results for West Pacific (left) and East Pacific (right) showing five distinct aerosol-cloud regimes.
+    </p>
+</div>
+
+**Key findings from Pacific analysis:**
+
+- **West Pacific** shows higher aerosol loading clusters associated with increased liquid water content, consistent with CCN enhancement effects from biomass burning and pollution
+- **East Pacific** exhibits cleaner marine clusters with lower AOT but still showing varied cloud water content, suggesting natural aerosol influences
+- Distinct cluster separation indicates robust relationships between aerosol properties and cloud microphysics
+
+#### Vertical Structure Analysis
+
+Analysis of cluster distribution with height reveals important vertical patterns in aerosol-cloud interactions. Different clusters dominate at different atmospheric levels, reflecting the vertical structure of aerosol layers and cloud types.
+
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
+    <img 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/vertical_clusters.png?raw=true" 
+        style="max-width: 100%; width: 800px; height: auto;"
+        alt="Vertical cluster distribution"
+    />
+    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
+        <b>Figure 6.</b> Vertical distribution of K-means clusters in West Pacific showing altitude-dependent aerosol-cloud regimes from surface to upper troposphere.
+    </p>
+</div>
+
+The vertical profiles show transitions between cluster types at different height levels (2.5km, 5km, 7.5km, 10km, 12.5km, 15km, 17.5km, 20km), indicating that aerosol-cloud interactions vary significantly with temperature and atmospheric conditions.
+
+#### Spatial Patterns
+
+Examination of cluster spatial distribution reveals longitudinal patterns, despite latitude and longitude not being included in the clustering variables. This emergent spatial structure suggests that aerosol-cloud regimes are geographically organized, likely reflecting regional patterns in aerosol sources and meteorological conditions.
+
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
+    <img 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/spatial_distribution.png?raw=true" 
+        style="max-width: 100%; width: 800px; height: auto;"
+        alt="Spatial cluster distribution"
+    />
+    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
+        <b>Figure 7.</b> Spatial distribution of clusters showing longitudinal patterns in aerosol-cloud regimes across the Pacific.
+    </p>
+</div>
+
+The presence of spatial patterns emerging from purely microphysical variables validates the physical basis of the clustering but also suggests that more complete temporal coverage will strengthen pattern detection.
+
+#### Antarctica Results
+
+Preliminary analysis of the Southern Ocean and Antarctica region shows distinct cluster characteristics compared to tropical regions, reflecting the unique aerosol and cloud environment of polar regions. The pristine conditions with minimal anthropogenic aerosols provide important context for understanding natural aerosol-cloud interactions.
+
+## Conclusions
+
+This study demonstrates the capability of EarthCARE's integrated sensor suite to reveal relationships between aerosol properties and cloud microphysics across different climate regions. Key findings include:
+
+1. **Robust aerosol-cloud regimes identified**: K-means clustering successfully separated five distinct regimes based on AOT, LWP, and IWP relationships
+2. **Regional differences**: West Pacific shows high-aerosol regimes with enhanced liquid water, while East Pacific exhibits cleaner marine conditions
+3. **Vertical structure**: Aerosol-cloud interactions vary systematically with altitude, reflecting changes in temperature and cloud phase
+4. **Emergent spatial patterns**: Geographic organization of clusters suggests regional coherence in aerosol sources and meteorological controls
+
+The analysis confirms laboratory and modeling predictions that increased CCN availability relates to changes in cloud droplet populations, though the relationship between aerosols and ice content requires further investigation with longer time series.
+
+**Limitations and future work:**
+- Limited temporal coverage (June-July, September 2025) restricts seasonal analysis
+- Integration challenges between MSI and active sensors (CPR, ATLID) remain
+- Target classification integration with clusters needs refinement
+
+**Next steps include:**
+- Extending analysis to longer time periods as more EarthCARE data becomes available
+- Incorporating full vertical profiles and MSI swath coverage
+- Relating clusters to specific target classifications (cloud types, aerosol layers)
+- Developing question-driven strategies for integrating categorical classifications
+- Including additional study regions and seasonal variations
+
+The framework established here provides a foundation for systematic investigation of aerosol-cloud interactions using EarthCARE's unique observational capabilities, with important implications for climate model validation and weather prediction.
+
+## <!--{ as="div" }--> Open Science
+
+| **Name**                                                                                                                                       | **Type**            | **Agency / Provider**                     | **Description / Usage**                                                                                                                                                                                                                 |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[EarthCARE Mission](https://www.esa.int/Applications/Observing_the_Earth/FutureEO/EarthCARE)**                                        | Mission/Platform             | ESA/JAXA               | Earth Cloud, Aerosol and Radiation Explorer satellite providing integrated observations from Cloud Profiling Radar, Atmospheric Lidar, Multi-Spectral Imager, and Broad Band Radiometer.                            |
+| **[CPR_CLD_2A Product](https://www.eoportal.org/satellite-missions/earthcare#sensor-complement)**                                                                                       | Dataset | ESA/JAXA                        | Cloud Profiling Radar Level 2A product providing cloud variables, Liquid Water Path (LWP), Ice Water Path (IWP), and land/ocean flags.                                     |
+| **[ATL_ALD_2A Product](https://amt.copernicus.org/preprints/amt-2023-252/)**                                          | Dataset     | ESA/JAXA               | Atmospheric Lidar Level 2A product providing Aerosol Optical Thickness (AOT) at 355nm and aerosol layer properties.                                                     |
+| **[AC_TC_2A Product](https://www.eoportal.org/satellite-missions/earthcare#sensor-complement)**                          | Dataset | ESA/JAXA | Synergistic radar-lidar target classification product distinguishing cloud types and aerosol layers.                                               |
+| **[MAAP - Multi-Mission Algorithm and Analysis Platform](https://maap-project.org/)**                          | Platform | ESA/NASA | Cloud-based platform for processing and analyzing Earth observation data, used for EarthCARE data processing and clustering analysis.                                               |
+
+#### Code Repository
+Access the complete analysis code and notebooks on GitHub.
+<iframe width="100%" height="600" src="https://github.com/giacom0rovers1/earthcare_aerosol_cloud_interactions" frameborder="0"></iframe>
+
+#### References
+
+- Finney, D. L., et al. (2025). Microphysical fingerprints in anvil cloud albedo. *Journal of the Atmospheric Sciences*.
+
+- Lorian, A., et al. (2023). Aerosol effects on deep convection: A review. *Atmospheric Research*.
+
+- Grabowski, W. W., and Morrison, H. (2016). Untangling microphysical impacts on deep convection applying a novel modeling methodology. *Journal of the Atmospheric Sciences*, 73(6), 2503-2524.
+
+- Heikenfeld, M., et al. (2019). Aerosol effects on deep convection: The propagation of aerosol perturbations through convective cloud microphysics. *Atmospheric Chemistry and Physics*, 19(4), 2601-2627.
+
+- Igel, A. L., and van den Heever, S. C. (2021). The relative influence of environmental characteristics on tropical deep convective morphology as observed by CloudSat. *Journal of Geophysical Research: Atmospheres*, 126(6).
+
+- Barthlott, C., et al. (2022). Aerosol effects on the life cycle of a mesoscale convective system in West Africa. *Atmospheric Chemistry and Physics*, 22(13), 8803-8830.
+
+- Varble, A. C., et al. (2023). Exploring aerosol-cloud interactions in deep convective clouds using combined satellite and radar observations. *Nature Climate Change*.
+
+- [AMT - Cloud top heights and aerosol layer properties from EarthCARE lidar observations](https://amt.copernicus.org/preprints/amt-2023-252/)
+
+- [GMD - Estimation of aerosol and cloud radiative heating rate in the tropical stratosphere using a radiative kernel method](https://gmd.copernicus.org/)
+
+- [Wildfires in Southeast Asia pollute the atmosphere in the northern South China Sea](https://www.sciencedirect.com/)
+
+- [Copernicus - Wildfires 2025 review: ASEAN reduces emissions, but haze persists](https://atmosphere.copernicus.eu/)
+
+## Contributors
+
+
