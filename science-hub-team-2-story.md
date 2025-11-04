@@ -1,14 +1,306 @@
 ---
-cover-image: https://placehold.co/600x400/png
+cover-image: https://climate.esa.int/media/images/Ocean-Colour-CCI_.2e16d0ba.fill-600x314-c100.format-jpeg.jpg
 date: 2025-01-01
 theme: theme_name
-tags: some,tags
+tags: ocean,water-quality,clustering,mediterranean
 
 ---
 
-# science-hub-team-2-story <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
-### Hero Subtitle <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+# Clustering Ocean Water Types Using Spectral EO Data <!--{ as="img" mode="hero" src="https://climate.esa.int/media/images/Ocean-Colour-CCI_.2e16d0ba.fill-600x314-c100.format-jpeg.jpg" }-->
+### Authors: Enrico Biscaro, William Luty, Katie Lowery <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
-## First section
+# 
+*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in September 2025.*
 
-Some text for the first section
+## Challenge
+
+Ocean water types—such as coastal, upwelling, oligotrophic, and eutrophic waters—exhibit distinct spectral and biogeochemical characteristics that reflect different ecological conditions and biological productivity. These classifications are fundamental for understanding marine ecosystems, monitoring water quality, assessing fisheries health, and supporting climate research.
+
+Traditional methods for classifying ocean water types rely on in-situ measurements or supervised classification requiring extensive labeled training data. However, the spectral signatures captured by satellite sensors contain rich information that can be used to identify natural groupings in ocean properties. Unsupervised learning approaches, particularly clustering algorithms, offer a powerful way to discover these patterns directly from Earth observation data without predefined labels.
+
+<div style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-6/ocean_water_types_concept.png?raw=true" width="600"/> <p><b>Figure 1.</b> Conceptual framework showing how different ocean water types (coastal, oligotrophic, eutrophic) exhibit distinct spectral and biogeochemical characteristics that can be identified through satellite observations.</p> </div>
+
+This challenge leverages multiple Earth observation datasets including ocean color (chlorophyll-a concentration), sea surface temperature, sea level height anomalies, and atmospheric wind patterns to identify and map distinct water types based on their combined physical and biological properties.
+
+## Objective
+
+The primary objectives of this study are to:
+
+- Apply unsupervised clustering algorithms to classify ocean water types from multi-parameter Earth observation data
+- Integrate spectral bands and derived biophysical indices to capture the multi-dimensional nature of ocean properties
+- Validate identified clusters against known oceanographic features and water type classifications
+- Produce comprehensive spatial and temporal maps of water types for the Mediterranean Sea
+- Analyze seasonal variations in water type distribution and characteristics
+
+This approach aims to demonstrate how machine learning can extract meaningful ecological patterns from satellite data, supporting both operational oceanography and marine ecosystem management.
+
+## Use case <!--{ as="eox-map" mode="tour" }-->
+
+### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Mediterranean_Chlorophyll;:;2d96aa0d-5170-4979-b00e-e9e3eb1d3308;:;Mediterranean_Chlorophyll;:;EPSG:3857","title":"Mediterranean Chlorophyll-a"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["CHLOROPHYLL_A"],"TILED":true,"TIME":"2024-01-01T00:00:00Z/2024-12-31T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="5.5" center=[18.0,38.0] projection="" animationOptions={duration:500}}-->
+#### Mediterranean Sea
+The Mediterranean Sea serves as an ideal study area for ocean water type classification due to its ecological and economic importance combined with its oceanographic complexity. This semi-enclosed basin exhibits diverse water characteristics driven by regional climate patterns, coastal influences, and basin-scale circulation.
+
+<div style="text-align: center;"> <img src="
+https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/Globe2_mediterranee.png?raw=true" width="600"/> <p><b>Figure X.</b> Use case location.</p> </div>
+
+
+
+**Key motivations for studying the Mediterranean:**
+
+**Fisheries and Biodiversity Management**: Optimizing fish harvesting while preserving fish populations and marine biodiversity requires understanding the distribution and dynamics of different water types that support various marine habitats and food webs.
+
+**Climate Change Monitoring**: Tracking physico-chemical parameters of Mediterranean waters in a changing climate is crucial, particularly considering the basin's contribution to the Atlantic Meridional Overturning Circulation (AMOC) and its sensitivity to warming trends.
+
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
+    <img 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-6/mediterranean_map.png?raw=true" 
+        style="max-width: 100%; width: 800px; height: auto;"
+        alt="Mediterranean Sea study region"
+    />
+    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
+        <b>Figure 2.</b> Mediterranean Sea study region showing diverse oceanographic conditions from productive coastal areas to oligotrophic open waters.
+    </p>
+</div>
+
+The Mediterranean's gradient from nutrient-rich coastal and upwelling zones to nutrient-poor oligotrophic central basins provides natural variation ideal for identifying distinct water type clusters.
+
+## Data and Methods
+
+#### Dataset
+The analysis integrated multiple monthly-averaged Earth observation products covering the Mediterranean Sea:
+
+**Biological/Optical Parameters:**
+- **Chlorophyll-a concentration**: Proxy for phytoplankton biomass and primary productivity, derived from ocean color sensors
+
+**Physical Parameters:**
+- **Sea Surface Temperature (SST)**: Indicator of water mass characteristics and thermal structure
+- **Sea Level Height Anomaly**: Reflects ocean circulation patterns and eddy activity
+
+**Atmospheric Forcing:**
+- **Eastward wind component (U-wind)**: Represents zonal atmospheric forcing
+- **Northward wind component (V-wind)**: Represents meridional atmospheric forcing and wind stress effects
+
+All datasets were obtained from operational oceanography products including optimally interpolated multi-sensor observations, providing consistent spatial coverage across the Mediterranean basin.
+
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
+    <img 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-6/data_layers.png?raw=true" 
+        style="max-width: 100%; width: 800px; height: auto;"
+        alt="Multi-parameter dataset"
+    />
+    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
+        <b>Figure 3.</b> Example data layers: chlorophyll-a concentration, sea surface temperature, sea level height anomaly, and wind components used in the clustering analysis.
+    </p>
+</div>
+
+#### Methodology workflow
+
+**1. Data Acquisition and Preprocessing**
+- Downloaded monthly time series of all parameters for the Mediterranean Sea region
+- Ensured spatial and temporal alignment across all datasets
+- Handled missing values and quality control flags
+
+**2. Feature Engineering**
+- Combined biological, physical, and atmospheric variables into a multi-dimensional feature space
+- Normalized all variables to comparable scales to prevent dominance by parameters with larger absolute values
+- Created composite monthly datasets integrating all five parameters
+
+**3. Cluster Number Selection**
+- Applied the elbow method to determine optimal number of clusters
+- Calculated inertia error (within-cluster sum of squares) for different cluster numbers
+- **Elbow analysis suggested 5 clusters as optimal** based on inertia curve inflection
+
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
+    <img 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-6/elbow_method.png?raw=true" 
+        style="max-width: 100%; width: 600px; height: auto;"
+        alt="Elbow method results"
+    />
+    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
+        <b>Figure 4.</b> Elbow method showing inertia error versus number of clusters, with optimal value at 5 clusters.
+    </p>
+</div>
+
+However, testing revealed that 5, 6, and 7 clusters produced oversimplified classifications with only two dominant water types (coastal and open ocean), lacking the ecological detail needed for management applications. **Therefore, 8 clusters were selected** to capture finer-scale oceanographic features, despite this exceeding the statistical optimum.
+
+**4. K-means Clustering Application**
+- Applied K-means algorithm with k=8 clusters
+- Used multiple random initializations to ensure robust convergence
+- Assigned each pixel to its nearest cluster centroid in the multi-dimensional feature space
+
+**5. Cluster Characterization**
+- Analyzed mean values of each parameter within identified clusters
+- Interpreted clusters in terms of oceanographic water types (eutrophic, oligotrophic, coastal)
+- Examined spatial distribution patterns and geographic coherence
+
+**6. Temporal Analysis**
+- Tracked seasonal evolution of cluster distributions
+- Identified stable versus dynamic water type regions
+- Analyzed transitions between water types through the annual cycle
+
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
+    <img 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-6/workflow_diagram.png?raw=true" 
+        style="max-width: 100%; width: 800px; height: auto;"
+        alt="Analysis workflow"
+    />
+    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
+        <b>Figure 5.</b> Analysis workflow from multi-parameter data acquisition through clustering to water type characterization.
+    </p>
+</div>
+
+## Results
+
+#### Water Type Identification
+
+The clustering analysis successfully identified three primary ocean water types from the eight clusters tested, with distinct biogeochemical and physical characteristics:
+
+**Cluster 1 - Eutrophic Water**:
+- Characterized by **colder waters** relative to basin average
+- Associated with **eastward winds** driving coastal upwelling
+- **Medium chlorophyll-a content** (1-3 mg/m³) indicating elevated productivity
+- Typically found in upwelling zones and areas of nutrient enrichment
+
+**Cluster 2 - Coastal Water**:
+- Distinguished by **very high chlorophyll-a concentrations** (>3 mg/m³)
+- Elevated **sea surface height** in coastal boundary regions
+- Represents nutrient-rich waters influenced by terrestrial runoff and coastal processes
+- Most productive water type supporting high biological activity
+
+**Cluster 7 - Oligotrophic Water**:
+- Dominated by **warmer waters** characteristic of stratified conditions
+- Associated with **northward wind and wind stress** patterns
+- **Low chlorophyll-a content** (<0.3 mg/m³) indicating nutrient limitation
+- Represents the ultra-oligotrophic central Mediterranean basins
+
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
+    <img 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-6/cluster_characteristics.png?raw=true" 
+        style="max-width: 100%; width: 800px; height: auto;"
+        alt="Cluster characteristics"
+    />
+    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
+        <b>Figure 6.</b> Characteristics of the three main water type clusters showing distributions of chlorophyll-a, SST, and wind patterns.
+    </p>
+</div>
+
+**Important finding**: Despite using 8 clusters, the algorithm effectively utilized only 3 distinct clusters, with the remaining clusters either rarely assigned or representing transitional states. This suggests that Mediterranean water types can be meaningfully described by three primary categories, though finer divisions may be needed for specific applications.
+
+#### Spatial Distribution
+
+The spatial distribution of identified water types shows strong geographic coherence aligned with known Mediterranean oceanography:
+
+- **Coastal waters (Cluster 2)** dominate near coastlines, particularly in the Northern Adriatic, Gulf of Lions, and along the North African coast
+- **Oligotrophic waters (Cluster 7)** occupy the central basins, especially the eastern Mediterranean
+- **Eutrophic waters (Cluster 1)** appear in transitional zones and areas influenced by upwelling or mixing processes
+
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
+    <img 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-6/spatial_distribution_map.png?raw=true" 
+        style="max-width: 100%; width: 800px; height: auto;"
+        alt="Spatial distribution of water types"
+    />
+    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
+        <b>Figure 7.</b> Spatial distribution of water type clusters across the Mediterranean Sea.
+    </p>
+</div>
+
+The classification successfully captures the well-known west-to-east productivity gradient, with more productive waters in the western basin transitioning to ultra-oligotrophic conditions in the Levantine Basin.
+
+#### Seasonal Variations
+
+Analysis of the seasonal cycle reveals temporal dynamics in water type distribution:
+
+- **Oligotrophic waters (Cluster 7)** show expansion during summer months when stratification is strongest, then contract in winter
+- **Eutrophic waters (Cluster 1)** exhibit seasonal variability linked to wind-driven mixing and upwelling events
+- **Coastal waters (Cluster 2)** remain relatively stable throughout the year, though this may represent a limitation requiring further investigation
+
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
+    <img 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-6/seasonal_cycle.png?raw=true" 
+        style="max-width: 100%; width: 800px; height: auto;"
+        alt="Seasonal cycle of clusters"
+    />
+    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
+        <b>Figure 8.</b> Seasonal evolution of water type clusters showing expansion and contraction of oligotrophic and eutrophic waters through the annual cycle.
+    </p>
+</div>
+
+The seasonal patterns align with known Mediterranean dynamics: winter mixing enriches surface nutrients leading to spring blooms (eutrophic expansion), followed by summer stratification that extends oligotrophic conditions and reduces productivity in open waters.
+
+## Conclusions
+
+This study demonstrates the effectiveness of unsupervised clustering for identifying and mapping ocean water types from multi-parameter satellite observations. Key findings include:
+
+1. **Three distinct water types identified**: Coastal (high productivity), eutrophic (moderate productivity), and oligotrophic (low productivity) waters distinguished by combined biological, physical, and atmospheric characteristics
+
+2. **Geographic coherence**: Spatial patterns align with known Mediterranean oceanography, validating the clustering approach against established understanding
+
+3. **Seasonal dynamics captured**: Temporal analysis reveals expansion/contraction of water types consistent with seasonal stratification and mixing cycles
+
+4. **Multi-parameter synergy**: Integration of chlorophyll-a, SST, sea level height, and wind components provides richer characterization than single-parameter approaches
+
+**Practical applications** include:
+- Supporting marine spatial planning and fisheries management by mapping productive zones
+- Monitoring ecosystem shifts under climate change scenarios
+- Validating biogeochemical models with observationally-derived water type classifications
+- Identifying optimal locations for aquaculture or marine protected areas
+
+**Study limitations and future directions:**
+
+1. **Cluster number selection**: Statistical optimum (5 clusters) provided insufficient detail, while chosen number (8) resulted in only 3 active clusters—suggesting need for adaptive cluster selection methods
+
+2. **Coastal water stability**: Lack of seasonal variation in Cluster 2 (coastal waters) may indicate need for higher temporal resolution or separate coastal-specific analysis
+
+3. **Validation needed**: No quantitative validation against in-situ measurements or existing water type classifications was performed
+
+4. **Algorithm exploration**: Testing alternative clustering methods (hierarchical, DBSCAN, Gaussian mixture models) could improve classification
+
+5. **Additional parameters**: Including sea surface salinity, turbidity, or fluorescence line height could enhance water type discrimination
+
+**Future work priorities:**
+- Extend analysis to other ocean basins for method generalization
+- Incorporate in-situ validation data from research cruises and Argo floats
+- Develop operational products for near-real-time water type mapping
+- Investigate machine learning approaches for temporal prediction of water type transitions
+
+The framework established here provides a foundation for automated ocean water type classification from Earth observation data, with potential applications in operational oceanography, ecosystem monitoring, and climate change impact assessment.
+
+## <!--{ as="div" }--> Open Science
+
+| **Name**                                                                                                                                       | **Type**            | **Agency / Provider**                     | **Description / Usage**                                                                                                                                                                                                                 |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[Mediterranean Ocean Colour Product](https://doi.org/10.5194/os-15-127-2019)**                                        | Dataset             | CNR-ISAC / ESA               | Operational multi-sensor Level 3 chlorophyll-a concentration product providing monthly composites of phytoplankton biomass across the Mediterranean Sea.                            |
+| **[Mediterranean SST Optimally Interpolated Dataset](https://doi.org/10.1016/j.rse.2016.01.019)**                                                                                       | Dataset | CNR-ISAC                        | AVHRR Pathfinder sea surface temperature data (1982-2012) extended with recent observations, providing high-quality thermal structure information.                                     |
+| **[Multi-dimensional Sea Surface Salinity](https://doi.org/10.1016/j.rse.2016.07.033)**                                          | Dataset     | CNR-ISAC               | Integrated SMOS satellite and in-situ salinity observations providing water mass characteristics (not used in current study but relevant for future work).                                                     |
+| **[Mediterranean Sea Level Anomaly](https://resources.marine.copernicus.eu/)**                          | Dataset | Copernicus Marine Service | Altimetry-derived sea level height anomalies indicating ocean circulation and eddy activity.                                               |
+| **[ERA5 Wind Components](https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5)**                          | Dataset | ECMWF | Reanalysis-derived eastward (U) and northward (V) wind components at 10m height for atmospheric forcing characterization.                                               |
+
+#### Notebook
+Access the complete analysis notebook to reproduce the clustering workflow.
+<iframe width="100%" height="600" src="https://github.com/science-hub/ocean-clustering-mediterranean" frameborder="0"></iframe>
+
+#### References
+
+- Berthon, J.-F., and Zibordi, G. (2004). Bio-optical relationships for the northern Adriatic Sea. *International Journal of Remote Sensing*, 25, 1527-1532.
+
+- Buongiorno Nardelli, B., Droghei, R., and Santoleri, R. (2016). Multi-dimensional interpolation of SMOS sea surface salinity with surface temperature and in situ salinity data. *Remote Sensing of Environment*, 180, 392-402.
+
+- Droghei, R., Buongiorno Nardelli, B., and Santoleri, R. (2016). Combining in-situ and satellite observations to retrieve salinity and density at the ocean surface. *Journal of Atmospheric and Oceanic Technology*, 33, 1211-1223.
+
+- Embury, O., Merchant, C.J., Good, S.A., et al. (2024). Satellite-based time-series of sea-surface temperature since 1980 for climate applications. *Scientific Data*, 11, 326.
+
+- Pisano, A., Nardelli, B.B., Tronconi, C., and Santoleri, R. (2016). The new Mediterranean optimally interpolated pathfinder AVHRR SST Dataset (1982–2012). *Remote Sensing of Environment*, 176, 107-116.
+
+- Sammartino, M., Aronica, S., Santoleri, R., and Buongiorno Nardelli, B. (2022). Retrieving Mediterranean Sea Surface Salinity Distribution and Interannual Trends from Multi-Sensor Satellite and In Situ Data. *Remote Sensing*, 14, 250.
+
+- Volpe, G., Buongiorno Nardelli, B., Colella, S., et al. (2018). An Operational Interpolated Ocean Colour Product in the Mediterranean Sea. In *New Frontiers in Operational Oceanography*, edited by E.P. Chassignet et al., pp. 227–244.
+
+- Volpe, G., Colella, S., Brando, V.E., et al. (2019). Mediterranean ocean colour Level 3 operational multi-sensor processing. *Ocean Science*, 15(1), 127-146.
+
+## Contributors
+**Authors**: Enrico Biscaro, William Luty, Katie Lowery
+
+**Challenge**: Ocean Water Type Classification Using Unsupervised Learning
+
+**Institution**: ESA Science Hub, ESRIN
