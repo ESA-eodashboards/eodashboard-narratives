@@ -138,6 +138,8 @@ In the East Pacific, we see similar distributions, although there are many more 
 
 #### Vertical structure analysis 
 
+DELATE 
+
 #### Spatial Paterns
 
 DELATE
