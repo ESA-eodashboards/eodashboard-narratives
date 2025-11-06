@@ -134,9 +134,8 @@ Although this was only an exploratory analysis, we can see some insights.
 	The first thing to notice is that, ovearall, the West Pacific classification is different than the East one. Taking a closer look at the IWP vs AOD plots, many of the points and especially the ones with higher value lie either in IWP=0 or AOT=0. This is expected as the Aerosols are measured with the lidar and, as stated previously, the thick clouds made of ice, therefore wtih high IWP, will make the lidar extinguished. However, there are some points that have a value different to 0 in both axis.
 	
 Taking a closer look at the West Pacific, there are some values in the space where the IWP>0.2 kgm-3, which is considerered a thick ice clouds, and AOT!= 0. Many of these points are classified as cluster 5 (brown dots) and 1 (blue dots). If we take a look at the LWP vs AOT plot, we see that most of the data points in cluster 5 have a lower LWP values compared to their IWP values. In cluster 1 instead, for the same AOD values, they have higher values of LWP. Finally, lookig at the LWP vs IWP plot, we confirm that cluster 5 data points are mostly thick clouds made of ice and cluster 1 points are mostly made of liquid water. 
+In the East Pacific, we see similar distributions, although there are many more points and clusters where the LWP is higher than in the west. This means that there might be more liquid or mixed phase clouds, that can interact with aerosols, especially the sea salt. 
 
-
-	
 #### Vertical structure analysis 
 
 #### Spatial Paterns
@@ -150,7 +149,9 @@ The first plot shows that there don't seem to be many links between the aerosols
 The second and third plot show that there are not many liquid clouds. 
 
 ### Conclusions 
+
 In this challenge, we have tested the potential of EarthCARE to unveal the interactions between clouds and aerosols. 
 Focusing on different areas were we know the clouds but where we are still exploring the distributions of aerosols was challenging, but thanks to EarthCare we were able to get insights on the links. 
-
+The synergetic products makes it easier to interpret the possible links between differet types of clouds and different species of aerosols. 
+We took a limited time period of data this time, but with the upcomming data and more statistical analysis, we'll be able to push the boundaries of this problem. 
 
