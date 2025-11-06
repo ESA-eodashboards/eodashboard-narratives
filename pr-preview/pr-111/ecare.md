@@ -133,6 +133,7 @@ Although this was only an exploratory analysis, we can see some insights.
 	The first thing to notice is that, ovearall, the West Pacific classification is different than the East one. 
 	The second thing to notice is that there are many outliers driving the positions of the clousters. This can be due to the pecularities of the atmospheric dynamics at specific times. 
 	
+	
 #### Vertical structure analysis 
 
 #### Spatial Paterns
