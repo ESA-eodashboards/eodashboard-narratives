@@ -72,7 +72,7 @@ The first region lies just north of the Equator and stretches West to East acros
 <div style="text-align: center;">
     <img src="
 https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/Globe1_pacific.png?raw=true  " width="500"/>
-    <p><b>Figure 2.</b> The three locations of our study for ESA challenge.</p>
+    <p><b>Figure 5.</b> The three locations of our study for the ESA challenge.</p>
 </div>
 
 1. **West Pacific**
@@ -80,6 +80,8 @@ The western ITCZ is very interesting because air raises in very strong updrafts 
 
 2.  **Eastern Pacific**  
 This region typically experiences downdrafts, where air sinks rather than rises, as the sea temperature is usually lower than in the West. Yet, high clouds still form here. Being far from major population centers, we expect fewer aerosol sources. 
+
+Figure 6: The Walker circulation. The normal conditions in the Pacific are what we call the Walker circulation: warm surface temperature in the west, that drives strong upward movement and deep thick clouds, and colder surface temperature and the East with sinking air, generating a cell of circulation with trade winds flowing from east to west. 
 
 3.   **Southern Ocean** 
 This region presents a completely different scenario. 
