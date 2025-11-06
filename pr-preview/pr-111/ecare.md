@@ -1,15 +1,18 @@
 ---
 cover-image: https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/10/earthcare_for_a_better_understanding_of_earth_s_radiation_balance/25154725-1-eng-GB/EarthCARE_for_a_better_understanding_of_Earth_s_radiation_balance_pillars.png
 date: 2025-01-01
-theme: theme_name
-tags: some,tags
+theme: atmosphere
+tags: EarthCARE, clouds, aerosols, ITCZ, southern ocean
 
 ---
 # Exploring our atmosphere with EarthCARE <!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/10/earthcare_for_a_better_understanding_of_earth_s_radiation_balance/25154725-1-eng-GB/EarthCARE_for_a_better_understanding_of_Earth_s_radiation_balance_pillars.png" }-->
-### Authors: Paula Romero Jure<sup>1</sup>, Giacomo Roversi <sup>2</sup> <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+### Authors: Paula Romero Jure<sup>1</sup> and Giacomo Roversi <sup>2,3</sup> <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 1- *University of Leeds*
-2- *Polar Sciences at Ca' Foscari University of Venice and CNR-ISAC Rome (IT)*
+
+2- *Ca' Foscari University, Venice*
+
+3- *CNR-ISAC Rome*
 
 ## Aerosols and clouds belong together
 
@@ -164,8 +167,6 @@ The first thing to notice is that, ovearall, the West Pacific classification is 
 Taking a closer look at the West Pacific, there are some values in the space where the IWP>0.2 kgm-3, which is considerered a thick ice clouds, and AOT!= 0. Many of these points are classified as cluster 5 (brown dots) and 1 (blue dots). If we take a look at the LWP vs AOT plot, we see that most of the data points in cluster 5 have a lower LWP values compared to their IWP values. In cluster 1 instead, for the same AOD values, they have higher values of LWP. Finally, lookig at the LWP vs IWP plot, we confirm that cluster 5 data points are mostly thick clouds made of ice and cluster 1 points are mostly made of liquid water. 
 In the East Pacific, we see similar distributions, although there are many more points and clusters where the LWP is higher than in the west. This means that there might be more liquid or mixed phase clouds, that can interact with aerosols, especially the sea salt. 
 
-#### Antartica
-
 In Antartica, we clearly see a much more pristine environment. 
 The first plot shows that there don't seem to be many links between the aerosols and the ice clouds, exept perhaps for one outlier that would need further research. 
 The second and third plot show that there are not many liquid clouds. 
@@ -225,3 +226,7 @@ Access the complete analysis code and notebooks on GitHub.
 - [Wildfires in Southeast Asia pollute the atmosphere in the northern South China Sea](https://www.sciencedirect.com/)
 
 - [Copernicus - Wildfires 2025 review: ASEAN reduces emissions, but haze persists](https://atmosphere.copernicus.eu/)
+
+## Contributors
+
+Filippo Calì Quaglia (Ca' Foscari University, Venice)
