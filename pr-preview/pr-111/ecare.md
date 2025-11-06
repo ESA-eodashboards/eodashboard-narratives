@@ -159,3 +159,25 @@ Focusing on different areas were we know the clouds but where we are still explo
 The synergetic products makes it easier to interpret the possible links between differet types of clouds and different species of aerosols. 
 We took a limited time period of data this time, but with the upcomming data and more statistical analysis, we'll be able to push the boundaries of this problem. 
 
+
+#### References
+
+- [Finney, D. L., et al. (2025). Microphysical fingerprints in anvil cloud albedo. *Journal of the Atmospheric Sciences*](https://egusphere.copernicus.org/preprints/2025/egusphere-2025-1227/)
+
+- [Lorian, A., et al. (2023). Aerosol effects on deep convection: A review. *Atmospheric Research*.](https://doi.org/10.5194/acp-19-2601-2019)
+
+- [Grabowski, W. W., and Morrison, H. (2016). Untangling microphysical impacts on deep convection applying a novel modeling methodology. *Journal of the Atmospheric Sciences*, 73(6), 2503-2524.](https://doi.org/10.1175/JAS-D-14-0307.1)
+
+- [Heikenfeld, M., et al. (2019). Aerosol effects on deep convection: The propagation of aerosol perturbations through convective cloud microphysics. *Atmospheric Chemistry and Physics*, 19(4), 2601-2627.](https://doi.org/10.5194/acp-19-2601-2019)
+
+- [Igel, A. L., and van den Heever, S. C. (2021). The relative influence of environmental characteristics on tropical deep convective morphology as observed by CloudSat. *Journal of Geophysical Research: Atmospheres*, 126(6).]( https://doi.org/10.1002/2014JD022690)
+
+- [Mi, Jiaqin & Yang, Yuanjian & Zhou, Shuxue & Ma, Xiaoyan & Wei, Siying. (2024). Exploring impacts of aerosol on convective clouds using satellite remote sensing and machine learning. Journal of Applied Remote Sensing. 18. 10.1117/1.JRS.18.012007.](https://www.researchgate.net/publication/377380698_Exploring_impacts_of_aerosol_on_convective_clouds_using_satellite_remote_sensing_and_machine_learning)
+
+- [AMT - Cloud top heights and aerosol layer properties from EarthCARE lidar observations](https://amt.copernicus.org/preprints/amt-2023-252/)
+
+- [GMD - Estimation of aerosol and cloud radiative heating rate in the tropical stratosphere using a radiative kernel method](https://gmd.copernicus.org/)
+
+- [Wildfires in Southeast Asia pollute the atmosphere in the northern South China Sea](https://www.sciencedirect.com/)
+
+- [Copernicus - Wildfires 2025 review: ASEAN reduces emissions, but haze persists](https://atmosphere.copernicus.eu/)
