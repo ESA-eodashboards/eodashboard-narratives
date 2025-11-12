@@ -11,7 +11,9 @@ tags: some,tags
 > ¹ University of Leeds ² Ca’ Foscari University of Venice  ³ CNR-ISAC Rome
 
 # 
-*This story is based on results from the [Science Hub Challenges in September 2025](https://sciencehub.esa.int/2025/09/29/science-hub-challenges-september-2025/) organised and hosted by ESA's ESRIN, by students from the following organizations:*
+*This story is based on results from the [Science Hub Challenges in September 2025](https://sciencehub.esa.int/2025/09/29/science-hub-challenges-september-2025/) organised and hosted by ESA's ESRIN, using ESA’s EarthCARE satellite observations processed via the MAAP platform, by students from the following organizations:*
+
+
 
 <p align="center">
   <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/images.png?raw=true" alt="Ca' Foscari" height="80" style="margin: 0 15px;"/>
