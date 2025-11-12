@@ -141,9 +141,5 @@ Access the notebook to reproduce the study workflow.
 
 
 
-## Contributors
-Authors, contibutors, reviewers 
-
-
 
 
