@@ -182,17 +182,6 @@ The spatial distribution of identified water types shows strong geographic coher
 - **Oligotrophic waters (Cluster 7)** occupy the central basins, especially the eastern Mediterranean
 - **Eutrophic waters (Cluster 1)** appear in transitional zones and areas influenced by upwelling or mixing processes
 
-<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
-    <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-6/spatial_distribution_map.png?raw=true" 
-        style="max-width: 100%; width: 800px; height: auto;"
-        alt="Spatial distribution of water types"
-    />
-    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 7.</b> Spatial distribution of water type clusters across the Mediterranean Sea.
-    </p>
-</div>
-
 
 #### Seasonal Variations
 
@@ -201,6 +190,19 @@ Analysis of the seasonal cycle reveals temporal dynamics in water type distribut
 - **Oligotrophic waters (Cluster 7)** show expansion during summer months when stratification is strongest, then contract in winter
 - **Eutrophic waters (Cluster 1)** exhibit seasonal variability linked to wind-driven mixing and upwelling events
 - **Coastal waters (Cluster 2)** remain relatively stable throughout the year, though this may represent a limitation requiring further investigation
+
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
+    <img 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/SeasonalClusters_percentage-change.png?raw=true" 
+        style="max-width: 100%; width: 800px; height: auto;"
+        alt="Seasonal cycle of clusters"
+    />
+    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
+        <b>Figure 8.</b> Seasonal evolution of water type clusters showing expansion and contraction of oligotrophic and eutrophic waters through the annual cycle.
+    </p>
+</div>
+
+The seasonal patterns align with known Mediterranean dynamics: winter mixing enriches surface nutrients leading to spring blooms (eutrophic expansion), followed by summer stratification that extends oligotrophic conditions and reduces productivity in open waters.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
@@ -213,7 +215,9 @@ Analysis of the seasonal cycle reveals temporal dynamics in water type distribut
     </p>
 </div>
 
-The seasonal patterns align with known Mediterranean dynamics: winter mixing enriches surface nutrients leading to spring blooms (eutrophic expansion), followed by summer stratification that extends oligotrophic conditions and reduces productivity in open waters.
+
+
+
 
 ## Conclusions
 
