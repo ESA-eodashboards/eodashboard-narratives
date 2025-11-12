@@ -11,12 +11,12 @@ tags: some,tags
 <div style="text-align:left;">
 	
 ### *Team Members*:
-* Jatuporn Nontasiri (Office Agricultural Economics) 
-* Natnaphat Subtaweepollert (Office Agricultural Economics)
-* Matawee Srisawat (GISTDA) 
-* Nathaphat Kingkaew (Rice Department) 
-* Suppanut Makrak (Rice Department) 
-* Premwadee Traitangwong (Thai Meteorological Department)
+* XXXXXXX XXXXXX (Affiliation) 
+* XXXXXXX XXXXXX (Affiliation) 
+* XXXXXXX XXXXXX (Affiliation) 
+* XXXXXXX XXXXXX (Affiliation) 
+* XXXXXXX XXXXXX (Affiliation) 
+* XXXXXXX XXXXXX (Affiliation) 
 </div>
 
 # test2 <!--{ as="img" data-fallback-src="discriptiion XXXXXXXXXXXXXXXXXX" mode="hero" src="https://github.com/phkh1366/eoxhub-related/blob/main/Screenshot%202025-11-12%20155142.png?raw=true" }-->
