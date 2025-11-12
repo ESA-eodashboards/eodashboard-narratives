@@ -11,7 +11,15 @@ tags: some,tags
 1 - University of Edinburgh
 
 # 
-*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in September 2025. It was developed by a team from University of Edinburgh.*
+*This story is based on results from the [Science Hub Challenges in September 2025](https://sciencehub.esa.int/2025/09/29/science-hub-challenges-september-2025/) organised and hosted by ESA's ESRIN, by students from the University of Edingurgh.*
+<p align="center">
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-4/download.png?raw=true" 
+       alt="University of Edinburgh" 
+       height="80"/>
+</p>
+
+
+
 
 ## Challenge
 Snow varies greatly in its characteristics and effects. Two primary types are dry snow and wet snow, which differ in water content, density, grain size, and formation conditions. Dry snow is powdery and light, occurring in cold temperatures well below freezing, whereas wet snow contains higher water content, is denser, and forms near or above freezing temperatures.
