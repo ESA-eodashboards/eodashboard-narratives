@@ -8,9 +8,7 @@ tags: some,tags
 
 # Wet snow mapping with multimodal foundation models  <!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/10/svalbard/24544693-1-eng-GB/Svalbard_pillars.jpg" }-->
 ### Authors: Leam Howe¹, Sean Ó Héir¹, Miguel Espinosa Minano¹ (Univeristy of Leeds) <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
-
-### Authors: Enrico Biscaro¹, William Luty², Katie Lowery³ <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
-> University of Edinburgh
+> 1 - University of Edinburgh
 
 # 
 *This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in September 2025. It was developed by a team from University of Edinburgh.*
