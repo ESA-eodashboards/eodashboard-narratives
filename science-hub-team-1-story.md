@@ -131,25 +131,13 @@ The elbow metric was used to quantify the ideal amount of clusters for the data,
 
 The code was run at MAAP portal.
 
-<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
-    <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/methodology_flow.png?raw=true" 
-        style="max-width: 100%; width: 800px; height: auto;"
-        alt="Methodology workflow"
-    />
-    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 4.</b> Data processing workflow from EarthCARE products to clustering analysis.
-    </p>
-</div>
-
 **Limitations**: Not all EarthCARE data products are yet available, and merging different instruments (particularly MSI with CPR and ATLID) remains challenging in early mission phases.
 
 ## Results
-
-#### Cluster Identification in Tropical Pacific
-<span style="color:red">MISSING CONTENT: WRITTEN INTERPRETATION OF RESULTS </span>
-- **West Pacific** shows that... <span style="color:red">MISSING CONTENT: WRITTEN INTERPRETATION OF RESULTS </span>
-- **East Pacific** exhibits... <span style="color:red">MISSING CONTENT: WRITTEN INTERPRETATION OF RESULTS </span>
+Although this was only an exploratory analysis, we can see some insights. 
+The following plots show the clusters obtained in 2 dimensions, where each dimension is one of the variables we worked with. Each colour represents the cluster to which each data point has been classified to. The red crosses show the clusters' centroids. 
+	
+The first thing to notice is that, ovearall, the West Pacific classification is different than the East one. Taking a closer look at the IWP vs AOD plots, many of the points and especially the ones with higher value lie either in IWP=0 or AOT=0. This is expected as the Aerosols are measured with the lidar and, as stated previously, the thick clouds made of ice, therefore wtih high IWP, will make the lidar extinguished. However, there are some points that have a value different to 0 in both axis.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
@@ -158,64 +146,16 @@ The code was run at MAAP portal.
         alt="Pacific region clusters"
     />
     <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 5.</b> K-means clustering results for West Pacific (upper row) and East Pacific (bottom row).
-    </p>
-</div>
-<span style="color:red">MISSING CONTENT: WRITTEN INTERPRETATION OF RESULTS </span>
-
-<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
-    <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/results2_team1.png?raw=true" 
-        style="max-width: 100%; width: 800px; height: auto;"
-        alt="Methodology workflow"
-    />
-    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 6.</b> West Pacific K-Means Clustering.
+        <b>Figure 10: Clustering results in ITCZ</b> K-means clustering results for West Pacific (upper row) and East Pacific (bottom row).
     </p>
 </div>
 
+Taking a closer look at the West Pacific, there are some values in the space where the IWP>0.2 kgm-3, which is considerered a thick ice clouds, and AOT!= 0. Many of these points are classified as cluster 5 (brown dots) and 1 (blue dots). If we take a look at the LWP vs AOT plot, we see that most of the data points in cluster 5 have a lower LWP values compared to their IWP values. In cluster 1 instead, for the same AOD values, they have higher values of LWP. Finally, lookig at the LWP vs IWP plot, we confirm that cluster 5 data points are mostly thick clouds made of ice and cluster 1 points are mostly made of liquid water. 
+In the East Pacific, we see similar distributions, although there are many more points and clusters where the LWP is higher than in the west. This means that there might be more liquid or mixed phase clouds, that can interact with aerosols, especially the sea salt. 
 
-
-
-
-
-#### Vertical Structure Analysis
-
-Analysis of cluster distribution with height reveals important vertical patterns in aerosol-cloud interactions. The vertical profiles show transitions between cluster types at different height levels (2.5km, 5km, 7.5km, 10km, 12.5km, 15km, 17.5km, 20km).  <span style="color:red">MISSING CONTENT: WRITTEN INTERPRETATION OF RESULTS </span>
-
-<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
-    <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/results4_team1.png?raw=true" 
-        style="max-width: 100%; width: 800px; height: auto;"
-        alt="Vertical cluster distribution"
-    />
-    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 6.</b> Vertical distribution of K-means clusters in West Pacific showing altitude-dependent aerosol-cloud regimes from surface to upper troposphere.
-    </p>
-</div>
-
-
-
-#### Spatial Patterns
-
-Examination of cluster spatial distribution reveals longitudinal patterns, despite latitude and longitude not being included in the clustering variables. This probably means
-we should wait for more data to become available on MAAP.
-
-<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
-    <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/results5_team1.png?raw=true" 
-        style="max-width: 100%; width: 800px; height: auto;"
-        alt="Spatial cluster distribution"
-    />
-    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 7.</b> Spatial distribution of clusters showing longitudinal patterns in aerosol-cloud regimes across the Pacific.
-    </p>
-</div>
-
-#### Antarctica Results
-
-
-<span style="color:red">MISSING CONTENT </span>
+In Antartica, we clearly see a much more pristine environment. 
+The first plot shows that there don't seem to be many links between the aerosols and the ice clouds, exept perhaps for one outlier that would need further research. 
+The second and third plot show that there are not many liquid clouds. 
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
@@ -224,18 +164,19 @@ we should wait for more data to become available on MAAP.
         alt="Spatial cluster distribution"
     />
     <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 8.</b> Antartida results.
+        <b>Figure 11: Clustering results in Antartica. </b> Compared to the ITCZ results, we didn't find many aerosols.
     </p>
 </div>
 
 
 ## Conclusions
 
-This study demonstrates the capability of EarthCARE's integrated sensor suite to reveal relationships between aerosol properties and cloud microphysics across different climate regions. Key findings include:
-<span style="color:red">MISSING CONTENT: WRITTEN INTERPRETATION OF RESULTS </span>
+This study demonstrates the capability of EarthCARE's integrated sensor suite to reveal relationships between aerosol properties and cloud microphysics across different climate regions.
 
-#### Limitations and future work:
-<span style="color:red">MISSING CONTENT: WRITTEN INTERPRETATION OF RESULTS </span>
+We have tested the potential of EarthCARE to unveal the interactions between clouds and aerosols. 
+Focusing on different areas were we know the clouds but where we are still exploring the distributions of aerosols was challenging, but thanks to EarthCare we were able to get insights on the links. 
+
+The synergetic products makes it easier to interpret the possible links between differet types of clouds and different species of aerosols. We took a limited time period of data this time, but with the upcomming data and more statistical analysis, we'll be able to push the boundaries of this problem. 
 
 
 ## <!--{ as="div" }--> Open Science
@@ -253,20 +194,17 @@ Access the complete analysis code and notebooks on GitHub.
 <iframe width="100%" height="600" src="https://github.com/giacom0rovers1/earthcare_aerosol_cloud_interactions" frameborder="0"></iframe>
 
 #### References
+- [Finney, D. L., et al. (2025). Microphysical fingerprints in anvil cloud albedo. *Journal of the Atmospheric Sciences*](https://egusphere.copernicus.org/preprints/2025/egusphere-2025-1227/)
 
-- Finney, D. L., et al. (2025). Microphysical fingerprints in anvil cloud albedo. *Journal of the Atmospheric Sciences*.
+- [Lorian, A., et al. (2023). Aerosol effects on deep convection: A review. *Atmospheric Research*.](https://doi.org/10.5194/acp-19-2601-2019)
 
-- Lorian, A., et al. (2023). Aerosol effects on deep convection: A review. *Atmospheric Research*.
+- [Grabowski, W. W., and Morrison, H. (2016). Untangling microphysical impacts on deep convection applying a novel modeling methodology. *Journal of the Atmospheric Sciences*, 73(6), 2503-2524.](https://doi.org/10.1175/JAS-D-14-0307.1)
 
-- Grabowski, W. W., and Morrison, H. (2016). Untangling microphysical impacts on deep convection applying a novel modeling methodology. *Journal of the Atmospheric Sciences*, 73(6), 2503-2524.
+- [Heikenfeld, M., et al. (2019). Aerosol effects on deep convection: The propagation of aerosol perturbations through convective cloud microphysics. *Atmospheric Chemistry and Physics*, 19(4), 2601-2627.](https://doi.org/10.5194/acp-19-2601-2019)
 
-- Heikenfeld, M., et al. (2019). Aerosol effects on deep convection: The propagation of aerosol perturbations through convective cloud microphysics. *Atmospheric Chemistry and Physics*, 19(4), 2601-2627.
+- [Igel, A. L., and van den Heever, S. C. (2021). The relative influence of environmental characteristics on tropical deep convective morphology as observed by CloudSat. *Journal of Geophysical Research: Atmospheres*, 126(6).]( https://doi.org/10.1002/2014JD022690)
 
-- Igel, A. L., and van den Heever, S. C. (2021). The relative influence of environmental characteristics on tropical deep convective morphology as observed by CloudSat. *Journal of Geophysical Research: Atmospheres*, 126(6).
-
-- Barthlott, C., et al. (2022). Aerosol effects on the life cycle of a mesoscale convective system in West Africa. *Atmospheric Chemistry and Physics*, 22(13), 8803-8830.
-
-- Varble, A. C., et al. (2023). Exploring aerosol-cloud interactions in deep convective clouds using combined satellite and radar observations. *Nature Climate Change*.
+- [Mi, Jiaqin & Yang, Yuanjian & Zhou, Shuxue & Ma, Xiaoyan & Wei, Siying. (2024). Exploring impacts of aerosol on convective clouds using satellite remote sensing and machine learning. Journal of Applied Remote Sensing. 18. 10.1117/1.JRS.18.012007.](https://www.researchgate.net/publication/377380698_Exploring_impacts_of_aerosol_on_convective_clouds_using_satellite_remote_sensing_and_machine_learning)
 
 - [AMT - Cloud top heights and aerosol layer properties from EarthCARE lidar observations](https://amt.copernicus.org/preprints/amt-2023-252/)
 
