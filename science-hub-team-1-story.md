@@ -11,7 +11,15 @@ tags: some,tags
 > ¹ University of Leeds ² Ca’ Foscari University of Venice  ³ CNR-ISAC Rome
 
 # 
-*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in September 2025.*
+*This story is based on results from the [Science Hub Challenges in September 2025](https://sciencehub.esa.int/2025/09/29/science-hub-challenges-september-2025/) organised and hosted by ESA's ESRIN, by students from the following organizations:*
+
+<p align="center">
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/images.png?raw=true" alt="Ca' Foscari" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/cafoscari.png?raw=true" alt="NOC" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/logo-isac-CNR-nuovo.png?raw=true" alt="BAS" height="80" style="margin: 0 15px;"/>
+</p>
+
+
 
 ## Aerosols and clouds belong together
 
@@ -214,8 +222,7 @@ Access the complete analysis code and notebooks on GitHub.
 
 - [Copernicus - Wildfires 2025 review: ASEAN reduces emissions, but haze persists](https://atmosphere.copernicus.eu/)
 
-###  Contributors
-
+####  Contributors
 Filippo Calì Quaglia (Ca' Foscari University, Venice)
 
 
