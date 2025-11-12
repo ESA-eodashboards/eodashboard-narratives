@@ -163,12 +163,12 @@ The clustering analysis successfully identified three primary ocean water types 
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-6/cluster_characteristics.png?raw=true" 
-        style="max-width: 100%; width: 800px; height: auto;"
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/fig5.png?raw=true" 
+        style="max-width: 100%; width: 1000px; height: auto;"
         alt="Cluster characteristics"
     />
-    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 6.</b> Characteristics of the three main water type clusters showing distributions of chlorophyll-a, SST, and wind patterns.
+    <p style="text-align: center; margin-top: 10px;">
+        <b>Figure 6.</b> Characteristics of the three main water type clusters showing distributions of chlorophyll-a, SST, and wind patterns
     </p>
 </div>
 
@@ -193,7 +193,6 @@ The spatial distribution of identified water types shows strong geographic coher
     </p>
 </div>
 
-The classification successfully captures the well-known west-to-east productivity gradient, with more productive waters in the western basin transitioning to ultra-oligotrophic conditions in the Levantine Basin.
 
 #### Seasonal Variations
 
@@ -205,7 +204,7 @@ Analysis of the seasonal cycle reveals temporal dynamics in water type distribut
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-6/seasonal_cycle.png?raw=true" 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/fig6.png?raw=true" 
         style="max-width: 100%; width: 800px; height: auto;"
         alt="Seasonal cycle of clusters"
     />
