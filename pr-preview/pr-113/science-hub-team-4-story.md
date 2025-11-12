@@ -7,10 +7,13 @@ tags: some,tags
 ---
 
 # Wet snow mapping with multimodal foundation models  <!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/10/svalbard/24544693-1-eng-GB/Svalbard_pillars.jpg" }-->
-### Authors: Leam Howe, Sean Ó Héir, Miguel Espinosa Minano (Univeristy of Leeds) <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+### Authors: Leam Howe¹, Sean Ó Héir¹, Miguel Espinosa Minano¹ (Univeristy of Leeds) <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+
+### Authors: Enrico Biscaro¹, William Luty², Katie Lowery³ <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+> University of Edinburgh
 
 # 
-*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in September 2025. It was developed by a team from University of Leeds.*
+*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in September 2025. It was developed by a team from University of Edinburgh.*
 
 ## Challenge
 Snow varies greatly in its characteristics and effects. Two primary types are dry snow and wet snow, which differ in water content, density, grain size, and formation conditions. Dry snow is powdery and light, occurring in cold temperatures well below freezing, whereas wet snow contains higher water content, is denser, and forms near or above freezing temperatures.
