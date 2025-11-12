@@ -214,6 +214,8 @@ Access the complete analysis code and notebooks on GitHub.
 
 - [Copernicus - Wildfires 2025 review: ASEAN reduces emissions, but haze persists](https://atmosphere.copernicus.eu/)
 
-## Contributors
+###  Contributors
+
+Filippo Calì Quaglia (Ca' Foscari University, Venice)
 
 
