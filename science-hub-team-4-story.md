@@ -38,9 +38,7 @@ The objective of this study was to develop a reproducible framework to classify 
 
 Predictions from the model were then validated against ground-truth data, enabling assessment of classification accuracy and operational potential for snow mapping applications.
 
-## Use case <!--{ as="eox-map" mode="tour" }-->
-
-### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"SSLC1_Seasonal_S1_AMP_hv_interferometric_coherence;:;2d96aa0d-5170-4979-b00e-e9e3eb1d3308;:;SSLC1_Seasonal_S1_AMP_hv_interferometric_coherence;:;EPSG:3857","title":"SSLC1_Seasonal_S1_AMP_hv_interferometric_coherence"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["S1_AMP_HV"],"TILED":true,"TIME":"2020-09-21T00:00:00Z/2020-09-21T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="6.016697172057297" center=[14.510800415896034,77.77939108743098] projection="" animationOptions={duration:500}}-->
+## Use case 
 #### Svalbard
 Svalbard, an Arctic archipelago, is an ideal testbed for wet snow mapping due to its extreme climate and diverse snow conditions. Accurate monitoring of wet snow here supports water resource management, flood risk assessment, and climate studies in this sensitive region. Using Sentinel-1 data, our model identifies and classifies snow types across Svalbard, providing valuable insights for environmental monitoring and decision-making in the Arctic.
 
@@ -56,6 +54,8 @@ Svalbard, an Arctic archipelago, is an ideal testbed for wet snow mapping due to
         <b>Figure 3.</b> Use cases: the Svalbard archipelago.
     </p>
 </div>
+
+
 
 
 	
@@ -91,16 +91,18 @@ The approach builds on a Geospatial Foundational Model (GFM) that has been pre-t
 #### Accuracy metrics
 The model learns quickly, **reaching over 90% accuracy** within the first few training rounds and staying stable afterward. Its **ability to distinguish between different surface types**, measured by the IoU metric, improves more gradually and levels off around 55–60%. Some ups and downs in the curve suggest that the model finds it harder to tell apart certain classes — a common issue when dealing with radar data where some surfaces reflect signals in similar ways.
 
+
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
-        src=" https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-4/results.png?raw=truee" 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-4/figure5_updated.png?raw=true" 
         style="max-width: 100%; width: 800px; height: auto;"
-        alt=""
+        alt="Validation results"
     />
     <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
         <b>Figure 5.</b> Validation results.
     </p>
 </div>
+
 
 #### Visual interpreation
 From the VV and VH backscatter images, clear textural differences can be observed (brighter and darker streaks) likely corresponding to variations in surface roughness, water, and snow conditions. However, while some areas show strong contrast, others appear smoother, indicating that the model needs to learn subtle backscatter differences.
