@@ -26,7 +26,7 @@ Traditional methods for classifying ocean water types rely on **in-situ measurem
     width="450"
   /><br>
   <p>
-    <b>Figure 2.</b> Satellite-derived water classes in the northwest Pacific region (VIIRS-SNPP snapshot; February 9, 2016; 750 m resolution). 
+    <b>Figure 1.</b> Satellite-derived water classes in the northwest Pacific region (VIIRS-SNPP snapshot; February 9, 2016; 750 m resolution). 
     The water classes and bio-optical data were extracted along the transect indicated by solid pink circles. 
     The square area delimited by the white dashed box is the region for extracting monthly time series data. 
     Black pixels represent invalid ocean color measurements 
@@ -56,7 +56,7 @@ This research aims to demonstrate how **machine learning** can uncover meaningfu
 The Mediterranean Sea represents an exceptional natural laboratory for the study and classification of ocean water types, owing to its **ecological significance** and **considerable economic value**. This semi-enclosed basin is characterized by a high degree of oceanographic complexity, shaped by the interplay of regional climate variability, diverse coastal processes, and intricate basin-scale circulation patterns. Its unique combination of environmental factors makes the Mediterranean an ideal setting for understanding the spatial and temporal variability of water properties and for advancing oceanographic research.
 
 <div style="text-align: center;"> <img src="
-https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/Globe2_mediterranee.png?raw=true" width="600"/> <p><b>Figure X.</b> Use case location.</p> </div>
+https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/Globe2_mediterranee.png?raw=true" width="600"/> <p><b>Figure 2.</b> The Mediterranean Sea.</p> </div>
 
 
 
@@ -70,29 +70,27 @@ https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Chall
 ## Data and Methods
 
 #### Dataset
-The analysis integrated multiple monthly-averaged Earth observation products covering the Mediterranean Sea:
-
-**Biological/Optical Parameters:**
-- **Chlorophyll-a concentration**: Proxy for phytoplankton biomass and primary productivity, derived from ocean color sensors
-
-**Physical Parameters:**
-- **Sea Surface Temperature (SST)**: Indicator of water mass characteristics and thermal structure
-- **Sea Level Height Anomaly**: Reflects ocean circulation patterns and eddy activity
-
-**Atmospheric Forcing:**
-- **Eastward wind component (U-wind)**: Represents zonal atmospheric forcing
-- **Northward wind component (V-wind)**: Represents meridional atmospheric forcing and wind stress effects
-
 All datasets were obtained from operational oceanography products including optimally interpolated multi-sensor observations, providing consistent spatial coverage across the Mediterranean basin.
+
+| Category | Parameter ID | Description |
+|:-:|:-:|:-:|
+| 🌱 **Biological / Optical** | Chlorophyll-a concentration | Proxy for phytoplankton biomass and primary productivity; derived from ocean color sensors |
+| 🌡️ **Physical** | Sea Surface Temperature (SST) | Indicator of water mass characteristics and thermal structure |
+|  | Sea Level Height Anomaly | Reflects ocean circulation patterns and eddy activity |
+| 🌬️ **Atmospheric Forcing** | Eastward wind component (U-wind) | Represents zonal atmospheric forcing |
+|  | Northward wind component (V-wind) | Represents meridional atmospheric forcing and wind stress effects |
+
+
+
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-6/data_layers.png?raw=true" 
-        style="max-width: 100%; width: 800px; height: auto;"
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/fig4.png?raw=true" 
+        style="max-width: 100%; width: 1300px; height: auto;"
         alt="Multi-parameter dataset"
     />
-    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 3.</b> Example data layers: chlorophyll-a concentration, sea surface temperature, sea level height anomaly, and wind components used in the clustering analysis.
+    <p style="text-align: center; margin-top: 10px;">
+        <b>Figure 4.</b> Example data layers: chlorophyll-a concentration, sea surface temperature, sea level height anomaly, and wind components used in the clustering analysis
     </p>
 </div>
 
