@@ -11,7 +11,15 @@ tags: glaciers,climate,third-pole
 > ¹ Ca’ Foscari University of Venice
 
 # 
-*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in September 2025. The challenge focused on monitoring properties of snow, glaciers and sea ice using the DeepESDL platform. It was developed by a team from Ca’ Foscari University of Venice.*
+*This story is based on results from the [Science Hub Challenges in September 2025](https://sciencehub.esa.int/2025/09/29/science-hub-challenges-september-2025/) organised and hosted by ESA's ESRIN. The challenge focused on monitoring properties of snow, glaciers and sea ice using the DeepESDL platform. It was developed by a team from Ca’ Foscari University of Venice.*
+
+<p align="center">
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-5/cafoscari.png?raw=true" 
+       alt="University of Edinburgh" 
+       height="80"/>
+</p>
+
+
 
 ## Challenge
 The Third Pole region, encompassing the Hindu Kush-Karakoram-Himalaya mountain ranges, contains the largest concentration of glaciers outside the polar regions. These glaciers are critical water sources for over two billion people in Asia. However, understanding glacier dynamics in this region is complicated by the **"Karakoram anomaly"**, a phenomenon where some glaciers show *stability or even slight growth* despite global warming trends. Monitoring glacier properties such as surface temperature, mass balance, and supraglacial lake formation is essential for water resource management, understanding climate impacts, and predicting flood risks. Traditional field measurements are challenging in these remote, high-altitude environments, making satellite remote sensing the primary tool for comprehensive glacier monitoring.
@@ -190,5 +198,3 @@ Access the processing scripts and analysis notebooks to reproduce the study work
 
 - Holzer, N., Vijay, S., Yao, T., Xu, B., Buchroithner, M., and Bolch, T. (2015). Four decades of glacier variations at Muztagh Ata (eastern Pamir): a multi-sensor study including Hexagon KH-9 and Pléiades data. *The Cryosphere*, 9, 2071–2088. [https://doi.org/10.5194/tc-9-2071-2015](https://doi.org/10.5194/tc-9-2071-2015)
 
-## Contributors
-**Students**: Sheharyar Ahmad, Federico Scoto, Ginevra Chelli, Arslaan Akhtar
