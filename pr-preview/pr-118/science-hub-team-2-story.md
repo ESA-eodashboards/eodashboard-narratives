@@ -289,4 +289,3 @@ Access the complete analysis notebook to reproduce the clustering workflow.
 
 - Volpe, G., Colella, S., Brando, V.E., et al. (2019). Mediterranean ocean colour Level 3 operational multi-sensor processing. *Ocean Science*, 15(1), 127-146.
 
-## Contributors
