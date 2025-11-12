@@ -127,6 +127,8 @@ The analysis followed a systematic processing pipeline:
 * **5- Normalize** variables (x-min/max-min)
 * **6 - Clustering** approach using simple **K-means** to understand centroids distance and relations between variables
 
+The elbow metric was used to quantify the ideal amount of clusters for the data, which is 5 (where the "elbow" is).  Finally, the synergetic product provided insights on the types of clouds or aerosols that are grouped on each cluster.
+
 The code was run at MAAP portal.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
