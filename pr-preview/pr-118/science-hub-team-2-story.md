@@ -7,18 +7,32 @@ tags: ocean,water-quality,clustering,mediterranean
 ---
 
 # Clustering Ocean Water Types Using Spectral EO Data <!--{ as="img" mode="hero" src="https://climate.esa.int/media/images/Ocean-Colour-CCI_.2e16d0ba.fill-600x314-c100.format-jpeg.jpg" }-->
-### Authors: Enrico Biscaro, William Luty, Katie Lowery <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
-
+### Authors: Enrico Biscaro¹, William Luty², Katie Lowery³ <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+> ¹ Ca’ Foscari University of Venice, Department of Environmental Sciences, Informatics and Statistics (DAIS), Via Torino 155, 30172 Venezia-Mestre, Venice, Italy. E-mail: enrico.biscaro@unive.it  
+² National Oceanography Centre, Southampton, United Kingdom of Great Britain – England, Scotland, Wales. E-mail: eewpl@leeds.ac.uk 
+³ British Antarctic Survey, Cambridge, UK. E-mail: katlow20@bas.ac.uk
 # 
 *This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in September 2025.*
 
 ## Challenge
 
-Ocean water types—such as coastal, upwelling, oligotrophic, and eutrophic waters—exhibit distinct spectral and biogeochemical characteristics that reflect different ecological conditions and biological productivity. These classifications are fundamental for understanding marine ecosystems, monitoring water quality, assessing fisheries health, and supporting climate research.
+Ocean water types - such as coastal, upwelling, oligotrophic, inland, and eutrophic waters - exhibit **distinct reflectance spectra and bio-optical/biogeochemical characteristics** ([Bi et al., 2024](https://doi.org/10.1002/lno.12606)) that reflect different ecological conditions and biological productivity ([Cui et al., 2020](https://doi.org/10.1016/j.isprsjprs.2020.02.017); [Uudeberg et al., 2020](https://doi.org/10.3390/rs12060931)) features which allows for the distinguishing and grouping different water types. These classifications are fundamental for **understanding marine ecosystems**, **monitoring water quality**, **assessing fisheries health**, **supporting climate research** while unraveling the compelex mechanisms controlling ocean biology, chemistry, and physics. 
 
-Traditional methods for classifying ocean water types rely on in-situ measurements or supervised classification requiring extensive labeled training data. However, the spectral signatures captured by satellite sensors contain rich information that can be used to identify natural groupings in ocean properties. Unsupervised learning approaches, particularly clustering algorithms, offer a powerful way to discover these patterns directly from Earth observation data without predefined labels.
+Traditional methods for classifying ocean water types rely on **in-situ measurements** (e.g. diffuse attenuation coefficient, water inherent optical properties, and chlorophyll-a concentration) or **supervised classification** requiring extensive labeled training data. However, the spectral signatures captured by satellite sensors contain rich information that can be extensively and easily used to identify natural groupings in ocean properties. **Unsupervised learning approaches**, particularly clustering algorithms, offer a powerful way to discover these patterns directly from Earth observation data without predefined labels.
 
-<div style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-6/ocean_water_types_concept.png?raw=true" width="600"/> <p><b>Figure 1.</b> Conceptual framework showing how different ocean water types (coastal, oligotrophic, eutrophic) exhibit distinct spectral and biogeochemical characteristics that can be identified through satellite observations.</p> </div>
+<div style="text-align: center;">
+  <img 
+    src="https://ars.els-cdn.com/content/image/1-s2.0-S003442572200339X-gr9_lrg.jpg" 
+    width="450"
+  /><br>
+  <p>
+    <b>Figure 2.</b> Satellite-derived water classes in the northwest Pacific region (VIIRS-SNPP snapshot; February 9, 2016; 750 m resolution). 
+    The water classes and bio-optical data were extracted along the transect indicated by solid pink circles. 
+    The square area delimited by the white dashed box is the region for extracting monthly time series data. 
+    Black pixels represent invalid ocean color measurements 
+    (<a href="https://doi.org/10.1016/j.rse.2022.113233" target="_blank">Wei et al., 2022</a>)
+  </p>
+</div>
 
 This challenge leverages multiple Earth observation datasets including ocean color (chlorophyll-a concentration), sea surface temperature, sea level height anomalies, and atmospheric wind patterns to identify and map distinct water types based on their combined physical and biological properties.
 
@@ -26,19 +40,20 @@ This challenge leverages multiple Earth observation datasets including ocean col
 
 The primary objectives of this study are to:
 
-- Apply unsupervised clustering algorithms to classify ocean water types from multi-parameter Earth observation data
-- Integrate spectral bands and derived biophysical indices to capture the multi-dimensional nature of ocean properties
-- Validate identified clusters against known oceanographic features and water type classifications
-- Produce comprehensive spatial and temporal maps of water types for the Mediterranean Sea
-- Analyze seasonal variations in water type distribution and characteristics
+1. **Apply unsupervised clustering algorithms** to classify ocean water types using multi-parameter Earth observation data.  
+2. **Integrate spectral bands and derived biophysical indices** to effectively capture the multi-dimensional nature of ocean properties.  
+3. **Validate identified clusters** against established oceanographic features and known water type classifications.  
+4. **Generate comprehensive spatial and temporal maps** of water types across the Mediterranean Sea.  
+5. **Analyze seasonal variations** in the distribution and characteristics of water types.
 
-This approach aims to demonstrate how machine learning can extract meaningful ecological patterns from satellite data, supporting both operational oceanography and marine ecosystem management.
+#### Overall Aim
+This research aims to demonstrate how **machine learning** can uncover meaningful ecological patterns from **satellite-derived data**, thereby advancing both **operational oceanography** and **marine ecosystem management**.
 
 ## Use case <!--{ as="eox-map" mode="tour" }-->
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Mediterranean_Chlorophyll;:;2d96aa0d-5170-4979-b00e-e9e3eb1d3308;:;Mediterranean_Chlorophyll;:;EPSG:3857","title":"Mediterranean Chlorophyll-a"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["CHLOROPHYLL_A"],"TILED":true,"TIME":"2024-01-01T00:00:00Z/2024-12-31T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="5.5" center=[18.0,38.0] projection="" animationOptions={duration:500}}-->
 #### Mediterranean Sea
-The Mediterranean Sea serves as an ideal study area for ocean water type classification due to its ecological and economic importance combined with its oceanographic complexity. This semi-enclosed basin exhibits diverse water characteristics driven by regional climate patterns, coastal influences, and basin-scale circulation.
+The Mediterranean Sea represents an exceptional natural laboratory for the study and classification of ocean water types, owing to its **ecological significance** and **considerable economic value**. This semi-enclosed basin is characterized by a high degree of oceanographic complexity, shaped by the interplay of regional climate variability, diverse coastal processes, and intricate basin-scale circulation patterns. Its unique combination of environmental factors makes the Mediterranean an ideal setting for understanding the spatial and temporal variability of water properties and for advancing oceanographic research.
 
 <div style="text-align: center;"> <img src="
 https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/Globe2_mediterranee.png?raw=true" width="600"/> <p><b>Figure X.</b> Use case location.</p> </div>
