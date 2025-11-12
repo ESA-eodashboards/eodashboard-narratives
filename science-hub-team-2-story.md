@@ -8,9 +8,9 @@ tags: ocean,water-quality,clustering,mediterranean
 
 # Clustering Ocean Water Types Using Spectral EO Data <!--{ as="img" mode="hero" src="https://climate.esa.int/media/images/Ocean-Colour-CCI_.2e16d0ba.fill-600x314-c100.format-jpeg.jpg" }-->
 ### Authors: Enrico Biscaro¹, William Luty², Katie Lowery³ <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
-> ¹ Ca’ Foscari University of Venice, Department of Environmental Sciences, Informatics and Statistics (DAIS), Via Torino 155, 30172 Venezia-Mestre, Venice, Italy. E-mail: enrico.biscaro@unive.it  
-² National Oceanography Centre, Southampton, United Kingdom of Great Britain – England, Scotland, Wales. E-mail: eewpl@leeds.ac.uk 
-³ British Antarctic Survey, Cambridge, UK. E-mail: katlow20@bas.ac.uk
+> ¹ Ca’ Foscari University of Venice
+² National Oceanography Centre
+³ British Antarctic Survey
 # 
 *This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in September 2025.*
 
