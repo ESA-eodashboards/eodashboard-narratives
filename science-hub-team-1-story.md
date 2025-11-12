@@ -42,7 +42,7 @@ Our first tool was and remains theory. Physics helps predict how clouds behave a
 The objective of this study is to explore whether and how aerosols influence cloud characteristics: specifically the distribution of liquid water and ice content, at various altitudes using EarthCare’s vertical profiling capabilities. To this end, **EarthCare, a new Earth Explorer from ESA**, was used to identifying patterns in cloud-aerosol interactions across different regions and conditions (e.g. land vs. ocean, tropical vs. polar environments), and determining whether increased CCN or INP concentrations correlate with observable changes in cloud composition.
 
 
-<div style="text-align: center;"> <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/01/earthcare_over_desert_dust/25391626-1-eng-GB/EarthCARE_over_desert_dust_pillars.png" width="800"/> <p><b>Figure 2.</b> EarthCare Satellite (source: ESA).</p> </div>
+<div style="text-align: center;"> <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/01/earthcare_over_desert_dust/25391626-1-eng-GB/EarthCARE_over_desert_dust_pillars.png" width="800"/> <p><b>Figure 5.</b> EarthCare Satellite (source: ESA).</p> </div>
 
 #### Why EarthCare? 
 
@@ -54,7 +54,7 @@ EarthCARE is a first-of-its-kind mission that offers an unlikely opportunity to 
 * **MSI (Multi-Spectral Imager)** delivers multi-wavelength images in 7 different bands that reveal cloud structure and aerosol distribution over large areas, complementing MODIS with higher spatial resolution. 
 * **BBR (Broadband Radiometer)** measures solar and thermal radiation reflected and emitted by Earth, enabling direct estimates of top-of-atmosphere radiative effects and energy balance. 
 
-<div style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/team1-earthcare-sensors-image.png?raw=true" width="800"/> <p><b>Figure 2.</b> EarthCare Satellite (source: ESA).</p> </div>
+<div style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/team1-earthcare-sensors-image.png?raw=true" width="800"/> <p><b>Figure 6.</b> EarthCare Satellite (source: ESA).</p> </div>
 
 Together, these instruments provide comprehensive and blended data that will help us explore interactions and uncover new insights into how clouds and aerosols influence climate.
 
@@ -146,7 +146,7 @@ The first thing to notice is that, ovearall, the West Pacific classification is 
         alt="Pacific region clusters"
     />
     <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 10: Clustering results in ITCZ</b> K-means clustering results for West Pacific (upper row) and East Pacific (bottom row).
+        <b>Figure 9: Clustering results in ITCZ</b> K-means clustering results for West Pacific (upper row) and East Pacific (bottom row).
     </p>
 </div>
 
@@ -164,7 +164,7 @@ The second and third plot show that there are not many liquid clouds.
         alt="Spatial cluster distribution"
     />
     <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 11: Clustering results in Antartica. </b> Compared to the ITCZ results, we didn't find many aerosols.
+        <b>Figure 10: Clustering results in Antartica. </b> Compared to the ITCZ results, we didn't find many aerosols.
     </p>
 </div>
 
