@@ -11,8 +11,17 @@ tags: ocean,water-quality,clustering,mediterranean
 > ¹ Ca’ Foscari University of Venice
 ² National Oceanography Centre
 ³ British Antarctic Survey
+
+
 # 
-*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in September 2025.*
+*This story is based on results from the [Science Hub Challenges in September 2025](https://sciencehub.esa.int/2025/09/29/science-hub-challenges-september-2025/) organised and hosted by ESA's ESRIN, by students from the following organizations:*
+
+<p align="center">
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/cafoscari.png?raw=true" alt="Ca' Foscari" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/noc-logo-full-colour.png?raw=true" alt="NOC" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/bas-full-logo.png?raw=true" alt="BAS" height="80" style="margin: 0 15px;"/>
+</p>
+
 
 ## Challenge
 
