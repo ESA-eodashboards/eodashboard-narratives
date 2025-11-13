@@ -7,10 +7,16 @@ tags: some,tags
 ---
 
 # Evaluating time series interpolation techniques for vegetation monitoring using remote sensing data <!--{ as="img" mode="hero" src="https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/10678/production/_92329176_c0157414-lowland_rainforest_danum_valley_sabah-spl.jpg.webp" }-->
-### Authors: Denise Hick, Frances O'Leary and Mae Evans (University of Leeds) <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
-
+### Authors: Denise Hick¹, Frances O'Leary¹ and Mae Evans¹  <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+1- University of Leeds
 # 
-*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in September 2025. It was developed by a team from University of Leeds.* 
+*This story is based on results from the [Science Hub Challenges in September 2025](https://sciencehub.esa.int/2025/09/29/science-hub-challenges-september-2025/) organised and hosted by ESA's ESRIN, by students from the Universty of Leeds:*
+
+<p align="center">
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/images.png?raw=true" 
+       alt="University of Edinburgh" 
+       height="80"/>
+</p>
 
 ## Challenge
 Earth Observation (EO) based time series of vegetation are essential for monitoring ecosystem health, agricultural yield, and the impacts of climate change. One of the most widely used indicators in this context is the **Normalised Difference Vegetation Index (NDVI)**, which measures vegetation greenness and health based on how plants reflect light in the red and near-infrared parts of the electromagnetic spectrum. Sensors like MODIS (Moderate Resolution Imaging Spectroradiometer), onboard NASA’s Terra and Aqua satellites, collect data in these red and NIR bands, allowing NDVI to capture vegetation health over time.
