@@ -19,7 +19,8 @@ XXXXXXXX (Affiliation)
 XXXXXXXX (Affiliation)  
 XXXXXXXX (Affiliation)
 
-## Problem Definition
+##
+Problem Definition
 Here you will need to discuss What is the problem? Who is suffering?  
 for that you can use all means (Text, Image, Link or Maps).  
 
@@ -39,43 +40,35 @@ It is recommended to use maps to discuss the issue that you are targeting.
 You can either chose a single map, with optional text underneath.  
 
 Here is the example of a single map:
- <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[ { "type": "Tile", "properties": { "id": "CORINE" }, "source": { "type": "TileWMS", "url": "https://ows.mundialis.de/services/service", "params": { "LAYERS": "CORINE_LandCover" } } } ]' zoom="10" center=[15,48] }-->
 
-     
-## Map section <!--{as="eox-map" class="overlay-br" style="width: 100%; height: 500px;" config='{ "controls": { "Zoom": {}, "Attribution": {}, "FullScreen": {}, "OverviewMap": { "layers": [ { "type": "Tile", "properties": { "id": "overviewMap" }, "source": { "type": "OSM" } } ] } }, "layers": [ { "type": "Tile", "properties": { "id": "overviewMap" }, "source": { "type": "TileWMS", "url": "https://ows.mundialis.de/services/service", "params": { "LAYERS": "TOPO-WMS" } } } ], "view": { "center": [15,48], "zoom": 1 } }'}-->
-### Some title for map <!--{ style="color: white; font-size: 1.25rem;" }-->
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. <!--{ style="opacity: 0.75; font-size: 1rem;" }-->
+   
+## Map section <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{ "type": "Tile", "properties": { "id": "Tanintharyi_2016_v2" }, "source": { "type": "TileWMS", "urls": ["http://geonode.themimu.info/geoserver/geonode/ows?"], "params": { "LAYERS": "tanintharyi_2016_v2", "FORMAT": "image/gif", "TRANSPARENT": true } } }]' zoom="10" center=[99.1,12.6] }-->
+
+### Discussing the real situation using Satellite imagery or products <!--{ style="color: white; font-size: 1.25rem;" }-->
+Here you can share the specifcation of the data and we will visualize it. <!--{ style="opacity: 0.75; font-size: 1rem;" }-->
 
 ## Map Tour section <!--{ as="eox-map" class="overlay-br" mode="tour" }-->
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. <!--{ style="opacity: 0.75; font-size: 1rem;" }-->
+Please narrate your story here. <!--{ style="opacity: 0.5; font-size: 1rem;" }-->
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}}]' center=[12.46,41.89] zoom="5" animationOptions="{duration:500}" }-->
-#### This is a map tour.
-It allows you to have different layers, zoom and center settings for each tour "step".
+### <!--{ layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}}]' center=[15.00,100.00] zoom="5" animationOptions="{duration:500}" }-->
+#### Step 1
+Her you can have different layers, zoom and center settings for each tour "step".
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"customId"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2017"}},{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}}]' center=[12.46,41.89] zoom="10" }-->
-#### Second tour step.
-Each tour step is described as an *h3* (*###*) heading.
+### <!--{ layers='[{"type":"Tile","properties":{"id":"customId"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2017"}},{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}}]' center=[13.0,101.0] zoom="5" }-->
+#### Step 2
+A brief explanation goes here.
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"customId"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2017"}},{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}}]' center="[16.36,48.2]" zoom="10" animationOptions="{duration:500}" }-->
-#### Third tour step.
+#### Step 3
 To change individual parameters like zoom or center, or to change the map layers for a step, just set them using the HTML comment syntax. This changes the map setting for the current map
 
-## Image Tour section <!--{ as="img" mode="tour" }-->
+## Image  section <!--{ as="img" mode="tour" }-->
 
-### <!--{ src="https://picsum.photos/800/600" style="background: #fff0c4;" }-->
+### <!--{ src="https://agrisay.com/wp-content/uploads/2022/04/Untitled-design-38-1-1.jpg" style="background: #fff0c4;" }-->
 #### This is an image tour.
 It allows you to have different sources for each tour "step".
 
-### <!--{ src="https://picsum.photos/900/700" style="background: #ffe7ef;" }-->
-#### Second tour step.
-Each tour step is described as an *h3* (*###*) heading.
-
-### <!--{ src="https://picsum.photos/900/800" style="background: #e2fffc;" }-->
-#### Third tour step.
-![](https://placehold.co/200x100)
 
 ## Final Words
-Hopefully, this was a good introduction to the story writing possibilities using EOxStorytelling - get started writing your own story!
-More features will be added soon, so feel free to follow progress at the [EOxElements GitHub repository](https://github.com/EOX-A/EOxElements).
+You coud add some final words here.
     
