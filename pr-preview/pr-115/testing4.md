@@ -2,9 +2,10 @@
 
 
 # Your Story Title <!--{ as="img" mode="hero" src="https://eos.com/wp-content/uploads/2023/04/rice-field.jpg" }-->
-#### Your story in one or two catching line(s)XXXXXXXXXXXXXXXXXXXXXXXXXX
-#### XXXXXXXXXXXXXXXXXXXXXXXXX
-! <!--{ style="font-size:0.5rem;opacity:0.7;margin-top:1rem;" }-->
+Your story in one or two catching line(s)  
+XXXXXXXXXXXXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXXXXXXXXXXX
+! <!--{ style="font-size:1rem;opacity:0.7;margin-top:1rem;" }-->
 
 
 ## Introduction
