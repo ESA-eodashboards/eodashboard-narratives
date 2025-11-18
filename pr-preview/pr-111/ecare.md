@@ -227,7 +227,7 @@ Access the complete analysis code and notebooks on GitHub.
 
 - [Wildfires in Southeast Asia pollute the atmosphere in the northern South China Sea](https://www.sciencedirect.com/)
 
-- [Copernicus - Wildfires 2025 review: ASEAN reduces emissions, but haze persists](https://atmosphere.copernicus.eu/)
+- [Copernicus - Wildfires 2025 review: ASEAN reduces emissions, but haze persists](https://atmosphere.copernicus.eu/wildfires-2025-review-asean-reduces-emissions-haze-persists)
 
 ## Contributors
 
