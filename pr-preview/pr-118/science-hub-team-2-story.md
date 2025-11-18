@@ -278,7 +278,7 @@ The framework established here provides a foundation for automated ocean water t
 | **[ERA5 Wind Components](https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5)**                          | Dataset | ECMWF | Reanalysis-derived eastward (U) and northward (V) wind components at 10m height for atmospheric forcing characterization.                                               |
 
 #### Notebook
-Access the complete analysis notebook to reproduce the clustering workflow. This notebook has been developed and validated on the DeepESDL environment, where the necessary data, tools, and execution kernels are available. DeepESDL is part of ESA's EarthCODE initiative, enabling open and reproducible Earth Science. Sponsored access can be requested through ESA's Network of Resources.
+Access the complete analysis notebook to reproduce the clustering workflow. This notebook has been developed and validated on the [DeepESDL environment](https://earthsystemdatalab.net/), where the necessary data, tools, and execution kernels are available. DeepESDL is part of ESA's [EarthCODE initiative](https://earthcode.esa.int/), enabling open and reproducible Earth Science. Sponsored access can be requested through ESA's [Network of Resources](https://nor-discover.org/).
 <iframe width="100%" height="600" src="https://github.com/ESA-eodashboards/eodashboard-notebooks/blob/main/notebooks/Oceanographic%20patterns%20clustering.ipynb" frameborder="0"></iframe>
 
 
