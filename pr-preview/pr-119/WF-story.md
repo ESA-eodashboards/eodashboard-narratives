@@ -1,19 +1,15 @@
 ---
-cover-image: https://placehold.co/600x400/png
+cover-image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Hochwasser_Gars_am_Kamp_2024_03.jpg/1200px-Hochwasser_Gars_am_Kamp_2024_03.jpg?20240914153540
 date: 2025-01-01
 theme: theme_name
 tags: some,tags
 
 ---
 
-# Mapping the 2024 Central European Floods with Satellite Technology <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
+# Mapping the 2024 Central European Floods with Satellite Technology <!--{ as="img" mode="hero" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Hochwasser_Gars_am_Kamp_2024_03.jpg/1200px-Hochwasser_Gars_am_Kamp_2024_03.jpg?20240914153540" }-->
 ### Using Sentinel-1, Sentinel-2, Landsat, and WASDI workflows to monitor flood evolution in open and urban areas. <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
-## First section
-
-Some text for the first section
-
-## Mapping 2024 Central European floods using satellite data
+## 2024 Central European Floods
 Throughout much of 2024, numerous European countries were affected by severe floods caused by prolonged heavy rains. Several were catastrophic, causing deaths and widespread damage due to overflowing river basins and landslides.
 In response to the floods, the [Copernicus Emergency Management Service](https://mapping.emergency.copernicus.eu/) has been activated to produce detailed maps of the affected areas across several countries, including Poland, Germany, Slovakia, Austria, Germany and Italy.
 
@@ -29,11 +25,13 @@ In response to the floods, the [Copernicus Emergency Management Service](https:/
     </figcaption>
 </figure>
 
-## Earth observations of floods
+## Earth Observations of floods
 Earth observation (EO) techniques offer the opportunity to monitor and map to catastrophic events, providing support which would be impossible to achieve through ground-based observations alone, especially in inaccessible areas after the disaster occure. Different EO sensors onboard satellite missions allow to retrieve different but completemntary information. Optical satellites, such as Copernicus-Sentinel-2, Landsat and  MODIS, allow to capture multispectral imagery clearly distinguishing water from land, given the unique spectral signature of water (since it strongly absorbs radiation in the near-infrared and shorwave infrared bands). 
 On the other hand, radar missions with syntethic aperture radar aboard such as Copernicus Sentinel-1, RADARSAT, and TerraSAR-X, are unlike optical sensors independent of the conditions of illumination or cloud cover, allowing to monitor the surface in the aftermath of flooding events, becoming and indispensable tool for flood monitoring.  
 
-### The WASDI Platform: streamlining flood analysis
+## The WASDI Platform
+**Streamlining flood analysis**
+
 The [WASDI platform](https://www.wasdi.cloud/) represents a significant advancement in Earth observation data processing for flood monitoring. WASDI is a cloud-based workspace designed to simplify the access, processing, and analysis of satellite data for environmental applications, including flood management. The method used to produce flood maps over open area is integrated in an app named [SAR Flood Archive Generator 3.3.4](https://wasdi.readthedocs.io/en/latest/WasdiApplications/SARArchiveGenerator.html). 
 It is an automated application designed to process the [Sentinel-1 GRD](https://dataspace.copernicus.eu/explore-data/data-collections/sentinel-data/sentinel-1) archive for a specified Area of Interest (AoI), compiling historical flood maps in open areas. The dataset can be acquired via the [Network of Resources (NoR)](https://nor-discover.org/en/news/) request. 
 
