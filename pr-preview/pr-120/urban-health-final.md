@@ -62,7 +62,7 @@ In June 2024, India experienced one of its most severe and longest heatwaves on 
 
 </center>
 
-New Delhi bore the brunt of this extreme weather event, with temperatures soaring above 45°C. The extreme summer heat in Delhi pushed its peak power demand to an all-time high of 8,302 MW on Wednesday afternoon, officials said. This demonstrates how extreme temperatures sharply increase urban energy demand while simultaneously posing serious risks to public health.
+New Delhi bore the brunt of an extreme heatwave, with temperatures soaring above 45°C. The intense summer heat pushed the city’s peak power demand to an all-time high, officials reported. This demonstrates how extreme temperatures sharply increase urban energy demand while simultaneously posing serious risks to public health.
 
 
 # 
