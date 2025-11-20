@@ -57,7 +57,7 @@ In June 2024, India experienced one of its most severe and longest heatwaves on 
 
 <center> <img src="https://th-i.thgim.com/public/incoming/ifa6rc/article68228316.ece/alternates/LANDSCAPE_1200/07_Standalone_Hot_Weather_Mirage_29_05_Delhi.jpg" width="400">
 
-<span style="font-size:15px;">A mirage appears on Kartavya Path on a hot day in the Capital on May 29, 2024. Photo Credit: SHIV KUMAR PUSHPAKAR
+<span style="font-size:15px;">A mirage appears on Kartavya Path on a hot day in New Delhi on May 29, 2024. Photo Credit: Shiv Kumar Pushpakar
 </span>
 
 </center>
