@@ -59,6 +59,15 @@ According to Spain’s national weather agency, [Aemet](https://www.aemet.es/en/
 
 **Flood Monitoring in Open Areas**:  The method used to produce flood maps over open area is integrated in the  [SAR Flood Archive Generator 3.3.4](https://wasdi.readthedocs.io/en/latest/WasdiApplications/SARArchiveGenerator.html). This automated application processed the Sentinel-1 GRD archive for the specific area, compiling historical flood maps. The application generates maps for every day for which a Sentinel-1 GRD image is available over the AoI.  Flood detection was performed by analysing intensity values and the output showes flooded (red) and permanent water (blue).
 
+<figure style="text-align: center;">
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/main/collections/WASDI_FLOOD/cm_legend.png?raw=true" 
+         alt=" " 
+         style="display: block; margin: 0 auto;"
+         width="500">
+</figure>
+
+
+
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="11.602153687126457" center=[16.0058194604704,48.33099126051039] animationOptions={duration:500}}-->
 #### St Pölten, Austria
 During September 2024, a large weather event affected multiple Central European countries, with Austria's eastern region, including St. Pölten (located in Lower Austria) and Vienna taking a particularly hard hit. The water level of the Wien Riever, in the western part of Vienna rose from 50 centimeters to 2.26 metetrs in the course of a day, leading to the flooding of trails, restaurants, streets and river banks. Electricity was cut off in some districts and subway lines were partially closed as result [5](https://www.dw.com/en/europe-floods-parts-of-vienna-without-power-as-river-rises/live-70220078).
@@ -79,6 +88,13 @@ The Austrian province surrounding Vienna has been declared a disaster area, with
 </figure>
 
 **Urban Flood Mapping**: Concerning urban area, a different method was applied. It relies on the information contained in the phase, rather than the intensity used for open area. Flood is detected analyzing the difference of coherence between a pair of 2 pre-event Sentinel-1 SLC images and a pair of 1 pre-event Sentinel-1 SLC image and 1 post-event Sentinel-1 SLC image. This application, named Urban Flood, available in the WASDI platform, needs as a prerequisite the availability of a building map, to constrain the areas where to look for differences of coherence.
+
+<figure style="text-align: center;">
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/main/collections/WASDI_FLOOD/cm_legend.png?raw=true" 
+         alt=" " 
+         style="display: block; margin: 0 auto;"
+         width="500">
+</figure>
 
 
 ## Open Science
