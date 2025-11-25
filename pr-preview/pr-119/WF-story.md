@@ -120,6 +120,7 @@ During September 2024, a large weather event affected multiple Central European 
     </figcaption>
 </figure>
 
+Using WASDI flood maps, where blue pixels represent permanent water and red pixels indicate flooded areas, the analysis calculates the total flooded area for each date by counting red pixels and converting them to square meters. By comparing these values over time, the date with the largest flooded area, **2024-09-20** was identified as the most flooded day in the dataset.
 <figure style="text-align: center;">
     <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/Floodings/Temporal%20evolution%20of%20flooded%20and%20permanent%20water%20areas.png?raw=truep" 
          alt=" " 
@@ -135,17 +136,16 @@ During September 2024, a large weather event affected multiple Central European 
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="11.602153687126457" center=[16.0059194604704,48.33099126051039] animationOptions={duration:500}}-->
 
-The Austrian province surrounding Vienna has been declared a disaster area, with its leaders speaking of "an unprecedented extreme situation". The province which surrounds Vienna, in Austria, has been declared a disaster area by authorities [6](https://www.bbc.com/news/live/cdrjjl3mmy8t).
+#### Relative Flood Risk Map
+The Austrian province surrounding Vienna has been declared a disaster area, with its leaders speaking of "an unprecedented extreme situation" [6](https://www.bbc.com/news/live/cdrjjl3mmy8t).
+Based on the **most flooded date** The relative flood risk map shows which roads are most exposed to flooding, based on their proximity to flooded areas. First, the road network around Tulln an der Donau was extracted and converted into a raster grid. Then, the most recent flood map from WASDI was aligned to the same grid. For each road pixel, the distance to the nearest flooded area was calculated. Using an inverse-distance approach, road pixels closer to floods were assigned higher risk scores, while those farther away received lower scores. Finally, these scores were normalized between 0 (low risk) and 1 (high risk) and visualized with a gradient from **green (low risk)** to **dark red (high risk)**, highlighting areas where **flooding can most affect road infrastructure**.
 <figure style="text-align: center;">
     <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/Floodings/relative_risk_score_map.png?raw=true" 
          alt=" " 
          style="display: block; margin: 0 auto;"
          width="500">
     <figcaption>
-         The flooded Wienfluss river in Vienna. Credit:
-        <a href="https://www.bbc.com/news/live/cdrjjl3mmy8t" target="_blank">
-             BBC News
-        </a>.
+         Risk Score map based on the most flooded date
     </figcaption>
 </figure>
 
