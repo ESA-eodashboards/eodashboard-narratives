@@ -132,6 +132,8 @@ During September 2024, a large weather event affected multiple Central European 
     </figcaption>
 </figure>
 
+ 
+**Extracting furhter information: temporal evolution**
 Using WASDI flood maps, it is possible to conduct further analysis and extract further information such as the temporal evolution of the floods. As example,   the total flooded area (red pixels) was estimated for each date by counting flooded pixels and converting them to square meters. By comparing these values over time, the date with the largest flooded area, **2024-09-20** was identified as the most flooded day in the dataset.
 <figure style="text-align: center;">
     <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/Floodings/Temporal%20evolution%20of%20flooded%20and%20permanent%20water%20areas.png?raw=truep" 
@@ -146,7 +148,7 @@ Using WASDI flood maps, it is possible to conduct further analysis and extract f
     </figcaption>
 </figure>
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="11.602153687126457" center=[16.0059194604704,48.33099126051039] animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.602153687126457" center=[16.0059194604704,48.33099126051039] animationOptions={duration:500}}-->
 
 #### Relative Flood Risk Map
 
@@ -171,11 +173,10 @@ Based on the **most flooded date** The relative flood risk map shows which roads
 ## Open Science
 #### Explore Flooding extensions Jupyter Notebooks 
 You can further explore an example of WASDI dataset relative to the last example,  the floods over St Pölten, Austria, and gather a further insight over this particular area and event, interacting directly with the dataset though the [notebook below](https://github.com/eurodatacube/notebooks/tree/master/notebooks/curated). 
-In this example, the notebook allows to overlay flood data on optical imagery (from Copernicus Sentinel-2) allowing fro a more intuituve interpretation of the extents and impacts of the floods. It also calculates affected areas over time, estimating flooded areas and finally it creates an GIF animation of the sequence of flood over time. 
-
+In this example, the notebook allows to get further insight from WASDI data, which (as some of the examples in this story). The notebook shows how to  overlay flood data on optical imagery (from Copernicus Sentinel-2) allowing for  intuituve **visual interpretation** of the extent and impacts of the floods; the **temporal analysis of floods** and estimation of **flooded areas**, as well as a workflow to generate a **relative road risk flood map**. 
 
 <figure style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-5/stories/Nightlights/nightime_notebook_image.jpg?raw=true" 
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/Floodings/Screenshot%202025-04-02%20111421.png?raw=true" 
          alt=" " 
          style="display: block; margin: 0 auto;"
          width="500">
@@ -187,7 +188,7 @@ In this example, the notebook allows to overlay flood data on optical imagery (f
     </figcaption>
 </figure>
 
-Besides [acceessing  the notebook](https://github.com/eurodatacube/notebooks/tree/master/notebooks/curated) to analyze flooding extension and area estimation, you can also crosscompare multiyear data over particular locations impacted by floods in 2024 exploring the [Flood mapping indicator](https://race.esa.int/?indicator=WASDI_FLOOD&x=1782387.13181&y=6165318.97613&z=8.18089) available at RACE.ESA.INT.
+Besides [acceessing  the notebook](https://github.com/eurodatacube/notebooks/tree/master/notebooks/curated) you can also crosscompare multiyear data over particular locations impacted by floods in 2024 exploring the [Flood mapping indicator](https://race.esa.int/?indicator=WASDI_FLOOD&x=1782387.13181&y=6165318.97613&z=8.18089) available at [RACE dashboard](race.esa.int).
 
 #### Open datasets and platforms used in this story
 
