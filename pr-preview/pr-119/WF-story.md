@@ -120,9 +120,6 @@ During September 2024, a large weather event affected multiple Central European 
     </figcaption>
 </figure>
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="11.602153687126457" center=[16.0059194604704,48.33099126051039] animationOptions={duration:500}}-->
-
-The Austrian province surrounding Vienna has been declared a disaster area, with its leaders speaking of "an unprecedented extreme situation". The province which surrounds Vienna, in Austria, has been declared a disaster area by authorities [6](https://www.bbc.com/news/live/cdrjjl3mmy8t).
 <figure style="text-align: center;">
     <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/Floodings/Temporal%20evolution%20of%20flooded%20and%20permanent%20water%20areas.png?raw=truep" 
          alt=" " 
@@ -135,6 +132,24 @@ The Austrian province surrounding Vienna has been declared a disaster area, with
         </a>.
     </figcaption>
 </figure>
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="11.602153687126457" center=[16.0059194604704,48.33099126051039] animationOptions={duration:500}}-->
+
+The Austrian province surrounding Vienna has been declared a disaster area, with its leaders speaking of "an unprecedented extreme situation". The province which surrounds Vienna, in Austria, has been declared a disaster area by authorities [6](https://www.bbc.com/news/live/cdrjjl3mmy8t).
+<figure style="text-align: center;">
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/Floodings/relative_risk_score_map.png?raw=true" 
+         alt=" " 
+         style="display: block; margin: 0 auto;"
+         width="500">
+    <figcaption>
+         The flooded Wienfluss river in Vienna. Credit:
+        <a href="https://www.bbc.com/news/live/cdrjjl3mmy8t" target="_blank">
+             BBC News
+        </a>.
+    </figcaption>
+</figure>
+
+
 
 
    
