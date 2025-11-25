@@ -41,7 +41,7 @@ Earth observation (EO) techniques offer the opportunity to monitor and map catas
 **Streamlining flood analysis**
 
 The [WASDI platform](https://www.wasdi.cloud/) represents a significant advancement in EO data processing for flood monitoring. WASDI is a cloud-based workspace designed to simplify access, processing, and analysis of satellite data for environmental applications, including flood management. The method used to produce flood maps over an open area is integrated into an app called [SAR Flood Archive Generator 3.3.4](https://wasdi.readthedocs.io/en/latest/WasdiApplications/SARArchiveGenerator.html). This automated application processes the Sentinel-1 GRD
- archive for a specified Area of Interest (AoI), compiling historical flood maps. The dataset can be acquired via the [Network of Resources (NoR)](https://nor-discover.org/en/news/) request.
+ archive for a specified Area of Interest (AoI), compiling historical flood maps. 
  
  <figure style="text-align: center;">
     <img src="https://wascia.ssl.telespazio.com/media/images/wasdi11.max-1600x1600.format-webp.webp" 
@@ -54,7 +54,19 @@ The [WASDI platform](https://www.wasdi.cloud/) represents a significant advancem
     </figcaption>
 </figure>
 
-NoR provides a unique environment for both commercial and non-commercial users to discover, via the NoR Portfolio, a list of European cloud services and estimates of the associated costs to make full use of Earth Observation data. [ESA offers sponsorship](https://nor-discover.org/en/sponsorship/) to eligible entities to cover the costs of trying out these services.
+The dataset can be acquired via the [Network of Resources (NoR)](https://nor-discover.org/en/news/) request. NoR provides a unique environment for both commercial and non-commercial users to discover, via the NoR Portfolio, a list of European cloud services and estimates of the associated costs to make full use of Earth Observation data. [ESA offers sponsorship](https://nor-discover.org/en/sponsorship/) to eligible entities to cover the costs of trying out these services.
+
+ <figure style="text-align: center;">
+    <img src="https://eo4society.esa.int/wp-content/uploads/2023/05/NOR-new-header-with-text.jpg" 
+         alt="  " 
+         style="display: block; margin: 0 auto;"
+         width="300">
+        <a href="https://nor-discover.org/" target="_blank">
+             Explore the NoR Portal
+        </a>
+    </figcaption>
+</figure>
+
 
 
 
@@ -106,7 +118,7 @@ Concerning urban area, a different method was applied. It relies on the informat
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="11.602153687126457" center=[16.0058194604704,48.33099126051039] animationOptions={duration:500}}-->
 #### St Pölten, Austria
-During September 2024, a large weather event affected multiple Central European countries, with Austria's eastern region, including St. Pölten (located in Lower Austria) and Vienna taking a particularly hard hit. The water level of the Wien Riever, in the western part of Vienna rose from 50 centimeters to 2.26 metetrs in the course of a day, leading to the flooding of trails, restaurants, streets and river banks. Electricity was cut off in some districts and subway lines were partially closed as result [5](https://www.dw.com/en/europe-floods-parts-of-vienna-without-power-as-river-rises/live-70220078).
+During September 2024, a large weather event affected multiple Central European countries, with Austria's eastern region, including St. Pölten (located in Lower Austria) and Vienna taking a particularly hard hit. The water level of the Wien Riever, in the western part of Vienna rose from 50 centimeters to 2.26 metetrs in the course of a day, leading to the flooding of trails, restaurants, streets and river banks. Electricity was cut off in some districts and subway lines were partially closed as result [5](https://www.dw.com/en/europe-floods-parts-of-vienna-without-power-as-river-rises/live-70220078). The Austrian province surrounding Vienna has been declared a disaster area, with its leaders speaking of "an unprecedented extreme situation" [6](https://www.bbc.com/news/live/cdrjjl3mmy8t).
 <figure style="text-align: center;">
     <img src="https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/vivo/live/images/2024/9/15/1d9752ba-15c7-46f8-b0a8-34facf64ba0e.jpg.webp" 
          alt=" " 
@@ -120,7 +132,7 @@ During September 2024, a large weather event affected multiple Central European 
     </figcaption>
 </figure>
 
-Using WASDI flood maps, where blue pixels represent permanent water and red pixels indicate flooded areas, the analysis calculates the total flooded area for each date by counting red pixels and converting them to square meters. By comparing these values over time, the date with the largest flooded area, **2024-09-20** was identified as the most flooded day in the dataset.
+Using WASDI flood maps, it is possible to conduct further analysis and extract further information such as the temporal evolution of the floods. As example,   the total flooded area (red pixels) was estimated for each date by counting flooded pixels and converting them to square meters. By comparing these values over time, the date with the largest flooded area, **2024-09-20** was identified as the most flooded day in the dataset.
 <figure style="text-align: center;">
     <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/Floodings/Temporal%20evolution%20of%20flooded%20and%20permanent%20water%20areas.png?raw=truep" 
          alt=" " 
@@ -137,7 +149,7 @@ Using WASDI flood maps, where blue pixels represent permanent water and red pixe
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="11.602153687126457" center=[16.0059194604704,48.33099126051039] animationOptions={duration:500}}-->
 
 #### Relative Flood Risk Map
-The Austrian province surrounding Vienna has been declared a disaster area, with its leaders speaking of "an unprecedented extreme situation" [6](https://www.bbc.com/news/live/cdrjjl3mmy8t).
+
 Based on the **most flooded date** The relative flood risk map shows which roads are most exposed to flooding, based on their proximity to flooded areas. First, the road network around Tulln an der Donau was extracted and converted into a raster grid. Then, the most recent flood map from WASDI was aligned to the same grid. For each road pixel, the distance to the nearest flooded area was calculated. Using an inverse-distance approach, road pixels closer to floods were assigned higher risk scores, while those farther away received lower scores. Finally, these scores were normalized between 0 (low risk) and 1 (high risk) and visualized with a gradient from **green (low risk)** to **dark red (high risk)**, highlighting areas where **flooding can most affect road infrastructure**.
 <figure style="text-align: center;">
     <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/Floodings/relative_risk_score_map.png?raw=true" 
