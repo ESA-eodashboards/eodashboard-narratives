@@ -75,9 +75,6 @@ The method used to produce flood maps over open area is integrated in the  [SAR 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="11.709821919636315" center=[-0.3296633376550024,39.310304807645764] animationOptions={duration:500}}-->
 #### Valencia, Spain 
 On 29 October 2024, torrential rain caused by an isolated low-pressure area at high levels brought over a year's worth of precipitation to several areas in eastern Spain, including the Valencian Community, Castilla–La Mancha, and Andalusia.
-
-According to Spain’s national weather agency, [Aemet](https://www.aemet.es/en/portada), on 29 October 2024, Valencia received a year’s worth of rain in just eight hours. This deluge caused devastating flash floods, turning streets into rivers, destroying homes, and sweeping away vehicles. The resulting floodwaters caused the deaths of about 232 people, with three more missing[1] and substantial property damage [2][3]. It is one of the deadliest natural disasters in Spanish history [4].
-
 <figure style="text-align: center;">
     <img src="https://scx2.b-cdn.net/gfx/news/hires/2024/valencia-floods-our-wa.jpg" 
          alt=" " 
@@ -91,8 +88,12 @@ According to Spain’s national weather agency, [Aemet](https://www.aemet.es/en/
     </figcaption>
 </figure>
 
+According to Spain’s national weather agency, [Aemet](https://www.aemet.es/en/portada), on 29 October 2024, Valencia received a year’s worth of rain in just eight hours. This deluge caused devastating flash floods, turning streets into rivers, destroying homes, and sweeping away vehicles. The resulting floodwaters caused the deaths of about 232 people, with three more missing[1] and substantial property damage [2][3]. It is one of the deadliest natural disasters in Spanish history [4].
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.602153687126457" center=[16.0058194604704,48.33099126051039] animationOptions={duration:500}}-->
+
+
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.802153687126457" center=[16.0058194604704,48.33099126051039] animationOptions={duration:500}}-->
 #### Urban Flood Mapping
 Concerning urban area, a different method was applied. It relies on the information contained in the phase, rather than the intensity used for open area. Flood is detected analyzing the difference of coherence between a pair of 2 pre-event Sentinel-1 SLC images and a pair of 1 pre-event Sentinel-1 SLC image and 1 post-event Sentinel-1 SLC image. This application, named Urban Flood, available in the WASDI platform, needs as a prerequisite the availability of a building map, to constrain the areas where to look for differences of coherence.
 
@@ -106,9 +107,6 @@ Concerning urban area, a different method was applied. It relies on the informat
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="11.602153687126457" center=[16.0058194604704,48.33099126051039] animationOptions={duration:500}}-->
 #### St Pölten, Austria
 During September 2024, a large weather event affected multiple Central European countries, with Austria's eastern region, including St. Pölten (located in Lower Austria) and Vienna taking a particularly hard hit. The water level of the Wien Riever, in the western part of Vienna rose from 50 centimeters to 2.26 metetrs in the course of a day, leading to the flooding of trails, restaurants, streets and river banks. Electricity was cut off in some districts and subway lines were partially closed as result [5](https://www.dw.com/en/europe-floods-parts-of-vienna-without-power-as-river-rises/live-70220078).
-
-The Austrian province surrounding Vienna has been declared a disaster area, with its leaders speaking of "an unprecedented extreme situation". The province which surrounds Vienna, in Austria, has been declared a disaster area by authorities [6](https://www.bbc.com/news/live/cdrjjl3mmy8t).
-
 <figure style="text-align: center;">
     <img src="https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/vivo/live/images/2024/9/15/1d9752ba-15c7-46f8-b0a8-34facf64ba0e.jpg.webp" 
          alt=" " 
@@ -121,6 +119,27 @@ The Austrian province surrounding Vienna has been declared a disaster area, with
         </a>.
     </figcaption>
 </figure>
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="11.602153687126457" center=[16.0059194604704,48.33099126051039] animationOptions={duration:500}}-->
+
+The Austrian province surrounding Vienna has been declared a disaster area, with its leaders speaking of "an unprecedented extreme situation". The province which surrounds Vienna, in Austria, has been declared a disaster area by authorities [6](https://www.bbc.com/news/live/cdrjjl3mmy8t).
+<figure style="text-align: center;">
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/Floodings/Temporal%20evolution%20of%20flooded%20and%20permanent%20water%20areas.png?raw=truep" 
+         alt=" " 
+         style="display: block; margin: 0 auto;"
+         width="500">
+    <figcaption>
+         The flooded Wienfluss river in Vienna. Credit:
+        <a href="https://www.bbc.com/news/live/cdrjjl3mmy8t" target="_blank">
+             BBC News
+        </a>.
+    </figcaption>
+</figure>
+
+
+   
+
+
 
 ## Open Science
 #### Explore Flooding extensions Jupyter Notebooks 
