@@ -9,7 +9,7 @@ tags: floods,earth-observation,wasdi
 ---
 
 # Mapping the 2024 Central European Floods with Satellite Technology <!--{ as="img" mode="hero" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Hochwasser_Gars_am_Kamp_2024_03.jpg/1200px-Hochwasser_Gars_am_Kamp_2024_03.jpg?20240914153540" }-->
-### Using Sentinel-1, Sentinel-2, Landsat, and WASDI workflows to monitor flood evolution in open and urban areas. <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+### Using remote sensing data and WASDI workflows to monitor flood evolution in open and urban areas <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## The 2024 Central European Floods
 Throughout much of 2024, numerous European countries were affected by severe floods caused by prolonged heavy rains. Several were catastrophic, causing deaths and widespread damage due to overflowing river basins and landslides.
@@ -39,6 +39,7 @@ Earth observation (EO) techniques offer the opportunity to monitor and map catas
 
 ## The WASDI Platform
 **Streamlining flood analysis**
+
 The [WASDI platform](https://www.wasdi.cloud/) represents a significant advancement in EO data processing for flood monitoring. WASDI is a cloud-based workspace designed to simplify access, processing, and analysis of satellite data for environmental applications, including flood management. The method used to produce flood maps over an open area is integrated into an app called [SAR Flood Archive Generator 3.3.4](https://wasdi.readthedocs.io/en/latest/WasdiApplications/SARArchiveGenerator.html). This automated application processes the Sentinel-1 GRD
  archive for a specified Area of Interest (AoI), compiling historical flood maps. The dataset can be acquired via the [Network of Resources (NoR)](https://nor-discover.org/en/news/) request.
  
@@ -58,7 +59,19 @@ NoR provides a unique environment for both commercial and non-commercial users t
 
 
 
-##  Flooding datasets <!--{ as="eox-map" mode="tour" }-->
+##  Datasets and Uses cases <!--{ as="eox-map" mode="tour" }-->
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.709821919636315" center=[-0.3296633376550024,39.310304807645764] animationOptions={duration:500}}-->
+##### Flood Monitoring in Open Areas  
+The method used to produce flood maps over open area is integrated in the  [SAR Flood Archive Generator 3.3.4](https://wasdi.readthedocs.io/en/latest/WasdiApplications/SARArchiveGenerator.html). This automated application processed the Sentinel-1 GRD archive for the specific area, compiling historical flood maps. The application generates maps for every day for which a Sentinel-1 GRD image is available over the AoI.  Flood detection was performed by analysing intensity values and the output showes flooded (red) and permanent water (blue).
+
+<figure style="text-align: center;">
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/main/collections/WASDI_FLOOD/cm_legend.png?raw=true" 
+         alt=" " 
+         style="display: block; margin: 0 auto;"
+         width="500">
+</figure>
+
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="11.709821919636315" center=[-0.3296633376550024,39.310304807645764] animationOptions={duration:500}}-->
 #### Valencia, Spain 
 On 29 October 2024, torrential rain caused by an isolated low-pressure area at high levels brought over a year's worth of precipitation to several areas in eastern Spain, including the Valencian Community, Castilla–La Mancha, and Andalusia.
@@ -78,7 +91,10 @@ According to Spain’s national weather agency, [Aemet](https://www.aemet.es/en/
     </figcaption>
 </figure>
 
-**Flood Monitoring in Open Areas**:  The method used to produce flood maps over open area is integrated in the  [SAR Flood Archive Generator 3.3.4](https://wasdi.readthedocs.io/en/latest/WasdiApplications/SARArchiveGenerator.html). This automated application processed the Sentinel-1 GRD archive for the specific area, compiling historical flood maps. The application generates maps for every day for which a Sentinel-1 GRD image is available over the AoI.  Flood detection was performed by analysing intensity values and the output showes flooded (red) and permanent water (blue).
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.602153687126457" center=[16.0058194604704,48.33099126051039] animationOptions={duration:500}}-->
+#### Urban Flood Mapping
+Concerning urban area, a different method was applied. It relies on the information contained in the phase, rather than the intensity used for open area. Flood is detected analyzing the difference of coherence between a pair of 2 pre-event Sentinel-1 SLC images and a pair of 1 pre-event Sentinel-1 SLC image and 1 post-event Sentinel-1 SLC image. This application, named Urban Flood, available in the WASDI platform, needs as a prerequisite the availability of a building map, to constrain the areas where to look for differences of coherence.
 
 <figure style="text-align: center;">
     <img src="https://github.com/eurodatacube/eodash-assets/blob/main/collections/WASDI_FLOOD/cm_legend.png?raw=true" 
@@ -86,8 +102,6 @@ According to Spain’s national weather agency, [Aemet](https://www.aemet.es/en/
          style="display: block; margin: 0 auto;"
          width="500">
 </figure>
-
-
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="11.602153687126457" center=[16.0058194604704,48.33099126051039] animationOptions={duration:500}}-->
 #### St Pölten, Austria
@@ -107,16 +121,6 @@ The Austrian province surrounding Vienna has been declared a disaster area, with
         </a>.
     </figcaption>
 </figure>
-
-**Urban Flood Mapping**: Concerning urban area, a different method was applied. It relies on the information contained in the phase, rather than the intensity used for open area. Flood is detected analyzing the difference of coherence between a pair of 2 pre-event Sentinel-1 SLC images and a pair of 1 pre-event Sentinel-1 SLC image and 1 post-event Sentinel-1 SLC image. This application, named Urban Flood, available in the WASDI platform, needs as a prerequisite the availability of a building map, to constrain the areas where to look for differences of coherence.
-
-<figure style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/main/collections/WASDI_FLOOD/cm_legend.png?raw=true" 
-         alt=" " 
-         style="display: block; margin: 0 auto;"
-         width="500">
-</figure>
-
 
 ## Open Science
 #### Explore Flooding extensions Jupyter Notebooks 
