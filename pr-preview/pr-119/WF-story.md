@@ -1,15 +1,17 @@
 ---
 cover-image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Hochwasser_Gars_am_Kamp_2024_03.jpg/1200px-Hochwasser_Gars_am_Kamp_2024_03.jpg?20240914153540
+
 date: 2025-01-01
 theme: theme_name
-tags: some,tags
+tags: floods,earth-observation,wasdi
+ 
 
 ---
 
 # Mapping the 2024 Central European Floods with Satellite Technology <!--{ as="img" mode="hero" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Hochwasser_Gars_am_Kamp_2024_03.jpg/1200px-Hochwasser_Gars_am_Kamp_2024_03.jpg?20240914153540" }-->
 ### Using Sentinel-1, Sentinel-2, Landsat, and WASDI workflows to monitor flood evolution in open and urban areas. <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
-## 2024 Central European Floods
+## The 2024 Central European Floods
 Throughout much of 2024, numerous European countries were affected by severe floods caused by prolonged heavy rains. Several were catastrophic, causing deaths and widespread damage due to overflowing river basins and landslides.
 In response to the floods, the [Copernicus Emergency Management Service](https://mapping.emergency.copernicus.eu/) has been activated to produce detailed maps of the affected areas across several countries, including Poland, Germany, Slovakia, Austria, Germany and Italy.
 
@@ -25,17 +27,36 @@ In response to the floods, the [Copernicus Emergency Management Service](https:/
     </figcaption>
 </figure>
 
+Emergency response required detailed and timely mapping of the flooded areas. This situation highlighted the critical role of satellite Earth Observation (EO) technologies in monitoring, mapping, and responding to natural disasters.
+
 ## Earth Observations of floods
-Earth observation (EO) techniques offer the opportunity to monitor and map to catastrophic events, providing support which would be impossible to achieve through ground-based observations alone, especially in inaccessible areas after the disaster occure. Different EO sensors onboard satellite missions allow to retrieve different but completemntary information. Optical satellites, such as Copernicus-Sentinel-2, Landsat and  MODIS, allow to capture multispectral imagery clearly distinguishing water from land, given the unique spectral signature of water (since it strongly absorbs radiation in the near-infrared and shorwave infrared bands). 
-On the other hand, radar missions with syntethic aperture radar aboard such as Copernicus Sentinel-1, RADARSAT, and TerraSAR-X, are unlike optical sensors independent of the conditions of illumination or cloud cover, allowing to monitor the surface in the aftermath of flooding events, becoming and indispensable tool for flood monitoring.  
+Earth observation (EO) techniques offer the opportunity to monitor and map catastrophic events, providing support that would be impossible to achieve through ground-based observations alone, especially in inaccessible areas after a disaster occurs. Different EO sensors onboard satellite missions allow retrieval of different but complementary information:
+
+* **Optical satellites**, such as Copernicus Sentinel-2, Landsat, and MODIS, capture multispectral imagery that clearly distinguishes water from land, taking advantage of water’s unique spectral signature, which strongly absorbs radiation in the near-infrared and shortwave infrared bands.
+
+* **Radar satellites**, equipped with synthetic aperture radar (SAR), such as Copernicus Sentinel-1, RADARSAT, and TerraSAR-X, operate independently of illumination or cloud cover, allowing monitoring of the surface after flooding events and becoming an indispensable tool for flood mapping.
+
 
 ## The WASDI Platform
 **Streamlining flood analysis**
+The [WASDI platform](https://www.wasdi.cloud/) represents a significant advancement in EO data processing for flood monitoring. WASDI is a cloud-based workspace designed to simplify access, processing, and analysis of satellite data for environmental applications, including flood management. The method used to produce flood maps over an open area is integrated into an app called [SAR Flood Archive Generator 3.3.4](https://wasdi.readthedocs.io/en/latest/WasdiApplications/SARArchiveGenerator.html). This automated application processes the Sentinel-1 GRD
+ archive for a specified Area of Interest (AoI), compiling historical flood maps. The dataset can be acquired via the [Network of Resources (NoR)](https://nor-discover.org/en/news/) request.
+ 
+ <figure style="text-align: center;">
+    <img src="https://wascia.ssl.telespazio.com/media/images/wasdi11.max-1600x1600.format-webp.webp" 
+         alt="  " 
+         style="display: block; margin: 0 auto;"
+         width="700">
+        <a href="https://www.wasdi.cloud/" target="_blank">
+             WASDI Platform
+        </a>
+    </figcaption>
+</figure>
 
-The [WASDI platform](https://www.wasdi.cloud/) represents a significant advancement in Earth observation data processing for flood monitoring. WASDI is a cloud-based workspace designed to simplify the access, processing, and analysis of satellite data for environmental applications, including flood management. The method used to produce flood maps over open area is integrated in an app named [SAR Flood Archive Generator 3.3.4](https://wasdi.readthedocs.io/en/latest/WasdiApplications/SARArchiveGenerator.html). 
-It is an automated application designed to process the [Sentinel-1 GRD](https://dataspace.copernicus.eu/explore-data/data-collections/sentinel-data/sentinel-1) archive for a specified Area of Interest (AoI), compiling historical flood maps in open areas. The dataset can be acquired via the [Network of Resources (NoR)](https://nor-discover.org/en/news/) request. 
+NoR provides a unique environment for both commercial and non-commercial users to discover, via the NoR Portfolio, a list of European cloud services and estimates of the associated costs to make full use of Earth Observation data. [ESA offers sponsorship](https://nor-discover.org/en/sponsorship/) to eligible entities to cover the costs of trying out these services.
 
-NoR provides a unique environment for both commercial and non-commercial users to discover via the NoR Portfolio a list European cloud services and estimates of the associated costs to make full use of Earth Observation data. [ESA offers sponsorship](https://nor-discover.org/en/sponsorship/) to eligible entities to cover the costs of trying out the various services. 
+
+
 
 ##  Flooding datasets <!--{ as="eox-map" mode="tour" }-->
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="11.709821919636315" center=[-0.3296633376550024,39.310304807645764] animationOptions={duration:500}}-->
