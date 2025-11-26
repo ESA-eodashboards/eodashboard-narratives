@@ -135,7 +135,7 @@ During September 2024, a large weather event affected multiple Central European 
 </figure>
 
 ## Impacts in Urban areas
-###### Extracting furhter information: temporal evolution
+##### Extracting furhter information: temporal evolution
 Using WASDI flood maps, it is possible to conduct further analysis and extract more insights and information on the impacts and extension of the floods. Taking for example St Pölten, in Austria, the temporal evolution was estimated based on the flood dataset, enabling to understand the temporal evolution of the floods. For each date, the total flooded area (red pixels) was estimating by summing all the flooded pixels which were converted into square meters. By comparing these values over time, the date with the largest flooded area, **2024-09-20** was identified as the most flooded day in the dataset.
 <figure style="text-align: center;">
     <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/Floodings/Temporal%20evolution%20of%20flooded%20and%20permanent%20water%20areas.png?raw=truep" 
@@ -148,10 +148,10 @@ Using WASDI flood maps, it is possible to conduct further analysis and extract m
 </figure>
 
  
-###### Relative Road Infrasctruture Flood Risk Map
-Based on the **most flooded date** The relative flood risk map shows which roads are most exposed to flooding, based on their proximity to flooded areas, through an estimated risk score. 
+##### Relative Road Flood Risk Map: a proxy to understand infrastructure vulnerability
+Based on the **most flooded date**, a relative flood risk map can generated, providing a proxy to which roads are potentially most exposed to flooding, based on their proximity to flooded areas, through an estimated risk score. 
 
-As example, in this case the road network around Tulln an der Donau was extracted and converted into a raster grid. Then, the most recent flood map from WASDI was aligned to the same grid. For each road pixel, the distance to the nearest flooded area was calculated. The road pixels closer to floods were assigned higher risk scores, while those farther away received lower scores. 
+Taking again as example St Pölten, more specifically, Tulln an der Donau area. The road network (extracted from OSM), was converted into a raster grid, and then aligned with the urban flood map for the most flooded date. For each road pixel, the distance to the nearest flooded area was calculated. The road pixels closer to floods were assigned higher risk scores, while those farther away received lower scores. 
 
 Finally, these scores were normalized between 0 (low risk) and 1 (high risk) and visualized with a gradient from **green (low risk)** to **dark red (high risk)**, highlighting areas where **flooding can most affect road infrastructure**.
 <figure style="text-align: center;">
