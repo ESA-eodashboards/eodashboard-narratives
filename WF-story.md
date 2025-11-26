@@ -27,7 +27,7 @@ In response to the floods, the [Copernicus Emergency Management Service](https:/
     </figcaption>
 </figure>
 
-Emergency response required detailed and timely mapping of the flooded areas. This situation highlighted the critical role of satellite Earth Observation (EO) technologies in monitoring, mapping, and responding to natural disasters.
+Emergency response required detailed and timely mapping of the flooded areas. This situation highlighted the critical role of satellite Earth Observation (EO) technologies in monitoring, mapping, and responding to natural disasters. 
 
 ## Earth Observations of floods
 Earth observation (EO) techniques offer the opportunity to monitor and map catastrophic events, providing support that would be impossible to achieve through ground-based observations alone, especially in inaccessible areas after a disaster occurs. Different EO sensors onboard satellite missions allow retrieval of different but complementary information:
@@ -35,7 +35,9 @@ Earth observation (EO) techniques offer the opportunity to monitor and map catas
 * **Optical satellites**, such as Copernicus Sentinel-2, Landsat, and MODIS, capture multispectral imagery that clearly distinguishes water from land, taking advantage of water’s unique spectral signature, which strongly absorbs radiation in the near-infrared and shortwave infrared bands.
 
 * **Radar satellites**, equipped with synthetic aperture radar (SAR), such as Copernicus Sentinel-1, RADARSAT, and TerraSAR-X, operate independently of illumination or cloud cover, allowing monitoring of the surface after flooding events and becoming an indispensable tool for flood mapping.
+While optical and radar satellite data provide complementary insights for flood detection and mapping, efficiently processing these large volumes of EO data can be challenging, particularly for timely disaster response. 
 
+This is where dedicated platforms and tools, such as [WASDI](https://www.wasdi.cloud/), come into play, streamlining access, processing, and analysis of satellite imagery for practical flood monitoring applications.
 
 ## The WASDI Platform
 **Streamlining flood analysis**
@@ -75,7 +77,7 @@ The dataset can be acquired via the [Network of Resources (NoR)](https://nor-dis
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.709821919636315" center=[-0.3296633376550024,39.310304807645764] animationOptions={duration:500}}-->
 ##### Flood Monitoring in Open Areas  
-The method used to produce flood maps over open area is integrated in the  [SAR Flood Archive Generator 3.3.4](https://wasdi.readthedocs.io/en/latest/WasdiApplications/SARArchiveGenerator.html). This automated application processed the Sentinel-1 GRD archive for the specific area, compiling historical flood maps. The application generates maps for every day for which a Sentinel-1 GRD image is available over the AoI.  Flood detection was performed by analysing intensity values and the output showes flooded (red) and permanent water (blue).
+The method used to produce flood maps over **open areas** is integrated in the  [SAR Flood Archive Generator 3.3.4](https://wasdi.readthedocs.io/en/latest/WasdiApplications/SARArchiveGenerator.html). This automated application processes the Sentinel-1 GRD archive for the specific area, compiling historical flood maps. The application generates maps for every day for which a [Sentinel-1 GRD](https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel1.html) image is available over the Area of Interest. Flood detection is then performed by analysing intensity values and the output showes **flooded (red)** and **permanent water (blue)**.
 
 <figure style="text-align: center;">
     <img src="https://github.com/eurodatacube/eodash-assets/blob/main/collections/WASDI_FLOOD/cm_legend.png?raw=true" 
@@ -107,7 +109,7 @@ According to Spain’s national weather agency, [Aemet](https://www.aemet.es/en/
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.802153687126457" center=[16.0058194604704,48.33099126051039] animationOptions={duration:500}}-->
 #### Urban Flood Mapping
-Concerning urban area, a different method was applied. It relies on the information contained in the phase, rather than the intensity used for open area. Flood is detected analyzing the difference of coherence between a pair of 2 pre-event Sentinel-1 SLC images and a pair of 1 pre-event Sentinel-1 SLC image and 1 post-event Sentinel-1 SLC image. This application, named Urban Flood, available in the WASDI platform, needs as a prerequisite the availability of a building map, to constrain the areas where to look for differences of coherence.
+Concerning **urban areas**, a different method is applied. It relies on the information contained in the phase, rather than the intensity used for open area. Flood is detected analyzing the difference of coherence between a pair of 2 pre-event Sentinel-1 SLC images and a pair of 1 pre-event Sentinel-1 SLC image and 1 post-event Sentinel-1 SLC image. This application, named Urban Flood, available in the WASDI platform, needs as a prerequisite the availability of a building map, to constrain the areas where to look for differences of coherence.
 
 <figure style="text-align: center;">
     <img src="https://github.com/eurodatacube/eodash-assets/blob/main/collections/WASDI_FLOOD/cm_legend.png?raw=true" 
@@ -148,7 +150,9 @@ Using WASDI flood maps, it is possible to conduct further analysis and extract f
     </figcaption>
 </figure>
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.602153687126457" center=[16.0059194604704,48.33099126051039] animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.91260051080555" center=[15.91467381049382,48.32941064522413] animationOptions={duration:500}}-->
+
+
 
 #### Relative Flood Risk Map
 
