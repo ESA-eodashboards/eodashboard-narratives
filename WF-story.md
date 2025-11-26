@@ -168,9 +168,34 @@ Based on the **most flooded date** The relative flood risk map shows which roads
 </figure>
 
 
+## Flood analysis
+**Extracting furhter information: temporal evolution**
+Using WASDI flood maps, it is possible to conduct further analysis and extract further information such as the temporal evolution of the floods. As example,   the total flooded area (red pixels) was estimated for each date by counting flooded pixels and converting them to square meters. By comparing these values over time, the date with the largest flooded area, **2024-09-20** was identified as the most flooded day in the dataset.
+<figure style="text-align: center;">
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/Floodings/Temporal%20evolution%20of%20flooded%20and%20permanent%20water%20areas.png?raw=truep" 
+         alt=" " 
+         style="display: block; margin: 0 auto;"
+         width="500">
+    <figcaption>
+         The flooded Wienfluss river in Vienna. Credit:
+        <a href="https://www.bbc.com/news/live/cdrjjl3mmy8t" target="_blank">
+             BBC News
+        </a>.
+    </figcaption>
+</figure>
 
+   #### Relative Flood Risk Map
 
-   
+Based on the **most flooded date** The relative flood risk map shows which roads are most exposed to flooding, based on their proximity to flooded areas. First, the road network around Tulln an der Donau was extracted and converted into a raster grid. Then, the most recent flood map from WASDI was aligned to the same grid. For each road pixel, the distance to the nearest flooded area was calculated. Using an inverse-distance approach, road pixels closer to floods were assigned higher risk scores, while those farther away received lower scores. Finally, these scores were normalized between 0 (low risk) and 1 (high risk) and visualized with a gradient from **green (low risk)** to **dark red (high risk)**, highlighting areas where **flooding can most affect road infrastructure**.
+<figure style="text-align: center;">
+    <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/Floodings/relative_risk_score_map.png?raw=true" 
+         alt=" " 
+         style="display: block; margin: 0 auto;"
+         width="500">
+    <figcaption>
+         Risk Score map based on the most flooded date
+    </figcaption>
+</figure>
 
 
 
