@@ -19,7 +19,7 @@ In response to the floods, the [Copernicus Emergency Management Service](https:/
     <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/10/valencia_flood_disaster/26405663-2-eng-GB/Valencia_flood_disaster_pillars.jpg" 
          alt="  " 
          style="display: block; margin: 0 auto;"
-         width="700">
+         width="400">
        US Landsat-8 satellite from 8 October and 30 October showing the dramatic transformation of the landscape.Credit: 
         <a href="https://www.esa.int/ESA_Multimedia/Images/2024/10/Valencia_flood_disaster" target="_blank">
              USGS, processed by ESA
@@ -42,8 +42,7 @@ This is where dedicated platforms and tools, such as [WASDI](https://www.wasdi.c
 ## The WASDI Platform
 **Streamlining flood analysis**
 
-The [WASDI platform](https://www.wasdi.cloud/) represents a significant advancement in EO data processing for flood monitoring. WASDI is a cloud-based workspace designed to simplify access, processing, and analysis of satellite data for environmental applications, including flood management. The method used to produce flood maps over an open area is integrated into an app called [SAR Flood Archive Generator 3.3.4](https://wasdi.readthedocs.io/en/latest/WasdiApplications/SARArchiveGenerator.html). This automated application processes the Sentinel-1 GRD
- archive for a specified Area of Interest (AoI), compiling historical flood maps. 
+The [WASDI platform](https://www.wasdi.cloud/) represents a significant advancement in EO data processing for flood monitoring. WASDI is a cloud-based workspace designed to simplify access, processing, and analysis of satellite data for environmental applications, including flood management. The method used to produce flood maps over an open area is integrated into an app called [SAR Flood Archive Generator 3.3.4](https://wasdi.readthedocs.io/en/latest/WasdiApplications/SARArchiveGenerator.html). This automated application processes the Sentinel-1 GRD archive for a specified Area of Interest (AoI), compiling historical flood maps. 
  
  <figure style="text-align: center;">
     <img src="https://wascia.ssl.telespazio.com/media/images/wasdi11.max-1600x1600.format-webp.webp" 
@@ -75,7 +74,7 @@ The dataset can be acquired via the [Network of Resources (NoR)](https://nor-dis
 
 ##  Datasets and Uses cases <!--{ as="eox-map" mode="tour" }-->
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.709821919636315" center=[-0.3296633376550024,39.310304807645764] animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="10.5255513921666" center=[-0.7699145674963137,39.41517882926112] animationOptions={duration:500}}-->
 ##### Flood Monitoring in Open Areas  
 The method used to produce flood maps over **open areas** is integrated in the  [SAR Flood Archive Generator 3.3.4](https://wasdi.readthedocs.io/en/latest/WasdiApplications/SARArchiveGenerator.html). This automated application processes the Sentinel-1 GRD archive for the specific area, compiling historical flood maps. The application generates maps for every day for which a [Sentinel-1 GRD](https://documentation.dataspace.copernicus.eu/Data/SentinelMissions/Sentinel1.html) image is available over the Area of Interest. Flood detection is then performed by analysing intensity values and the output showes **flooded (red)** and **permanent water (blue)**.
 
@@ -85,6 +84,8 @@ The method used to produce flood maps over **open areas** is integrated in the  
          style="display: block; margin: 0 auto;"
          width="500">
 </figure>
+
+**Image from 2024-11-30**
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="11.709821919636315" center=[-0.3296633376550024,39.310304807645764] animationOptions={duration:500}}-->
 #### Valencia, Spain 
@@ -118,6 +119,8 @@ Concerning **urban areas**, a different method is applied. It relies on the info
          width="500">
 </figure>
 
+**Image from 2024-11-30**
+
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="11.602153687126457" center=[16.0058194604704,48.33099126051039] animationOptions={duration:500}}-->
 #### St Pölten, Austria
 During September 2024, a large weather event affected multiple Central European countries, with Austria's eastern region, including St. Pölten (located in Lower Austria) and Vienna taking a particularly hard hit. The water level of the Wien Riever, in the western part of Vienna rose from 50 centimeters to 2.26 metetrs in the course of a day, leading to the flooding of trails, restaurants, streets and river banks. Electricity was cut off in some districts and subway lines were partially closed as result [5](https://www.dw.com/en/europe-floods-parts-of-vienna-without-power-as-river-rises/live-70220078). The Austrian province surrounding Vienna has been declared a disaster area, with its leaders speaking of "an unprecedented extreme situation" [6](https://www.bbc.com/news/live/cdrjjl3mmy8t).
@@ -134,8 +137,7 @@ During September 2024, a large weather event affected multiple Central European 
     </figcaption>
 </figure>
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="11.595945167016051" center=[15.830320791104054,48.351706578223116] animationOptions={duration:500}}-->
-####  Impacts in Urban areas
+##  Impacts in Urban areas
 ##### Extracting furhter information: temporal evolution
 Using WASDI flood maps, it is possible to conduct further analysis and extract more insights and information on the impacts and extension of the floods. Taking for example St Pölten, in Austria, the temporal evolution was estimated based on the flood dataset, enabling to understand the temporal evolution of the floods. For each date, the total flooded area (red pixels) was estimating by summing all the flooded pixels which were converted into square meters. By comparing these values over time, the date with the largest flooded area, **2024-09-20** was identified as the most flooded day in the dataset.
 <figure style="text-align: center;">
@@ -147,6 +149,7 @@ Using WASDI flood maps, it is possible to conduct further analysis and extract m
        Temporal evolution of floods
     </figcaption>
 </figure>
+
 
  
 ##### Relative Road Flood Risk Map: a proxy to understand infrastructure vulnerability
