@@ -134,7 +134,8 @@ During September 2024, a large weather event affected multiple Central European 
     </figcaption>
 </figure>
 
-## Impacts in Urban areas
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"WASDI_FLOOD-2024-11-30T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"WASDI_FLOOD","styles":"","format":"image/png","time":"2024-11-30T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="11.595945167016051" center=[15.830320791104054,48.351706578223116] animationOptions={duration:500}}-->
+####  Impacts in Urban areas
 ##### Extracting furhter information: temporal evolution
 Using WASDI flood maps, it is possible to conduct further analysis and extract more insights and information on the impacts and extension of the floods. Taking for example St Pölten, in Austria, the temporal evolution was estimated based on the flood dataset, enabling to understand the temporal evolution of the floods. For each date, the total flooded area (red pixels) was estimating by summing all the flooded pixels which were converted into square meters. By comparing these values over time, the date with the largest flooded area, **2024-09-20** was identified as the most flooded day in the dataset.
 <figure style="text-align: center;">
