@@ -154,7 +154,7 @@ The spatial resolution of the datasets ranges from approximately 0.04° to 0.1°
 
 #### Water Type Identification
 
-The clustering analysis successfully identified three primary ocean water types from the eight clusters tested, with distinct biogeochemical and physical characteristics. To note that, cluster types were not assigned a priori; instead, each cluster was interpreted by examining its mean SST, chlorophyll-a, wind components, and SSH, alongside its spatial footprint.
+The clustering analysis successfully identified three primary ocean water types from the eight clusters tested, with distinct biogeochemical and physical characteristics. To note that, cluster types were not assigned a priori; instead, each cluster was interpreted by examining its mean SST, chlorophyll-a, wind components, and SSH, alongside its spatial footprint. Cluster interpretations were based on the **statistical properties of each cluster**.
 
 **Cluster 1 - Eutrophic Water**:
 - Characterized by **colder waters** relative to basin average
@@ -185,7 +185,9 @@ The clustering analysis successfully identified three primary ocean water types 
     </p>
 </div>
 
-**Important finding**: Despite using 8 clusters, the algorithm effectively utilized only 3 distinct clusters, with the remaining clusters either rarely assigned or representing transitional states. This suggests that Mediterranean water types can be meaningfully described by three primary categories, though finer divisions may be needed for specific applications.
+Regarding the **cluster differences**, these represent the pixel-wise change in assigned cluster between January and August. For example, red regions indicate pixels classified as Cluster 1 in January but as Cluster 7 in August. Blue regions show the opposite transition.
+
+Despite using 8 clusters, the algorithm effectively utilized only 3 distinct clusters, with the remaining clusters either rarely assigned or representing transitional states. This suggests that Mediterranean water types can be meaningfully described by three primary categories, though finer divisions may be needed for specific applications.
 
 
 #### Spatial Distribution
@@ -201,12 +203,11 @@ These interpretations are consistent with previous Mediterranean water-type stud
 
 
 #### Seasonal Variations
-
-Analysis of the seasonal cycle reveals temporal dynamics in water type distribution:
+Seasonal patterns were analyzed to track cluster evolution. Analysis of the seasonal cycle reveals temporal dynamics in water type distribution:
 
 - **Oligotrophic waters (Cluster 7)** show expansion during summer months when stratification is strongest, then contract in winter
 - **Eutrophic waters (Cluster 1)** exhibit seasonal variability linked to wind-driven mixing and upwelling events
-- **Coastal waters (Cluster 2)** remain relatively stable throughout the year, though this may represent a limitation requiring further investigation
+- **Coastal waters (Cluster 2)** remain relatively stable throughout the year, though this may represent a limitation requiring further investigation. Cluster 2 shows no seasonal change because the coastline does not shift seasonally, reinforcing its identification as a coastal water class.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
@@ -215,11 +216,15 @@ Analysis of the seasonal cycle reveals temporal dynamics in water type distribut
         alt="Seasonal cycle of clusters"
     />
     <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 8.</b> Seasonal evolution of water type clusters showing expansion and contraction of oligotrophic and eutrophic waters through the annual cycle.
+        <b>Figure 7.</b> Seasonal evolution of water type clusters showing expansion and contraction of oligotrophic and eutrophic waters through the annual cycle. Percentage change refers to the relative change in cluster area for each season compared to summer. 
     </p>
 </div>
 
 The seasonal patterns align with known Mediterranean dynamics: winter mixing enriches surface nutrients leading to spring blooms (eutrophic expansion), followed by summer stratification that extends oligotrophic conditions and reduces productivity in open waters.
+
+
+
+
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
@@ -238,7 +243,10 @@ The seasonal patterns align with known Mediterranean dynamics: winter mixing enr
 
 ## Conclusions
 
-This study demonstrates the effectiveness of unsupervised clustering for identifying and mapping ocean water types from multi-parameter satellite observations. Key findings include:
+This study demonstrates the effectiveness of unsupervised clustering for identifying and mapping ocean water types from multi-parameter satellite observations. The multi-variable approach (Chl-a + SST + SSH + winds) was critical for distinguishing water types. Tests using subsets of variables (e.g., only Chl-a + SST) resulted in fewer or less stable clusters, typically merging oligotrophic and eutrophic waters.  
+SSH and wind components helped isolate dynamical conditions such as upwelling, which improved separation between eutrophic and transitional water masses. While not quantified formally, sensitivity tests showed that removing physical variables reduced ecological interpretability of the clusters.
+
+Key findings of this study include:
 
 1. **Three distinct water types identified**: Coastal (high productivity), eutrophic (moderate productivity), and oligotrophic (low productivity) waters distinguished by combined biological, physical, and atmospheric characteristics
 
