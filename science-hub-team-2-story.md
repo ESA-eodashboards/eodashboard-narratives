@@ -133,6 +133,8 @@ The spatial resolution of the datasets ranges from approximately 0.04° to 0.1°
 - Analyzed mean values of each parameter within identified clusters
 - Interpreted clusters in terms of oceanographic water types (eutrophic, oligotrophic, coastal)
 - Examined spatial distribution patterns and geographic coherence
+- Steps 4 (clustering) and 5 (cluster evaluation and selection of k) were performed in parallel: firstly by testing many k-values with K-means, then chosing the number of clusters that produced meaningful spatial patterns.
+
 
 **6. Temporal Analysis**
 - Tracked seasonal evolution of cluster distributions
