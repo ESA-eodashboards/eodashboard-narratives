@@ -80,7 +80,10 @@ https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Chall
 ## Data and Methods
 
 #### Dataset
-All datasets were obtained from operational oceanography products including optimally interpolated multi-sensor observations, providing consistent spatial coverage across the Mediterranean basin.
+All variables were sourced exclusively from Copernicus Marine Service Level-4 (L4) products, meaning they consist of multi-sensor, gap-filled, optimally interpolated satellite datasets rather than model outputs or reanalyses. All layers therefore represent gridded EO-derived fields with full spatial coverage. 
+
+The spatial resolution of the datasets ranges from approximately 0.04° to 0.1° (4–10 km) depending on the product.
+
 
 | Category | Parameter ID | Description |
 |:-:|:-:|:-:|
@@ -151,7 +154,7 @@ All datasets were obtained from operational oceanography products including opti
 
 #### Water Type Identification
 
-The clustering analysis successfully identified three primary ocean water types from the eight clusters tested, with distinct biogeochemical and physical characteristics:
+The clustering analysis successfully identified three primary ocean water types from the eight clusters tested, with distinct biogeochemical and physical characteristics. To note that, cluster types were not assigned a priori; instead, each cluster was interpreted by examining its mean SST, chlorophyll-a, wind components, and SSH, alongside its spatial footprint.
 
 **Cluster 1 - Eutrophic Water**:
 - Characterized by **colder waters** relative to basin average
@@ -184,6 +187,7 @@ The clustering analysis successfully identified three primary ocean water types 
 
 **Important finding**: Despite using 8 clusters, the algorithm effectively utilized only 3 distinct clusters, with the remaining clusters either rarely assigned or representing transitional states. This suggests that Mediterranean water types can be meaningfully described by three primary categories, though finer divisions may be needed for specific applications.
 
+
 #### Spatial Distribution
 
 The spatial distribution of identified water types shows strong geographic coherence aligned with known Mediterranean oceanography:
@@ -191,6 +195,9 @@ The spatial distribution of identified water types shows strong geographic coher
 - **Coastal waters (Cluster 2)** dominate near coastlines, particularly in the Northern Adriatic, Gulf of Lions, and along the North African coast
 - **Oligotrophic waters (Cluster 7)** occupy the central basins, especially the eastern Mediterranean
 - **Eutrophic waters (Cluster 1)** appear in transitional zones and areas influenced by upwelling or mixing processes
+
+These interpretations are consistent with previous Mediterranean water-type studies (e.g., Volpe et al., 2019; Uudeberg et al., 2020), although no formal quantitative comparison was performed.
+
 
 
 #### Seasonal Variations
