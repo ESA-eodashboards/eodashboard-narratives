@@ -176,7 +176,7 @@ You can further explore an example of WASDI dataset relative to the last example
 In this example, the notebook allows to get further insight from WASDI data, which (as some of the examples in this story). The notebook shows how to  overlay flood data on optical imagery (from Copernicus Sentinel-2) allowing for  intuituve **visual interpretation** of the extent and impacts of the floods; the **temporal analysis of floods** and estimation of **flooded areas**, as well as a workflow to generate a **relative road risk flood map**. 
 <iframe width="100%" height="600" src="https://esa-eodashboards.github.io/RACE-notebooks/notebooks/flooding-analysis-with-wasdi-data/" frameborder="0"></iframe>
 
-Besides [acceessing  the notebook](https://github.com/eurodatacube/notebooks/tree/master/notebooks/curated) you can also crosscompare multiyear data over particular locations impacted by floods in 2024 exploring the [Flood mapping indicator](https://race.esa.int/?indicator=WASDI_FLOOD&x=1782387.13181&y=6165318.97613&z=8.18089) available at [RACE dashboard](race.esa.int).
+Besides [acceessing  the notebook](https://github.com/eurodatacube/notebooks/tree/master/notebooks/curated) you can also crosscompare multiyear data over particular locations impacted by floods in 2024 exploring the [Flood mapping indicator](https://esa-eodashboards.github.io/RACE-client/explore/?x=15.7954&y=48.4066&z=10.1201&datetime=2024-10-01&template=expert&indicator=WASDI_FLOOD&poi=St_Polten_Vienna) available at RACE dashboard.
 
 #### Open datasets and platforms used in this story
 
@@ -189,7 +189,7 @@ Besides [acceessing  the notebook](https://github.com/eurodatacube/notebooks/tre
 | **[WASDI Platform](https://www.wasdi.cloud/)**                          | Cloud Platform | WASDI / ESA NoR | Cloud-based environment enabling access, processing, and analysis of EO data, hosting multiple flood-mapping workflows.                                               |
 | **[Network of Resources (NoR)](https://www.wasdi.cloud/)**                          | Access Framework | ESA | Provides access to cloud EO services and funds eligible users to acquire & process Sentinel-1 data for WASDI workflows.                                               |
 | **[Euro Data Cube Curated Notebooks](https://github.com/eurodatacube/notebooks/tree/master/notebooks/curated)**                          | Analysis Environment | ESA / EOX / EDC | Jupyter notebooks enabling flood-data visualization, time-series analysis, extent estimation, and GIF generation.                                              |
-| **[RACE - Flood Mapping Indicator](https://race.esa.int/?indicator=WASDI_FLOOD)**                          | Data Product / Platform | ESA / European Commission | Multi-year flood indicator enabling comparison of flood evolution across different years and regions.                                       |
+| **[RACE - Flood Mapping Indicator](https://esa-eodashboards.github.io/RACE-client/explore/?x=15.7954&y=48.4066&z=10.1201&datetime=2024-10-01&template=expert&indicator=WASDI_FLOOD&poi=St_Polten_Vienna)**                          | Data Product / Platform | ESA / European Commission | Multi-year flood indicator enabling comparison of flood evolution across different years and regions.                                       |
 
 #### References
 
