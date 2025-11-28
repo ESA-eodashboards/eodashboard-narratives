@@ -11,7 +11,7 @@ tags: some,tags
 > ¹ University of Leeds ² Ca’ Foscari University of Venice  ³ CNR-ISAC Rome
 
 # 
-*This story is based on results from the [Science Hub Challenges in September 2025](https://sciencehub.esa.int/2025/09/29/science-hub-challenges-september-2025/) organised and hosted by ESA's ESRIN, using data from [EarthCARE satellite](https://www.esa.int/Applications/Observing_the_Earth/FutureEO/EarthCARE),  an ESA-JAXA joint missions, which was processed via the [MAAP platform](https://portal.maap.eo.esa.int/biomass/), by students from the following organizations:*
+*This story is based on results from the [Science Hub Challenges in September 2025](https://sciencehub.esa.int/2025/09/29/science-hub-challenges-september-2025/) organised and hosted by ESA's ESRIN, using data from [EarthCARE satellite](https://www.esa.int/Applications/Observing_the_Earth/FutureEO/EarthCARE),  an ESA-JAXA joint mission, which was processed via the [MAAP platform](https://portal.maap.eo.esa.int/biomass/), by students from the following organizations:*
 
 
 
