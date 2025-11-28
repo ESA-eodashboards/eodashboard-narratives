@@ -176,7 +176,7 @@ You can further explore an example of WASDI dataset relative to the last example
 In this example, the notebook allows to get further insight from WASDI data, which (as some of the examples in this story). The notebook shows how to  overlay flood data on optical imagery (from Copernicus Sentinel-2) allowing for  intuituve **visual interpretation** of the extent and impacts of the floods; the **temporal analysis of floods** and estimation of **flooded areas**, as well as a workflow to generate a **relative road risk flood map**. 
 <iframe width="100%" height="600" src="https://esa-eodashboards.github.io/RACE-notebooks/notebooks/flooding-analysis-with-wasdi-data/" frameborder="0"></iframe>
 
-Besides [acceessing  the notebook](https://github.com/eurodatacube/notebooks/tree/master/notebooks/curated) you can also crosscompare multiyear data over particular locations impacted by floods in 2024 exploring the [Flood mapping indicator](https://esa-eodashboards.github.io/RACE-client/explore/?x=15.7954&y=48.4066&z=10.1201&datetime=2024-10-01&template=expert&indicator=WASDI_FLOOD&poi=St_Polten_Vienna) available at RACE dashboard.
+Besides [acceessing  the notebook](https://esa-eodashboards.github.io/RACE-notebooks/notebooks/flooding-analysis-with-wasdi-data/) you can also crosscompare multiyear data over particular locations impacted by floods in 2024 exploring the [Flood mapping indicator](https://esa-eodashboards.github.io/RACE-client/explore/?x=15.7954&y=48.4066&z=10.1201&datetime=2024-10-01&template=expert&indicator=WASDI_FLOOD&poi=St_Polten_Vienna) available at RACE dashboard.
 
 #### Open datasets and platforms used in this story
 
