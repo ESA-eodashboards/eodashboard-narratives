@@ -11,7 +11,7 @@ tags: some,tags
 > ¹ University of Leeds ² Ca’ Foscari University of Venice  ³ CNR-ISAC Rome
 
 # 
-*This story is based on results from the [Science Hub Challenges in September 2025](https://sciencehub.esa.int/2025/09/29/science-hub-challenges-september-2025/) organised and hosted by ESA's ESRIN, using ESA’s [EarthCARE satellite](https://www.esa.int/Applications/Observing_the_Earth/FutureEO/EarthCARE) observations processed via the [MAAP platform](https://portal.maap.eo.esa.int/biomass/), by students from the following organizations:*
+*This story is based on results from the [Science Hub Challenges in September 2025](https://sciencehub.esa.int/2025/09/29/science-hub-challenges-september-2025/) organised and hosted by ESA's ESRIN, using data from [EarthCARE satellite](https://www.esa.int/Applications/Observing_the_Earth/FutureEO/EarthCARE),  an ESA-JAXA joint missions, which was processed via the [MAAP platform](https://portal.maap.eo.esa.int/biomass/), by students from the following organizations:*
 
 
 
@@ -49,7 +49,7 @@ We cannot continuously sample cloud droplets and aerosols directly within clouds
 Our first tool was and remains theory. Physics helps predict how clouds behave and interact with aerosols. Over time, scientists developed equations to describe these processes, later enhanced by computational models that simulate thousands of atmospheric equations. Though simplified, these models reveal valuable insights into cloud–aerosol interactions. To verify models, we rely on observations. In the lab, scientists study ice crystal growth or simulate clouds in controlled conditions. Aircraft equipped with specialized instruments can collect samples and measure properties in real time, but these missions are costly and limited. Satellites, on the other hand, provide continuous, global coverage that complements models, lab work, and field campaigns. Together, these tools offer a more complete picture of this complex system, helping us improve weather and climate predictions in a warming world.
 ## Objective
 
-The objective of this study is to explore whether and how aerosols influence cloud characteristics: specifically the distribution of liquid water and ice content, at various altitudes using EarthCare’s vertical profiling capabilities. To this end, **EarthCare, a new Earth Explorer from ESA**, was used to identifying patterns in cloud-aerosol interactions across different regions and conditions (e.g. land vs. ocean, tropical vs. polar environments), and determining whether increased CCN or INP concentrations correlate with observable changes in cloud composition.
+The objective of this study is to explore whether and how aerosols influence cloud characteristics: specifically the distribution of liquid water and ice content, at various altitudes using EarthCare’s vertical profiling capabilities. To this end, **EarthCare**,  a mission realised through a joint venture between the [European Space Agency (ESA)](esa.int) and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), was used to identifying patterns in cloud-aerosol interactions across different regions and conditions (e.g. land vs. ocean, tropical vs. polar environments), and determining whether increased CCN or INP concentrations correlate with observable changes in cloud composition.
 
 
 <div style="text-align: center;"> <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2024/01/earthcare_over_desert_dust/25391626-1-eng-GB/EarthCARE_over_desert_dust_pillars.png" width="800"/> <p><b>Figure 5.</b> EarthCare Satellite (source: ESA).</p> </div>
@@ -61,7 +61,7 @@ EarthCARE is a first-of-its-kind mission that offers an unlikely opportunity to 
 
 * **ATLID (Atmospheric Lidar)** uses laser pulses to detect aerosols and thin cloud layers by measuring how light scatters back from particles, providing high-resolution profiles that improve on previous lidar missions like CALIPSO.
 * **CPR (Cloud Profiling Radar)** can "see" across the clouds with radar signals to measure their vertical structure and water content, adding the capability to  capture cloud motion and the speed of precipitation. This imporves the previous mission called CloudSat .
-* **MSI (Multi-Spectral Imager)** delivers multi-wavelength images in 7 different bands that reveal cloud structure and aerosol distribution over large areas, complementing MODIS with higher spatial resolution. 
+* **MSI (Multi-Spectral Imager)** delivers multi-wavelength images in 7 different bands that reveal cloud structure and aerosol distribution over large areas, complementing [MODIS](https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/modis/) with higher spatial resolution. The product resolution of MODIS is 250m/500/1km, while the MSI is 500m. 
 * **BBR (Broadband Radiometer)** measures solar and thermal radiation reflected and emitted by Earth, enabling direct estimates of top-of-atmosphere radiative effects and energy balance. 
 
 <div style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/team1-earthcare-sensors-image.png?raw=true" width="800"/> <p><b>Figure 6.</b> EarthCare Satellite (source: ESA).</p> </div>
@@ -115,8 +115,8 @@ https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Chall
 
 ## Data and Methods
 Two instruments (out of of the four) on-board of EarthCare, we used, which can provide a vertical profiliing of the atmosphere:
-- **Cloud Profiling Radar (CPR)**: 94 GHz nadir-viewing radar with ~750m horizontal resolution and 100m vertical resolution, providing cloud structure and water content.
-- **Atmospheric Lidar (ATLID)**: 354.8 nm nadir-viewing lidar with <30m horizontal resolution and 100m vertical resolution, detecting aerosols and thin clouds.
+- **Cloud Profiling Radar (CPR)**: 94 GHz nadir-viewing radar with ~750m horizontal resolution and 500m vertical resolution, providing cloud structure and water content.
+- **Atmospheric Lidar (ATLID)**: 354.8 nm nadir-viewing lidar with <30m horizontal resolution. The vertical resolution is 103m (below 20.2km altitude) and 500 m (above 20.2km altitude), detecting aerosols and thin clouds.
 
 #### Dataset
 The analysis used three primary EarthCARE data products:
