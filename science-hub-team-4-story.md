@@ -6,7 +6,7 @@ tags: some,tags
 
 ---
 
-# Wet snow mapping with multimodal foundation models  <!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/10/svalbard/24544693-1-eng-GB/Svalbard_pillars.jpg" }-->
+# Wet snow mapping with multimodal foundation models - can we drop the reference?  <!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/10/svalbard/24544693-1-eng-GB/Svalbard_pillars.jpg" }-->
 ### Authors: Leam Howe¹, Sean Ó Héir¹, Miguel Espinosa Minano¹ <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 1 - University of Edinburgh
 
@@ -23,31 +23,35 @@ tags: some,tags
 
 
 ## Challenge
-Snow varies greatly in its characteristics and radiative effects. Skiers are well-familiarized with variations in snow wetness.Two primary types are dry snow and wet snow, which differ in water content, density, grain size, and formation conditions. Dry snow is powdery and light, occurring in cold temperatures well below freezing, whereas wet snow contains higher water content, is denser, and forms near or above freezing temperatures.
+Snow varies greatly in its characteristics and radiative effects. Keen skiers are likely familiar with variations in snow wetness. Two primary types are dry snow and wet snow, which differ in water content, density, grain size, and formation conditions. Dry snow is powdery and light, occurring in cold temperatures well below freezing, whereas wet snow contains higher water content, is denser, and forms near or above freezing temperatures.
 
-Skiers are well-familiarized with variations in snow wetness. Mapping wet snow is critical because it influences water resource management, flood prediction, climate research, agriculture, and disaster preparedness. Mapping wet snow accurately remains a challenge due to the complex interaction of radar signals with snow characteristics. While dry snow allows deeper penetration of C-band radar signals (up to 10 meters), wet snow’s higher liquid water content absorbs microwave radiation, limiting penetration to less than 10 centimeters. This leads to a strong contrast in radar backscatter intensity, with wet snow showing significantly lower backscatter compared to dry snow or snow-free ground. Current mapping methods rely heavily on thresholding, filtering, and the presence of adjacent dry snow reference areas. These methods can be computationally expensive, regionally limited, and prone to errors in complex terrain. Without snow/no-snow boundaries from optical imagery, these approaches struggle to distinguish wet snow from other wet surfaces like soil.
+#### Why map it?
+Mapping of wet snow at a large-scale is only possible using radar remote sensing because radar can penetrate the surface and provide insight into the internal structure of the snow, whereas optical imagery only provides information from the surface. Large-scale wet snow mapping from Earth Observation instruments, such as the ESA Sentinel-1 C-band synthetic aperture radar (SAR), remains challenging due to the complex interaction of radar signals with snow characteristics. While dry snow allows deeper penetration of C-band radar signals (up to 10 meters), wet snow’s higher liquid water content absorbs microwave radiation, limiting penetration to less than 10 centimeters (as shown in figure 1). This leads to a strong contrast in radar backscatter intensity, with wet snow showing significantly lower backscatter compared to dry snow and dry snow-free ground.
 
-<div style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-4/radarSnowMapping.png?raw=true" width="500"/> <p><b>Figure 1.</b>Schematic representation of microwave interaction with a snow layer. The diagram illustrates the transmission (𝑃𝑡) and reflection (𝑃𝑟) of electromagnetic waves at the air–snow interface.</p> 
+<div style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-4/image_sar_snow.png?raw=true" width="500"/> <p><b>Figure 1.</b>Figure from Carlo Marin et al. 2020 (https://tc.copernicus.org/articles/14/935/2020/), schematic representation of c-band microwave interaction with wet and dry snow. C-band microwaves can penetrate through 10 m of dry snow vs ~10 cm of wet due to the high dielectric loss caused by liquid water. </p> 
 
 </div>
   
+However, wet-snow mapping with SAR is often confused by wet soil/vegetation because liquid water in the snowpack and wet ground give similar backscatter signatures. Operational workflows therefore commonly require a summer/dry reference image (or a clear optical image close to the date) to separate wet snow from wet soil. This reliance on reference imagery is a significant limitation; finding a high-quality baseline is difficult, and the method assumes temporal stability in ground conditions, ignoring changes in vegetation or soil roughness that can lead to misclassification.
 
+#### Our idea
 
-The emergence of **Geospatial Foundation Models (GFMs)**, large AI models pre-trained on diverse satellite and airborne data, can fuse multi-modal signals (SAR, optical, thermal, DEM, and reanalysis data) and implicitly learn complex cues for wet snow detection without needing summer reference data, **potentially overcoming existing limitations**.
-<div style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-4/GFM.png?raw=true" width="500"/> <p><b>Figure 2.</b>Unified multimodal Earth foundation model. Large AI models trained on diverse airborne and satellite data integrate multiple sensor types to enable scalable, transferable, and few-/zero-shot learning for tasks such as land cover classification, flood detection, and forest monitoring.</p> 
+**Multimodal geospatial Foundation Models (GFMs)** offer a promising alternative by synthesizing optical, SAR, thermal, DEM, and meteorological reanalysis data into a unified representation. Here we wanted to test if these GFMs can be fine-tuned to disentangle the ambiguous backscatter signatures of wet snow and wet soil and enable single-pass wet snow mapping - removing the need for a reference image. 
+<div style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-4/GFM.png?raw=true" width="500"/> <p><b>Figure 2.</b>Unified multimodal Earth foundation model. Large AI models trained on diverse airborne and satellite data integrate multiple sensor types to enable scalable, transferable, and few-/zero-shot learning for tasks such as land cover classification, flood detection, and forest monitoring. Figure from [DOFA paper](https://arxiv.org/abs/2403.15356)</p> 
 
 </div>
   
 
 ## Objective
 
-The objective of this study was to develop a reproducible framework to classify snow types using Sentinel-1 data, focusing on wet snow detection. This involved downloading Sentinel-1 radar data for Svalbard, constructing an Earth System Data Lab (ESDL) data cube, and fine-tuning a Geospatial Foundation Model to perform semantic segmentation of snow types — distinguishing wet snow, dry snow, and no snow.
-
-Predictions from the model were then validated against independent ground-truth data, enabling assessment of classification accuracy and operational potential for snow mapping applications.
+**Goal:** Evaluate if foundation-model embeddings can produce accurate, reference-free wet snow maps from one Sentinel-1 scene.This involved: 
+* **Ingest**: Sentinel-1 C-band SAR data 
+* **Fine-Tune**: fine-tuning a Geospatial Foundation Model to perform semantic segmentation of snow types — distinguishing wet snow, dry snow, and no snow.
+* **Validate**: Predictions from the model were validated against an independent dataset, enabling assessment of classification accuracy against existing products and operational potential for snow mapping applications.
 
 ## Use case 
 #### Svalbard
-Svalbard, an Arctic archipelago, is an ideal testbed for wet snow mapping due to its extreme climate and diverse snow conditions. Accurate monitoring of wet snow here supports water resource management, flood risk assessment, and climate studies in this sensitive region. Using Sentinel-1 data, the model used in this study identifies and classifies snow wetness across Svalbard, providing valuable insights for environmental monitoring and decision-making in the Arctic.
+Svalbard, an Arctic archipelago, is an ideal testbed for wet snow mapping due to its extreme climate and diverse snow conditions. Accurate monitoring of wet snow here supports water resource management, flood risk assessment, and climate studies in this sensitive region. This region was also chosen because the Norwegian Meteorological Institute has made an [excellent dataset of SAR wet snow maps](https://adc.met.no/dataset/64a3bb5a-47d5-550b-ad8e-946cd03be8f0) of Svalbard openly available to use through the Arctic Data Centre; subsets of this dataset were used to train and validate the model used in this study. The idea being that once trained on this region the model could then be applied to other regions without a reference image being required and provide valuable insights for environmental monitoring and decision-making in other snow covered regions.
 
 
 
@@ -68,19 +72,18 @@ Svalbard, an Arctic archipelago, is an ideal testbed for wet snow mapping due to
 	
 ## Data and Methods
 #### Dataset
-- **Source/Input data**: Sentinel-1 satellite dual imagery (VV and VH patches)
-- **Classes/Output data**: Wet snow, dry snow, no data, bare ground, and water.
--  **Coverage**:  A subset of approximately 150 scenes were used this project
+* **Input data**: Sentinel-1 satellite dual imagery (VV and VH patches)
+* **Labels**: NMI dataset of SAR wet snow maps of Svalbard at 100 m resolution with 4 classes (wet snow,  dry snow, no data, bare ground, and water). Dataset by [Vickers et al., 2022](https://doi.org/10.3389/feart.2022.868945). 
+* **Classes/Output data**: Wet snow, dry snow, no data, bare ground, and water.
+* **Coverage**: A subset of approximately 150 scenes were used this project
 
 
 #### Methodology workflow
-The approach builds on a Geospatial Foundational Model (GFM) that has been pre-trained on large-scale geospatial data. The process involves:
-
-- **Model Initialization:** The CROMA model is used as the pretrained backbone (encoder) to extract meaningful geospatial features from Sentinel-1 input data.
-- **Decoder Integration:** A UPerNet decoder is added to the pretrained encoder to enable pixel-wise classification, producing a snow segmentation map.
-- **Fine-Tuning Process:** The model is fine-tuned using a small labeled dataset (~150 scenes). The encoder is partially frozen to retain foundational geospatial knowledge, while the decoder is trained for the specific segmentation task.
-- **Loss function:** Cross Entropy.
-- **Framework:** PANGAEA-BENCH:  a [standardized evaluation protocol](https://arxiv.org/abs/2412.04204) that covers a diverse set of datasets, tasks, resolutions, sensor modalities, and temporalities.
+The approach builds on a Geospatial Foundational Model (GFM) that has been pre-trained on large-scale geospatial data. [PANGAEA-BENCH](https://arxiv.org/abs/2412.04204) is a framework for implementing and comparing GFMs developed by ESA Phi-Lab, so we thought this would be a good starting point. Our workflow consisted of the following steps:
+* **Data preparation**: In the limited 2-day time-frame of this project, we only extracted a small subset of the Svalbard dataset composed of ~150 image patches. To match the input imagery with the coarse resolution of the labelled dataset, we resampled the Sentinel-1 data to 100 m. 
+* **Model Initialization**: The [CROMA model](https://arxiv.org/abs/2311.00566) is used as the pretrained backbone (encoder) to extract meaningful geospatial features from Sentinel-1 input data.
+* **Decoder Integration**: A UPerNet decoder is added to the pretrained encoder to enable pixel-wise classification, producing a snow segmentation map.
+* **Fine-Tuning Process**: The model is fine-tuned using the small labeled dataset (~150 scenes). The encoder is partially frozen to retain foundational geospatial knowledge, while the decoder is trained for the specific segmentation task.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
@@ -89,14 +92,15 @@ The approach builds on a Geospatial Foundational Model (GFM) that has been pre-t
         alt=""
     />
     <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 4.</b> Using the Fine-Tuned Geospatial FM.
+        <b>Figure 4.</b> Schematic of input and output of the model. Input on the left is the Sentinel-1 VV and VH backscatter signals and from this we create a wet snow map by fine-tuning  a geospatial foundation model.
     </p>
 </div>
 	
 
-## Results
+## Results (preliminary
 #### Accuracy metrics
-The learns to detect the presence of dry snow well, **reaching over 90% accuracy** within the first few training rounds and staying stable afterward. Its **ability to distinguish between different surface types**, measured by the Intersection-over-Union metric, improves more gradually and levels off around 55–60%. Some ups and downs in the curve suggest that the model finds it harder to tell apart certain classes — a common issue when dealing with radar data where some surfaces reflect signals in similar ways.
+* **Dry Snow**: Early tests showed high potential for dry snow detection (>90% accuracy in initial epochs).
+* **Wet Snow Ambiguity**: The model struggled to differentiate wet snow from wet ground features, with IoU metrics stalling around 55–60%.
 
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
@@ -111,21 +115,30 @@ The learns to detect the presence of dry snow well, **reaching over 90% accuracy
 </div>
 
 
-#### Visual interpreation
-From the VV and VH backscatter images, clear textural differences can be observed (brighter and darker streaks) likely corresponding to variations in surface roughness, water, and snow conditions. However, while some areas show strong contrast, others appear smoother, indicating that the model needs to learn subtle backscatter differences.
-
-Looking at the first row of images as an example, the model generalizes well for larger snow zones but struggles with mixed or transitional pixels (e.g., where radar signals change rapidly). This could be due to coarse labeling or spatial smoothing introduced by the decoder.
+#### Visual interpretation
+From the VV and VH backscatter images, clear textural differences can be observed (brighter and darker streaks) likely corresponding to variations in surface roughness, water, and snow conditions. Comparing the SAR images and the labels, it is very hard for the naked human eye to distinguish the wet snow from snow, therefore, the model will have to learn to pick up patterns from the subtle backscatter differences.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-4/results2.png?raw=true" style="max-width: 100%; width: 800px; height: auto;" alt="" /> <p style="text-align: center; font-size: 1.2em; margin-top: 10px;"> <b>Figure 6.</b> Comparison of input Sentinel-1 VV and VH images, predicted segmentation mask, and target mask. </p> </div>
 
-In contrast, the second (bottom) row shows that the model reliably detects large homogeneous features (such as water bodies) but misses smaller-scale heterogeneity, again suggesting limitations related to radar ambiguity or spatial resolution.
-
+* **Observations**: While the model identified broad homogeneous zones like open water (see figure 6), it failed to capture the subtle textural differences in transitional zones.
+* **Interpretation**: The decision to downsample Sentinel-1 to 100 m likely resulted in substantial information loss. By averaging out the fine-scale backscatter textures inherent in high-res SAR data, we removed the very cues the model needed to distinguish complex surfaces. The results are likely negatively impacted due to the small sample size and lack of topographical context and look-angle in the input channels.
 
 
 ## Conclusions
-Water and dry snow are identified with very high accuracy, while wet snow detection performs fairly well but becomes less consistent after longer training. Bare ground remains the most difficult to detect, likely because its radar signal overlaps with that of wet snow or because there weren’t enough training examples.
+* **Summary**: This project represents a **quick "first look" feasibility test** conducted over a 2-day challenge period. Due to the small dataset (~150 scenes) and time constraints, **current results are inconclusive**. The model in its current state cannot yet reliably distinguish wet snow from wet soil without a reference.
+However, the experiment highlighted specific technical barriers that, if addressed, could unlock success.
 
-Overall, the results show that Sentinel-1 radar data is excellent for spotting water and snow-covered areas but less reliable for distinguishing wet snow from bare ground. The current setup, combining the CROMA encoder with a UPerNet decoder, already performs strongly. Future improvements could come from adding time-series data, integrating extra context such as elevation or temperature, and using better class balancing to help the model learn from underrepresented surfaces.
+####  Future Roadmap: Data
+* **Native Resolution**: Stop downsampling. Future iterations must use Sentinel-1 at its native resolution (approx. 10–20 m) to preserve textural information.
+* **Scale Up**: Process and ingest the full Sentinel-1 Svalbard wet snow dataset (Vickers et al., 2022), rather than a small subset. The 2-day constraint limited us to a fraction of the available data; a larger dataset can be essential for machine learning models to learn complex and nuanced features.
+* **Local Incidence Angle (LIA**): Add LIA as an additional input channel. Radar backscatter is heavily dependent on the angle of interaction, and this missing context likely confused the model.
+* **Topography**: Integrate Digital Elevation Models (DEM) to help the model rule out wet snow in low-lying, warm valleys where wet soil is more likely.
+* **Augmentation**: Implement robust data augmentation (rotation, flipping) to prevent overfitting.
+
+#### Future Roadmap: Model Architecture
+* **Encoders**: Test different backbone architectures to see which pre-trained weights offer the best transfer learning for polar environments.
+* **Decoders**: Experiment with different segmentation heads beyond UPerNet.
+* **Loss Functions**: Explore loss functions that penalize boundary errors more heavily to sharpen the detection of snow-lines.
 
 
 
@@ -134,7 +147,7 @@ Overall, the results show that Sentinel-1 radar data is excellent for spotting w
 | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **[Sentinel-1 Snow Classification Dataset](https://sentinel.esa.int/web/sentinel/missions/sentinel-1)**                                        | Dataset             | ESA (European Space Agency)               | A small dataset (~150 images) of Sentinel-1 VV and VH polarization patches used to train a segmentation model for snow classification. Classes include wet snow, dry snow, bare ground, water, and no data.                            |
 | **[PANGAEA-BENCH Framework](https://arxiv.org/abs/2412.04204)**                                                                                       | Framework / Toolkit | PANGAEA Consortium                        | Used to fine-tune geospatial foundational models (GFMs) for Earth observation tasks. Enabled the training of the decoder (UPerNet) on the pre-trained CROMA encoder for the snow segmentation task.                                     |
-| **[CROMA Geospatial Foundational Model](https://www.esa.int/Applications/Observing_the_Earth/CROMA)**                                          | Model / Encoder     | ESA (European Space Agency)               | Pre-trained encoder providing general geospatial representations. Used as the backbone model, fine-tuned with a UPerNet decoder to produce pixel-wise snow classification outputs.                                                     |
+| **[CROMA Geospatial Foundational Model](https://www.esa.int/Applications/Observing_the_Earth/CROMA)**                                          | Model / Encoder     | CROMA               | Pre-trained encoder providing general geospatial representations. Used as the backbone model, fine-tuned with a UPerNet decoder to produce pixel-wise snow classification outputs.                                                     |
 | **[EO Dashboard](https://eodashboard.org/explore/?x=15.0000&y=48.0000&z=4.0000&datetime=2025-09-19&template=expert)**                          | Platform / Web Tool | EO Dashboard Consortium (ESA, NASA, JAXA) | Provides base layers and visualization tools for interactive exploration of NDVI and other Earth observation indicators, potentially useful for validating and visualizing model outputs.                                               |
 
 
