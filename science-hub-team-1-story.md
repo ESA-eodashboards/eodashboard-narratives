@@ -84,7 +84,10 @@ The western ITCZ is very interesting because air raises in very strong updrafts 
 2.  **Eastern Pacific**  
 This region typically experiences downdrafts, where air sinks rather than rises, as the sea temperature is usually lower than in the West. Yet, high clouds still form here. Being far from major population centers, we expect fewer aerosol sources. 
 
+3.   **Southern Ocean** 
+The atmospheric dynamics are quite particular in this region. Ice clouds form at much lower altitudes given the extremely low temperature of the atmosphere. However, there can also be some supercooled clouds at low altitudes. Aerosols might potentially be carried from far away, and influence cloud formation here. We mostly expect sea salt aerosols, but there could also be stratospheric aerosols, especially from volcanic eruptions.
 
+Comparing these three very interesting regions with quite distinctive characteristics could give us a hint on whether the aerosols are influencing changes in the clouds. 
 <div style="text-align: center;">
     <img src="
 https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/Screenshot%20from%202025-11-06%2012-12-20.png?raw=true" width="500"/>
@@ -92,26 +95,6 @@ https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Chall
 </div>
 
 
-
-
-3.   **Southern Ocean** 
-The atmospheric dynamics are quite particular in this region. Ice clouds form at much lower altitudes given the extremely low temperature of the atmosphere. However, there can also be some supercooled clouds at low altitudes. Aerosols might potentially be carried from far away, and influence cloud formation here. We mostly expect sea salt aerosols, but there could also be stratospheric aerosols, especially from volcanic eruptions.
-
-Comparing these three very interesting regions with quite distinctive characteristics could give us a hint on whether the aerosols are influencing changes in the clouds. 
-
-
-
-## Earth Observation <!--{ as="eox-map" mode="tour" }-->
-
-### <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"N2_CO2_diff;:;xco2_16day_diff._2022-02-13;:;N2_CO2_diff;:;EPSG:3857","title":"N2_CO2_diff"},"source":{"type":"XYZ","url":"https://openveda.cloud/api/raster/cog/tiles/WebMercatorQuad/{z}/{x}/{y}?url=s3://veda-data-store/co2-diff/xco2_16day_diff._2022-02-13.tif&resampling_method=nearest&bidx=1&colormap_name=rdbu_r&rescale=-1e-06,1e-06","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="4.061424252974107" center=[-25.304569260712004,25.101129389095888] projection="" animationOptions={duration:500}}-->
-#### Text
-Text
-
-<div style="text-align: center;">
-    <img src="
-https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/team1-earthcare-sensors-image.png?raw=true" width="500"/>
-    <p><b>Figure 3.</b> caption.</p>
-</div>
 
 ## Data and Methods
 Two instruments (out of of the four) on-board of EarthCare, we used, which can provide a vertical profiliing of the atmosphere:
