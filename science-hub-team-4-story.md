@@ -157,9 +157,11 @@ Access the notebook to reproduce the study workflow.
 
 
 #### References
-- PANGAEA: A Global and Inclusive Benchmark for Geospatial Foundation Models [Access](https://arxiv.org/abs/2412.04204)
+- PANGAEA: A Global and Inclusive Benchmark for Geospatial Foundation Models [Access paper](https://arxiv.org/abs/2412.04204).
+- CROMA Geospatial Foundational Model. [Access paper](https://arxiv.org/abs/2311.00566).
+- Carlo Marin et al., 2020.[Access paper](https://tc.copernicus.org/articles/14/935/2020/).
+-  Vickers et al., 2022. [Access paper](https://doi.org/10.3389/feart.2022.868945). 
 
-- [CROMA Geospatial Foundational Model](https://www.esa.int/Applications/Observing_the_Earth/CROMA)
 
 
 
