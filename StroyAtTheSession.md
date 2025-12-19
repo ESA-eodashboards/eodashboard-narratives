@@ -1,5 +1,5 @@
 ---
-cover-image: https://www.du.edu.om/wp-content/uploads/2020/08/783px-Test-Logo.svg.png
+cover-image: https://spanishboosting.com/wp-content/uploads/2024/04/organic-rice.jpg
 date: 2025-01-01
 theme: theme_name
 tags: some,tags
