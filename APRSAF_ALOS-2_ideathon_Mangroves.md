@@ -40,17 +40,7 @@ Coastal erosion threatens mangrove area → Indonesia needs advance mangrove mon
 
 ###### Current limitations of mangrove monitoring:
 
-Conventional data collection still primarily depending on ground checks
-Secondary data rely on multispectral Open-Source imagery, often cloud-covered and inaccurate
-Map scale is limited to 1:25,000 due to scarce secondary data
-Difficulties when updating annual spatial data due to wide area
-Result: Mangrove Monitoring remains:
-
-LIMITED in temporal coverage
-FEATURELESS in detailed characteristics
-INACCESSIBLE for comprehensive analysis
-The integration of satellite data with ground-level observations enhances the accuracy of monitoring efforts. By combining satellite imagery with field surveys, experts can better understand the local factors influencing mangrove survival and coastal erosion. This combined approach supports more targeted and effective interventions to restore mangrove habitats and prevent further erosion.
-In conclusion, mangrove ecosystems are vital for combating coastal erosion, and satellite imagery plays a crucial role in monitoring their health and effectiveness. With the power of remote sensing technology, we can protect and restore mangrove forests, safeguard coastal communities, and mitigate the devastating impacts of climate change.
+Mangrove monitoring still relies heavily on ground surveys and cloud-prone open-source imagery, often limiting map detail to 1:25,000. Updating data annually is challenging over large areas, leaving monitoring efforts temporally sparse, structurally shallow, and difficult to access for comprehensive analysis. Integrating satellite imagery with field observations improves accuracy and insight, helping identify local drivers of mangrove loss and coastal erosion. This combined approach supports more effective restoration and protection strategies. **Mangroves are vital for coastal resilience**, and remote sensing provides a powerful way to monitor, protect, and restore these ecosystems in the face of climate change.
 
 ## Objectives
 * Primary Objective: Mapping the Multi-temporal analysis of mangrove gain/loss in Kuala Selat (Riau) and Pangpang Bay (East Java) using Logistic Model Tree (LMT).
