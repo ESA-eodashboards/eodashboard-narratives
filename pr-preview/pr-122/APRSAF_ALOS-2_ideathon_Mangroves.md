@@ -336,20 +336,7 @@ The integration of satellite monitoring with stakeholder engagement, as illustra
 | **[Sentinel-2 MSI](https://sentinel.esa.int/web/sentinel/missions/sentinel-2)**                   | Dataset (Optical) | ESA (European Space Agency)               | Multispectral optical imagery at 10 m resolution used for land cover discrimination and visual validation of mangrove areas.                                                                                |
 | **[ECMWF ERA5 Reanalysis](https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5)** | Dataset (Climate) | ECMWF                                     | Climate reanalysis data providing environmental context (precipitation, temperature anomalies) supporting interpretation of mangrove dynamics.                                                              |
 
-Data Sources
-Name	Type	Agency / Provider	Description / Usage
-ALOS-2 PALSAR-2 L2.2 SCANSAR	Dataset	JAXA	Synthetic Aperture Radar data providing dual-polarization (HH/HV) backscatter for mangrove detection through cloud cover
-ALOS-2 PALSAR-2 STRIPMAP Level 2.1	Dataset	JAXA	High-resolution SAR imagery (10m) for detailed mangrove structural analysis
-Sentinel-2 Level 2A	Dataset	ESA Copernicus	Multispectral optical imagery for validation and complementary analysis
-Indonesia National Mangrove Map (PMN)	Dataset	Ministry of Environment and Forestry	Baseline national mangrove coverage map at 1:25,000 scale
-Tools and Methods
-Name	Type	Description
-Logistic Model Tree (LMT)	Algorithm	Machine learning classifier combining decision trees with logistic regression for mangrove classification
-SAR Preprocessing	Methodology	Radiometric calibration, terrain correction, and speckle filtering of radar imagery
-Mangrove Vegetation Index (MVI)	Index	Specialized vegetation index optimized for mangrove detection in SAR data
-Collaborating Institutions
-<p align="center"> <img src="https://raw.githubusercontent.com/placeholder/brin-logo.png" alt="BRIN" height="80" style="margin: 0 15px;"/> <img src="https://raw.githubusercontent.com/placeholder/atr-bpn-logo.png" alt="ATR/BPN" height="80" style="margin: 0 15px;"/> <img src="https://raw.githubusercontent.com/placeholder/ipb-logo.png" alt="IPB" height="80" style="margin: 0 15px;"/> <img src="https://raw.githubusercontent.com/placeholder/bakamla-logo.png" alt="BAKAMLA" height="80" style="margin: 0 15px;"/> <img src="https://raw.githubusercontent.com/placeholder/klhk-logo.png" alt="Ministry of Forestry" height="80" style="margin: 0 15px;"/> </p>
-References
+## References
 Pham, T. D., Yoshino, K., & Bui, D. T. (2018). Biomass estimation of Sonneratia caseolaris (l.) Engler at a coastal area of Hai Phong city (Vietnam) using ALOS-2 PALSAR imagery and GIS-based multi-layer perceptron neural networks. GIScience & Remote Sensing, 55(3), 329-353.
 Balakrishnan, N., et al. (2020). Machine learning approaches for mangrove mapping using remote sensing data. Remote Sensing Applications: Society and Environment, 18, 100305.
 Kuenzer, C., Bluemel, A., Gebhardt, S., Quoc, T. V., & Dech, S. (2011). Remote sensing of mangrove ecosystems: A review. Remote Sensing, 3(5), 878-928.
