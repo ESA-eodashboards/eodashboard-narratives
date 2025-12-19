@@ -125,153 +125,27 @@ No	Data Source	Mangrove Area (Ha)
 3	Rule 2: HH + MVI	32,141
 4	Rule 2: HV + MVI	23,876
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/Comunity_led_JAXA/Mangroves/initial_findings_2.png?raw=true" style="max-width: 100%; width: 1000px; height: auto;" alt="Combined classification rules results" /> <p style="text-align: center; margin-top: 10px;"> <b>Figure 5.</b> Comparison of classification approaches: (left) Rule 2: HV + MVI Classification and (right) Rule 2: HH + MVI Classification for 2024. </p> </div>
-Explanation of Area Differences
-The variations in detected mangrove area across different methods reveal important insights:
 
-1. Different Data Sources:
 
-National map vs. SAR interpretation: The National Mangrove Map shows broader coverage as it integrates multiple data sources
-Interpretation differences: Broader coverage in national maps versus optical data from different resolution and methods
-2. Sensor Sensitivity:
+#### Explanation of Area Differences
+Differences in detected mangrove area across methods highlight several factors:
 
-HH detects: Trees/shrubs/herbs (usually with canopy/woody parts) - often wetter
-HV detects: All above plus trees/shrubs with different structure
-3. Classification Rule Effects:
+* **1) Data Sources**:
+National mangrove maps show broader coverage because they integrate multiple datasets, while SAR and optical interpretations vary by resolution and methodology.
 
-Adding HV or HH with MVI (Mangrove Vegetation Index): Results in fewer classification areas due to more restrictive criteria
-Rules combining polarizations: Help isolate true mangroves from similar vegetation types
-MVI integration: Enhances specificity, reducing false positives
-4. Cloud Coverage Differences:
+* **2) Sensor Sensitivity**:
+HH polarization mainly detects woody vegetation in wetter conditions, whereas HV captures a wider range of vegetation structures, leading to area differences.
 
-ALOS has better cloud penetration than optical data
-Optical data from different seasons: May show different coverage areas, masks, and speckle nature
-Temporal dynamics: Cloud coverage affects optical data availability and accuracy
-5. Accuracy Varies by Data Combination:
+* **2) Classification Rules**:
+Combining HH or HV with the Mangrove Vegetation Index (MVI) applies stricter criteria, reducing mapped area but improving mangrove specificity and lowering false positives.
 
-Rule 2 + optical data from different periods of acquisition: Better for monitoring
-Different rules may be more suitable: Depending on specific mangrove characteristics and local conditions
-ALOS data advantages: Overcome cloud percentage limitations better than optical sensors
+* **3)Cloud Coverage**:
+ALOS SAR penetrates clouds more effectively than optical sensors. Seasonal differences and cloud masking in optical data affect coverage and accuracy.
+
+* **4) Data Combination Accuracy**:
+Certain rule–data combinations (e.g., Rule 2 with multi-temporal optical data) are better suited for monitoring, while ALOS data generally performs better in cloudy regions.
 ## Next Steps
-The project follows a structured timeline to advance from initial analysis to comprehensive mangrove monitoring:
-
-Project Timeline and Activities
-Activity	Period	Deliverables
-Analyzing the relation between ALOS PALSAR-2 2.2 and Sentinel-2 2A and any other datasets possibilities regarding the use of mangrove analysis	Oct 2024 - Nov 2024	Correlation analysis, data fusion methodology
-Data Acquisition and Processing	Nov 2024 - Dec 2024	Processed SAR and optical datasets, validated training data
-Data Visualization, literature strengthening	Dec 2024 - Mar 2025	Final maps, technical reports, peer-reviewed publications
-Research Activities in Detail
-Phase 1: Multi-sensor Integration Analysis (Oct-Nov 2024)
-Investigate synergies between ALOS PALSAR-2 SAR and Sentinel-2 optical data
-Test various data fusion approaches for improved mangrove classification
-Evaluate additional datasets (e.g., Sentinel-1, Landsat) for complementary information
-Develop optimal data combination strategies
-Phase 2: Comprehensive Data Processing (Nov-Dec 2024)
-Acquire complete time-series datasets for both study areas
-Implement standardized preprocessing workflows
-Generate training and validation datasets
-Apply LMT classification algorithms
-Produce multi-temporal mangrove maps
-Phase 3: Synthesis and Dissemination (Dec 2024-Mar 2025)
-Create interactive visualization tools for stakeholder engagement
-Conduct thorough literature review and contextualization
-Prepare technical documentation and user guides
-Develop capacity building materials
-Submit findings to scientific journals
-Future Research Directions
-1. Coastal Erosion/Accretion Detection:
-
-Implement shoreline change detection algorithms
-Compare backscatter boundary positions across years
-Quantify erosion rates in mangrove-fronted coastlines
-Assess mangrove effectiveness in erosion mitigation
-2. Enhanced Temporal Resolution:
-
-Expand analysis to annual time-series (2019-2024)
-Detect seasonal variations in mangrove phenology
-Monitor restoration project effectiveness
-Track rapid changes following extreme events
-3. Integration with Climate and Oceanographic Data:
-
-Correlate mangrove changes with sea-level rise data
-Analyze relationship with storm frequency and intensity
-Incorporate tidal regime information
-Link to sediment dynamics
-4. Operational Monitoring System:
-
-Develop near-real-time processing capabilities
-Create automated change alert system
-Design user-friendly dashboards for stakeholders
-Establish protocols for regular updates to National Mangrove Map
-5. Expansion to Other Regions:
-
-Apply methodology to additional Indonesian coastal areas
-Test transferability to different mangrove types
-Compare results across various environmental settings
-Support national-scale mangrove inventory
-Conclusions
-This study demonstrates the potential of integrating SAR and optical satellite imagery for comprehensive mangrove monitoring in Indonesia. Key findings and implications include:
-
-Main Achievements
-1. Methodology Development:
-
-Successfully applied Logistic Model Tree (LMT) classification to distinguish mangroves from other forest types
-Demonstrated the value of combining HV and HH polarizations for improved accuracy
-Established reproducible workflow applicable to other Indonesian coastal regions
-2. Data Source Evaluation:
-
-Confirmed advantages of SAR data (ALOS PALSAR-2) over optical imagery for tropical coastal monitoring
-Identified optimal combinations of polarizations and indices for mangrove detection
-Quantified differences between classification approaches
-3. Initial Mapping Results:
-
-Generated preliminary mangrove extent maps for Kuala Selat (Riau) showing areas ranging from 23,876 to 34,447 hectares depending on classification rules
-Provided baseline data for future change detection analysis
-Identified areas requiring field validation
-Practical Applications
-Supporting Coastal Management:
-
-Enhanced mapping capabilities can improve targeting of restoration efforts
-Better monitoring supports evaluation of mangrove protection policies
-Data supports marine spatial planning and coastal zone management
-Addressing National Mangrove Map Limitations:
-
-SAR-based approach overcomes cloud cover challenges
-More frequent updates possible compared to current PMN system
-Higher spatial detail in critical areas
-Improved temporal monitoring capabilities
-Climate Change Adaptation:
-
-Baseline data for tracking mangrove response to sea-level rise
-Support for nature-based solutions to coastal erosion
-Monitoring ecosystem resilience under changing conditions
-Quantifying carbon sequestration in coastal blue carbon ecosystems
-Study Limitations and Considerations
-1. Validation Requirements:
-
-Need for extensive field validation to confirm classification accuracy
-Limited ground truth data for remote coastal areas
-Challenges in accessing mangrove areas for verification
-2. Methodological Refinements:
-
-Further optimization of LMT parameters needed
-Investigation of seasonal effects on classification
-Testing of alternative machine learning algorithms
-3. Data Availability:
-
-Dependency on ALOS-2 acquisition schedule
-Cost considerations for large-scale operational implementation
-Need for consistent data access policies
-Future Vision
-The framework established in this study provides a foundation for developing an operational mangrove monitoring system for Indonesia. This system would:
-
-Provide regular updates to the National Mangrove Map
-Support early warning systems for coastal erosion
-Enable rapid assessment of mangrove loss or degradation
-Guide adaptive management strategies
-Inform policy decisions on coastal protection and restoration
-By leveraging advances in satellite remote sensing, machine learning, and cloud computing, Indonesia can enhance its capacity to protect and restore vital mangrove ecosystems while safeguarding coastal communities from erosion and climate change impacts.
-
-The integration of satellite monitoring with stakeholder engagement, as illustrated in the stakeholder analysis, ensures that scientific insights translate into actionable conservation and management strategies.
+The project progresses from multi-sensor analysis to operational mangrove monitoring between Oct 2024 and Mar 2025, integrating ALOS PALSAR-2 SAR and Sentinel-2 optical data to improve mangrove classification and mapping. Key outputs include processed datasets, multi-temporal mangrove maps, visualizations, and scientific publications. Future work expands toward coastal change detection, higher-resolution time series, climate data integration, near-real-time monitoring systems, and national-scale application across Indonesia.
 
 ## <!--{ as="div" }--> Open Science
 
