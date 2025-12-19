@@ -94,36 +94,7 @@ The LMT implements a hierarchical classification structure with two primary deci
 Following the Decision Tree Classifier application, separate mangrove maps are generated for both 2021 and 2024 using their respective satellite acquisitions. The final stage involves change detection analysis, where the two temporal maps are compared pixel-by-pixel to produce a comprehensive Mangrove Change Map. This output identifies areas of mangrove gain (newly established mangrove areas) and loss (degraded or converted mangrove areas) over the three-year period, providing critical insights into coastal ecosystem dynamics and the effectiveness of mangroves in coastal erosion control.
 
 
-1. Data Acquisition and Preprocessing
-ALOS PALSAR 2.2 Data: Acquired dual-polarization SAR imagery covering study areas
-Sentinel-2 Level 2A: Downloaded multispectral optical imagery for validation
-Preprocessing Steps:
-Radiometric calibration of SAR backscatter
-Terrain correction using digital elevation models
-Speckle filtering for noise reduction
-Co-registration of multi-temporal images
-2. Training Dataset Generation
-Generated training samples from high-confidence mangrove and non-mangrove areas
-Utilized existing National Mangrove Map as reference base
-Validated training areas through visual interpretation and field knowledge
-Created balanced training dataset representing various mangrove conditions
-3. Logistic Model Tree (LMT) Classification
-The study employs Logistic Model Tree (LMT) as the primary classification algorithm. LMT combines:
 
-Decision Tree Structure:
-
-[x] Backscattering Value (HH or HV ALOS-2 Palsar)
-    ├─ RULE 1:
-    │  If eps = N-S
-    │  Or eps = 17-8
-    ├─ Potential Forest / Land Unit (HV Polarity)
-    │
-    └─ RULE 2:
-          If eps = S-E / E-S HH Polarity
-          and OR (N)(SW)
-          ├─ Potential Forest (Non-Mangrove)
-          └─ Mangrove Forest
-Key Features:
 
 Integrates logistic regression models at tree nodes
 Handles both HV and HH polarization data
@@ -131,30 +102,11 @@ Distinguishes between mangrove and non-mangrove forest based on backscatter patt
 Considers geographic orientation effects on backscatter
 References:
 
-[1] Pham et al. (2018) - Application of LMT for land cover classification
-[2] Balakhrisynet al. (2020) - Mangrove mapping using machine learning
-4. Decision Tree Classification
-Applied Decision Tree Classifier using selected training criteria
-Integrated both HV and HH polarization signatures
-Generated preliminary mangrove/non-mangrove classifications
-Optimized tree depth to prevent overfitting
-5. Multi-temporal Change Analysis
-Mangrove Map 2021: Generated from 2021 ALOS-2 data
-Mangrove Map 2024: Generated from 2024 ALOS-2 data
-Change Detection: Pixel-by-pixel comparison identifying:
-Gain: Areas where mangrove appeared between 2021-2024
-Loss: Areas where mangrove disappeared between 2021-2024
-Stable: Areas maintaining mangrove coverage
-6. Validation and Accuracy Assessment
-Cross-validation with Sentinel-2 optical imagery
-Comparison with existing National Mangrove Map (PMN)
-Field verification data integration (where available)
-Accuracy metrics calculation (overall accuracy, user's/producer's accuracy)
-Initial Findings
-Kuala Selat, Riau - 2024 Classification Results
+## Results
+#### Initial findings: Kuala Selat, Riau - 2024 Classification Results
 The initial analysis of Kuala Selat demonstrates the effectiveness of combining different polarization data and classification rules for mangrove detection:
 
-<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;"> <img src="https://raw.githubusercontent.com/placeholder/kuala-selat-results.jpg" style="max-width: 100%; width: 1200px; height: auto;" alt="Kuala Selat classification results" /> <p style="text-align: center; margin-top: 10px;"> <b>Figure 4.</b> Classification results for Kuala Selat 2024 showing (left) HV polarization reclassification, (center) HH polarization reclassification, and (right) mangrove extent overview with MVI classification. </p> </div>
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/Comunity_led_JAXA/Mangroves/initial_findings.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;" alt="Kuala Selat classification results" /> <p style="text-align: center; margin-top: 10px;"> <b>Figure 4.</b> Classification results for Kuala Selat 2024 showing (left) HV polarization reclassification, (center) HH polarization reclassification, and (right) mangrove extent overview with MVI classification. </p> </div
 ALOS PALSAR Reclassification Results
 HV Polarization Results:
 
@@ -172,7 +124,7 @@ No	Data Source	Mangrove Area (Ha)
 2	Rule 1: HV	34,447
 3	Rule 2: HH + MVI	32,141
 4	Rule 2: HV + MVI	23,876
-<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;"> <img src="https://raw.githubusercontent.com/placeholder/combined-rules-results.jpg" style="max-width: 100%; width: 1000px; height: auto;" alt="Combined classification rules results" /> <p style="text-align: center; margin-top: 10px;"> <b>Figure 5.</b> Comparison of classification approaches: (left) Rule 2: HV + MVI Classification and (right) Rule 2: HH + MVI Classification for 2024. </p> </div>
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/Comunity_led_JAXA/Mangroves/initial_findings_2.png?raw=true" style="max-width: 100%; width: 1000px; height: auto;" alt="Combined classification rules results" /> <p style="text-align: center; margin-top: 10px;"> <b>Figure 5.</b> Comparison of classification approaches: (left) Rule 2: HV + MVI Classification and (right) Rule 2: HH + MVI Classification for 2024. </p> </div>
 Explanation of Area Differences
 The variations in detected mangrove area across different methods reveal important insights:
 
@@ -199,7 +151,7 @@ Temporal dynamics: Cloud coverage affects optical data availability and accuracy
 Rule 2 + optical data from different periods of acquisition: Better for monitoring
 Different rules may be more suitable: Depending on specific mangrove characteristics and local conditions
 ALOS data advantages: Overcome cloud percentage limitations better than optical sensors
-Next Steps
+## Next Steps
 The project follows a structured timeline to advance from initial analysis to comprehensive mangrove monitoring:
 
 Project Timeline and Activities
