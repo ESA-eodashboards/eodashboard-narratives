@@ -160,11 +160,14 @@ The project progresses from multi-sensor analysis to operational mangrove monito
 | **[ECMWF ERA5 Reanalysis](https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5)** | Dataset (Climate) | ECMWF                                     | Climate reanalysis data providing environmental context (precipitation, temperature anomalies) supporting interpretation of mangrove dynamics.                                                              |
 
 ## References
-Pham, T. D., Yoshino, K., & Bui, D. T. (2018). Biomass estimation of Sonneratia caseolaris (l.) Engler at a coastal area of Hai Phong city (Vietnam) using ALOS-2 PALSAR imagery and GIS-based multi-layer perceptron neural networks. GIScience & Remote Sensing, 55(3), 329-353.
-Balakrishnan, N., et al. (2020). Machine learning approaches for mangrove mapping using remote sensing data. Remote Sensing Applications: Society and Environment, 18, 100305.
+* Pham, T. D., Yoshino, K., & Bui, D. T. (2018). Biomass estimation of Sonneratia caseolaris (l.) Engler at a coastal area of Hai Phong city (Vietnam) using ALOS-2 PALSAR imagery and GIS-based multi-layer perceptron neural networks. GIScience & Remote Sensing, 55(3), 329-353.
+* Balakrishnan, N., et al. (2020). Machine learning approaches for mangrove mapping using remote sensing data. Remote Sensing Applications: Society and Environment, 18, 100305.
 Kuenzer, C., Bluemel, A., Gebhardt, S., Quoc, T. V., & Dech, S. (2011). Remote sensing of mangrove ecosystems: A review. Remote Sensing, 3(5), 878-928.
-Ghorbanian, A., Kakooei, M., Amani, M., Mahdavi, S., Mohammadzadeh, A., & Hasanlou, M. (2021). Improved land cover map of Iran using Sentinel imagery within Google Earth Engine and a novel automatic workflow for land cover classification using migrated training samples. ISPRS Journal of Photogrammetry and Remote Sensing, 167, 276-288.
-Giri, C., Ochieng, E., Tieszen, L. L., et al. (2011). Status and distribution of mangrove forests of the world using earth observation satellite data. Global Ecology and Biogeography, 20(1), 154-159.
-Murdiyarso, D., Purbopuspito, J., Kauffman, J. B., Warren, M. W., Sasmito, S. D., Donato, D. C., ... & Kurnianto, S. (2015). The potential of Indonesian mangrove forests for global climate change mitigation. Nature Climate Change, 5(12), 1089-1092.
+
+* Ghorbanian, A., Kakooei, M., Amani, M., Mahdavi, S., Mohammadzadeh, A., & Hasanlou, M. (2021). Improved land cover map of Iran using Sentinel imagery within Google Earth Engine and a novel automatic workflow for land cover classification using migrated training samples. ISPRS Journal of Photogrammetry and Remote Sensing, 167, 276-288.
+
+* Giri, C., Ochieng, E., Tieszen, L. L., et al. (2011). Status and distribution of mangrove forests of the world using earth observation satellite data. Global Ecology and Biogeography, 20(1), 154-159.
+
+* Murdiyarso, D., Purbopuspito, J., Kauffman, J. B., Warren, M. W., Sasmito, S. D., Donato, D. C., ... & Kurnianto, S. (2015). The potential of Indonesian mangrove forests for global climate change mitigation. Nature Climate Change, 5(12), 1089-1092.
 This study is part of Indonesia's efforts to enhance coastal resilience through improved mangrove ecosystem monitoring and management, supporting both biodiversity conservation and climate change adaptation strategies.
 
