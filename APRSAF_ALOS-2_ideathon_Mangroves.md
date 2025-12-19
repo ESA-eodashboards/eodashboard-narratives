@@ -74,17 +74,12 @@ Pangpang Bay in East Java showcases different coastal conditions with distinct m
 ### Datasets
 This study utilizes high-resolution SAR (Synthetic Aperture Radar) data combined with optical satellite imagery to overcome the limitations of traditional monitoring approaches:
 
-Category	Dataset	Description	Resolution	Temporal Coverage
-🛰️ SAR Data	ALOS-2 L2.2 SCANSAR	Primary radar dataset for mangrove detection	~100m	2021 & 2024
+* 🛰️ SAR Data	ALOS-2 L2.2 SCANSAR	Primary radar dataset for mangrove detection	~100m	2021 & 2024
 ALOS-2 PALSAR-2 STRIPMAP Level 2.1	High-resolution SAR (if available)	~10m	2021 & 2024
-🌍 Optical Data	Visual Band Open Source Satellite	Multispectral imagery for validation	Variable	2021 & 2024
-📍 Reference Data	Indonesia Mangrove Map (PMN)	National baseline mangrove coverage	1:25,000	Current
+* 🌍 Optical Data	Visual Band Open Source Satellite	Multispectral imagery for validation	Variable	2021 & 2024
+* 📍 Reference Data	Indonesia Mangrove Map (PMN)	National baseline mangrove coverage	1:25,000	Current
 Advantages of SAR Data:
 
-Cloud-penetrating capability ensures year-round monitoring
-Sensitive to vegetation structure and moisture content
-Day/night acquisition capability
-Excellent for detecting mangrove presence through canopy characteristics
 ### Methodology Workflow
 The analysis employs a multi-stage approach combining SAR and optical satellite data with machine learning classification techniques. The workflow begins with data acquisition and preprocessing, where ALOS PALSAR-2 2.2 time-series data is collected alongside Sentinel-2 Level 2A optical imagery. The SAR data undergoes speckle filtering and front-end preprocessing, while backscattering coefficients for both HH and HV polarizations are extracted. Concurrently, the Sentinel-2 data is processed to derive the Mangrove Vegetation Index (MVI) threshold, which serves as an additional discriminatory parameter for mangrove identification.
 The core classification methodology utilizes a Logistic Model Tree (LMT) approach, which integrates decision tree logic with logistic regression at each node. Training datasets are first generated from known mangrove and non-mangrove areas, incorporating both ground-truth data and expert knowledge. These training samples are then used to develop a Decision Tree Method that generates rule sets specifically tailored for mangrove classification.
