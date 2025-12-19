@@ -32,13 +32,13 @@ Coastal erosion is a growing threat to many regions around the world, especially
 
 Mangroves, with their complex root systems, provide a natural barrier against coastal erosion by stabilizing sediments and reducing the impact of tidal forces. These coastal forests are highly efficient in trapping sediment, which helps to build up and strengthen shorelines, preventing the encroachment of the sea. Beyond their role in erosion control, mangroves also support biodiversity, enhance carbon sequestration, and provide essential resources for local communities.
 
-Problem Statement
+#### Problem Statement
 Indonesia faces a critical challenge in protecting its extensive mangrove areas from coastal erosion. The current situation can be characterized by three interconnected issues:
 
 Coastal erosion threatens mangrove area → Indonesia needs advance mangrove monitoring system → Indonesia's current National Mangrove Map (PMN) still has several limitations
 
-<div style="background-color: #E6F7FF; padding: 20px; margin: 20px 0; border-left: 4px solid #1890FF;">
-Current limitations of mangrove monitoring:
+
+###### Current limitations of mangrove monitoring:
 
 Conventional data collection still primarily depending on ground checks
 Secondary data rely on multispectral Open-Source imagery, often cloud-covered and inaccurate
@@ -49,50 +49,34 @@ Result: Mangrove Monitoring remains:
 LIMITED in temporal coverage
 FEATURELESS in detailed characteristics
 INACCESSIBLE for comprehensive analysis
-</div>
 The integration of satellite data with ground-level observations enhances the accuracy of monitoring efforts. By combining satellite imagery with field surveys, experts can better understand the local factors influencing mangrove survival and coastal erosion. This combined approach supports more targeted and effective interventions to restore mangrove habitats and prevent further erosion.
-
 In conclusion, mangrove ecosystems are vital for combating coastal erosion, and satellite imagery plays a crucial role in monitoring their health and effectiveness. With the power of remote sensing technology, we can protect and restore mangrove forests, safeguard coastal communities, and mitigate the devastating impacts of climate change.
 
-Objectives
-Primary Objective:
+## Objectives
+* Primary Objective: Mapping the Multi-temporal analysis of mangrove gain/loss in Kuala Selat (Riau) and Pangpang Bay (East Java) using Logistic Model Tree (LMT).
 
-Mapping the Multi-temporal analysis of mangrove gain/loss in Kuala Selat (Riau) and Pangpang Bay (East Java) using Logistic Model Tree (LMT).
-Next Step:
-
-Investigating the use of time-series datasets to detect coastal erosion/accretion changes in Kuala Selat (Riau) and Pangpang Bay (East Java), and comparing shoreline positions or backscatter boundaries across years.
-Expected Outcomes
+* Next Step: Investigating the use of time-series datasets to detect coastal erosion/accretion changes in Kuala Selat (Riau) and Pangpang Bay (East Java), and comparing shoreline positions or backscatter boundaries across years.
+* Expected Outcomes
 Mangrove Change Map (Gain and Loss) — derived from SAR and multispectral band Satellite, highlighting areas of mangrove degradation and restoration potential in Kuala Selat (Riau) and Pangpang Bay (East Java).
-Stakeholder Analysis
-The mangrove monitoring system involves a complex network of stakeholders working together to leverage satellite data for coastal ecosystem management:
+Stakeholder Analysis  The mangrove monitoring system involves a complex network of stakeholders working together to leverage satellite data for coastal ecosystem management:
 
-<div style="text-align: center;"> <img src="https://raw.githubusercontent.com/placeholder/stakeholder-diagram.jpg" width="700"/> <p><b>Figure 1.</b> Stakeholder ecosystem showing the flow of money, information, and products between government agencies, satellite data providers, and mangrove monitoring analysts.</p> </div>
-Key stakeholders include:
 
-Government/Other Foreign Fundings: Provide financial support
-Satellite/Spatial Data Provider: Supply remote sensing data and imagery
-Ministry of Forestry & Ministry of Environment (Main User & Operator): Primary operators conducting field and spatial data updates
-Mangrove Monitoring Analyst (Procurement and Computation): Process and analyze data to generate monitoring maps
-Mangrove Monitoring Map: Final product distributed to stakeholders
-The system operates through multiple feedback loops ensuring continuous improvement of monitoring capabilities and data quality.
-
-Use Case <!--{ as="eox-map" mode="tour" }-->
+## Use Case <!--{ as="eox-map" mode="tour" }-->
 <!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Indonesia_Mangroves;:;EPSG:3857","title":"Indonesia Mangrove Cover"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/example","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["MANGROVE"],"TILED":true}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="5" center=[118.0,-2.0] projection="" animationOptions={duration:500}}-->
-Regions and Periods of Interest
-This study focuses on two critical mangrove regions in Indonesia, each facing unique coastal erosion challenges:
-
-Kuala Selat, Riau
-Period of Interest: 2021 & 2024
-
+### Kuala Selat, Riau
+**Period of Interest: 2021 & 2024**
 Located in Riau province, Kuala Selat represents a significant mangrove ecosystem along the eastern coast of Sumatra. This region experiences substantial tidal influence and coastal dynamics, making it an ideal case study for monitoring mangrove response to erosion pressures.
 
-Pangpang Bay, East Java
+<!--{ layers='[{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Indonesia_Mangroves;:;EPSG:3857","title":"Indonesia Mangrove Cover"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/example","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["MANGROVE"],"TILED":true}}}]},{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]}]' zoom="5" center=[118.0,-2.0] projection="" animationOptions={duration:500}}-->
+### Pangpang Bay, East Java
 Period of Interest: 2021 & 2024
-
 Pangpang Bay in East Java showcases different coastal conditions with distinct mangrove community structures. The bay's semi-enclosed nature provides a contrasting environment for comparative analysis of mangrove dynamics.
 
 <div style="text-align: center;"> <img src="https://raw.githubusercontent.com/placeholder/study-areas-map.jpg" width="800"/> <p><b>Figure 2.</b> Study area locations showing Kuala Selat (Riau) and Pangpang Bay (East Java) within Indonesia's extensive coastal mangrove belt.</p> </div>
-Data and Methods
+
+
+
+## Data and Methods
 Datasets
 This study utilizes high-resolution SAR (Synthetic Aperture Radar) data combined with optical satellite imagery to overcome the limitations of traditional monitoring approaches:
 
