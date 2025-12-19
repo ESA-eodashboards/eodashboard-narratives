@@ -91,11 +91,6 @@ Following the Decision Tree Classifier application, separate mangrove maps are g
 
 
 
-Integrates logistic regression models at tree nodes
-Handles both HV and HH polarization data
-Distinguishes between mangrove and non-mangrove forest based on backscatter patterns
-Considers geographic orientation effects on backscatter
-References:
 
 ## Results
 #### Initial findings: Kuala Selat, Riau - 2024 Classification Results
