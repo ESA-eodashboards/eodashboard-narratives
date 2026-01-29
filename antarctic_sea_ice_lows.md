@@ -1,5 +1,5 @@
 ---
-cover-image: https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.antarcticglaciers.org%2Fwp-content%2Fuploads%2F2013%2F10%2Fsea-ice.jpg&f=1&nofb=1&ipt=6adc1515792ec744345ee0000e71b395a33bb9f6813f34e52f987bfbf3dd7827&ipo=images
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/stories/antarctic_sea_ice_lows/theme-image.jpg
 date: 2025-01-01
 theme: extreme-events
 tags: ice
@@ -77,7 +77,7 @@ Credits: JAXA
 
 
 ##  Factors for sea ice reduction  <!--{ as="eox-map" mode="tour"}-->
-### <!--{ projection="EPSG:3031" layers='[{"type":"Tile","properties":{"id":"N12_sea_ice_concentration_antarctic-2025-01-30T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:SIC_S","styles":"","format":"image/png","time":"2023-06-03T11:59:30.000Z"}}},{"type":"Tile","properties":{"id":"anatrcticwms"},"source":{"projection":"EPSG:3031","type":"TileWMS","url":"https://wms.gebco.net/2014/south-polar/mapserv?","params":{"LAYERS":"gebco_south_polar_view","TILED":true},"ratio":1,"serverType":"mapserver"}}]' zoom="2.1556138087264377" center=[0,0]}-->
+### <!--{ projection="EPSG:3031" layers='[{"type":"Tile","properties":{"id":"anatrcticwms"},"source":{"projection":"EPSG:3031","type":"TileWMS","url":"https://wms.gebco.net/2014/south-polar/mapserv?","params":{"LAYERS":"gebco_south_polar_view","TILED":true},"ratio":1,"serverType":"mapserver"}},{"type":"Tile","properties":{"id":"N12_sea_ice_concentration_antarctic-2025-01-30T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:SIC_S","styles":"","format":"image/png","time":"2023-06-03T11:59:30.000Z"}}}]' zoom="2.1556138087264377" center=[0,0]}-->
 #### Month comparison: June 2023
 Let’s take a closer look at where sea ice extent expanded less than usual in June and September 2023. As illustrated in the figure below, Antarctica is surrounded by the Southern Ocean, with the Bellingshausen Sea on the left, the Weddell Sea at the top, and Ross Sea at the bottom. By comparing sea ice extent in these areas to the average of the past 45 years (white line), we can see a significant decrease of the south-to-north sea ice extent during June. 
 
@@ -93,12 +93,12 @@ In (2), three months later, the overall overhang continues to be weak.
      </figcaption>
 </figure>
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"N12_sea_ice_concentration_antarctic-2025-01-30T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:SIC_S","styles":"","format":"image/png","time":"2023-09-09T11:59:30.000Z"}}},{"type":"Tile","properties":{"id":"anatrcticwms"},"source":{"projection":"EPSG:3031","type":"TileWMS","url":"https://wms.gebco.net/2014/south-polar/mapserv?","params":{"LAYERS":"gebco_south_polar_view","TILED":true},"ratio":1,"serverType":"mapserver"}}]' zoom="2.1556138087264377" center=[0,0]}-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"anatrcticwms"},"source":{"projection":"EPSG:3031","type":"TileWMS","url":"https://wms.gebco.net/2014/south-polar/mapserv?","params":{"LAYERS":"gebco_south_polar_view","TILED":true},"ratio":1,"serverType":"mapserver"}},{"type":"Tile","properties":{"id":"N12_sea_ice_concentration_antarctic-2025-01-30T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:SIC_S","styles":"","format":"image/png","time":"2023-09-09T11:59:30.000Z"}}}]' zoom="2.1556138087264377" center=[0,0]}-->
 #### ... and September 2023
 Three months later, in September, when sea ice extent reaches its yearly maximum, the Bellingshausen Sea has recovered to levels similar to previous years, but the Weddell Sea, Ross Sea, and other areas continue to exhibit a generally low sea ice extent. 
 
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"N12_sea_ice_concentration_antarctic-2025-01-30T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:SIC_S","styles":"","format":"image/png","time":"2023-09-09T11:59:30.000Z"}}},{"type":"Tile","properties":{"id":"anatrcticwms"},"source":{"projection":"EPSG:3031","type":"TileWMS","url":"https://wms.gebco.net/2014/south-polar/mapserv?","params":{"LAYERS":"gebco_south_polar_view","TILED":true},"ratio":1,"serverType":"mapserver"}}]' zoom="2.1556138087264377" center=[0,0]}-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"anatrcticwms"},"source":{"projection":"EPSG:3031","type":"TileWMS","url":"https://wms.gebco.net/2014/south-polar/mapserv?","params":{"LAYERS":"gebco_south_polar_view","TILED":true},"ratio":1,"serverType":"mapserver"}},{"type":"Tile","properties":{"id":"N12_sea_ice_concentration_antarctic-2025-01-30T11:59:30Z"},"source":{"type":"TileWMS","urls":["https://gpwmap.jaxa.jp/wms"],"params":{"layers":"EODASH:SIC_S","styles":"","format":"image/png","time":"2023-09-09T11:59:30.000Z"}}}]' zoom="2.1556138087264377" center=[0,0]}-->
 #### A potential factor contributing to the low sea ice extent in winter 2023
 Although the cause of the significantly smaller Antarctic winter sea ice extent in 2023 compared to previous years is still unknown, one possible factor is the increased heat stored in the ocean (ocean heat content). The ongoing retreat of summer sea ice since approximately 2016 has slowed sea ice production. In particular, if there is less sea ice in the summer than in an average year, the sea surface is exposed to more solar radiation and absorbs more of it. This increases the ocean heat content, decreasing the formation of sea ice in autumn and winter. In this way, the amount of solar radiation absorbed by the ocean increases with the exposed open water fractions, leading to the further decrease in sea ice. This effect is known as the “sea ice/ocean albedo feedback” (albedo: ratio of the energy of reflected light to the energy of incident sunlight).
 
