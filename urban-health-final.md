@@ -1,3 +1,11 @@
+---
+cover-image: https://live.staticflickr.com/3600/3409479660_54cc371386_b.jpg
+date: 2026-02-04
+theme: atmosphere
+tags: health,atmosphere
+official: true
+---
+
 # Urban Health and Megacities: the case of New Delhi <!--{ as="img" data-fallback-src="" mode="hero" src="https://live.staticflickr.com/3600/3409479660_54cc371386_b.jpg" }-->
 ### Satellite perspective provide urban health indicators <!--{ style="font-size:1rem;opacity:0.7;margin-top:1rem;" }-->
 # 
