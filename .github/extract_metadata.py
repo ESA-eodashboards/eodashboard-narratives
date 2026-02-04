@@ -114,6 +114,14 @@ def extract_metadata(file_path, base_url):
     else:
         metadata.update({"provider": "community"})
 
+    # split a comma separated string to list
+    if theme := metadata.get("theme"):
+        metadata.update({"theme": theme.split(",")})
+
+    # split a comma separated string to list
+    if tags := metadata.get("tags"):
+        metadata.update({"tags": tags.split(",")})
+
     metadata.update({"file": file_url})
     return metadata
 
