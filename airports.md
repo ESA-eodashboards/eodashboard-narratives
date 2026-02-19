@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: covid-19
 tags: travel,airplane,lockdown
 official: true
+datasets: car_containers,E13b_parked_airplanes
 ---
 
 #  During COVID-19 related lockdowns, air travel decreased<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/trilateral/Esa_Nasa_jaxa_covid19_cover_V3.jpg" }-->
