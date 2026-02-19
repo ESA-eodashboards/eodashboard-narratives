@@ -123,8 +123,8 @@ def extract_metadata(file_path, base_url):
         metadata.update({"tags": tags.split(",")})
 
     # split a comma separated string to list
-    if datasets := metadata.get("datasets"):
-        metadata.update({"datasets": datasets.split(",")})
+    if collections := metadata.get("collections"):
+        metadata.update({"collections": collections.split(",")})
 
     metadata.update({"file": file_url})
     return metadata

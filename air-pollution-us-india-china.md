@@ -4,7 +4,7 @@ date: 2025-01-01
 theme: atmosphere
 tags: climate,pollution
 official: true
-datasets: N9_OMI_trno2-COG
+collections: N9_OMI_trno2-COG
 ---
 
 #     Air pollution in India, China and the U.S. have changed significantly over the past two decades<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/7-greenhouse-gases-from-combustion.jpg" }-->
