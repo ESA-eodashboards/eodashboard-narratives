@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: extreme-events
 tags: extremes
 official: true
+collections: Lakes_S2L2A, alos2_floods
 ---
 
 #  El Niño 2023–2024 (Part 4): Floods and Cyclone impacts in East Africa <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/stories/el_nino_part_4/Flooding_in_Tamale_Northern_Ghana.jpg" }-->
