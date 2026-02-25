@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: cryosphere
 tags: climate,ice,antarctica,warming
 official: true
+collections: ADD_West_Antarctica_S1, ADD_Meltmap, ADD_Melt_Onset, ADD_Melt_Season_End, ADD_Melt_Duration
 ---
 
 # Rapid Retreat of the Thwaites Glacier<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Thwaites_and_Pine_Island_Glaciers_in_West_Antarctica.jpg" }-->

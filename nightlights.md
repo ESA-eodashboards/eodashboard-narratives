@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: economy
 tags: light,night,lockdown
 official: true
+collections: N5_nightlights, CV_Covid_19_cases
 ---
 
 # During COVID-19 lockdowns night lights in central business districts decreased <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/13-nightlights.jpg" }-->

@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: atmosphere
 tags: wildfire,pollution
 official: true
+collections: N1_NO2, N1_SO2, N1_CO, N2_CO2_jaxa_gosat, SIF_solar_induced_chlorophyll_fluorescence
 ---
 
 # NASA, ESA and JAXA, Working Together to Monitor our Atmosphere <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-Atmosphere_Overview_Picture.jpg" }-->

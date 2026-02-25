@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: cryosphere
 tags: arctic,ice,polar
 official: true
+collections: N12_sea_ice_concentration, SIC_sea_ice_thickness_cryosat, SIE_sea_ice_thickness_envisat, SITI_IS2SITMOGR4-cog
 ---
 
 #   The sea ice extent has been rapidly decreasing in recent years as global temperatures have risen <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/SeaIce.jpeg" }-->

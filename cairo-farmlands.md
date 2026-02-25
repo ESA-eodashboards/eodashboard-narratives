@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: atmosphere
 tags: carbon,crops,co2
 official: true
+collections: N2_CO2_jaxa_gosat, SIF_solar_induced_chlorophyll_fluorescence, N1_NO2_jaxa, N2_CO2_mean, N1_NO2
 ---
 
 # Farmlands North of Cairo absorb so much atmospheric CO2 it can be measured from space <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/3-agriculture-crops.jpg" }-->

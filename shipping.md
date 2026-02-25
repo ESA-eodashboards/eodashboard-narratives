@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: covid-19
 tags: shipping
 official: true
+collections: E13c_shipping_activity, CV_Covid_19_cases
 ---
 
 #  Travel restrictions interrupted Global Supply chains dependent on cargo shipping<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/12-ship-traffic.jpg" }-->

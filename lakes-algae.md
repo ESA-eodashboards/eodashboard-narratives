@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: oceans
 tags: algae,lakes,water
 official: true
+collections: Lakes_SWT_surface_water_temperature, NLK_lakes
 ---
 
 #   Algal blooms in lake waters <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Cambodian_rivers.jpg" }-->

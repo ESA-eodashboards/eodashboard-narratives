@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: oceans
 tags: pollution,lakes,water
 official: true
+collections: Lakes_SWT_surface_water_temperature, Lakes_WQ_TURB_water_turbidity, Lakes_S2L2A, Lakes_ALOS2, NLK_lakes, LWE_lake_water_extent, LWL_lake_water_level
 ---
 
 #  Troubled Waters: Unraveling the Impacts of Climate Change on Inland Waters <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/lakes_cover.jpg" }-->

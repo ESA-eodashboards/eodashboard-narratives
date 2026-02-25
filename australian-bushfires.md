@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: atmosphere
 tags: wildfires,forests,no2,co2
 official: true
+collections: N1_CO, N1_NO2, N1_SO2
 ---
 
 #  Australian bushfires in 2019-2020 emitted 700 million metric tons of CO2 into the atmosphere <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/8-wildfires.jpg" }-->

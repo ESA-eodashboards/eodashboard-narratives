@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: oceans
 tags: ocean,life, diversity
 official: true
+collections: NPP_ocean_primary_productivity, NPPN_ocean_primary_productivity, N11_ocean_primary_productivity, N3a2_chl_concentration, N3b_chl
 ---
 
 #   Satellite images reveal a view of the ocean that is as rich and complex as that of land <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-EO_PIX_Ocean_COVER_Photo.jpeg" }-->

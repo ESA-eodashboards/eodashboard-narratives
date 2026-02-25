@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: cryosphere
 tags: glacier,ice,climate
 official: true
+collections: ADD_L2_Thwaites, ADD_L2_Pine_Island, ADD_West_Antarctica_S1, ADD_Meltmap, ADD_Melt_Onset, ADD_Melt_Season_End, ADD_Melt_Duration, 4D_Greenland_Melt_Duration, 4D_Greenland_Melt_Onset, 4D_Greenland_Melt_Season_End, 4D_Greenland_Meltmap
 ---
 
 #  Collaboration on Glaciers and Ice Sheets Research <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Iceberg_in_Antarctica.jpg" }-->

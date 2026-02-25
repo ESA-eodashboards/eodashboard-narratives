@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: biomass
 tags: forest,carbon
 official: true
+collections: nceo_africa_2017, RECCAP2_6_deforested_biomass, RECCAP2_7_degraded_biomass, RECCAP2_8_edge_biomass_change, RECCAP2_1_AGC_LVOD_amazonia_methods_mean_crop, RECCAP2_9_intact_biomass_change_methods_mean, RECCAP2_5_SF_biomass_growth, FNF_Palsar, E10e_ndvi, ESDC_kndvi, ESDC_net_ecosystem_exchange
 ---
 
 #   A view from space monitors land cover and tree to track aboveground biomass and carbon content <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Biomass.jpeg" }-->

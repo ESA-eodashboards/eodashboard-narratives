@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: oceans
 tags: ocean,life,diversity
 official: true
+collections: N11_ocean_primary_productivity, NPP_ocean_primary_productivity, NPPN_ocean_primary_productivity
 ---
 
 #    Understanding climate change effects on water temperature and ocean currents is vital to managing these resources <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/JAXA%20Ocean%20Cover.jpeg" }-->

@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: agriculture
 tags: crop,food,supply
 official: true
+collections: N6_geoglam
 ---
 
 # Satellites are providing insights into agricultural production, crop conditions, and food supply <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Agriculture.jpeg" }-->
