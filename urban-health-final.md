@@ -4,6 +4,7 @@ date: 2026-02-04
 theme: atmosphere
 tags: health,atmosphere
 official: true
+collections: facebook_population_density, GCOM_LST, N1_NO2, NTLU_nightlights_urban, grdi-v1-raster, grdi-vnl-slope-raster, NASAPopulation, CV_Covid_19_cases
 ---
 
 # Urban Health and Megacities: the case of New Delhi <!--{ as="img" data-fallback-src="" mode="hero" src="https://live.staticflickr.com/3600/3409479660_54cc371386_b.jpg" }-->
