@@ -4,7 +4,7 @@ date: 2025-01-01
 theme: extreme-events
 tags: aerosol
 official: false
-collections: N1_SO2
+collections: N1_SO2, N1_NO2, S5P-L3GRD-AAI-DAY
 ---
 
 # Tracking aerosol plumes from Hunga eruption of 2022 <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/hunga-tonga/cover-hunga.jpg" }-->
