@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: economy
 tags: light,night,lockdown
 official: true
+collections: NTLU_nightlights_urban, NTLR_nightlights_rural, N5_nightlights, CV_Covid_19_cases
 ---
 
 # Observing Nighlights from Space<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/stories/Nightlights/nightlights_hero.jpeg" }-->
