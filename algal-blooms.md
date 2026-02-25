@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: oceans
 tags: algae,phytoplankton,marine
 official: true
+collections: N3a2_chl_concentration, N11_ocean_primary_productivity
 ---
 
 #  Global warming and environmental pollution have led to a rise in the number and severity of HAB outbreaks <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/A2019267212500.CalifornaiCoastalBloom.jpg" }-->
