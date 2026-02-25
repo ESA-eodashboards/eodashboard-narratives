@@ -13,12 +13,13 @@ tags: glaciers,climate,third-pole
 # 
 *This story is based on results from the [Science Hub Challenges in September 2025](https://sciencehub.esa.int/2025/09/29/science-hub-challenges-september-2025/) organised and hosted by ESA's ESRIN. The challenge focused on monitoring properties of snow, glaciers and sea ice using the [DeepESDL platform](https://earthsystemdatalab.net/). It was developed by a team from Ca’ Foscari University of Venice.*
 
+##  <!--{ nav="false"}-->
+
 <p align="center">
   <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-5/cafoscari.png?raw=true" 
        alt="University of Edinburgh" 
        height="80"/>
 </p>
-
 
 
 ## Challenge
