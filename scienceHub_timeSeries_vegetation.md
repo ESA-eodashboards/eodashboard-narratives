@@ -12,6 +12,7 @@ official: false
 # 
 *This story is based on results from the [Science Hub Challenges in September 2025](https://sciencehub.esa.int/2025/09/29/science-hub-challenges-september-2025/) organised and hosted by ESA's ESRIN, by students from the Universty of Leeds:*
 
+##  <!--{ nav="false"}-->
 <p align="center">
   <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/images.png?raw=true" 
        alt="University of Edinburgh" 
