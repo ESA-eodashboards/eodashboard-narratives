@@ -6,7 +6,7 @@ theme: theme_name
 tags: floods,earth-observation,wasdi
  
 
----
+---    
 
 # Mapping the 2024 Central European Floods with Satellite Technology <!--{ as="img" mode="hero" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Hochwasser_Gars_am_Kamp_2024_03.jpg/1200px-Hochwasser_Gars_am_Kamp_2024_03.jpg?20240914153540" }-->
 ### Using remote sensing data and WASDI workflows to monitor flood evolution in open and urban areas <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
