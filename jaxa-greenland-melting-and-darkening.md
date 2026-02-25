@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: cryosphere
 tags: climate,ice,greenland,warming
 official: true
+collections: 4D_Greenland_Melt_Duration, 4D_Greenland_Melt_Onset, 4D_Greenland_Melt_Season_End, 4D_Greenland_Meltmap
 ---
 
 #  Recent melting and darkening of the Greenland Ice Sheet<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/jaxa-greenland-cover.jpeg" }-->
