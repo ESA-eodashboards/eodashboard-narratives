@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: covid-19
 tags: co2
 official: true
+collections: N2_CO2_mean, N2_CO2_jaxa_gosat, N1_NO2_trilateral, CV_Covid_19_cases
 ---
 
 # Covid-19 Impacts on Greenhouse Gases <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-co2/hero.jpg" }-->
