@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: covid-19
 tags: cars
 official: true
+collections: E9_car_containers
 ---
 
 # Covid-19 Impact on the Automotive Industry <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-cars-containers/hero.jpg" }-->
