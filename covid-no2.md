@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: covid-19
 tags: no2
 official: true
+collections: N1_NO2_trilateral, N1_NO2, CV_Covid_19_cases
 ---
 
 # Covid-19 Impacts on Air Quality <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-no2/hero.jpg" }-->
