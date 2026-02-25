@@ -5,7 +5,7 @@ theme: biomass
 tags: some,tags
 official: false
 collections: ESDC_kndvi
----
+--- 
 
 # Evaluating time series interpolation techniques for vegetation monitoring using remote sensing data <!--{ as="img" mode="hero" src="https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/10678/production/_92329176_c0157414-lowland_rainforest_danum_valley_sabah-spl.jpg.webp" }-->
 ### Authors: Denise Hick¹, Frances O'Leary¹ and Mae Evans¹  <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
