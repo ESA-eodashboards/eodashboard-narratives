@@ -29,7 +29,8 @@ The Third Pole region, encompassing the Hindu Kush-Karakoram-Himalaya mountain r
 
 </div>
 
-The challenge addresses a specific scientific question: **How can cooler summers coincide with higher water availability in the western Pamir region?** This paradox requires integrating multiple remote sensing datasets to understand the complex interaction between seasonal temperature patterns, glacier mass balance, and water storage dynamics.
+The challenge addresses a specific scientific question: **How can cooler summers coincide with higher water availability in the western Pamir region?** Glacier melt is the primary source of freshwater for communities downstream in this region. Melt typically peaks during warm summer months, so a trend of cooling summer temperatures would be expected to reduce water availability — yet observations suggest the opposite, pointing to a more complex dynamic driven by seasonal shifts in melting patterns. 
+This paradox requires integrating multiple remote sensing datasets to understand the complex interaction between seasonal temperature patterns, glacier mass balance, and water storage dynamics.
 
 ## Objective
 
@@ -100,7 +101,7 @@ Maps of seasonal LST averaged over 2002-2018 reveal marked spatial variability b
         alt="Kekesayi Glacier location"
     />
     <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 3.</b> Land surface temperatures (LST)
+        <b>Figure 6.</b> Land surface temperatures (LST)
     </p>
 </div>
 
@@ -115,7 +116,7 @@ We analysed LST time series trend by quantifying pixels inside the ablation zone
         alt="Kekesayi Glacier location"
     />
     <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 4.</b> Temperature trends.
+        <b>Figure 7.</b> Seasonal Land Surface Temperature (LST) trends over the ablation zone of Kekesayi Glacier (2002–2018), expressed in degrees Celsius (°C). Arrows indicate the direction of the linear trend for each season: upward arrows denote warming and downward arrows denote cooling. The glacier outline is shown in blue, with the shaded area indicating the ablation zone where pixel-level trend analysis was performed. Winter shows a statistically significant warming trend (R² = 0.56), while autumn and spring show cooling trends (R² = 0.34 and 0.43, respectively). Summer shows a non-significant cooling trend (R² = 0.05).
     </p>
 </div>
 
@@ -137,7 +138,7 @@ This represents a **154% increase** in lake area over five years, indicating enh
         alt="Supraglacial lake comparison"
     />
     <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 5.</b> Comparison of supraglacial lakes between September 2015 (left) and September 2020 (right), showing significant expansion in lake area.
+        <b>Figure 8.</b> Comparison of supraglacial lakes between September 2015 (left) and September 2020 (right), showing significant expansion in lake area.
     </p>
 </div>
 
@@ -157,7 +158,7 @@ The moisture extent maps generally coincide with supraglacial lake locations but
         alt="Moisture extent evolution"
     />
     <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 6.</b> Evolution of moisture extent across Kekesayi Glacier from 2015 to 2020, showing progressive increase in wet areas.
+        <b>Figure 9.</b> Evolution of moisture extent across Kekesayi Glacier from 2015 to 2020, showing progressive increase in wet areas.
     </p>
 </div>
 
