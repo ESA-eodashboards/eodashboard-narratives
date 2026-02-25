@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: biomass
 tags: some,tags
 official: false
+collections: ESDC_kndvi
 ---
 
 # Evaluating time series interpolation techniques for vegetation monitoring using remote sensing data <!--{ as="img" mode="hero" src="https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/10678/production/_92329176_c0157414-lowland_rainforest_danum_valley_sabah-spl.jpg.webp" }-->
