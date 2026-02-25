@@ -29,7 +29,8 @@ The Third Pole region, encompassing the Hindu Kush-Karakoram-Himalaya mountain r
 
 </div>
 
-The challenge addresses a specific scientific question: **How can cooler summers coincide with higher water availability in the western Pamir region?** Glacier melt is the primary source of freshwater for communities downstream in this region. Melt typically peaks during warm summer months, so a trend of cooling summer temperatures would be expected to reduce water availability — yet observations suggest the opposite, pointing to a more complex dynamic driven by seasonal shifts in melting patterns. 
+The challenge addresses a specific scientific question: **How can cooler summers coincide with higher water availability in the western Pamir region?** 
+Glacier melt is the primary source of freshwater for communities downstream in this region. Melt typically peaks during warm summer months, so a trend of cooling summer temperatures would be expected to reduce water availability, yet observations suggest the opposite, pointing to a more complex dynamic driven by seasonal shifts in melting patterns. 
 This paradox requires integrating multiple remote sensing datasets to understand the complex interaction between seasonal temperature patterns, glacier mass balance, and water storage dynamics.
 
 ## Objective
@@ -92,7 +93,9 @@ Temperature trend analysis was supplemented with ECMWF ERA5 reanalysis data to p
 #### Seasonal Land Surface Temperature Patterns (MODIS L3C)
 Maps of seasonal LST averaged over 2002-2018 reveal marked spatial variability between different areas of the Kekesayi Glacier, particularly between accumulation and ablation zones. As expected, during autumn and spring seasons, LST is higher in the ablation zone compared to the accumulation zone. 
 
-**The most striking finding is the summer temperature pattern**: while warming would be expected, summer mean LST actually shows cooling in the ablation part of the glacier. This counterintuitive result is key to understanding the glacier's anomalous behavior.
+**The most striking finding concerns the seasonal trend behaviour rather than the absolute spatial pattern**. While the ablation zone appears colder than surrounding terrain in summer, this cooling effect is not unique to summer and can be partly explained by well-known glacier processes such as debris-insulated ice surfaces and katabatic winds transporting cold air from the accumulation zone downslope. Similar contrasts between glacier surfaces and surrounding bedrock are visible in spring and autumn.
+
+Therefore, the key signal does not lie in the spatial temperature contrast itself, but in the seasonal trends over time. Despite global warming, summer LST over the ablation zone does not show a significant warming trend, whereas winter exhibits a pronounced warming tendency. This seasonal asymmetry is consistent with previous studies (e.g., Li et al., 2023) suggesting that enhanced winter warming and precipitation, rather than increased summer melt, are major contributors to the Karakoram anomaly.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
@@ -129,7 +132,9 @@ Sentinel-2 analysis using NDWI (threshold ≥ 0.11) to detect water pixels revea
 - **September 2015**: 0.16 km²
 - **September 2020**: 0.406 km²
 
-This represents a **154% increase** in lake area over five years, indicating enhanced water availability despite cooler summer temperatures. The expansion is linked to increased winter melting from warmer temperatures, with meltwater pooling in surface depressions.
+This represents a **154% increase** in lake area over five years, indicating enhanced water availability despite cooler summer temperatures. The expansion likely reflects a combination of increased meltwater availability and evolving glacier drainage dynamics. While warmer winters may enhance meltwater production and storage, supraglacial lake formation is also strongly controlled by surface topography and the efficiency of englacial and subglacial drainage pathways. Variability in channel closure or blockage can significantly influence lake extent, even without major changes in meltwater supply.
+
+Therefore, supraglacial lake expansion should be interpreted as an integrated signal of meltwater production and drainage system evolution, rather than as a direct proxy for increased winter melt alone.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
@@ -162,13 +167,14 @@ The moisture extent maps generally coincide with supraglacial lake locations but
     </p>
 </div>
 
+Wet snow (moisture extent) was identified using a method that looks at changes in backscatter. The reference for dry snow was defined as the average σ⁰ during the winter when conditions are frozen. Pixels that showed a decrease greater than −2 dB from this baseline were classified as wet snow (Nagler, et al.,2016). Liquid water increases dielectric losses, reduces penetration depth, and limits volume scattering. This leads to lower backscatter, even on rough or crevassed glacier surfaces (Shi and J. Dozier 1995). Crevassed areas that show up in the wet snow class do not suggest that rough ice has been misclassified. Instead, they indicate meltwater present in the snow or firn, or along the walls of crevasses. This presence of meltwater significantly changes how radar backscattering behaves.
+
 
 ## Conclusions
 
 The study shows that some of the glaciers in the third pole do not respond uniformly to climate change, and shows slightly positive mass balance for the last decades.
 
-The focused “ Kekesayi Glacier” is found to be experiencing warming winters with increasing meltwater which contributes in expanding supraglacial lakes, whereas the glacier experiences slightly cooler summer. These mixed signals highlight the importance of combining climatic analysis with morphometric proxies to capture
-the full story.
+The focused “Kekesayi Glacier” is found to be experiencing pronounced winter warming, while summer temperatures show no significant warming trend. This seasonal asymmetry is consistent with mechanisms proposed for the Karakoram anomaly, where enhanced winter precipitation and warming contribute to sustaining glacier mass balance. The observed expansion of supraglacial lakes and moisture extent reflects evolving meltwater production and drainage dynamics, rather than a simple increase in summer melt alone.
 
 The integration of multiple sensors (MODIS, Sentinel-1 & 2) and reanalysis products (ECMWF ERA5) can help in better understanding of evolving water balance of glaciers, and by extension, their role in regional hydrology and global climate change.
 
@@ -199,4 +205,8 @@ Access the processing scripts and analysis notebooks to reproduce the study work
 - Wangchuk, S., and Bolch, T. (2020). Mapping of glacial lakes using Sentinel-1 and Sentinel-2 data and a random forest classifier: Strengths and challenges. *Science of Remote Sensing*, 2, 100008.
 
 - Holzer, N., Vijay, S., Yao, T., Xu, B., Buchroithner, M., and Bolch, T. (2015). Four decades of glacier variations at Muztagh Ata (eastern Pamir): a multi-sensor study including Hexagon KH-9 and Pléiades data. *The Cryosphere*, 9, 2071–2088. [https://doi.org/10.5194/tc-9-2071-2015](https://doi.org/10.5194/tc-9-2071-2015)
+
+- Nagler, T., Rott, H., Ripper, E., Bippus, G., & Hetzenecker, M. (2016). Advancements for Snowmelt Monitoring by Means of Sentinel-1 SAR. Remote Sensing, 8(4), 348. https://doi.org/10.3390/rs8040348
+
+- Jiancheng Shi and J. Dozier, "Inferring snow wetness using C-band data from SIR-C's polarimetric synthetic aperture radar," in IEEE Transactions on Geoscience and Remote Sensing, vol. 33, no. 4, pp. 905-914, July 1995, doi: 10.1109/36.406676 
 
