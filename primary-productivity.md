@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: oceans
 tags: chlorophyll,marine
 official: true
+collections: NPPN_ocean_primary_productivity
 ---
 
 #  One of the most important processes in nature is primary productivity<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/4-ocean-carbon.jpg" }-->
