@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: cryosphere
 tags: climate,ice,polar,warming
 official: true
+collections: SITI_IS2SITMOGR4-cog, SIE_sea_ice_thickness_envisat, SIC_sea_ice_thickness_cryosat, N12_sea_ice_concentration
 ---
 
 #   Measuring Thickness of Sea Ice in the Polar Oceans<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/CryoSat.jpeg" }-->
