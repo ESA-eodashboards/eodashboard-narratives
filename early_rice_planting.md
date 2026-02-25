@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: covid-19
 tags: agriculture
 official: true
+collections: E10c_rice_planting, CV_Covid_19_cases
 ---
 
 # Covid-19 Impacts on Rice Planting <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/Earth Observing Dashboard-Agriculture-Rice/hero.jpg" }-->
