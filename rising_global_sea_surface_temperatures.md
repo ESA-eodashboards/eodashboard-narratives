@@ -4,6 +4,7 @@ date: 2025-01-01
 theme: extreme-events
 tags: ocean,sea-surface-temperature
 official: true
+collections: OHC300_ocean_heat_content, ENSST_by_GCOM-W-AMSR_JAXA
 ---
 
 # El Niño 2023-2024 (Part 2): Rising Global Sea Surface Temperatures <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/el_nino_SST/cover-ai-1.png" }-->
