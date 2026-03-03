@@ -10,21 +10,6 @@ collections: E9_car_containers
 # Covid-19 Impact on the Automotive Industry <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-cars-containers/hero.jpg" }-->
 ### The effect of lockdown on the automotive industry, observed from space <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
-## <!--{ nav="false" }-->
-<div align="center">
-
-*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
-
-</div>
-
-
-  ## <!--{ nav="false" }-->
-<p align="center">
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true" alt="ESA" height="80" style="margin: 0 15px;"/>
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true" alt="NASA" height="80" style="margin: 0 15px;"/>
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true" alt="JAXA" height="80" style="margin: 0 15px;"/>
-</p>
-
 ## Automotive Sector
 
 During the Covid-19 pandemic of 2020, all over the world, countries took measures to reduce the spread of the coronavirus, such as urban lockdowns or stay-at-home requests due. Automotive manufacturers around the world also took steps, such as adjusting, reducing and suspending new car production.

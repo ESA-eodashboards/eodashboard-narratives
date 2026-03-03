@@ -10,21 +10,6 @@ collections: N2_CO2_mean, N2_CO2_jaxa_gosat, N1_NO2_trilateral, CV_Covid_19_case
 # Covid-19 Impacts on Greenhouse Gases <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/covid-co2/hero.jpg" }-->
 ### Effect of lockdown on Carbon Dioxide <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
-## <!--{ nav="false" }-->
-<div align="center">
-
-*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
-
-</div>
-
-
-  ## <!--{ nav="false" }-->
-<p align="center">
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true" alt="ESA" height="80" style="margin: 0 15px;"/>
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true" alt="NASA" height="80" style="margin: 0 15px;"/>
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true" alt="JAXA" height="80" style="margin: 0 15px;"/>
-</p>
-
 ## Impacts on Greenhouse Gases
 
 Lockdowns and other social distancing measures implemented in response to the COVID-19 pandemic have led to temporary reductions in carbon dioxide (CO2)
