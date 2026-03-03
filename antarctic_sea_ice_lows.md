@@ -10,6 +10,21 @@ collections: N12_sea_ice_concentration, ENSST_by_GCOM-W-AMSR_JAXA
 # Antarctic Ice lows <!--{ as="img" mode="hero" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.antarcticglaciers.org%2Fwp-content%2Fuploads%2F2013%2F10%2Fsea-ice.jpg&f=1&nofb=1&ipt=6adc1515792ec744345ee0000e71b395a33bb9f6813f34e52f987bfbf3dd7827&ipo=images" }-->
 ### Unprecedented Antarctic Sea Ice Decline in 2023: Record Lows and Historic Anomalies <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
+
 ## 2023 Antarctic Sea Ice
 While global temperature records in 2023 made headlines, some remarkable events and record breaking events also occurred in Antarctica. On 16 February 2023, the Copernicus Marine Service recorded a new low in Antarctic sea ice coverage, which fell to just 1.77 million km2 [[1]](https://marine.copernicus.eu/news/antarctic-summer-sea-ice-minimum-lowest-ever-observed) - 36% below the 1979-2022 average daily minimum. Since then, Antarctic sea ice has continued to decline, reaching record lows in May and June 2023, particularly in the Weddell, Bellingshausen, and the Ross Sea's western part (as shown below) [[2]](https://marine.copernicus.eu/news/2023-northern-hemisphere-summer-record-breaking-oceanic-events). Following the summer minimum, the Antarctic sea ice coverage remained exceptionally low during the autumn and winter growth period, resulting in the largest negative anomaly in areal extent ever observed by satellites. This means that new records were set for both the annual minimum in February  and also the annual maximum in September [[3]](https://www.nature.com/articles/s43247-023-00961-9). On September 24th, Antarctic sea ice reached its annual maximum extent of 16.96 million km2 setting a new record low maximum in the satellite record (i.e. since 1979) [[4]](https://nsidc.org/sea-ice-today/analyses/antarctic-sets-record-low-maximum-wide-margin). 
 
