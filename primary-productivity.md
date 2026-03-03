@@ -10,6 +10,21 @@ collections: NPPN_ocean_primary_productivity
 #  One of the most important processes in nature is primary productivity<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/4-ocean-carbon.jpg" }-->
 ### Read more about how satellite sensors take the pulse of our marine ecosystems <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
+
 ## Ocean Colors
 
 Our planet is constantly changing. Some changes are fast – such as seasons and phytoplankton blooms – while others are slow and occur over decades to millennia. Some changes are caused by natural phenomena, while others, including global warming and ocean acidification, are caused by human activity. To see changes beyond the normal seasonal variability that is caused by our planet’s weather patterns, it is necessary to collect data over long periods of time. We have been using satellite sensors to collect such data and to observe our planet from space for more than two decades.
