@@ -10,6 +10,21 @@ collections: nceo_africa_2017, RECCAP2_6_deforested_biomass, RECCAP2_7_degraded_
 #   A view from space monitors land cover and tree to track aboveground biomass and carbon content <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Biomass.jpeg" }-->
 ### Read more about taking stock of global biomass maps <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
+
 #   The Biomass Harmonization Activity
 
 Trees and other plants pull vast amounts of carbon dioxide out of the atmosphere every year, incorporating some of that carbon into their organic structure, what Earth scientists call plant biomass. Measuring and monitoring the size and changes in this biomass carbon is an important part of the Paris Agreement on climate change. If a forest is cut down, for example, the carbon stored in those trees will count towards that country’s annual carbon emissions.
