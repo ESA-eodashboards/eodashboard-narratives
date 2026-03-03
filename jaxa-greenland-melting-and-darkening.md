@@ -10,6 +10,21 @@ collections: 4D_Greenland_Melt_Duration, 4D_Greenland_Melt_Onset, 4D_Greenland_M
 #  Recent melting and darkening of the Greenland Ice Sheet<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/jaxa-greenland-cover.jpeg" }-->
 ### JAXA's JASMES Greenland Monitor provides observations of Greenland Ice Sheet <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
+
 ## Recent melting and darkening of the Greenland Ice Sheet
  
 The Greenland Ice Sheet (GrIS) is the second biggest ice body on the Earth. GrIS has about 10% freshwater on the Earth – its mass is equal to about eight meters sea level rise. In recent years, the GrIS mass has been lost rapidly. Under global warming conditions, the air temperature rise affects ice sheet melting. The Arctic region is particularly warming due to the Arctic Amplification, and the temperature rise around Greenland is no exception. This air temperature rise has resulted in frequent surface melting of GrIS. For example, in July 2012, approximately 97% of the ice sheet surface melted in Greenland. Since then, the GrIS has experienced several widespread surface melting.
