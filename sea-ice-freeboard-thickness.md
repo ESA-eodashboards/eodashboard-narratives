@@ -10,6 +10,21 @@ collections: SITI_IS2SITMOGR4-cog, SIE_sea_ice_thickness_envisat, SIC_sea_ice_th
 #   Measuring Thickness of Sea Ice in the Polar Oceans<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/CryoSat.jpeg" }-->
 ### Read more about monitoring Sea Ice Freeboard & Thickness from Satellite Altimetry. <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
+
 ## Sea Ice Freeboard and Thickness
 
 NASA provides data collected over the Arctic Ocean by the Ice, Cloud and land Elevation Satellite-2 (ICESat-2) that show monthly sea ice freeboard from 2018 to the present. Sea ice freeboard is the amount of sea ice and snow cover that is visible above the surface of the ocean and, along with snow depth, is a critical measurement for accurately measuring the thickness of sea ice in the polar oceans. Click [here](https://icesat-2.gsfc.nasa.gov/science) to learn more about this research.

@@ -10,6 +10,21 @@ collections: NPP_ocean_primary_productivity, NPPN_ocean_primary_productivity, N1
 #   Satellite images reveal a view of the ocean that is as rich and complex as that of land <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/1-EO_PIX_Ocean_COVER_Photo.jpeg" }-->
 ### Read more about following the activity of plants in the ocean from space <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
+
 ## Following the Activity of Phytoplankton – The Miracle Plants in The Ocean
 
 When most of us think of plants, we envision the vibrant colors of a beautiful garden, a lush rainforest, or even a healthy bowl of salad. Plants provide us with essential nutrients, and they are critical to maintaining carbon dioxide (CO<sub>2</sub>) levels in the atmosphere and regulating Earth’s climate.

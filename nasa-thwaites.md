@@ -10,6 +10,21 @@ collections: ADD_L2_Thwaites, ADD_L2_Pine_Island
 #    Pine Island Glacier and Thwaites Glacier<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/NASA-thwaites-cover.jpeg" }-->
 ### Two of the main pathways for ice from the West Antarctic Ice Sheet entering the Amundsen Sea <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
+
 ## West Antarctic Glaciers
 
 Pine Island Glacier and neighboring Thwaites Glacier are two of the main pathways for ice from the West Antarctic Ice Sheet entering the Amundsen Sea. Because of their remote location and often hazardous terrain, only a few researchers have ever made the trip to study these glaciers close-up. The glaciers have an immense impact on the rest of the planet and are closely monitored for their potentially harmful effects on sea levels. Thwaites, one of the fastest-retreating glaciers in Antarctica, is nicknamed the “[Doomsday Glacier](https://edition.cnn.com/2022/09/05/world/thwaites-doomsday-glacier-sea-level-climate/index.html)”. According to a 2020 estimate from the [International Thwaites Glacier Collaboration](https://thwaitesglacier.org/), four percent of sea level rise directly related to climate change came from Thwaites alone, and a sudden total collapse would raise global sea levels 25 inches more. Collectively, the region contains enough vulnerable ice to raise global sea level by about 1.2 meters (four feet).

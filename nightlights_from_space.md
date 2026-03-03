@@ -9,6 +9,21 @@ collections: NTLU_nightlights_urban, NTLR_nightlights_rural, N5_nightlights, CV_
 
 # Observing Nighlights from Space<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/stories/Nightlights/nightlights_hero.jpeg" }-->
 
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
+
 ## Observing Nighlights from Space
 
 At night, on the surface of our planet, multiple sources of illumination, such as streetlights, buildings and ships can be seen from space. These nighttime lights (NTL) are a reliable proxy for measuring the scope and intensity of human activity.  

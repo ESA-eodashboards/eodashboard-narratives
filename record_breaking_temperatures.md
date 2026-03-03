@@ -10,6 +10,21 @@ collections: SLSTR1_LST, NASA_ECOSTRESS_LST
 # El Niño 2023-2024 (Part 1): Record-breaking temperatures <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/el_nino_land_temperatures/hawkins-stripes.png" }-->
 ### Read more about observing land surface temperature from space <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
+
 ## El Niño 2023-2024
 
 The year 2024 has experienced an unprecedented streak of record-breaking global temperatures. April 2024, the warmest April on record, saw average global surface air temperatures rise 0.67°C above the 1991-2020 average and 1.58°C higher than pre-industrial levels [1]. This marked the 11th consecutive month of record temperatures [2]. In fact, just a year prior, 2023 became the warmest year on record, surpassing the previous high set in 2016, according to the Copernicus State of the Climate report [3]. Throughout 2023, over 200 days saw new daily global temperature records, and unusually high sea surface temperatures likely contributed to the lowest recorded sea ice extent in the Antarctic Ocean, both during the February summer minimum and the September winter maximum [4]. 
