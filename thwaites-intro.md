@@ -10,6 +10,21 @@ collections: ADD_L2_Thwaites, ADD_L2_Pine_Island, ADD_West_Antarctica_S1, ADD_Me
 #  Collaboration on Glaciers and Ice Sheets Research <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Iceberg_in_Antarctica.jpg" }-->
 ### Researchers and scientists across the globe are paying daily attention to ice formations in Antarctica and Greenland <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
+
 ## Research Collaboration on Glaciers and other ice formations
 
 Researchers and scientists across the globe are paying daily attention to two glaciers located in West Antarctica. Thwaites Glacier is a mammoth sheet of ice. It is melting and changing so rapidly that it has been nicknamed [Doomsday Glacier](https://www.google.com/search?client=safari&rls=en&q=doomsday+glacier&ie=UTF-8&oe=UTF-8).
