@@ -10,6 +10,21 @@ collections: FNF_Palsar, E10e_ndvi, LIS_Global_DA_Evap, RECCAP2_6_deforested_bio
 # Forests on the Brink: Satellite Imagery unveiling Loss and Shifting Forest Landscapes <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/forest_story/hero.jpg" }-->
 ### Forest Loss and Degradation worldwide <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
+
 ## Forest Loss and Shifting Landscapes
 
 Forests cover 31% of the global land area [(1)](https://www.fao.org/3/CA8753EN/CA8753EN.pdf) and are a critical component of the world’s biodiversity. According to the "State of the World’s Forest 2022" report [(2)](https://www.fao.org/publications/home/fao-flagship-publications/the-state-of-the-worlds-forests/2022/en) published by FAO, they host more than 75% of the world’s terrestrial biodiversity, being home to some of the richest ecosystems. Forests are crucial for maintaining ecosystem balance, offering essential ecosystem services. However, deforestation and forest degradation<sup>1</sup> continue to take place at alarming rates [(3)](https://www.fao.org/documents/card/en/c/ca8753en). Deforestation, rising temperature, drier conditions and more frequent and severe fires are pushing different forest types to the verge of irreversible tipping points [(4)](https://www.bbc.com/news/science-environment-60650415), and risk to lose their ability to bounce back from damage, with far-reaching consequences. Deforestation is also the leading cause for 15% of carbon emissions [(5)](https://petpedia.co/deforestation-statistics/), can have a large impact on physical processes in the local climate, it disrupts the carbon cycle and energy balance and has been being associated with heat waves in North America and Eurasia [(6)](https://climate.mit.edu/explainers/forests-and-climate-change).
