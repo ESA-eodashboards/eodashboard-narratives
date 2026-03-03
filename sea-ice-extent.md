@@ -10,6 +10,21 @@ collections: N12_sea_ice_concentration, SIC_sea_ice_thickness_cryosat, SIE_sea_i
 #   The sea ice extent has been rapidly decreasing in recent years as global temperatures have risen <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/SeaIce.jpeg" }-->
 ### Monitoring Sea Ice Extent and Concentration from Passive Microwave <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
+
 ## Sea Ice Extent and Concentration from Passive Microwave
 
 The sea ice extent has been rapidly decreasing in recent years as global temperatures have risen. As sea ice extent is very important, space agencies are continuously monitoring it from space. Microwave remote sensing from space is the only tool that provides continuous, consistent, and comprehensive information on sea ice changes in polar regions. JAXA provides data of a variety of satellite measurements from passive microwave imagers, including the Advanced Microwave Scanning Radiometer (AMSR) series. These data aim to capture sea ice concentration (i.e., coverage) and sea ice extent trends in the polar oceans on a daily basis from 1978 to the present.
