@@ -16,7 +16,7 @@ collections: N1_SO2, N1_NO2, S5P-L3GRD-AAI-DAY
 
 ##  <!--{ nav="false"}-->
 <p align="center">
-  <img src=["https://github.com/eurodatacube/eodash-assets/blob/main/logos/Logo_of_Sorbonne_University.svg.png" 
+  <img src=["[https://github.com/eurodatacube/eodash-assets/blob/main/logos/Logo_of_Sorbonne_University.svg.png](https://github.com/eurodatacube/eodash-assets/blob/main/logos/Logo_of_Sorbonne_University.svg.png?raw=true)" 
        alt="" 
        height="80"/>
 </p>
