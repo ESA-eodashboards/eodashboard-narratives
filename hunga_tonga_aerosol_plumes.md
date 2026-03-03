@@ -7,18 +7,17 @@ official: false
 collections: N1_SO2, N1_NO2, S5P-L3GRD-AAI-DAY
 ---
 
-# Tracking aerosol plumes from Hunga eruption of 2022 <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/hunga-tonga/cover-hunga.jpg" }-->
-### Authors: Clair Duchamp¹, Aude Barton¹ & Aiten Alava Baldazo¹  <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+# Tracking aerosol plumes from Hunga eruption of 2022  <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/hunga-tonga/cover-hunga.jpg" }-->
+### Authors: Clair Duchamp¹, Aude Barton¹ & Aiten Alava Baldazo¹ <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 1 - Sorbonne University, Paris, France
 
-#
-
-*This story is based on results from the [3<sup>rd</sup> Earth System Science Challenge]( https://sciencehub.esa.int/2024/05/09/3rd-earth-system-science-challenge/) organised and hosted by ESA's ESRIN Science Hub in February 2024. The scope of the challenge was to use temporal interpolation of satellite data in order to track efficiently the plume of the unprecedented eruption of the Hunga volcano in January 2022. The method presented here was developed by a team of PhD students from Sorbonne Université on the [DeepESDL platform](https://earthsystemdatalab.net). The data and code are made openly available.  *
+# 
+*This story is based on results from the [3<sup>rd</sup> Earth System Science Challenge](https://sciencehub.esa.int/2024/05/09/3rd-earth-system-science-challenge/) organised and hosted by ESA's ESRIN Science Hub in February 2024. The scope of the challenge was to use temporal interpolation of satellite data to efficiently track the plume from the unprecedented eruption of the Hunga volcano in January 2022. The method presented here was developed by a team of PhD students from Sorbonne Université on the [DeepESDL platform](https://earthsystemdatalab.net). The data and code are made openly available.*
 
 ##  <!--{ nav="false"}-->
 <p align="center">
-  <img src=["[https://github.com/eurodatacube/eodash-assets/blob/main/logos/Logo_of_Sorbonne_University.svg.png](https://github.com/eurodatacube/eodash-assets/blob/main/logos/Logo_of_Sorbonne_University.svg.png?raw=true)" 
-       alt="" 
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/Logo_of_Sorbonne_University.svg.png?raw=true" 
+       alt="Sorbonne University" 
        height="80"/>
 </p>
 
