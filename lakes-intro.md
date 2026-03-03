@@ -10,6 +10,21 @@ collections: Lakes_SWT_surface_water_temperature, Lakes_WQ_TURB_water_turbidity,
 #  Troubled Waters: Unraveling the Impacts of Climate Change on Inland Waters <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/lakes_cover.jpg" }-->
 ### Read more about how Air Pollution affects Climate Change <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
+
 ## Impacts of climate on inland water
 
 Inland surface water habitats are non-coastal above-ground open fresh or brackish waterbodies (e.g. rivers, streams, lakes and pools, springs), including their littoral zones [1]. With sustainable management practices, these water resources provide essential services such as food production, flood regulation and water purification [2,3] for the wellbeing of both urban and rural communities. Climate change and anthropogenic actions put multiple pressures on these sources of water, with far-reaching consequences ultimately affecting the health of humans and animals. Satellite remote sensing offers effective ways to monitor these impacts and understand the risks of reaching ‘tipping points’: a critical threshold where a small change in a certain condition can lead to large (and often irreversible) shift in the system. Earth observation satellites from ESA [4-6], NASA [7,8], and JAXA [9] allow scientists to have a clear view on different variables characterising inland water bodies including:
