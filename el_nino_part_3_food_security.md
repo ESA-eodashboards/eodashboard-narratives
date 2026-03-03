@@ -9,6 +9,21 @@ collections: N6_geoglam
 
 # El Niño 2023-2024: Impacts on food security<!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2014/05/crop_yield/14537834-1-eng-GB/Crop_yield_pillars.jpg" }-->
 
+## <!--{ nav="false" }-->
+<div align="center">
+
+*This trilateral story, produced in collaboration by the [European Space Agency (ESA)](https://www.esa.int), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), and the [Japan Aerospace Exploration Agency (JAXA)](https://global.jaxa.jp/), is part of the joint narratives featured on [EO Dashboard](https://eodashboard.org/), showcasing the power of open Earth observation data.*
+
+</div>
+
+
+  ## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true" alt="JAXA" height="80" style="margin: 0 15px;"/>
+</p>
+
 ## El Niño 2023-2024: impacts on food security
 
 ***The 2023–2024 El Niño has peaked as one of the five strongest on record. This story is part 3 of a series dedicated to its impacts. [Part 1](https://eodashboard.org/story?id=el-nino-extremes) focuses on record-breaking land surface temperatures, heatwaves, and nighttime temperatures, while [Part 2](https://eodashboard.org/story?id=sea-surface-temperature-rise) focuses on global sea surface temperature rises and marine heatwaves.***
