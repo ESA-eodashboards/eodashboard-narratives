@@ -8,10 +8,8 @@ collections: N1_CO, facebook_population_density
 ---
 
 # Extreme air pollution episodes in Northern India and Pakistan <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/AirPollutionIndia/cover-pakistan.jpg" }-->
-### Authors: Selviga Sinnathamby<sup>1,2,3</sup>, Natacha Kaminski<sup>1,2,3</sup> & Elie Zoghbi<sup>1,2,3</sup> <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
-1 - Sorbonne Université, Paris, France  
-2 - Académie Spatiale, France  
-3 - Institut de Physique du Globe de Paris (IPGP), Paris, France
+### Authors: Selviga Sinnathamby<sup>1</sup>, Natacha Kaminski<sup>1</sup> & Elie Zoghbi<sup>1</sup> <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+1 - Sorbonne Université, Académie Spatiale and Institut de Physique du Globe de Paris (IPGP), Paris, France
 
 
 # 
