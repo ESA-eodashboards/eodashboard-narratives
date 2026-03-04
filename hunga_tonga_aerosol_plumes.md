@@ -8,8 +8,10 @@ collections: N1_SO2, N1_NO2, S5P-L3GRD-AAI-DAY
 ---
 
 # Tracking aerosol plumes from Hunga eruption of 2022  <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/hunga-tonga/cover-hunga.jpg" }-->
-### Authors: Clair Duchamp¹, Aude Barton¹ & Aiten Alava Baldazo¹ <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
-1 - Sorbonne University, Paris, France
+### Authors: Clair Duchamp¹²³, Aude Barton¹²³ & Aiten Alava Baldazo¹²³ <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+1 - Sorbonne Université, Paris, France  
+2 - Académie Spatiale, France  
+3 - Institut de Physique du Globe de Paris (IPGP), Paris, France
 
 # 
 *This story is based on results from the [3<sup>rd</sup> Earth System Science Challenge](https://sciencehub.esa.int/2024/05/09/3rd-earth-system-science-challenge/) organised and hosted by ESA's ESRIN Science Hub in February 2024. The scope of the challenge was to use temporal interpolation of satellite data to efficiently track the plume from the unprecedented eruption of the Hunga volcano in January 2022. The method presented here was developed by a team of PhD students from Sorbonne Université, the Académie Spatiale and the Institut de Physique du Globe de Paris (IPGP),on the [DeepESDL platform](https://earthsystemdatalab.net). The data and code are made openly available.*
