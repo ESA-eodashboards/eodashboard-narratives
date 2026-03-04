@@ -8,7 +8,7 @@ collections: N1_SO2, N1_NO2, S5P-L3GRD-AAI-DAY
 ---
 
 # Tracking aerosol plumes from Hunga eruption of 2022  <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/hunga-tonga/cover-hunga.jpg" }-->
-### Authors: Clair Duchamp¹²³, Aude Barton¹²³ & Aiten Alava Baldazo¹²³ <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+### Authors: Clair Duchamp<sup>1,2,3</sup>, Aude Barton<sup>1,2,3</sup> & Aiten Alava Baldazo<sup>1,2,3</sup>
 1 - Sorbonne Université, Paris, France  
 2 - Académie Spatiale, France  
 3 - Institut de Physique du Globe de Paris (IPGP), Paris, France
