@@ -12,13 +12,14 @@ collections: N1_SO2, N1_NO2, S5P-L3GRD-AAI-DAY
 1 - Sorbonne University, Paris, France
 
 # 
-*This story is based on results from the [3<sup>rd</sup> Earth System Science Challenge](https://sciencehub.esa.int/2024/05/09/3rd-earth-system-science-challenge/) organised and hosted by ESA's ESRIN Science Hub in February 2024. The scope of the challenge was to use temporal interpolation of satellite data to efficiently track the plume from the unprecedented eruption of the Hunga volcano in January 2022. The method presented here was developed by a team of PhD students from Sorbonne Université on the [DeepESDL platform](https://earthsystemdatalab.net). The data and code are made openly available.*
+*This story is based on results from the [3<sup>rd</sup> Earth System Science Challenge](https://sciencehub.esa.int/2024/05/09/3rd-earth-system-science-challenge/) organised and hosted by ESA's ESRIN Science Hub in February 2024. The scope of the challenge was to use temporal interpolation of satellite data to efficiently track the plume from the unprecedented eruption of the Hunga volcano in January 2022. The method presented here was developed by a team of PhD students from Sorbonne Université, the Académie Spatiale and the Institut de Physique du Globe de Paris (IPGP),on the [DeepESDL platform](https://earthsystemdatalab.net). The data and code are made openly available.*
 
-##  <!--{ nav="false"}-->
+
+  ## <!--{ nav="false" }-->
 <p align="center">
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/Logo_of_Sorbonne_University.svg.png?raw=true" 
-       alt="Sorbonne University" 
-       height="80"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/Logo_of_Sorbonne_University.svg.png?raw=true" alt="" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/Academie-Spatiale_logo_ligne-1.png?raw=true" alt="" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/ipgp_logo.png?raw=true" alt="" height="80" style="margin: 0 15px;"/>
 </p>
 
 
