@@ -1,9 +1,9 @@
 ---
 cover-image: https://climate.esa.int/media/images/Ocean-Colour-CCI_.2e16d0ba.fill-600x314-c100.format-jpeg.jpg
 date: 2025-01-01
-theme: theme_name
+theme: oceans
 tags: ocean,water-quality,clustering,mediterranean
-
+offifial: false
 ---
 
 # Clustering Ocean Water Types Using Spectral EO Data <!--{ as="img" mode="hero" src="https://climate.esa.int/media/images/Ocean-Colour-CCI_.2e16d0ba.fill-600x314-c100.format-jpeg.jpg" }-->
