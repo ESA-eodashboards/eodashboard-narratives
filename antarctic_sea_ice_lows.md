@@ -29,7 +29,7 @@ collections: N12_sea_ice_concentration, ENSST_by_GCOM-W-AMSR_JAXA
 While global temperature records in 2023 made headlines, some remarkable events and record breaking events also occurred in Antarctica. On 16 February 2023, the Copernicus Marine Service recorded a new low in Antarctic sea ice coverage, which fell to just 1.77 million km2 [[1]](https://marine.copernicus.eu/news/antarctic-summer-sea-ice-minimum-lowest-ever-observed) - 36% below the 1979-2022 average daily minimum. Since then, Antarctic sea ice has continued to decline, reaching record lows in May and June 2023, particularly in the Weddell, Bellingshausen, and the Ross Sea's western part (as shown below) [[2]](https://marine.copernicus.eu/news/2023-northern-hemisphere-summer-record-breaking-oceanic-events). Following the summer minimum, the Antarctic sea ice coverage remained exceptionally low during the autumn and winter growth period, resulting in the largest negative anomaly in areal extent ever observed by satellites. This means that new records were set for both the annual minimum in February  and also the annual maximum in September [[3]](https://www.nature.com/articles/s43247-023-00961-9). On September 24th, Antarctic sea ice reached its annual maximum extent of 16.96 million km2 setting a new record low maximum in the satellite record (i.e. since 1979) [[4]](https://nsidc.org/sea-ice-today/analyses/antarctic-sets-record-low-maximum-wide-margin). 
 
 <figure style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/Antarctic%20Sea%20Ice%20lows/may_eumetsat_image_4.png?raw=true" 
+    <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/Antarctic%20Sea%20Ice%20lows/may_eumetsat_image_4.png" 
          alt=" Sea ice concentration in May 2023. " 
          style="display: block; margin: 0 auto;"
          width="700">
@@ -46,7 +46,7 @@ While global temperature records in 2023 made headlines, some remarkable events 
 Low sea ice conditions in the Southern Ocean cannot be attributed to a single cause, but [El Niño](https://eodashboard.org/story?id=el-nino-extremes) may have played a contributing role. Historically, large-scale climate patterns like ENSO and the Southern Annular Mode have influenced the annual fluctuations in Antarctic sea ice by either amplifying or suppressing changes, affecting how sea ice moves, melts and freezes. The record lows observed in 2023 could have been driven by a combination of factors. Recent studies [[5]](https://www.nature.com/articles/s43247-022-00624-1) highlighted the important role of ocean processes and heat stored in subsurface ocean waters, which have contributed to reduced sea ice extent since 2016. Warm sea surface temperatures in the Southern Ocean during the first half of 2023 may also partly explain both the record minimum extent in February and the slow freeze-up that followed. While it may not be possible to directly link the record lows in Antarctic sea ice to ENSO, recent observations suggest that ENSO impacts basal melting of West Antarctic ice shelves, indicating that the developing El Niño conditions in the Pacific Ocean [[6]](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2023GL104518) have likely worsened the decline in Antarctic sea ice extent. This trend in Antarctica shows a concerning deviation from previous patterns, as Antarctica sea ice extent has historically remained relatively stable despite ongoing climate change, in contrast to the more rapid decline seen in the Arctic. 
 
 <figure style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/Antarctic%20Sea%20Ice%20lows/graph.png?raw=true" 
+    <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/Antarctic%20Sea%20Ice%20lows/graph.png" 
          alt=" Antarctic sea ice extent.  " 
          style="display: block; margin: 0 auto;"
          width="700">
@@ -63,7 +63,7 @@ Low sea ice conditions in the Southern Ocean cannot be attributed to a single ca
 ## Record sea ice lows 
 In the Arctic, the North American and Eurasian continents encircle the Arctic Ocean, while in the Antarctic, the Southern Ocean surrounds Antarctica. Both the Arctic and Southern Oceans show seasonal variations, with sea ice expanding as seawater freezes in winter and retreating as sea ice melts in summer. When we think of “Antarctic ice”, the first thing that often comes to mind is the continental ice sheet formed by snow accumulation. However, large areas of floating frozen seawater - sea ice - also surround the continent, providing a foundation for ecosystem development. Sea ice extent and thickness are indicators of climate change because they are influenced by both air and water temperatures. Using satellite microwave radiometers such as the Advanced Microwave Scanning Radiometer [(AMSR) series](https://www.eorc.jaxa.jp/AMSR/index_en.html) and Special Sensor Microwave/Imager ([SSM/I](https://www.ncei.noaa.gov/products/dmsp-microwave-imager)), scientists can observe not only seasonal variations in sea ice extent but also long-term trends spanning over 45 years, from 1978 to the present. 
 <figure style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/Antarctic%20Sea%20Ice%20lows/Antarctic_sea_ice_concentration_image2.png?raw=true" 
+    <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/Antarctic%20Sea%20Ice%20lows/Antarctic_sea_ice_concentration_image2.png" 
          alt="Antarctic Sea Ice Lows" 
          style="display: block; margin: 0 auto;">
 </figure>
@@ -133,7 +133,7 @@ Let's examine the interannual variability of Antarctic summer sea ice extent. Th
 The trend began to change in the early austral spring of 2016 (around November). Higher sea surface temperatures in the Southern Ocean and warm air advected from the north led to a decrease in sea ice extent [[7]](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017GL073656) [[8]](https://doi.org/10.1002/2017GL074691) [[9]](https://doi.org/10.1029/2022GL098904), reaching a record minimum in February 2017, as shown in the figure below. 
 
 <figure style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/Antarctic%20Sea%20Ice%20lows/Antarctic_sea_ice_concentration_image3.png?raw=true" 
+    <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/Antarctic%20Sea%20Ice%20lows/Antarctic_sea_ice_concentration_image3.png" 
          alt="Antarctic Sea Ice Lows" 
          style="display: block; margin: 0 auto;">
     <figcaption>

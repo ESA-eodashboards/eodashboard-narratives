@@ -30,7 +30,7 @@ collections: Lakes_SWT_surface_water_temperature, NLK_lakes
 <center>
 	<figure>
 		<img src="
-							https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Eodashboard_lakevanern_2307112.png?raw=true" width="50%">
+							https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Eodashboard_lakevanern_2307112.png" width="50%">
 		</figure>
 	</center>
 	
@@ -60,7 +60,7 @@ The water quality of Lake Biwa, the largest freshwater lake in Japan, northeast 
 <center>
 	<figure>
 		<img src="
-							https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Eodashboard_lakebiwa_2307112.png?raw=true" width="50%">
+							https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Eodashboard_lakebiwa_2307112.png" width="50%">
 		</figure>
 	</center>
 
@@ -69,7 +69,7 @@ One of the reasons for this is the direct impact of the increase in alien specie
 
 <center>
 	<figure>
-		<img src="https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Inland_lakes_water_temp_Biwa.jpg?raw=true">
+		<img src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Inland_lakes_water_temp_Biwa.jpg">
 		<figcaption>Average water temperature change in Lake Biwa, CC SEndo Kouta: http://endoh7735.sakura.ne.jp/biwako/warming.htm</figcaption>
 		</figure>
 	</center>
@@ -106,12 +106,12 @@ A study using the Second Global Imager (SGLI) on board the Global Change Observa
 
 <figure style="text-align:center;">
   <img
-    src="https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Inland_lakes_chl_concentration_biwa.png?raw=true"
+    src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Inland_lakes_chl_concentration_biwa.png"
     alt="Lake Biwa chlorophyll-a concentration maps, May and November 2018-2021"
     style="max-width:100%; height:auto; display:block; margin:0 auto;"
   >
   <img
-    src="https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Inland_lakes_chl_concentration_biwa_legend.png?raw=true"
+    src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Inland_lakes_chl_concentration_biwa_legend.png"
     alt="Legend for Lake Biwa chlorophyll-a maps"
     style="max-width:100%; height:auto; display:block; margin:0.5em auto 0;"
   >
@@ -124,7 +124,7 @@ Looking at the distribution of Chl-a concentrations in Lake Biwa throughout 2019
 
 <figure style="text-align:center;">
   <img
-    src="https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Inland_lakes_monthly_chl_concentration_2019.png?raw=true"
+    src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Inland_lakes_monthly_chl_concentration_2019.png"
     alt="Monthly chlorophyll-a concentration in 2019"
     style="max-width:100%; height:auto; display:block; margin:0 auto;"
   >

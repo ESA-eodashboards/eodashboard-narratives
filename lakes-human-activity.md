@@ -54,7 +54,7 @@ The Aral Sea, once one of the world’s largest inland bodies of water \[1\] loc
 
 <center>
 	<figure>
-		<img src="https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Eodashboard_aralsea_2307112_v2.png?raw=true" width=300>
+		<img src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Eodashboard_aralsea_2307112_v2.png" width=300>
 		</figure>
 	</center>
 

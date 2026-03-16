@@ -49,7 +49,7 @@ The negative impacts were primarily related to heat stress, which caused crops t
 
 <b>Map legend</b>
 
-<img src="https://github.com/eurodatacube/eodash-assets/blob/main/collections/N6_geoglam/N6_legend.png?raw=true" width="400">	
+<img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N6_geoglam/N6_legend.png" width="400">	
 
 ##  Impacts on crops worldwide  <!--{ as="eox-map" mode="tour" }-->
 

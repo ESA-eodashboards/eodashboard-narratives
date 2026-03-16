@@ -80,7 +80,7 @@ The Southern Plains are a major wheat producing region in the U.S. and is monito
 
 JAXA with Japanese MAFF provide agrometeorological information including Precipitation, Drought Index, Soil Moisture, Solar Radiation, Surface Temperature, Vegetation Index and anomaly, etc. Rainfall, Agriculture, Land, GPM Core Observatory, SHIZUKU (GCOM-W), MODIS, Multiple Satellites (GSMaP) bi-Monthly on JASMIN for Asia and on JASMAI for selected world areas. By using JAXA WMS with JASMIN/JASMAI products, the anomaly of Southern Plain in the US can be zoomed in with visualized map. The following are examples of composite averaged NDVI and NDVI anomaly.
 
-![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Averaged%20NDVI.png?raw=true)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Averaged%20NDVI.png)
 
 The following time series indicators reflect the precipitation, soil moisture and NDVI variables from Japan JASMIN/JASMAI for Kansas, USA.
 
@@ -119,7 +119,7 @@ Here we present a few examples of satellite based products for agricultural moni
 
 Not only do satellite data helps us understand the current season’s productivity, but they also provide a rich historical record of agricultural measurements that enable researchers to compare outcomes to previous seasons and evaluate broader trends such as the impacts of climate change. For example, significant parts of Northern Africa and the Middle East are experiencing drought conditions including countries such as Morocco, Tunisia (seen below), Syria and Iraq that are signifincatly impacting crop production. Earth observations are key to identifying and quatifying these impacts early and in providing support for future agricultural planning and mitigation actions when needed. 
 
-![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Sousse.png?raw=true)
+![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Sousse.png)
 
 *Sousse (Northern Centre, Tunisia) Winter Wheat 2022*
 
