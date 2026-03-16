@@ -8,13 +8,19 @@ collections: N1_CO, facebook_population_density
 ---
 
 # Extreme air pollution episodes in Northern India and Pakistan <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-February-2024/AirPollutionIndia/cover-pakistan.jpg" }-->
-### Authors: Selviga Sinnathamby, Natacha Kaminski, Elie Zoghbi - Sorbonne Universite, Paris, France <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+### Authors: Selviga Sinnathamby<sup>1</sup>, Natacha Kaminski<sup>1</sup> & Elie Zoghbi<sup>1</sup> <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+1 - Sorbonne Université, Académie Spatiale and Institut de Physique du Globe de Paris (IPGP), Paris, France
 
-## Extreme air pollution episodes in Northern India and Pakistan
 
-###### *This story is based on results from the [3<sup>rd</sup> Earth System Science Challenge]( https://sciencehub.esa.int/2024/05/09/3rd-earth-system-science-challenge/) organised and hosted by ESA's ESRIN Science Hub in February 2024*
+# 
+*This story is based on results from the [3<sup>rd</sup> Earth System Science Challenge](https://sciencehub.esa.int/2024/05/09/3rd-earth-system-science-challenge/) organised and hosted by ESA's ESRIN Science Hub in February 2024. The scope of the challenge was to identify days with severe air pollution episodes in northern India and Pakistan using the percentile technique applied to time series of carbon monoxide (CO) concentrations measured by Copernicus Sentinel-5P TROPOMI. The method was implemented on the [DeepESDL platform](https://earthsystemdatalab.net) by a team of PhD students from Sorbonne Université, the Académie Spatiale and the Institut de Physique du Globe de Paris (IPGP). The data and code are made openly available.*
 
-The research presented in this story was developed in the frame of the [Earth System Science Challenge](https://sciencehub.esa.int/2024/05/09/3rd-earth-system-science-challenge/) organized by the European Space Agency (ESA) and hosted at ESRIN’s Science Hub in February 2024. The scope of this challenge was to identify the days on which severe air pollution episodes occurred in northern India and Pakistan, using the percentile technique applied on time series of carbon monoxide (CO) concentrations measured by Copernicus Sentinel-5P TROPOMI. The method was implemented on the [DeepESDL platform](https://earthsystemdatalab.net) by a team of PhD students from Sorbonne Université. The data and code are made openly available.
+## <!--{ nav="false" }-->
+<p align="center">
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/Logo_of_Sorbonne_University.svg.png?raw=true" alt="" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/Academie-Spatiale_logo_ligne-1.png?raw=true" alt="" height="80" style="margin: 0 15px;"/>
+  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/ipgp_logo.png?raw=true" alt="" height="80" style="margin: 0 15px;"/>
+</p>
 
 ## Air Pollution and Health
 Air pollution is a real concern for human health, as poor air quality may lead to breathing difficulties, cardiovascular disease, or cancer. According to the World Health Organization (WHO), "outdoor air pollution is estimated to have caused 4.2 million premature deaths worldwide in 2019". "Some 89% of those premature deaths occurred in low- and middle-income countries, and the greatest number in the WHO South-East Asia and Western Pacific Regions." [WHO, 2024]
