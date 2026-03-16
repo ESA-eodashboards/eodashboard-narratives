@@ -17,9 +17,9 @@ collections: N1_CO, facebook_population_density
 
 ## <!--{ nav="false" }-->
 <p align="center">
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/Logo_of_Sorbonne_University.svg.png?raw=true" alt="" height="80" style="margin: 0 15px;"/>
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/Academie-Spatiale_logo_ligne-1.png?raw=true" alt="" height="80" style="margin: 0 15px;"/>
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/ipgp_logo.png?raw=true" alt="" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/logos/Logo_of_Sorbonne_University.svg.png" alt="" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/logos/Academie-Spatiale_logo_ligne-1.png" alt="" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/logos/ipgp_logo.png" alt="" height="80" style="margin: 0 15px;"/>
 </p>
 
 ## Air Pollution and Health

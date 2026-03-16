@@ -19,9 +19,9 @@ collections: Lakes_S2L2A, Lakes_ALOS2, Lakes_SWT_surface_water_temperature
 
   ## <!--{ nav="false" }-->
 <p align="center">
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true" alt="ESA" height="80" style="margin: 0 15px;"/>
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true" alt="NASA" height="80" style="margin: 0 15px;"/>
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true" alt="JAXA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/esa.jpg" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/nasa.jpeg" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/jaxa.jpeg" alt="JAXA" height="80" style="margin: 0 15px;"/>
 </p>
 
 ## Temperature
@@ -32,7 +32,7 @@ One example of this is the Colorado River, located in the southwest United State
 
 <figure style="text-align:center;">
   <img
-    src="https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Eodashboard_coloradoriver_230707.png?raw=true"
+    src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Eodashboard_coloradoriver_230707.png"
   width=300
     style="max-width:100%; height:auto; display:block; margin:0 auto;"
   >
@@ -67,7 +67,7 @@ Changing rainfall patterns due to climate change can affect water levels and the
 
 <figure style="text-align:center;">
   <img
-    src="https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Eodashboard_TonleSapLake_230712.png?raw=true"
+    src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Eodashboard_TonleSapLake_230712.png"
   width=300
     style="max-width:100%; height:auto; display:block; margin:0 auto;"
   >
@@ -99,7 +99,7 @@ At the base of the southern Sierra in the San Joaquin Valley lies the lakebed of
 
 <figure style="text-align:center;">
   <img
-    src="https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Eodashboard_TulareLake_2307112.png?raw=true"
+    src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Eodashboard_TulareLake_2307112.png"
   width=300
     style="max-width:100%; height:auto; display:block; margin:0 auto;"
   >
@@ -130,7 +130,7 @@ Climate change and the consequent warming of lakes is leading to earlier and mor
 
 <figure style="text-align:center;">
   <img
-    src="https://github.com/eurodatacube/eodash/blob/master/app/public/data/story-images/Eodashboard_lakebalaton_2307112.png?raw=true"
+    src="https://raw.githubusercontent.com/eurodatacube/eodash/master/app/public/data/story-images/Eodashboard_lakebalaton_2307112.png"
   width=300
     style="max-width:100%; height:auto; display:block; margin:0 auto;"
   >

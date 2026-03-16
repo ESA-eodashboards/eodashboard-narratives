@@ -14,7 +14,7 @@ collections: ESDC_kndvi
 *This story is based on results from the [Science Hub Challenges in September 2025](https://sciencehub.esa.int/2025/09/29/science-hub-challenges-september-2025/) organised and hosted by ESA's ESRIN, by students from the Universty of Leeds:*
 
 <p align="center">
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/images.png?raw=true" 
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-September-2025/Team-1/images.png" 
        alt="University of Edinburgh" 
        height="80"/>
 </p>
@@ -22,13 +22,13 @@ collections: ESDC_kndvi
 ## Challenge
 Earth Observation (EO) based time series of vegetation are essential for monitoring ecosystem health, agricultural yield, and the impacts of climate change. One of the most widely used indicators in this context is the **Normalised Difference Vegetation Index (NDVI)**, which measures vegetation greenness and health based on how plants reflect light in the red and near-infrared parts of the electromagnetic spectrum. Sensors like MODIS (Moderate Resolution Imaging Spectroradiometer), onboard NASA’s Terra and Aqua satellites, collect data in these red and NIR bands, allowing NDVI to capture vegetation health over time.
 
-<img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timesSeries_2.png?raw=true"/>
+<img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timesSeries_2.png"/>
 <p style="text-align:center;"><b>Figure 1.</b> NDVI: A proxy for vegetation health.</p>
 
 However, NDVI time series often still contain residual **effects of clouds, even after atmospheric correction**. The accuracy of NDVI reconstructions can also vary depending on land cover type, as different landscapes show distinct patterns in seasonality, amplitude, and the rate of vegetation change (Julien and Sobrino, 2019). Ensuring **accurate interpolation** is therefore crucial for producing reliable insights into vegetation dynamics and environmental change.
 
 <div style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_1.png?raw=true" width="500"/>
+    <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_1.png" width="500"/>
     <p><b>Figure 2.</b> Missing data: the impacts of cloud coverage on NDVI acquisitions.</p>
 </div>
 
@@ -45,7 +45,7 @@ Five different types of forests were used as case studies to test and compare in
 
 <div style="text-align: center;">
     <img src="
-https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/Globe3_Amazonand.png?raw=true" width="500"/>
+https://raw.githubusercontent.com/eurodatacube/eodash-assets/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/Globe3_Amazonand.png" width="500"/>
     <p><b>Figure 3.</b> Use cases/forests locations.</p>
 </div>
 
@@ -65,7 +65,7 @@ The Amazon Forest, the world’s largest tropical rainforest, is characterized b
 
 NDVI time series of Amazon forest shows consistently high vegetation greenness with minor seasonal fluctuations, reflecting the forest’s year-round productivity and dense canopy cover.
 <div style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_amazonNDVI.png?raw=true" width="500"/>
+    <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_amazonNDVI.png" width="500"/>
     <p><b>Figure 5.</b> NDVI in Amazon</p>
 </div>
 
@@ -85,7 +85,7 @@ Encompassing the semi-arid region of northeastern Brazil, the Caatinga is the la
 NDVI time series of Caatinga forest, reveals strong seasonal variability, with vegetation greenness peaking during the rainy months and declining sharply in the dry season, reflecting the biome’s sensitivity to precipitation patterns.
 
 <div style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_caatingaNDVI.png?raw=true" width="500"/>
+    <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_caatingaNDVI.png" width="500"/>
     <p><b>Figure 8.</b> NDVI in Caatinga Forest</p>
 </div>
 
@@ -106,7 +106,7 @@ As Germany’s largest contiguous forest, the Palatinate Forest, including the E
 
 The NDVI time series of this forest, show clear seasonal patterns, with high vegetation greenness during the summer growing season and low values in winter, reflecting the deciduous nature of this temperate forest.
 <div style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_elmesteinNDVI.png?raw=true" width="500"/>
+    <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_elmesteinNDVI.png" width="500"/>
     <p><b>Figure 10.</b> NDVI in Platinate Forest</p>
 </div>
 
@@ -128,7 +128,7 @@ The Borneo Tropical Rainforest is a humid tropical ecosystem that remains green 
 The NDVI of this type of forest reflects a productive canopy year-round, with seasonal variations driven by monsoon rainfall.
 
 <div style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_muaraNDVI.png?raw=true" width="500"/>
+    <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_muaraNDVI.png" width="500"/>
     <p><b>Figure 12.</b> NDVI in Muara Forest</p>
 </div>
 
@@ -151,7 +151,7 @@ This ecosystem exhibits pronounced seasonality and moderate precipitation and pl
 
 The NDVI time series indicates strong seasonal fluctuations, with peak greenness during the summer months and low values in winter, reflecting the region’s distinct growing season and snow cover period.
 <div style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_roockiesNDVI.png?raw=true" width="500"/>
+    <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_5_roockiesNDVI.png" width="500"/>
     <p><b>Figure 14.</b> NDVI in Rockies Forest</p>
 </div>
 
@@ -179,7 +179,7 @@ The NDVI time series indicates strong seasonal fluctuations, with peak greenness
 * **Climatology Fill (Seasonal)** – fills missing data using averages from the same period in past years.
 
 <div style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_3.png?raw=true" width="500"/>
+    <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/timeSeries_3.png" width="500"/>
     <p><b>Figure 15.</b> Interpolation techniques: Examples in Caatinga Forest.</p>
 </div>
 
@@ -194,7 +194,7 @@ Finally, these methods were evaluated based on **accuracy (R², RMSE)** and **co
 ## Results
 Best interpolation technique depends on land cover being observed and length of missing data gap:
 <div style="text-align: center;">
-    <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/Results_example.png?raw=true"/>
+    <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/Results_example.png"/>
     <p><b>Figure 16. </b> Summary of results: Metrics for each forest type and missing data gap.</p>
 </div>
 

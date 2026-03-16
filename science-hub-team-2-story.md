@@ -19,9 +19,9 @@ offifial: false
 
 ## <!--{ nav="false" }-->
 <p align="center">
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/cafoscari.png?raw=true" alt="Ca' Foscari" height="80" style="margin: 0 15px;"/>
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/noc-logo-full-colour.png?raw=true" alt="NOC" height="80" style="margin: 0 15px;"/>
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/bas-full-logo.png?raw=true" alt="BAS" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-September-2025/Team-2/cafoscari.png" alt="Ca' Foscari" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-September-2025/Team-2/noc-logo-full-colour.png" alt="NOC" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-September-2025/Team-2/bas-full-logo.png" alt="BAS" height="80" style="margin: 0 15px;"/>
 </p>
 
 ## Challenge
@@ -66,7 +66,7 @@ This research aims to demonstrate how **machine learning** can uncover meaningfu
 The Mediterranean Sea represents an exceptional natural laboratory for the study and classification of ocean water types, owing to its **ecological significance** and **considerable economic value**. This semi-enclosed basin is characterized by a high degree of oceanographic complexity, shaped by the interplay of regional climate variability, diverse coastal processes, and intricate basin-scale circulation patterns. Its unique combination of environmental factors makes the Mediterranean an ideal setting for understanding the spatial and temporal variability of water properties and for advancing oceanographic research.
 
 <div style="text-align: center;"> <img src="
-https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/Globe2_mediterranee.png?raw=true" width="600"/> <p><b>Figure 2.</b> The Mediterranean Sea.</p> </div>
+https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-September-2025/Team-2/Globe2_mediterranee.png" width="600"/> <p><b>Figure 2.</b> The Mediterranean Sea.</p> </div>
 
 
 
@@ -98,7 +98,7 @@ The spatial resolution of the datasets ranges from approximately 0.04° to 0.1°
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/fig4.png?raw=true" 
+        src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-September-2025/Team-2/fig4.png" 
         style="max-width: 100%; width: 1300px; height: auto;"
         alt="Multi-parameter dataset"
     />
@@ -143,7 +143,7 @@ The spatial resolution of the datasets ranges from approximately 0.04° to 0.1°
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/team2_method.png?raw=true" 
+        src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-September-2025/Team-2/team2_method.png" 
         style="max-width: 100%; width: 800px; height: auto;"
         alt="Analysis workflow"
     />
@@ -178,7 +178,7 @@ The clustering analysis successfully identified three primary ocean water types 
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/fig5.png?raw=true" 
+        src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-September-2025/Team-2/fig5.png" 
         style="max-width: 100%; width: 1000px; height: auto;"
         alt="Cluster characteristics"
     />
@@ -213,7 +213,7 @@ Seasonal patterns were analyzed to track cluster evolution. Analysis of the seas
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/SeasonalClusters_percentage-change.png?raw=true" 
+        src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-September-2025/Team-2/SeasonalClusters_percentage-change.png" 
         style="max-width: 100%; width: 800px; height: auto;"
         alt="Seasonal cycle of clusters"
     />
@@ -230,7 +230,7 @@ The seasonal patterns align with known Mediterranean dynamics: winter mixing enr
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
-        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-2/fig6.png?raw=true" 
+        src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-September-2025/Team-2/fig6.png" 
         style="max-width: 100%; width: 800px; height: auto;"
         alt="Seasonal cycle of clusters"
     />
