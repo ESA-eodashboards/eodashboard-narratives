@@ -20,9 +20,9 @@ collections: facebook_population_density, GCOM_LST, N1_NO2, NTLU_nightlights_urb
 
   ## <!--{ nav="false" }-->
 <p align="center">
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true" alt="ESA" height="80" style="margin: 0 15px;"/>
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true" alt="NASA" height="80" style="margin: 0 15px;"/>
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true" alt="JAXA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/esa.jpg" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/nasa.jpeg" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/jaxa.jpeg" alt="JAXA" height="80" style="margin: 0 15px;"/>
 </p>
 
 # 
@@ -104,7 +104,7 @@ Earth-observing satellites like the **TROPOMI** instrument on the **Sentinel-5P 
 
 
 <center>
-<img src="https://github.com/eurodatacube/eodash-assets/blob/main/collections/N1_NO2/N1_NO2_legend.png?raw=true" width="400">
+<img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2_legend.png" width="400">
 
 </center>
 
@@ -123,13 +123,13 @@ On November 18th, Delhi recorded pollution levels **more than 50 times higher** 
 In the city of Gurugram, located just southwest of New Delhi and part of the National Capital Region, high-density residential and industrial zones contribute to significant local emissions. 
 
 <center>
-<img src="https://github.com/eurodatacube/eodash-assets/blob/main/collections/N1_NO2/N1_NO2_legend.png?raw=true" width="400">
+<img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N1_NO2/N1_NO2_legend.png" width="400">
 
 </center>
 
 In December, the city experienced a pronounced peak in NO2 concentrations, mirroring the severe pollution trends observed in the capital  the previous month.
 
-<center> <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-6/stories/DEMO_BiDS25/NO2_Gurugram.png?raw=true" width="400">
+<center> <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/AparicioSF-patch-6/stories/DEMO_BiDS25/NO2_Gurugram.png" width="400">
 
 <span style="font-size:15px;"> NO2 Concentrations in Gurugram city</span>
 
@@ -165,7 +165,7 @@ A city's **nighttime lights** can offer a reliable proxy for economic activity, 
 #### Delhi in Lockdown
 The **Nighttime Light Urban (NLTU)** dataset, derived from Suomi NPP satellite observations operated jointly by NASA and the National Oceanic and Atmospheric Administration (NOAA), captures the intensity of artificial lighting across urban areas—a reliable proxy for economic activity, population density, and energy consumption.
 
-<center> <img src="https://github.com/eurodatacube/eodash-assets/blob/AparicioSF-patch-6/stories/DEMO_BiDS25/nightime_legend.png?raw=true" width="400">
+<center> <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/AparicioSF-patch-6/stories/DEMO_BiDS25/nightime_legend.png" width="400">
 
 <span style="font-size:15px;"> City's activity</span>
 </center>

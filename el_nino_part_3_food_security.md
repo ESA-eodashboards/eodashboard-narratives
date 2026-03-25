@@ -19,9 +19,9 @@ collections: N6_geoglam
 
   ## <!--{ nav="false" }-->
 <p align="center">
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/esa.jpg?raw=true" alt="ESA" height="80" style="margin: 0 15px;"/>
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/nasa.jpeg?raw=true" alt="NASA" height="80" style="margin: 0 15px;"/>
-  <img src="https://github.com/eurodatacube/eodash-assets/blob/main/logos/jaxa.jpeg?raw=true" alt="JAXA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/esa.jpg" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/nasa.jpeg" alt="NASA" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/jaxa.jpeg" alt="JAXA" height="80" style="margin: 0 15px;"/>
 </p>
 
 ## El Niño 2023-2024: impacts on food security
@@ -49,7 +49,7 @@ The negative impacts were primarily related to heat stress, which caused crops t
 
 <b>Map legend</b>
 
-<img src="https://github.com/eurodatacube/eodash-assets/blob/main/collections/N6_geoglam/N6_legend.png?raw=true" width="400">	
+<img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/collections/N6_geoglam/N6_legend.png" width="400">	
 
 ##  Impacts on crops worldwide  <!--{ as="eox-map" mode="tour" }-->
 
