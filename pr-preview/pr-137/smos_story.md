@@ -4,11 +4,11 @@ date: 2026-03-25
 theme: water
 tags: SMOS, salinity, soil moisture
 official: true
-collections: SMOS_soil_moisture, SMOS_ocean_salinty
+collections: SMOS_soil_moisture, SMOS_ocean_salinity
 
 ---
 
-# SMOS: Tracking Water Cycle from Space <!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2009/09/smos_in_orbit3/10259802-2-eng-GB/SMOS_in_orbit_card_medium.jpg" }-->
+# SMOS: Tracking the Water Cycle from Space <!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2009/09/smos_in_orbit3/10259802-2-eng-GB/SMOS_in_orbit_card_medium.jpg" }-->
 How one satellite measures two of the most fundamental variables of Earth's water cycle: Ocean Salinity and Soil Moisture <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## <!--{ nav="false" }-->
@@ -26,37 +26,39 @@ How one satellite measures two of the most fundamental variables of Earth's wate
   <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/logos/jaxa.jpeg" alt="JAXA" height="80" style="margin: 0 15px;"/>
 </p>
 
-## Introducting SMOS: the ESA's Water Mission
- Text describing SMOS history, goal and it's evolution.
+## Introducing SMOS: ESA's Water Mission
+**Text describing SMOS history, goals and its evolution.**  Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder.
  <center>
 <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2014/11/global_soil_moisture/14997474-2-eng-GB/Global_soil_moisture_pillars.jpg" width="550">
 <span style="font-size:15px;">Image of SMOS and/or variables</span>
 </center>
  
-## Earth observations of the Water Cycle
+## Earth Observations of the Water Cycle
 
-Introduction to the water cycle
+**Introduction to the water cycle.** Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. 
  
 #### Ocean Salinity
  
-Description of this variable and its observation via remote sensing.
+**Description of this variable and its observation via remote sensing.** Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. 
 
 #### Soil Moisture
  
-Description of this variable and its observation via remote sensing.
+**Description of this variable and its observation via remote sensing.** Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. 
  
   ## <!--{ nav="false" }-->
-Final description explaining how both variables provide a  **global view of the water cycle**.
+**Final description explaining how both variables provide a global view of the water cycle.** Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. Text placeholder. 
 
- 
+ ## <!--{ as="div" }-->
+
+### Ocean Salinity from Space
  
 ## Ocean Salinity from Space <!--{ as="eox-map" mode="tour" }-->
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"},"preload":null},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"smos_ocean_salinity;:;2023-12-27T00:00:00Z;:;SMOS Ocean Salinity;:;EPSG:3857","title":"SMOS Ocean Salinity"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/smos-os/SSS_corr/{z}/{y}/{x}?crs=EPSG:3857&time=2023-12-27T00:00:00Z&vmin=0&vmax=50&cbar=jet","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857","attributions":"{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null}]}]' zoom="2.860311054919482" center=[4.480756603666212,16.62148967513167] projection="" animationOptions={duration:500}}-->
 
 
-#### Overview of global Sea Surface Salinty
-Introduction to global trends and regions (e.g.: tropical regions, easaly depictable fresh water regions). Description of interpreatation of the color/what's been seen.
+#### Overview of Global Sea Surface Salinity
+Introduction to global trends and regions (e.g.: tropical regions, easily depictable freshwater regions). Description of the interpretation of the colours and what is being shown.
 
  
 <center>
@@ -65,46 +67,49 @@ Introduction to global trends and regions (e.g.: tropical regions, easaly depict
 </center>
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"},"preload":null},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"smos_ocean_salinity;:;2023-12-27T00:00:00Z;:;SMOS Ocean Salinity;:;EPSG:3857","title":"SMOS Ocean Salinity"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/smos-os/SSS_corr/{z}/{y}/{x}?crs=EPSG:3857&time=2023-12-27T00:00:00Z&vmin=0&vmax=50&cbar=jet","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857","attributions":"{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null}]}]' zoom="6.021691575679171" center=[15.646761427648777,57.68236553757578] projection="" animationOptions={duration:500}}-->
-#### Use case/example 1
-Text describing the current step of the tour and why it is interesting what the map shows currently
+#### Use Case / Example 1
+Text describing the current step of the tour and why what the map shows is interesting.
 Examples that could be mentioned:
-- Sea surface salinity as indicator of El Nino
-- SSS as indicator of mosoon dynamics
+- Sea surface salinity as an indicator of El Niño
+- SSS as an indicator of monsoon dynamics
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"},"preload":null},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"smos_ocean_salinity;:;2023-01-04T00:00:00Z;:;SMOS Ocean Salinity;:;EPSG:3857","title":"SMOS Ocean Salinity"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/smos-os/SSS_corr/{z}/{y}/{x}?crs=EPSG:3857&time=2023-01-04T00:00:00Z&vmin=0&vmax=50&cbar=jet","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857","attributions":"{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null}]}]' zoom="4.748342412710123" center=[384.25036622532616,77.42302595750823] projection="" animationOptions={duration:500}}-->
-#### Use case/example 2
-Text describing the current step of the tour and why it is interesting what the map shows currently
+#### Use Case / Example 2
+Text describing the current step of the tour and why what the map shows is interesting.
 Examples that could be mentioned:
-- Sea surface salinity as indicator of El Nino
-- SSS as indicator of mosoon dynamics
-#
+- Sea surface salinity as an indicator of El Niño
+- SSS as an indicator of monsoon dynamics
+ 
+## <!--{ as="div" }-->
+
+### Soil moisture from Space
  
  
 ## Soil Moisture from Space <!--{ as="eox-map" mode="tour" }-->
  
 ### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"},"preload":null},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"smos_soil_moisture;:;2023-12-06T00:00:00Z;:;SMOS Soil Moisture;:;EPSG:3857","title":"SMOS Soil Moisture"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/smos-sm/Soil_Moisture/{z}/{y}/{x}?crs=EPSG:3857&time=2023-12-06T00:00:00Z&vmin=0&vmax=1&cbar=jet","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857","attributions":"{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null}]}]' zoom="2.8603110549194817" center=[0,-5.400124791776761e-13] projection="" animationOptions={duration:500}}-->
 #### Measuring Soil Moisture: The Global Picture
-Introduction to global trends and regions (e.g.: tropical regions, easaly depictable fresh water regions). Description of interpreatation of the color/what's been seen.
+Introduction to global trends and regions (e.g.: tropical regions, easily depictable freshwater regions). Description of the interpretation of the colours and what is being shown.
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"},"preload":null},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"smos_soil_moisture;:;2023-01-04T00:00:00Z;:;SMOS Soil Moisture;:;EPSG:3857","title":"SMOS Soil Moisture"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/smos-sm/Soil_Moisture/{z}/{y}/{x}?crs=EPSG:3857&time=2023-01-04T00:00:00Z&vmin=0&vmax=1&cbar=jet","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857","attributions":"{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null}]}]' zoom="5.105026079341846" center=[25.82622600738743,-3.26248072342662] projection="" animationOptions={duration:500}}-->
-#### Use case 1/example
-Text describing the current step of the tour and why it is interesting what the map shows currently
+#### Use Case 1 / Example
+Text describing the current step of the tour and why what the map shows is interesting.
 Examples that could be mentioned:
-- persistent dryness vs consistently moist conditions
-- seasonal variability
-- some anomalous event
-- drought monitoring and food security
+- Persistent dryness vs. consistently moist conditions
+- Seasonal variability
+- Some anomalous event
+- Drought monitoring and food security
 
 
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"},"preload":null},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"smos_soil_moisture;:;2023-11-01T00:00:00Z;:;SMOS Soil Moisture;:;EPSG:3857","title":"SMOS Soil Moisture"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/smos-sm/Soil_Moisture/{z}/{y}/{x}?crs=EPSG:3857&time=2023-11-01T00:00:00Z&vmin=0&vmax=1&cbar=jet","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857","attributions":"{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null}]}]' zoom="5.105026079341846" center=[25.82622600738743,-3.26248072342662] projection="" animationOptions={duration:500}}-->
-#### Use case 2/example
-Text describing the current step of the tour and why it is interesting what the map shows currently
+#### Use Case 2 / Example
+Text describing the current step of the tour and why what the map shows is interesting.
 Examples that could be mentioned:
-- persistent dryness vs consistently moist conditions
-- seasonal variability
-- some anomalous event
-- drought monitoring and food security
+- Persistent dryness vs. consistently moist conditions
+- Seasonal variability
+- Some anomalous event
+- Drought monitoring and food security
 
  
 ## <!--{ as="div" }-->
@@ -127,14 +132,11 @@ All datasets referenced in this story are freely and openly available. ESA CCI d
 | **[Copernicus Climate Data Store — SM (C3S)](https://cds.climate.copernicus.eu/)** | Dataset | ECMWF / Copernicus | Near-real-time CCI SM product; updated every 10 days | [CDS](https://cds.climate.copernicus.eu/) |
 | **[SMOS Mission — Earth Online](https://earth.esa.int/eogateway/missions/smos)** | Mission page | ESA | Full mission description, data products, documentation | [earth.esa.int](https://earth.esa.int/eogateway/missions/smos) |
 | **[CCI Open Data Portal](https://climate.esa.int/en/odp/)** | Platform | ESA CCI | Access to all CCI ECV data records | [climate.esa.int](https://climate.esa.int/en/odp/) |
- 
 
 
- 
 
 ## References
  
 
  
 ## Contributors
- 
