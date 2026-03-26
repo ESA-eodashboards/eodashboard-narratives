@@ -9,7 +9,7 @@ collections: collectionIdentifier1, collectionIdentifier2
 ---
 
 # Monitoring the Greenhouse Gases from Space: the Carbon Budget <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
-###How satellites track CO₂, CH₄ and N₂O and what they tell us about the planet <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+How satellites track CO₂, CH₄ and N₂O and what they tell us about the planet <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## <!--{ nav="false" }-->
 <div align="center">
