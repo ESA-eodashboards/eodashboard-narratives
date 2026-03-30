@@ -1,8 +1,9 @@
 ---
 cover-image: https://upload.wikimedia.org/wikipedia/commons/c/c6/Tajikistan_wikivoyage_banner.jpg
 date: 2025-01-01
-theme: theme_name
-tags: glaciers,climate,third-pole
+theme: cryosphere
+tags: glaciers,climate,third-pole, sentinel-1
+official: false
 
 ---
 
@@ -183,17 +184,15 @@ The integration of multiple sensors (MODIS, Sentinel-1 & 2) and reanalysis produ
 
 ## <!--{ as="div" }--> Open Science
 
-| **Name**                                                                                                                                       | **Type**            | **Agency / Provider**                     | **Description / Usage**                                                                                                                                                                                                                 |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **[MODIS Land Surface Temperature (LST)](https://lpdaac.usgs.gov/products/mod11a1v061/)**                                        | Dataset             | NASA/USGS               | MODIS AQUA L3C daily daytime LST at 1km resolution (2002-2018) from ESA CCI Cube. Used for analyzing seasonal and annual temperature trends over the glacier.                            |
-| **[Sentinel-2 MSI](https://sentinel.esa.int/web/sentinel/missions/sentinel-2)**                                                                                       | Dataset | ESA (European Space Agency)                        | Multispectral optical imagery at 10m resolution for 2015, 2017, and 2020. Green and NIR bands used to calculate NDWI for supraglacial lake detection.                                     |
-| **[Sentinel-1 SAR](https://sentinel.esa.int/web/sentinel/missions/sentinel-1)**                                          | Dataset     | ESA (European Space Agency)               | C-band radar Ground Range Detected (GRD) data at 10m resolution for 2015, 2017, and 2020. Used for moisture extent mapping and mass balance assessment.                                                     |
-| **[ECMWF ERA5 Reanalysis](https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5)**                          | Dataset | ECMWF (European Centre for Medium-Range Weather Forecasts) | Climate reanalysis data providing temperature anomalies and precipitation context for interpreting glacier behavior.                                               |
-| **[ESA CCI Data Cube](https://climate.esa.int/en/)**                          | Platform | ESA Climate Change Initiative | Earth System Data Lab (ESDL) infrastructure providing harmonized access to multiple climate data records including MODIS LST.                                               |
+| Name | Type | Agency / Provider | Description / Usage |
+|---|---|---|---|
+| [MODIS Land Surface Temperature (LST)](https://lpdaac.usgs.gov/products/mod11a1v061/) | Dataset | NASA / USGS | MODIS AQUA L3C daily daytime LST at 1 km resolution (2002–2018) from ESA CCI Cube. Used for analyzing seasonal and annual temperature trends over the glacier. |
+| [Copernicus Sentinel-2 MSI](https://dataspace.copernicus.eu/browser/?collection=SENTINEL-2) | Dataset | ESA / Copernicus | Multispectral optical imagery at 10 m resolution for 2015, 2017, and 2020. Green and NIR bands used to calculate NDWI for supraglacial lake detection. |
+| [Copernicus Sentinel-1 SAR](https://dataspace.copernicus.eu/browser/?collection=SENTINEL-1) | Dataset | ESA / Copernicus | C-band radar Ground Range Detected (GRD) data at 10 m resolution for 2015, 2017, and 2020. Used for moisture extent mapping and mass balance assessment. |
+| [ECMWF ERA5 Reanalysis](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels) | Dataset | ECMWF / Copernicus | Climate reanalysis data providing temperature anomalies and precipitation context for interpreting glacier behavior. |
+| [ESA Climate Change Initiative — Open Data Portal](https://climate.esa.int/en/odp/) | Platform | ESA CCI | Earth System Data Lab (ESDL) infrastructure providing harmonized access to multiple climate data records including MODIS LST. |
 
-#### Code Repository
-Access the processing scripts and analysis notebooks to reproduce the study workflow.
-<iframe width="100%" height="600" src="https://github.com/science-hub-challenges/glacier-monitoring-pamir" frameborder="0"></iframe>
+
 
 #### References
 - Shean, D. E., Bhushan, S., Montesano, P., Rounce, D. R., Arendt, A., & Osmanoglu, B. (2020). A systematic, regional assessment of high mountain Asia glacier mass balance. *Frontiers in Earth Science*, 7, 363.
