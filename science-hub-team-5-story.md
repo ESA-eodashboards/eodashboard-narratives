@@ -190,7 +190,7 @@ The integration of multiple sensors (MODIS, Sentinel-1 & 2) and reanalysis produ
 | [Copernicus Sentinel-2 MSI](https://dataspace.copernicus.eu/browser/?collection=SENTINEL-2) | Dataset | ESA / Copernicus | Multispectral optical imagery at 10 m resolution for 2015, 2017, and 2020. Green and NIR bands used to calculate NDWI for supraglacial lake detection. |
 | [Copernicus Sentinel-1 SAR](https://dataspace.copernicus.eu/browser/?collection=SENTINEL-1) | Dataset | ESA / Copernicus | C-band radar Ground Range Detected (GRD) data at 10 m resolution for 2015, 2017, and 2020. Used for moisture extent mapping and mass balance assessment. |
 | [ECMWF ERA5 Reanalysis](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels) | Dataset | ECMWF / Copernicus | Climate reanalysis data providing temperature anomalies and precipitation context for interpreting glacier behavior. |
-| [ESA Climate Change Initiative — Open Data Portal](https://climate.esa.int/en/odp/) | Platform | ESA CCI | Earth System Data Lab (ESDL) infrastructure providing harmonized access to multiple climate data records including MODIS LST. |
+| [Earth System Data Lab (ESDL)](https://earthsystemdatalab.net/) | Platform | Brockmann Consult / ESA | Cloud-based data cube infrastructure providing harmonized access to multiple climate data records including MODIS LST, enabling analysis of Earth system variables in a unified spatio-temporal framework. |
 
 
 
