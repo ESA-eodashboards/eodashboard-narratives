@@ -74,15 +74,23 @@ CO bservations over the Gironde region on the day the fire started. The elevated
 <span style="font-size:15px;">Copernicus Sentinel-5P carrying the TROPOMI instrument</span>
 </center>
 
-The resulting time series reveals a clear and sharp increase in CO concentration on July 17, 2022, coinciding precisely with the start of the fire, with elevated standard deviation values persisting in the following days, consistent with records showing that the highest carbon emissions in France in 2022 were recorded between June and August. The graph illustrates a noticeable increase in CO concentration across populated areas on July 17th, when the fire event started. Additionally, the Standard Deviation on this day and the following days is increased in comparison to the days before the fire. The highest carbon emissions in France were recorded from June to August in 2022 which aligns well with the result of this analysis. 
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"CO_3_daily;:;2022-07-17T00:00:00Z;:;AWS_VIS_CO_3DAILY_DATA;:;EPSG:3857","title":"TROPOMI CO"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:3857","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["AWS_VIS_CO_3DAILY_DATA"],"TILED":true,"TIME":"2022-07-17T00:00:00Z/2022-07-19T23:59:59Z"}},"visible":true}]},{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]}]' zoom="11.5" center=[-0.806357,44.452587] projection="" animationOptions={duration:500}}-->
+#### Understanding population CO exposure
+
+The analysis focuses on the urban areas to the west of the fire origin, where the smoke plume was observed extending from the Gironde forest. By combining the GHS built-up surface mask with the TROPOMI CO time series, it is possible to quantify not just the atmospheric emissions but specifically **the exposure of populated areas to those emissions**, a critical distinction for understanding the **human health impacts of wildfire events**.
 
 <center>
 <img src="https://esa-eodashboards.github.io/eodashboard-notebooks/build/1f60d282fc802a294fa01f3bff68deff.png" width="400">
 
-<span style="font-size:15px;">Peak of CO concentrations t</span>
+<span style="font-size:15px;">Peak of CO concentrations </span>
 </center>
+The resulting time series revealed a **clear and sharp increase in CO concentration across populated areas on July 17, 2022**, coinciding precisely with the start of the fire, with elevated standard deviation values persisting in the days that followed. This is consistent with records from the Copernicus Atmosphere Monitoring Service (CAMS), which documented exceptionally elevated carbon monoxide emissions throughout the two-week duration of the event, and with broader statistics showing that the highest carbon emissions in France in 2022 were recorded between June and August.
 
-## <!--{ as="div" }--> Open Science
+
+
+
+
+## Open Science
 
 As climate change drives more frequent and intense fire seasons across Europe and globally, workflows such as this one become increasingly important for early warning, emergency response, and post-event impact assessment.
 
