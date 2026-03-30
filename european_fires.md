@@ -1,13 +1,13 @@
 ---
-cover-image: https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/8-wildfires.jpg
+cover-image: https://falstaff.b-cdn.net/storage/2022/07/Feuer-c-shutterstock-2640.jpg?width=1200&aspect_ratio=40:21&crop_gravity=north
 date: 2025-01-01
 theme: atmosphere
 tags: wildfires,forests,co,carbon-monoxide
-official: true
+official: true 
 collections: N1_CO
 ---
 
-# Evaluating Fire Impact on Populated Areas in Europe <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/8-wildfires.jpg" }-->
+# Evaluating Fire Impact on Populated Areas in Europe <!--{ as="img" mode="hero" src="https://falstaff.b-cdn.net/storage/2022/07/Feuer-c-shutterstock-2640.jpg?width=1200&aspect_ratio=40:21&crop_gravity=north" }-->
 ### How the 2022 Gironde wildfire affected urban areas near Bordeaux, France <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## <!--{ nav="false" }-->
