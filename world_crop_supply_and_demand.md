@@ -152,8 +152,19 @@ The following time series indicators reflect the precipitation, soil moisture an
 
 ![](https://raw.githubusercontent.com/eurodatacube/eodash/c59adc7d580c6ced1f85a44c5bdd18bf94b3c9ee/app/public/data/story-images/Brazil_winter.png)
 
-### Explore Datasets
 
+## <!--{ as="div" }--> Open Science
+ 
+## Open Science 
 As data access and technology have made significant advances in recent decades, it comes as no surprise that the amount of available data can often be overwhelming and difficult to decipher. As such, tools such as the JAXA JASMAI, ESA World Cereal system and the GEOGLAM-Harvest AGMET Indicators play a key role for quick and digestible information processing and supporting key agricultural decisions. In order to increase food market stability and reduce price volatility, it is critical that market analysts, farmers, and other agricultural stakeholders have a thorough understanding of the amount of food coming to market - whether that be in line with the average amount seen in previous years or more/less. Just as with any other consumer good, supply and demand are the key drivers of agrifood markets and commodity prices. Satellite data can fill a critical gap in agricultural monitoring, enabling us to not only understand current crop conditions but prepare for potential outcomes in a given growing season, with wider-reaching impacts on market stability, supporting early action and humanitarian response, and bolstering food security.
+ 
+| Name | Type | Agency / Provider | Description | Access |
+|---|---|---|---|---|
+| [GEOGLAM Crop Monitor for AMIS](https://cropmonitor.org/) | Platform | GEOGLAM / NASA Harvest / ESA / JAXA | International consensus crop condition assessments for wheat, maize, rice, soybean in major producing countries; updated monthly | [cropmonitor.org](https://cropmonitor.org/) |
+| [GEOGLAM Crop Monitor on EO Dashboard](https://eodashboard.org/explore?indicator=N6) | Dataset | ESA / NASA / JAXA | Global crop condition raster maps served via VEDA cloud; monthly | [eodashboard.org](https://eodashboard.org/explore?indicator=N6&x=0&y=-626172.13571&z=3.32193) |
+| [ESA WorldCereal Global Maps](https://esa-worldcereal.org/en/products/global-maps) | Dataset | ESA / WorldCereal consortium | Seasonally updated global cropland, crop type (maize & wheat), and irrigation maps at 10 m resolution; based on Copernicus Sentinel time series | [esa-worldcereal.org](https://esa-worldcereal.org/en/products/global-maps) |
+| [GCOM-W / SHIZUKU](https://global.jaxa.jp/projects/sat/gcom_w/) | Mission / Dataset | JAXA | Passive microwave soil moisture and precipitation; global | [JAXA Global](https://global.jaxa.jp/) |
+| [NASA SMAP](https://smap.jpl.nasa.gov/) | Mission / Dataset | NASA / JPL | Soil Moisture Active Passive; L-band global soil moisture; daily | [smap.jpl.nasa.gov](https://smap.jpl.nasa.gov/) |
+| [GSMaP - Global Satellite Mapping of Precipitation on EO Dashboard](https://sharaku.eorc.jaxa.jp/GSMaP/) | Dataset | JAXA / EORC | Multi-satellite precipitation analysis; global; used in JASMIN/JASMAI | [JAXA EORC](https://sharaku.eorc.jaxa.jp/GSMaP/) |
+| [EO Dashboard](https://eodashboard.org/) | Platform | ESA / NASA / JAXA | Trilateral open Earth observation dashboard combining satellite data from all three agencies | [eodashboard.org](https://eodashboard.org/) |
 
-- [GEOGLAM Crop Monitor Data on EO Dashboard](https://eodashboard.org/explore?indicator=N6&x=0&y=-626172.13571&z=3.32193)

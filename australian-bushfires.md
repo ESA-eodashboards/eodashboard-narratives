@@ -91,10 +91,16 @@ Scroll to visualise further dates and see the evolution of the emissions
 Explore more dates on the [Dashboard](https://eodashboard.org/explore?x=14264048.40361&y=-3702671.30498&z=4.39193&indicator=N1_CO)
 
 
-## Jupyter Notebook
+## <!--{ as="div" }--> Open Science
+### Open Science
+All datasets referenced in this story are freely and openly available. 
 
-The following Notebook evaluates fire impact on populated areas on a European site
-
-<iframe width="95%" style="min-height: 70vh" src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/fire-impact-analysis" frameborder="0"></iframe>
+| Name | Type | Agency / Provider | Description | Access |
+|---|---|---|---|---|
+| [Copernicus Sentinel-5P TROPOMI - Carbon Monoxide (CO)](https://eodashboard.org/explore?indicator=N1_CO) | Dataset | ESA / Copernicus | Daily atmospheric column CO concentrations derived from TROPOMI; used as proxy to estimate CO2 emissions from the 2019–2020 Australian bushfires | [EO Dashboard](https://eodashboard.org/explore?indicator=N1_CO) |
+| [Copernicus Sentinel-5P TROPOMI - Nitrogen Dioxide (NO2)](https://eodashboard.org/explore?indicator=N1_NO2) | Dataset | ESA / Copernicus | Daily atmospheric column NO2 concentrations derived from TROPOMI; global coverage | [EO Dashboard](https://eodashboard.org/explore?indicator=N1_NO2) |
+| [Copernicus Sentinel-5P TROPOMI - Sulfur Dioxide (SO2)](https://eodashboard.org/explore?indicator=N1_SO2) | Dataset | ESA / Copernicus | Daily atmospheric column SO2 concentrations derived from TROPOMI; global coverage | [EO Dashboard](https://eodashboard.org/explore?indicator=N1_SO2) |
+| [Copernicus Sentinel-5P Mission](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-5p) | Mission | ESA / Copernicus | First Copernicus mission dedicated to atmospheric monitoring; carries the TROPOMI instrument measuring trace gases including CO, NO2, SO2, CH4, O3, and aerosols | [ESA Sentinel Online](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-5p) |
+| [EO Dashboard](https://eodashboard.org/explore) | Platform | ESA / NASA / JAXA | Trilateral open Earth observation dashboard providing interactive maps of TROPOMI trace gas datasets and other EO products | [eodashboard.org](https://eodashboard.org/explore) |
 
 
