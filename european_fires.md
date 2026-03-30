@@ -34,11 +34,33 @@ The selected wildfire incident for this analysis occurred in the **Gironde regio
 
 Earth observation satellites provide a powerful toolset to monitor wildfire events, assess their extent, and measure their impact on air quality in nearby populated areas. This analysis combines three complementary data sources:
 
-**Sentinel-2** optical imagery is used to visualize the fire event and map the burned area at 10–20 metre resolution. The true colour image captured on July 17, 2022 — the day the fire started — clearly shows the fire plume extending westward from the Gironde forest toward the urban areas near Bordeaux.
 
+##  Satellite observations<!--{ as="eox-map" mode="tour" }-->
+
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Gironde;:;2022-07-17T00:00:00Z;:;Sentinel2_TrueColor;:;EPSG:3857","title":"Sentinel-2 True Color"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-2-L2A-TRUE-COLOR"],"TILED":true,"TIME":"2022-07-17T00:00:00Z/2022-07-17T23:59:59Z"}},"visible":true}]},{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]}]' zoom="11.5" center=[-0.706357,44.452587] projection="" animationOptions={duration:500}}-->
+#### Copernicus Sentinel-2 
+**Sentinel-2** optical imagery is used to visualize the fire event and map the burned area at 10–20 metre resolution. The true colour image captured on July 17, 2022,  the day the fire started, clearly showing the fire plume extending westward from the Gironde forest toward the urban areas near Bordeaux.
+<center>
+<img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2012/02/sentinel-2/9658480-3-eng-GB/Sentinel-2_pillars.jpg" width="400">
+	
+<span style="font-size:15px;">Copernicus Sentinel-2 </span>
+</center>
+S2 data across 13 spectral bands, ranging from visible to shortwave infrared wavelengths. In the image, we are seeing a **true color composite**, since it uses the Red (Band 4), Green (Band 3), and Blue (Band 2) bands, similar to how the **human eye perceives color**. This allows us to view the landscape as it would appear in **real life**.
+
+
+
+#### Copernicus Sentinel-2
+**Sentinel-2** optical imagery is used to visualize the fire event and map the burned area at 10–20 metre resolution. The true colour image captured on July 17, 2022, the day the fire started, clearly shows the fire plume extending westward from the Gironde forest toward the urban areas near Bordeaux. 
+
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"},"preload":null},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"GHS-BUILT-S-R2023A;:;098f4020-76ad-445e-9d4b-cf42150b3093;:;GHS-BUILT-S-R2023A;:;EPSG:3857","title":"GHS-BUILT-S-R2023A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:3857","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["GHS_BUILT_S"],"TILED":true,"TIME":"2030-01-01T00:00:00Z/2030-01-01T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857","attributions":"{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null}]}]' zoom="9.778320506465983" center=[-0.840726545859327,44.50328694534949] projection="" animationOptions={duration:500}}-->
+#### EC-JRC Global Human Settlement Layer (GHS-BUILT)
 **The EC-JRC Global Human Settlement (GHS) Layer** provides global data on total built-up surface from 1975 to 2030, derived from Sentinel-2 composite and Landsat imagery. This layer is used to identify and isolate populated areas within the analysis zone, enabling a targeted assessment of where people were most exposed to the fire emissions.
+The **GHS Built-Up Surface layer** shows the total built-up surface in the Gironde region near Bordeaux. This layer, derived from Sentinel-2 composite and Landsat imagery, is used to identify populated areas that may have been exposed to carbon monoxide emissions from the July 2022 wildfire.
 
+### <!--{ layers='[{"type":"Tile","properties":{"id":"Terrain light"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"CO_3_daily-2022-07-17T00:00:00Z"},"source":{"type":"TileWMS","urls":["https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54"],"params":{"layers":"AWS_VIS_CO_3DAILY_DATA","styles":"","format":"image/png","time":"2022-07-17T00:00:00Z"}}},{"type":"Tile","properties":{"id":"Overlay labels"},"source":{"type":"XYZ","urls":["//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' zoom="11.5" center=[-0.706357,44.452587] animationOptions={duration:500}}-->
+#### Copernicus Sentinel-5P TROPOMI — Carbon Monoxide, 17 July 2022
 **Copernicus Sentinel-5P TROPOMI** carbon monoxide (CO) data is then queried specifically over those populated areas using the Sentinel Hub Statistical API. The resulting time series reveals a clear and sharp increase in CO concentration on July 17, 2022, coinciding precisely with the start of the fire, with elevated standard deviation values persisting in the following days — consistent with records showing that the highest carbon emissions in France in 2022 were recorded between June and August.
+**TROPOMI CO** observations over the Gironde region on the day the fire started. The elevated carbon monoxide concentrations are clearly visible over and downwind of the fire area, extending westward toward the populated areas near Bordeaux.
 
 ## From Satellite to Impact Assessment
 
@@ -46,11 +68,7 @@ The analysis workflow links these three data sources in a coherent chain: Sentin
 
 As climate change drives more frequent and intense fire seasons across Europe and globally, workflows such as this one become increasingly important for early warning, emergency response, and post-event impact assessment.
 
-## Jupyter Notebook
 
-The following Notebook evaluates fire impact on populated areas on a European site.
-
-<iframe width="95%" style="min-height: 70vh" src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/fire-impact-analysis" frameborder="0"></iframe>
 
 ## <!--{ as="div" }--> Open Science
 
@@ -59,3 +77,8 @@ All datasets referenced in this story are freely and openly available. Sentinel-
 | Name | Type | Agency / Provider | Description | Access |
 |---|---|---|---|---|
 | [Copernicus Sentinel-2 L2A](https://sentinels.copernicus.eu/web/sentinel/missions/sentinel-2) | Dataset | ESA / Copernicus | Multispectral
+
+
+The following Notebook evaluates fire impact on populated areas on a European site.
+
+<iframe width="95%" style="min-height: 70vh" src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/fire-impact-analysis" frameborder="0"></iframe>
