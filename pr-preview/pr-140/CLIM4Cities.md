@@ -1,12 +1,12 @@
 ---
-cover-image: https://images.pexels.com/photos/16021159/pexels-photo-16021159.jpeg
+cover-image: https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200
 date: 2025-01-01
 theme: atmosphere
 tags: urban-heat,machine-learning,earth-observation,digital-twins,climate-adaptation
 official: false
 ---
 
-# CLIM4Cities: from Citizen Science, Machine Learning and Earth Observation towards Urban Climate Services <!--{ as="img" mode="hero" src=https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/stories/CLIM4Cities/CLIM4cities_header.jpeg" }-->
+# CLIM4Cities: from Citizen Science, Machine Learning and Earth Observation towards Urban Climate Services <!--{ as="img" mode="hero" src=https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=1200" }-->
 ### Downscaling air and land surface temperature in urban areas using AI and satellite data <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## <!--{ nav="false" }-->
