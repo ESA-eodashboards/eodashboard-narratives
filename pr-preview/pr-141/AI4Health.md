@@ -1,12 +1,12 @@
 ---
-cover-image: https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1200
+cover-image: https://www.gmv.com/sites/default/files/styles/image_1000/public/content/image/2025/01/30/114/np_004_air4health.jpeg?itok=mtOfRfxA
 date: 2025-01-01
 theme: atmosphere
 tags: air-quality,urban-health,machine-learning,digital-twins,climate-adaptation,heatwaves
-official: true
+official: false
 ---
 
-# AIR4health: Earth Observation and AI towards Urban Climate and Air Quality Services for Human Health <!--{ as="img" mode="hero" src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=1200" }-->
+# AIR4health: Earth Observation and AI towards Urban Climate and Air Quality Services for Human Health <!--{ as="img" mode="hero" src="https://www.gmv.com/sites/default/files/styles/image_1000/public/content/image/2025/01/30/114/np_004_air4health.jpeg?itok=mtOfRfxA" }-->
 ### A Digital Twin Solution for Compound Climate and Air Quality Monitoring and Forecasting <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## <!--{ nav="false" }-->
@@ -30,7 +30,7 @@ official: true
 
 ## Why AIR4health? The Local Nature of Climate Hazards
 
-Climate and environmental hazards are **local**. Extreme heat, poor air quality, and compound events such as heatwaves combined with elevated ozone concentrations affect people differently depending on where they live — their neighbourhood, the street they walk on, the building they live in. Yet current weather forecasts and climate projections are good at telling us **when** an event will happen, but not **where** it will be most severe or **why** certain areas are disproportionately affected.
+Climate and environmental hazards are **local**. Extreme heat, poor air quality, and compound events such as heatwaves combined with elevated ozone concentrations affect people differently depending on where they live, their neighbourhood, the street they walk on, the building they live in. Yet current weather forecasts and climate projections are good at telling us **when** an event will happen, but not **where** it will be most severe or **why** certain areas are disproportionately affected.
 
 This gap between global forecasts and local reality has critical consequences. Between 8% and 16% of the EU population faces energy poverty, making them particularly vulnerable to both cold waves and heatwaves. Europe is warming faster than any other continent, and the most vulnerable groups, the elderly, children, and the energy poor, bear the brunt of climate impacts while being most overlooked in adaptation planning. At the same time, over half of deaths attributed to ground-level ozone in Europe are due to ozone originating outside the region, underscoring the need for fine-scale, local monitoring tools.
 
@@ -52,7 +52,7 @@ The result is a system that can answer not just **what** is happening and **when
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]}]' zoom="6" center=[-4.5,39.5] projection="" animationOptions={duration:500}}-->
 #### The Iberian Peninsula: AIR4health Area of Interest
-The AIR4health model covers the full **mainland Iberian Peninsula**, encompassing 89,102 km² of mainland Portugal and 493,514 km² of mainland Spain — a total of **582,616 grid cells of 1 km²**. The domain spans a wide range of climatic zones, urban morphologies, and landscape types, from coastal Atlantic cities to inland semi-arid plateaus, making it an ideal testbed for a scalable, transferable approach.
+The AIR4health model covers the full **mainland Iberian Peninsula**, encompassing 89,102 km² of mainland Portugal and 493,514 km² of mainland Spain: a total of **582,616 grid cells of 1 km²**. The domain spans a wide range of climatic zones, urban morphologies, and landscape types, from coastal Atlantic cities to inland semi-arid plateaus, making it an ideal testbed for a scalable, transferable approach.
 
 <center>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Aerial_photograph_of_Lisbon%2C_Tagus_River_and_Almada_%28cropped%29.jpg/1280px-Aerial_photograph_of_Lisbon%2C_Tagus_River_and_Almada_%28cropped%29.jpg" width="400">
@@ -97,7 +97,7 @@ A cold wave affecting mainland Portugal ran from 19 to 25 January 2017, seven co
 
 ## Use Case II: Compound Heatwave and Ozone Events
 
-Heatwaves and elevated surface ozone (O3) form the other critical compound hazard addressed by AIR4health. High temperatures accelerate ozone formation from precursor pollutants, while ozone itself exacerbates heat stress on the respiratory and cardiovascular systems. Rural and suburban areas are particularly vulnerable to ozone exceedances, as ozone is consumed by urban NO2 — the so-called NO2-to-O3 urban sink effect, meaning CAMS systematically **underestimates rural ozone** while overestimating it in cities.
+Heatwaves and elevated surface ozone (O3) form the other critical compound hazard addressed by AIR4health. High temperatures accelerate ozone formation from precursor pollutants, while ozone itself exacerbates heat stress on the respiratory and cardiovascular systems. Rural and suburban areas are particularly vulnerable to ozone exceedances, as ozone is consumed by urban NO2: the so-called NO2-to-O3 urban sink effect, meaning CAMS systematically **underestimates rural ozone** while overestimating it in cities.
 
 Over 2013–2023, CAMS detected 11.95% of WHO Guideline exceedances for ozone (daily max 8-hour average exceeding 100 μg/m³), compared to 16.45% in ground truth. The AIR4health downscaling model improved this to 13.36%, better capturing the spatial pattern of rural exceedances revealed by Sentinel-5P observations.
 
