@@ -6,7 +6,7 @@ tags: urban-heat,machine-learning,earth-observation,digital-twins,climate-adapta
 official: false
 ---
 
-# CLIM4Cities: from Citizen Science, Machine Learning and Earth Observation towards Urban Climate Services <!--{ as="img" mode="hero" src=https://images.pexels.com/photos/16021159/pexels-photo-16021159.jpeg" }-->
+# CLIM4Cities: from Citizen Science, Machine Learning and Earth Observation towards Urban Climate Services <!--{ as="img" mode="hero" src=https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/stories/CLIM4Cities/CLIM4cities_header.jpeg" }-->
 ### Downscaling air and land surface temperature in urban areas using AI and satellite data <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## <!--{ nav="false" }-->
@@ -18,8 +18,8 @@ official: false
 
 ## <!--{ nav="false" }-->
 <p align="center">
-  <img src="https://eurogoos.eu/member/atlantic-colab/" alt="ESA" height="80" style="margin: 0 15px;"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/DMI_logo.svg/320px-DMI_logo.svg.png" alt="DMI" height="80" style="margin: 0 15px;"/>
+  <img src="https://storage.googleapis.com/eurogoos-files/media/colab.png" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://cdn-assets.inwink.com/a89460d8-e7a1-4b06-93c9-8eec92940ee6/4abd0cb8-0729-46db-88b2-26ded1caafda" alt="DMI" height="80" style="margin: 0 15px;"/>
 </p>
 
 ## Urban Climate in a Changing World
