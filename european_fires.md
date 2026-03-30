@@ -45,6 +45,7 @@ Earth observation satellites provide a powerful toolset to monitor wildfire even
 
 <span style="font-size:15px;">Copernicus Sentinel-2 </span>
 </center>
+
 S2 data across 13 spectral bands, ranging from visible to shortwave infrared wavelengths. In the image, we are seeing a **true color composite**, since it uses the Red (Band 4), Green (Band 3), and Blue (Band 2) bands, similar to how the **human eye perceives color**. This allows us to view the landscape as it would appear in **real life**.
 
 **Sentinel-2** optical imagery is used to visualize the fire event and map the burned area at 10–20 metre resolution. The true colour image captured on July 17, 2022, the day the fire started, clearly shows the fire plume extending westward from the Gironde forest toward the urban areas near Bordeaux.
@@ -52,6 +53,15 @@ S2 data across 13 spectral bands, ranging from visible to shortwave infrared wav
 ### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"},"preload":null},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"GHS-BUILT-S-R2023A;:;098f4020-76ad-445e-9d4b-cf42150b3093;:;GHS-BUILT-S-R2023A;:;EPSG:3857","title":"GHS-BUILT-S-R2023A"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:3857","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["GHS_BUILT_S"],"TILED":true,"TIME":"2030-01-01T00:00:00Z/2030-01-01T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857","attributions":"{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null}]}]' zoom="11.5" center=[-0.706357,44.452587] projection="" animationOptions={duration:500}}-->
 #### EC-JRC Global Human Settlement Layer (GHS-BUILT)
 **The EC-JRC Global Human Settlement (GHS) Layer** provides global data on total built-up surface from 1975 to 2030, derived from Sentinel-2 composite and Landsat imagery. This layer is used to identify and isolate populated areas within the analysis zone, enabling a targeted assessment of where people were most exposed to the fire emissions.
+
+<center>
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Bordeaux%2C_Gironde%2C_France_%2822084271259%29.jpg" width="400">
+
+<span style="font-size:15px;">Bordeaux, Gironde, France. Credits: Gilles Messian</span>
+</center>
+
+
+
 The **GHS Built-Up Surface layer** shows the total built-up surface in the Gironde region near Bordeaux. This layer, derived from Sentinel-2 composite and Landsat imagery, is used to identify populated areas that may have been exposed to carbon monoxide emissions from the July 2022 wildfire.
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"osm","title":"Background"},"source":{"type":"OSM"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"CO_3_daily;:;2022-07-17T00:00:00Z;:;AWS_VIS_CO_3DAILY_DATA;:;EPSG:3857","title":"TROPOMI CO"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:3857","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["AWS_VIS_CO_3DAILY_DATA"],"TILED":true,"TIME":"2022-07-17T00:00:00Z/2022-07-19T23:59:59Z"}},"visible":true}]},{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]}]' zoom="11.5" center=[-0.706357,44.452587] projection="" animationOptions={duration:500}}-->
@@ -62,21 +72,22 @@ The **GHS Built-Up Surface layer** shows the total built-up surface in the Giron
 
 <span style="font-size:15px;">Copernicus Sentinel-5P carrying the TROPOMI instrument</span>
 </center>
+
 **TROPOMI CO** observations over the Gironde region on the day the fire started. The elevated carbon monoxide concentrations are clearly visible over and downwind of the fire area, extending westward toward the populated areas near Bordeaux.
 
+The graph illustrates a noticeable increase in CO concentration across populated areas on July 17th, when the fire event started. Additionally, the Standard Deviation on this day and the following days is increased in comparison to the days before the fire. The highest carbon emissions in France were recorded from June to August in 2022 which aligns well with the result of this analysis. 
 
+<center>
+<img src="https://esa-eodashboards.github.io/eodashboard-notebooks/build/1f60d282fc802a294fa01f3bff68deff.png" width="400">
 
-## From Satellite to Impact Assessment
-
-The analysis workflow links these three data sources in a coherent chain: Sentinel-2 imagery defines the geographic extent of the fire event; the GHS layer identifies which parts of that extent are populated; and Sentinel-5P CO data quantifies the atmospheric exposure of those populations during and after the fire. This integrated approach demonstrates how open Earth observation data — freely accessible through platforms such as the [Euro Data Cube (EDC)](https://eurodatacube.com/) and the [EO Dashboard](https://eodashboard.org/) — can be combined to produce actionable insights about the human and environmental impacts of extreme wildfire events.
-
-As climate change drives more frequent and intense fire seasons across Europe and globally, workflows such as this one become increasingly important for early warning, emergency response, and post-event impact assessment.
- 
-
+<span style="font-size:15px;">Peak of CO concentrations t</span>
+</center>
 
 ## <!--{ as="div" }--> Open Science
 
-All datasets referenced in this story are freely and openly available. Sentinel-2 and Sentinel-5P data are distributed without charge through the Copernicus Open Access Hub and Sentinel Hub. The GHS layer is openly available from the EC-JRC. No registration is required to access the EO Dashboard interactive maps.
+As climate change drives more frequent and intense fire seasons across Europe and globally, workflows such as this one become increasingly important for early warning, emergency response, and post-event impact assessment.
+
+All datasets referenced in this story are freely and openly available.The analysis workflow links these three data sources in a coherent chain: Sentinel-2 imagery defines the geographic extent of the fire event; the GHS layer identifies which parts of that extent are populated; and Sentinel-5P CO data quantifies the atmospheric exposure of those populations during and after the fire. This integrated approach demonstrates how open Earth observation data, freely accessible through platforms such as the [Euro Data Cube (EDC)](https://eurodatacube.com/) and the [EO Dashboard](https://eodashboard.org/) — can be combined to produce actionable insights about the human and environmental impacts of extreme wildfire events.
 
 | Name | Type | Agency / Provider | Description | Access/Source |
 |---|---|---|---|---|
