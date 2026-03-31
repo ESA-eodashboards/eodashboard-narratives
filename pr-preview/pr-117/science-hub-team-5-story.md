@@ -1,5 +1,5 @@
 ---
-cover-image: https://upload.wikimedia.org/wikipedia/commons/c/c6/Tajikistan_wikivoyage_banner.jpg
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-September-2025/Team-5/Tajikistan_wikivoyage_banner.jpg
 date: 2025-01-01
 theme: cryosphere
 tags: glaciers,climate,third-pole, sentinel-1
@@ -7,7 +7,7 @@ official: false
 
 ---
 
-# Glacier monitoring under global warming trends through remote sensing – An example from The Third Pole  <!--{ as="img" mode="hero" src="https://upload.wikimedia.org/wikipedia/commons/c/c6/Tajikistan_wikivoyage_banner.jpg" }-->
+# Glacier monitoring under global warming trends through remote sensing – An example from The Third Pole  <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-September-2025/Team-5/Tajikistan_wikivoyage_banner.jpg" }-->
 ### Authors: Sheharyar Ahmad¹, Federico Scoto¹, Ginevra Chelli¹, Arslaan Akhtar¹ <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 > ¹ Ca’ Foscari University of Venice
 
