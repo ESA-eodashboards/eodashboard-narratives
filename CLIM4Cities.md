@@ -45,20 +45,8 @@ The three components are represented as follows: the **regional background** (R)
 Three ML algorithms are tested and compared — a linear mixed-effects model (LMM), a random forest (RF), and a neural network (NN) — with the Random Forest emerging as the best performer.
 
 
-## The CLIM4Cities Approach
 
-To achieve this, CLIM4Cities has tailored its solution to the requirements of local early adopters, who state the need for tools that offer both **early warning weather forecast capabilities**, as well as scenario-making capabilities to evaluate climate adaptation measures, namely the impact of blue-green infrastructures on the Urban Heat Island effect. The first version of its coupled ML-based near-surface Air Temperature (T2m) and Land Surface Temperature (LST) downscaling models targets four metropolitan areas in Denmark, proving the concept's reliability and scalability to other urban regions.
-The methodology is grounded in a well-established framework (Lowry, 1977) which decomposes any near-surface air temperature measurement into three additive components:
-
-**T = R + L + U**
-
-where **R** is the regional or synoptic-scale contribution, **L** is the natural landscape contribution, and **U** is the artificial disturbance introduced by urban land use and land cover. This decomposition guides the selection of input predictors for the machine learning models.
-
-Input data are drawn from three complementary sources: **citizens' weather station observations** (after rigorous quality control), **Earth Observation and GEO datasets** (including Sentinel-3 LST, Landsat 8/9, Local Climate Zones, imperviousness, tree cover density, and digital elevation), and **NWP reanalysis fields** (DANRA reanalysis for the regional background component). Three ML algorithms are benchmarked, a linear mixed-effects model (LMM), a random forest (RF), and a neural network (NN), with the Random Forest emerging as the best performer.
-
-
-
-## Satellite Observations over the Study Areas <!--{ as="eox-map" mode="tour" }-->
+## Use case: Denmark <!--{ as="eox-map" mode="tour" }-->
 
 ### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]}]' zoom="11" center=[12.5683,55.6761] projection="" animationOptions={duration:500}}-->
 #### Copenhagen, Denmark
