@@ -108,7 +108,7 @@ A cold wave affecting mainland Portugal ran from 19 to 25 January 2017, seven co
 
 
 
-## Use Case II: Compound Heatwave and Ozone Events <!--{ nav="false" }-->
+#### Use Case II: Compound Heatwave and Ozone Events
 
 Heatwaves and elevated surface ozone (O3) form the other critical compound hazard addressed by AIR4health. High temperatures accelerate ozone formation from precursor pollutants, while ozone itself exacerbates heat stress on the respiratory and cardiovascular systems. Rural and suburban areas are particularly vulnerable to ozone exceedances, as ozone is consumed by urban NO2: the so-called NO2-to-O3 urban sink effect, meaning CAMS systematically **underestimates rural ozone** while overestimating it in cities.
 
@@ -133,11 +133,18 @@ Spatial analysis of the AIR4health outputs showed that all-cause mortality incre
 
 The AIR4health outputs are delivered through an **Integrated Seasonal Surveillance System**, a web and mobile platform developed in partnership with Portuguese health authorities (SNS, DGS, IPMA, Instituto Nacional de Saúde) that translates the downscaled model outputs into actionable health risk information for three groups of users:
 
-**Residents** can check their geolocated risk level and receive personalised health advice, which they can share with family members.
+<center>
+<img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/stories/AI4Health/ai4healthsystem.png" width="800">
+<span style="font-size:15px;">: AI4Health Surveillance System</span>
+</center>
 
-**Health duty officers** can monitor vulnerable neighbourhoods in near-real-time, track the evolution of compound risk indices, and report situation reports to management.
 
-**Municipal planners** can overlay compound risk maps with cool spaces and green infrastructure layers, and send targeted SMS alerts to at-risk populations.
+
+- **Residents** can check their geolocated risk level and receive personalised health advice, which they can share with family members.
+
+- **Health duty officers** can monitor vulnerable neighbourhoods in near-real-time, track the evolution of compound risk indices, and report situation reports to management.
+
+- **Municipal planners** can overlay compound risk maps with cool spaces and green infrastructure layers, and send targeted SMS alerts to at-risk populations.
 
 The system displays a **Compound Risk Index** combining the Excess Heat Factor and ozone exceedances, with forecasts disaggregated by age group (general population, ≥65 years, <18 years), directly addressing the needs identified in two user consultation workshops held in May 2025 and January 2026, with participants from academia (59%), public sector (36%), and private sector (5%).
 
