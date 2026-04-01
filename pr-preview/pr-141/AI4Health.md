@@ -146,7 +146,7 @@ The AIR4health outputs are delivered through an **Integrated Seasonal Surveillan
 
 - **Municipal planners** can overlay compound risk maps with cool spaces and green infrastructure layers, and send targeted SMS alerts to at-risk populations.
 
-The system displays a **Compound Risk Index** combining the Excess Heat Factor and ozone exceedances, with forecasts disaggregated by age group (general population, ≥65 years, <18 years), directly addressing the needs identified in two user consultation workshops held in May 2025 and January 2026, with participants from academia (59%), public sector (36%), and private sector (5%).
+The system displays a **Compound Risk Index** combining the Excess Heat Factor and ozone exceedances, with forecasts disaggregated by age group, directly addressing the needs identified in user consultation workshops. 
 
 ## Next Steps
 
@@ -154,7 +154,7 @@ AIR4health has confirmed both user requirements and user willingness to join the
 
 ## Open Science
 
-All datasets referenced in this story are freely and openly available. Sentinel-5P data are distributed without charge through the Copernicus Data Space Ecosystem. CAMS Reanalysis data are freely accessible through the Copernicus Atmosphere Data Store. In-situ station data are available through the EEA, NOAA, and WMO open data portals.
+All datasets referenced in this story are freely and openly available.
 
 | Name | Type | Agency / Provider | Description | Access/Source |
 |---|---|---|---|---|
