@@ -37,12 +37,12 @@ The methodology follows preliminary work by Oliveira et al. (2021) and the ratio
 **T = R + L + U**
 
 where **R** is the regional or synoptic-scale contribution, **L** is the natural landscape contribution, and **U** is the artificial disturbance introduced by urban land use and land cover. This decomposition guides the selection of input predictors for the machine learning models.
-
+ 
 T2m hourly observations from citizen-owned weather stations are used as the response variable, after a two-fold quality control routine to ensure the appropriate removal of abnormal values. LST satellite data from Sentinel-3 is retrieved and collocated with Landsat 8/9 data to produce a twin LST downscaling algorithm, targeting a **200 m grid**.
 
 The three components are represented as follows: the **regional background** (R) is provided by the DANRA reanalysis and Sentinel-3 LST; **topoclimate effects** (L) include elevation, topographic exposure to prevailing winds (TOPEX by octant), and proximity to the estuary or coast; and **local urban effects** (U) are introduced through the percentage of tree cover density (TCD), imperviousness (IMD), and Local Climate Zones (LCZ).
 
-Three ML algorithms are tested and compared — a linear mixed-effects model (LMM), a random forest (RF), and a neural network (NN) — with the Random Forest emerging as the best performer.
+Three ML algorithms are tested and compared: a linear mixed-effects model (LMM), a random forest (RF), and a neural network (NN), with the Random Forest emerging as the best performer.
 
 
 
