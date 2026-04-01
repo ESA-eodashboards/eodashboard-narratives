@@ -87,7 +87,7 @@ Three ML algorithms are tested and compared: a linear mixed-effects model (LMM),
 
 
 
-## Results ## <!--{ nav="false" }-->
+## Results <!--{ nav="false" }-->
 
 CLIM4Cities has developed the first version of its coupled ML-based near-surface Air Temperature (T2m) and Land Surface Temperature (LST) downscaling models, targeting the four Danish metropolitan areas described above.
 
