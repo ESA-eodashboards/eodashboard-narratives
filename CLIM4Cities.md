@@ -84,13 +84,24 @@ Three ML algorithms are tested and compared: a linear mixed-effects model (LMM),
 <span style="font-size:15px;">A view over Frederikshavn (Credi: Tomasz Sienicki)</span>
 </center>
 
-## Results
+
+
+
+## Results ## <!--{ nav="false" }-->
 
 CLIM4Cities has developed the first version of its coupled ML-based near-surface Air Temperature (T2m) and Land Surface Temperature (LST) downscaling models, targeting the four Danish metropolitan areas described above.
 
+## Results <!--{ as="eox-map" mode="tour" }-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ EOxCloudless 2024: <a xmlns:dct=\"http://purl.org/dc/terms/\" href=\"https://s2maps.eu\" target=\"_blank\" property=\"dct:title\">Sentinel-2 cloudless - s2maps.eu</a> by <a xmlns:cc=\"http://creativecommons.org/ns#\" href=\"https://eox.at\" target=\"_blank\" property=\"cc:attributionName\" rel=\"cc:attributionURL\">EOX IT Services GmbH</a> (Contains modified Copernicus Sentinel data 2024) }"},"preload":null},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"Sentinel-3-SLSTR-L2-LST;:;2023-08-09T00:00:00Z;:;Land Surface Temperature (Sentinel-3 SLSTR L2);:;EPSG:3857","title":"Land Surface Temperature (Sentinel-3 SLSTR L2)"},"source":{"type":"TileWMS","url":"https://services.sentinel-hub.com/ogc/wms/0635c213-17a1-48ee-aef7-9d1731695a54","projection":"EPSG:4326","tileGrid":{"tileSize":[512,512]},"params":{"LAYERS":["SENTINEL-3-SLSTR-L2-LST"],"TILED":true,"TIME":"2023-08-09T00:00:00Z/2023-08-09T23:59:59Z"}}}]},{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857","attributions":"{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }"},"preload":null}]}]' zoom="8.226276198652377" center=[8.416972275689911,56.40289609169693] projection="" animationOptions={duration:500}}-->
+#### T2m downscaling
+For **T2m downscaling**, the Random Forest (RF) model performed best, optimised with a maximum depth of 50. Overall R² was 0.98, consistent during heatwaves but slightly lower (0.97) during cold waves. Mean Absolute Error (MAE) was 0.74K overall, 0.63K during heatwaves, and 0.81K during cold waves, confirming robust performance precisely when it matters most, under extreme heat conditions.
+
+
+
+##
 For **LST downscaling**, Sentinel-3 LST and Synergy (NDVI) products trained multiple models, validated against Landsat 8/9. A hybrid Non-Linear DisTrad (NL-DisTrad) approach combined ML with disaggregation algorithms to capture spatial and vegetation-related temperature patterns. Seasonal performance varied, with R² of 0.67 (Summer), 0.51 (Spring), and 0.56 (Autumn).
 
-For **T2m downscaling**, the Random Forest (RF) model performed best, optimised with a maximum depth of 50. Overall R² was 0.98, consistent during heatwaves but slightly lower (0.97) during cold waves. Mean Absolute Error (MAE) was 0.74K overall, 0.63K during heatwaves, and 0.81K during cold waves, confirming robust performance precisely when it matters most, under extreme heat conditions.
+
 
 Compared to standard NWP outputs, the CLIM4Cities models are:
 - **faster**: minutes to run daily or sub-daily, instead of hours
