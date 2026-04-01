@@ -93,9 +93,7 @@ The resulting time series revealed a **clear and sharp increase in CO concentrat
 
 ## Open Science
 
-As climate change drives more frequent and intense fire seasons across Europe and globally, workflows such as this one become increasingly important for early warning, emergency response, and post-event impact assessment.
-
-All datasets referenced in this story are freely and openly available.The analysis workflow links these three data sources in a coherent chain: Sentinel-2 imagery defines the geographic extent of the fire event; the GHS layer identifies which parts of that extent are populated; and Sentinel-5P CO data quantifies the atmospheric exposure of those populations during and after the fire. This integrated approach demonstrates how open Earth observation data, freely accessible through platforms such as the [Euro Data Cube (EDC)](https://eurodatacube.com/) and the [EO Dashboard](https://eodashboard.org/) — can be combined to produce actionable insights about the human and environmental impacts of extreme wildfire events.
+As climate change drives more frequent and intense fire seasons across Europe and globally, workflows such as this one become increasingly important for early warning, emergency response, and post-event impact assessment. All datasets referenced in this story are freely and openly available:
 
 | Name | Type | Agency / Provider | Description | Access/Source |
 |---|---|---|---|---|
