@@ -7,8 +7,8 @@ official: true
 collections: collectionIdentifier1, collectionIdentifier2
 ---
 
-# Narrative <!--{ as=\"img\" mode=\"hero\" src=\"https://placehold.co/600x400/png\" }-->
-### Hero Subtitle <!--{ style=\"font-size:1.5rem;opacity:0.7;margin-top:1rem;\" }-->
+# Narrative <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
+### Hero Subtitle <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 
 ## First section
 
