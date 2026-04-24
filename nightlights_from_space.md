@@ -60,7 +60,7 @@ To produce the new dataset, the daily nighttime satellite data (Suomi NPP/VIIRS 
 #### NTLU (Nighttime Light Urban)
 The **NTLU** provides a comprehensive global spatial representation of nighttime light levels in urban areas. It is derived from satellite observations from the Suomi NPP satellite. This dataset is valuable for studying the **distribution of artificial lighting in urban regions**, offering insights into urban growth, infrastructure development, and socio-economic activity. 
 <figure style="text-align: center;">
-    <img src="https://eospso.nasa.gov/sites/default/files/sat/Suomi-NPP.jpg" 
+    <img src="https://science.nasa.gov/wp-content/uploads/2023/06/img-press-140106-suomi-npp-jpg.webp" 
          alt=" Sea ice concentration in May 2023. " 
          style="display: block; margin: 0 auto;"
          width="500">
