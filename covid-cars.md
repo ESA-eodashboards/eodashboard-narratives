@@ -84,7 +84,7 @@ Earth-observing satellites have tracked activity at global ports importing and e
 <center>
 	<figure>
   <img src="https://wpassets.porttechnology.org/wp-content/uploads/2019/11/25162519/singapore-msc.jpg" alt="Description of the image">
-  <figcaption>Containers at terminal in Singapore. Image source: https://www.porttechnology.org</figcaption>
+  <figcaption>Containers at terminal in Singapore. Image source: https://www.porttechnology.org </figcaption>
 </figure>
 </center>
 
