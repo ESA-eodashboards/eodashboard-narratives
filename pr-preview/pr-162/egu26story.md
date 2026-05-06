@@ -31,7 +31,7 @@ Text describing the current step of the tour and why it is interesting what the 
 
 
 
-## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[ { "type": "Tile", "properties": { "id": "TOPO-WMS" }, "source": { "type": "TileWMS", "url": "https://sh.dataspace.copernicus.eu/ogc/wms/aa392785-db93-441e-b3e1-be7ea5e555cd", "params": { "LAYERS": "COLOR_INFRARED" } } } ]' zoom="2" center=[16.35,48.2] }-->
+## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[ { "type": "Tile", "properties": { "id": "TOPO-WMS" }, "source": { "type": "TileWMS", "url": "https://sh.dataspace.copernicus.eu/ogc/wms/aa392785-db93-441e-b3e1-be7ea5e555cd", "params": { "LAYERS": "COLOR_INFRARED" } } } ]' zoom="12" center=[16.35,48.2] }-->
 
 ## Let's build Step-by-Step!
 ...
