@@ -124,7 +124,20 @@ The elbow metric was used to quantify the ideal amount of clusters for the data,
 
 The code was run at MAAP portal.
 
-**Limitations**: Not all EarthCARE data products are yet available, and merging different instruments (particularly MSI with CPR and ATLID) remains challenging in early mission phases.
+<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
+    <img 
+        src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/elbow_graph.jpg?raw=true" 
+        style="max-width: 100%; width: 800px; height: auto;"
+        alt="Pacific region clusters"
+    />
+    <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
+        <b>Figure 10: Data points indicating their assigned clusters</b>  The resulting clustering, expressed by different colours, is shown for the West Pacific (upper row) and the East Pacific (bottom row). 
+    </p>
+</div>
+
+
+
+**Limitations**: Not all EarthCARE data products are yet available, and merging different instruments (particularly MSI with CPR and ATLID) remains challenging in early mission phases. Also, this is only an exploratory analysis, in which we explore possible broad relations between variables. 
 
 ## Results
 Although this was only an exploratory analysis, several interesting insights emerge. The following figures show the data points from each product in each study region, resampled to 1‑minute resolution. Each figure therefore represents the output after applying the processing pipeline up to <b>Step 5</b>. Each axis corresponds to one of the variables used in the study. The resulting clusters are shown as different colours, where each colour represents the assigned cluster for a given data point, and the red crosses indicate the cluster centroids.
