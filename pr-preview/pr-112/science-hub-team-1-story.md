@@ -127,10 +127,7 @@ The code was run at MAAP portal.
 **Limitations**: Not all EarthCARE data products are yet available, and merging different instruments (particularly MSI with CPR and ATLID) remains challenging in early mission phases.
 
 ## Results
-Although this was only an exploratory analysis, we can see some insights. 
-The following plots show the clusters obtained in 2 dimensions, where each dimension is one of the variables we worked with. Each colour represents the cluster to which each data point has been classified to. The red crosses show the clusters' centroids. 
-	
-The first thing to notice is that, ovearall, the West Pacific classification is different than the East one. Taking a closer look at the IWP vs AOD plots, many of the points and especially the ones with higher value lie either in IWP=0 or AOT=0. This is expected as the Aerosols are measured with the lidar and, as stated previously, the thick clouds made of ice, therefore wtih high IWP, will make the lidar extinguished. However, there are some points that have a value different to 0 in both axis.
+Although this was only an exploratory analysis, several interesting insights emerge. The following figures show the data points from each product in each study region, resampled to 1‑minute resolution. Each figure therefore represents the output after applying the processing pipeline up to <b>Step 5</b>. Each axis corresponds to one of the variables used in the study. The resulting clusters are shown as different colours, where each colour represents the assigned cluster for a given data point, and the red crosses indicate the cluster centroids.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
