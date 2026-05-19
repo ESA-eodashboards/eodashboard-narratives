@@ -35,7 +35,8 @@ https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Chall
 
 Some aerosols help form ice crystals instead, acting as Ice **Nucleating Particles (INPs)**, common at higher, colder altitudes. Depending on whether droplets are liquid, ice, or both, clouds are classified as liquid, ice, or mixed-phase. Natural aerosols include sea salt, volcanic sulfates, and desert dust, while anthropogenic aerosols arise from pollution and biomass burning. 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Ice_Nucleation_Mechanisms.png?20141019054030" width="600" style="display:block; margin:auto;"/> <p style="text-align:center;"><b>Figure 2: INPs</b> Various ice nucleation mechanisms in the atmosphere or modes of ice formation in clouds.</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Ice_Nucleation_Mechanisms.png?20141019054030" width="600" style="display:block; margin:auto;"/> <p style="text-align:center;"><b>Figure 2 </b> Various ice nucleation mechanisms in the atmosphere.
+.</p>
 
 Because aerosols influence droplet formation, they also affect cloud structure and behavior. For instance, more CCNs create numerous smaller droplets, increasing cloud reflectivity: **the Twomey effect**. By altering droplet number, phase, and thickness, aerosols modify how clouds reflect sunlight and trap heat, playing a key role in how clouds either amplify or mitigate global warming.
 
