@@ -56,21 +56,22 @@ The objective of this study is to explore whether and how aerosols influence clo
 
 #### Why EarthCare? 
 
-EarthCARE is a first-of-its-kind mission that offers an unlikely opportunity to understand the complexity of cloud changes using a single satellite. What makes EarthCARE special is its four instruments working together to study clouds, aerosols, and radiation in detail.
+EarthCARE is a first-of-its-kind mission that offers an opportunity to understand the complexity of cloud changes using a single satellite. What makes EarthCARE special is its four instruments working together to study clouds, aerosols, and radiation in detail.
 
 
 * **ATLID (Atmospheric Lidar)** uses laser pulses to detect aerosols and thin cloud layers by measuring how light scatters back from particles, providing high-resolution profiles that improve on previous lidar missions like CALIPSO.
-* **CPR (Cloud Profiling Radar)** can "see" across the clouds with radar signals to measure their vertical structure and water content, adding the capability to  capture cloud motion and the speed of precipitation. This imporves the previous mission called CloudSat .
-* **MSI (Multi-Spectral Imager)** delivers multi-wavelength images in 7 different bands that reveal cloud structure and aerosol distribution over large areas, complementing [MODIS](https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/modis/) with higher spatial resolution. The product resolution of MODIS is 250m/500/1km, while the MSI is 500m. 
-* **BBR (Broadband Radiometer)** measures solar and thermal radiation reflected and emitted by Earth, enabling direct estimates of top-of-atmosphere radiative effects and energy balance. 
+* **CPR (Cloud Profiling Radar)** can "see" across the clouds with radar signals to measure their vertical structure and water content, adding the capability to capture cloud motion and the fall speed of precipitation. This improves the previous mission called CloudSat.
+* **MSI (Multi-Spectral Imager)** delivers multi-wavelength images in 7 different bands that reveal cloud structure and aerosol distribution over large areas, complementing with higher spatial resolution. The product resolution of MODIS is 250m/500/1km, while the MSI is 500m.
+ [MODIS](https://ladsweb.modaps.eosdis.nasa.gov/missions-and-measurements/modis/) with higher spatial resolution. The product resolution of MODIS is 250m/500/1km, while the MSI is 500m. 
+* **BBR (Broadband Radiometer)** measures solar and thermal radiation reflected and emitted by Earth, enabling direct estimates of top-of-atmosphere radiative effects and energy balance.
+
 
 <div style="text-align: center;"> <img src="https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/team1-earthcare-sensors-image.png?raw=true" width="800"/> <p><b>Figure 6.</b> EarthCare Satellite (source: ESA).</p> </div>
 
-Together, these instruments provide comprehensive and blended data that will help us explore interactions and uncover new insights into how clouds and aerosols influence climate.
+
 
 ## Use cases
-In the latest ESA challenge workshop, we set out to explore the clouds and aerosols at three different locations with quite special characteristics. 
-The first region lies just north of the Equator and stretches West to East across the Pacific Ocean. It's called the call the Inter-Tropical Convergence Zone (ITCZ) and it is characterized by persistent clouds with high and icy tops. The second region is in Antartica, the Southern Ocean. Here the conditions are quite different and clouds are lower, but because of the temperature these are mostly made of ice. 
+In the latest ESA challenge workshop, we set out to explore the clouds and aerosols at three different locations with quite special characteristics. Just near the Equator lies a very characteristic and dynamic region called the Inter-Tropical Convergence Zone (ITCZ) that stretches across the globe, a narrow belt in the troposphere characterized by persistent clouds with high and icy tops. The formation of the ITCZ is driven by the warm and moist air that is heated-up by the sun, and then ascends and cools forming clouds. Two of the areas we chose to study are within the ITCZ, one in the West Pacific Ocean and the other one in the East Pacific Ocean. The third  region is in Antarctica,in  the Southern Ocean. Here the conditions are quite different and clouds are lower, but because of the low temperature, these are mostly made of supercooled liquid water, and sometimes ice.
 
 <div style="text-align: center;">
     <img src="
@@ -79,15 +80,14 @@ https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Chall
 </div>
 
 1. **West Pacific**
-The western ITCZ is very interesting because air raises in very strong updrafts (air moving upwards), mostly because the sea serface temperature is usually high. These updrafts and the clouds can form storms that can stir the ocean, lifting sea salt aerosols into the atmosphere. These are natural aerosols (non-anthropogenic). However, nearby regions such as Southeast Asia and China may contribute with anthropogenic aerosols derived from human activities, like pollution or industrial activity.
+The western ITCZ is very interesting because of the potential sources of aerosols that we could find in the area. First, we have the characteristic strong updrafts (air moving upwards) of the ITCZ, but here the storms can be exceptionally strong and stir the ocean, lifting sea salt aerosols into the atmosphere. These are natural aerosols (non-anthropogenic). However, nearby regions such as Southeast Asia and China may contribute with anthropogenic aerosols derived from human activities, like pollution or industrial activity, or with aerosols that come from biomass burn. 
 
 2.  **Eastern Pacific**  
-This region typically experiences downdrafts, where air sinks rather than rises, as the sea temperature is usually lower than in the West. Yet, high clouds still form here. Being far from major population centers, we expect fewer aerosol sources. 
-
+In this region, being far from major population centers, we expect fewer aerosol sources. In terms of the climatology, this region is characterized by large-scale subsidence, where air is drier than in the west, as the sea temperature is colder than in the West in normal conditions. Figure explains the regional differences in the climate pattern in the Pacific due to the characteristic Walker circulation.
 3.   **Southern Ocean** 
-The atmospheric dynamics are quite particular in this region. Ice clouds form at much lower altitudes given the extremely low temperature of the atmosphere. However, there can also be some supercooled clouds at low altitudes. Aerosols might potentially be carried from far away, and influence cloud formation here. We mostly expect sea salt aerosols, but there could also be stratospheric aerosols, especially from volcanic eruptions.
+ Aerosols might potentially be carried from far away, and influence cloud formation here. We mostly expect sea salt aerosols, but there could also be stratospheric aerosols, especially from volcanic eruptions. The atmospheric dynamics are quite particular in this region. Supercooled liquid clouds and ice clouds form at much lower altitudes compared to what happens in latitudes closer to the Equator, given the low temperature of the atmosphere.
 
-Comparing these three very interesting regions with quite distinctive characteristics could give us a hint on whether the aerosols are influencing changes in the clouds. 
+Comparing these three very interesting regions with quite distinctive characteristics could give us a hint on whether the aerosols are influencing changes in the clouds.
 <div style="text-align: center;">
     <img src="
 https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Challenge-September-2025/Team-1/Screenshot%20from%202025-11-06%2012-12-20.png?raw=true" width="500"/>
@@ -97,7 +97,7 @@ https://github.com/eurodatacube/eodash-assets/blob/main/stories/ScienceHub-Chall
 
 
 ## Data and Methods
-Two instruments (out of of the four) on-board of EarthCare, we used, which can provide a vertical profiliing of the atmosphere:
+We used data derived from two instruments out of the four on-board EarthCARE, which can provide a vertical profiling of the atmosphere:
 - **Cloud Profiling Radar (CPR)**: 94 GHz nadir-viewing radar with ~750m horizontal resolution and 500m vertical resolution, providing cloud structure and water content.
 - **Atmospheric Lidar (ATLID)**: 354.8 nm nadir-viewing lidar with <30m horizontal resolution. The vertical resolution is 103m (below 20.2km altitude) and 500 m (above 20.2km altitude), detecting aerosols and thin clouds.
 
@@ -107,7 +107,7 @@ The analysis used three primary EarthCARE data products:
 - **ATL_ALD_2A**: Aerosol Optical Thickness (AOT) at 355nm from lidar measurements
 - **AC_TC_2A**: Synergistic radar-lidar target classification distinguishing cloud types and aerosol layers
 
-Data coverage: Approximately 600-700 scenes from June-July and September 2025 (limited by early mission data availability). Analysis was conducted using the Multi-Mission Algorithm and Analysis Platform (MAAP).
+Data coverage: The analysis was conducted using approximately 600-700 scenes from June-July and September 2025, limited by early mission data availability. The code was run using the Multi-Mission Algorithm and Analysis Platform (MAAP) portal.
 
 #### Methodology workflow
 
