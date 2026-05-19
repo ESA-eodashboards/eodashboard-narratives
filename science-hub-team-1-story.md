@@ -139,16 +139,26 @@ The first thing to notice is that, ovearall, the West Pacific classification is 
         alt="Pacific region clusters"
     />
     <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 9: Clustering results in ITCZ</b> K-means clustering results for West Pacific (upper row) and East Pacific (bottom row).
+        <b>Figure 10: Data points indicating their assigned clusters</b>  The resulting clustering, expressed by different colours, is shown for the West Pacific (upper row) and the East Pacific (bottom row). 
     </p>
 </div>
 
-Taking a closer look at the West Pacific, there are some values in the space where the IWP>0.2 kgm-3, which is considerered a thick ice clouds, and AOT!= 0. Many of these points are classified as cluster 5 (brown dots) and 1 (blue dots). If we take a look at the LWP vs AOT plot, we see that most of the data points in cluster 5 have a lower LWP values compared to their IWP values. In cluster 1 instead, for the same AOD values, they have higher values of LWP. Finally, lookig at the LWP vs IWP plot, we confirm that cluster 5 data points are mostly thick clouds made of ice and cluster 1 points are mostly made of liquid water. 
-In the East Pacific, we see similar distributions, although there are many more points and clusters where the LWP is higher than in the west. This means that there might be more liquid or mixed phase clouds, that can interact with aerosols, especially the sea salt. 
+Looking more closely at the ice water path (IWP) versus aerosol optical thickness (AOT) panels (Fig. 10 a and d), many points fall either along the line where <b>IWP = 0</b> or where <b>AOT = 0</b>. This behaviour is expected: aerosols are measured by the lidar, and thick ice‑topped clouds (high IWP) strongly attenuate the lidar signal, preventing aerosol retrievals. However, it is notable that some points show non‑zero values for both variables. This suggests that there may be conditions under which both aerosol and ice‑cloud properties can be detected simultaneously, which warrants further investigation.
 
-In Antartica, we clearly see a much more pristine environment. 
-The first plot shows that there don't seem to be many links between the aerosols and the ice clouds, exept perhaps for one outlier that would need further research. 
-The second and third plot show that there are not many liquid clouds. 
+Focusing on the first panel for the West Pacific (Fig. 10a), there are data points in the region where <b>IWP > 0.2 kg m⁻³</b>, which is considered indicative of thick ice clouds, and <b>AOT > 0</b>. The majority of these points are classified as cluster 3 (green dots), with a smaller number belonging to cluster 4 (orange dots).
+
+In the East Pacific (Fig.10d), the distribution of the data points is broadly similar to the West Pacific (Fig. 10a). Curiously, the clusters are inverted: cluster 4 (orange dots) are the points with high IWP values and cluster 3 (green dots) represent points with high AOT values. A few values classified as cluster 1 (blue dots) , with noticeable values of <b>IWP >0</b> and <b>AOT>0</b> emerge in the East Pacific. In the West, this cluster is not so significant. 
+
+Examining Fig. 10b, which shows <b>LWP versus AOT</b> for the West Pacific, we observe that most data points in cluster 3 (green dots) exhibit lower LWP values compared to their IWP values. By contrast, in cluster 4 (orange dots), LWP is higher than IWP for the same AOT values.
+
+Looking next at the <b>LWP versus IWP</b> plot (Fig. 10c), we confirm that cluster 3 data points (green dots) mainly represent thick ice clouds, while cluster 4 points (orange dots) are predominantly composed of liquid water. Another notable group is cluster 2, shown as light‑blue points, which displays mixed characteristics: several points have significant values of both LWP and IWP, potentially representing mixed‑phase clouds. The relationship with AOT is much stronger for the liquid phase (Fig. 10b) than for the ice phase (Fig. 10a), although a few light‑blue outliers exhibit <b>IWP > 0.2 kg m⁻³</b> together with <b>AOT > 0</b>.
+
+In the East Pacific, we observe a broadly similar distribution of data points to that of the West Pacific. However, there are many more points and clusters for which LWP values (Fig. 10e) are higher than those seen in the West Pacific. This difference may partly arise from measurement artefacts. In the West Pacific, high clouds tend to have higher and colder tops and to be more spatially extensive than in the East Pacific. As a result, lidar attenuation can occur over much larger vertical and horizontal scales. Consequently, even if aerosol burdens are actually higher in the West Pacific, these cloud‑regime differences must be taken into account.
+
+Overall, the East Pacific shows a larger occurrence of liquid‑phase clouds (Fig. 10e) than the West Pacific, for which clearer relationships with aerosols are observed, as these clouds are generally located at lower altitudes. Because cloud properties and phases are derived primarily from radar observations, stronger confidence can be placed in these conclusions. Moreover, Fig. 10f suggests a higher occurrence of mixed‑phase clouds in the East Pacific, which may be more likely to interact with aerosols.
+
+The data points for the Southern Ocean region are shown in  <b>Figure 11</b>, where a much more pristine environment is evident. The majority of data points correspond to ice clouds: in the third panel, all points show LWP = 0, except for a single outlier. No clear relationship between IWP and AOT is evident in the first panel, again with only one outlier that would require further investigation. This is likely due to strong lidar attenuation by ice clouds, an effect that is even more pronounced than in the tropics. As shown here, Southern Ocean clouds are predominantly ice‑phase, with very limited liquid or mixed‑phase occurrence.
+
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
@@ -157,7 +167,7 @@ The second and third plot show that there are not many liquid clouds.
         alt="Spatial cluster distribution"
     />
     <p style="text-align: center; font-size: 1.2em; margin-top: 10px;">
-        <b>Figure 10: Clustering results in Antartica. </b> Compared to the ITCZ results, we didn't find many aerosols.
+        <b>Figure 11: Clustering results in Antartica. </b> Compared to the results in the Tropical Pacific, we didn't find many aerosol-clouds relations due to the lidar attenuation in ice clouds.
     </p>
 </div>
 
