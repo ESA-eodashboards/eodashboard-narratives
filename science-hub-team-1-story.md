@@ -164,12 +164,15 @@ The second and third plot show that there are not many liquid clouds.
 
 ## Conclusions
 
-This study demonstrates the capability of EarthCARE's integrated sensor suite to reveal relationships between aerosol properties and cloud microphysics across different climate regions.
+This study demonstrates the capability of EarthCARE's integrated sensor suite to reveal relationships between aerosol properties and cloud microphysics across different climate regions. From this exploratory analysis, several insights emerge regarding the connections between aerosols and cloud properties, as observed by EarthCARE.
 
-We have tested the potential of EarthCARE to unveal the interactions between clouds and aerosols. 
-Focusing on different areas were we know the clouds but where we are still exploring the distributions of aerosols was challenging, but thanks to EarthCare we were able to get insights on the links. 
+First, aerosol–cloud relationships are strongly modulated by cloud phase and vertical structure. In all regions analysed, the most clear relationships between aerosol optical thickness (AOT) and cloud properties are primarily observed for liquid clouds, and some for and mixed‑phase clouds. Such relationships are much weaker for ice‑dominated clouds. Although this could be a physical signal, it mostly reflects observational constraints: ice clouds strongly attenuate the lidar signal, limiting aerosol detectability beneath or within these clouds. This happens for both thick clouds with ice-made tops in the tropics, but also for some thinner clouds made of ice in the Southern Ocean. 
 
-The synergetic products makes it easier to interpret the possible links between differet types of clouds and different species of aerosols. We took a limited time period of data this time, but with the upcomming data and more statistical analysis, we'll be able to push the boundaries of this problem. 
+Understanding of regional cloud regimes play a critical role in the interpretation of the observed aerosol–cloud connections. This is particularly relevant across the ITCZ, where regimes can be quite different. 
+In spite of the natural observational constraints, the clustering analysis reveals promising information regarding cloud-aerosol interactions. The identified clusters consistently distinguish between ice‑dominated, liquid‑dominated, and mixed‑phase cloud populations, each exhibiting different sensitivities to aerosol presence. This demonstrates the value of combining radar‑derived cloud properties with lidar‑based aerosol retrievals.
+
+Further analysis should include the synergetic product, which would aid with the understanding of not only the cloud regimes but also the type of aerosol. By relating the clusters obtained to the different species of aerosols obtained, we can get better insights on the aerosol distributions on each region and the interactions with clouds. 
+ 
 
 
 ## <!--{ as="div" }--> Open Science
