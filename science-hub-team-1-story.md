@@ -112,15 +112,15 @@ Data coverage: Approximately 600-700 scenes from June-July and September 2025 (l
 #### Methodology workflow
 
 The analysis followed a systematic processing pipeline:
-* **1- Extract** all the data available for the areas we're interested in (600~700 scenes)
-* **2- Resample** data by time at 1s temporal resolution
-* **3- Merge** datasets(radar+lidar+synergetic) at 1 m temporal definition (AOT, L/IWP, Target classification)
-* **4- Resample** at 1 minute temporal
-* **5- Select** only the months for which all data is available: June-July, September 2025
-* **5- Normalize** variables (x-min/max-min)
-* **6 - Clustering** approach using simple **K-means** to understand centroids distance and relations between variables
+* **1- Extract** the available data: This step involved selecting the scenes of interest from the EarthCARE dataset. At the time of conducting the analysis, between 600 and 700 scenes were available for the target regions.
+* **2- Resample** data at 1-second temporal resolution: Since the radar and lidar often record data at intervals shorter than one second, we standardised the temporal resolution by averaging all values within each 1‑second window.
+* **3- Merge** datasets: We combine variables from multiple instruments together. We merge the Aerosol Optical Thickness (from Lidar), the Liquid Water Path and Ice Water Path (from radar) and the Target classification (from both radar and lidar) at 1-second temporal resolution.
+* **4- Resample** to 1-minute temporal resolution: For simplicity, the merged dataset was further averaged into 1‑minute intervals, applying a mean across each variable within each minute.
+* **5- Select** months with **complete** data available: The analysis focused on June, July, and September 2025, as these were the months for which full datasets of the three variables were available.
+* **5- Normalize**  variables: Prior to model training, each variable was normalised using a min–max scaling approach x' = x -xminxmax-xmin , where x is a variable value, xmin is the minimum value observed for that variable within the selected data and xmax is the maximum value.
+* **6 - Clustering** approach: A K‑means clustering algorithm was applied with the aim of grouping the data and, from there, explore relationships between variables. As this is an unsupervised method, the number of clusters must be specified in advance. We used the elbow method to determine the optimal number of clusters, which was found to be five (see Figure 9).
 
-The elbow metric was used to quantify the ideal amount of clusters for the data, which is 5 (where the "elbow" is).  Finally, the synergetic product provided insights on the types of clouds or aerosols that are grouped on each cluster.
+Finally, the synergetic product provided insights on the types of clouds or aerosols that are grouped on each cluster.
 
 The code was run at MAAP portal.
 
