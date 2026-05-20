@@ -131,7 +131,7 @@ The analysis used three primary EarthCARE data products:
 - **ATL_ALD_2A**: Aerosol Optical Thickness (AOT) at 355nm from lidar measurements
 - **AC_TC_2A**: Synergistic radar-lidar target classification distinguishing cloud types and aerosol layers
 
-Data coverage: The analysis was conducted using approximately 600-700 scenes from June-July and September 2025, limited by early mission data availability. The code was run using the Multi-Mission Algorithm and Analysis Platform (MAAP) portal.
+Data coverage: The analysis was conducted using approximately 600-700 scenes from June-July and September 2025, limited by early mission data availability. The code was run using the [Multi-Mission Algorithm and Analysis Platform (MAAP) portal](https://portal.maap.eo.esa.int/earthcare/).
 
 #### Methodology workflow
 
@@ -146,7 +146,6 @@ The analysis followed a systematic processing pipeline:
 
 Finally, the synergetic product provided insights on the types of clouds or aerosols that are grouped on each cluster.
 
-The code was run at MAAP portal.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;">
     <img 
@@ -227,11 +226,8 @@ Further analysis should include the synergetic product, which would aid with the
 | **[CPR_CLD_2A Product](https://www.eoportal.org/satellite-missions/earthcare#sensor-complement)**                                                                                       | Dataset | ESA/JAXA                        | Cloud Profiling Radar Level 2A product providing cloud variables, Liquid Water Path (LWP), Ice Water Path (IWP), and land/ocean flags.                                     |
 | **[ATL_ALD_2A Product](https://amt.copernicus.org/preprints/amt-2023-252/)**                                          | Dataset     | ESA/JAXA               | Atmospheric Lidar Level 2A product providing Aerosol Optical Thickness (AOT) at 355nm and aerosol layer properties.                                                     |
 | **[AC_TC_2A Product](https://www.eoportal.org/satellite-missions/earthcare#sensor-complement)**                          | Dataset | ESA/JAXA | Synergistic radar-lidar target classification product distinguishing cloud types and aerosol layers.                                               |
-| **[MAAP - Multi-Mission Algorithm and Analysis Platform](https://maap-project.org/)**                          | Platform | ESA/NASA | Cloud-based platform for processing and analyzing Earth observation data, used for EarthCARE data processing and clustering analysis.                                               |
+| **[MAAP - Multi-Mission Algorithm and Analysis Platform](https://portal.maap.eo.esa.int/earthcare/)**                          | Platform | ESA | Cloud-based platform for processing and analyzing Earth observation data, used for EarthCARE data processing and clustering analysis.                                               |
 
-#### Code Repository
-Access the complete analysis code and notebooks on GitHub.
-<iframe width="100%" height="600" src="https://github.com/giacom0rovers1/earthcare_aerosol_cloud_interactions" frameborder="0"></iframe>
 
 #### References
 - [Finney, D. L., et al. (2025). Microphysical fingerprints in anvil cloud albedo. *Journal of the Atmospheric Sciences*](https://egusphere.copernicus.org/preprints/2025/egusphere-2025-1227/)
