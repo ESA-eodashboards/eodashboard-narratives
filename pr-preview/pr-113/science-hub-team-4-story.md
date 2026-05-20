@@ -1,8 +1,9 @@
 ---
 cover-image: https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/10/svalbard/24544693-1-eng-GB/Svalbard_pillars.jpg
-date: 2025-01-01
-theme: theme_name
-tags: some,tags
+date: 2025-05-20
+theme: cryosphere
+tags: sentinel-1, C-band, machine learning, Arctic, Svalbard, Remote Sensing
+official: false
 
 ---
 
