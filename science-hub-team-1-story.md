@@ -255,7 +255,9 @@ Further analysis should include the synergetic product, which would aid with the
 | **[ATL_ALD_2A Product](https://amt.copernicus.org/preprints/amt-2023-252/)**                                          | Dataset     | ESA/JAXA               | Atmospheric Lidar Level 2A product providing Aerosol Optical Thickness (AOT) at 355nm and aerosol layer properties.                                                     |
 | **[AC_TC_2A Product](https://www.eoportal.org/satellite-missions/earthcare#sensor-complement)**                          | Dataset | ESA/JAXA | Synergistic radar-lidar target classification product distinguishing cloud types and aerosol layers.                                               |
 | **[ESA MAAP – ESA Multi-Mission Algorithm and Analysis Platform](https://portal.maap.eo.esa.int/earthcare/)**                          | Platform | ESA | Cloud-based platform for processing and analyzing Earth observation data, used for EarthCARE data processing and clustering analysis.                                               |
-
+#### Notebook
+Access the notebook to reproduce the study workflow.
+<iframe width="100%" height="600" src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/openchallangenotebook-ch1-earthcare-cloud-aerosols/" frameborder="0"></iframe>
 
 #### References
 - Finney, D. L., et al. (2025). *Microphysical fingerprints in anvil cloud albedo*. Journal of the Atmospheric Sciences. https://egusphere.copernicus.org/preprints/2025/egusphere-2025-1227/
