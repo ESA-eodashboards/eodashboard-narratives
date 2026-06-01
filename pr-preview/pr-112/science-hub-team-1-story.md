@@ -1,8 +1,8 @@
 ---
 cover-image: https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/10/earthcare_for_a_better_understanding_of_earth_s_radiation_balance/25154725-1-eng-GB/EarthCARE_for_a_better_understanding_of_Earth_s_radiation_balance_pillars.png
 date: 2025-01-01
-theme: theme_name
-tags: some,tags
+theme: atmosphere
+tags: EarthCARE, Clouds, Atmosphere
 
 ---
 
