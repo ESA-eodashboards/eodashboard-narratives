@@ -52,6 +52,8 @@ https://raw.githubusercontent.com/eurodatacube/eodash-assets/AparicioSF-patch-7/
 
 
 
+
+
 ### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ndvi_deepESDL;:;2021-12-31T00:00:00Z;:;xcube tiles;:;EPSG:3857","title":"xcube tiles"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/ndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-31T00:00:00Z&vmin=-1&vmax=1&cbar=RdYlGn","projection":"EPSG:3857"}}]},{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]}]' zoom="6.254309813092814" center=[-64.55063927299018,-5.039648675050586] projection="" animationOptions={duration:500}}-->
 #### The Amazon forest
 The Amazon Forest, the world’s largest tropical rainforest, is characterized by a humid, aseasonal climate with persistently high precipitation and serves as a major global carbon reservoir, storing approximately 123 billion tonnes of carbon (NOAA, 2021). It is also home to an extraordinary diversity of plant and animal species, playing a vital role in regulating the Earth’s climate and supporting global biodiversity.
@@ -215,9 +217,14 @@ The current data (~28 km) is suitable for large forests, but finer-resolution da
 | **[NDVI](https://eodashboard.org/explore/?x=0&y=0&z=2.5&datetime=2020-01-01&template=expert&indicator=NDVI)** | Dataset             | DeepESDL / ESDC                           | Normalized Difference Vegetation Index (NDVI) time series. |
 | **[EO Dashboard](https://eodashboard.org/explore/?x=15.0000&y=48.0000&z=4.0000&datetime=2025-09-19&template=expert)**                                    | Platform / Web Tool | EO Dashboard Consortium (ESA, NASA, JAXA) | Provides base layers and visualization tools for interactive exploration of NDVI and other Earth observation indicators.                                                                                                                |
 
+
+
 #### Notebook
 Access the notebook to reproduce the study workflow.
-<iframe width="100%" height="600" src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/openchallangenotebook-ch1-earthcare-cloud-aerosols/" frameborder="0"></iframe>
+<iframe width="100%" height="600" src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/openchallangenotebook-team-5-challenge-3-timeserie/" frameborder="0"></iframe>
+
+
+
 
 
 #### References
