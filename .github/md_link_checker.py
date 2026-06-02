@@ -22,6 +22,9 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent
 OUTPUT_HTML = SCRIPT_DIR / "link_check_report.html"
 
+# Files skipped by the script
+EXCLUDED_FILES = {"readme.md"}
+
 # History
 HISTORY_DIR = Path(
     os.environ.get("HISTORY_DIR", REPO_ROOT / "health_history")
@@ -181,7 +184,12 @@ def collect(repo_root: Path):
         for file in files:
             if not file.lower().endswith(".md"):
                 continue
+
             fp = Path(root) / file
+            
+            if file.lower() in EXCLUDED_FILES:
+                print(f"ℹ️ Skipping excluded file: {fp}")
+                continue
             try:
                 with open(fp, "r", encoding="utf-8") as f:
                     text = f.read()
@@ -196,6 +204,9 @@ def collect_from_files(file_paths):
     tasks = []
     for fp in file_paths:
         p = Path(fp)
+        if p.name.lower() in EXCLUDED_FILES:
+            print(f"ℹ️ Skipping excluded file: {fp}")
+            continue
         if not p.exists() or not p.is_file():
             print(f"⚠️ Skipping missing file: {fp}")
             continue
