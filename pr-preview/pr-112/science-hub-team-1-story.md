@@ -259,7 +259,7 @@ Further analysis should include the synergetic product, which would aid with the
 | **[ESA MAAP – ESA Multi-Mission Algorithm and Analysis Platform](https://portal.maap.eo.esa.int/earthcare/)**                          | Platform | ESA | Cloud-based platform for processing and analyzing Earth observation data, used for EarthCARE data processing and clustering analysis.                                               |
 #### Notebook
 Access the notebook to reproduce the study workflow.
-<iframe width="100%" height="600" src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/OpenChallangeNotebook-EarthCARE_Cloud_Aerosols_Interactions/" frameborder="0"></iframe>
+<iframe width="100%" height="600" src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/openchallangenotebook-earthcare-cloud-aerosols-int/" frameborder="0"></iframe>
 
 
 
