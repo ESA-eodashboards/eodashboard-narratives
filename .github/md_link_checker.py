@@ -15,12 +15,6 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib3.exceptions import InsecureRequestWarning
 
-try:
-    from curl_cffi import requests as cffi_requests
-    HAVE_CFFI = True
-except ImportError:
-    HAVE_CFFI = False
-
 urllib3.disable_warnings(InsecureRequestWarning)
 
 # -------------------------------------------------------------------
@@ -29,6 +23,9 @@ urllib3.disable_warnings(InsecureRequestWarning)
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = SCRIPT_DIR.parent
 OUTPUT_HTML = SCRIPT_DIR / "link_check_report.html"
+
+# Files skipped by the script
+EXCLUDED_FILES = {"readme.md"}
 
 # History
 HISTORY_DIR = Path(
@@ -65,8 +62,6 @@ def check_url(task):
     # Try plain requests with two UAs, then curl_cffi (TLS-fingerprint
     # impersonation) if installed. Stop early on a non-bot-block status.
     attempts = [(False, UAS[0]), (False, UAS[1])]
-    if HAVE_CFFI:
-        attempts.append((True, UAS[0]))
     for i, (use_cffi, ua) in enumerate(attempts):
         try:
             r = _do_request(url, ua, use_cffi=use_cffi)
@@ -117,7 +112,7 @@ def browser_headers(url: str, ua: str) -> dict:
 
 def _do_request(url, ua, use_cffi=False):
     headers = browser_headers(url, ua)
-    if use_cffi and HAVE_CFFI:
+    if use_cffi:
         return cffi_requests.get(
             url, headers=headers, allow_redirects=True,
             timeout=TIMEOUT, verify=False, impersonate="chrome124",
@@ -246,6 +241,9 @@ def collect(repo_root: Path):
         for file in files:
             if not file.lower().endswith(".md"):
                 continue
+            if file.lower() in EXCLUDED_FILES:
+                print(f"ℹ️ Skipping excluded file: {fp}")
+                continue
             fp = Path(root) / file
             try:
                 with open(fp, "r", encoding="utf-8") as f:
@@ -261,6 +259,9 @@ def collect_from_files(file_paths):
     tasks = []
     for fp in file_paths:
         p = Path(fp)
+        if p.name.lower() in EXCLUDED_FILES:
+            print(f"ℹ️ Skipping excluded file: {fp}")
+            continue
         if not p.exists() or not p.is_file():
             print(f"⚠️ Skipping missing file: {fp}")
             continue
