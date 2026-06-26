@@ -5,11 +5,11 @@ theme: [theme_name]
 tags: [tag1,tag2,tag3]
 ---
 
-# Story Title <!--{ as="img" mode="hero" src="[COVER_IMAGE_URL]" }-->
-### Authors: AUTHOR_NAME¹, AUTHOR_NAME², AUTHOR_NAME³ <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
-¹ [Affiliation 1]  
-² [Affiliation 2]  
-³ [Affiliation 3]  
+# Urbanization monitoring from EO data <!--{ as="img" mode="hero" src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN1-Story-header-.png?raw=true" style="width: 100%; height:800px;" }-->
+### Authors: Nguyen Manh HUNG¹, Dang Do Nam PHUONG², Tong Thi Huyen AI¹, Nguyen Huu CHUYEN³ <!--{ style="font-size:1.0rem;opacity:0.7;margin-top:1rem; color:Yellow" }-->
+¹ [Vietnam National Space Center, Vietnam Acedamy of Science and Technology]  
+² [Vietnam National University, Hanoi]  
+³ [Department of National Remote Sensing, Ministry of Agriculture and Environment] <!--{ style="font-size:0.8rem;opacity:1;margin-top:1rem; color:Yellow; align="left"" }-->
 ...
 
 #
