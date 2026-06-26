@@ -39,14 +39,12 @@ There is also a gap between scientific analysis and policy action. Even when sat
 ## Objectives
 * **Primary Objective:** 
 To monitor **urbanization trends and urban area dynamics** in Hanoi using Earth Observation (EO) data through satellite image analysis and remote sensing techniques. Accordingly the specific Objectivesare:
-- **Objective 1:** Monitoring Urban Expansion – To track the growth and sprawl of urban areas over time (2015–2025).
-- **Objective 2:** Assessing Land Use Dynamics – To develop detailed Land Use/Land Cover (LULC) maps with six classification categories: Built-up Land, Barren Land, Water Bodies, Forest, Agriculture, and Others.
-- **Objective 3:** Mapping Urban Growth Patterns – To generate spatial maps illustrating the direction and extent of urban changes.
-- **Objective 4:** Quantifying Urbanization Trends – To measure the rate of urban expansion and spatial patterns using indices such as the Impervious Surface Index (ISI), Urbanization Ratio (UR), and Annual Growth Rate (AGR).
- <!--{ style="font-size:0.8rem;opacity:1;margin-top:1rem; align="left"" }-->
+- **Objective 1:** Monitoring Urban Expansion – To track the growth and sprawl of urban areas over time (2015–2025). <!--{ style="font-size:1rem;opacity:1; color:blue" }-->
+- **Objective 2:** Assessing Land Use Dynamics – To develop detailed Land Use/Land Cover (LULC) maps with six classification categories: Built-up Land, Barren Land, Water Bodies, Forest, Agriculture, and Others. <!--{ style="font-size:1rem;opacity:1; color:blue" }-->
+- **Objective 3:** Mapping Urban Growth Patterns – To generate spatial maps illustrating the direction and extent of urban changes. <!--{ style="font-size:1rem;opacity:1; color:blue" }-->
+- **Objective 4:** Quantifying Urbanization Trends – To measure the rate of urban expansion and spatial patterns using indices such as the Impervious Surface Index (ISI), Urbanization Ratio (UR), and Annual Growth Rate (AGR). <!--{ style="font-size:1rem;opacity:1; color:blue" }-->
+- **Objective 5:** Supporting Sustainable Planning – To provide planning-relevant information for assessing development trends and guiding future zoning strategies. <!--{ style="font-size:1rem;opacity:1; color:blue" }-->
 
--**Objective 5:** Supporting Sustainable Planning – To provide planning-relevant information for assessing development trends and guiding future zoning strategies.
-<!--{ style="font-size:0.8rem;opacity:1;margin-top:1rem; align="left"" }-->
 
 
 
