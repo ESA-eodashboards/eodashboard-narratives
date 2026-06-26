@@ -13,7 +13,7 @@ tags: [tag1,tag2,tag3]
 ...
 
 #
-*This story is based on results from [WORKSHOP/CONFERENCE/PROJECT]([LINK]), organised by [ORGANIZATION]([LINK]). The study, dedicated to **STUDY_TOPIC**, was developed by participants from the following organizations:*
+*This story is based on results from [ALOS-2 Ideathon Bridging Space Data and Societal Needs](https://vnsc.org.vn/en/news-events/vietnam-national-space-center-vietnam-academy-of-science-and-technology-organizes-workshop-on-application-ideas-for-alos-2-and-sar-satellite-data-in-vietnam/), organised by [ORGANIZATION]([LINK]). The study, dedicated to **STUDY_TOPIC**, was developed by participants from the following organizations:*
 
 <p align="center">
   <img src="[LOGO_URL_1]" alt="[ALT_TEXT]" height="80" style="margin: 0 15px;"/>
