@@ -47,13 +47,10 @@ To monitor **urbanization trends and urban area dynamics** in Hanoi using Earth 
 - **Objective 5:** Supporting Sustainable Planning – To provide planning-relevant information for assessing development trends and guiding future zoning strategies. <!--{ style="font-size:1rem;opacity:1; color:blue" }--> 
 
 
-## Use Case <!--{ as="eox-map" mode="tour" }-->
-### <!--{ src="https://github.com/phkh1366/eoxhub-related/blob/main/1-Hanoi-CaseStudy.jpg?raw=true"}-->
+## Use Case <!--{ as="img" mode="tour" }-->
+### <!--{ src="https://github.com/phkh1366/eoxhub-related/blob/main/1-Hanoi-CaseStudy.jpg?raw=true style="width:50%; height:100px"}-->
 #### This is an image tour.
 It allows you to have different sources for each tour "step".
-
-
-
 
 
 ## Data and Methods
