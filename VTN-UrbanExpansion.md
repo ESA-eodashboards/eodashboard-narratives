@@ -46,59 +46,57 @@ To monitor **urbanization trends and urban area dynamics** in Hanoi using Earth 
 - **Objective 4:** Quantifying Urbanization Trends – To measure the rate of urban expansion and spatial patterns using indices such as the Impervious Surface Index (ISI), Urbanization Ratio (UR), and Annual Growth Rate (AGR). <!--{ style="font-size:1rem;opacity:1; color:blue" }-->
 - **Objective 5:** Supporting Sustainable Planning – To provide planning-relevant information for assessing development trends and guiding future zoning strategies. <!--{ style="font-size:1rem;opacity:1; color:blue" }--> 
 
-
-
-
-## Use Case <!--{ as="img" mode="tour" }-->
-### <!--{ src="https://github.com/phkh1366/eoxhub-related/blob/main/1-Hanoi-CaseStudy.jpg?raw=true style="width:50%; height:100px"}-->
-#### This is an image tour.
-It allows you to have different sources for each tour "step".
-
-## Vietnam <!--{ as="eox-map" mode="tour" }-->
-
-### <!--{ layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}}]' center=[105.85,21.03] zoom="8" animationOptions="{duration:500}" }-->
+## Vietnam  <!--{ as="img" mode="hero" src="https://github.com/phkh1366/eoxhub-related/blob/main/1-Hanoi-CaseStudy.jpg?raw=true" style="width: 100%; height:800px;" }-->
 
 #### Hanoi
 Hanoi serves as the primary political, economic, and cultural hub of Vietnam, having experienced one of the nation's most accelerated urbanization rates throughout the last twenty years.
-
-
-
 
 ## Hanoi <!--{ as="eox-map" mode="tour" }-->
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[105.85,21.03] zoom="13" animationOptions="{duration:500}" }-->
 
-#### Hanoi
+##### Hanoi 
+Geographically situated within the Red River Delta, Hanoi encompasses approximately 3,360 km²...
 Geographically situated within the Red River Delta, the city encompasses approximately 3,360 km², positioning it as one of the most expansive capital cities in Southeast Asia in terms of land area. Recent census data from 2024 indicates a population of nearly 8.7 million, ranking Hanoi as Vietnam’s second-largest city by population density.  The city's urban footprint has been steadily pushing outward into suburban districts, including Gia Lam, Long Bien, Ha Dong, Hoang Mai, Soc Son, and Dong Anh. This rapid physical growth is driven by the extensive development of transportation networks, modern residential zones, and industrial clusters. Such profound modifications to land use and natural topography have placed considerable strain on local natural resources and the quality of the urban environment.  
 
 
 ## Data and Methods
 ### Datasets
-Describe datasets used, e.g., SAR, optical, reference datasets, resolution, temporal coverage.
 
-Category | Dataset | Description | Resolution | Temporal Coverage
---- | --- | --- | --- | ---
-🛰️ SAR Data | [Dataset Name] | [Description] | [Resolution] | [Years]
-🌍 Optical Data | [Dataset Name] | [Description] | [Resolution] | [Years]
-📍 Reference Data | [Dataset Name] | [Description] | [Resolution] | [Years]
+| Dataset | Provider | Resolution | Period | Purpose |
+|---|---|---:|---|---|
+| Landsat | USGS | 30m | 2015 | Band extraction, NDVI/NDWI/NDBI calculation, cloud masking, and LULC classification. |
+| Sentinel-2 | ESA | 10m | 2020–2025 | Spectral band extraction, vegetation index calculation, and LULC classification. |
+| ALOS-2/PALSAR-2 | JAXA | 25m | 2015–2025 | Pre-processing (calibration), speckle filtering, decibel (dB) conversion, and HH/HV polarization feature extraction for ML classification. |
+| PlanetScope | Planet Labs | 3m | 2020, 2025 | High-resolution validation and sample collection support. |
+| SRTM | NASA | 30m |  | Digital Elevation Model (DEM) for classification support. |
 
-**Furhter information about the datasets:**  
 
 
 ### Methodology Workflow
-Describe workflow: preprocessing, data fusion, indices, classification, etc.
 
-<div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;"> 
-<img src="[WORKFLOW_IMAGE]" style="max-width: 100%; width: 1000px; height: auto;" alt="Analysis workflow" /> 
-<p style="text-align: center; font-size: 1.2em; margin-top: 10px;"> <b>Figure [X].</b> Complete methodology workflow from data acquisition to analysis. </p> 
+The analytical workflow of this project is established upon the optimal integration of multi-sensor data sources within the Google Earth Engine (GEE) cloud computing platform, enabling high-performance processing of big geospatial data with superior precision and consistency. The initial phase focuses on rigorous pre-processing, encompassing atmospheric correction for optical spectral bands and advanced terrain correction for ALOS-2 PALSAR-2 Radar data to eliminate geometric and radiometric distortions.
+
+<div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/2-Methodology.png?raw=true" style="max-width: 100%; width: 1000px; height: auto;" alt="Analysis workflow" /> 
+<p style="text-align: center; font-size: 1.2em; margin-top: 10px;"> <b>Figure [1].</b> Complete methodology workflow from data acquisition to analysis. </p> 
 </div>
 
-Explain classification rules, indices, thresholds, machine learning approach, and change detection methodology.
+Following this, the system executes the extraction of core biophysical features through representative surface indices, such as the Normalized Difference Vegetation Index (NDVI), Normalized Difference Built-up Index (NDBI), and Normalized Difference Water Index (NDWI), while integrating Digital Elevation Model (DEM) data to characterize three-dimensional landscape structural variations.
+At the core of this methodology is the deployment of the Random Forest (RF) machine learning algorithm a robust classification model capable of handling complex non-linear correlations between spectral features. This algorithm is trained to automatically identify and categorize surfaces into six primary land cover classes: Built-up, Barren land, Water, Forest, Agriculture, and Others. The synergy between distinct spectral indices and advanced machine learning algorithms not only ensures exceptional accuracy for the classification maps but also provides a scientific analytical framework to quantify the expansion of impervious surfaces during the process of compact urbanization.
+
 
 ## Results
+By leveraging massive Earth Observation (EO) archives, this project has successfully decoded the complex narrative of Hanoi’s urban surface transformation during the strategic period of 2015–2025. The central output of this research is a high-resolution, multi-temporal Land Use and Land Cover (LULC) mapping system, which enables the precise identification of not only the location but also the directional vectors of cover type transitions.
+
+
+## Map Tour Example <!--{ as="eox-map" mode="tour" }-->
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}}]' center=[15,48] zoom="5" animationOptions="{duration:500}" }-->
+
 #### Initial findings:
-Include description, key findings, and visualizations.
-You can also add a Map Tour to show the datasets created and ingested on the EO Dashboard.
+
+The models provide visual evidence of the aggressive expansion of impervious surfaces representing concrete infrastructure spreading in corridors from the historical urban core toward peri-urban areas and satellite towns. Notably, the study scientifically quantifies the rate of urbanization through the Annual Growth Rate (AGR) index, helping to isolate and identify 'hot growth phases' of infrastructure linked to transportation network expansions and industrial zones.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;"> 
 <img src="[RESULT_IMAGE]" style="max-width: 100%; width: 1200px; height: auto;" alt="[ALT_TEXT]" /> 
