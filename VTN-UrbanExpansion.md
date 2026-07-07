@@ -98,12 +98,23 @@ Soc Son is located in northern Hanoi and includes more rural and peri-urban land
 
 Dong Anh lies north of the Red River and is considered a strategic area for Hanoi’s future urban expansion. Development in this district is linked to infrastructure projects, residential growth, and industrial zones.
 
-#####
+### <!--{ center=[105.85,21.15] zoom="15" animationOptions="{duration:800}" }-->
+
+##### Dong Anh
+
+Dong Anh lies north of the Red River and is considered a strategic area for Hanoi’s future urban expansion. Development in this district is linked to infrastructure projects, residential growth, and industrial zones.
+
+### <!--{ center=[105.85,21.15] zoom="15" animationOptions="{duration:800}" }-->
+
+##### Urban growth pressure
 
 This rapid physical growth is driven by the extensive development of transportation networks, modern residential zones, and industrial clusters. Such profound modifications to land use and natural topography have placed considerable strain on local natural resources and the quality of the urban environment.
 
-## Data and Methods
-### Datasets
+## Methodology Workflow & Data
+
+
+The analytical workflow of this project is established upon the optimal integration of multi-sensor data sources within the Google Earth Engine (GEE) cloud computing platform, enabling high-performance processing of big geospatial data with superior precision and consistency. 
+
 
 | Dataset | Provider | Resolution | Period | Purpose |
 |---|---|---:|---|---|
@@ -114,14 +125,11 @@ This rapid physical growth is driven by the extensive development of transportat
 | SRTM | NASA | 30m |  | Digital Elevation Model (DEM) for classification support. |
 
 
-
-### Methodology Workflow
-
-The analytical workflow of this project is established upon the optimal integration of multi-sensor data sources within the Google Earth Engine (GEE) cloud computing platform, enabling high-performance processing of big geospatial data with superior precision and consistency. The initial phase focuses on rigorous pre-processing, encompassing atmospheric correction for optical spectral bands and advanced terrain correction for ALOS-2 PALSAR-2 Radar data to eliminate geometric and radiometric distortions.
+The initial phase focuses on rigorous pre-processing, encompassing atmospheric correction for optical spectral bands and advanced terrain correction for ALOS-2 PALSAR-2 Radar data to eliminate geometric and radiometric distortions.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/2-Methodology.png?raw=true" style="max-width: 100%; width: 1000px; height: auto;" alt="Analysis workflow" /> 
-<p style="text-align: center; font-size: 1.2em; margin-top: 10px;"> <b>Figure [1].</b> Complete methodology workflow from data acquisition to analysis. </p> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 10px;"> <b>Figure [2].</b> Complete methodology workflow from data acquisition to analysis. </p> 
 </div>
 
 Following this, the system executes the extraction of core biophysical features through representative surface indices, such as the Normalized Difference Vegetation Index (NDVI), Normalized Difference Built-up Index (NDBI), and Normalized Difference Water Index (NDWI), while integrating Digital Elevation Model (DEM) data to characterize three-dimensional landscape structural variations.
