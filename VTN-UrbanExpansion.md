@@ -65,7 +65,7 @@ The city's urban footprint has been steadily pushing outward into suburban distr
 
 ## Gia Lam <!--{ as="eox-map" mode="tour" }-->
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[105.85,21.03] zoom="13" animationOptions="{duration:500}" }-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[105.85,21.03] zoom="15" animationOptions="{duration:500}" }-->
 
 Gia Lam is located to the east of central Hanoi and represents one of the important suburban expansion areas. Urban growth in this district is associated with new residential development, transport connections, and conversion of agricultural land.
 
@@ -75,25 +75,25 @@ Gia Lam is located to the east of central Hanoi and represents one of the import
 
 Long Bien lies northeast of Hanoi’s historical center, across the Red River. It has experienced strong urban development due to improved connectivity, commercial growth, and expansion of residential areas.
 
-### <!--{ center=[105.78,20.97] zoom="20" animationOptions="{duration:800}" }-->
+### <!--{ center=[105.78,20.97] zoom="15" animationOptions="{duration:800}" }-->
 
 ##### Ha Dong
 
 Ha Dong is located southwest of central Hanoi and has become one of the city’s major urban expansion zones. Its growth reflects the development of modern residential areas, road infrastructure, and urban services.
 
-### <!--{ center=[105.86,20.98] zoom="12" animationOptions="{duration:800}" }-->
+### <!--{ center=[105.86,20.98] zoom="15" animationOptions="{duration:800}" }-->
 
 ##### Hoang Mai
 
 Hoang Mai is situated in the southern part of Hanoi. The district has seen rapid transformation from peri-urban and mixed land-use areas into dense residential and transport-linked urban zones.
 
-### <!--{ center=[105.85,21.25] zoom="11" animationOptions="{duration:800}" }-->
+### <!--{ center=[105.85,21.25] zoom="15" animationOptions="{duration:800}" }-->
 
 ##### Soc Son
 
 Soc Son is located in northern Hanoi and includes more rural and peri-urban landscapes. Urban pressure in this area is influenced by transport infrastructure, industrial activities, and proximity to Noi Bai International Airport.
 
-### <!--{ center=[105.85,21.15] zoom="12" animationOptions="{duration:800}" }-->
+### <!--{ center=[105.85,21.15] zoom="15" animationOptions="{duration:800}" }-->
 
 ##### Dong Anh
 
