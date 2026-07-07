@@ -139,25 +139,21 @@ At the core of this methodology is the deployment of the Random Forest (RF) mach
 ## Results
 By leveraging massive Earth Observation (EO) archives, this project has successfully decoded the complex narrative of Hanoi’s urban surface transformation during the strategic period of 2015–2025. The central output of this research is a high-resolution, multi-temporal Land Use and Land Cover (LULC) mapping system, which enables the precise identification of not only the location but also the directional vectors of cover type transitions.
 
-
-## Map Tour Example <!--{ as="eox-map" mode="tour" }-->
-
-### <!--{ layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}}]' center=[15,48] zoom="5" animationOptions="{duration:500}" }-->
+<div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/3-LULC%20Maps.png?raw=true" style="max-width: 100%; width: 900px; height: auto;" alt="Analysis workflow" /> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 10px;"> <b>Figure [3].</b> Land use/land cover map of Hanoi for the years. </p> 
+</div>
 
 #### Initial findings:
-
 The models provide visual evidence of the aggressive expansion of impervious surfaces representing concrete infrastructure spreading in corridors from the historical urban core toward peri-urban areas and satellite towns. Notably, the study scientifically quantifies the rate of urbanization through the Annual Growth Rate (AGR) index, helping to isolate and identify 'hot growth phases' of infrastructure linked to transportation network expansions and industrial zones.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 40px 0;"> 
-<img src="[RESULT_IMAGE]" style="max-width: 100%; width: 1200px; height: auto;" alt="[ALT_TEXT]" /> 
-<p style="text-align: center; margin-top: 10px;"> <b>Figure [X].</b> [Caption describing result image]. </p> 
+<img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/d99cbbe44f92394618df91dd5708ee7f56ad1e21/4-SankeyChart.jpg" style="max-width: 100%; width: 500px; height: auto;" alt="[ALT_TEXT]" /> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 10px;"> <b>Figure [4].</b> Changes in the proportion of land-use and LULC classes in the study area from 2015 to 2025. </p> 
 </div>
-
-Include quantitative results table if available; Explain differences across methods, data sources, or polarizations, etc.
-
+The models provide visual evidence of the aggressive expansion of impervious surfaces representing concrete infrastructure spreading in corridors from the historical urban core toward peri-urban areas and satellite towns. Notably, the study scientifically quantifies the rate of urbanization through the Annual Growth Rate (AGR) index, helping to isolate and identify 'hot growth phases' of infrastructure linked to transportation network expansions and industrial zones.
 
 
-...
 
 ## Conclusions
 Summarize achievements, practical applications, limitations, and future vision.
