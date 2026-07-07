@@ -21,22 +21,22 @@ tags: [tag1,tag2,tag3]
   <img src="https://github.com/phkh1366/eoxhub-related/blob/main/Keio_University_Logo.png?raw=true" height="50" style="margin: 0 0px;"/>
 </p>
 
-## Challenge
+## Challenge <!--{ style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
 Rapid urbanization is one of the major environmental and social challenges facing many countries today. In Asia and Africa, where most global urban expansion is taking place, cities are growing quickly and placing increasing pressure on land, infrastructure, natural resources, and communities.
 
 In Vietnam, cities such as Hanoi are expanding rapidly through outward growth, new satellite urban areas, and changes in administrative boundaries. This process can lead to the loss of green spaces, more impervious surfaces, stronger Urban Heat Island effects, water quality issues, and pressure on biodiversity. At the same time, government agencies, planners, NGOs, and local communities need reliable and up-to-date spatial information to better understand these changes and support sustainable urban development.
 
-#### Problem Statement
+#### Problem Statement <!--{ style="font-size:2.0rem;opacity:1;margin-top:1rem; color:Navy" }-->
 This study addresses the lack of timely and consistent spatial information on urban expansion in rapidly growing Vietnamese cities, especially Hanoi. Current data are often fragmented, outdated, or not updated frequently enough to support effective planning.
 
 As a result, it is difficult to monitor how fast cities are expanding, which land use types are being converted, and how urban growth is affecting peri-urban areas. This project uses Earth observation data to monitor urban growth, detect land use changes, and provide practical information for sustainable planning and decision-making.
 
-###### Current limitations of monitoring urban expansion:
+###### Current limitations: <!--{ style="font-size:1.50rem;opacity:0.7;margin-top:1rem; color:Navy" }-->
 At present, there is no continuous and synchronized satellite-based monitoring system for tracking urban sprawl and land use change in major Vietnamese cities. Existing data are often scattered across different sources and are not always easy to combine or use.
 
 There is also a gap between scientific analysis and policy action. Even when satellite data are available, they are not always translated into clear and practical information for planners, policymakers, NGOs, or communities. A more systematic EO-based monitoring approach can help bridge this gap and support evidence-based urban governance.
 
-## Objectives
+## Objectives <!--{ style="font-size:1.5rem;opacity:1;margin-top:1rem; color:Navy" }-->
 **Primary Objective:** 
 To monitor **urbanization trends and urban area dynamics** in Hanoi using Earth Observation (EO) data through satellite image analysis and remote sensing techniques. Accordingly the specific Objectivesare: <!--{ style="font-size:1rem;opacity:1; margin-top:0px; margin-bottom:0px; color:blue" }-->
 
@@ -47,10 +47,29 @@ To monitor **urbanization trends and urban area dynamics** in Hanoi using Earth 
 - **Objective 5:** Supporting Sustainable Planning – To provide planning-relevant information for assessing development trends and guiding future zoning strategies. <!--{ style="font-size:1rem;opacity:1; color:blue" }--> 
 
 
+
+
 ## Use Case <!--{ as="img" mode="tour" }-->
 ### <!--{ src="https://github.com/phkh1366/eoxhub-related/blob/main/1-Hanoi-CaseStudy.jpg?raw=true style="width:50%; height:100px"}-->
 #### This is an image tour.
 It allows you to have different sources for each tour "step".
+
+## Vietnam <!--{ as="eox-map" mode="tour" }-->
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"osm"},"source":{"type":"OSM"}}]' center=[105.85,21.03] zoom="8" animationOptions="{duration:500}" }-->
+
+#### Hanoi
+Hanoi serves as the primary political, economic, and cultural hub of Vietnam, having experienced one of the nation's most accelerated urbanization rates throughout the last twenty years.
+
+
+
+
+## Hanoi <!--{ as="eox-map" mode="tour" }-->
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[105.85,21.03] zoom="13" animationOptions="{duration:500}" }-->
+
+#### Hanoi
+Geographically situated within the Red River Delta, the city encompasses approximately 3,360 km², positioning it as one of the most expansive capital cities in Southeast Asia in terms of land area. Recent census data from 2024 indicates a population of nearly 8.7 million, ranking Hanoi as Vietnam’s second-largest city by population density.  The city's urban footprint has been steadily pushing outward into suburban districts, including Gia Lam, Long Bien, Ha Dong, Hoang Mai, Soc Son, and Dong Anh. This rapid physical growth is driven by the extensive development of transportation networks, modern residential zones, and industrial clusters. Such profound modifications to land use and natural topography have placed considerable strain on local natural resources and the quality of the urban environment.  
 
 
 ## Data and Methods
