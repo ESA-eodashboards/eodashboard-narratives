@@ -169,37 +169,21 @@ The surge in the Impervious Surface Index (ISI) across the urban change maps ref
 </div>
 
 
-## Conclusions
-Summarize achievements, practical applications, limitations, and future vision.
+## Limitations
+Despite the systematic approach employed in this study, several limitations should be acknowledged. First, the dependency on cloud-masking techniques for optical datasets (Landsat/Sentinel-2) may hinder data acquisition during the rainy season. Second, the 25m spatial resolution of ALOS-2 SAR data limits the capacity for detailed urban mapping at a micro-scale. Third, the validation process is contingent upon the availability of field survey data and high-resolution imagery. Additionally, the six-class LULC classification system may lack the granularity required to distinguish specific urban land-use types, such as residential, industrial, and commercial zones. Furthermore, this study does not yet integrate socio-economic datasets to provide a comprehensive analysis of the drivers of urbanization. Finally, the research scope is geographically limited to Hanoi and has not yet been extended to other urban centers.
 
-Main Achievements:
-1. [Achievement 1]  
-2. [Achievement 2]  
-3. [Achievement 3]  
+## Future Development
+To enhance the scope and impact of this study, future research will focus on several key directions. We plan to:  
 
+- **1:** Expand the geographical coverage by applying our methodology to other major Vietnamese cities, such as Ho Chi Minh City, Da Nang, and Hai Phong. 
+- **2:**  Enrich our monitoring indices by incorporating water quality assessment, the Green Space Index, and population density tracking. 
 
-Study Limitations and Considerations:
-1. [Limitation 1]  
-2. [Limitation 2]  
-3. [Limitation 3]  
-
-### Next Steps
-Describe future directions, timelines, etc.
-Future Vision:
-[Describe operational systems, monitoring capabilities, and policy impact.]
-
-## <!--{ as="div" }--> Open Science
-
-| **Name** | **Type** | **Agency / Provider** | **Description / Usage** |
-| -------- | -------- | ------------------- | ---------------------- |
-| [Dataset 1 Name & Link] | [SAR/Optical/Reference/Climate] | [Provider] | [Description / Usage] |
-| [Dataset 2 Name & Link] | [SAR/Optical/Reference/Climate] | [Provider] | [Description / Usage] |
-...
 
 ## References
-* [Reference 1]  
-* [Reference 2]  
-* [Reference 3]  
-...
+1.	Seto KC, Fragkias M, Güneralp B, Reilly MK (2011) A Meta-Analysis of Global Urban Land Expansion. PLOS ONE 6(8): e23777. https://doi.org/10.1371/journal.pone.0023777
+2.	Angel, S., Parent, J., Civco, D. L., Blei, A., & Potere, D. (2011). The dimensions of global urban expansion: Estimates and projections for all countries, 2000-2050. Progress in Planning, 75(2), 53–107. https://doi.org/10.1016/j.progress.2011.04.001.
+3.	United Nations Human Settlements Programme (UN-Habitat). (2016). World Cities Report 2016: Urbanization and Development - Emerging Futures. https://unhabitat.org/world-cities-report-2016 
+4.	Talukdar, S., Singha, P., Mahato, S., Shahfahad, Pal, S., Liou, Y.-A., & Rahman, A. (2020). Land-Use Land-Cover Classification by Machine Learning Classifiers for Satellite Observations—A Review. Remote Sensing, 12(7), 1135. 
+ 
 
 
