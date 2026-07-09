@@ -160,7 +160,7 @@ The models provide visual evidence of the aggressive expansion of impervious sur
 <p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [6].</b> Urban Expansion in Ha Noi city over 10 years. </p> 
 </div>
 
-The surge in the Impervious Surface Index (ISI) across the urban change maps reflects more than just the scale of physical development; it highlights areas under significant micro-atmospheric pressure. These findings confirm that EO data is an irreplaceable tool for providing a holistic and accurate overview of urban dynamics, establishing a robust foundation for analyzing environmental impacts and evaluating planning efficiency.
+The surge in the Impervious Surface Index (ISI) across the urban change maps reflects more than just the scale of physical development; it highlights areas under significant micro-atmospheric pressure. These findings confirm that EO data is an irreplaceable tool for providing a holistic and accurate overview of urban dynamics, establishing a robust foundation for analyzing environmental impacts and evaluating planning efficiency. <!--{ style="font-size:1rem;opacity:1; margin-top:0px; margin-bottom:0px; margin-left:50px" }-->
 
 </div>
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
