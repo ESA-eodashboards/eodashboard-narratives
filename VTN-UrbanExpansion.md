@@ -13,12 +13,13 @@ tags: [tag1,tag2,tag3]
 ...
 
 #
-*This story is based on results from **[ALOS-2 Ideathon Bridging Space Data and Societal Needs](https://vnsc.org.vn/en/news-events/vietnam-national-space-center-vietnam-academy-of-science-and-technology-organizes-workshop-on-application-ideas-for-alos-2-and-sar-satellite-data-in-vietnam/)**, organised by JAXA, VNSC and Keio University. The study, dedicated to **Urbanization monitoring from EO data**, was developed by participants from the following organizations:*
+*This story is based on results from **[ALOS-2 Ideathon Bridging Space Data and Societal Needs](https://vnsc.org.vn/en/news-events/vietnam-national-space-center-vietnam-academy-of-science-and-technology-organizes-workshop-on-application-ideas-for-alos-2-and-sar-satellite-data-in-vietnam/)**, organised by JAXA, VNSC, Keio University and RESTEC. The study, dedicated to **Urbanization monitoring from EO data**, was developed by participants from the following organizations:*
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/2d25ca89ebc5fd3f1dbf204779815d5946de4496/Jaxa_logo.svg" height="50" style="margin: 0 0px;"/>
   <img src="https://github.com/phkh1366/eoxhub-related/blob/main/logo-VNSC-moi.png?raw=true" height="50" style="margin: 0 0px;"/>
   <img src="https://github.com/phkh1366/eoxhub-related/blob/main/Keio_University_Logo.png?raw=true" height="50" style="margin: 0 0px;"/>
+  <img src="https://github.com/phkh1366/eoxhub-related/blob/main/RESTEClogo-trans.png?raw=true" height="80" style="margin: 0 0px;"/>
 </p>
 
 ## Challenge <!--{ style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
