@@ -40,14 +40,26 @@ The study, dedicated to **Mangroves for Coastal Erosion Control**, was developed
 
 
 ## Challenge <!--{ style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
-Rapid urbanization is one of the major environmental and social challenges facing many countries today. In Asia and Africa, where most global urban expansion is taking place, cities are growing quickly and placing increasing pressure on land, infrastructure, natural resources, and communities.
+Coastal erosion poses **a critical and ongoing threat to Indonesia's mangrove ecosystems.** The sheer scale of this environmental degradation is immense; between 2009 and 2019, Indonesia experienced a total net loss of 128,176 hectares of mangrove area.
 
-In Vietnam, cities such as Hanoi are expanding rapidly through outward growth, new satellite urban areas, and changes in administrative boundaries. This process can lead to the loss of green spaces, more impervious surfaces, stronger Urban Heat Island effects, water quality issues, and pressure on biodiversity. At the same time, government agencies, planners, NGOs, and local communities need reliable and up-to-date spatial information to better understand these changes and support sustainable urban development.
+This massive deforestation and degradation translates into direct **destruction for coastal zones**. For instance, localized areas like **Kuala Selat Village** experience intensive coastal abrasion and continuous seawater intrusion throughout the year, demonstrating the urgent need for monitoring. 
+
+The **continued destruction of mangrove** areas deeply **affects both the ecosystem's biodiversity and the human populations** that rely on these coastal environments. Coastal communities face immediate threats to their safety and infrastructure due to unchecked seawater intrusion. 
+
+Furthermore, the **economic stability of these regions is jeopardized, as the loss of mangroves directly impacts primary local livelihoods and commodities, such as coconut plantations in Riau and aquaculture in East Java.**
+
+Addressing this crisis requires a robust spatial response, but Indonesia's current National Mangrove Map (PMN), organized by the Ministry of Forestry, suffers from several severe limitations. At present, mangrove monitoring remains limited, featureless regarding forest density, and largely inaccessible to the stakeholders who need it most. Specifically, the operational challenges include:
+-	Reliance on Inefficient Methods: Conventional data collection is labor-intensive, primarily depending on slow ground checks.
+-	Data Inaccuracies: Secondary data relies on open-source multispectral imagery, which is frequently inaccurate, obscured by clouds, and prone to classification errors like aquaculture ponds
+-	Scale and Logistical Limitations: Scarce data limits mapping scales to 1:25,000, and updating annual spatial data across Indonesia's vast area remains highly difficult.
+
+Developing a more **advanced and accessible** mangrove monitoring system is therefore essential. **High-quality Earth Obersvation** data can support targeted rehabilitation planning, improve biomass estimation, and strengthen blue carbon assessment, helping Indonesia protect its coastal ecosystems while advancing climate and resilience initiatives.
+
 
 #### Problem Statement <!--{ style="font-size:2.0rem;opacity:1;margin-top:1rem; color:Navy" }-->
-This study addresses the lack of timely and consistent spatial information on urban expansion in rapidly growing Vietnamese cities, especially Hanoi. Current data are often fragmented, outdated, or not updated frequently enough to support effective planning.
+Existing monitoring methods rely heavily on **conventional, labor-intensive ground checks and open-source multispectral imagery**, which are frequently affected by **cloud cover and inaccuracies**. Furthermore, the scarcity of **reliable secondary data** and Indonesia’s large geographic area pose significant challenges when updating spatial data annually. 
+**Consequently, current mangrove monitoring remains limited, featureless, and inaccessible, failing to provide the robust, up-to-date spatial data required to prevent coastal erosion. **
 
-As a result, it is difficult to monitor how fast cities are expanding, which land use types are being converted, and how urban growth is affecting peri-urban areas. This project uses Earth observation data to monitor urban growth, detect land use changes, and provide practical information for sustainable planning and decision-making.
 
 ###### Current limitations: <!--{ style="font-size:1.50rem;opacity:0.7;margin-top:1rem; color:Navy" }-->
 At present, there is no continuous and synchronized satellite-based monitoring system for tracking urban sprawl and land use change in major Vietnamese cities. Existing data are often scattered across different sources and are not always easy to combine or use.
