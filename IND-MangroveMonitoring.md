@@ -58,87 +58,36 @@ Developing a more **advanced and accessible** mangrove monitoring system is ther
 
 #### Problem Statement <!--{ style="font-size:2.0rem;opacity:1;margin-top:1rem; color:Navy" }-->
 Existing monitoring methods rely heavily on **conventional, labor-intensive ground checks and open-source multispectral imagery**, which are frequently affected by **cloud cover and inaccuracies**. Furthermore, the scarcity of **reliable secondary data** and Indonesia’s large geographic area pose significant challenges when updating spatial data annually. 
-**Consequently, current mangrove monitoring remains limited, featureless, and inaccessible, failing to provide the robust, up-to-date spatial data required to prevent coastal erosion. **
+**Consequently, current mangrove monitoring remains limited, featureless, and inaccessible, failing to provide the robust, up-to-date spatial data required to prevent coastal erosion.**
 
-
-###### Current limitations: <!--{ style="font-size:1.50rem;opacity:0.7;margin-top:1rem; color:Navy" }-->
-At present, there is no continuous and synchronized satellite-based monitoring system for tracking urban sprawl and land use change in major Vietnamese cities. Existing data are often scattered across different sources and are not always easy to combine or use.
-
-There is also a gap between scientific analysis and policy action. Even when satellite data are available, they are not always translated into clear and practical information for planners, policymakers, NGOs, or communities. A more systematic EO-based monitoring approach can help bridge this gap and support evidence-based urban governance.
 
 ## Objectives <!--{ style="font-size:1.5rem;opacity:1;margin-top:1rem; color:Navy" }-->
 **Primary Objective:** 
-To monitor **urbanization trends and urban area dynamics** in Hanoi using Earth Observation (EO) data through satellite image analysis and remote sensing techniques. Accordingly the specific Objectivesare: <!--{ style="font-size:1rem;opacity:1; margin-top:0px; margin-bottom:0px; color:blue" }-->
-
-- **Objective 1:** Monitoring Urban Expansion – To track the growth and sprawl of urban areas over time (2015–2025). <!--{ style="font-size:1rem;opacity:1; margin-top:0px; margin-bottom:0px; color:blue" }-->
-- **Objective 2:** Assessing Land Use Dynamics – To develop detailed Land Use/Land Cover (LULC) maps with six classification categories: Built-up Land, Barren Land, Water Bodies, Forest, Agriculture, and Others. <!--{ style="font-size:1rem;opacity:1; color:blue"; margin-top:0px; margin-bottom:0px; }-->
-- **Objective 3:** Mapping Urban Growth Patterns – To generate spatial maps illustrating the direction and extent of urban changes. <!--{ style="font-size:1rem;opacity:1; color:blue" }-->
-- **Objective 4:** Quantifying Urbanization Trends – To measure the rate of urban expansion and spatial patterns using indices such as the Impervious Surface Index (ISI), Urbanization Ratio (UR), and Annual Growth Rate (AGR). <!--{ style="font-size:1rem;opacity:1; color:blue" }-->
-- **Objective 5:** Supporting Sustainable Planning – To provide planning-relevant information for assessing development trends and guiding future zoning strategies. <!--{ style="font-size:1rem;opacity:1; color:blue" }--> 
+Mapping the **Multi-temporal analysis of mangrove gain/loss in Kuala Selat (Riau) and Pangpang Bay (East Java) using Logistic Model Tree (LMT)** to get the Mangrove Change Map (Gain and Loss) that is derived from SAR and multispectral band Satellite, highlighting areas of mangrove degradation and restoration potential in **Kuala Selat (Riau)** and **Pangpang Bay (East Java)**. 
 
 
 ## Case Study <!--{ as="eox-map" mode="tour" }-->
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[105.85,21.03] zoom="13" animationOptions="{duration:500}" }-->
-
-##### Hanoi 
-Hanoi serves as the primary political, economic, and cultural hub of Vietnam, having experienced one of the nation's most accelerated urbanization rates throughout the last twenty years.
-
+### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[103.706861,0.183472] zoom="8" animationOptions="{duration:500}" }-->
+##### Kuala Selat 
+**Kuala Selat** (0°11'00.5"N 103°42'24.7" E) is located in Riau Province, along the eastern coastline in Indragiri Hilir Regency on Sumatra Island.  Kuala Selat has a coastal landform with high salinity levels in the erosion area. The land cover in this area **is dominated by mangrove plants**, open fields, and coconut plantations, which are now **threatened by sea erosion**. 
+Kuala Selat experiences intensive abrasion and year-round seawater intrusion, making it a prime example of a mangrove zonation that critically lacks biodiversity and requires urgent monitoring. Addressing these environmental vulnerabilities is vital, as the area is expected to support coconut plantations, which are the primary livelihood and economic commodity for communities throughout Riau Province.
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
-<img src="https://github.com/phkh1366/eoxhub-related/blob/main/1-Hanoi-CaseStudy.jpg?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
-<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [1].</b> Study area </p> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/02.%20Study%20Area%20Map%20Kuala%20Selat.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [1].</b> Study Area Map of Kuala Selat </p> 
 </div>
 
-Geographically situated within the Red River Delta, the city encompasses approximately 3,360 km², positioning it as one of the most expansive capital cities in Southeast Asia in terms of land area. Recent census data from 2024 indicates a population of nearly 8.7 million, ranking Hanoi as Vietnam’s second-largest city by population density. 
-The city's urban footprint has been steadily pushing outward into suburban districts, including Gia Lam, Long Bien, Ha Dong, Hoang Mai, Soc Son, and Dong Anh. This rapid physical growth is driven by the extensive development of transportation networks, modern residential zones, and industrial clusters. Such profound modifications to land use and natural topography have placed considerable strain on local natural resources and the quality of the urban environment.  
-## Suburban districts <!--{ as="eox-map" mode="tour" }-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[114.346111,-8.523806] zoom="12" animationOptions="{duration:500}" }-->
+##### Pangpang Bay 
+**Pangpang Bay** (8°31'25.7"S 114°20'46.0" E) is located in the easternmost part of East Java Province in a regency called Banyuwangi. With just a 30 km radius from Bali Island, Pangpang Bay has been designated as an Essential Ecosystem Area by the existence of an aquaculture pond based on the Decree of the Governor of East Java Number 188/338/KPTS/013/2020 concerning Essential Ecosystem Areas. It has at least 18 types of true mangrove biodiversity dominated by Ceriops tagal, Rhizophora apiculata, Bruguiera gymnorrhiza, and Rhizophora mucronata. This biodiversity-rich area is a bay that has the characteristic of calm water, but is still influenced by the ebb and flow of seawater at least twice a day.
+This site serves as a valuable comparative area for Kuala Selat, showcasing a prime example of complex mangrove biodiversity successfully coexisting with human livelihoods like aquaculture. However, because the area still has the potential to experience abrasion and seawater intrusion, ongoing observation is essential. The primary goal of this monitoring is to identify exactly where and how mangrove biodiversity and community livelihoods can sustainably thrive together within these aquaculture ponds.
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[105.85,21.03] zoom="15" animationOptions="{duration:500}" }-->
+<div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/02.%20Study%20Area%20Map%20Pangpang%20Bay.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [2].</b> Study Area Map of Pangpang Bay </p>
+</div>
 
-##### Gia Lam
-Gia Lam is located to the east of central Hanoi and represents one of the important suburban expansion areas. Urban growth in this district is associated with new residential development, transport connections, and conversion of agricultural land.
 
-### <!--{ center=[105.91,21.03] zoom="15" animationOptions="{duration:800}" }-->
-
-##### Long Bien
-
-Long Bien lies northeast of Hanoi’s historical center, across the Red River. It has experienced strong urban development due to improved connectivity, commercial growth, and expansion of residential areas.
-
-### <!--{ center=[105.78,20.97] zoom="15" animationOptions="{duration:800}" }-->
-
-##### Ha Dong
-
-Ha Dong is located southwest of central Hanoi and has become one of the city’s major urban expansion zones. Its growth reflects the development of modern residential areas, road infrastructure, and urban services.
-
-### <!--{ center=[105.86,20.98] zoom="15" animationOptions="{duration:800}" }-->
-
-##### Hoang Mai
-
-Hoang Mai is situated in the southern part of Hanoi. The district has seen rapid transformation from peri-urban and mixed land-use areas into dense residential and transport-linked urban zones.
-
-### <!--{ center=[105.85,21.25] zoom="15" animationOptions="{duration:800}" }-->
-
-##### Soc Son
-
-Soc Son is located in northern Hanoi and includes more rural and peri-urban landscapes. Urban pressure in this area is influenced by transport infrastructure, industrial activities, and proximity to Noi Bai International Airport.
-
-### <!--{ center=[105.85,21.15] zoom="15" animationOptions="{duration:800}" }-->
-
-##### Dong Anh
-
-Dong Anh lies north of the Red River and is considered a strategic area for Hanoi’s future urban expansion. Development in this district is linked to infrastructure projects, residential growth, and industrial zones.
-
-### <!--{ center=[105.85,21.15] zoom="15" animationOptions="{duration:800}" }-->
-
-##### Dong Anh
-
-Dong Anh lies north of the Red River and is considered a strategic area for Hanoi’s future urban expansion. Development in this district is linked to infrastructure projects, residential growth, and industrial zones.
-
-### <!--{ center=[105.85,21.15] zoom="15" animationOptions="{duration:800}" }-->
-
-##### Urban growth pressure
-
-This rapid physical growth is driven by the extensive development of transportation networks, modern residential zones, and industrial clusters. Such profound modifications to land use and natural topography have placed considerable strain on local natural resources and the quality of the urban environment.
 
 ## Methodology Workflow & Data
 
