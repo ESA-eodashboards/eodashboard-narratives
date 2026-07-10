@@ -90,79 +90,89 @@ This site serves as a valuable comparative area for Kuala Selat, showcasing a pr
 
 
 ## Methodology Workflow & Data
+By integrating high-resolution Synthetic Aperture Radar (SAR) data with optical satellite imagery, this research addresses the shortcomings of conventional monitoring methods: 
 
 
-The analytical workflow of this project is established upon the optimal integration of multi-sensor data sources within the Google Earth Engine (GEE) cloud computing platform, enabling high-performance processing of big geospatial data with superior precision and consistency. 
+| Name | Provider | Resolution | Temporal Coverage | Purpose |
+|---|---|---|---|---|
+| ALOS-2 L2.2 ScanSAR | JAXA (Japan Aerospace Exploration Agency) | Primary L-band SAR dataset (60–100 m) | 2021 and 2024 | Used for large-scale mangrove detection, area calculation, and change analysis. Its high penetration capability makes it suitable for dense mangrove canopies. |
+| Sentinel-2 L2A | Copernicus | Visible bands (10 m) | 2021 and 2024 | Used for validation of ScanSAR-derived products and visualization of the study area. |
+| Indonesia’s National Mangrove Map | Ministry of Forestry, Indonesia | - | 2021 and 2024 | Used to compare the total mangrove area with the ALOS-2 analysis. |
+| Indonesia’s administrative boundary | Geospatial Information Agency (BIG), Indonesia | 1:25,000 scale | 2021 and 2024 | Used to divide the ALOS-2, Sentinel-2, and PMN datasets according to Indonesia’s official administrative boundaries. |
 
-
-| Dataset | Provider | Resolution | Period | Purpose |
-|---|---|---:|---|---|
-| Landsat | USGS | 30m | 2015 | Band extraction, NDVI/NDWI/NDBI calculation, cloud masking, and LULC classification. |
-| Sentinel-2 | ESA | 10m | 2020–2025 | Spectral band extraction, vegetation index calculation, and LULC classification. |
-| ALOS-2/PALSAR-2 | JAXA | 25m | 2015–2025 | Pre-processing (calibration), speckle filtering, decibel (dB) conversion, and HH/HV polarization feature extraction for ML classification. |
-| PlanetScope | Planet Labs | 3m | 2020, 2025 | High-resolution validation and sample collection support. |
-| SRTM | NASA | 30m |  | Digital Elevation Model (DEM) for classification support. |
-
-
-The initial phase focuses on rigorous pre-processing, encompassing atmospheric correction for optical spectral bands and advanced terrain correction for ALOS-2 PALSAR-2 Radar data to eliminate geometric and radiometric distortions.
+The methodology leverages a multi-sensor approach, integrating ALOS PALSAR-2 radar data with Sentinel-2 Level 2A optical imagery. Using GIS geoprocessing tools and raster functions, the data is preprocessed by applying a 5x5 Frost speckle filter to extract HH and HV backscattering coefficients, and by calculating a Mangrove Vegetation Index (MVI) from Sentinel-2 imagery to construct the foundational training datasets.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
-<img src="https://github.com/phkh1366/eoxhub-related/blob/main/2-Methodology.png?raw=true" style="max-width: 100%; width: 1000px; height: auto;" alt="Analysis workflow" /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 10px;"> <b>Figure [2].</b> Complete methodology workflow from data acquisition to analysis. </p> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/03.%20WorkflowDiagramGeneral.png?raw=true" style="max-width: 100%; width: 1000px; height: auto;" alt="Analysis workflow" /> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 10px;"> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/03.%20WorkflowDiagramTechnical.png?raw=true" style="max-width: 100%; width: 1000px; height: auto;" alt="Analysis workflow" /> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 10px;">
+<b>Figure [3].</b> Complete methodology workflow from data acquisition to analysis. </p> 
 </div>
-
-Following this, the system executes the extraction of core biophysical features through representative surface indices, such as the Normalized Difference Vegetation Index (NDVI), Normalized Difference Built-up Index (NDBI), and Normalized Difference Water Index (NDWI), while integrating Digital Elevation Model (DEM) data to characterize three-dimensional landscape structural variations.
-At the core of this methodology is the deployment of the Random Forest (RF) machine learning algorithm a robust classification model capable of handling complex non-linear correlations between spectral features. This algorithm is trained to automatically identify and categorize surfaces into six primary land cover classes: Built-up, Barren land, Water, Forest, Agriculture, and Others. The synergy between distinct spectral indices and advanced machine learning algorithms not only ensures exceptional accuracy for the classification maps but also provides a scientific analytical framework to quantify the expansion of impervious surfaces during the process of compact urbanization.
+Classification is driven by a Decision Tree utilizing a sequential Logistic Model Tree. First, Rule 1 applies radar backscattering (HH > -15.5 and HV > -17.9) to separate combined forest cover from non-forest areas (rice paddies and water bodies). Next, Rule 2 applies the optical MVI filters for values strictly between 4.5 and 20 to successfully isolate mangrove forests from terrestrial forests. The spatial processing steps are structured as a technical workflow within a GIS environment like ArcGIS Pro. This operational setup, "Raster Functions," for on-the-fly data processing and index calculations, alongside established "Geoprocessing Toolboxes" to handle heavier analytical tasks, such as filtering, dataset generation, and decision tree logic. Custom "Symbology Features" are then applied to the resulting layers to visually categorize the distinct backscattering ranges and classification outputs. 
+By executing this automated workflow, the model generates independent mangrove distribution maps for specific years, such as 2021 and 2024. Comparing these temporal classifications ultimately produces a final Mangrove Change Map that identifies precise areas of mangrove gain and loss to support continuous ecosystem monitoring.
 
 
 ## Results
-By leveraging massive Earth Observation (EO) archives, this project has successfully decoded the complex narrative of Hanoi’s urban surface transformation during the strategic period of 2015–2025. The central output of this research is a high-resolution, multi-temporal Land Use and Land Cover (LULC) mapping system, which enables the precise identification of not only the location but also the directional vectors of cover type transitions.
+To provide comprehensive visualizations of the main findings and supporting spatial analyses, this project generated a series of multi-temporal classification maps for two contrasting coastal environments: Kuala Selat and Pangpang Bay. The spatial outputs include baseline Sentinel-2 Mangrove Vegetation Index (MVI) maps, alongside ALOS PALSAR-2 backscattering reclassification maps for both HH and HV polarizations across the years 2021 and 2024. The core visualizations, however, are the "Rule 2" classification maps; these intersect the radar and optical datasets to visually delineate the strictest, "true positive" mangrove extents. Furthermore, to support these algorithmic findings with foundational background information, high-resolution optical basemaps are included to facilitate a robust visual validation process, allowing for the direct interpretation of mangrove textures and site associations against the processed data.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 5px 0;"> 
-<img src="https://github.com/phkh1366/eoxhub-related/blob/main/3-LULC%20Maps.png?raw=true" style="max-width: 100%; width: 900px; height: auto;" alt="Analysis workflow" /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [3].</b> Land use/land cover map of Hanoi for the years. </p> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/kualaselat_HH_HV_MVI_2024.png?raw=true" style="max-width: 100%; width: 900px; height: auto;" alt="Analysis workflow" /> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [4]. (a,b)</b> ALOS-2 HH and HV Reclassification after backscattering coefficient process and speckle filtering. <b>(c)</b> Mangrove Vegetation Index from Sentinel-2A Vectorization</p> 
 </div>
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
-<img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/d99cbbe44f92394618df91dd5708ee7f56ad1e21/4-SankeyChart.jpg" style="max-width: 100%; width: 500px; height: auto;"/> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [4].</b> Changes in the proportion of land-use and LULC classes in the study area from 2015 to 2025. </p> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/kualaselat_Reclassification.png?raw=true" style="max-width: 100%; width: 800px; height: auto;"/> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [5].</b> ALOS-2 different combinations reclassification results in Kuala Selat for 2021 and 2024 </p> 
 </div>
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
-<img src="https://github.com/phkh1366/eoxhub-related/blob/main/5-Chart.png?raw=true" style="max-width: 100%; width: 500px; height: auto;"  /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [5].</b> The chart shows the change in area of objects in the period from 2015 to 2025. </p> 
-</div>
-
-The models provide visual evidence of the aggressive expansion of impervious surfaces representing concrete infrastructure spreading in corridors from the historical urban core toward peri-urban areas and satellite towns. Notably, the study scientifically quantifies the rate of urbanization through the Annual Growth Rate (AGR) index, helping to isolate and identify 'hot growth phases' of infrastructure linked to transportation network expansions and industrial zones.
+To systematically quantify the spatial results, the geodetically measured areas were extracted and formatted into comparative statistical tables and clustered column charts. These quantitative visualizations detail the total mangrove area in hectares, plotting the results side-by-side across four specific indicators: the baseline Indonesia Mangrove Map (PMN), the optical MVI, Rule 2 (HH + MVI), and Rule 2 (HV + MVI). By mapping these variables against the 2021 and 2024 timelines for both study sites, the charts explicitly illustrate the localized trajectories of mangrove decline. Ultimately, these graphs provide the necessary statistical backing to demonstrate how the strict, multi-sensor methodology effectively filters out the "false positives" and overestimations frequently found in conventional national mapping efforts.
 
 </div>
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
-<img src="https://github.com/phkh1366/eoxhub-related/blob/main/6-UrbanExpan.png?raw=true" style="max-width: 100%; width: 400px; height: auto;"  /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [6].</b> Urban Expansion in Ha Noi city over 10 years. </p> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/AreaComparsion.png?raw=true" style="max-width: 100%; width: 400px; height: auto;"  /> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [6].</b> Mangrove Areas Comparison 2021 and 2024 Chart at Kuala Selat and Pangpang Bay. </p> 
 </div>
 
-The surge in the Impervious Surface Index (ISI) across the urban change maps reflects more than just the scale of physical development; it highlights areas under significant micro-atmospheric pressure. These findings confirm that EO data is an irreplaceable tool for providing a holistic and accurate overview of urban dynamics, establishing a robust foundation for analyzing environmental impacts and evaluating planning efficiency. <!--{ style="font-size:1rem;opacity:1; margin-top:0px; margin-bottom:0px; margin-left:50px" }-->
-
-</div>
-<div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
-<img src="https://github.com/phkh1366/eoxhub-related/blob/main/7-Rate.jpg?raw=true" style="max-width: 100%; width: 600px; height: auto;"  /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [7].</b> The distribution of Urbanization ratio and Urban growth rate in Ha Noi city over 10 years. </p> 
-</div>
 
 
 ## Limitations
-Despite the systematic approach employed in this study, several limitations should be acknowledged. First, the dependency on cloud-masking techniques for optical datasets (Landsat/Sentinel-2) may hinder data acquisition during the rainy season. Second, the 25m spatial resolution of ALOS-2 SAR data limits the capacity for detailed urban mapping at a micro-scale. Third, the validation process is contingent upon the availability of field survey data and high-resolution imagery. Additionally, the six-class LULC classification system may lack the granularity required to distinguish specific urban land-use types, such as residential, industrial, and commercial zones. Furthermore, this study does not yet integrate socio-economic datasets to provide a comprehensive analysis of the drivers of urbanization. Finally, the research scope is geographically limited to Hanoi and has not yet been extended to other urban centers.
+The limitations of the current work include, but are not limited to:
+1.	The calculated mangrove area of “Rule 2: HH + MVI” and “Rule 2: HV and MVI” in our analysis is notably lower than the figures reported in the National Mangrove Map (PMN) due to the implementation of a significantly stricter classification methodology. To ensure baseline geodetic accuracy, the total area was precisely measured via ArcGIS Calculate Geometry using a World Cylindrical projected coordinate system. The core variance from the Rule 2 combination is that integrating SAR HH or HV with optical MVI, which is designed specifically to enhance the detection of "true positive" or ground truth mangroves. While standalone optical indices like the MVI yield statistics closer to the National Map, both often inadvertently capture "false positives" such as aquaculture ponds, cloud-shrouded areas, and other classification errors. By incorporating SAR data, which actively measures physical structure, volume, and moisture rather than just surface reflectance, our model successfully penetrates cloud cover and detects hidden degradation at lower canopies. Ultimately, this dual-sensor approach filters out the inaccuracies inherent in optical-only data, resulting in a highly accurate, albeit smaller, calculation of true mangrove extent.
+2.	The difference value of mangrove area from calculated mangrove area, MVI, and PMN can also occur due to the resolution difference between Sentinel-2 (which is used as a based of PMN and MVI) and ALOS-2 SCANSAR type. Sentinel-2 has a resolution of 10 m in the visible band, while ALOS-2 SCANSAR spatial resolution varies from 60m to 100m, depending on the swath length. 
+
 
 ## Future Development
-To enhance the scope and impact of this study, future research will focus on several key directions. We plan to:  
-
-- **1:** Expand the geographical coverage by applying our methodology to other major Vietnamese cities, such as Ho Chi Minh City, Da Nang, and Hai Phong. 
-- **2:**  Enrich our monitoring indices by incorporating water quality assessment, the Green Space Index, and population density tracking. 
+The future development will include investigating the use of time-series datasets to detect coastal erosion/accretion changes in Kuala Selat (Riau) and Pangpang Bay (East Java), and comparing shoreline positions or backscatter boundaries across years. The outcome, Coastal Erosion and Accretion Map, will visualize shoreline changes and backscatter boundary shifts across multiple years.
 
 
 ## References
-1.	Seto KC, Fragkias M, Güneralp B, Reilly MK (2011) A Meta-Analysis of Global Urban Land Expansion. PLOS ONE 6(8): e23777. https://doi.org/10.1371/journal.pone.0023777
-2.	Angel, S., Parent, J., Civco, D. L., Blei, A., & Potere, D. (2011). The dimensions of global urban expansion: Estimates and projections for all countries, 2000-2050. Progress in Planning, 75(2), 53–107. https://doi.org/10.1016/j.progress.2011.04.001.
-3.	United Nations Human Settlements Programme (UN-Habitat). (2016). World Cities Report 2016: Urbanization and Development - Emerging Futures. https://unhabitat.org/world-cities-report-2016 
-4.	Talukdar, S., Singha, P., Mahato, S., Shahfahad, Pal, S., Liou, Y.-A., & Rahman, A. (2020). Land-Use Land-Cover Classification by Machine Learning Classifiers for Satellite Observations—A Review. Remote Sensing, 12(7), 1135. 
+Spatial Data Processing Methodology:
+-	Pham, T. D., Bui, D. T., Yoshino, K., & Le, N. N. (2018). Optimized rule-based logistic model tree algorithm for mapping mangrove species using ALOS PALSAR imagery and GIS in the tropical region. Environmental earth sciences, 77(5), 159.
+-	Baloloy, A. B., Blanco, A. C., Ana, R. R. C. S., & Nadaoka, K. (2020). Development and application of a new mangrove vegetation index (MVI) for rapid and accurate mangrove mapping. ISPRS Journal of Photogrammetry and Remote Sensing, 166, 95-117.
+-	Pham, T. D., & Yoshino, K. (2012, November). Mangrove analysis using ALOS imagery in Hai Phong City, Vietnam. In Remote Sensing of the Marine Environment II (Vol. 8525, pp. 161-168). SPIE.
+-	Pham, T. D., & Yoshino, K. (2016, June). Characterization of mangrove species using ALOS-2 PALSAR in Hai Phong city, Vietnam. In IOP Conference Series: Earth and Environmental Science (Vol. 37, No. 1, p. 012036). IOP Publishing.
+-	Pham, T. D., Bui, D. T., Yoshino, K., & Le, N. N. (2018). Optimized rule-based logistic model tree algorithm for mapping mangrove species using ALOS PALSAR imagery and GIS in the tropical region. Environmental earth sciences, 77(5), 159.
+-	Sari, S. P., & Rosalina, D. (2016). Mapping and monitoring of mangrove density changes on tin mining area. Procedia Environmental Sciences, 33, 436-442.
+-	Tien Bui, D., Tuan, T. A., Klempe, H., Pradhan, B., & Revhaug, I. (2016). Spatial prediction models for shallow landslide hazards: a comparative assessment of the efficacy of support vector machines, artificial neural networks, kernel logistic regression, and logistic model tree. Landslides, 13(2), 361-378.
+-	Pham, T. D., & Yoshino, K. (2017). Aboveground biomass estimation of mangrove species using ALOS-2 PALSAR imagery in Hai Phong City, Vietnam. Journal of Applied Remote Sensing, 11(2), 026010-026010.
+-	Darmawan, S., Takeuchi, W., Vetrita, Y., Wikantika, K., & Sari, D. K. (2015). Impact of topography and tidal height on ALOS PALSAR polarimetric measurements to estimate aboveground biomass of mangrove forest in Indonesia. Journal of Sensors, 2015(1), 641798.
+-	Darmawan, S., Takeuchi, W., Vetrita, Y., Winarso, G., Wikantika, K., & Sari, D. K. (2014, June). Characterization of mangrove forest types based on ALOS-PALSAR in overall Indonesian archipelago. In IOP Conference Series: Earth and Environmental Science (Vol. 20, No. 1, p. 012051). IOP Publishing.
+-	Pham, T. D., & Yoshino, K. (2016, June). Characterization of mangrove species using ALOS-2 PALSAR in Hai Phong city, Vietnam. In IOP Conference Series: Earth and Environmental Science (Vol. 37, No. 1, p. 012036). IOP Publishing.
+-	Pham, T. D., & Yoshino, K. (2016, June). Characterization of mangrove species using ALOS-2 PALSAR in Hai Phong city, Vietnam. In IOP Conference Series: Earth and Environmental Science (Vol. 37, No. 1, p. 012036). IOP Publishing.
+-	Pham, T. D., & Yoshino, K. (2012, November). Mangrove analysis using ALOS imagery in Hai Phong City, Vietnam. In Remote Sensing of the Marine Environment II (Vol. 8525, pp. 161-168). SPIE.
+Datasets:
+-	Rosenqvist, A., Shimada, M., Suzuki, S., Ohgushi, F., Tadono, T., Watanabe, M., ... & Aoki, E. (2014). Operational performance of the ALOS global systematic acquisition strategy and observation plans for ALOS-2 PALSAR-2. Remote Sensing of Environment, 155, 3-12.
+-	Murray, N.J., Worthington, T.A., Bunting, P., Duce, S., Hagger, V., Lovelock, C.E., Lucas, R., Saunders, M.I., Sheaves, M., Spalding, M., Waltham, N.J., Lyons, M.B. (2022). High-resolution mapping of losses and gains of Earth's tidal wetlands. Science. doi:10.1126/science.abm9583
+-	 Government of Indonesia. (2019). Law Number 27 of 2025 concerning the protection and management of mangrove ecosystems. State Gazette of the Republic of Indonesia, 2025 Number 27.
+-	Clark Labs. (2015). Clark Labs | Geospatial Software for Monitoring and Modeling the Earth System [online]. Clark Labs. Available from: http://www.clarklabs.org 
+Scope Area:
+-	Raharja, A. B., Widigdo, B., & Sutrisno, D. (2014). Kajian potensi kawasan mangrove di kawasan pesisir Teluk Pangpang, Banyuwangi. Depik, 3(1).
+-	Sulastini, D., Dyah, S. M. W., Ssusilo, U., & Widiastuti, R. R. W. (2011). Seri Buku Informasi dan Potensi Mangrove Taman Nasional Alas Purwo. Balai Taman Nas. Alas Purwo. Bayuwangi.
+-	Luthfiana, N., & Zamaya, Y. (2025, June). Alternative livelihoods for communities affected by coastal abrasion disasters case study on Kuala Selat village, Kateman district, Indragiri hilir regency, Piau province. In IOP Conference Series: Earth and Environmental Science (Vol. 1518, No. 1, p. 012020). IOP Publishing.
+-	Lekatompessy, R. L., & Maturbongs, E. E. (2021). Faktor-Faktor Dalam Upaya Mengatasi Abrasi Di Pesisir Pantai Di Wilayah Kabupaten Merauke. Dialogue: Jurnal Ilmu Administrasi Publik, 3(1), 1-13.
+-	Adhitama, S. Y., Puspitasari, D., Budiman, L. S., & Musthofa, A. (2025). Exploring Dynamics and Effective Strategies for Tidal Flood Risk Reduction in Indonesia's Coastal Cities. ASEAN Journal on Science and Technology for Development, 42(2), 6.
+-	Arifanti, V. B., Kauffman, J. B., Subarno, Ilman, M., Tosiani, A., & Novita, N. (2022). Contributions of mangrove conservation and restoration to climate change mitigation in Indonesia. Global Change Biology, 28(15), 4523-4538.
+
  
 
 
