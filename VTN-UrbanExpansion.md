@@ -21,7 +21,7 @@ This story is based on results from **[ALOS-2 Ideathon Bridging Space Data and S
   <img src="https://github.com/phkh1366/eoxhub-related/blob/main/RESTEClogo-trans.png?raw=true" height="80" style="margin: 0 0px;"/>
 </p>
 
-The study, dedicated to **Mangroves for Coastal Erosion Control**, was developed by participants from the following organizations:
+The study, dedicated to **Urbanization monitoring from EO data**, was developed by participants from the following organizations:
 <p align="center">
   <img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/2d25ca89ebc5fd3f1dbf204779815d5946de4496/Jaxa_logo.svg" height="50" style="margin: 0 0px;"/>
   <img src="https://github.com/phkh1366/eoxhub-related/blob/main/logo-VNSC-moi.png?raw=true" height="50" style="margin: 0 0px;"/>
