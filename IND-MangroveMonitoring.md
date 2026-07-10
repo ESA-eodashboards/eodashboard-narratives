@@ -125,14 +125,19 @@ To provide comprehensive visualizations of the main findings and supporting spat
 <p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [5].</b> ALOS-2 different combinations reclassification results in Kuala Selat for 2021 and 2024 </p> 
 </div>
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
+</div>
+<div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/Pangpang_Reclassification.png?raw=true" style="max-width: 100%; width: 800px; height: auto;"/> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [6].</b> ALOS-2 different combinations reclassification results in Pangpang Bay for 2021 and 2024 </p> 
+</div>
+<div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 To systematically quantify the spatial results, the geodetically measured areas were extracted and formatted into comparative statistical tables and clustered column charts. These quantitative visualizations detail the total mangrove area in hectares, plotting the results side-by-side across four specific indicators: the baseline Indonesia Mangrove Map (PMN), the optical MVI, Rule 2 (HH + MVI), and Rule 2 (HV + MVI). By mapping these variables against the 2021 and 2024 timelines for both study sites, the charts explicitly illustrate the localized trajectories of mangrove decline. Ultimately, these graphs provide the necessary statistical backing to demonstrate how the strict, multi-sensor methodology effectively filters out the "false positives" and overestimations frequently found in conventional national mapping efforts.
 
 </div>
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/AreaComparsion.png?raw=true" style="max-width: 100%; width: 400px; height: auto;"  /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [6].</b> Mangrove Areas Comparison 2021 and 2024 Chart at Kuala Selat and Pangpang Bay. </p> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [7].</b> Mangrove Areas Comparison 2021 and 2024 Chart at Kuala Selat and Pangpang Bay. </p> 
 </div>
-
 
 
 ## Limitations
