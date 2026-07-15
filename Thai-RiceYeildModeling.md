@@ -73,7 +73,7 @@ Agriculture is the dominant land use in Suphan Buri Province, with rice cultivat
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/StudyArea_Suphan1.jpg?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
-<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [1].</b> Figure1: Study area map of Central Thailand (Suphan Buri province).
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [1].</b> Study area map of Central Thailand (Suphan Buri province).
  </p> 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/Fig2FieldSurvey.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
