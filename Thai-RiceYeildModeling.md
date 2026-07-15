@@ -36,3 +36,14 @@ The study, dedicated to **Earth Observation (EO) Platform for Rice Yield Estimat
   <img src="https://github.com/phkh1366/eoxhub-related/blob/main/TMD_Logo.webp?raw=true" height="60" style="margin: 0 0px;"/>
  
 </p>
+
+## Challenge <!--{ style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
+### Background <!--{ style="font-size:1.30rem;opacity:1;margin-top:1rem; color:black" }-->
+Rice is central to food security and the agricultural economy of Thailand, but accurately estimating production remains difficult. Climate variability, extreme weather, pests, and changing farming practices can rapidly affect crop growth. Conventional methods, such as field surveys and crop-cutting experiments, provide valuable information but are costly, time-consuming, and limited in spatial coverage. This can delay the production estimates needed for agricultural planning, market management, crop insurance, and early response to possible shortages.
+
+Earth Observation offers a faster and more scalable approach. Optical and radar satellite data can monitor rice fields throughout the growing season, including during cloudy conditions. By combining vegetation indices, radar backscatter, field measurements, and statistical models, this study develops a method for estimating rice yield across large areas.
+
+More timely and reliable yield information can help government agencies, farmers, insurers, exporters, and agribusinesses make better decisions. It can also strengthen climate resilience, improve food security assessments, and support more sustainable agricultural management in Thailand.
+
+### Problem Statment <!--{ style="font-size:1.30rem;opacity:1;margin-top:1rem; color:black" }-->
+Earth Observation (EO) represents a transformative approach for operational rice yield estimation by integrating multi-source remote sensing observations with advanced analytical and predictive modeling techniques. The synergistic use of optical and Synthetic Aperture Radar (SAR) satellite data enables continuous, large-scale monitoring of rice growth and improves the accuracy and timeliness of yield prediction. An EO-based operational framework enhances agricultural decision-making, strengthen climate resilience, improve market and food security planning, and supporting the transition toward sustainable, data-driven agricultural management at regional and national scales.
