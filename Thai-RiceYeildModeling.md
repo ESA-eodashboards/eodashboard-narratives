@@ -47,3 +47,9 @@ More timely and reliable yield information can help government agencies, farmers
 
 ### Problem Statment <!--{ style="font-size:1.30rem;opacity:1;margin-top:1rem; color:black" }-->
 Earth Observation (EO) represents a transformative approach for operational rice yield estimation by integrating multi-source remote sensing observations with advanced analytical and predictive modeling techniques. The synergistic use of optical and Synthetic Aperture Radar (SAR) satellite data enables continuous, large-scale monitoring of rice growth and improves the accuracy and timeliness of yield prediction. An EO-based operational framework enhances agricultural decision-making, strengthen climate resilience, improve market and food security planning, and supporting the transition toward sustainable, data-driven agricultural management at regional and national scales.
+
+## Objectives <!--{ style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
+- Investigate the **relationships between rice growth stage, key rice biophysical parameters, and rice yield** to identify the most significant predictors for yield estimation.
+- **Evaluate and compare the potential of optical sensor and SAR** remote sensing data for **rice yield estimation** across different rice growth stages.
+- **Develop an operational rice yield estimation model** by integrating satellite-derived variables, rice biophysical parameters, and a Linear Regression Model (LRM) to improve the accuracy and spatial representation of yield estimates.
+- Optimize the performance of Earth Observation (EO)- based platform for operational rice yield estimation through model calibration, validation, and implementation for large-scale agricultural monitoring.
