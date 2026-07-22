@@ -77,3 +77,26 @@ Agriculture is the dominant land use in Suphan Buri Province, with rice cultivat
 <p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [2].</b> Ground truth collection in study area.
 </div>
 
+## Methodology Workflow & Data
+Rice growth and yield were assessed by integrating multi-source Earth Observation data with field measurements. Sentinel-2 optical imagery was used to calculate vegetation indices such as NDVI and EVI, while Sentinel-1 C-band and ALOS-2 L-band SAR data provided information on crop structure, biomass, moisture, and surface conditions under all-weather conditions. UAV imagery was also collected during field surveys to generate high-resolution NDVI maps.
+
+Field measurements were conducted at five major rice growth stages—seedling, tillering, panicle development, flowering, and harvesting. Key biophysical variables, including plant height, leaf area index, chlorophyll content, biomass, and crop-cutting yield, were recorded for each experimental plot.
+
+The satellite and UAV data were pre-processed and matched with the field observations. Average remote-sensing values were extracted from the central area of each plot to reduce mixed-pixel and boundary effects. Correlation analysis was then used to identify the variables most strongly related to rice yield.
+
+Significant variables were incorporated into linear and multiple regression models developed for different growth stages and provinces. The selected models were applied to satellite imagery to generate spatial rice-yield maps within mapped rice-growing areas. Model accuracy was evaluated by comparing predicted yields with crop-cutting measurements using RMSE and MAPE.
+| Dataset | Provider | Resolution | Period | Purpose |
+|---|---|---:|---|---|
+| **Optical:** Sentinel-2A and Sentinel-2B MSI | ESA | 10–60 m | 1 May–31 October 2025 | Calculate vegetation indices, such as NDVI and EVI |
+| **Radar:** Sentinel-1A and Sentinel-1B SLC IW, VV and VH polarizations | ESA | 5 × 20 m | 1 May–31 October 2025 | Calculate backscatter coefficients, such as sigma nought (σ⁰), gamma nought, and beta nought |
+| ALOS-2 Level 2.2 ScanSAR, HH and HV polarizations | JAXA | 25 m | 1 May–31 October 2025 | Calculate backscatter coefficients |
+| Drone imagery | OAE | — | 1 May–31 October 2025 | Analyze NDVI |
+| Field data | OAE | — | 1 May–31 October 2025 | Collect rice biophysical variables from 29 sample units |
+| Statistical rice yield data | OAE | — | 2024 | Validate accuracy |
+| Rice area interpreted from Sentinel-2 | OAE | — | 2025 | Mask rice-growing areas after applying the model to satellite imagery |
+| Administrative boundary | LDD | — | 2013 | — |
+
+<div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/Flowchart.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [3].</b> Conceptual framework.
+</div>
