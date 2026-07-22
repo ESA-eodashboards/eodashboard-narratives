@@ -86,7 +86,7 @@ The satellite and UAV data were pre-processed and matched with the field observa
 
 Significant variables were incorporated into linear and multiple regression models developed for different growth stages and provinces. The selected models were applied to satellite imagery to generate spatial rice-yield maps within mapped rice-growing areas. Model accuracy was evaluated by comparing predicted yields with crop-cutting measurements using RMSE and MAPE.
 | Dataset | Provider | Resolution | Period | Purpose |
-|---|---|---:|---|---|
+|:---:|:---:|:---:|:---:|:---:|
 | **Optical:** Sentinel-2A and Sentinel-2B MSI | ESA | 10–60 m | 1 May–31 October 2025 | Calculate vegetation indices, such as NDVI and EVI |
 | **Radar:** Sentinel-1A and Sentinel-1B SLC IW, VV and VH polarizations | ESA | 5 × 20 m | 1 May–31 October 2025 | Calculate backscatter coefficients, such as sigma nought (σ⁰), gamma nought, and beta nought |
 | ALOS-2 Level 2.2 ScanSAR, HH and HV polarizations | JAXA | 25 m | 1 May–31 October 2025 | Calculate backscatter coefficients |
@@ -100,3 +100,20 @@ Significant variables were incorporated into linear and multiple regression mode
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/Flowchart.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
 <p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [3].</b> Conceptual framework.
 </div>
+
+## Results
+The findings indicate that satellite imagery is suitable for rice yield prediction model development, as it provides sufficient temporal coverage across all rice growth stages. Nevertheless, the usefulness of optical Sentinel-2 imagery is constrained by cloud contamination, with only approximately 40% of vegetation index observations being available for analysis. 
+<div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/yieldPixelBased.jpg?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [4].</b> Result of rice yield estimation using the significant dry total biomass and the VV polarization.
+</div>
+Furthermore, the results demonstrated that rice dry biomass and Sentinel-1 SAR imagery in the VV polarization during the harvesting stage were the most effective variables for predicting rice yield.
+After masking rice cultivated area from raster output with Multiple Linear Regression (MLR) model, the work uses zonal statistic for average and maximum value of rice yield pixel in sub-district level. Zonal statistic is normally use for assessing vegetation indices within administrative boundaries or analyzing soil across different region. Zonal statistic operation calculates statistics on cell values of a raster (a value raster) within the zones defined by another dataset. The Maximum is the highest value in each zone is assigned to all cell in that zone whilst the Mean is the average of the values in each zone is assigned to all output cells in that zone.
+<div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/MeanAPE.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [5].</b> The Mean Absolute Percentage Error (MAPE) in Suphan Buri Province with average and maximum zonal statistic.
+</div>
+
+The results demonstrated that the multiple linear regression (MLR) model integrating Sentinel-1 SAR imagery in the VV polarization with total dry biomass at the harvesting stage provided a statistically significant model for rice yield estimation. 
+Based on the mean zonal statistic, the model estimated rice production in Suphan Buri Province at 906,089.23 tons, with a root mean square error (RMSE) of 9.96 tons. In contrast, the model based on the maximum zonal statistic estimated production at 959,933.53 tons, with an RMSE of 12.34 tons. The lower RMSE and Mean Absolute Percentage Error (MAPE) obtained using the mean zonal statistic (30.59%) compared with the maximum zonal statistic (31.25%) indicate that the mean zonal statistic provides more accurate and reliable estimates of rice production. Therefore, the mean zonal statistic is recommended for rice production estimation using Sentinel-1 SAR data and MLR models.
+
