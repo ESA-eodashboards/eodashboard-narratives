@@ -107,11 +107,7 @@ Soc Son is located in northern Hanoi and includes more rural and peri-urban land
 
 Dong Anh lies north of the Red River and is considered a strategic area for Hanoi’s future urban expansion. Development in this district is linked to infrastructure projects, residential growth, and industrial zones.
 
-### <!--{ center=[105.85,21.15] zoom="15" animationOptions="{duration:800}" }-->
 
-##### Dong Anh
-
-Dong Anh lies north of the Red River and is considered a strategic area for Hanoi’s future urban expansion. Development in this district is linked to infrastructure projects, residential growth, and industrial zones.
 
 ### <!--{ center=[105.85,21.15] zoom="15" animationOptions="{duration:800}" }-->
 
