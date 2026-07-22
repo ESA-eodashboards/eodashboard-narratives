@@ -57,24 +57,21 @@ Earth Observation (EO) represents a transformative approach for operational rice
 
 ## Case Study <!--{ as="eox-map" mode="tour" }-->
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[100.00,14.47] zoom="11" animationOptions="{duration:500}" }-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[100.00,14.47] zoom="11" animationOptions="{duration:500}" style="width: 50%; max-width: 60%; box-sizing: border-box;"}-->
 ##### Suphan Buri
 is located in the central region of Thailand (Figure 1). The province covers an area of approximately 5,358 km² and lies at elevations ranging from 3 to 10 m above mean sea level. The topography is predominantly characterized by flat alluvial plains with slopes of approximately 0–3%, making the area highly suitable for intensive agricultural production. Small upland areas are primarily located in the western part of the province. The southeastern region represents the lowest elevation, averaging approximately 3m above mean sea level, whereas the northern part reaches elevations of approximately 10m.
+<div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/StudyArea_Suphan1.jpg?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [1].</b> Study area map of Central Thailand (Suphan Buri province).</p> 
+</div> 
 
-
-
-### <!--{ layers='[{"type":"Tile","properties":{"id":"openstreetmap","title":"OpenStreetMap"},"source":{"type":"XYZ","urls":["https://tiles.maps.eox.at/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpg"],"attributions":"Data © OpenStreetMap contributors; rendering © EOX"}}]' center=[100.05,14.40] zoom="13" animationOptions="{duration:500}" }-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"openstreetmap","title":"OpenStreetMap"},"source":{"type":"XYZ","urls":["https://tiles.maps.eox.at/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpg"],"attributions":"Data © OpenStreetMap contributors; rendering © EOX"}}]' center=[100.05,14.40] zoom="13" animationOptions="{duration:500}" style="width: 60%; max-width: 100%; box-sizing: border-box;"}-->
 
 The Tha Chin River flows through Thailand’s central plains and passes through Suphan Buri Province, where it supports an extensive network of irrigation canals and agricultural areas.
 Suphan Buri is situated within the Tha Chin River Basin, with the Tha Chin River (also known locally as the Suphan Buri River) flowing from north to south through the province. The province possesses a well-developed irrigation network consisting of rivers, canals, reservoirs, ponds, and wetlands. The Krasiew Dam serves as one of the principal water sources supporting irrigation and agricultural activities. Administratively, the province comprises 10 districts: Mueang Suphan Buri, Derm Bang Nang Buat, Dan Chang, Bang Pla Ma, Si Prachan, Don Chedi, Song Phi Nong, Sam Chuk, U Thong, and Nong Ya Sai.
 
-
 Agriculture is the dominant land use in Suphan Buri Province, with rice cultivation occupying the largest proportion of the agricultural area. The province is recognized as one of Thailand's major rice-producing regions due to its fertile alluvial soils, extensive irrigation infrastructure, and favorable climatic conditions. Rice is cultivated throughout the year under an irrigated production system, with two principal cropping seasons. The wet-season (main-season) rice crop is grown from May to October, while the dry-season (off-season) rice crop extends from November to April of the following year. The availability of irrigation water enables intensive rice cultivation and multiple cropping cycles annually, making Suphan Buri an ideal study area for developing and evaluating Earth Observation (EO)-based rice monitoring and yield estimation models.
 
-<div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
-<img src="https://github.com/phkh1366/eoxhub-related/blob/main/StudyArea_Suphan1.jpg?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
-<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [1].</b> Study area map of Central Thailand (Suphan Buri province).
- </p> 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/Fig2FieldSurvey.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
 <p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [2].</b> Ground truth collection in study area.
