@@ -117,3 +117,31 @@ After masking rice cultivated area from raster output with Multiple Linear Regre
 The results demonstrated that the multiple linear regression (MLR) model integrating Sentinel-1 SAR imagery in the VV polarization with total dry biomass at the harvesting stage provided a statistically significant model for rice yield estimation. 
 Based on the mean zonal statistic, the model estimated rice production in Suphan Buri Province at 906,089.23 tons, with a root mean square error (RMSE) of 9.96 tons. In contrast, the model based on the maximum zonal statistic estimated production at 959,933.53 tons, with an RMSE of 12.34 tons. The lower RMSE and Mean Absolute Percentage Error (MAPE) obtained using the mean zonal statistic (30.59%) compared with the maximum zonal statistic (31.25%) indicate that the mean zonal statistic provides more accurate and reliable estimates of rice production. Therefore, the mean zonal statistic is recommended for rice production estimation using Sentinel-1 SAR data and MLR models.
 
+## Limitation
+* **Small and fragmented rice fields:** Rice fields in Thailand are often small and scattered, making it difficult to match satellite pixels accurately with individual plots.
+
+* **Different planting dates:** Extensive irrigation allows farmers to plant rice at different times. As a result, rice fields may be at different growth stages on the same satellite acquisition date, reducing the consistency of vegetation-index and yield analyses.
+
+* **Uneven field sampling:** It was difficult to collect enough samples from plots growing the same rice variety. Newly introduced varieties were also unevenly distributed, with some represented by only a few plots. This may have reduced the representativeness and robustness of the yield models.
+
+* **SAR speckle noise:** Radar imagery contains speckle noise that can reduce image clarity. Although filtering helps suppress this noise, it may also smooth the image and remove fine spatial details.
+
+* **Limited cloud-free optical imagery:** Wet-season rice monitoring takes place during the monsoon season, when frequent cloud cover limits the availability of Sentinel-2 imagery. Therefore, optical observations were not available for all five rice growth stages.
+
+## Future Work
+Future research will investigate the use of L-band SAR data from ALOS-2 and compare its performance with C-band SAR data from Sentinel-1 using comparable polarizations, such as VV and VH. This comparison will help clarify how different radar frequencies relate to rice biophysical variables. It is also expected that fully polarimetric ALOS-2 data may improve the performance of rice yield estimation models by providing more detailed information on crop structure and growth conditions.
+
+The current study focuses primarily on empirical and statistical approaches to rice yield estimation. Future work will therefore explore the integration of crop growth models to improve yield prediction. Biophysical variables derived from remote sensing, including photosynthetically active radiation and leaf area index, could also be assimilated into these models to support more accurate estimation of rice biomass and yield.
+
+Finally, further research should evaluate different speckle-filtering methods. Although speckle filtering is necessary to reduce noise in SAR imagery, it can also affect image quality and remove important spatial details. Comparing alternative filtering approaches may help identify methods that reduce noise while preserving information relevant to rice monitoring.
+
+##  References
+* FAO, FAO cereal supply and demand brief: An Update, Committee on commodity problems, seventy-sixth session, Rome, 11 – 13 September 2024, August 2024,https://openknowledge.fao.org/server/api/core/bitstreams/8b3da396-2d9e-4db6-88ed-a059263e4853/content
+* Jordan, C. F. (1969). Derivation of leaf‐area index from quality of light on the forest floor. Ecology, 50(4), 663-666.
+* Liang, S., Li, X., & Wang, J. (2012). Fraction of absorbed photosynthetically active radiation by green vegetation. Advanced Remote Sensing: Terrestrial Information Extraction and Applications; Elsevier Inc.: Oxford, UK, 383-414.
+* Lu, J., Li, J., Fu, H., Zou, W., Kang, J., Yu, H., & Lin, X. (2025). Estimation of rice yield using multi-source remote sensing data combined with crop growth model and deep learning algorithm. Agricultural and Forest Meteorology, 370, 110600.
+* Mishra, B., Busetto, L., Boschetti, M., Laborte, A., & Nelson, A. (2021). RICA: A rice crop calendar for Asia based on MODIS multi year data. International Journal of Applied Earth Observation and Geoinformation, 103, 102471.
+* Rouse Jr, J. W., Haas, R. H., Schell, J. A., & Deering, D. W. (1973). Monitoring the vernal advancement and retrogradation (green wave effect) of natural vegetation (No. NASA-CR-132982).
+* Sah, S., Haldar, D., Singh, R. N., Das, B., & Nain, A. S. (2024). Rice yield prediction through integration of biophysical parameters with SAR and optical remote sensing data using machine learning models. Scientific reports, 14(1), 21674.
+* Tiwari, S. K., Prasada Rao, G., & Sundar, B. (2023). Assessment of Vegetation Dynamics of Paddy Crop Using “TIMESAT” and Remote Sensing and GIS Techniques in Command Areas. In Advances in Water Resource Planning and Sustainability (pp. 23-37). Singapore: Springer Nature Singapore.
+* Tucker, Compton, J. (1979) Red and photographic infrared linear combinations for monitoring vegetation, Remote Sensing of Environment, 8, 127-150.
