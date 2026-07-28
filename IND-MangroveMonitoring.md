@@ -171,7 +171,7 @@ Datasets:
 -	Rosenqvist, A., Shimada, M., Suzuki, S., Ohgushi, F., Tadono, T., Watanabe, M., ... & Aoki, E. (2014). Operational performance of the ALOS global systematic acquisition strategy and observation plans for ALOS-2 PALSAR-2. Remote Sensing of Environment, 155, 3-12.
 -	Murray, N.J., Worthington, T.A., Bunting, P., Duce, S., Hagger, V., Lovelock, C.E., Lucas, R., Saunders, M.I., Sheaves, M., Spalding, M., Waltham, N.J., Lyons, M.B. (2022). High-resolution mapping of losses and gains of Earth's tidal wetlands. Science. doi:10.1126/science.abm9583
 -	 Government of Indonesia. (2019). Law Number 27 of 2025 concerning the protection and management of mangrove ecosystems. State Gazette of the Republic of Indonesia, 2025 Number 27.
--	Clark Labs. (2015). Clark Labs | Geospatial Software for Monitoring and Modeling the Earth System [online]. Clark Labs. Available from: http://www.clarklabs.org 
+-	Clark Labs. (2015). Clark Labs | Geospatial Software for Monitoring and Modeling the Earth System [online]. Clark Labs. Available from: https://forums.clarklabs.org/hc/en-us
 Scope Area:
 -	Raharja, A. B., Widigdo, B., & Sutrisno, D. (2014). Kajian potensi kawasan mangrove di kawasan pesisir Teluk Pangpang, Banyuwangi. Depik, 3(1).
 -	Sulastini, D., Dyah, S. M. W., Ssusilo, U., & Widiastuti, R. R. W. (2011). Seri Buku Informasi dan Potensi Mangrove Taman Nasional Alas Purwo. Balai Taman Nas. Alas Purwo. Bayuwangi.
