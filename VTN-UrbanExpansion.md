@@ -1,8 +1,10 @@
 ---
-cover-image: [COVER_IMAGE_URL]
-date: [YYYY-MM-DD]
-theme: [theme_name]
-tags: [tag1,tag2,tag3]
+cover-image: https://placehold.co/600x400/png
+date: 2025-01-01
+theme: theme_name
+tags: some,tags
+official: true
+collections: collectionIdentifier1, collectionIdentifier2
 ---
 
 # Urbanization monitoring from EO data <!--{ as="img" mode="hero" src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN1-Story-header-.png?raw=true" style="width: 100%; height:800px;" }-->
