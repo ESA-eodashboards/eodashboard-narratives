@@ -1,5 +1,5 @@
 ---
-cover-image: https://static.bangkokpost.com/media/content/dcx/2023/09/23/4900669_1200.jpg
+cover-image: https://github.com/eurodatacube/eodash-assets/blob/main/stories/Earth%20Observing%20Dashboard-Agriculture-Rice/hero.jpg?raw=true
 date: 2026-08-01
 theme: Agriculture
 tags: Yield Estimation,Rice
