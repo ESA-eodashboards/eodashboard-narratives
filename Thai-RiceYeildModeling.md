@@ -1,8 +1,8 @@
 ---
-cover-image: https://placehold.co/600x400/png
-date: 2025-01-01
-theme: theme_name
-tags: some,tags
+cover-image: https://github.com/phkh1366/eoxhub-related/blob/main/Thai-cover.JPG?raw=true
+date: 2026-08-01
+theme: Agriculture
+tags: Yield Estimation,Rice
 official: true
 collections: collectionIdentifier1, collectionIdentifier2
 ---
