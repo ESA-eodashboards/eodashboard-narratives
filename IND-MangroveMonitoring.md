@@ -1,8 +1,8 @@
 ---
-cover-image: https://placehold.co/600x400/png
-date: 2025-01-01
-theme: theme_name
-tags: some,tags
+cover-image: https://campus-cdhk.oss-cn-hongkong.aliyuncs.com/attachments/image/2023/06/02/4f9b4139-a8c1-41b0-8b9e-764b1383cb32.jpg
+date: 2026-08-01
+theme: Biomass
+tags: Mangrove,Indonesia
 official: true
 collections: collectionIdentifier1, collectionIdentifier2
 ---
