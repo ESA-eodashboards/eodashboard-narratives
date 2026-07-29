@@ -1,5 +1,5 @@
 ---
-cover-image: https://github.com/phkh1366/eoxhub-related/blob/main/Thai-cover.JPG?raw=true
+cover-image: https://static.bangkokpost.com/media/content/dcx/2023/09/23/4900669_1200.jpg
 date: 2026-08-01
 theme: Agriculture
 tags: Yield Estimation,Rice
