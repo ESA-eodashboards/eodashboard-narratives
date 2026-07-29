@@ -1,8 +1,8 @@
 ---
-cover-image: https://placehold.co/600x400/png
-date: 2025-01-01
-theme: theme_name
-tags: some,tags
+cover-image: https://image.vietnamnews.vn/uploadvnnews/Article/2026/3/18/491117_urban.jpg
+date: 2026-08-01
+theme: Economy
+tags: Urbanization,Vietnam
 official: true
 collections: collectionIdentifier1, collectionIdentifier2
 ---
