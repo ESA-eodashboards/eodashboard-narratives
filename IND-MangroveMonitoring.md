@@ -123,7 +123,7 @@ To provide comprehensive visualizations of the main findings and supporting spat
 <p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [4]. (a,b)</b> ALOS-2 HH and HV Reclassification after backscattering coefficient process and speckle filtering. <b>(c)</b> Mangrove Vegetation Index from Sentinel-2A Vectorization</p> 
 </div>
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
-<img src="https://github.com/phkh1366/eoxhub-related/blob/main/kualaselat_Reclassification.png?raw=true" style="max-width: 100%; width: 800px; height: auto;"/> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/kualaselat_Reclassification2.png?raw=true" style="max-width: 100%; width: 800px; height: auto;"/> 
 <p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [5].</b> ALOS-2 different combinations reclassification results in Kuala Selat for 2021 and 2024 </p> 
 </div>
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
