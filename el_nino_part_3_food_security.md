@@ -4,7 +4,7 @@ date: 2025-01-01
 theme: agriculture
 tags: food-security
 official: true
-collections: N6_geoglam
+collections: N6
 ---
 
 # El Niño 2023-2024: Impacts on food security<!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2014/05/crop_yield/14537834-1-eng-GB/Crop_yield_pillars.jpg" }-->
