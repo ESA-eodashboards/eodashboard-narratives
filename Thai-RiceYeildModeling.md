@@ -52,7 +52,7 @@ Earth Observation (EO) represents a transformative approach for operational rice
 - Investigate the **relationships between rice growth stage, key rice biophysical parameters, and rice yield** to identify the most significant predictors for yield estimation.
 - **Evaluate and compare the potential of optical sensor and SAR** remote sensing data for **rice yield estimation** across different rice growth stages.
 - **Develop an operational rice yield estimation model** by integrating satellite-derived variables, rice biophysical parameters, and a Linear Regression Model (LRM) to improve the accuracy and spatial representation of yield estimates.
-- Optimize the performance of Earth Observation (EO)- based platform for operational rice yield estimation through model calibration, validation, and implementation for large-scale agricultural monitoring.
+- **Optimize the performance of Earth Observation (EO)**- based platform for operational rice yield estimation through model calibration, validation, and implementation for large-scale agricultural monitoring.
 
 
 ## Case Study <!--{ as="eox-map" mode="tour" }-->
@@ -89,12 +89,12 @@ Significant variables were incorporated into linear and multiple regression mode
 |:---:|:---:|:---:|:---:|:---:|
 | **Optical:** Sentinel-2A and Sentinel-2B MSI | ESA | 10–60 m | 1 May–31 October 2025 | Calculate vegetation indices, such as NDVI and EVI |
 | **Radar:** Sentinel-1A and Sentinel-1B SLC IW, VV and VH polarizations | ESA | 5 × 20 m | 1 May–31 October 2025 | Calculate backscatter coefficients, such as sigma nought (σ⁰), gamma nought, and beta nought |
-| ALOS-2 Level 2.2 ScanSAR, HH and HV polarizations | JAXA | 25 m | 1 May–31 October 2025 | Calculate backscatter coefficients |
-| Drone imagery | OAE | — | 1 May–31 October 2025 | Analyze NDVI |
+| ALOS-2 Level 1.1, HH and HV polarizations | JAXA | 25 m | 1 May–31 October 2025 | Calculate backscatter coefficients |
+| Drone imagery | OAE | 5-10 m | 1 May–31 October 2025 | Analyze NDVI |
 | Field data | OAE | — | 1 May–31 October 2025 | Collect rice biophysical variables from 29 sample units |
 | Statistical rice yield data | OAE | — | 2024 | Validate accuracy |
 | Rice area interpreted from Sentinel-2 | OAE | — | 2025 | Mask rice-growing areas after applying the model to satellite imagery |
-| Administrative boundary | LDD | — | 2013 | — |
+| Administrative boundary | LDD | — | 2013 | To analyze the yield results at the district and provincial levels |
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/Flowchart.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
@@ -120,7 +120,7 @@ Based on the mean zonal statistic, the model estimated rice production in Suphan
 ## Limitation
 * **Small and fragmented rice fields:** Rice fields in Thailand are often small and scattered, making it difficult to match satellite pixels accurately with individual plots.
 
-* **Different planting dates:** Extensive irrigation allows farmers to plant rice at different times. As a result, rice fields may be at different growth stages on the same satellite acquisition date, reducing the consistency of vegetation-index and yield analyses.
+* **Different planting dates:** Extensive irrigation allows farmers to plant rice at different times. As a result, rice fields may be at different growth stages on the same satellite acquisition date, reducing the consistency of vegetation-index, backscatter coefficient and yield analyses.
 
 * **Uneven field sampling:** It was difficult to collect enough samples from plots growing the same rice variety. Newly introduced varieties were also unevenly distributed, with some represented by only a few plots. This may have reduced the representativeness and robustness of the yield models.
 
