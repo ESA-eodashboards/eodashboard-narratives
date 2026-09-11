@@ -39,7 +39,14 @@ The study, dedicated to **Earth Observation (EO) Platform for Rice Yield Estimat
 
 ## Challenge <!--{ style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
 ### Background <!--{ style="font-size:1.30rem;opacity:1;margin-top:1rem; color:black" }-->
-Rice is central to food security and the agricultural economy of Thailand, but accurately estimating production remains difficult. Climate variability, extreme weather, pests, and changing farming practices can rapidly affect crop growth. Conventional methods, such as field surveys and crop-cutting experiments, provide valuable information but are costly, time-consuming, and limited in spatial coverage. This can delay the production estimates needed for agricultural planning, market management, crop insurance, and early response to possible shortages.
+Rice is central to food security and the agricultural economy of Thailand, but accurately estimating production remains difficult. 
+<div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/IntroGraph.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [1].</b> Thailand’s rice export value from 2015 to early 2026, in THB billion.
+</div>
+
+
+Climate variability, extreme weather, pests, and changing farming practices can rapidly affect crop growth. Conventional methods, such as field surveys and crop-cutting experiments, provide valuable information but are costly, time-consuming, and limited in spatial coverage. This can delay the production estimates needed for agricultural planning, market management, crop insurance, and early response to possible shortages.
 
 Earth Observation offers a faster and more scalable approach. Optical and radar satellite data can monitor rice fields throughout the growing season, including during cloudy conditions. By combining vegetation indices, radar backscatter, field measurements, and statistical models, this study develops a method for estimating rice yield across large areas.
 
@@ -62,7 +69,7 @@ Earth Observation (EO) represents a transformative approach for operational rice
 is located in the central region of Thailand (Figure 1). The province covers an area of approximately 5,358 km² and lies at elevations ranging from 3 to 10 m above mean sea level. The topography is predominantly characterized by flat alluvial plains with slopes of approximately 0–3%, making the area highly suitable for intensive agricultural production. Small upland areas are primarily located in the western part of the province. The southeastern region represents the lowest elevation, averaging approximately 3m above mean sea level, whereas the northern part reaches elevations of approximately 10m.
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/StudyArea_Suphan1.jpg?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
-<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [1].</b> Study area map of Central Thailand (Suphan Buri province).</p> 
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [2].</b> Study area map of Central Thailand (Suphan Buri province).</p> 
 </div> 
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"openstreetmap","title":"OpenStreetMap"},"source":{"type":"XYZ","urls":["https://tiles.maps.eox.at/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpg"],"attributions":"Data © OpenStreetMap contributors; rendering © EOX"}}]' center=[100.05,14.40] zoom="13" animationOptions="{duration:500}" style="width: 60%; max-width: 100%; box-sizing: border-box;"}-->
@@ -74,7 +81,7 @@ Agriculture is the dominant land use in Suphan Buri Province, with rice cultivat
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/Fig2FieldSurvey.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
-<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [2].</b> Ground truth collection in study area.
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [3].</b> Ground truth collection in study area.
 </div>
 
 ## Methodology Workflow & Data
@@ -98,20 +105,20 @@ Significant variables were incorporated into linear and multiple regression mode
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/Flowchart.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
-<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [3].</b> Conceptual framework.
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [4].</b> Conceptual framework.
 </div>
 
 ## Results
 The findings indicate that satellite imagery is suitable for rice yield prediction model development, as it provides sufficient temporal coverage across all rice growth stages. Nevertheless, the usefulness of optical Sentinel-2 imagery is constrained by cloud contamination, with only approximately 40% of vegetation index observations being available for analysis. 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/yieldPixelBased.jpg?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
-<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [4].</b> Result of rice yield estimation using the significant dry total biomass and the VV polarization.
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [5].</b> Result of rice yield estimation using the significant dry total biomass and the VV polarization.
 </div>
 Furthermore, the results demonstrated that rice dry biomass and Sentinel-1 SAR imagery in the VV polarization during the harvesting stage were the most effective variables for predicting rice yield.
 After masking rice cultivated area from raster output with Multiple Linear Regression (MLR) model, the work uses zonal statistic for average and maximum value of rice yield pixel in sub-district level. Zonal statistic is normally use for assessing vegetation indices within administrative boundaries or analyzing soil across different region. Zonal statistic operation calculates statistics on cell values of a raster (a value raster) within the zones defined by another dataset. The Maximum is the highest value in each zone is assigned to all cell in that zone whilst the Mean is the average of the values in each zone is assigned to all output cells in that zone.
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/MeanAPE.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
-<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [5].</b> The Mean Absolute Percentage Error (MAPE) in Suphan Buri Province with average and maximum zonal statistic.
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [6].</b> The Mean Absolute Percentage Error (MAPE) in Suphan Buri Province with average and maximum zonal statistic.
 </div>
 
 The results demonstrated that the multiple linear regression (MLR) model integrating Sentinel-1 SAR imagery in the VV polarization with total dry biomass at the harvesting stage provided a statistically significant model for rice yield estimation. 
