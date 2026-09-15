@@ -22,7 +22,13 @@ official: false
 
 
 ## Challenge
-Describe challenge
+How does air-pollution risk vary across the Milan Metropolitan Area?
+
+This challenge develops a spatial risk assessment pipeline that combines Sentinel-5P/TROPOMI tropospheric NO₂ observations with population density, age, land cover, road density and distance to industrial zones. The study will compare representative days from the four seasons of 2025 and produce harmonised maps on a common grid.
+
+The analysis will distinguish pollution hazard, population exposure and environmental vulnerability. A composite screening indicator will be calculated as the product of normalised hazard, exposure and vulnerability scores. Ground-station observations will be used to validate and, where sufficient matched data are available, calibrate the satellite-based estimates.
+
+The final story should communicate where and when pollution risk is highest, which factors contribute to the pattern, and how uncertainty and data coverage affect the interpretation.
 
 
 ## Objective
