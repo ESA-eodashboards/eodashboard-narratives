@@ -7,26 +7,25 @@ official: false
 
 ---
 
-# Title of the story/Challenge <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
-## Authors: Name Surname¹, Name Surname² and Name Surname³  <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
-> ¹ Affiliation ² Affiliation  ³ Affiliation
+# Air pollution risk mapping with Sentinel-5P and socio-environmental indicators/Challenge <!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2021/08/monitoring_air_quality/23426746-1-eng-GB/Monitoring_air_quality_pillars.jpg" }-->
+## Authors: Afshin Moazzam¹, Haipeng Zhu¹, Sveva Zanetti¹, Zacharias Lagouros² and Zoi Giakati² <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+> ¹ Politecnico di Milano ² University of Thessaloniki
 
-*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in **DATE**. It was developed by a team from the **AFFILIATIONS**.*
+*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub from 14/09/2026 to 18/09/20266. It was developed by a team from the Politecnico di Milano and Univerity of Thessaloniki.*
 
 ##  <!--{ nav="false"}-->
 <p align="center">
-  <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_250,h_250/https://markleisherproductions.com/wp-content/uploads/2021/01/logo-placeholder-png-2.png" alt="Ca' Foscari" height="80" style="margin: 0 15px;"/>
-  <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_250,h_250/https://markleisherproductions.com/wp-content/uploads/2021/01/logo-placeholder-png-2.png" alt="NOC" height="80" style="margin: 0 15px;"/>
-  <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_250,h_250/https://markleisherproductions.com/wp-content/uploads/2021/01/logo-placeholder-png-2.png" alt="BAS" height="80" style="margin: 0 15px;"/>
+  <img src="https://datascience.deib.polimi.it/wp-content/uploads/2016/02/polimi-logo.png" alt="Politecnico" height="80" style="margin: 0 15px;"/>
+  <img src="https://edurank.org/assets/img/uni-logos/aristotle-university-of-thessaloniki-logo.png" alt="Thessaloniki logo" height="80" style="margin: 0 15px;"/>
 </p>
 
 
 ## Challenge
-Describe challenge
+Air pollution risk mapping with Sentinel-5P and socio-environmental indicators
 
 
 ## Objective
-The objective of this study was to 
+The objective of this study was to design and implement a spatial risk assessment pipeline for air pollution that combines Sentinel 5P/TROPOMI NO₂ data with population, land cover, road density and distance to industrial zones 
 
 
 ## Earth observations <!--{ as="eox-map" mode="tour" }-->
