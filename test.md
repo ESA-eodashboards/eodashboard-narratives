@@ -22,13 +22,15 @@ official: false
 
 
 ## Challenge
-How does air-pollution risk vary across the Milan Metropolitan Area?
+This challenge assesses relative NO₂ pollution risk across the Milan Metropolitan Area by combining three components: Sentinel-5P/TROPOMI NO₂ hazard, population-density exposure and age-related vulnerability.
 
-This challenge develops a spatial risk assessment pipeline that combines Sentinel-5P/TROPOMI tropospheric NO₂ observations with population density, age, land cover, road density and distance to industrial zones. The study will compare representative days from the four seasons of 2025 and produce harmonised maps on a common grid.
+The hazard layer is derived from quality-filtered tropospheric NO₂ observations. Population density represents the number of residents potentially exposed in each grid cell. Age vulnerability is represented by the proportion of residents in sensitive age groups, such as children under 5 and adults over 65.
 
-The analysis will distinguish pollution hazard, population exposure and environmental vulnerability. A composite screening indicator will be calculated as the product of normalised hazard, exposure and vulnerability scores. Ground-station observations will be used to validate and, where sufficient matched data are available, calibrate the satellite-based estimates.
+All three components are normalised to a 0–1 scale and combined using a multiplicative index:
 
-The final story should communicate where and when pollution risk is highest, which factors contribute to the pattern, and how uncertainty and data coverage affect the interpretation.
+risk = normalised hazard × normalised exposure × normalised age vulnerability.
+
+The result is a relative screening indicator showing where high NO₂ levels overlap with dense populations and more vulnerable age groups. It should not be interpreted as a direct health-risk or regulatory exceedance map.
 
 
 ## Objective
