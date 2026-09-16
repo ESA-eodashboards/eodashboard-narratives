@@ -1,4 +1,4 @@
-# AI for air quality monitoring using Earth Observation <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
+# AI for air quality monitoring using Earth Observation <!--{ as="img" mode="hero" src="/Users/gian.duiotto/Desktop/Codex Image 16 Sept 2026, 16_28_57.png" }-->
 #### 
 
 ## Authors: Gianluca Flaminio¹, Nikolina Zallemi¹, Vittoria Rezzuto¹ and Thomas Xoloi²
