@@ -45,7 +45,7 @@ This closer view highlights the ALOS-2 PALSAR-2 yearly mosaic (2024) over Kuala 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://global.jaxa.jp/projects/sat/alos2/images/alos2_main_001.jpg" style="max-width: 100%; height: auto;" alt="ALOS-2 Satellite" /> <b>Figure [2].</b> Advanced Land Observing Satellite-2 "DAICHI-2" (ALOS-2) </p> 
 </div>
-</div>
+
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[114.346111,-8.523806] zoom=12 animationOptions='{"duration":500}' }-->
 #### 
