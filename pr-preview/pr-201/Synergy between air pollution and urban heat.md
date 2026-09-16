@@ -12,6 +12,7 @@
   <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_250,h_250/https://markleisherproductions.com/wp-content/uploads/2021/01/logo-placeholder-png-2.png" alt="NOC" height="80" style="margin: 0 15px;"/>
   <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_250,h_250/https://markleisherproductions.com/wp-content/uploads/2021/01/logo-placeholder-png-2.png" alt="BAS" height="80" style="margin: 0 15px;"/>
   <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Logo_Politecnico_Milano.png" alt="Politecnico di Milano" height="80" style="margin: 0 15px;"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Logo_Politecnico_Milano.png" alt="Politecnico di Milano" height="80" style="margin: 0 15px;"/>
 </p>
 
 ## Challenge
@@ -27,13 +28,20 @@ Investigate the spatial and temporal relationship between air pollution, land su
 Text
 
 ## Data and Methods
-#### Sentinel-5P/TROPOMI NO2 
+#### TROPOMI NO2 from Sentinel-5P
 - **Source**: 
 - **Temporal coverage**:
 
 ####  ERA5 air temperature
 - **Source**: 
 - **Temporal coverage**: 2021-2026
+
+#### LST from Landsat 8
+- **Source**: 
+- **Temporal coverage**: 2021-2026
+
+#### Land cover and urban extent
+- **Source**: 
 
 
 
