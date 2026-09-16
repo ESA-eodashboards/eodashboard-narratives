@@ -1,7 +1,7 @@
 # AI for air quality monitoring using Earth Observation <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
+#### 
 
-
-## Authors: Gianluca Flaminio¹, Nikolina Zallemi¹, Vittoria Rezzuto¹ and Thomas Xoloi² 
+## Authors: Gianluca Flaminio¹, Nikolina Zallemi¹, Vittoria Rezzuto¹ and Thomas Xoloi²
 > ¹ Politecnico di Milano ² Aristotele University of Thessaloniki
 
 *This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in **DATE**. It was developed by a team from the **AFFILIATIONS**.*
@@ -15,10 +15,10 @@
 </p>
 
 ## Challenge
-Describe challenge
+Synergy between air pollution and urban heat: linking NO2, LST, and air temperature
 
 ## Objective
-The objective of this study was to
+Investigate the spatial and temporal relationship between air pollution, land surface temperature (LST) from satellite, and near surface air temperature from ERA5. Quantify whether pollution hotspots systematically coincide with elevated LST/UHI patterns and assess how meteorology mediates this relationship.
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
