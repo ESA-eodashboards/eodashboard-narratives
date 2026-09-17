@@ -140,9 +140,6 @@ Description
 #### Spatial correlations
 ![spatial_correlations_january_july_combined (1).png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/eda403b0143816867713b5a5cd7d33ac4dce016b/assets/vittorez/spatialcorrelationsjanuaryjulycombined-1-1789682024434.png)
 
-#### Temporal correlations
-![temporal_correlations_january_july_combined (1).png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/33fa584f0932a9e0a7157d55956650ec930f12e8/assets/vittorez/temporalcorrelationsjanuaryjulycombined-1-1789682044062.png)
-
 
 #### Discussion 
 
