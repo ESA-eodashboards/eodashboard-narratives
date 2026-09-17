@@ -1,4 +1,4 @@
-# Air pollution risk mapping with Sentinel-5P and socio-environmental indicators/Challenge <!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2021/08/monitoring_air_quality/23426746-1-eng-GB/Monitoring_air_quality_pillars.jpg" }-->
+# Air pollution risk mapping with Sentinel-5P and socio-environmental indicators <!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2021/08/monitoring_air_quality/23426746-1-eng-GB/Monitoring_air_quality_pillars.jpg" }-->
 #### 
 
 ## Authors: Afshin Moazzam¹, Haipeng Zhu¹, Sveva Zanetti¹, Zacharias Lagouros² and Zoi Giakati²
@@ -121,7 +121,7 @@ Connecting these measurements requires alignment in both time and space. The mid
  
 For spatial alignment, each station is linked to the mean of the surrounding 3×3 cells. This step produce a paired dataset in which each row links one station and one satellite orbit, with the corresponding ground concentration and satellite column value.
  
-The plot below show that the data have the same trend over the period, confirming that Sentinel-5P TROPOMI NO₂ measurements can be used since they are strongly correlated to ground measurements
+The obtained R2 value is 0.76 and the plot below show that the data have the same trend over the period, confirming that Sentinel-5P TROPOMI NO₂ measurements can be used since they are strongly correlated to ground measurements
 
 ![01_raw_comparison_5549_satellite_center 2.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/4c3d60a6e1c8fb893dfada2cf47e0d2e4e8171a9/assets/SvevaZ/01rawcomparison5549satellitecenter-2-1789656316615.png)
 
