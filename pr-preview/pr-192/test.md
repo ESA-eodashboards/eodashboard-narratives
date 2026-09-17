@@ -24,7 +24,7 @@ official: false
 ## Challenge
 This challenge assesses relative NO₂ pollution risk across the Milan Metropolitan Area by combining three components: Sentinel-5P/TROPOMI NO₂ hazard, population-density exposure and age-related vulnerability.
 
-The hazard layer is derived from quality-filtered tropospheric NO₂ observations. Population density represents the number of residents potentially exposed in each grid cell. Age vulnerability is represented by the proportion of residents in sensitive age groups, such as children under 5 and adults over 65.
+The hazard layer is derived from quality-filtered tropospheric NO₂ observations. Population density represents the number of residents potentially exposed in each grid cell. Age vulnerability is represented by the proportion of residents in sensitive age groups, here we took people under 18 and adults over 80.
 
 All three components are normalised to a 0–1 scale and combined using a multiplicative index:
 
@@ -54,6 +54,17 @@ Text
 Description
 
 
+###### Ground-station harmonisation and regression calibration
+
+NO2 data prcessing workflow brings together satellite observations and ground measurements to estimate surface-level NO₂ across the Milan Metropolitan Area. The administrative boundary defines the study area and a common grid provides the spatial framework. Sentinel-5P/TROPOMI Level-2 NO₂ files from 1 September 2024 to 31 December 2025 are first listed in an inventory. HARP then checks their geolocation data to identify the orbits covering Milan. The selected file paths are stored in a CSV inventory for reuse in later processing.
+
+Hourly observations from nine ground stations provide the reference measurements for calibration. Sensor identifiers link these observations to the station catalogue, which supplies station names and coordinates. The two datasets describe different quantities: ground stations measure surface NO₂ concentration in µg/m³, whereas the satellite measures the tropospheric NO₂ column.
+
+Connecting these measurements requires alignment in both time and space. The midpoint between the start and end timestamps in each satellite filename serves as an approximate timing reference, converted to Milan local time. Ground observations within ±1 hour of that reference are averaged for each station. This timing remains an approximation because the file timestamps describe the full orbit segment, rather than the exact observation time over Milan.
+
+For spatial alignment, each station is linked to the mean of the surrounding 3×3 cells. This step produce a paired dataset in which each row links one station and one satellite orbit, with the corresponding ground concentration and satellite column value.
+
+The paired observations form the basis of the regression calibration. Ordinary least-squares linear regression relates the satellite column to ground-level NO₂, with Ridge, Huber and Random Forest regression tested as alternatives. Cross-validation grouped by date compares model performance, while a separate validation holding out individual stations assesses the linear model’s ability to generalise across locations. Linear regression performs similarly to Ridge and is retained for its simplicity and interpretability. The resulting relationship provides the calibration needed to estimate surface-level NO₂ across the Milan grid.
 
 ## Results
 
