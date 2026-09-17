@@ -185,7 +185,13 @@ Spatially, the strongest NO<sub>2</sub> enhancements are centred on the densely 
 
 ## Open Science
 
+[https://sentinels.copernicus.eu/data-products/-/asset_publisher/fp37fc19FN8F/content/sentinel-5-precursor-level-2-nitrogen-dioxide](https://sentinels.copernicus.eu/data-products/-/asset_publisher/fp37fc19FN8F/content/sentinel-5-precursor-level-2-nitrogen-dioxide)
 
+[https://github.com/stcorp/harp](https://github.com/stcorp/harp)
+
+[https://eo4society.esa.int/wp-content/uploads/2022/01/ATMO01_AirQuality_Monitoring.pdf](https://eo4society.esa.int/wp-content/uploads/2022/01/ATMO01_AirQuality_Monitoring.pdf)
+
+[https://www.eea.europa.eu/en/topics/in-depth/air-pollution](https://www.eea.europa.eu/en/topics/in-depth/air-pollution)
 
 ## Contributors
-Authors, contibutors, reviewers
+Authors, contributors, reviewers
