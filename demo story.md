@@ -69,7 +69,7 @@ Observing the urban heat island effect within the city of Madrid using political
 
 #### NDVI
 - **Source**: 
-
+![ndvi_january.png](https://placehold.co/3507x2480?font=inter&text=Upload%20in%20progress%0A(this%20might%20take%20a%20while)#1789656462502)
 
 #### DTM
 - **Source**: 
@@ -86,12 +86,12 @@ Description
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/516f4965e19cbc50cb353c5b548e59aa7a344e21/assets/vittorez/January2026NO2NIGHTESRI-1789655678870.gif" style="width: 48%;" />
 </div>
 
-<p align="center"><em>Visualizing the seasonal and diurnal shifts in NO2 concentrations for January.</em></p>
-
 <div style="display: flex; gap: 10px;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e8d59e29b342c013cbe967e990b9c538246f36b4/assets/vittorez/July2026NO2DAYESRI-1789655733388.gif" style="width: 48%;" />
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e9f4dacbb2e9ac5069bfe3b75f535e04825b9f6c/assets/vittorez/July2026NO2NIGHTESRI-1789656066047.gif" style="width: 48%;" />
 </div>
+
+<p align="center"><em>Visualizing the seasonal and diurnal shifts in NO2 concentrations for January and July.</em></p>
 
 RICORDIAMOCI CHE è UN'ANALISI CON LE SUE FRAGILITÀ NON ESAUSTIVA, QUINDI ANDREBBERO CONSIDERATI PIÙ ANNI, PIÙ DATI E BLABLA
 
