@@ -1,7 +1,7 @@
 # AI for air quality monitoring using Earth Observation <!--{ as="img" mode="hero" src="/Users/gian.duiotto/Desktop/Codex Image 16 Sept 2026, 16_28_57.png" }-->
 #### 
 
-## Authors: Gianluca Flaminio¹, Nikolina Zallemi¹, Vittoria Rezzuto¹ and Thomas Xoloi²
+## Authors: Gianluca Flaminio¹, Nikolina Zallemi¹, Vittoria Rezzuto¹ and Thomas Xolias²
 > ¹ Politecnico di Milano ² Aristotele University of Thessaloniki
 
 *This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in **DATE**. It was developed by a team from the **AFFILIATIONS**.*
