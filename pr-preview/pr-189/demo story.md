@@ -1,4 +1,4 @@
-# AI for air quality monitoring using Earth Observation <!--{ as="img" mode="hero" src="/Users/gian.duiotto/Desktop/Codex Image 16 Sept 2026, 16_28_57.png" }-->
+# AI for air quality monitoring using Earth Observation <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/stories/ScienceHub-Challenge-September-2026/images/madrid.png" }-->
 #### 
 
 ## Authors: Gianluca Flaminio¹ , Nikolina Zallemi¹, Vittoria Rezzuto¹ and Thomas Xolias²
@@ -24,9 +24,7 @@ The **Urban Heat Island** is the tendency of urban and suburban areas to sustain
 
 **NO2** is a reactive trace gas produced mainly by combustion, vehicle traffic, industry, and heating.
 Since NO2's lifetime is on the order of hours, its diurnal cycle is tightly linked to both traffic timing and boundary-layer dynamics.
-Therefore the peaks of NO2 concentration are typically in the morning and in the late afternoon during traffic hours, and with shallow, stable boundary layer limiting dilution, and drop in the early afternoon, when higher solar radiation and a deeper boundary layer both dilute NO2 and accelerate its photochemical conversion to O3. This produces an inverse relationship between NO2 and O3 on short timescales and an opposite response to the same thermal driver. 
-
-
+Therefore the peaks of NO2 concentration are typically in the morning and in the late afternoon during traffic hours, and with shallow, stable boundary layer limiting dilution, and drop in the early afternoon, when higher solar radiation and a deeper boundary layer both dilute NO2 and accelerate its photochemical conversion to O3. This produces an inverse relationship between NO2 and O3 on short timescales and an opposite response to the same thermal driver.
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
@@ -42,8 +40,6 @@ Narrowing our focus to the Iberian Peninsula to analyze urban-rural temperature 
 #### Focusing on Madrid
 Observing the urban heat island effect within the city of Madrid using political boundaries.
 
-
-
 ## Methods
 #### Data
 **Temporal coverage:** January and July 2026
@@ -55,17 +51,14 @@ Observing the urban heat island effect within the city of Madrid using political
 **Land Surface Temperature:** Sentinel-3
 
 **NDVI:**
-<div style="display: flex; gap: 10px;">
+<div style="display: flex; gap: 0px;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/2d1c2767f70007ad2d25be452ce624631721eb74/assets/vittorez/ndvijanuary-1789657144484.png" style="width: 100%; object-fit: contain; aspect-ratio: 1/1;" />
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/cfbf6ab1b282b802591491bf645fa2afcd336a25/assets/vittorez/ndvijuly-1789656529381.png" style="width: 130%; object-fit: contain; aspect-ratio: 1/1;" />
 </div>
-<p align="center"><em>NDVI map for January and July.</em></p>
 
-#### DEM
-- **Source**: 
+**DEM:**
 ![DEM.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/d2fd45aac11c10b636ef956b5767d87df4ec0934/assets/vittorez/DEM-1789656842797.png)
 
-<p align="center"><em>Digital Elevation Model of Madrid.</em></p>
 
 
 
