@@ -24,22 +24,22 @@ According to the climate risk framework, risk results from the interaction betwe
 The core question addressed was whether EO data could be combined with geospatial information to locate urban areas experiencing heightened heat stress during heatwave events. To achieve this, the used datasets were:
 - **Sentinel-3 SLSTR (Land Surface Temperature - LST)**:  a European Earth Observation satellite mission developed to support Copernicus ocean, land, atmospheric, emergency, security, and cryospheric applications.The primary goal of the Sentinel-3 mission is to measure sea surface topography, sea and land surface temperature, and ocean and land surface color with high accuracy and reliability. 
 
-<p align="center"><img src="https://sentinels.copernicus.eu/documents/4634164/9bbb4317-7cb9-1c8b-a382-3ad82b6a28e4" width="600"/></p>
+<p align="center"><img src="https://sentinels.copernicus.eu/documents/4634164/9bbb4317-7cb9-1c8b-a382-3ad82b6a28e4" width="400"/></p>
 <p align="center" style="font-size: 0.85em; color: #666;"><em>Sentinel-3 satellite, ESA.</em></p>
 
 
 - **High Resolution Layer Imperviousness**: The High Resolution Layer (HRL) Imperviousness by the Copernicus Land Monitoring Service (CLMS) captures the spatial distribution and change over time of artificially sealed and built-up areas in high-resolution and harmonized manner over entire 
 Europe. The contained datasets offer valuable insights for a variety of domains and applications – from infrastructure planning, urban management and environmental monitoring to disaster preparedness, real estate and tourism.
 
-<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Torino%20-%20Imperviousness%202024.png?raw=true" width="600"/></p>
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Torino%20-%20Imperviousness%202024.png?raw=true" width="400"/></p>
 
 - **District and Popolation Data (Municipality of Torino)**: Vector files to define the official administrative boundaries of the city (the 8 "circoscrizioni" or districts) and the number and age of the inhabitants in each district. They were used to aggregate the raster data and calculate statistics for each one. People aged 65 years or older are more at risk during extreme heat due to physiological changes associated with aging.
 
-<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Vulnerability%20Map%20%20Over%2065%20by%20District%20(Turin).png?raw=true" width="600"/></p>
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Vulnerability%20Map%20%20Over%2065%20by%20District%20(Turin).png?raw=true" width="400"/></p>
 
 - **Green Areas Data (Municipality of Torino Open Data)**: Vector files retrieved from the city's official open data portal, mapping the precise polygons of public green spaces across the urban area (including parks, gardens, and tree-lined avenues). Green areas can lower local temperatures by 1°C to 7°C through natural shade and plant cooling.
 
-<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Urban%20green%20areas.png?raw=true" width="600"/></p>
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Urban%20green%20areas.png?raw=true" width="400"/></p>
 
 
 
@@ -61,33 +61,32 @@ Using additional datasets (such as green cover by Comune di Torino and Copernicu
 Defining an index that combines thermal intensity with exposure indicators to map and rank the most exposed urban districts.
 Hazard, exposure, and vulnerability are the key drivers of physical climate risk. 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/climate-change_v2.jpg?raw=true" width="1000"/></p>
+
 The risk index ranges from 0-1, and is calculated based on: 
 
-Surface heat (daily Sentinel-3 LST, clipped 15–42 °C)
+- Surface heat (daily Sentinel-3 LST, clipped 15–42 °C)
 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Nighttime%20LST%20Evolution%20-%20Turin%20Districts%20.png?raw=true" width="1000"/></p>
 
 - Age vulnerability (% population over 65)
 
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/05_age_distribution_dashboard.png?raw=true" width="1200"/></p>
+
 - Lack of greenery (inverse of green cover per district)
 
 - Imperviousness (soil sealing)
 
-The table indicates the districts that are more exposed to heat during heatwaves.
+The risk index is therefore calculated as the average of all of these factors (each one normalized between 0-1).
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
 ### <!--{ zoom=12 center=[7.6869,45.0703] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
 #### Turin Urban Area
 Satellite view of the metropolitan area of Turin, showcasing the urban landscape captured in high resolution. Below is the visualized risk map of the city.
-
-<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/05_age_distribution_dashboard.png?raw=true" width="1200"/></p>
-
-## Risk Map
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Risk.png?raw=true" width="1500"/></p>
 
 ## Conclusions
-
+The table indicates the districts that are more exposed to heat during heatwaves.
 
 ## Open Science
 
