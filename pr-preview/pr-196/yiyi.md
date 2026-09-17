@@ -39,22 +39,23 @@ The study focuses on the Milan and Monza-Brianza area in northern Italy. The reg
 This spatial diversity makes the area well suited for investigating variations in urban surface characteristics and thermal conditions.
 
 
-### <!--{ zoom=10.2 center=[9.2078,45.5268] layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Vector","properties":{"id":"tree-cover","title":"Tree Cover Density 2021"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/TCD_2021_100m_classes.geojson","format":"GeoJSON"},"style":{"fill-color":["match",["get","class_id"],1,"rgba(198,233,192,0.55)",2,"rgba(77,175,74,0.65)",3,"rgba(0,100,0,0.80)","rgba(0,0,0,0)"],"stroke-color":"rgba(255,255,255,0.15)","stroke-width":0.5}},{"type":"Vector","properties":{"id":"study-area","title":"Study Area"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/AOI_Milan_Monza%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(255,255,255,0)","stroke-color":"#d7191c","stroke-width":2}}]' animationOptions='{"duration":500}' }-->
+### <!--{ zoom=10.2 center=[9.2078,45.5268] layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Vector","properties":{"id":"tree-cover","title":"Tree Cover Density 2021"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/TCD_2021_100m_classes%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":["match",["get","class_id"],1,"rgba(198,233,192,0.60)",2,"rgba(77,175,74,0.70)",3,"rgba(0,100,0,0.85)","rgba(0,0,0,0)"]}},{"type":"Vector","properties":{"id":"study-area","title":"Study Area"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/AOI_Milan_Monza%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(255,255,255,0)","stroke-color":"#d7191c","stroke-width":2}}]' animationOptions='{"duration":500}' }-->
 
 #### Tree Cover Density
 
 Tree cover varies substantially across the study area, from densely built urban zones with little vegetation to greener suburban and peri-urban areas.
 
-Tree Cover Density provides information on the proportion of each area covered by tree canopy, helping us describe the vegetation structure of the urban landscape.
+Tree Cover Density describes the proportion of the surface covered by tree canopy and helps characterise the vegetation structure of the urban landscape.
 
 
-### <!--{ zoom=10.2 center=[9.2078,45.5268] layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Vector","properties":{"id":"imperviousness","title":"Imperviousness Density 2021"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/Imperviousness_2021_100m_classes.geojson","format":"GeoJSON"},"style":{"fill-color":["match",["get","class_id"],1,"rgba(245,220,180,0.50)",2,"rgba(230,130,80,0.65)",3,"rgba(170,30,30,0.80)","rgba(0,0,0,0)"],"stroke-color":"rgba(255,255,255,0.15)","stroke-width":0.5}},{"type":"Vector","properties":{"id":"study-area","title":"Study Area"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/AOI_Milan_Monza%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(255,255,255,0)","stroke-color":"#d7191c","stroke-width":2}}]' animationOptions='{"duration":500}' }-->
+### <!--{ zoom=10.2 center=[9.2078,45.5268] layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Vector","properties":{"id":"imperviousness","title":"Imperviousness Density 2021"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/Imperviousness_2021_100m_classes%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":["match",["get","class_id"],1,"rgba(245,220,180,0.60)",2,"rgba(230,130,80,0.72)",3,"rgba(170,30,30,0.85)","rgba(0,0,0,0)"]}},{"type":"Vector","properties":{"id":"study-area","title":"Study Area"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/AOI_Milan_Monza%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(255,255,255,0)","stroke-color":"#d7191c","stroke-width":2}}]' animationOptions='{"duration":500}' }-->
 
 #### Imperviousness Density
 
 Impervious surfaces such as buildings, roads and paved areas are concentrated in the most urbanised parts of Milan and Monza-Brianza.
 
-Imperviousness Density describes the proportion of sealed surfaces and provides an indication of built-up intensity across the study area.
+Imperviousness Density describes the proportion of sealed and artificial surfaces and provides an indication of built-up intensity across the study area.
+
 ## Data and Methods
 #### Dataset
 | Data source | Product | Variables | Spatial Resolution |
