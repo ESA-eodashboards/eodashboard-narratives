@@ -12,7 +12,11 @@
 </p>
 
 ## Challenge
-Describe challenge
+Cities are never thermally uniform. A shaded, tree-covered street can feel very different from a nearby area dominated by buildings and paved surfaces, even when the two places are only a short distance apart. Vegetation, buildings, impervious surfaces, bare soil and water all influence how heat is absorbed, stored and released across the urban landscape.
+
+But how well can a few predefined land-cover classes capture this complexity?
+
+In this study, we explore whether distinct urban thermal environments can emerge directly from multi-variable Earth Observation data using unsupervised learning, without defining the classes in advance. The resulting clusters are then interpreted through their surface characteristics and thermal behaviour, and compared with existing land-cover products or Local Climate Zones.
 
 ## Objective
 The objective of this study was to
