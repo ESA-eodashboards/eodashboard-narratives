@@ -1,5 +1,13 @@
-# AI for air quality monitoring using Earth <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/f1f46716f8557709bf58b1e43426428d124d661f/assets/vittorez/prova-1789676182440.png" }-->
-#### 
+---
+cover-image: https://placehold.co/600x400/png
+date: 2025-01-01
+theme: theme_name
+tags: some,tags
+official: false
+
+# When Heat Meets Pollution: Mapping Madrid's Urban Heat–Air Quality Connection from Space <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7a9015e727bdd1b39edfc85fc116f6b7f4a9c91d/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.09.00-1789683136373.jpeg" }--> 
+
+####
 
 ## Authors: Gianluca Flaminio¹, Nikolina Zallemi¹, Vittoria Rezzuto¹, and Thomas Xolias²
 > ¹ Politecnico di Milano ² Aristotle University of Thessaloniki
@@ -138,6 +146,11 @@ Description
 ![July_2026_NIGHT_temperature_NO2_O3.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/a364361583f954148f83f25bd6d0e2e19f31f984/assets/vittorez/July2026NIGHTtemperatureNO2O3-1789665686005.png)
 
 #### Spatial correlations
+The spatial analysis indicates that warmer areas of Madrid generally tend to coincide with higher NO2 concentrations, but the strength of the relationship varies across seasons and time windows. For ERA5-NO2, the strongest spatial association is found in July evening (21:00-23:00), with Pearson equal to 0.69 and Spearman equal to 0.67, based on 94% of valid cells. A similarly strong relationship is observed in January evening, with Pearson 0.64 and Spearman equal to 0.67. During the morning, the relationship is weaker but still positive, especially in July (r = 0.40, ρ = 0.41).
+For LST-NO2, the clearest result occurs in July evening, with r equal to 0.48 and ρ equal to 0.49, although the valid-cell coverage is lower (73%). In January morning, the relationship is also moderate (r = 0.41, ρ = 0.45), while the January evening case is weak and slightly negative.
+Overall, these results suggest that urban heat islands and NO2 hotspots partially overlap spatially, likely because they are influenced by common urban factors such as dense built-up areas, traffic emissions, and reduced ventilation, rather than because temperature directly causes higher NO2.
+The NO2–O3 relationship is strongly negative in all spatial cases, reaching values close to -0.9 to -1.0, which is physically consistent with NOX-O3 chemistry and supports the overall coherence of the spatial patterns.
+
 ![spatial_correlations_january_july_combined (1).png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/eda403b0143816867713b5a5cd7d33ac4dce016b/assets/vittorez/spatialcorrelationsjanuaryjulycombined-1-1789682024434.png)
 
 
