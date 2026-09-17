@@ -70,14 +70,12 @@ Since 6 August 2019, NO₂ data are available with a spatial resolution of 3.5 x
 
 ## Methodology workflow
 
-NO2 data prcessing workflow brings together satellite observations and ground measurements to estimate surface-level NO₂ across the Milan Metropolitan Area. The administrative boundary defines the study area and a common grid provides the spatial framework. 
-
-Our analysis focuses on the data from 01/10/2024 to 30/09/2025 over the metropolitan area of Milano.
-Since Nitrogen Dioxide is more present in winter than in summer, we divided the study in two periods:
+The analysis focuses on the data from 01/10/2024 to 30/09/2025 over the metropolitan area of Milano.
+Since Nitrogen Dioxide is more present in winter than in summer, the study is divided in two periods:
 - hot months: from april to semptember
 - cold months: from october to march
 
-We further divide the analisis over different weekdays, combining NO2 dava with population density data and administrative borders. 
+The analisis is further divided over different weekdays, providing a risk map for every day of the week (Monday, Tuesday ...) both for the hot and cold perios, which accounts for population density and age distribution.
 
 #### Administrative borders
 
@@ -93,7 +91,7 @@ To uniform the analysis, we just considered the total number of people in each a
 
 We aggregated population data with administrative border files, obtaining a shapefile in which the field correspond to the data about population.
 
-The image below shows the tatal number of people in each administrative area. Some "quartieri" have no inhabitans, such as "Parco Sempione", which includes a park with an inhabitated castle.
+The image below shows the total number of people in each administrative area. Some "quartieri" have no inhabitans, such as "Parco Sempione", which includes a park with an inhabitated castle.
 
 ![Total population in each area](https://res.cloudinary.com/dzxw0pvmr/image/upload/v1789654545/Immagine_17-09-26_-_15.18_x8kyik.png)
 
@@ -104,22 +102,28 @@ The map below shows the percentage of people over 80 in each neighbour. While th
 #### Sentinel-5P data retrival
 Sentinel-5P/TROPOMI Level-2 NO₂ files from 1 September 2024 to 31 December 2025 are first listed in an inventory. HARP, a software toolkit designed by the Atmospheric Toolbox to read, process, and convert Sentinel-5P TROPOMI data into standardized formats, checks their geolocation data to identify the orbits covering Milan. The selected file paths are stored in a CSV inventory for reuse in later processing.
 
-#### Ground station data
-Regione Lombardia provides hourly NO2 data from a network of ground station. A first dataset contains sensor measurement, and the stationID links these observations to the station catalogue, which provides the coordinates and other metadata.
+#### Ground station NO₂ data
+Regione Lombardia provides hourly NO₂ data from a network of ground station. A first dataset contains sensor measurement, and the stationID links these observations to the station catalogue, which provides the coordinates and other metadata.
 
-#### Sentinel image validation with ground-station
+#### Sentinel-5P image validation with ground-station
 Observations from nine ground stations provide the reference measurements for calibration. The two datasets describe different quantities: ground stations measure surface NO₂ concentration in µg/m³, whereas the satellite measures the tropospheric NO₂ column.
  
 Connecting these measurements requires alignment in both time and space. The midpoint between the start and end timestamps in each satellite filename serves as an approximate timing reference, converted to Milan local time. Ground observations within ±1 hour of that reference are averaged for each station. This timing remains an approximation because the file timestamps describe the full orbit segment, rather than the exact observation time over Milan.
  
 For spatial alignment, each station is linked to the mean of the surrounding 3×3 cells. This step produce a paired dataset in which each row links one station and one satellite orbit, with the corresponding ground concentration and satellite column value.
  
-The plot below show that the data have the same trend over the period, conferming that Sentinel-5P TROPOMI NO2 measurements can be used since they are strongly correlated to ground measurements
+The plot below show that the data have the same trend over the period, conferming that Sentinel-5P TROPOMI NO₂ measurements can be used since they are strongly correlated to ground measurements
 
 ![01_raw_comparison_5549_satellite_center 2.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/4c3d60a6e1c8fb893dfada2cf47e0d2e4e8171a9/assets/SvevaZ/01rawcomparison5549satellitecenter-2-1789656316615.png)
 
-#### Sentinel-5P clipping and rebinning
+#### Sentinel-5P rebinning and clipping
 
+HARP library allows to retrive the selected files, and is able to rebin the data to a common raster grid using the bin_spatial function, as explained in section 6.3.1 of https://eo4society.esa.int/wp-content/uploads/2022/01/ATMO01_AirQuality_Monitoring.pdf.
+The choosen grid is 1x1 km, and after the rebinning the data of dirrerent days are all refered to the same common grid, while previously each pixel had a different footprint.
+
+Using the administrative boundaries, the data have been clipped to Milan metropolitan area and have later been classified into the 14 groups, one for each day of the week, divided in hot and cold period.
+
+The group data have them been processed, obtaining the average NO₂ concentration for each group.
 
 #### Zonal statistics
 
