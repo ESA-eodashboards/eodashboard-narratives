@@ -190,14 +190,26 @@ The Sentinel-3 maps show the expected seasonal contrast: July surfaces are subst
 <p align="center"><em>Sentinel-3 land-surface-temperature patterns for January and July 2026, separated into the selected daytime and nighttime windows.</em></p>
 
 #### Air temperature
+ERA5 provides the meteorological background for the analysis.
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/f5846d22d1d8e72d52c5e1c12bda88eaf61fb31e/assets/vittorez/January2026DAYERA5points-1789664866675.png" style="width: 48%;"/>
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/ddc783ae88471643856a243fb22fb58fad9e77bd/assets/vittorez/January2026NIGHTERA5points-1789664698044.png" style="width: 48%;"/>
+</div>
+<p align="center" style="color: #777; font-size: 0.85em;">
+  Monthly median ERA5 2-m air temperature across Madrid for the selected daytime and nighttime windows in January 2026.
+</p>
+Winter air temperatures show a clear day–night contrast across Madrid. During the 11:00–13:00 window, the spatial mean is about 5.2 °C, decreasing to 4.3 °C during the 22:00–24:00 window. The maps also reveal a persistent spatial gradient across the region, with warmer conditions generally concentrated toward the southern and central parts of the study area and cooler temperatures toward the north and northwest.
+
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/5ee7ca898d90bca05ae3b1bfd58ec020467d8747/assets/vittorez/July2026DAYERA5points-1789664734518.png" style="width: 48%;"/>
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/d166097551ceb3144b21b1136853b44a2ef3e9c5/assets/vittorez/July2026NIGHTERA5points-1789664798000.png" style="width: 48%;"/>
 </div>
+<p align="center" style="color: #777; font-size: 0.85em;">
+  Monthly median ERA5 2-m air temperature across Madrid for the selected daytime and nighttime windows in July 2026.
+</p>
+Summer temperatures are much higher and spatially more uniform across Madrid. The spatial mean reaches about 29.1 °C during the daytime window and 29.5 °C at night. The slightly higher nighttime monthly median reflects the specific selected time windows and the monthly aggregation of ERA5 data, rather than implying that nights are generally warmer than days. The maps nevertheless show that high near-surface air temperatures persist well into the evening, highlighting the limited nighttime thermal relief during summer.
 
-### Nitrogen dioxide: an urban signal shaped by emissions and mixing
+### Nitrogen dioxide: An urban signal shaped by emissions
 
 NO₂ patterns change between season and time of day because emissions, atmospheric mixing and chemistry all vary. The animations show that pollution does not simply follow the temperature field. A high-LST surface and a high-NO₂ atmosphere can coincide because both are linked to dense urban areas, but their relationship can weaken or reverse when boundary-layer mixing and photochemistry change.
 
@@ -213,7 +225,7 @@ NO₂ patterns change between season and time of day because emissions, atmosphe
 
 <p align="center"><em>Seasonal and diurnal shifts in NO₂ over Madrid.</em></p>
 
-### Ozone: a contrasting photochemical pattern
+### Ozone: A contrasting photochemical pattern
 
 O₃ adds a complementary view of Madrid's atmospheric chemistry. Unlike NO₂, ozone is not emitted directly by traffic. Its distribution reflects photochemical production, transport and chemical loss. The relationship between NO₂ and O₃ therefore changes with sunlight, emissions and atmospheric stability, which is one reason the pollutant-temperature relationship cannot be reduced to a single correlation coefficient.
 
@@ -229,17 +241,23 @@ O₃ adds a complementary view of Madrid's atmospheric chemistry. Unlike NO₂, 
 
 <p align="center"><em>Seasonal and diurnal shifts in O₃ over Madrid.</em></p>
 
-### Air temperature: the atmospheric background to surface heating
+### Air temperature: The atmospheric background to surface heating
 
-ERA5 air temperature provides the atmospheric context for interpreting Sentinel-3 LST. Although air and surface temperatures are related, they are not equivalent: surface temperature responds directly to solar radiation, material properties, moisture and shading, while near-surface air temperature is mixed through the lower atmosphere.
+ Although air and surface temperatures are related, they are not equivalent: surface temperature responds directly to solar radiation, material properties, moisture and shading, while near-surface air temperature is mixed through the lower atmosphere.
 
 ![January_2026_DAY_temperature_timeseries.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/42b773597b70145ea3940828d26e4f286935757d/assets/vittorez/January2026DAYtemperaturetimeseries-1789665925063.png)
 
 ![January_2026_NIGHT_temperature_timeseries.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/0ed1e6201a90d8dd0fd50eba66fbb287b5b9a0eb/assets/vittorez/January2026NIGHTtemperaturetimeseries-1789665960480.png)
 
+In January, the mean temperature over the selected period was approximately 5.33 °C during the daytime window (11:00–13:00) and 4.45 °C during the nighttime window (22:00–24:00). Several short warm and cold episodes are visible during the month. Temperatures dropped markedly around 5–7 January, particularly at night, when the spatial mean approached or fell slightly below 0 °C, whereas warmer episodes occurred around 3 January, 13 January and toward the end of the month, with spatial means approaching 8–10 °C. The close agreement between the spatial mean and median indicates that the overall regional temperature signal is relatively coherent, while the wider separation between spatial minima and maxima shows that meaningful temperature differences remain across the Madrid study area.
+
+Interestingly, the July late-evening mean is slightly higher than the late-morning mean. This should not be interpreted as a general night-versus-day temperature inversion, but rather as a feature of the selected observation windows and the persistence of summer heat into the evening.
+
 ![July_2026_DAY_temperature_timeseries.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/fb8a6d73f45ae30a58240f68fdedf0f85c44c677/assets/vittorez/July2026DAYtemperaturetimeseries-1789665978602.png)
 
 ![July_2026_NIGHT_temperature_timeseries.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/2160595e7ef4c116aa6725291f1c3e77f51fe2ca/assets/vittorez/July2026NIGHTtemperaturetimeseries-1789666002145.png)
+
+July presents a very different thermal regime, characterized by persistently high temperatures and relatively limited nighttime cooling. Mean air temperature was about 28.96 °C during the daytime window and 29.66 °C during the late-evening/nighttime window. The warmest periods occurred during the first third of the month and again around 21–23 July and at the end of July, when spatial mean temperatures exceeded 31–32 °C. In contrast, a pronounced cooler episode occurred around 25–26 July, when the spatial mean temporarily dropped to approximately 23–24 °C before rapidly increasing again. The relatively high nighttime values indicate that warm atmospheric conditions often persisted well into the evening during July.
 
 ### Air temperature, NO₂ and O₃ correlation
 
@@ -253,7 +271,7 @@ The atmospheric correlation plots illustrate why season and time of day must be 
 
 ![July_2026_NIGHT_temperature_NO2_O3.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/a364361583f954148f83f25bd6d0e2e19f31f984/assets/vittorez/July2026NIGHTtemperatureNO2O3-1789665686005.png)
 
-### Spatial correlations: where do heat and pollution overlap?
+### Spatial correlations: Where do heat and pollution overlap?
 
 The spatial-correlation analysis indicates that warmer parts of Madrid generally tend to coincide with higher NO₂ concentrations, but the strength of the relationship depends strongly on season and time window.
 
