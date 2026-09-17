@@ -194,6 +194,8 @@ Hassaan, M.A., Abdallah, S.M., Shalaby, ES.A. et al. Assessing vulnerability of 
 
 [S[&]T, & ESA. HARP [Computer software]. [link](https://github.com/stcorp/harp)
 
+[Atmospheric Toolbox - Use Cases](https://atmospherictoolbox.org/usecases/)
+
 [https://eo4society.esa.int/wp-content/uploads/2022/01/ATMO01_AirQuality_Monitoring.pdf](https://eo4society.esa.int/wp-content/uploads/2022/01/ATMO01_AirQuality_Monitoring.pdf)
 
 [https://www.eea.europa.eu/en/topics/in-depth/air-pollution](https://www.eea.europa.eu/en/topics/in-depth/air-pollution)
