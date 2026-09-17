@@ -97,8 +97,6 @@ The green hills providing a natural cooling buffer effect for the city.
 #### Northern Districts
 Areas with lower heat vulnerability due to younger population demographics.
 
-## Heat Exposure Index
-
 
 ## Daily Risk Ranking
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/07_daily_vulnerability_ranking%20(1).png?raw=true" width="1000"/></p>
