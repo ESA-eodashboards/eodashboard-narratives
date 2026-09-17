@@ -157,12 +157,6 @@ RICORDIAMOCI CHE è UN'ANALISI CON LE SUE FRAGILITÀ NON ESAUSTIVA, QUINDI ANDRE
 ## Conclusions
 
 
-## Future steps
-<div style="display: flex; gap: 10px;">
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/69b2e365e0a428dc44bc6bf15925979d461d5d3b/assets/vittorez/NO2monthlymeanJanuaryMadridbasemap-1789681325763.png" style="width: 48%;" />
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/37836ecd478826b07659615a1d502ab8e7795ee5/assets/vittorez/NO2monthlymeanJulyMadridbasemap-1789681342550.png" style="width: 48%;" />
-</div>
-
 ## Open Science
 
 
