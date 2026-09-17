@@ -52,7 +52,7 @@ We further divide the analisis over different weekdays, combining NO2 dava with 
 
 Milano province is divided into municipalities, called "comuni". Comune di Milano is the bigger one, which includes all the red area in the image below. To have a finer granularity we also considered the division in "quartieri", which are local areas inside the comune.
 
-![Administrative borders in Milano](https://github.com/SvevaZ/eodashboard-narratives/blob/main/assets/aapopescu/Immagine%2017-09-26%20-%2014.31.png)
+![Administrative borders in Milano](https://res.cloudinary.com/dzxw0pvmr/image/upload/v1789654544/Immagine_17-09-26_-_14.31_np4hs2.png![image alt text](url))
 
 **Population density and age distribution**
 
@@ -64,11 +64,11 @@ We aggregated population data with administrative border files, obtaining a shap
 
 The image below shows the tatal number of people in each administrative area. Some "quartieri" have no inhabitans, such as "Parco Sempione", which includes a park with an inhabitated castle.
 
-![Total population in each area](https://github.com/SvevaZ/eodashboard-narratives/blob/SvevaZ/test1/assets/aapopescu/Total_pop.png)
+![Total population in each area](https://res.cloudinary.com/dzxw0pvmr/image/upload/v1789654545/Immagine_17-09-26_-_15.18_x8kyik.png)
 
 The map below shows the percentage of people over 80 in each neighbour. While the distribution is homogeneous in the provincial area, next to the city centre there is a higher concentration of old people.
 
-![Percentage of old people](https://github.com/SvevaZ/eodashboard-narratives/blob/SvevaZ/test1/assets/aapopescu/Old%20people)
+![Percentage of old people](https://res.cloudinary.com/dzxw0pvmr/image/upload/v1789654544/Immagine_17-09-26_-_15.32_n8j7cy.png)
 
 ## Results
 
