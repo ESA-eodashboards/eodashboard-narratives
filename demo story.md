@@ -24,7 +24,7 @@ The **Urban Heat Island** is the tendency of urban and suburban areas to sustain
 
 **NO2** is a reactive trace gas produced mainly by combustion, vehicle traffic, industry, and heating.
 Since NO2's lifetime is on the order of hours, its diurnal cycle is tightly linked to both traffic timing and boundary-layer dynamics.
-Therefore the peaks of NO2 concentration are typically in the morning and in the late afternoon during traffic hours and with shallow, stable boundary layer limiting dilution, and drop in the early afternoon, when higher solar radiation and a deeper boundary layer both dilute NO2 and accelerate its photochemical conversion to O3. This produces an inverse relationship between NO2 and O3 on short timescales and an opposite response to the same thermal driver. 
+Therefore the peaks of NO2 concentration are typically in the morning and in the late afternoon during traffic hours, and with shallow, stable boundary layer limiting dilution, and drop in the early afternoon, when higher solar radiation and a deeper boundary layer both dilute NO2 and accelerate its photochemical conversion to O3. This produces an inverse relationship between NO2 and O3 on short timescales and an opposite response to the same thermal driver. 
 
 
 ##
@@ -80,6 +80,9 @@ Description
 
 
 ## Open Science
+
+
+## References
 
 
 ## Contributors
