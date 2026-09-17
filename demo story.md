@@ -69,9 +69,16 @@ Observing the urban heat island effect within the city of Madrid using political
 
 #### NDVI
 - **Source**: 
-![ndvi_january.png](https://placehold.co/3507x2480?font=inter&text=Upload%20in%20progress%0A(this%20might%20take%20a%20while)#1789656462502)
+
 
 ![ndvi_july.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/cfbf6ab1b282b802591491bf645fa2afcd336a25/assets/vittorez/ndvijuly-1789656529381.png)
+
+<div style="display: flex; gap: 10px;">
+  <img src="" />
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/cfbf6ab1b282b802591491bf645fa2afcd336a25/assets/vittorez/ndvijuly-1789656529381.png" style="width: 48%;" />
+</div>
+
+<p align="center"><em>Visualizing the seasonal and diurnal shifts in NO2 concentrations for January and July.</em></p>
 
 #### DTM
 - **Source**: 
