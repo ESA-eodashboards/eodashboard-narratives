@@ -25,8 +25,13 @@ Text
 
 ## Data and Methods
 #### Dataset
-- **Source**: 
-- **Temporal coverage**: 
+| Dataset | Variables | Spatial Resolution |
+| :---: | :---: | :---: |
+| **Sentinel-3 SLSTR** | Land Surface Temperature (LST) | ~1 km |
+| **Landsat 8–9** | Land Surface Temperature (LST) | 30 m |
+| **Sentinel-2 MSI** | Spectral indices | 20 m |
+| **Copernicus Tree Cover Density** | Vegetation cover | 10 m |
+| **Copernicus Imperviousness** | Impervious surfaces | 10 m |
 
 #### Methodology workflow
 Description
