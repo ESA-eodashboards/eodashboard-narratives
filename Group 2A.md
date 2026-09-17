@@ -32,7 +32,7 @@ Satellite imagery focusing on the Milan and Monza-Brianza metropolitan area, pro
 | Data source | Product | Variables | Spatial Resolution |
 | :---: | :---: | :---: | :---: |
 | **Sentinel-3** | SLSTR – SL_2_LST | Land Surface Temperature (LST) | ~1 km |
-| **Landsat 8** | Collection 2 Level-2 | Land Surface Temperature (LST) | 30 m |
+| **Landsat 8** | Collection 2 Level-2 | Land Surface Temperature (LST) | 30/100m **?** |
 | **Sentinel-2** | MSI – Level-2A (L2A) | NDVI, NDRE, NDBI, BSI, mNDWI, Albedo | 20 m |
 | **Copernicus CLMS*** | Tree Cover Density | Vegetation cover | 10 m |
 | **Copernicus CLMS*** | Imperviousness | Impervious surfaces | 10 m |
