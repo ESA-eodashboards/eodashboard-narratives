@@ -1,4 +1,4 @@
-
+# INDONESIA CASE STUDY MARKDOWN SUGGESTION
 
 ## Case Study <!--{ as="eox-map" mode="tour" position="left" }-->
 
@@ -54,4 +54,3 @@ Switching to the HV (cross-polarized) channel for the same 2021 composite reveal
 The same HV view three years later. As with Kuala Selat, any difference from the 2021 baseline may reflect a genuine change in mangrove structure, but could also partly reflect differences in tidal height or moisture conditions between the two acquisitions. 
 
 
-## Methodology Workflow & Data
