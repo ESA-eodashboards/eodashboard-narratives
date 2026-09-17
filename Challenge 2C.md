@@ -29,10 +29,13 @@ Europe. The contained datasets offer valuable insights for a variety of domains 
 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Torino%20-%20Imperviousness%202024.png?raw=true" width="400"/></p>
 
-- **GIS Data from the Municipality of Torino**: Vector files to define the official administr
-ative boundaries of the city (the 8 "circoscrizioni"). They were used to aggregate the raster data and calculate statistics for each individual district.
+- **District and Popolutation Data (Municipality of Torino)**: Vector files to define the official administrative boundaries of the city (the 8 "circoscrizioni") and the number and age of inhabitants in each district. They were used to aggregate the raster data and calculate statistics for each.
+
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Vulnerability%20Map%20%20Over%2065%20by%20District%20(Turin).png?raw=true" width="400"/></p>
 
 - **Green Areas Data (Municipality of Torino Open Data)**: Vector files retrieved from the city's official open data portal, mapping the precise polygons of public green spaces across the urban area (including parks, gardens, and tree-lined avenues). 
+
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Urban%20green%20areas.png?raw=true" width="400"/></p>
 
 The team's methodology included the following steps and expected outcomes:
 
@@ -42,9 +45,6 @@ The team's methodology included the following steps and expected outcomes:
 
 - **Deriving Spatial Indicators**: Using additional datasets (such as green cover by Comune di Torino and Copernicus High Resolution Layer Imperviousness) to describe the urban environment through indicators like vegetation cover, impervious surfaces, and built-up density.
 - **Heat Exposure Index (HEI)**: Defining an index that combines thermal intensity with exposure indicators to map and rank the most exposed urban districts.
-
-
-
 
 ## Objective
 The objective of this study was to
