@@ -47,6 +47,13 @@ Observing the urban heat island effect within the city of Madrid using political
 **NO2:** Sentinel-5P TROPOMI
 
 **Air temperature:** ERA5
+![January_2026_NIGHT_ERA5_points.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/ddc783ae88471643856a243fb22fb58fad9e77bd/assets/vittorez/January2026NIGHTERA5points-1789664698044.png)
+
+![July_2026_DAY_ERA5_points.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/5ee7ca898d90bca05ae3b1bfd58ec020467d8747/assets/vittorez/July2026DAYERA5points-1789664734518.png)
+
+
+
+
 
 **Land Surface Temperature:** Sentinel-3
 
