@@ -26,19 +26,24 @@ official: false
 
 Cities transform both the surface energy balance and atmospheric composition. Asphalt, roofs and other impervious materials absorb and store solar energy, vegetation is unevenly distributed, traffic and heating emit nitrogen oxides, and urban geometry changes ventilation and heat release. These processes do not operate independently: heat, atmospheric mixing, emissions and chemistry can reinforce or oppose one another depending on season and time of day.
 
-Madrid provides a particularly relevant case study. [Arup](https://www.arup.com/news/madrid-suffers-most-extreme-urban-heat-island-hot-spot--new-international-survey-shows/ ) reported that Madrid showed the most extreme urban heat-island hot spot among the six major cities included in its international survey, with a modelled urban-rural contrast of **8.5°C** on the day analysed. The same study highlighted strong evening exposure among vulnerable population groups. These values provide context rather than a direct benchmark for our analysis because they refer to a different year, methodology and temperature variable.
+Madrid provides a particularly relevant case study. [Arup](https://www.arup.com/news/madrid-suffers-most-extreme-urban-heat-island-hot-spot--new-international-survey-shows/ ) reported that Madrid showed the most extreme Urban Heat-Island hot spot among the six major cities included in its international survey, with a modelled urban-rural contrast of **8.5°C** on the day analysed. The same study highlighted strong evening exposure among vulnerable population groups. These values provide context rather than a direct benchmark for our analysis because they refer to a different year, methodology and temperature variable.
 
-Madrid's heat exposure was again visible from space in June 2026. During an exceptional western-European heatwave, ESA highlighted Sentinel-3 observations showing very high land-surface temperatures across Spain, including Madrid. This underlines a key distinction in our study: **land-surface temperature (LST)** describes the skin temperature of the surface and can become substantially hotter than the near-surface air temperature experienced by people.
+Madrid's heat exposure was again visible from space in June 2026. During an exceptional western-European heatwave, [ESA](https://www.esa.int/ESA_Multimedia/Images/2026/06/Europe_feels_the_heat_beneath_our_feet?) highlighted Sentinel-3 observations showing very high land-surface temperatures across Spain, including Madrid. 
+![Screenshot 2026-09-18 010510.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/3d3adaf4b0f174cb85bec43d1e101aa5b6f49eec/assets/NikolinaZallemi/Screenshot-2026-09-18-010510-1789686475564.png)
+<p align="center" style="color: #888; font-size: 0.85em;">
+  Source: ESA.
+</p>
+This underlines a key distinction in our study: **Land Surface Temperature (LST)** describes the temperature of the surface and can become substantially hotter than the near-surface air temperature experienced by people.
 
-Against this background, we ask a simple question with a complex answer: **where heat persists across Madrid, do air-pollution patterns follow the same geography, and does that relationship change between winter and summer and between day and night?**
+We ask a simple question with a complex answer: **Where heat persists across Madrid, do air-pollution patterns follow the same geography, and does that relationship change between winter and summer and between day and night?**
 
 ## Objective
 
-The objective is to investigate the spatial and temporal relationship between **land-surface temperature (LST)**, **near-surface air temperature**, **nitrogen dioxide (NO₂)**, **ozone (O₃)**, **vegetation (NDVI)** and **elevation** across Madrid during **January and July 2026**.
+The objective is to investigate the spatial and temporal relationship between **LST**, **near-surface air temperature**, **nitrogen dioxide (NO₂)**, **ozone (O₃)**, **vegetation (NDVI)** and **elevation** across Madrid during **January and July 2026**.
 
-Rather than asking only whether two maps look similar, the analysis quantifies how much of the observed spatial variability in LST is associated with meteorology, vegetation, topography and air-pollution fields. A second objective is to test whether NO₂ and O₃ provide additional explanatory information once air temperature, NDVI and elevation are already accounted for.
+Rather than asking only whether two maps look similar, the analysis quantifies how much of the observed spatial variability in LST is associated with meteorology, vegetation, topography and air-pollution.
 
-The study is exploratory and associative. Correlation coefficients, regression slopes and R² values describe relationships in the analysed data; they do **not** demonstrate that a pollutant directly causes surface warming or cooling.
+A second objective is to test whether NO₂ and O₃ provide additional explanatory information once air temperature, NDVI and elevation are already accounted for.
 
 ## Analysed phenomena
 
