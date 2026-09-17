@@ -40,7 +40,9 @@ Looking at the Earth from a global perspective to observe atmospheric dynamics.
 
 ### <!--{ zoom=11 center=[-3.7038,40.4168] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Tile","properties":{"id":"osm-borders","opacity":0.8},"source":{"type":"XYZ","url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png"}}]' animationOptions='{"duration":500}' }-->
 #### Focusing on Madrid
-Observing the urban heat island effect within the city of Madrid using political boundaries.
+*"Madrid’s urban centre has the most extreme urban heat island (UHI) “hot spot” of six major cities around the world, with temperatures 8.5°C hotter than rural surroundings, according to new research by global sustainable development consultancy, Arup."*
+
+*"Within the survey area in Madrid, severe UHI hot spots meant researchers found 500,000 children and elderly people living with evening UHI heat spikes of 7°C or more."*
 
 ## Methods
 ### Data
