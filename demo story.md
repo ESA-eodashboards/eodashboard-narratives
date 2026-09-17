@@ -32,8 +32,7 @@ Therefore the peaks of NO2 concentration are typically in the morning and in the
 **THE FOLLOWING PART COULD BE USED TO INTERPRETE RESULTS**
 Winter: stronger temperature inversions and shallower, more stable boundary layers trap NO2 near the surface, while UHI intensity (especially in its air/canopy form) is comparatively weaker. 
 
-Summer: UHI is strongest, particularly at night, while NO2's photochemical consumption is fastest, partly offsetting emission-driven increases, but LST-NO2 spatial correlation is empirically stronger in summer than in winter, since both fields are driven by the same underlying urban density even as their diurnal magnitudes diverge. 
-
+Summer: UHI is strongest, particularly at night, while NO2's photochemical consumption is fastest, partly offsetting emission-driven increases, but LST-NO2 spatial correlation is empirically stronger in summer than in winter, since both fields are driven by the same underlying urban density even as their diurnal magnitudes diverge.
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
@@ -74,9 +73,7 @@ Observing the urban heat island effect within the city of Madrid.
 Description
 
 ## Results
-
-
-RICORDIAMOCI CHE è UN'ANALISI CON LE SUE FRAGILITà, QUINDI ANDREBBERO CONSIDERATI PIù ANNI, PIù DATI E BLABLA
+RICORDIAMOCI CHE è UN'ANALISI CON LE SUE FRAGILITà NON ESAUSTIVA, QUINDI ANDREBBERO CONSIDERATI PIù ANNI, PIù DATI E BLABLA
 
 ## Conclusions
 
@@ -86,7 +83,10 @@ RICORDIAMOCI CHE è UN'ANALISI CON LE SUE FRAGILITà, QUINDI ANDREBBERO CONSIDER
 
 ## References
 1. Weng, Q., Yang, S. Urban Air Pollution Patterns, Land Use, and Thermal Landscape: An Examination of the Linkage Using GIS. Environ Monit Assess 117, 463–489 (2006). https://doi.org/10.1007/s10661-006-0888-9
-2. 
+2. Kamyar Fuladlu, Haşim Altan, Examining land surface temperature and relations with the major air pollutants: A remote sensing research in case of Tehran, Urban Climate, Volume 39, 2021, 100958, ISSN 2212-0955. https://doi.org/10.1016/j.uclim.2021.100958.
+3. Goldberg, D. L., Anenberg, S. C., Kerr, G. H., Mohegh, A., Lu, Z., & Streets, D. G. (2021). TROPOMI NO2 in the United States: A detailed look at the annual averages, weekly cycles, effects of temperature, and correlation with surface NO2 concentrations. Earth's Future, 9, e2020EF001665. https://doi.org/10.1029/2020EF001665
+4. Guo, Y., Unger, J., Khabibolla, A. et al. Modeling urban air temperature using satellite-derived surface temperature, meteorological data, and local climate zone pattern—a case study in Szeged, Hungary. Theor Appl Climatol 155, 3841–3859 (2024). https://doi.org/10.1007/s00704-024-04852-7
+5. Shen, P., Wang, M., Ma, H. et al. On the two-way interactions of urban thermal environment and air pollution: A review of synergies for identifying climate-resilient mitigation strategies. Build. Simul. 18, 259–279 (2025). https://doi.org/10.1007/s12273-024-1210-x
 
 ## Contributors
 Authors, contibutors, reviewers
