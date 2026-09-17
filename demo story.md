@@ -1,5 +1,5 @@
-# Title  AI for air quality monitoring using Earth <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/f1f46716f8557709bf58b1e43426428d124d661f/assets/vittorez/prova-1789676182440.png" }-->
-#### 
+# AI for air quality monitoring using Earth <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/f1f46716f8557709bf58b1e43426428d124d661f/assets/vittorez/prova-1789676182440.png" }-->
+####
 
 ## Authors: Gianluca Flaminio¹ , Nikolina Zallemi¹, Vittoria Rezzuto¹ and Thomas Xolias²
 > ¹ Politecnico di Milano ² Aristotle University of Thessaloniki
@@ -34,7 +34,8 @@ Looking at the Earth from a global perspective to observe atmospheric dynamics.
 
 ### <!--{ zoom=6 center=[-3.7,40.4] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
 #### Zooming into Spain
-Narrowing our focus to the Iberian Peninsula to analyze urban-rural temperature gradients.
+*"An exceptional heatwave is affecting countries across western Europe, with cities and regions of France, Spain and southern Italy experiencing unseasonal temperatures."*
+Europe feels the heat beneath our feet - 
 
 ### <!--{ zoom=11 center=[-3.7038,40.4168] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Tile","properties":{"id":"osm-borders","opacity":0.8},"source":{"type":"XYZ","url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png"}}]' animationOptions='{"duration":500}' }-->
 #### Focusing on Madrid
