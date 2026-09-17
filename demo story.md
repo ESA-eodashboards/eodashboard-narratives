@@ -158,6 +158,8 @@ RICORDIAMOCI CHE è UN'ANALISI CON LE SUE FRAGILITÀ NON ESAUSTIVA, QUINDI ANDRE
 3. Goldberg, D. L., Anenberg, S. C., Kerr, G. H., Mohegh, A., Lu, Z., & Streets, D. G. (2021). TROPOMI NO2 in the United States: A detailed look at the annual averages, weekly cycles, effects of temperature, and correlation with surface NO2 concentrations. Earth's Future, 9, e2020EF001665. https://doi.org/10.1029/2020EF001665
 4. Guo, Y., Unger, J., Khabibolla, A. et al. Modeling urban air temperature using satellite-derived surface temperature, meteorological data, and local climate zone pattern—a case study in Szeged, Hungary. Theor Appl Climatol 155, 3841–3859 (2024). https://doi.org/10.1007/s00704-024-04852-7
 5. Shen, P., Wang, M., Ma, H. et al. On the two-way interactions of urban thermal environment and air pollution: A review of synergies for identifying climate-resilient mitigation strategies. Build. Simul. 18, 259–279 (2025). https://doi.org/10.1007/s12273-024-1210-x
+6. "Europe feels the heat beneath our feet". https://www.esa.int/ESA_Multimedia/Images/2026/06/Europe_feels_the_heat_beneath_our_feet 
+7. "Madrid suffers most extreme urban heat island "hot spot" – new international survey shows". https://www.arup.com/news/madrid-suffers-most-extreme-urban-heat-island-hot-spot--new-international-survey-shows/
 
 ## Contributors
 Authors, contibutors, reviewers
