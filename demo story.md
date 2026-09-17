@@ -76,6 +76,8 @@ Description
 ## Results
 
 
+RICORDIAMOCI CHE è UN'ANALISI CON LE SUE FRAGILITà, QUINDI ANDREBBERO CONSIDERATI PIù ANNI, PIù DATI E BLABLA
+
 ## Conclusions
 
 
@@ -83,7 +85,8 @@ Description
 
 
 ## References
-
+1. Weng, Q., Yang, S. Urban Air Pollution Patterns, Land Use, and Thermal Landscape: An Examination of the Linkage Using GIS. Environ Monit Assess 117, 463–489 (2006). https://doi.org/10.1007/s10661-006-0888-9
+2. 
 
 ## Contributors
 Authors, contibutors, reviewers
