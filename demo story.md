@@ -44,6 +44,8 @@ Looking at the Earth from a global perspective to observe atmospheric dynamics.
 
 *"Within the survey area in Madrid, severe UHI hot spots meant researchers found 500,000 children and elderly people living with evening UHI heat spikes of 7°C or more."*
 
+"Madrid suffers most extreme urban heat island "hot spot" – new international survey shows" - Arup, 16/08/2023
+
 ## Methods
 ### Data
 **Temporal coverage:** January and July 2026
