@@ -1,5 +1,7 @@
-# AI for air quality monitoring using Earth Observation <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/stories/ScienceHub-Challenge-September-2026/images/madrid.png" }-->
-#### 
+# Title <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/f1f46716f8557709bf58b1e43426428d124d661f/assets/vittorez/prova-1789676182440.png" }-->
+# AI for air quality monitoring using Earth 
+####
+
 
 ## Authors: Gianluca Flaminio¹ , Nikolina Zallemi¹, Vittoria Rezzuto¹ and Thomas Xolias²
 > ¹ Politecnico di Milano ² Aristotle University of Thessaloniki
@@ -41,7 +43,7 @@ Narrowing our focus to the Iberian Peninsula to analyze urban-rural temperature 
 Observing the urban heat island effect within the city of Madrid using political boundaries.
 
 ## Methods
-#### Data
+### Data
 **Temporal coverage:** January and July 2026
 
 **Land Surface Temperature:** Sentinel-3
