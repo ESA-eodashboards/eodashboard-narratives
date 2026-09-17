@@ -1,5 +1,5 @@
-# AI for air quality monitoring using Earth <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/f1f46716f8557709bf58b1e43426428d124d661f/assets/vittorez/prova-1789676182440.png" }-->
-####
+# AI for air quality monitoring using Earth <!--{as="img" mode="hero" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/f1f46716f8557709bf58b1e43426428d124d661f/assets/vittorez/prova-1789676182440.png" }-->
+#### 
 
 ## Authors: Gianluca Flaminio¹, Nikolina Zallemi¹, Vittoria Rezzuto¹, and Thomas Xolias²
 > ¹ Politecnico di Milano ² Aristotle University of Thessaloniki
@@ -43,6 +43,8 @@ Looking at the Earth from a global perspective to observe atmospheric dynamics.
 *"Madrid’s urban centre has the most extreme urban heat island (UHI) “hot spot” of six major cities around the world, with temperatures 8.5°C hotter than rural surroundings, according to new research by global sustainable development consultancy, Arup."*
 
 *"Within the survey area in Madrid, severe UHI hot spots meant researchers found 500,000 children and elderly people living with evening UHI heat spikes of 7°C or more."*
+
+"Madrid suffers most extreme urban heat island "hot spot" – new international survey shows" - Arup, 16/08/2023
 
 ## Methods
 ### Data
