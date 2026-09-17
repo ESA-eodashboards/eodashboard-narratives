@@ -47,16 +47,16 @@ Europe. The contained datasets offer valuable insights for a variety of domains 
 ## Heat risk from Earth Observation
 The team's methodology included the following steps and expected outcomes:
 
-**Data Retrieval & Anomaly Mapping**
+**1. Data Retrieval & Anomaly Mapping**
 
 Selecting a time series over Turin between August 1-15, 2026 and retrieving Sentinel-3 Land Surface Temperature (LST) observations for both the heatwave and non-heatwave period to understand the temperature pattern.
 
 
-**Deriving Spatial Indicators**
+**2. Deriving Spatial Indicators**
 
 Using additional datasets (such as green cover by Comune di Torino and Copernicus High Resolution Layer Imperviousness) to describe the urban environment through indicators like vegetation cover, impervious surfaces, and built-up density.
 
-**Heat Exposure Index (HEI)** 
+**3. Heat Exposure Index (HEI)** 
 
 Defining an index that combines thermal intensity with exposure indicators to map and rank the most exposed urban districts.
 Hazard, exposure, and vulnerability are the key drivers of physical climate risk. 
@@ -86,7 +86,11 @@ Satellite view of the metropolitan area of Turin, showcasing the urban landscape
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Risk.png?raw=true" width="1500"/></p>
 
 ## Conclusions
-The table indicates the districts that are more exposed to heat during heatwaves.
+Turin’s heat vulnerability is structurally dictated by urban morphology and demographics, not daily weather. The historical center and south-western industrial belt form extreme-risk zones due to severe soil sealing, lack of vegetation, and aging populations.
+
+Conversely, Borgo Po’s vast forested hills demonstrate a green buffer effect that drastically lowers thermal risk. Meanwhile, northern districts show lower vulnerability simply because their younger populations are statistically less heat-sensitive. 
+
+Ultimately, the city’s most impermeable, concrete-dense environments perfectly align with its oldest demographics, creating persistent thermal traps.
 
 ## Open Science
 
