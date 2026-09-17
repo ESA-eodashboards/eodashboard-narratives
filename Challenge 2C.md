@@ -100,6 +100,8 @@ Areas with lower heat vulnerability due to younger population demographics.
 ## Daily Risk Ranking
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/07_daily_vulnerability_ranking%20(1).png?raw=true" width="1000"/></p>
 
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/percentages.png?raw=true" width="1000"/></p>
+
 ## Critical Facilities
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/09_critical_facilities_map.png?raw=true" width="1000"/></p>
 
