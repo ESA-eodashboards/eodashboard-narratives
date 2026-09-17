@@ -97,12 +97,12 @@ The green hills providing a natural cooling buffer effect for the city.
 #### Northern Districts
 Areas with lower heat vulnerability due to younger population demographics.
 
-## Daily Risk Ranking
+### Daily Risk Ranking
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/07_daily_vulnerability_ranking%20(1).png?raw=true" width="1000"/></p>
 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/percentages.png?raw=true" width="1000"/></p>
 
-## Critical Facilities
+### Critical Facilities
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/09_critical_facilities_map.png?raw=true" width="1000"/></p>
 
 ## Conclusions
@@ -112,34 +112,22 @@ Conversely, Borgo Po's vast forested hills demonstrate a green buffer effect tha
 
 Ultimately, the city's most impermeable, concrete-dense environments perfectly align with its oldest demographics, creating persistent thermal traps.
 
-## Contributors
-Authors, contibutors, reviewers
-
 ## References
-**Satellite / Earth Observation**
+### Satellite / Earth Observation
+* Sentinel-3 SLSTR Level-2 LST — Copernicus / ESA
+* Sentinel-2 MSI Level-2A (COPERNICUS/S2_SR_HARMONIZED) — Copernicus, via Google Earth Engine
+* Imperviousness High Resolution Layer 2024 — Copernicus Land Monitoring Service
 
-Sentinel-3 SLSTR Level-2 LST — Copernicus / ESA
+### Meteorological context
+* ThermalTrace — daily air / UTCI feels-like temperature, ERA5, Copernicus C3S / ECMWF
+* Beretta, S. “Meteo oggi 4 agosto: bollino rosso in 25 città su 27, punte di 41°C”, Quotidiano Motori, 4 Aug 2026 — nationwide red-alert heatwave, corroborating the analysis window
 
-Sentinel-2 MSI Level-2A (COPERNICUS/S2_SR_HARMONIZED) — Copernicus, via Google Earth Engine
+### Municipal / administrative data (Città di Torino, via Geoportale Piemonte)
+* District boundaries (circoscrizioni) and urban green areas — Comune di Torino open geodata, e.g. Geoportale Piemonte catalog record (CC BY 4.0)
+* Population by age and district (“B1 Pop per età annuale e circoscrizione 2025”) — Comune di Torino open data
+* https://dutchclimaterisk.nl/climate-risk/risk-assessment-guidance/
+* https://heat.gov/who-is-most-at-risk-to-extreme-heat/at-risk-older-adults/
+* https://www.sciencedirect.com/science/article/pii/S2212096325000452
 
-Imperviousness High Resolution Layer 2024 — Copernicus Land Monitoring Service
-
-**Meteorological context**
-
-ThermalTrace — daily air / UTCI feels-like temperature, ERA5, Copernicus C3S / ECMWF
-
-Beretta, S. “Meteo oggi 4 agosto: bollino rosso in 25 città su 27, punte di 41°C”, Quotidiano Motori, 4 Aug 2026 — nationwide red-alert heatwave, corroborating the analysis window
-
-Municipal / administrative data (Città di Torino, via Geoportale Piemonte)
-
-District boundaries (circoscrizioni) and urban green areas — Comune di Torino open geodata, e.g. Geoportale Piemonte catalog record (CC BY 4.0)
-
-Population by age and district (“B1 Pop per età annuale e circoscrizione 2025”) — Comune di Torino open data
-
-https://dutchclimaterisk.nl/climate-risk/risk-assessment-guidance/
-https://heat.gov/who-is-most-at-risk-to-extreme-heat/at-risk-older-adults/
-https://www.sciencedirect.com/science/article/pii/S2212096325000452![07_daily_vulnerability_ranking.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/860495d86eb87af66c4cdcc70f8014cd3158c0fa/assets/FrancescoMezza/07dailyvulnerabilityranking-1789665020227.png)
-
-**Points of interest**
-
-OpenStreetMap contributors — hospitals, schools, elderly-care facilities, queried via Overpass API / osmnx
+### Points of interest
+* OpenStreetMap contributors — hospitals, schools, elderly-care facilities, queried via Overpass API / osmnx
