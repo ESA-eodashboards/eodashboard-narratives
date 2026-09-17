@@ -116,9 +116,9 @@ Overall, increasing k does not substantially change the underlying structure of 
 ![profili_B0_k6 1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b189c5764ed92432c0457fcef60a2eea7c1117af/assets/yiyilv/profiliB0k6-1-1789687654701.png)
 ![profili_B0_k9.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/a96a09713bd649adc3c98e1a9ddbe2f105634e01/assets/martinolithomas-ui/profiliB0k9-1789688732488.png)
 #### Spatial distribution
+![map_b0_k4.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/809f6acdc143f267a494ce583f7023e033d4ada2/assets/martinolithomas-ui/mapb0k4-1789688878071.png)
 ![map_b0_k6.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b32fa2c0b2e2420a7a78c5b212d1b8909b424c9e/assets/yiyilv/mapb0k6-1789687722581.png)
-
-![map_b0_k9.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/374bf4e966ca3b67a925572a5fc930ad035a56e6/assets/yiyilv/mapb0k9-1789687740729.png)
+![map_b0_k9.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e654446fd8d4b84c9b04b55db7aa398dd77d59ef/assets/martinolithomas-ui/mapb0k9-1789688920085.png)
 
 
 #### Preliminary comparison of clustering resolutions
