@@ -126,13 +126,33 @@ Using the administrative boundaries, the data have been clipped to Milan metropo
 The group data have them been processed, obtaining the average NO₂ concentration for each group.
 
 #### Zonal statistics
+Zonal statistics were performed in QGIS to derive district-level NO<sub>2</sub> information from the gridded raster dataset and append it to the existing district polygon layer. Each district polygon was used as a spatial zone, and QGIS identified the raster cells located within or intersecting its boundary. The mean NO<sub>2</sub> concentration for each district was calculated from the valid raster-cell values associated with that zone. Where precise pixel–polygon intersection was applied, partially intersected raster cells were weighted according to the proportion of their area overlapping the district, while fully covered cells received a weight of one. 
+The resulting mean was calculated as the weighted sum of NO<sub>2</sub> pixel values divided by the total pixel-intersection weight. 
 
+The output vector file retained the original district geometry and demographic attributes, with an additional field containing the district-level mean NO<sub>2</sub> value.
 
 #### Index calculation
 
 
 ## Results
 
+The results below show the risk mapo for each day of the week, divided by cold days (left column) and hot days (rigth column)
+
+![block1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7f439238b0833c4ef947498ed0e10355fc5b580e/assets/SvevaZ/block1-1789675271217.png)
+![block2.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/626c62a9c7c9c451b643b311e890fed1f9619599/assets/SvevaZ/block2-1789675283568.png)
+![block3.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/5194e7c3f823823001df2c931f8287faee6ea9ab/assets/SvevaZ/block3-1789675335624.png)
+
+The analysis of tropospheric nitrogen dioxide reveals marked seasonal and weekly variations across the Milan metropolitan area. In the analysed period, the largest NO<sub>2</sub> columns occur during the cold season, when enhanced emissions and unfavourable meteorological conditions combine to promote pollutant accumulation.
+ 
+During winter, emissions from road transport, industrial activity and residential heating are frequently confined within a shallow and stable planetary boundary layer. Weak winds and persistent temperature inversions suppress vertical mixing and limit regional ventilation, allowing pollutants to accumulate near major emission areas. These conditions are characteristic of the Po Valley, whose surrounding Alpine and Apennine topography restricts atmospheric exchange under stagnant weather regimes.
+ 
+Seasonal changes in atmospheric chemistry further contribute to the observed contrast. Lower solar irradiance and reduced concentrations of hydroxyl radicals slow the conversion of NO<sub>2</sub> into nitric acid and other reservoir or removal products, increasing the effective atmospheric lifetime of NO<sub>x</sub>. During the warmer months, stronger photochemical activity and deeper boundary-layer mixing generally promote faster chemical processing and more efficient dilution, resulting in lower mean tropospheric NO<sub>2</sub> columns.
+ 
+Seasonality also influences the magnitude of the weekly cycle. Lower road traffic and commercial activity during the weekend are associated with reduced anthropogenic NO<sub>x</sub> emissions. In summer, faster chemical processing and stronger vertical mixing allow the atmospheric NO<sub>2</sub> burden to respond relatively quickly to these reductions. In winter, weaker dispersion and a longer effective NO<sub>x</sub> lifetime can sustain an elevated regional background, making the weekend decrease less pronounced.
+ 
+Within the analysed dataset, Thursday shows the largest mean NO<sub>2</sub> concentration in both seasonal subsets. This pattern may reflect the combined influence of sustained working-week emissions and incomplete day-to-day removal. Mean columns begin to decline on Friday and reach their lowest levels during the weekend.
+ 
+Spatially, the strongest NO<sub>2</sub> enhancements are centred on the densely populated Milan metropolitan area, with elevated columns extending towards parts of the northern and north-western peri-urban region. This distribution reflects the interaction between spatially heterogeneous emission sources, atmospheric transport and the restricted ventilation of the Po Basin.
 
 ## Conclusions
 
