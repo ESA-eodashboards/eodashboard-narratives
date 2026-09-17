@@ -27,13 +27,6 @@ Since NO2's lifetime is on the order of hours, its diurnal cycle is tightly link
 Therefore the peaks of NO2 concentration are typically in the morning and in the late afternoon during traffic hours, and with shallow, stable boundary layer limiting dilution, and drop in the early afternoon, when higher solar radiation and a deeper boundary layer both dilute NO2 and accelerate its photochemical conversion to O3. This produces an inverse relationship between NO2 and O3 on short timescales and an opposite response to the same thermal driver. 
 
 
-##
-
-**THE FOLLOWING PART COULD BE USED TO INTERPRETE OUR RESULTS :)**
-
-Winter: stronger temperature inversions and shallower, more stable boundary layers trap NO2 near the surface, while UHI intensity (especially in its air/canopy form) is comparatively weaker. 
-
-Summer: UHI is strongest, particularly at night, while NO2's photochemical consumption is fastest, partly offsetting emission-driven increases, but LST-NO2 spatial correlation is empirically stronger in summer than in winter, since both fields are driven by the same underlying urban density even as their diurnal magnitudes diverge.
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
@@ -52,23 +45,23 @@ Observing the urban heat island effect within the city of Madrid using political
 
 
 ## Methods
-## Data
-#### NO2 
+#### Data
+##### NO2 
 - **Source**: Sentinel-5P TROPOMI
 - **Temporal coverage**:
 
-####  Air temperature
+#####  Air temperature
 - **Source**: ERA5
 - **Temporal coverage**: 2021-2026 **??????**
 
-#### Land Surface Temperature
+##### Land Surface Temperature
 - **Source**: Landsat 8
 - **Temporal coverage**: 2026
 
-#### Land cover and urban extent
+##### Land cover and urban extent
 - **Source**: 
 
-#### NDVI
+##### NDVI
 - **Source**: 
 <div style="display: flex; gap: 10px;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/2d1c2767f70007ad2d25be452ce624631721eb74/assets/vittorez/ndvijanuary-1789657144484.png" style="width: 100%; object-fit: contain; aspect-ratio: 1/1;" />
@@ -88,6 +81,7 @@ Observing the urban heat island effect within the city of Madrid using political
 Description
 
 ## Results
+#### Nitrogen dioxide 
 <div style="display: flex; gap: 10px;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e75cffa4e129c6611205f50637e88eeda8aab387/assets/vittorez/January2026NO2DAYESRI-1789655589787.gif" style="width: 48%;" />
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/516f4965e19cbc50cb353c5b548e59aa7a344e21/assets/vittorez/January2026NO2NIGHTESRI-1789655678870.gif" style="width: 48%;" />
@@ -99,6 +93,16 @@ Description
 </div>
 
 <p align="center"><em>Visualizing the seasonal and diurnal shifts in NO2 concentrations for January and July.</em></p>
+
+#### Ozone
+
+
+
+**THE FOLLOWING PART COULD BE USED TO INTERPRETE OUR RESULTS :)**
+
+Winter: stronger temperature inversions and shallower, more stable boundary layers trap NO2 near the surface, while UHI intensity (especially in its air/canopy form) is comparatively weaker. 
+
+Summer: UHI is strongest, particularly at night, while NO2's photochemical consumption is fastest, partly offsetting emission-driven increases, but LST-NO2 spatial correlation is empirically stronger in summer than in winter, since both fields are driven by the same underlying urban density even as their diurnal magnitudes diverge.
 
 RICORDIAMOCI CHE è UN'ANALISI CON LE SUE FRAGILITÀ NON ESAUSTIVA, QUINDI ANDREBBERO CONSIDERATI PIÙ ANNI, PIÙ DATI E BLABLA
 
