@@ -75,11 +75,30 @@ The risk index ranges from 0-1, and is calculated based on:
 
 The risk index is therefore calculated as the average of all of these factors (each one normalized between 0-1).
 
-## Satellite View of Turin
-<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Torino%20sentinel.png?raw=true" width="1000"/></p>
+## Satellite View of Turin <!--{ as="eox-map" mode="tour" position="right" }-->
+
+### <!--{ zoom=11 center=[7.6869,45.0703] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}},{"type":"Tile","properties":{"id":"heat-index-overlay"},"url":"https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/06_heat_exposure_index_map.png?raw=true"}]' animationOptions='{"duration":500}' }-->
+#### Turin Overview
+An overview of the city of Turin, showcasing the urban landscape and surrounding geography. <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/06_heat_exposure_index_map.png?raw=true" width="1000"/></p>
+
+### <!--{ zoom=14 center=[7.68,45.07] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
+#### Historical Center
+Focusing on the highly dense historical center where heat trapping is most prominent.
+
+### <!--{ zoom=13 center=[7.63,45.04] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
+#### Industrial South-West
+Examining the industrial belt which experiences significant soil sealing.
+
+### <!--{ zoom=13 center=[7.71,45.05] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
+#### Borgo Po Green Buffer
+The green hills providing a natural cooling buffer effect for the city.
+
+### <!--{ zoom=13 center=[7.68,45.1] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
+#### Northern Districts
+Areas with lower heat vulnerability due to younger population demographics.
 
 ## Heat Exposure Index
-<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/06_heat_exposure_index_map.png?raw=true" width="1000"/></p>
+
 
 ## Daily Risk Ranking
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/07_daily_vulnerability_ranking%20(1).png?raw=true" width="1000"/></p>
