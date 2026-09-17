@@ -17,7 +17,7 @@ This challenge combine sentinel-5P TROPOMI data with social indicators, such as 
 
 The analysis focused on Nitrogen Dioxide, which is one of the compounds measured by sentinel-5P
 
-#### Challenge
+#### Nitrogen Dioxide
 
 Nitrogen Dioxide (NO<sub>2</sub>) is one of the Nitrogen Oxides (NOx) compounds together with Nitrogen Monoxide (NO). NO<sub>2</sub> comes from both natural and anthropogenic sources. Usually is emitted in small quantities from combustion processes (e.g. emissions from cars, trucks and buses, power plants, and off-road equipment) along with NO. NO<sub>2</sub> can also be formed by the oxidation of NO. This process is known as the first part of the NOx cycles, where NO<sub>2</sub> is produced from the interaction of NO with Ozone (O<sub>3</sub>), based on the following equation:
 
@@ -27,28 +27,20 @@ This cycle continues with the dissolution of NO2 via photolysis which is one of 
 
 NO<sub>2</sub>+hv→NO+O (2)
 
-NO<sub>2</sub> can also be formed by the HOx cycles, when NO reacts with HO<sub>2</sub>: 
+Even though this process seems effective for removing the NO2 from the atmosphere, improving the air quality, it creates secondary problems, such as acid rain shifting the problem form the atmosphere to the ground.
 
-HO<sub>2</sub>+NO→NO<sub>2</sub>+OH (3)
+The lifetime of NO<sub>2</sub> is short, oscillating from hours to days in the troposphere. During the day, the concertation is lower as it is removed by the process of photolysis.  NO<sub>2</sub> has also seasonal behavior, in which the concentration is high in the winter period where there is a reduced amount of solar radiation. In this case NO<sub>2</sub> has a lifetime of 1 – 3 days, indicating much more atmospheric pollution at that time. 
 
-As a continuity to the HOx cycles, coupling cycles between reservoir species contributes to the dissolution of NO<sub>2</sub> using the following equation: 
-NO<sub>2</sub>+OH+M→HNO<sub>3</sub>+M (4)
+#### Danger to health and the environment
 
-&emsp;Even though this process seems effective for removing the NO2 from the atmosphere, improving the air quality, it creates secondary problems as HNO3 forms acid rain sifting the problem form the atmosphere to the ground (e.g. pollution of crops, rivers etc.). This mechanism is also known as wet deposition. Depositions can also have a second form, the dry one, when NO<sub>2</sub>, is directly deposited on surfaces (e.g. buildings, plants etc.). The formation of HNO3, consequently the removal of NO<sub>2</sub>, can also occur via the production of Nitrogen Pentoxide (N<sub>2</sub>O<sub>5</sub>). In this case, NO is dissolved by interacting with O<sub>3</sub> and NO<sub>3</sub>. This chemical compound interacts with water vapor forming again HNO<sub>3</sub> : 
+NO<sub>2</sub> is an important pollutant as its effects expand from human health to environment. Focusing on human health, it irritates airways in the human respiratory system, causing asthma, coughing, wheezing or difficulty breathing, affecting the children and the elderly more. 
 
-O<sub>3</sub>+NO<sub>2</sub>→NO<sub>3</sub>+O<sub>2</sub>(5)
+NO<sub>2</sub> affects also the environment. More specifically, it contributes to the formation of HNO<sub>3</sub> and acid rain, polluting the ground, water etc., endangering the fauna and flora. Rain acid also affects cultural heritage by dissolving monuments (e.g. marble statues). 
 
-NO<sub>2</sub>+NO<sub>3</sub>→ N <sub>2</sub>O<sub>5</sub> (6)
-
-N<sub>2</sub>O<sub>5</sub>+H<sub>2</sub>O→2HNO<sub>3</sub> (aq)  (7)
-
-&emsp;Based on all these interactions the lifetime of NO<sub>2</sub> is short, oscillating from hours to days in the troposphere. During the day, the concertation is lower as it is removed by the process of photolysis.  NO<sub>2</sub> has also seasonal behavior, in which the concentration is high in the winter period where there is a reduced amount of solar radiation. In this case NO<sub>2</sub> has a lifetime of 1 – 3 days, indicating much more atmospheric pollution at that time. 
-
-&emsp;NO<sub>2</sub> is an important pollutant as its effects expand from human health to environment. Focusing on human health, it irritates airways in the human respiratory system, causing asthma, coughing, wheezing or difficulty breathing, affecting the children and the elderly more. As it said before, NO<sub>2</sub> affects also the environment. More specifically, it contributes to the formation of HNO<sub>3</sub> and acid rain, polluting the ground, water etc., endangering the fauna and flora. Rain acid also affects cultural heritage by dissolving monuments (e.g. marble statues). Finally, NO<sub>2</sub> contributes to the degradation of landscape, by making the atmosphere hazy and difficult to see through. All these effects lead to socioeconomical consequences. The need for health assistance raw materials increases in the hospitals. Crops are destroyed hitting farmers' income and driving up food prices, while the monuments are damaged increasing the cost of maintenance.
-Air pollution risk mapping with Sentinel-5P and socio-environmental indicators
+Finally, NO<sub>2</sub> contributes to the degradation of landscape, by making the atmosphere hazy and difficult to see through. All these effects lead to socioeconomical consequences. The need for health assistance raw materials increases in the hospitals. Crops are destroyed hitting farmers' income and driving up food prices, while the monuments are damaged increasing the cost of maintenance.
 
 ## Objective
-The objective of this study was to design and implement a spatial risk assessment pipeline for air pollution that combines Sentinel 5P/TROPOMI NO₂ data with population, land cover, road density and distance to industrial zones
+Given these negative implications of NO<sub>2</sub>, this study implements a spatial risk assessment pipeline for air pollution that combines Sentinel 5P/TROPOMI NO₂ data with population data and age distribution.
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
