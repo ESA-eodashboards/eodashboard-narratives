@@ -50,8 +50,12 @@ Given these negative implications of NO<sub>2</sub>, this study implements a spa
 ###### Sentinel-5P TROPOMI NO₂ Data
 
 The main dataset we used is Sentinel-5P TROPOMI data, and in particular NO₂ measurements, available in the Copernicus Dataspace portal: https://dataspace.copernicus.eu/
-Since 6 August 2019, NO₂ data are available with a spatial resolution of 3.5 x 5.5 Km (across x along track)
 
+The TROPOspheric Monitoring Instrument (TROPOMI) is a passive grating spectrometer that provides daily global coverage. The satellite operates in a sun-synchronous orbit with an equator-crossing time of approximately 13:30 local solar time and an orbital period of about 101.5 minutes. Combined with a wide swath width of 2,600 km, this temporal resolution ensures near-daily observations for most locations worldwide.  
+
+
+The NO₂ data are provided in NetCDF-4 format, following standard Climate and Forecast (CF) metadata conventions. These files report the NO₂ tropospheric column density (expressed in mol/m²).
+Since 6 August 2019, NO₂ data are available with a spatial resolution of 3.5 x 5.5 Km (across x along track)
 
 ###### Complementary Data Sources
 -   Population data over Milano
@@ -63,7 +67,6 @@ Since 6 August 2019, NO₂ data are available with a spatial resolution of 3.5 x
 -   NO2 permanent station data
     -   Station data: https://www.dati.lombardia.it/Ambiente/Stazioni-qualit-dell-aria/ib47-atvt/about_data
     -   Sensor data: https://www.arpalombardia.it/temi-ambientali/aria/form-richiesta-dati-stazioni-fisse/
-- **Temporal coverage**: 
 
 ## Methodology workflow
 
