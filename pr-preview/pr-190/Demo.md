@@ -13,7 +13,11 @@
 </p>
 
 ## Challenge
-Introduction - A brief for NO<sub>2</sub>
+This challenge combine sentinel-5P TROPOMI data with social indicators, such as population density and age distribution, to derive a risk map over the region of Milano, highlighting the areas the population, and in particular fragile population, is more exposed to pollutants.
+
+The analysis focused on Nitrogen Dioxide, which is one of the compounds measured by sentinel-5P
+
+#### Challenge
 
 Nitrogen Dioxide (NO<sub>2</sub>) is one of the Nitrogen Oxides (NOx) compounds together with Nitrogen Monoxide (NO). NO<sub>2</sub> comes from both natural and anthropogenic sources. Usually is emitted in small quantities from combustion processes (e.g. emissions from cars, trucks and buses, power plants, and off-road equipment) along with NO. NO<sub>2</sub> can also be formed by the oxidation of NO. This process is known as the first part of the NOx cycles, where NO<sub>2</sub> is produced from the interaction of NO with Ozone (O<sub>3</sub>), based on the following equation:
 
