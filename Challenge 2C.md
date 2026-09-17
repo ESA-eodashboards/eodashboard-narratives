@@ -21,6 +21,8 @@ The core question addressed was whether EO data could be combined with geospatia
 
 - **Data Retrieval & Anomaly Mapping**: Selecting a heatwave event over Turin between August 1-14 and retrieving Sentinel-3 Land Surface Temperature (LST) temperature observations for both the heatwave and a non-heatwave reference period to compute temperature anomalies.
 
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Nighttime%20LST%20Evolution%20-%20Turin%20Districts%20.png?raw=true" width="400"/></p>
+
 - **Deriving Spatial Indicators**: Using additional datasets (such as green cover by Comune di Torino and Copernicus High Resolution Layer Imperviousness) to describe the urban environment through indicators like vegetation cover, impervious surfaces, and built-up density.
 - **Heat Exposure Index (HEI)**: Defining an index that combines thermal intensity with exposure indicators to map and rank the most exposed urban districts.
 
@@ -32,6 +34,8 @@ The main used datasets were:
 
 
 - **High Resolution Layer Imperviousness**: The High Resolution Layer (HRL) Imperviousness by the Copernicus Land Monitoring Service (CLMS) captures the spatial distribution and change over time of artificially sealed and built-up areas in high-resolution and harmonized manner over entire Europe. The contained datasets offer valuable insights for a variety of domains and applications – from infrastructure planning, urban management and environmental monitoring to disaster preparedness, real estate and tourism.
+
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Torino%20-%20Imperviousness%202024.png?raw=true" width="400"/></p>
 
 - **GIS Data from the Municipality of Torino**: Vector files to define the official administrative boundaries of the city (the 8 "circoscrizioni"). They were used to aggregate the raster data and calculate statistics for each individual district.
 
