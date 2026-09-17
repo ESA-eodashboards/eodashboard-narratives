@@ -2,9 +2,9 @@
 #### 
 
 ## Authors: Gianluca Flaminio¹, Nikolina Zallemi¹, Vittoria Rezzuto¹ and Thomas Xolias²
-> ¹ Politecnico di Milano ² Aristotele University of Thessaloniki
+> ¹ Politecnico di Milano ² Aristotle University of Thessaloniki
 
-*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in 14-18 September 2026. It was developed by a team from the **AFFILIATIONS**.*
+*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in 14-18 September 2026. It was developed by a team from Politecnico di Milano and Aristotle University of Thessaloniki.*
 
 ## 
 <p align="center">
@@ -18,6 +18,24 @@ Exploring the Synergy Between Air Pollution and Urban Heat: Linking NO2, Land Su
 
 ## Objective
 Investigation of the spatial and temporal relationship between air pollution, LST from satellite, and near surface air temperature from ERA5. Quantify whether pollution hotspots systematically coincide with elevated LST/UHI patterns and assess how meteorology mediates this relationship.
+
+## Analysed phenomena
+The **Urban Heat Island** is the tendency of urban and suburban areas to sustain higher air and surface temperatures than the surrounding rural landscape. This effect results from the modification of the natural surface energy balance by urbanization rather than by regional climate. This phenomenon is always defined relative to a rural reference, with both a surface form (LST) and a canopy/air form (T air), which do not necessarily peak at the same time of day. The UHI is defined by the difference between the temperature in the countryside and the urban temperature.
+
+**NO2** is a reactive trace gas produced mainly by combustion, vehicle traffic, industry, heating, and is commonly used as a tracer of local anthropogenic emissions.
+Since NO2's lifetime is on the order of hours, its diurnal cycle is tightly linked to both traffic timing and boundary-layer dynamics. 
+
+Photochemistry: NO2 is continuously interconverted with NO and O3 via the photolysis cycle (NO2 + hν à NO + O; O + O2 à O3). This coupling is why NO2 is classified as a short-lived pollutant, its concentration reflects recent, local conditions rather than accumulated regional background, unlike longer-lived species. 
+
+The concentrations typically peak in the morning (traffic + shallow, stable boundary layer limiting dilution) and drop in the early afternoon, when higher solar radiation and a deeper boundary layer both dilute NO2 and accelerate its photochemical conversion to O3. This produces an inverse relationship between NO2 and O3 on short timescales: higher temperature and radiation consume NO2 faster, raising O3 concentrations, while a 1 °C temperature drop is associated with a 5-25% increase in NO/CO and a 5-8% decrease in O3. NO2 and O3 therefore respond oppositely to the same thermal driver. 
+
+##
+
+**THE FOLLOWING PART COULD BE USED TO INTERPRETE RESULTS**
+Winter: stronger temperature inversions and shallower, more stable boundary layers trap NO2 near the surface, while UHI intensity (especially in its air/canopy form) is comparatively weaker. 
+
+Summer: UHI is strongest, particularly at night, while NO2's photochemical consumption is fastest, partly offsetting emission-driven increases, but LST-NO2 spatial correlation is empirically stronger in summer than in winter, since both fields are driven by the same underlying urban density even as their diurnal magnitudes diverge. 
+
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
