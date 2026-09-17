@@ -1,4 +1,4 @@
-# Mapping urban heat exposure and vulnerability <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
+# Mapping urban heat risk <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
 #### 
 
 ## Authors: Francesco Mezza¹, Sona Guliyeva², Filippos Kostikiadis³, and Sophia Dolla³
@@ -46,8 +46,16 @@ The team's methodology included the following steps and expected outcomes:
 - **Deriving Spatial Indicators**: Using additional datasets (such as green cover by Comune di Torino and Copernicus High Resolution Layer Imperviousness) to describe the urban environment through indicators like vegetation cover, impervious surfaces, and built-up density.
 - **Heat Exposure Index (HEI)**: Defining an index that combines thermal intensity with exposure indicators to map and rank the most exposed urban districts.
 
-## Objective
-The objective of this study was to
+## Heat risk in Turin
+The table indicates the districts that are more exposed to heat during heatwaves. The risk index ranges from 0-1, and is calculated based on: 
+
+- Surface heat (daily Sentinel-3 LST, clipped 15–42 °C)
+
+- Age vulnerability (% population over 65)
+
+- Lack of greenery (inverse of green cover per district)
+
+- Imperviousness (soil sealing)
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
@@ -55,7 +63,6 @@ The objective of this study was to
 #### Turin Urban Area
 Satellite view of the metropolitan area of Turin, showcasing the urban landscape captured in high resolution.
 
-## Results
 
 
 ## Conclusions
