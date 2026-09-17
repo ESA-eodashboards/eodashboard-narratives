@@ -1,4 +1,7 @@
-# AI for air quality monitoring using Earth Observation <!--{ as="img" mode="hero" src="/Users/gian.duiotto/Desktop/Codex Image 16 Sept 2026, 16_28_57.png" }-->
+# Title <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/stories/ScienceHub-Challenge-September-2026/images/madrid.png" }-->
+# AI for air quality monitoring using Earth 
+# Title <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/stories/ScienceHub-Challenge-September-2026/images/madrid.png%22"}-->
+ src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/stories/ScienceHub-Challenge-September-2026/images/madrid.png%22" }-->
 #### 
 
 ## Authors: Gianluca Flaminio¹, Nikolina Zallemi¹, Vittoria Rezzuto¹ and Thomas Xolias²
@@ -8,26 +11,35 @@
 
 ## 
 <p align="center">
-  <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_250,h_250/https://markleisherproductions.com/wp-content/uploads/2021/01/logo-placeholder-png-2.png" alt="Ca' Foscari" height="80" style="margin: 0 15px;"/>
-  <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_250,h_250/https://markleisherproductions.com/wp-content/uploads/2021/01/logo-placeholder-png-2.png" alt="NOC" height="80" style="margin: 0 15px;"/>
-  <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_250,h_250/https://markleisherproductions.com/wp-content/uploads/2021/01/logo-placeholder-png-2.png" alt="BAS" height="80" style="margin: 0 15px;"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Logo_Politecnico_Milano.png" alt="Politecnico di Milano" height="80" style="margin: 0 15px;"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Logo_Politecnico_Milano.png" alt="Politecnico di Milano" height="80" style="margin: 0 15px;"/>
+  <img src="https://upload.wikimedia.org/wikipedia/it/archive/b/be/20260803144359%21Logo_Politecnico_Milano.png" alt="Politecnico di Milano" height="80" style="margin: 0 15px;"/>
+  <img src="https://thumb.wikimedia.org/wikipedia/en/thumb/c/c8/ESA_Patch_2026.svg/1280px-ESA_Patch_2026.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail" alt="ESA" height="80" style="margin: 0 15px;"/>
+  <img src="https://www.auth.gr/wp-content/uploads/banner-horizontal-black-en.png" alt="Aristotle University of Thessaloniki" height="80" style="margin: 0 15px;"/>
 </p>
 
 ## Challenge
-Synergy between air pollution and urban heat: linking NO2, LST, and air temperature
+Exploring the Synergy Between Air Pollution and Urban Heat: Linking NO2, Land Surface Temperature, and Air Temperature
 
 ## Objective
-Investigate the spatial and temporal relationship between air pollution, land surface temperature (LST) from satellite, and near surface air temperature from ERA5. Quantify whether pollution hotspots systematically coincide with elevated LST/UHI patterns and assess how meteorology mediates this relationship.
+Investigation of the spatial and temporal relationship between air pollution, LST from satellite, and near surface air temperature from ERA5. Quantify whether pollution hotspots systematically coincide with elevated LST/UHI patterns and assess how meteorology mediates this relationship.
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
-### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":true},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":false},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":false},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ESDC_kndvi;:;2021-12-23T00:00:00Z;:;xcube tiles;:;EPSG:3857","title":"xcube tiles"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/kndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-23T00:00:00Z&vmin=0&vmax=1&cbar=RdYlGn","projection":"EPSG:3857"}},{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]}]}]}]' zoom=2.6456584324087107 center=[-10.569682342641302,7.8903138332408105] animationOptions='{"duration":500}' }-->
-#### Title
-Text
+### <!--{ zoom=3 center=[0,20] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
+#### From Space
+Looking at the Earth from a global perspective to observe atmospheric dynamics.
 
-## Data and Methods
+### <!--{ zoom=6 center=[-3.7,40.4] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
+#### Zooming into Spain
+Narrowing our focus to the Iberian Peninsula to analyze urban-rural temperature gradients.
+
+### <!--{ zoom=11 center=[-3.7038,40.4168] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
+#### Focusing on Madrid
+Observing the urban heat island effect within the city of Madrid.
+
+## Methods
+
+
+## Data
 #### TROPOMI NO2 from Sentinel-5P
 - **Source**: 
 - **Temporal coverage**:
