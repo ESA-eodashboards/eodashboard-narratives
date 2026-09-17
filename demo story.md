@@ -1,7 +1,7 @@
 # AI for air quality monitoring using Earth <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/f1f46716f8557709bf58b1e43426428d124d661f/assets/vittorez/prova-1789676182440.png" }-->
 ####
 
-## Authors: Gianluca Flaminio¹ , Nikolina Zallemi¹, Vittoria Rezzuto¹ and Thomas Xolias²
+## Authors: Gianluca Flaminio¹, Nikolina Zallemi¹, Vittoria Rezzuto¹, and Thomas Xolias²
 > ¹ Politecnico di Milano ² Aristotle University of Thessaloniki
 
 *This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in 14-18 September 2026. It was developed by a team from Politecnico di Milano and Aristotle University of Thessaloniki.*
