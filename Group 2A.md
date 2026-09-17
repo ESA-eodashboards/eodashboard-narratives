@@ -34,7 +34,14 @@ Text
 | **Copernicus Imperviousness** | Impervious surfaces | 10 m |
 
 #### Methodology workflow
-Description
+1. Extraction and selection
+2. Aggregation and resample
+3. Merge
+4. Normalization
+5. PCA
+6. Clustering
+7. Interpolation
+8. Comparison
 
 ## Results
 
@@ -42,7 +49,8 @@ Description
 ## Conclusions
 
 
-## Open Science <!--{ as="div" component="div" }-->
+## Open Science
+
 
 ## Contributors
 Authors, contibutors, reviewers
