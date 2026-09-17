@@ -5,7 +5,7 @@ theme: theme_name
 tags: some,tags
 official: false
 
-# When Heat Meets Pollution: Mapping Madrid's Urban Heat–Air Quality Connection from Space <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7a9015e727bdd1b39edfc85fc116f6b7f4a9c91d/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.09.00-1789683136373.jpeg" }--> 
+# When Heat Meets Pollution: Mapping Madrid’s Urban Heat–Air Quality Connection from Space <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7a9015e727bdd1b39edfc85fc116f6b7f4a9c91d/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.09.00-1789683136373.jpeg" }--> 
 
 
 ####
@@ -26,7 +26,7 @@ official: false
 
 Cities transform both the surface energy balance and atmospheric composition. Asphalt, roofs and other impervious materials absorb and store solar energy, vegetation is unevenly distributed, traffic and heating emit nitrogen oxides, and urban geometry changes ventilation and heat release. These processes do not operate independently: heat, atmospheric mixing, emissions and chemistry can reinforce or oppose one another depending on season and time of day.
 
-Madrid provides a particularly relevant case study. Arup reported that Madrid showed the most extreme urban heat-island hot spot among the six major cities included in its international survey, with a modelled urban-rural contrast of **8.5°C** on the day analysed. The same study highlighted strong evening exposure among vulnerable population groups. These values provide context rather than a direct benchmark for our analysis because they refer to a different year, methodology and temperature variable.
+Madrid provides a particularly relevant case study. [Arup](https://www.arup.com/news/madrid-suffers-most-extreme-urban-heat-island-hot-spot--new-international-survey-shows/ ) reported that Madrid showed the most extreme urban heat-island hot spot among the six major cities included in its international survey, with a modelled urban-rural contrast of **8.5°C** on the day analysed. The same study highlighted strong evening exposure among vulnerable population groups. These values provide context rather than a direct benchmark for our analysis because they refer to a different year, methodology and temperature variable.
 
 Madrid's heat exposure was again visible from space in June 2026. During an exceptional western-European heatwave, ESA highlighted Sentinel-3 observations showing very high land-surface temperatures across Spain, including Madrid. This underlines a key distinction in our study: **land-surface temperature (LST)** describes the skin temperature of the surface and can become substantially hotter than the near-surface air temperature experienced by people.
 
