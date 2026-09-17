@@ -40,11 +40,9 @@ NO<sub>2</sub> affects also the environment. More specifically, it contributes t
 Finally, NO<sub>2</sub> contributes to the degradation of landscape, by making the atmosphere hazy and difficult to see through. All these effects lead to socioeconomical consequences. The need for health assistance raw materials increases in the hospitals. Crops are destroyed hitting farmers' income and driving up food prices, while the monuments are damaged increasing the cost of maintenance.
 
 ## Objective
-
 Given these negative implications of NO<sub>2</sub>, this study implements a spatial risk assessment pipeline for air pollution that combines Sentinel 5P/TROPOMI NO₂ data with population data and age distribution.
 
 ## Data and Methods
-
 #### Dataset
 
 ###### Sentinel-5P TROPOMI NO₂ Data
@@ -69,7 +67,6 @@ Since 6 August 2019, NO₂ data are available with a spatial resolution of 3.5 x
     -   Sensor data: https://www.arpalombardia.it/temi-ambientali/aria/form-richiesta-dati-stazioni-fisse/
 
 ## Methodology workflow
-
 The analysis focuses on the data from 01/10/2024 to 30/09/2025 over the metropolitan area of Milano.
 Since Nitrogen Dioxide is more present in winter than in summer, the study is divided in two periods:
 - hot months: from April to Semptember
@@ -163,7 +160,6 @@ Risk<sub>i,t</sub> = 0.50¯H<sub>i,t</sub> + 0.30E<sub>i</sub> + 0.20¯D<sub>i</
 The largest weight was assigned to NO<sub>2</sub> because it is the direct environmental hazard, while the elderly share received the second-largest weight. Population density was given a lower weight as an indirect proxy. It should be interpreted as a **relative spatial prioritization indicator**.
 
 ## Results
-
 The results below show the risk map for each day of the week, divided by cold days (left column) and hot days (right column)
 
 ![block1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7f439238b0833c4ef947498ed0e10355fc5b580e/assets/SvevaZ/block1-1789675271217.png)
@@ -190,10 +186,9 @@ Despite these challenges, Sentinel-5P/TROPOMI offers important advantages for ur
 The risk-priority maps show the value of combining satellite-derived NO<sub>2</sub> information with population density and the proportion of vulnerable residents. The resulting index should be interpreted as a relative spatial prioritisation tool rather than as a direct estimate of personal exposure or a substitute for regulatory ground stations. Nevertheless, it can help identify populated urban locations where elevated pollution patterns overlap with a higher concentration of potentially vulnerable residents. This information can support more targeted mitigation strategies, including traffic-management measures, local emission-reduction actions, the placement of additional ground-monitoring stations, and interventions designed to reduce exposure among vulnerable groups. Overall, the approach demonstrates how daily, large-area TROPOMI observations can complement conventional monitoring and provide an accessible, scalable basis for urban air-pollution risk assessment.
 
 ## Open Science
-
 [https://sentinels.copernicus.eu/data-products/-/asset_publisher/fp37fc19FN8F/content/sentinel-5-precursor-level-2-nitrogen-dioxide](https://sentinels.copernicus.eu/data-products/-/asset_publisher/fp37fc19FN8F/content/sentinel-5-precursor-level-2-nitrogen-dioxide)
 
-[https://github.com/stcorp/harp](https://github.com/stcorp/harp)
+[S[&]T, & ESA. HARP [Computer software]. [link](https://github.com/stcorp/harp)
 
 [https://eo4society.esa.int/wp-content/uploads/2022/01/ATMO01_AirQuality_Monitoring.pdf](https://eo4society.esa.int/wp-content/uploads/2022/01/ATMO01_AirQuality_Monitoring.pdf)
 
