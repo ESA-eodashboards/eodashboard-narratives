@@ -189,16 +189,17 @@ The risk-priority maps show the value of combining satellite-derived NO<sub>2</s
 
 Hassaan, M.A., Abdallah, S.M., Shalaby, ES.A. et al. Assessing vulnerability of densely populated areas to air pollution using Sentinel-5P imageries: a case study of the Nile Delta, Egypt. Sci Rep 13, 17406 (2023). [https://doi.org/10.1038/s41598-023-44186-4](https://doi.org/10.1038/s41598-023-44186-4)
 
+S5P-PAL Data Portal [link](https://data-portal.s5p-pal.com)
 
 [https://sentinels.copernicus.eu/data-products/-/asset_publisher/fp37fc19FN8F/content/sentinel-5-precursor-level-2-nitrogen-dioxide](https://sentinels.copernicus.eu/data-products/-/asset_publisher/fp37fc19FN8F/content/sentinel-5-precursor-level-2-nitrogen-dioxide)
 
-[S[&]T, & ESA. HARP [Computer software]. [link](https://github.com/stcorp/harp)
+[S[&]T, & ESA. HARP [Computer software]. [Link](https://github.com/stcorp/harp)
 
-[Atmospheric Toolbox - Use Cases](https://atmospherictoolbox.org/usecases/)
+Atmospheric Toolbox - Use Cases [Link](https://atmospherictoolbox.org/usecases/)
 
-[https://eo4society.esa.int/wp-content/uploads/2022/01/ATMO01_AirQuality_Monitoring.pdf](https://eo4society.esa.int/wp-content/uploads/2022/01/ATMO01_AirQuality_Monitoring.pdf)
+Serco Italia SPA (2019). Air Quality Monitoring with Sentinel-5p (version 1.1). [Link](https://eo4society.esa.int/wp-content/uploads/2022/01/ATMO01_AirQuality_Monitoring.pdf)
 
-[https://www.eea.europa.eu/en/topics/in-depth/air-pollution](https://www.eea.europa.eu/en/topics/in-depth/air-pollution)
+European Environment Agency - Air pollution [link](https://www.eea.europa.eu/en/topics/in-depth/air-pollution)
 
 ## Contributors
 Afshin Moazzam, Haipeng Zhu, Sveva Zanetti, Zacharias Lagouros and Zoi Giakati
