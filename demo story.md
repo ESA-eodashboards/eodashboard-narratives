@@ -1,6 +1,5 @@
-# Title <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/f1f46716f8557709bf58b1e43426428d124d661f/assets/vittorez/prova-1789676182440.png" }-->
-# AI for air quality monitoring using Earth 
-####
+# AI for air quality monitoring using Earth <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/f1f46716f8557709bf58b1e43426428d124d661f/assets/vittorez/prova-1789676182440.png" }-->
+#### 
 
 
 ## Authors: Gianluca Flaminio¹ , Nikolina Zallemi¹, Vittoria Rezzuto¹ and Thomas Xolias²
