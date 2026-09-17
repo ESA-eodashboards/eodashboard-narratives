@@ -67,11 +67,32 @@ NO₂ also has a marked diurnal cycle. Concentrations can increase during traffi
 
 **NDVI** is used as an indicator of vegetation greenness and abundance. Vegetated surfaces can modify surface temperature through shading, evapotranspiration and different radiative properties relative to built surfaces. **Elevation** is included as a topographic control because temperature patterns across the Madrid region may also reflect altitude rather than urbanisation alone.
 
+#### NDVI
+<div style="display: flex; gap: 0px;">
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/2d1c2767f70007ad2d25be452ce624631721eb74/assets/vittorez/ndvijanuary-1789657144484.png" style="width: 100%; object-fit: contain; aspect-ratio: 1/1;" />
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/cfbf6ab1b282b802591491bf645fa2afcd336a25/assets/vittorez/ndvijuly-1789656529381.png" style="width: 130%; object-fit: contain; aspect-ratio: 1/1;" />
+</div>
+<p align="center" style="color: #777; font-size: 0.85em;">
+  Spatial distribution of NDVI across Madrid in January and July 2026.
+</p>
+
+#### Elevation
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/d2fd45aac11c10b636ef956b5767d87df4ec0934/assets/vittorez/DEM-1789656842797.png"
+       style="width: 60%; max-width: 750px;" />
+</p>
+
+<p align="center" style="color: #777; font-size: 0.85em;">
+  Digital Elevation Model of the Madrid study area. The bounding box indicates the area analysed in this study.
+</p>
+
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
 ### <!--{ zoom=3 center=[0,20] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
 #### From Space
-Earth observation allows heat, vegetation and atmospheric composition to be examined consistently across large areas. In this study, satellite observations are combined with Copernicus atmospheric and meteorological datasets to move from a regional view to the scale of Madrid.
+Heat leaves a footprint. Pollution does too.
+From hundreds of kilometres above Earth, satellites allow us to observe both. They capture the temperature of the land surface, the greenness of vegetation, and the atmospheric signatures of pollutants across entire cities.
 
 ### <!--{ zoom=6 center=[-3.7,40.4] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
 #### Zooming into Spain
@@ -104,9 +125,7 @@ Two contrasting months were selected: **January 2026** to represent winter condi
 
 Within each date and time window, valid observations were summarised using the **median**. Cloud-contaminated or unavailable LST pixels were retained as missing values rather than filled artificially.
 
-All layers were co-registered to a common **1 km grid in ETRS89 / UTM zone 30N (EPSG:25830)** and clipped to the Madrid study boundary. The common mask contained **2,279 analysis cells**. Resampling provides spatial alignment between datasets; it does not increase the intrinsic information content of the coarser atmospheric products.
-
-A separate spatial-correlation product was generated during the exploratory phase using the time windows represented in those correlation figures. The evening comparison reported there corresponds to **21:00-23:00**. Those coefficients are therefore treated as complementary exploratory evidence rather than as numerically identical to the DAY/NIGHT regression windows above.
+All layers were co-registered to a common **1 km grid in ETRS89 / UTM zone 30N (EPSG:25830)** and clipped to the Madrid study boundary. The common mask contained **2,279 analysis cells**. Resampling provides spatial alignment between datasets.
 
 ### Data
 
@@ -119,24 +138,6 @@ A separate spatial-correlation product was generated during the exploratory phas
 | NDVI | Copernicus Sentinel-2 | Vegetation indicator | Monthly January/July value aligned to 1 km |
 | Elevation | CNIG/IGN MDT25 | Topographic control | Aggregated/aligned to 1 km |
 
-The distinction between **observation source** and **statistical input** is important. Sentinel-5P provides the EO perspective on atmospheric composition, while the quantitative regressions use the harmonised CAMS NO₂/O₃ fields that were co-registered with the rest of the analysis stack. Because CAMS and ERA5 are coarser than 1 km at native scale, their interpolation to the common grid should be interpreted as spatial alignment, not as creation of new 1 km atmospheric observations.
-
-#### Air temperature
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/f5846d22d1d8e72d52c5e1c12bda88eaf61fb31e/assets/vittorez/January2026DAYERA5points-1789664866675.png" style="width: 48%;"/>
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/ddc783ae88471643856a243fb22fb58fad9e77bd/assets/vittorez/January2026NIGHTERA5points-1789664698044.png" style="width: 48%;"/>
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/5ee7ca898d90bca05ae3b1bfd58ec020467d8747/assets/vittorez/July2026DAYERA5points-1789664734518.png" style="width: 48%;"/>
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/d166097551ceb3144b21b1136853b44a2ef3e9c5/assets/vittorez/July2026NIGHTERA5points-1789664798000.png" style="width: 48%;"/>
-</div>
-
-#### NDVI
-<div style="display: flex; gap: 0px;">
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/2d1c2767f70007ad2d25be452ce624631721eb74/assets/vittorez/ndvijanuary-1789657144484.png" style="width: 100%; object-fit: contain; aspect-ratio: 1/1;" />
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/cfbf6ab1b282b802591491bf645fa2afcd336a25/assets/vittorez/ndvijuly-1789656529381.png" style="width: 130%; object-fit: contain; aspect-ratio: 1/1;" />
-</div>
-
-#### Elevation
-![DEM.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/d2fd45aac11c10b636ef956b5767d87df4ec0934/assets/vittorez/DEM-1789656842797.png)
 
 ### Methodology workflow
 
@@ -187,6 +188,14 @@ The Sentinel-3 maps show the expected seasonal contrast: July surfaces are subst
 </div>
 
 <p align="center"><em>Sentinel-3 land-surface-temperature patterns for January and July 2026, separated into the selected daytime and nighttime windows.</em></p>
+
+#### Air temperature
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/f5846d22d1d8e72d52c5e1c12bda88eaf61fb31e/assets/vittorez/January2026DAYERA5points-1789664866675.png" style="width: 48%;"/>
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/ddc783ae88471643856a243fb22fb58fad9e77bd/assets/vittorez/January2026NIGHTERA5points-1789664698044.png" style="width: 48%;"/>
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/5ee7ca898d90bca05ae3b1bfd58ec020467d8747/assets/vittorez/July2026DAYERA5points-1789664734518.png" style="width: 48%;"/>
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/d166097551ceb3144b21b1136853b44a2ef3e9c5/assets/vittorez/July2026NIGHTERA5points-1789664798000.png" style="width: 48%;"/>
+</div>
 
 ### Nitrogen dioxide: an urban signal shaped by emissions and mixing
 
