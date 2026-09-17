@@ -19,7 +19,7 @@ But how well can a few predefined land-cover classes capture this complexity?
 In this study, we explore whether distinct urban thermal environments can emerge directly from multi-variable Earth Observation data using unsupervised learning, without defining the classes in advance. The resulting clusters are then interpreted through their surface characteristics and thermal behaviour, and compared with existing land-cover products or Local Climate Zones.
 
 ## Objective
-The objective of this study was to
+The objective of this study was to map the urban thermal environments within the **provinces of Milan and Monza-Brianza**, using multi-variable Earth Observation data acquired during the summer period from **June to August 2021**.
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
@@ -28,7 +28,8 @@ The objective of this study was to
 Satellite imagery focusing on the Milan and Monza-Brianza metropolitan area, providing a clear overview of the urban geography under study.
 
 ## Data and Methods
-#### Dataset
+The analysis focused on the **provinces of Milan and Monza-Brianza**, leveraging Earth Observation data from **June to August 2021** to capture thermal variations.
+
 | Data source | Product | Variables | Spatial Resolution |
 | :---: | :---: | :---: | :---: |
 | **Sentinel-3** | SLSTR – SL_2_LST | Land Surface Temperature (LST) | ~1 km |
@@ -41,7 +42,7 @@ Satellite imagery focusing on the Milan and Monza-Brianza metropolitan area, pro
 
 #### Methodology workflow
 1. **Data extraction, selection and preprocessing:** the required data from the selected datasets were selected for the study area. The Sentinel-2 Level-2A (L2A) data were then processed to calculate the spectral indices required for the analysis. 
-2. **Temporal compositing and spatial aggregation:** for Sentinel-3, Landsat 8, and Sentinel-2, multiple observations acquired between June and August 2021 were combined using the median to generate a single representative layer for the study period. No temporal compositing was applied to the Tree Cover Density and Imperviousness datasets, as these are annual products. Higher-resolution datasets were then spatially aggregated to match the spatial resolution of the Landsat 8 data.
+2. **Temporal compositing and spatial aggregation:** for Sentinel-3, Landsat 8, and Sentinel-2, multiple observations acquired between **June to August 2021** were combined using the median to generate a single representative layer for the study period. No temporal compositing was applied to the Tree Cover Density and Imperviousness datasets, as these are annual products. Higher-resolution datasets were then spatially aggregated to match the spatial resolution of the Landsat 8 data.
 3. **Grid alignment and feature merging:** the processed datasets were aligned to a common spatial grid and combined into a single feature dataset, with each pixel associated with the corresponding temperature, vegetation, and built-up variables.
 4. **Normalization**
 5. **PCA**
