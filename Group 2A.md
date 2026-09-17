@@ -32,7 +32,7 @@ Satellite imagery focusing on the Milan and Monza-Brianza metropolitan area, pro
 | Data source | Product | Variables | Spatial Resolution |
 | :---: | :---: | :---: | :---: |
 | **Sentinel-3** | SLSTR – SL_2_LST | Land Surface Temperature (LST) | ~1 km |
-| **Landsat 8** | Collection 2 Level-2 | Land Surface Temperature (LST) | 30/100m **?** |
+| **Landsat 8** | Collection 2 Level-2 | Land Surface Temperature (LST) | 30/100m |
 | **Sentinel-2** | MSI – Level-2A (L2A) | NDVI, NDRE, NDBI, BSI, mNDWI, Albedo | 20 m |
 | **Copernicus CLMS*** | Tree Cover Density | Vegetation cover | 10 m |
 | **Copernicus CLMS*** | Imperviousness | Impervious surfaces | 10 m |
@@ -40,14 +40,14 @@ Satellite imagery focusing on the Milan and Monza-Brianza metropolitan area, pro
 *CLMS: Copernicus Land Monitoring Service
 
 #### Methodology workflow
-1. Data extraction and selection
-2. Temporal compositing and spatial aggregation
-3. Grid alignment and feature merging
-4. Normalization
-5. PCA 
-6. Clustering
-7. Cluster interpretation
-8. Comparison
+1. **Data extraction, selection and preprocessing:** the required data from the selected datasets were selected for the study area. The Sentinel-2 Level-2A (L2A) data were then processed to calculate the spectral indices required for the analysis. 
+2. **Temporal compositing and spatial aggregation:** for Sentinel-3, Landsat 8, and Sentinel-2, multiple observations acquired between June and August 2021 were combined using the median to generate a single representative layer for the study period. No temporal compositing was applied to the Tree Cover Density and Imperviousness datasets, as these are annual products. Higher-resolution datasets were then spatially aggregated to match the spatial resolution of the Landsat 8 data.
+3. **Grid alignment and feature merging:** the processed datasets were aligned to a common spatial grid and combined into a single feature dataset, with each pixel associated with the corresponding temperature, vegetation, and built-up variables.
+4. **Normalization**
+5. **PCA**
+6. **Clustering**
+7. **Cluster interpretation**
+8. **Comparison**
 
 ## Results
 
