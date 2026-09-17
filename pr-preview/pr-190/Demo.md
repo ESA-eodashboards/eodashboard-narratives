@@ -64,6 +64,14 @@ We aggregated population data with administrative border files, obtaining a shap
 
 The image below shows the tatal number of people in each administrative area. Some "quartieri" have no inhabitans, such as "Parco Sempione", which includes a park with an inhabitated castle.
 
+![Total population in each area](https://github.com/SvevaZ/eodashboard-narratives/blob/SvevaZ/test1/assets/aapopescu/Immagine%2017-09-26%20-%2015.18.png)
+
+The map below shows the percentage of people over 80 in each neighbour. While the distribution is homogeneous in the provincial area, next to the city centre there is a higher concentration of old people.
+
+![Percentage of old people](https://github.com/SvevaZ/eodashboard-narratives/blob/SvevaZ/test1/assets/aapopescu/Immagine%2017-09-26%20-%2015.32.png)
+
+
+
 ## Results
 
 
