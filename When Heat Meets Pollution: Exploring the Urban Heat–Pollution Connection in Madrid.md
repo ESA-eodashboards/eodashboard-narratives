@@ -5,15 +5,8 @@ theme: theme_name
 tags: some,tags
 official: false
 
----
-cover-image: https://placehold.co/600x400/png
-date: 2025-01-01
-theme: theme_name
-tags: some,tags
-official: false
----
+# When Heat Meets Pollution: Mapping Madrid's Urban Heat–Air Quality Connection from Space <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7a9015e727bdd1b39edfc85fc116f6b7f4a9c91d/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.09.00-1789683136373.jpeg" }--> 
 
-# When Heat Meets Pollution: Mapping Madrid's Urban Heat-Air Quality Connection from Space <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7a9015e727bdd1b39edfc85fc116f6b7f4a9c91d/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.09.00-1789683136373.jpeg" }-->
 
 ####
 
