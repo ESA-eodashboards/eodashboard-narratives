@@ -25,22 +25,22 @@ Text
 
 ## Data and Methods
 #### Dataset
-| Dataset | Variables | Spatial Resolution |
-| :---: | :---: | :---: |
-| **Sentinel-3 SLSTR** | Land Surface Temperature (LST) | ~1 km |
-| **Landsat 8–9** | Land Surface Temperature (LST) | 30 m |
-| **Sentinel-2 MSI** | Spectral indices | 20 m |
-| **Copernicus Tree Cover Density** | Vegetation cover | 10 m |
-| **Copernicus Imperviousness** | Impervious surfaces | 10 m |
+| Dataset | Product | Variables | Spatial Resolution |
+| :---: | :---: | :---: | :---: |
+| **Sentinel-3** | SLSTR – SL_2_LST | Land Surface Temperature (LST) | ~1 km |
+| **Landsat 8** | Collection 2 Level-2 | Land Surface Temperature (LST) | 30 m |
+| **Sentinel-2** | MSI – Level-2A (L2A) | NDVI, NDRE, NDBI, BSI, mNDWI, Albedo | 20 m |
+| **Copernicus** | Tree Cover Density | Vegetation cover | 10 m |
+| **Copernicus** | Imperviousness | Impervious surfaces | 10 m |
 
 #### Methodology workflow
-1. Extraction and selection
-2. Aggregation and resample
-3. Merge
+1. Data extraction and selection
+2. Temporal compositing and spatial aggregation
+3. Grid alignment and feature merging
 4. Normalization
-5. PCA
+5. PCA 
 6. Clustering
-7. Interpolation
+7. Cluster interpretation
 8. Comparison
 
 ## Results
