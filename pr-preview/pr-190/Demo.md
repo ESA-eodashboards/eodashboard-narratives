@@ -40,17 +40,20 @@ NO<sub>2</sub> affects also the environment. More specifically, it contributes t
 Finally, NO<sub>2</sub> contributes to the degradation of landscape, by making the atmosphere hazy and difficult to see through. All these effects lead to socioeconomical consequences. The need for health assistance raw materials increases in the hospitals. Crops are destroyed hitting farmers' income and driving up food prices, while the monuments are damaged increasing the cost of maintenance.
 
 ## Objective
+
 Given these negative implications of NO<sub>2</sub>, this study implements a spatial risk assessment pipeline for air pollution that combines Sentinel 5P/TROPOMI NO₂ data with population data and age distribution.
 
-## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
-
-### <!--{ zoom=2.6456584324087107 center=[-10.569682342641302,7.8903138332408105] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
-#### Title
-Text
-
 ## Data and Methods
+
 #### Dataset
-- **Source**
+
+###### Sentinel-5P TROPOMI NO₂ Data
+
+The main dataset we used is Sentinel-5P TROPOMI data, and in particular NO₂ measurements, available in the Copernicus Dataspace portal: https://dataspace.copernicus.eu/
+Since 6 August 2019, NO₂ data are available with a spatial resolution of 3.5 x 5.5 Km (across x along track)
+
+
+###### Complementary Data Sources
 -   Population data over Milano
     -   Population data divided by "comuni": https://www.dati.lombardia.it/Statistica/CITTA-METROPOLITANA-MILANO-Popolazione-residente-t/excw-2uuh/about_data
     -   Population data divided by "quartieri": https://dati.comune.milano.it/dataset/ds205-sociale-caratteristiche-demografiche-territoriali-quartiere
