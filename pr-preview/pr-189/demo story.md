@@ -69,10 +69,10 @@ Observing the urban heat island effect within the city of Madrid using political
 
 #### NDVI
 - **Source**: 
-![ndvi_january.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/da68ac9665d4455c2770b5ffaf29eec60611ff9e/assets/vittorez/ndvijanuary-1789656799510.png)
-
-![ndvi_july.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/cfbf6ab1b282b802591491bf645fa2afcd336a25/assets/vittorez/ndvijuly-1789656529381.png)
-
+<div style="display: flex; gap: 10px;">
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/2d1c2767f70007ad2d25be452ce624631721eb74/assets/vittorez/ndvijanuary-1789657144484.png" style="width: 48%;" />
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/cfbf6ab1b282b802591491bf645fa2afcd336a25/assets/vittorez/ndvijuly-1789656529381.png" style="width: 48%;" />
+</div>
 
 <p align="center"><em>NDVI map for January and July.</em></p>
 
