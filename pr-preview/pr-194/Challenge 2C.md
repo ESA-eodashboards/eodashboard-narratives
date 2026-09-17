@@ -8,9 +8,9 @@
 
 ## 
 <p align="center">
-  <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_250,h_250/https://markleisherproductions.com/wp-content/uploads/2021/01/logo-placeholder-png-2.png" alt="Ca' Foscari" height="120" style="margin: 0 15px;"/>
-  <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_250,h_250/https://markleisherproductions.com/wp-content/uploads/2021/01/logo-placeholder-png-2.png" alt="NOC" height="120" style="margin: 0 15px;"/>
-  <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_250,h_250/https://markleisherproductions.com/wp-content/uploads/2021/01/logo-placeholder-png-2.png" alt="BAS" height="120" style="margin: 0 15px;"/>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRykXzo6XdIiDH7WzjEsW9AwJ6HNyaLZ0fDqJoJExBiZOHf7FN_rZqcggo&s=10" alt="ESA Logo" height="120" style="margin: 0 15px;"/>
+  <img src="https://lanuovacopisteria.it/wp-content/uploads/2026/01/politecnico-di-torino-polito.jpg" alt="Politecnico di Torino" height="120" style="margin: 0 15px;"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Aristotle_University_of_Thessaloniki_logo.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Aristotle University of Thessaloniki" height="120" style="margin: 0 15px;"/>
 </p>
 
 ## Heat exposure and vulnerability
@@ -53,7 +53,7 @@ Selecting a time series over Turin between August 1-15, 2026 and retrieving Sent
 
 Using additional datasets (such as green cover by Comune di Torino and Copernicus High Resolution Layer Imperviousness) to describe the urban environment through indicators like vegetation cover, impervious surfaces, and built-up density.
 
-**3. Heat Exposure Index (HEI)** 
+**3. Heat Risk Index** 
 
 Defining an index that combines thermal intensity with exposure indicators to map and rank the most exposed urban districts.
 Hazard, exposure, and vulnerability are the key drivers of physical climate risk. 
@@ -75,22 +75,12 @@ The risk index ranges from 0-1, and is calculated based on:
 
 The risk index is therefore calculated as the average of all of these factors (each one normalized between 0-1).
 
-## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
+## Heat Exposure Index
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/06_heat_exposure_index_map.png?raw=true" width="1000"/></p>
 
-### <!--{ zoom=12 center=[7.6869,45.0703] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
-#### Turin Urban Area
-Satellite view of the metropolitan area of Turin, showcasing the urban landscape captured in high resolution. Below is the visualized risk map of the city.
-<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Risk.png?raw=true" width="1500"/></p>
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/07_daily_vulnerability_ranking (1).png"/></p>
 
-### <!--{ zoom=12 center=[7.6869,45.0703] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
-#### Daily Vulnerability Ranking
-Daily breakdown of vulnerability scores across the urban districts, highlighting temporal fluctuations in heat risk exposure.
-<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/07_daily_vulnerability_ranking.png?raw=true" width="1500"/></p>
-
-### <!--{ zoom=12 center=[7.6869,45.0703] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
-#### Critical Facilities
-Mapping of critical infrastructure and facilities that are vital during extreme heat events.
-<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/09_critical_facilities_map.png?raw=true" width="1500"/></p>
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/09_critical_facilities_map.png"/></p>
 
 ## Conclusions
 Turin's heat vulnerability is structurally dictated by urban morphology and demographics, not daily weather. The historical center and south-western industrial belt form extreme-risk zones due to severe soil sealing, lack of vegetation, and aging populations.
@@ -103,6 +93,30 @@ Ultimately, the city's most impermeable, concrete-dense environments perfectly a
 Authors, contibutors, reviewers
 
 ## References
+**Satellite / Earth Observation**
+
+Sentinel-3 SLSTR Level-2 LST — Copernicus / ESA
+
+Sentinel-2 MSI Level-2A (COPERNICUS/S2_SR_HARMONIZED) — Copernicus, via Google Earth Engine
+
+Imperviousness High Resolution Layer 2024 — Copernicus Land Monitoring Service
+
+**Meteorological context**
+
+ThermalTrace — daily air / UTCI feels-like temperature, ERA5, Copernicus C3S / ECMWF
+
+Beretta, S. “Meteo oggi 4 agosto: bollino rosso in 25 città su 27, punte di 41°C”, Quotidiano Motori, 4 Aug 2026 — nationwide red-alert heatwave, corroborating the analysis window
+
+Municipal / administrative data (Città di Torino, via Geoportale Piemonte)
+
+District boundaries (circoscrizioni) and urban green areas — Comune di Torino open geodata, e.g. Geoportale Piemonte catalog record (CC BY 4.0)
+
+Population by age and district (“B1 Pop per età annuale e circoscrizione 2025”) — Comune di Torino open data
+
 https://dutchclimaterisk.nl/climate-risk/risk-assessment-guidance/
 https://heat.gov/who-is-most-at-risk-to-extreme-heat/at-risk-older-adults/
 https://www.sciencedirect.com/science/article/pii/S2212096325000452![07_daily_vulnerability_ranking.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/860495d86eb87af66c4cdcc70f8014cd3158c0fa/assets/FrancescoMezza/07dailyvulnerabilityranking-1789665020227.png)
+
+**Points of interest**
+
+OpenStreetMap contributors — hospitals, schools, elderly-care facilities, queried via Overpass API / osmnx
