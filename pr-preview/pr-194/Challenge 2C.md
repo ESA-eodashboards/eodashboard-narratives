@@ -1,4 +1,4 @@
-# Heat Risk Mapping <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/FrancescoMezza/torino-heat-exposure/main/Mole_Antonelliana_(Torino)_10.jpg" }-->
+# Heat Risk Mapping - Turin case study<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/FrancescoMezza/torino-heat-exposure/main/Mole_Antonelliana_(Torino)_10.jpg" }-->
 #### 
 
 ## Authors: Francesco Mezza¹, Sona Guliyeva², Filippos Kostikiadis³, and Sophia Dolla³
@@ -17,6 +17,8 @@
 Heat exposure refers to the presence of people, ecosystems, infrastructure or other assets in areas affected by excessive heat. It is influenced by temperature, humidity, wind, solar radiation and local geographical and urban characteristics. In urban areas, factors such as building materials, land cover, vegetation and the urban heat island (UHI) effect can create substantial spatial differences in heat exposure. 
 
 Vulnerability describes the susceptibility of individuals or populations to adverse effects from heat. It is influenced by physiological, demographic, social and socioeconomic factors, as well as housing conditions and access to cooling, healthcare and other essential services. Certain groups, such as older adults, children and outdoor workers, may be particularly susceptible to heat-related impacts. 
+
+Torino's geographic setting in the Po Valley basin creates a physical microclimate prone to atmospheric stagnation, weak ventilation, and pollutant entrapment. Enclosed by the Alpine arc to the west and north, the basin acts as a thermal trap during persistent synoptic heat domes. When extreme heatwaves occur, these topographies exacerbate thermal retention across dense urban fabric. This study delivers a spatialized framework for mapping urban heat exposure and social vulnerability across Torino's administrative districts (circoscrizioni), linking satellite observations with climate analysis and demographic vulnerability. 
 
 According to the climate risk framework, risk results from the interaction between hazard, exposure and vulnerability. Thus, a heatwave represents the hazard, while heat exposure and vulnerability determine how strongly individuals and populations may be affected.
 
@@ -115,8 +117,12 @@ Conversely, Borgo Po's vast forested hills demonstrate a green buffer effect tha
 
 Ultimately, the city's most impermeable, concrete-dense environments perfectly align with its oldest demographics, creating persistent thermal traps.
 
+To mitigate urban heat, the city must prioritize de-paving wide avenues and planting shade trees to reduce surface temperatures. In the dense historical center, micro-interventions like green roofs and highly reflective materials are essential to cool narrow streets.
+
+To protect the aging population, the city should establish accessible cooling centers and implement early warning systems. Additionally, deploying mobile health units and strengthening neighborhood networks will ensure isolated elderly residents stay safe during extreme heatwaves.
+
 ## References
-### Satellite / Earth Observation
+### Earth Observation data
 * Sentinel-3 SLSTR Level-2 LST — Copernicus / ESA
 * Sentinel-2 MSI Level-2A (COPERNICUS/S2_SR_HARMONIZED) — Copernicus, via Google Earth Engine
 * Imperviousness High Resolution Layer 2024 — Copernicus Land Monitoring Service
@@ -125,7 +131,7 @@ Ultimately, the city's most impermeable, concrete-dense environments perfectly a
 * ThermalTrace — daily air / UTCI feels-like temperature, ERA5, Copernicus C3S / ECMWF
 * Beretta, S. “Meteo oggi 4 agosto: bollino rosso in 25 città su 27, punte di 41°C”, Quotidiano Motori, 4 Aug 2026 — nationwide red-alert heatwave, corroborating the analysis window
 
-### Municipal / administrative data (Città di Torino, via Geoportale Piemonte)
+### Geospatial Information (Città di Torino, via Geoportale Piemonte)
 * District boundaries (circoscrizioni) and urban green areas — Comune di Torino open geodata, e.g. Geoportale Piemonte catalog record (CC BY 4.0)
 * Population by age and district (“B1 Pop per età annuale e circoscrizione 2025”) — Comune di Torino open data
 * https://dutchclimaterisk.nl/climate-risk/risk-assessment-guidance/
