@@ -26,7 +26,7 @@ By combining information related to temperature, vegetation and built-up charact
 ## Dataset
 The analysis focused on the **provinces of Milan and Monza-Brianza**, leveraging Earth Observation data from **June to August 2021** to capture thermal variations.
 | Data source | Product | Variables | Spatial Resolution |
-| :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: ||
 | **Landsat 8** | Collection 2 Level-2 | Land Surface Temperature (LST) | 30 m |
 | **Sentinel-2** | MSI – Level-2A (L2A) | NDVI, NDRE, NDBI, BSI, mNDWI, Albedo | 20 m |
 | **Copernicus CLMS*** | Tree Cover Density | Vegetation cover | 10 m |
@@ -36,34 +36,25 @@ The analysis focused on the **provinces of Milan and Monza-Brianza**, leveraging
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
-### <!--{ zoom=10.2 center=[9.02,45.5268] layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Vector","properties":{"id":"study-area","title":"Study Area"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/AOI_Milan_Monza%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(255,255,255,0.03)","stroke-color":"#d7191c","stroke-width":3}}]' animationOptions='{"duration":500}' }-->
+### <!--{ zoom=11.5 center=[9.02,45.5268] layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Vector","properties":{"id":"study-area","title":"Study Area"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/AOI_Milan_Monza%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(255,255,255,0.03)","stroke-color":"#d7191c","stroke-width":3}}]' animationOptions='{"duration":500}' }-->
 #### Milan and Monza-Brianza Area
 The study focuses on the Milan and Monza-Brianza area in northern Italy. The region includes highly urbanised city centres, residential areas, industrial and commercial zones, green spaces and peri-urban areas.
 
 These different urban environments are closely interwoven within a relatively compact area, providing rich spatial variation for comparing different urban surface characteristics.
 
-
-
-
-### <!--{ zoom=10.2 center=[9.02,45.5268] layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Vector","properties":{"id":"tree-cover","title":"Tree Cover Density 2021"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/TCD_2021_100m_classes%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":["match",["get","class_id"],1,"rgba(198,233,192,0.60)",2,"rgba(77,175,74,0.70)",3,"rgba(0,100,0,0.85)","rgba(0,0,0,0)"]}},{"type":"Vector","properties":{"id":"study-area","title":"Study Area"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/AOI_Milan_Monza%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(255,255,255,0)","stroke-color":"#d7191c","stroke-width":2}}]' animationOptions='{"duration":500}' }-->
-
+### <!--{ zoom=11.5 center=[9.02,45.5268] layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Vector","properties":{"id":"tree-cover","title":"Tree Cover Density 2021"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/TCD_2021_100m_classes%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":["match",["get","class_id"],1,"rgba(198,233,192,0.60)",2,"rgba(77,175,74,0.70)",3,"rgba(0,100,0,0.85)","rgba(0,0,0,0)"]}},{"type":"Vector","properties":{"id":"study-area","title":"Study Area"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/AOI_Milan_Monza%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(255,255,255,0)","stroke-color":"#d7191c","stroke-width":2}}]' animationOptions='{"duration":500}' }-->
 #### Tree Cover Density
-
 Tree Cover Density is one of the variables used to describe urban vegetation structure. The map shows clear spatial differences in tree canopy cover across the study area, ranging from areas with very limited tree cover to much greener zones.
 
 This map is presented as one example of the input variables used in the analysis. The full analysis also includes multiple Sentinel-2 spectral indices and other surface characteristics.
 
-
-### <!--{ zoom=10.2 center=[9.02,45.5268] layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Vector","properties":{"id":"imperviousness","title":"Imperviousness Density 2021"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/Imperviousness_2021_100m_classes%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":["match",["get","class_id"],1,"rgba(245,220,180,0.60)",2,"rgba(230,130,80,0.72)",3,"rgba(170,30,30,0.85)","rgba(0,0,0,0)"]}},{"type":"Vector","properties":{"id":"study-area","title":"Study Area"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/AOI_Milan_Monza%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(255,255,255,0)","stroke-color":"#d7191c","stroke-width":2}}]' animationOptions='{"duration":500}' }-->
-
+### <!--{ zoom=11.5 center=[9.02,45.5268] layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Vector","properties":{"id":"imperviousness","title":"Imperviousness Density 2021"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/Imperviousness_2021_100m_classes%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":["match",["get","class_id"],1,"rgba(245,220,180,0.60)",2,"rgba(230,130,80,0.72)",3,"rgba(170,30,30,0.85)","rgba(0,0,0,0)"]}},{"type":"Vector","properties":{"id":"study-area","title":"Study Area"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/AOI_Milan_Monza%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(255,255,255,0)","stroke-color":"#d7191c","stroke-width":2}}]' animationOptions='{"duration":500}' }-->
 #### Imperviousness Density
-
 Imperviousness Density describes the proportion of buildings, roads and other artificial sealed surfaces, providing an indication of urban built-up intensity.
 
 Spatially, high imperviousness is mainly concentrated in the urban core of Milan and other continuously urbanised areas. Towards the urban fringe, imperviousness generally decreases, revealing a gradual transition from densely built-up areas to lower-density and more open environments.
 
 ## Methodology workflow
-
 The analysis followed a systematic processing pipeline:
 
 - **1- Select and composite data:** The study focused on the Milan and Monza-Brianza area during summer 2021 (June–August). Sentinel-2 Level-2A images were selected based on acquisition date and cloud cover. Six surface indicators—NDVI, NDRE, NDBI, BSI, MNDWI and Albedo—were derived, and a pixel-wise temporal median was calculated using valid observations. Tree Cover Density and Imperviousness Density were taken from the corresponding 2021 annual products, while LST was represented by the summer composite.
@@ -99,9 +90,38 @@ The analysis followed a systematic processing pipeline:
 - **7- Cluster interpretation:** Each cluster was characterised using the mean normalized values of the input variables. The cluster labels were then mapped back onto the original 100 m grid to examine their spatial distribution and environmental differences.
 - **8- Comparison:** The **k = 4, 6 and 9** clustering solutions were compared in terms of their spatial patterns, cluster profiles and correspondence with **Local Climate Zones (LCZ)**. LCZ was used as an external reference to assess how the data-driven clusters relate to established urban climate types.
 
-
 ## Results
+Different clustering evaluation metrics suggested different numbers of clusters, so we further compared three solutions: **k = 4, 6 and 9**. These can be interpreted as different levels of detail within the same urban environmental structure: k = 4 captures broader environmental types, k = 6 provides an intermediate level of subdivision, and k = 9 describes finer-scale environmental differences. Cluster labels are independent across different values of k, so the comparison is based mainly on their characteristics and spatial patterns.
 
+#### Clustering structure in PCA space
+
+We first compared the three solutions in PCA feature space. The first two principal components capture most of the dominant variation in the data, with PC1 explaining **76.8%** of the total variance and PC2 explaining **8.1%**. Based on the PCA loadings, the negative direction of PC1 is mainly associated with vegetation-related variables such as NDVI and NDRE, while the positive direction is more strongly related to NDBI, BSI, Imperviousness and LST. PC2 is largely influenced by Tree Cover Density.
+
+<div style="display: flex; gap: 10px; justify-content: center;">
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/fb5278e891629cc2a381df21d1ef8ffd4368513f/assets/yiyilv/pcaclustersk4-1789687251614.png" style="width: 90%;">
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/59ef6ffd718502d8644fb992bbd2f762095f42da/assets/yiyilv/pcaclustersk6-1789687261059.png" style="width: 90%;">
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/cb0b248e5abb0945d25ee0025bcba860984e5a7e/assets/yiyilv/pcaclustersk9-1789687271247.png" style="width: 90%;">
+</div>
+
+
+*Figure 1. K-means clustering results for k = 4, 6 and 9 projected onto the first two principal components. Colours represent different clusters and crosses indicate cluster centroids.*
+
+All three solutions show a similar overall structure. Rather than forming several completely separated groups, the data follow a relatively continuous environmental gradient. Moving from the left to the right side of the PCA space broadly corresponds to a transition from more vegetated and less built-up surfaces towards more built-up and warmer urban environments.
+
+With **k = 4**, this continuous gradient is divided into four broad regions, producing the simplest clustering structure. With **k = 6**, some of these broader regions are further subdivided, particularly within intermediate built-up and transitional environments. With **k = 9**, the same gradient is divided into finer groups, revealing more local differences.
+
+Overall, increasing k does not substantially change the underlying structure of the data, but progressively provides a finer subdivision of the same environmental gradient.
+#### Cluster profiles and environmental characteristics
+![profili_B0_k4.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/9c2f2331019fcc9120c0e9a520d8b54e7e1712c7/assets/yiyilv/profiliB0k4-1789687647016.png)
+![profili_B0_k6 1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b189c5764ed92432c0457fcef60a2eea7c1117af/assets/yiyilv/profiliB0k6-1-1789687654701.png)
+![profili_B0_k9.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/a96a09713bd649adc3c98e1a9ddbe2f105634e01/assets/martinolithomas-ui/profiliB0k9-1789688732488.png)
+#### Spatial distribution
+![map_b0_k6.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b32fa2c0b2e2420a7a78c5b212d1b8909b424c9e/assets/yiyilv/mapb0k6-1789687722581.png)
+
+![map_b0_k9.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/374bf4e966ca3b67a925572a5fc930ad035a56e6/assets/yiyilv/mapb0k9-1789687740729.png)
+
+
+#### Preliminary comparison of clustering resolutions
 
 ## Conclusions
 
@@ -111,5 +131,6 @@ The analysis followed a systematic processing pipeline:
 
 ## Contributors
 Authors, contibutors, reviewers
+
 
 
