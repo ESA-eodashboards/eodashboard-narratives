@@ -131,6 +131,8 @@ The resulting mean was calculated as the weighted sum of NO<sub>2</sub> pixel va
 
 The output vector file retained the original district geometry and demographic attributes, with an additional field containing the district-level mean NO<sub>2</sub> value.
 
+![b1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7bd9420b5910cd2f63e746c9342da38839896e25/assets/SvevaZ/b1-1789677967536.png)
+![b2.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/6c1ee630869aee5c6bb706d04cdca76dbe596e6c/assets/SvevaZ/b2-1789678046681.png)
 #### Index calculation
 The risk mapping framework combined three components for each spatial unit: mean NO<sub>2</sub> concentration as the **hazard**, the proportion of residents aged 80 years or more as the **susceptible/exposed population component**, and population density as an indirect **vulnerability and service-pressure proxy**.
  
