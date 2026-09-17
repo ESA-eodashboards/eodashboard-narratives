@@ -4,7 +4,7 @@
 ## Authors: Afshin Moazzam¹, Haipeng Zhu¹, Sveva Zanetti¹, Zacharias Lagouros² and Zoi Giakati²
 > ¹ Politecnico di Milano ² University of Thessaloniki
 
-*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub from 14/09/2026 to 18/09/20266. It was developed by a team from the Politecnico di Milano and Univerity of Thessaloniki.*
+*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub from 14/09/2026 to 18/09/2026. It was developed by a team from the Politecnico di Milano and University of Thessaloniki.*
 
 ## 
 <p align="center">
@@ -29,13 +29,13 @@ NO<sub>2</sub>+hv→NO+O (2)
 
 Even though this process seems effective for removing the NO2 from the atmosphere, improving the air quality, it creates secondary problems, such as acid rain shifting the problem form the atmosphere to the ground.
 
-The lifetime of NO<sub>2</sub> is short, oscillating from hours to days in the troposphere. During the day, the concertation is lower as it is removed by the process of photolysis.  NO<sub>2</sub> has also seasonal behavior, in which the concentration is high in the winter period where there is a reduced amount of solar radiation. In this case NO<sub>2</sub> has a lifetime of 1 – 3 days, indicating much more atmospheric pollution at that time. 
+The lifetime of NO<sub>2</sub> is short, oscillating from hours to days in the troposphere. During the day, the concertration is lower as it is removed by the process of photolysis.  NO<sub>2</sub> has also seasonal behavior, in which the concentration is high in the winter period where there is a reduced amount of solar radiation. In this case NO<sub>2</sub> has a lifetime of 1 – 3 days, indicating much more atmospheric pollution at that time. 
 
 #### Danger to health and the environment
 
 NO<sub>2</sub> is an important pollutant as its effects expand from human health to environment. Focusing on human health, it irritates airways in the human respiratory system, causing asthma, coughing, wheezing or difficulty breathing, affecting the children and the elderly more. 
 
-NO<sub>2</sub> affects also the environment. More specifically, it contributes to the formation of HNO<sub>3</sub> and acid rain, polluting the ground, water etc., endangering the fauna and flora. Rain acid also affects cultural heritage by dissolving monuments (e.g. marble statues). 
+NO<sub>2</sub> affects also the environment. More specifically, it contributes to the formation of HNO<sub>3</sub> and acid rain, polluting the ground, water etc., endangering the fauna and flora. Acid rain also affects cultural heritage by dissolving monuments (e.g. marble statues). 
 
 Finally, NO<sub>2</sub> contributes to the degradation of landscape, by making the atmosphere hazy and difficult to see through. All these effects lead to socioeconomical consequences. The need for health assistance raw materials increases in the hospitals. Crops are destroyed hitting farmers' income and driving up food prices, while the monuments are damaged increasing the cost of maintenance.
 
@@ -72,10 +72,10 @@ Since 6 August 2019, NO₂ data are available with a spatial resolution of 3.5 x
 
 The analysis focuses on the data from 01/10/2024 to 30/09/2025 over the metropolitan area of Milano.
 Since Nitrogen Dioxide is more present in winter than in summer, the study is divided in two periods:
-- hot months: from april to semptember
-- cold months: from october to march
+- hot months: from April to Semptember
+- cold months: from October to March
 
-The analisis is further divided over different weekdays, providing a risk map for every day of the week (Monday, Tuesday ...) both for the hot and cold perios, which accounts for population density and age distribution.
+The analysis is further divided over different weekdays, providing a risk map for every day of the week (Monday, Tuesday ...) both for the hot and cold periods, which accounts for population density and age distribution.
 
 #### Administrative borders
 
@@ -91,15 +91,15 @@ To uniform the analysis, we just considered the total number of people in each a
 
 We aggregated population data with administrative border files, obtaining a shapefile in which the field correspond to the data about population.
 
-The image below shows the total number of people in each administrative area. Some "quartieri" have no inhabitans, such as "Parco Sempione", which includes a park with an inhabitated castle.
+The image below shows the total number of people in each administrative area. Some "quartieri" have no inhabitants, such as "Parco Sempione", which includes a park with an inhabitated castle.
 
 ![Total population in each area](https://res.cloudinary.com/dzxw0pvmr/image/upload/v1789654545/Immagine_17-09-26_-_15.18_x8kyik.png)
 
-The map below shows the percentage of people over 80 in each neighbour. While the distribution is homogeneous in the provincial area, next to the city centre there is a higher concentration of old people.
+The map below shows the percentage of people over 80 in each neighbourhood. While the distribution is homogeneous in the provincial area, next to the city centre there is a higher concentration of old people.
 
 ![Percentage of old people](https://res.cloudinary.com/dzxw0pvmr/image/upload/v1789654544/Immagine_17-09-26_-_15.32_n8j7cy.png)
 
-#### Sentinel-5P data retrival
+#### Sentinel-5P data retrieval
 Sentinel-5P/TROPOMI Level-2 NO₂ files from 1 September 2024 to 31 December 2025 are first listed in an inventory. HARP, a software toolkit designed by the Atmospheric Toolbox to read, process, and convert Sentinel-5P TROPOMI data into standardized formats, checks their geolocation data to identify the orbits covering Milan. The selected file paths are stored in a CSV inventory for reuse in later processing.
 
 #### Ground station NO₂ data
@@ -112,14 +112,14 @@ Connecting these measurements requires alignment in both time and space. The mid
  
 For spatial alignment, each station is linked to the mean of the surrounding 3×3 cells. This step produce a paired dataset in which each row links one station and one satellite orbit, with the corresponding ground concentration and satellite column value.
  
-The plot below show that the data have the same trend over the period, conferming that Sentinel-5P TROPOMI NO₂ measurements can be used since they are strongly correlated to ground measurements
+The plot below show that the data have the same trend over the period, confirming that Sentinel-5P TROPOMI NO₂ measurements can be used since they are strongly correlated to ground measurements
 
 ![01_raw_comparison_5549_satellite_center 2.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/4c3d60a6e1c8fb893dfada2cf47e0d2e4e8171a9/assets/SvevaZ/01rawcomparison5549satellitecenter-2-1789656316615.png)
 
 #### Sentinel-5P rebinning and clipping
 
 HARP library allows to retrive the selected files, and is able to rebin the data to a common raster grid using the bin_spatial function, as explained in section 6.3.1 of https://eo4society.esa.int/wp-content/uploads/2022/01/ATMO01_AirQuality_Monitoring.pdf.
-The choosen grid is 1x1 km, and after the rebinning the data of dirrerent days are all refered to the same common grid, while previously each pixel had a different footprint.
+The chosen grid is 1x1 km, and after the rebinning the data of different days are all referred to the same common grid, while previously each pixel had a different footprint.
 
 Using the administrative boundaries, the data have been clipped to Milan metropolitan area and have later been classified into the 14 groups, one for each day of the week, divided in hot and cold period.
 
@@ -132,11 +132,37 @@ The resulting mean was calculated as the weighted sum of NO<sub>2</sub> pixel va
 The output vector file retained the original district geometry and demographic attributes, with an additional field containing the district-level mean NO<sub>2</sub> value.
 
 #### Index calculation
-
+The risk mapping framework combined three components for each spatial unit: mean NO<sub>2</sub> concentration as the **hazard**, the proportion of residents aged 80 years or more as the **susceptible/exposed population component**, and population density as an indirect **vulnerability and service-pressure proxy**.
+ 
+The elderly-share variable was calculated as:
+ 
+E<sub>i</sub> = P<sub>80+,i</sub> / P<sub>i</sub>
+ 
+where P<sub>80+,i</sub> is the number of residents aged 80+ and P<sub>i</sub> is total population. It therefore naturally ranges from 0 to 1. Where total population was zero, the elderly share was assigned a value of 0 to prevent division-by-zero errors and to represent the absence of resident population potentially exposed in that spatial unit.
+ 
+Population density was first derived as:
+ 
+D<sub>i</sub> = P<sub>i</sub> / A<sub>i</sub>
+ 
+where A<sub>i</sub> is polygon area in km², and was then rescaled using min–max normalization:
+ 
+¯D<sub>i</sub> = (D<sub>i</sub> - D<sub>min</sub>) / (D<sub>max</sub> - D<sub>min</sub>)
+ 
+This transformed density values to the 0–1 interval while retaining the relative ordering among areas. Mean NO<sub>2</sub> was also min–max normalized:
+ 
+¯H<sub>i,t</sub> = (H<sub>i,t</sub> - H<sub>min</sub>) / (H<sub>max</sub> - H<sub>min</sub>)
+ 
+where H<sub>i,t</sub> is the mean NO<sub>2</sub> value for area i at time t. Crucially, H<sub>min</sub> and H<sub>max</sub> were calculated from the pooled NO<sub>2</sub> values across all 14 GeoPackages.
+ 
+The final relative risk-priority index was calculated as a weighted linear combination:
+ 
+Risk<sub>i,t</sub> = 0.50¯H<sub>i,t</sub> + 0.30E<sub>i</sub> + 0.20¯D<sub>i</sub>
+ 
+The largest weight was assigned to NO<sub>2</sub> because it is the direct environmental hazard, while the elderly share received the second-largest weight. Population density was given a lower weight as an indirect proxy. It should be interpreted as a **relative spatial prioritization indicator**.
 
 ## Results
 
-The results below show the risk mapo for each day of the week, divided by cold days (left column) and hot days (rigth column)
+The results below show the risk map for each day of the week, divided by cold days (left column) and hot days (right column)
 
 ![block1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7f439238b0833c4ef947498ed0e10355fc5b580e/assets/SvevaZ/block1-1789675271217.png)
 ![block2.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/626c62a9c7c9c451b643b311e890fed1f9619599/assets/SvevaZ/block2-1789675283568.png)
@@ -158,6 +184,7 @@ Spatially, the strongest NO<sub>2</sub> enhancements are centred on the densely 
 
 
 ## Open Science
+
 
 
 ## Contributors
