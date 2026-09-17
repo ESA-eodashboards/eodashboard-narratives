@@ -75,7 +75,7 @@ The risk index ranges from 0-1, and is calculated based on:
 
 The risk index is therefore calculated as the average of all of these factors (each one normalized between 0-1).
 
-## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
+## Earth observations <!--{ as="eox-map" mode="tour" position="right" }-->
 
 ### <!--{ zoom=12 center=[7.6869,45.0703] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
 #### Turin Urban Area
@@ -89,7 +89,7 @@ Daily breakdown of vulnerability scores across the urban districts, highlighting
 
 ### <!--{ zoom=12 center=[7.6869,45.0703] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
 #### Critical Facilities
-Mapping of critical infrastructure and facilities that are vital during extreme heat events.
+Mapping of critical infrastructure and facilities can be affected during extreme heat events.
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/09_critical_facilities_map.png?raw=true" width="1500"/></p>
 
 ## Conclusions
