@@ -100,7 +100,7 @@ We first compared the three solutions in PCA feature space. The first two princi
 <div style="display: flex; gap: 10px; justify-content: center;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/fb5278e891629cc2a381df21d1ef8ffd4368513f/assets/yiyilv/pcaclustersk4-1789687251614.png" style="width: 90%;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/59ef6ffd718502d8644fb992bbd2f762095f42da/assets/yiyilv/pcaclustersk6-1789687261059.png" style="width: 90%;">
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/cb0b248e5abb0945d25ee0025bcba860984e5a7e/assets/yiyilv/pcaclustersk9-1789687271247.png" style="width: 90%;">
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/9c2e21e9395e7d7df171813647b68d62481e777c/assets/martinolithomas-ui/pcaclustersk9-1789689006480.png" style="width: 90%;">
 </div>
 
 
