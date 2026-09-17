@@ -183,7 +183,11 @@ Within the analysed dataset, Thursday shows the largest mean NO<sub>2</sub> conc
 Spatially, the strongest NO<sub>2</sub> enhancements are centred on the densely populated Milan metropolitan area, with elevated columns extending towards parts of the northern and north-western peri-urban region. This distribution reflects the interaction between spatially heterogeneous emission sources, atmospheric transport and the restricted ventilation of the Po Basin.
 
 ## Conclusions
-
+Relating Sentinel-5P/TROPOMI NO<sub>2</sub> observations to ground-based air-quality measurements involves several methodological challenges that should be carefully addressed. TROPOMI measures the tropospheric NO<sub>2</sub> vertical column in mol/m², while ground stations measure near-surface NO<sub>2</sub> concentration in µg/m³; consequently, the two datasets describe different atmospheric quantities. Their relationship is influenced by boundary-layer height, vertical mixing, meteorological conditions, cloud coverage, local emission sources, and atmospheric transport. Further challenges arise from the difference between the satellite pixel footprint and the fine spatial variability of urban pollution, as well as from the need to align satellite overpass observations with hourly ground-station records. Addressing these issues through robust spatial aggregation, time matching, quality filtering, and validation with local stations is essential for an accurate interpretation of satellite-derived NO<sub>2</sub> patterns.
+ 
+Despite these challenges, Sentinel-5P/TROPOMI offers important advantages for urban air-pollution analysis. Its near-daily temporal coverage makes it possible to investigate changes in NO<sub>2</sub> across seasons and days of the week, while its broad spatial coverage enables monitoring over large metropolitan and regional areas in a consistent way. This is particularly valuable where ground-monitoring networks are sparse, unevenly distributed, or expensive to install and maintain. In this study, the processed satellite data captured clear seasonal and weekly patterns in NO<sub>2</sub> over the Milan metropolitan area, including generally higher values during the cold season and differences between working days and weekends.
+ 
+The risk-priority maps show the value of combining satellite-derived NO<sub>2</sub> information with population density and the proportion of vulnerable residents. The resulting index should be interpreted as a relative spatial prioritisation tool rather than as a direct estimate of personal exposure or a substitute for regulatory ground stations. Nevertheless, it can help identify populated urban locations where elevated pollution patterns overlap with a higher concentration of potentially vulnerable residents. This information can support more targeted mitigation strategies, including traffic-management measures, local emission-reduction actions, the placement of additional ground-monitoring stations, and interventions designed to reduce exposure among vulnerable groups. Overall, the approach demonstrates how daily, large-area TROPOMI observations can complement conventional monitoring and provide an accessible, scalable basis for urban air-pollution risk assessment.
 
 ## Open Science
 
@@ -196,4 +200,4 @@ Spatially, the strongest NO<sub>2</sub> enhancements are centred on the densely 
 [https://www.eea.europa.eu/en/topics/in-depth/air-pollution](https://www.eea.europa.eu/en/topics/in-depth/air-pollution)
 
 ## Contributors
-Authors, contributors, reviewers
+Afshin Moazzam, Haipeng Zhu, Sveva Zanetti, Zacharias Lagouros and Zoi Giakati
