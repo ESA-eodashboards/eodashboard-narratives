@@ -165,6 +165,11 @@ Summer: UHI is strongest, particularly at night, while NO2's photochemical consu
 RICORDIAMOCI CHE è UN'ANALISI CON LE SUE FRAGILITÀ NON ESAUSTIVA, QUINDI ANDREBBERO CONSIDERATI PIÙ ANNI, PIÙ DATI E BLABLA
 
 ## Conclusions
+![WhatsApp Image 2026-09-18 at 00.19.03.jpeg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/4397d81ad780cc21c1f91227eadcb68a00c0068f/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.19.03-1789684358349.jpeg)
+
+![WhatsApp Image 2026-09-18 at 00.19.06.jpeg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/133bf34e033fa16d2d6e55e69d3876b752ddc48b/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.19.06-1789684402666.jpeg)
+
+![WhatsApp Image 2026-09-18 at 00.20.54.jpeg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/60b88ad1116638560fe5ada150aa0ba6032f9b7f/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.20.54-1789684433079.jpeg)
 
 
 ## Open Science
