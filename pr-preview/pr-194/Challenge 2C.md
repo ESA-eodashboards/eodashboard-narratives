@@ -1,4 +1,4 @@
-# Mapping urban heat risk <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/FrancescoMezza/torino-heat-exposure/main/Mole_Antonelliana_(Torino)_10.jpg" }-->
+# Heat Risk Mapping <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/FrancescoMezza/torino-heat-exposure/main/Mole_Antonelliana_(Torino)_10.jpg" }-->
 #### 
 
 ## Authors: Francesco Mezza¹, Sona Guliyeva², Filippos Kostikiadis³, and Sophia Dolla³
@@ -18,7 +18,7 @@ Heat exposure refers to the presence of people, ecosystems, infrastructure or ot
 
 Vulnerability describes the susceptibility of individuals or populations to adverse effects from heat. It is influenced by physiological, demographic, social and socioeconomic factors, as well as housing conditions and access to cooling, healthcare and other essential services. Certain groups, such as older adults, children and outdoor workers, may be particularly susceptible to heat-related impacts. 
 
-According to the climate risk framework, risk results from the interaction between hazard, exposure and vulnerability. Thus, a heatwave represents the hazard, while heat exposure and vulnerability determine how strongly individuals and populations may be affected. 
+According to the climate risk framework, risk results from the interaction between hazard, exposure and vulnerability. Thus, a heatwave represents the hazard, while heat exposure and vulnerability determine how strongly individuals and populations may be affected.
 
 ## Method and datasets
 The core question addressed was whether EO data could be combined with geospatial information to locate urban areas experiencing heightened heat stress during heatwave events. To achieve this, the used datasets were:
@@ -40,9 +40,6 @@ Europe. The contained datasets offer valuable insights for a variety of domains 
 - **Green Areas Data (Municipality of Torino Open Data)**: Vector files retrieved from the city's official open data portal, mapping the precise polygons of public green spaces across the urban area (including parks, gardens, and tree-lined avenues). Green areas can lower local temperatures by 1°C to 7°C through natural shade and plant cooling.
 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Urban%20green%20areas.png?raw=true" width="400"/></p>
-
-
-
 
 ## Heat risk from Earth Observation
 The team's methodology included the following steps and expected outcomes:
@@ -85,15 +82,22 @@ The risk index is therefore calculated as the average of all of these factors (e
 Satellite view of the metropolitan area of Turin, showcasing the urban landscape captured in high resolution. Below is the visualized risk map of the city.
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Risk.png?raw=true" width="1500"/></p>
 
+### <!--{ zoom=12 center=[7.6869,45.0703] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
+#### Daily Vulnerability Ranking
+Daily breakdown of vulnerability scores across the urban districts, highlighting temporal fluctuations in heat risk exposure.
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/07_daily_vulnerability_ranking.png?raw=true" width="1500"/></p>
+
+### <!--{ zoom=12 center=[7.6869,45.0703] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
+#### Critical Facilities
+Mapping of critical infrastructure and facilities that are vital during extreme heat events.
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/09_critical_facilities_map.png?raw=true" width="1500"/></p>
+
 ## Conclusions
-Turin’s heat vulnerability is structurally dictated by urban morphology and demographics, not daily weather. The historical center and south-western industrial belt form extreme-risk zones due to severe soil sealing, lack of vegetation, and aging populations.
+Turin's heat vulnerability is structurally dictated by urban morphology and demographics, not daily weather. The historical center and south-western industrial belt form extreme-risk zones due to severe soil sealing, lack of vegetation, and aging populations.
 
-Conversely, Borgo Po’s vast forested hills demonstrate a green buffer effect that drastically lowers thermal risk. Meanwhile, northern districts show lower vulnerability simply because their younger populations are statistically less heat-sensitive. 
+Conversely, Borgo Po's vast forested hills demonstrate a green buffer effect that drastically lowers thermal risk. Meanwhile, northern districts show lower vulnerability simply because their younger populations are statistically less heat-sensitive. 
 
-Ultimately, the city’s most impermeable, concrete-dense environments perfectly align with its oldest demographics, creating persistent thermal traps.
-
-## Open Science
-
+Ultimately, the city's most impermeable, concrete-dense environments perfectly align with its oldest demographics, creating persistent thermal traps.
 
 ## Contributors
 Authors, contibutors, reviewers
@@ -101,4 +105,4 @@ Authors, contibutors, reviewers
 ## References
 https://dutchclimaterisk.nl/climate-risk/risk-assessment-guidance/
 https://heat.gov/who-is-most-at-risk-to-extreme-heat/at-risk-older-adults/
-The cooling effect of urban green spaces as nature-based solutions for mitigating urban heat: insights from a decade-long systematic review
+https://www.sciencedirect.com/science/article/pii/S2212096325000452![07_daily_vulnerability_ranking.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/860495d86eb87af66c4cdcc70f8014cd3158c0fa/assets/FrancescoMezza/07dailyvulnerabilityranking-1789665020227.png)
