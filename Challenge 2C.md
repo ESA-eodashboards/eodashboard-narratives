@@ -117,6 +117,10 @@ Conversely, Borgo Po's vast forested hills demonstrate a green buffer effect tha
 
 Ultimately, the city's most impermeable, concrete-dense environments perfectly align with its oldest demographics, creating persistent thermal traps.
 
+To mitigate urban heat, the city must prioritize de-paving wide avenues and planting shade trees to reduce surface temperatures. In the dense historical center, micro-interventions like green roofs and highly reflective materials are essential to cool narrow streets.
+
+To protect the aging population, the city should establish accessible cooling centers and implement early warning systems. Additionally, deploying mobile health units and strengthening neighborhood networks will ensure isolated elderly residents stay safe during extreme heatwaves.
+
 ## References
 ### Earth Observation data
 * Sentinel-3 SLSTR Level-2 LST — Copernicus / ESA
