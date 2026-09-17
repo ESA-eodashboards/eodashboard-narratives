@@ -83,7 +83,7 @@ Description
 ## Results
 ![January_2026_NO2_DAY_ESRI.gif](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e75cffa4e129c6611205f50637e88eeda8aab387/assets/vittorez/January2026NO2DAYESRI-1789655589787.gif)
 
-
+![January_2026_NO2_NIGHT_ESRI.gif](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/516f4965e19cbc50cb353c5b548e59aa7a344e21/assets/vittorez/January2026NO2NIGHTESRI-1789655678870.gif)
 
 RICORDIAMOCI CHE è UN'ANALISI CON LE SUE FRAGILITÀ NON ESAUSTIVA, QUINDI ANDREBBERO CONSIDERATI PIÙ ANNI, PIÙ DATI E BLABLA
 
