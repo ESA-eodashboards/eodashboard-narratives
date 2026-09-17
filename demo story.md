@@ -53,16 +53,16 @@ Observing the urban heat island effect within the city of Madrid using political
 
 ## Data
 #### NO2 
-- **Source**: TROPOMI from Sentinel-5P
+- **Source**: Sentinel-5P TROPOMI
 - **Temporal coverage**:
 
 ####  Air temperature
 - **Source**: ERA5
-- **Temporal coverage**: 2021-2026
+- **Temporal coverage**: 2021-2026 **??????**
 
 #### Land Surface Temperature
 - **Source**: Landsat 8
-- **Temporal coverage**: 2021-2026
+- **Temporal coverage**: 2026
 
 #### Land cover and urban extent
 - **Source**: 
