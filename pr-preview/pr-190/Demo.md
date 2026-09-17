@@ -12,7 +12,7 @@
   <img src="https://edurank.org/assets/img/uni-logos/aristotle-university-of-thessaloniki-logo.png" alt="Thessaloniki logo" height="80" style="margin: 0 15px;"/>
 </p>
 
-## Challenge
+## Introduction
 This challenge combine sentinel-5P TROPOMI data with social indicators, such as population density and age distribution, to derive a risk map over the region of Milano, highlighting the areas the population, and in particular fragile population, is more exposed to pollutants.
 
 The analysis focused on Nitrogen Dioxide, which is one of the compounds measured by sentinel-5P
@@ -39,8 +39,14 @@ NO<sub>2</sub> affects also the environment. More specifically, it contributes t
 
 Finally, NO<sub>2</sub> contributes to the degradation of landscape, by making the atmosphere hazy and difficult to see through. All these effects lead to socioeconomical consequences. The need for health assistance raw materials increases in the hospitals. Crops are destroyed hitting farmers' income and driving up food prices, while the monuments are damaged increasing the cost of maintenance.
 
+## Challenge
+How can NO<sub>2</sub> exposure risk be assessed across an entire metropolitan area when ground-monitoring stations are expensive and too sparse to represent pollution variability in every neighbourhood?
+ 
+NO<sub>2</sub> changes rapidly over space and time because of traffic, heating, industrial emissions, weather, and atmospheric mixing, making dense ground-based monitoring necessary but difficult and costly to maintain. Sentinel-5P/TROPOMI helps address this challenge by providing near-daily NO<sub>2</sub> observations with wide spatial coverage, enabling consistent analysis over the whole Milan metropolitan area. However, satellite NO<sub>2</sub> columns must be carefully linked with ground measurements and combined with demographic indicators that are often available at different spatial resolutions and administrative units. Harmonising these datasets is therefore essential to produce a meaningful relative risk map of where pollution and vulnerable populations overlap.
+
 ## Objective
-Given these negative implications of NO<sub>2</sub>, this study implements a spatial risk assessment pipeline for air pollution that combines Sentinel 5P/TROPOMI NO₂ data with population data and age distribution.
+To provide decision-makers with a practical basis for prioritising the most vulnerable locations in large cities, this study exploits the potential of Sentinel-5P/TROPOMI data to develop a spatial NO<sub>2</sub> risk-priority map for the Metropolitan Area of Milan. TROPOMI is particularly valuable because it was designed to monitor atmospheric composition at high spatial, temporal, and spectral resolution, providing observations of NO<sub>2</sub> and other trace gases across a wide 2,600 km swath. Its near-daily coverage and approximately 3.5 × 5.5 km² NO<sub>2</sub> ground-pixel resolution since August 2019 make it possible to analyse pollution patterns consistently across an entire metropolitan region—an extent that would be difficult and costly to represent using ground-monitoring stations alone. By combining satellite-derived tropospheric NO<sub>2</sub> patterns with demographic data, the study identifies areas where environmental hazard and population vulnerability overlap. The resulting map is intended as a relative spatial prioritisation tool that can support targeted monitoring, emission-reduction measures, mobility policies, and interventions aimed at reducing the risk of exposure for more vulnerable urban residents.
+ 
 
 ## Data and Methods
 #### Dataset
