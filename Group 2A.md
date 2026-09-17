@@ -1,4 +1,4 @@
-# Unsupervised Mapping of Urban Thermal Environments in the Milan and Monza-Brianza area <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
+# Unsupervised Mapping of Urban Thermal Environments in the Milan and Monza-Brianza area <!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/07/land-surface_temperature_in_milan_on_18_june_2022/24345700-1-eng-GB/Land-surface_temperature_in_Milan_on_18_June_2022_pillars.jpg" }-->
 #### 
 
 ## Authors: Thomas Martinoli¹, Yiyi Cen¹, Sara Reffinetti¹
@@ -8,7 +8,7 @@
 
 ## 
 <p align="center">
-  <img src="https://cdn.freebiesupply.com/logos/large/2x/politecnico-di-milano-1-logo-png-transparent.png" alt="Politecnico di Milano" height="80" style="margin: 0 15px;"/>
+  <img src="https://cdn.freebiesupply.com/logos/large/2x/politecnico-di-milano-1-logo-png-transparent.png" alt="Politecnico di Milano" height="150" style="margin: 0 15px;"/>
 </p>
 
 ## Challenge
@@ -23,9 +23,9 @@ The objective of this study was to
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
-### <!--{ zoom=10.5 center=[9.2078,45.5268] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
+### <!--{ zoom=10.5 center=[9.2078,45.5268] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
 #### Milan and Monza-Brianza Area
-Zooming into the Milan and Monza-Brianza metropolitan area to analyze the urban thermal distribution across the district boundaries.
+Satellite imagery focusing on the Milan and Monza-Brianza metropolitan area, providing a clear overview of the urban geography under study.
 
 ## Data and Methods
 #### Dataset
