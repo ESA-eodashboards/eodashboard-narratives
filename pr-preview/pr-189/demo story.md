@@ -1,7 +1,7 @@
 # AI for air quality monitoring using Earth Observation <!--{ as="img" mode="hero" src="/Users/gian.duiotto/Desktop/Codex Image 16 Sept 2026, 16_28_57.png" }-->
 #### 
 
-## Authors: Gianluca Flaminio¹, Nikolina Zallemi¹, Vittoria Rezzuto¹ and Thomas Xolias²
+## Authors: Gianluca Flaminio¹ , Nikolina Zallemi¹, Vittoria Rezzuto¹ and Thomas Xolias²
 > ¹ Politecnico di Milano ² Aristotle University of Thessaloniki
 
 *This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in 14-18 September 2026. It was developed by a team from Politecnico di Milano and Aristotle University of Thessaloniki.*
@@ -29,7 +29,7 @@ Therefore the peaks of NO2 concentration are typically in the morning and in the
 
 ##
 
-**THE FOLLOWING PART COULD BE USED TO INTERPRETE RESULTS**
+**THE FOLLOWING PART COULD BE USED TO INTERPRETE OUR RESULTS **
 Winter: stronger temperature inversions and shallower, more stable boundary layers trap NO2 near the surface, while UHI intensity (especially in its air/canopy form) is comparatively weaker. 
 
 Summer: UHI is strongest, particularly at night, while NO2's photochemical consumption is fastest, partly offsetting emission-driven increases, but LST-NO2 spatial correlation is empirically stronger in summer than in winter, since both fields are driven by the same underlying urban density even as their diurnal magnitudes diverge.
@@ -44,9 +44,9 @@ Looking at the Earth from a global perspective to observe atmospheric dynamics.
 #### Zooming into Spain
 Narrowing our focus to the Iberian Peninsula to analyze urban-rural temperature gradients.
 
-### <!--{ zoom=11 center=[-3.7038,40.4168] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
+### <!--{ zoom=11 center=[-3.7038,40.4168] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Tile","properties":{"id":"osm-borders","opacity":0.8},"source":{"type":"XYZ","url":"https://tile.openstreetmap.org/{z}/{x}/{y}.png"}}]' animationOptions='{"duration":500}' }-->
 #### Focusing on Madrid
-Observing the urban heat island effect within the city of Madrid.
+Observing the urban heat island effect within the city of Madrid using political boundaries.
 
 ## Methods
 
@@ -73,7 +73,7 @@ Observing the urban heat island effect within the city of Madrid.
 Description
 
 ## Results
-RICORDIAMOCI CHE è UN'ANALISI CON LE SUE FRAGILITà NON ESAUSTIVA, QUINDI ANDREBBERO CONSIDERATI PIù ANNI, PIù DATI E BLABLA
+RICORDIAMOCI CHE è UN'ANALISI CON LE SUE FRAGILITÀ NON ESAUSTIVA, QUINDI ANDREBBERO CONSIDERATI PIÙ ANNI, PIÙ DATI E BLABLA
 
 ## Conclusions
 
