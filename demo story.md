@@ -140,7 +140,7 @@ Description
 
 
 
-#### Discussion **????**
+#### Discussion 
 
 **THE FOLLOWING PART COULD BE USED TO INTERPRETE OUR RESULTS :)**
 
@@ -154,8 +154,9 @@ RICORDIAMOCI CHE è UN'ANALISI CON LE SUE FRAGILITÀ NON ESAUSTIVA, QUINDI ANDRE
 
 
 ## Future steps
+![NO2_monthly_mean_January_Madrid_basemap.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/69b2e365e0a428dc44bc6bf15925979d461d5d3b/assets/vittorez/NO2monthlymeanJanuaryMadridbasemap-1789681325763.png)
 
-
+![NO2_monthly_mean_July_Madrid_basemap.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/37836ecd478826b07659615a1d502ab8e7795ee5/assets/vittorez/NO2monthlymeanJulyMadridbasemap-1789681342550.png)
 
 ## Open Science
 
