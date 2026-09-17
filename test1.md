@@ -1,50 +1,103 @@
----
-cover-image: https://placehold.co/600x400/png
-date: 2025-01-01
-theme: theme_name
-tags: some,tags
-official: false
+# Unsupervised Mapping of Urban Thermal Environments in the Milan and Monza-Brianza area <!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/07/land-surface_temperature_in_milan_on_18_june_2022/24345700-1-eng-GB/Land-surface_temperature_in_Milan_on_18_June_2022_pillars.jpg" }-->
+#### <small>Authors: Thomas Martinoli¹ , Yiyi Cen¹ , Sara Reffinetti¹ <br><sub style='font-size:0.7em'>¹ Politecnico of Milan</sub></small>
 
----
+## 
+*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in September 2026. It was developed by a team from the Politecnico of Milan.*
 
-# Title of the story/Challenge <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
-## Authors: Name Surname¹, Name Surname² and Name Surname³  <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
-> ¹ Affiliation ² Affiliation  ³ Affiliation
-
-*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in **DATE**. It was developed by a team from the **AFFILIATIONS**.*
-
-##  <!--{ nav="false"}-->
-<p align="center">
-  <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_250,h_250/https://markleisherproductions.com/wp-content/uploads/2021/01/logo-placeholder-png-2.png" alt="Ca' Foscari" height="80" style="margin: 0 15px;"/>
-  <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_250,h_250/https://markleisherproductions.com/wp-content/uploads/2021/01/logo-placeholder-png-2.png" alt="NOC" height="80" style="margin: 0 15px;"/>
-  <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_250,h_250/https://markleisherproductions.com/wp-content/uploads/2021/01/logo-placeholder-png-2.png" alt="BAS" height="80" style="margin: 0 15px;"/>
+## 
+<p align="center" style="margin-top:-20px; margin-bottom:-20px;">
+  <img src="https://cdn.freebiesupply.com/logos/large/2x/politecnico-di-milano-1-logo-png-transparent.png" alt="Politecnico di Milano" height="250"/>
 </p>
 
-
 ## Challenge
-Describe challenge
+Urban environments are not spatially uniform. Vegetation, buildings, impervious surfaces, bare soil and water often occur within short distances and influence surface temperature in different ways. As a result, different parts of the same city can exhibit clearly different thermal conditions.
 
+Urban environments are often described using predefined land-cover classes, such as built-up areas, vegetation or water. While these classifications are useful, real urban surfaces tend to vary continuously and often overlap or mix with one another. Fixed classes may therefore not fully capture this complexity.
+
+This leads to our main research question:
+
+**Can distinct urban thermal environments be identified directly from multi-variable Earth Observation data without defining the classes in advance?**
 
 ## Objective
-The objective of this study was to 
+The objective of this study is to use multi-variable Earth Observation data and unsupervised learning to develop a data-driven characterisation of urban environments in the Milan–Monza area.
+
+By combining information related to temperature, vegetation and built-up characteristics, we use clustering to identify urban areas with similar environmental properties and then interpret their surface and thermal characteristics. Finally, the resulting clusters are compared with existing land-cover products and Local Climate Zones to understand how these data-driven urban types relate to established classification systems.
+
+## Dataset
+The analysis focused on the **provinces of Milan and Monza-Brianza**, leveraging Earth Observation data from **June to August 2021** to capture thermal variations.
+| Data source | Product | Variables | Spatial Resolution |
+| :---: | :---: | :---: | :---: |
+| **Landsat 8** | Collection 2 Level-2 | Land Surface Temperature (LST) | 30 m |
+| **Sentinel-2** | MSI – Level-2A (L2A) | NDVI, NDRE, NDBI, BSI, mNDWI, Albedo | 20 m |
+| **Copernicus CLMS*** | Tree Cover Density | Vegetation cover | 10 m |
+| **Copernicus CLMS*** | Imperviousness | Impervious surfaces | 10 m |
+
+*CLMS: Copernicus Land Monitoring Service
+
+## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
+
+### <!--{ zoom=10.2 center=[9.02,45.5268] layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Vector","properties":{"id":"study-area","title":"Study Area"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/AOI_Milan_Monza%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(255,255,255,0.03)","stroke-color":"#d7191c","stroke-width":3}}]' animationOptions='{"duration":500}' }-->
+#### Milan and Monza-Brianza Area
+The study focuses on the Milan and Monza-Brianza area in northern Italy. The region includes highly urbanised city centres, residential areas, industrial and commercial zones, green spaces and peri-urban areas.
+
+These different urban environments are closely interwoven within a relatively compact area, providing rich spatial variation for comparing different urban surface characteristics.
 
 
-## Earth observations <!--{ as="eox-map" mode="tour" }-->
-
-### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":true},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":false},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":false},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Tile","properties":{"id":"ESDC_kndvi;:;2021-12-23T00:00:00Z;:;xcube tiles;:;EPSG:3857","title":"xcube tiles"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/kndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-23T00:00:00Z&vmin=0&vmax=1&cbar=RdYlGn","projection":"EPSG:3857"}},{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]}]}]}]' zoom="2.6456584324087107" center=[-10.569682342641302,7.8903138332408105] projection="" animationOptions={duration:500}}-->
-#### Title
-Text
 
 
+### <!--{ zoom=10.2 center=[9.02,45.5268] layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Vector","properties":{"id":"tree-cover","title":"Tree Cover Density 2021"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/TCD_2021_100m_classes%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":["match",["get","class_id"],1,"rgba(198,233,192,0.60)",2,"rgba(77,175,74,0.70)",3,"rgba(0,100,0,0.85)","rgba(0,0,0,0)"]}},{"type":"Vector","properties":{"id":"study-area","title":"Study Area"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/AOI_Milan_Monza%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(255,255,255,0)","stroke-color":"#d7191c","stroke-width":2}}]' animationOptions='{"duration":500}' }-->
 
-## Data and Methods
-#### Dataset
-- **Source**: 
-- **Temporal coverage**: 
+#### Tree Cover Density
 
-#### Methodology workflow
-Description
+Tree Cover Density is one of the variables used to describe urban vegetation structure. The map shows clear spatial differences in tree canopy cover across the study area, ranging from areas with very limited tree cover to much greener zones.
 
+This map is presented as one example of the input variables used in the analysis. The full analysis also includes multiple Sentinel-2 spectral indices and other surface characteristics.
+
+
+### <!--{ zoom=10.2 center=[9.02,45.5268] layers='[{"type":"Tile","properties":{"id":"terrain-light","title":"Terrain Light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Vector","properties":{"id":"imperviousness","title":"Imperviousness Density 2021"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/Imperviousness_2021_100m_classes%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":["match",["get","class_id"],1,"rgba(245,220,180,0.60)",2,"rgba(230,130,80,0.72)",3,"rgba(170,30,30,0.85)","rgba(0,0,0,0)"]}},{"type":"Vector","properties":{"id":"study-area","title":"Study Area"},"source":{"type":"Vector","url":"https://pub-fa7ad61ab36e4bc19f50a87a8cd497d4.r2.dev/AOI_Milan_Monza%20%281%29.geojson","format":"GeoJSON"},"style":{"fill-color":"rgba(255,255,255,0)","stroke-color":"#d7191c","stroke-width":2}}]' animationOptions='{"duration":500}' }-->
+
+#### Imperviousness Density
+
+Imperviousness Density describes the proportion of buildings, roads and other artificial sealed surfaces, providing an indication of urban built-up intensity.
+
+Spatially, high imperviousness is mainly concentrated in the urban core of Milan and other continuously urbanised areas. Towards the urban fringe, imperviousness generally decreases, revealing a gradual transition from densely built-up areas to lower-density and more open environments.
+
+## Methodology workflow
+
+The analysis followed a systematic processing pipeline:
+
+- **1- Select and composite data:** The study focused on the Milan and Monza-Brianza area during summer 2021 (June–August). Sentinel-2 Level-2A images were selected based on acquisition date and cloud cover. Six surface indicators—NDVI, NDRE, NDBI, BSI, MNDWI and Albedo—were derived, and a pixel-wise temporal median was calculated using valid observations. Tree Cover Density and Imperviousness Density were taken from the corresponding 2021 annual products, while LST was represented by the summer composite.
+
+| Variable | Formula / derivation | Environmental information |
+| :---: | :--- | :--- |
+| **NDVI** | (B8A − B04) / (B8A + B04) | Vegetation greenness |
+| **NDRE** | (B8A − B05) / (B8A + B05) | Red-edge vegetation condition |
+| **NDBI** | (B11 − B8A) / (B11 + B8A) | Built-up characteristics |
+| **BSI** | ((B11 + B04) − (B8A + B02)) / ((B11 + B04) + (B8A + B02)) | Bare soil and built-up surfaces |
+| **MNDWI** | (B03 − B11) / (B03 + B11) | Water detection and masking |
+| **Albedo** | Derived from six Sentinel-2 spectral bands | Surface reflectivity |
+
+- **2- Aggregate and align datasets:** All variables were aligned to a common **100 m spatial grid** using the Sentinel-2 100 m grid as the reference (EPSG:32632). The original 10 m Tree Cover Density and Imperviousness Density products were aggregated to 100 m using area-weighted averaging, while LST was aligned to the same grid. The resulting feature raster contained nine variables.
+
+- **3- Mask invalid and water cells:** Only grid cells with valid values for all input variables were retained, with no missing-value imputation applied. Water cells were identified using MNDWI and cells with **MNDWI > 0.2** were excluded from the analysis.
+
+- **4- Assess correlations and normalize:** Correlations between variables were examined to identify potential redundancy. Each variable was then clipped to its 1st–99th percentile range and rescaled to **0–1** to reduce the influence of extreme values and differences in scale.
+
+- **5- PCA:** Principal Component Analysis (PCA) was applied to the normalized variables. MNDWI was excluded because it had already been used for water masking. The minimum number of principal components explaining at least **90% of the total variance** was retained; the first three components reached this threshold.
+
+- **6- K-means clustering:** K-means clustering was applied in the PCA-reduced feature space for **k = 4–15**. Different evaluation criteria suggested different optimal solutions: **k = 4, 6 and 9**. These three clustering configurations were therefore retained for further comparison and interpretation.
+
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/307316d228fa0050e18127b7c0f9c93e3b65c077/assets/yiyilv/IMG2006-1789684437359.png" width="900">
+</p>
+
+<p align="center">
+  <em>Figure X. Evaluation of different numbers of K-means clusters using Inertia, Silhouette Score and the Calinski–Harabasz Index. The different criteria highlighted k = 4, 6 and 9 as candidate solutions for further analysis.</em>
+</p>
+
+- **7- Cluster interpretation:** Each cluster was characterised using the mean normalized values of the input variables. The cluster labels were then mapped back onto the original 100 m grid to examine their spatial distribution and environmental differences.
+- **8- Comparison:** The **k = 4, 6 and 9** clustering solutions were compared in terms of their spatial patterns, cluster profiles and correspondence with **Local Climate Zones (LCZ)**. LCZ was used as an external reference to assess how the data-driven clusters relate to established urban climate types.
 
 
 ## Results
@@ -53,25 +106,10 @@ Description
 ## Conclusions
 
 
-
-## <!--{ as="div" }--> Open Science
-| **Name**                                                                                                                                                 | **Type**            | **Agency / Provider**                     | **Description / Usage**                                                                                                                                                                                                                 |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **[DATASET NAME](LINK)** | Dataset             | DeepESDL / ESDC                           | Description how this dataset was used in this story |
-| **[EO Dashboard](https://eodashboard.org/explore/?x=15.0000&y=48.0000&z=4.0000&datetime=2025-09-19&template=expert)**                                    | Platform / Web Tool | EO Dashboard Consortium (ESA, NASA, JAXA) | Provides base layers and visualization tools for interactive exploration of NDVI and other Earth observation indicators.                                                                                                                |
-
-#### Notebook
-Access the notebook to reproduce the study workflow.
-<iframe width="100%" height="600" src="LINK TO NOTEBOOK" frameborder="0"></iframe>
-
-
-#### References
-- Reference 1
-
-- Reference 2
-
+## Open Science
 
 
 ## Contributors
-Authors, contibutors, reviewers 
+Authors, contibutors, reviewers
+
 
