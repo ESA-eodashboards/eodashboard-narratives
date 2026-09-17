@@ -171,6 +171,11 @@ RICORDIAMOCI CHE è UN'ANALISI CON LE SUE FRAGILITÀ NON ESAUSTIVA, QUINDI ANDRE
 
 ![WhatsApp Image 2026-09-18 at 00.20.54.jpeg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/60b88ad1116638560fe5ada150aa0ba6032f9b7f/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.20.54-1789684433079.jpeg)
 
+![WhatsApp Image 2026-09-18 at 00.21.46.jpeg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/8b456053801a162507ab018e3da49ee50b631916/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.21.46-1789684480025.jpeg)
+
+![WhatsApp Image 2026-09-18 at 00.23.20.jpeg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7cce28ec8659fbe30f9237070976b1ceaa6d857f/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.23.20-1789684514508.jpeg)
+
+![WhatsApp Image 2026-09-18 at 00.23.46.jpeg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/5b9b0d7e978f125f27a2184ed380a028ff5f413d/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.23.46-1789684533985.jpeg)
 
 ## Open Science
 
