@@ -29,7 +29,8 @@ Therefore the peaks of NO2 concentration are typically in the morning and in the
 
 ##
 
-**THE FOLLOWING PART COULD BE USED TO INTERPRETE OUR RESULTS **
+**THE FOLLOWING PART COULD BE USED TO INTERPRETE OUR RESULTS :)**
+
 Winter: stronger temperature inversions and shallower, more stable boundary layers trap NO2 near the surface, while UHI intensity (especially in its air/canopy form) is comparatively weaker. 
 
 Summer: UHI is strongest, particularly at night, while NO2's photochemical consumption is fastest, partly offsetting emission-driven increases, but LST-NO2 spatial correlation is empirically stronger in summer than in winter, since both fields are driven by the same underlying urban density even as their diurnal magnitudes diverge.
@@ -48,9 +49,9 @@ Narrowing our focus to the Iberian Peninsula to analyze urban-rural temperature 
 #### Focusing on Madrid
 Observing the urban heat island effect within the city of Madrid using political boundaries.
 
+
+
 ## Methods
-
-
 ## Data
 #### NO2 
 - **Source**: Sentinel-5P TROPOMI
@@ -78,6 +79,8 @@ Observing the urban heat island effect within the city of Madrid using political
 #### DEM
 - **Source**: 
 ![DEM.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/d2fd45aac11c10b636ef956b5767d87df4ec0934/assets/vittorez/DEM-1789656842797.png)
+
+<p align="center"><em>Digital Elevation Model of Madrid.</em></p>
 
 
 
