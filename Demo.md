@@ -39,7 +39,14 @@ Text
 - **Temporal coverage**: 
 
 #### Methodology workflow
-Our analysis focuses on the data from 01/10/2024 to 30/09/2025 over the metropolitan area of Milano. 
+
+Our analysis focuses on the data from 01/10/2024 to 30/09/2025 over the metropolitan area of Milano.
+Since Nitrogen Dioxide is more present in winter than in summer, we divided the study in two periods:
+- hot months: from april to semptember
+- cold months: from october to march
+
+We further divide the analisis over different weekdays, combining NO2 dava with population density data and administrative borders.
+
 
 **Administrative borders**
 
@@ -49,6 +56,13 @@ Milano province is divided into municipalities, called "comuni". Comune di Milan
 
 **Population density and age distribution**
 
+For each "quartiere", Comune di Milano provides data about the total number of inhabitants, as well as the number of underage people and the number of people over 80 years old.
+Regione Lombardia instead provides, for each "comune", the number of data for every age.
+To uniform the analysis, we just considered the total number of people in each area and the total number of people over the age of 80.
+
+We aggregated population data with administrative border files, obtaining a shapefile in which the field correspond to the data about population.
+
+The image below shows the tatal number of people in each administrative area. Some "quartieri" have no inhabitans, such as "Parco Sempione", which includes a park with an inhabitated castle.
 
 ## Results
 
