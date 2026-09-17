@@ -68,8 +68,6 @@ Observing the urban heat island effect within the city of Madrid using political
 ![DEM.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/d2fd45aac11c10b636ef956b5767d87df4ec0934/assets/vittorez/DEM-1789656842797.png)
 
 
-
-
 #### Methodology workflow
 Description
 
@@ -88,6 +86,28 @@ Description
 <p align="center"><em>Visualizing the seasonal and diurnal shifts in NO2 concentrations for January and July.</em></p>
 
 #### Ozone
+<div style="display: flex; gap: 10px;">
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/788bce10551db1393e418ee9e227e55207834387/assets/vittorez/January2026O3DAYESRI-1789674050098.gif" style="width: 48%;" />
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/4baf52f1123b4d21e0fd80f379cf8c9eb19b2c44/assets/vittorez/January2026O3NIGHTESRI-1789674110930.gif" style="width: 48%;" />
+</div>
+
+<div style="display: flex; gap: 10px;">
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/788bce10551db1393e418ee9e227e55207834387/assets/vittorez/January2026O3DAYESRI-1789674050098.gif" style="width: 48%;" />
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/4baf52f1123b4d21e0fd80f379cf8c9eb19b2c44/assets/vittorez/January2026O3NIGHTESRI-1789674110930.gif" style="width: 48%;" />
+</div>
+
+<p align="center"><em>Visualizing the seasonal and diurnal shifts in O3 concentrations for January and July.</em></p>
+
+
+
+
+
+
+
+
+
+
+
 
 #### Air temperature
 ![January_2026_DAY_temperature_timeseries.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/42b773597b70145ea3940828d26e4f286935757d/assets/vittorez/January2026DAYtemperaturetimeseries-1789665925063.png)
