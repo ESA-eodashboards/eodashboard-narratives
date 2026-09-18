@@ -112,6 +112,19 @@ With **k = 4**, this continuous gradient is divided into four broad regions, pro
 
 Overall, increasing k does not substantially change the underlying structure of the data, but progressively provides a finer subdivision of the same environmental gradient.
 #### Cluster profiles and environmental characteristics
+
+Each profile shows the mean normalised value (0–1) of the eight input variables; values are relative within the study area, not physical units. Observing the profile it is possible to derive information releted to the derived cluster. 
+
+k = 4 separates four surface types. C2 (27%) represent the built-up type: lowest NDVI/NDRE (~0.25), highest NDBI/BSI (~0.8), high imperviousness (0.71) and the highest LST (0.77). C3 (8%) is tree cover: high NDVI (0.90) and Tree Cover Density (0.73), lowest albedo and the lowest LST (0.25). C1 (31%) is non-woody vegetation: NDVI comparable to C3 (0.87) but near-zero tree cover. C0 (34%) is intermediate: moderate NDVI (0.57) and high NDBI/BSI (~0.6) combined with low imperviousness (0.17), indicating bare or sparsely vegetated, largely unsealed surfaces rather than built-up areas.
+
+Two results stand out. First, relative LST follows the built-up gradient at every k: it increases with imperviousness and NDBI and decreases with NDVI. Second, tree-covered (C3) and non-woody vegetated (C1) cells have almost the same LST (0.25 vs 0.28). At 100 m, vegetation presence rather than canopy structure separates cool from warm surfaces. Albedo varies little between clusters (0.37–0.48) and contributes weakly to the separation.
+
+Higher k refines rather than replaces this structure. k = 6 splits the built-up domain into dense (imperviousness 0.83, LST 0.81) and intermediate (0.52, 0.69) types, and separates bare soil from partially vegetated surfaces. k = 9 resolves three built-up levels, with LST rising monotonically with imperviousness (0.39 → 0.61 → 0.87 imperviousness; 0.62 → 0.72 → 0.83 LST). It also separates dense forest (TCD 0.86, lowest LST 0.18) from mixed tree–open vegetation (TCD 0.43).
+
+
+
+
+
 ![profili_B0_k4.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/9c2f2331019fcc9120c0e9a520d8b54e7e1712c7/assets/yiyilv/profiliB0k4-1789687647016.png)
 ![profili_B0_k6 1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b189c5764ed92432c0457fcef60a2eea7c1117af/assets/yiyilv/profiliB0k6-1-1789687654701.png)
 ![profili_B0_k9.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/a96a09713bd649adc3c98e1a9ddbe2f105634e01/assets/martinolithomas-ui/profiliB0k9-1789688732488.png)
