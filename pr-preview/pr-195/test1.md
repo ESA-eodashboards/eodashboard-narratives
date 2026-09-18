@@ -116,15 +116,26 @@ Overall, increasing k does not substantially change the underlying structure of 
 Each profile shows the mean normalised value (0–1) of the eight variables entering the PCA, computed for each cluster. Values are relative within the study area, not physical units, and are used to interpret each cluster in terms of vegetation, built-up intensity, tree cover and relative surface temperature.
 
 ![profili_B0_k4.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/9c2f2331019fcc9120c0e9a520d8b54e7e1712c7/assets/yiyilv/profiliB0k4-1789687647016.png)
+<p align="center">
+  <em>Figure X. Cluster profiles for k = 4: mean normalised value (0–1) of each variable per cluster.</em>
+</p>
 
 C2 (grey) represents the built-up type and covers 27% of the analysed cells. It is characterised by the lowest NDVI/NDRE (~0.25), the highest NDBI/BSI (~0.8), high imperviousness (0.71) and the highest LST (0.77). C3 (dark green) covers 8% of the area and corresponds to tree cover. It shows high NDVI (0.90) and Tree Cover Density (0.73), the lowest albedo and the lowest LST (0.25). C1 (light green) covers 31% of the area and represents non-woody vegetation, with NDVI comparable to C3 (0.87) but near-zero tree cover. C0 (ochre) covers 34% of the area and is intermediate: moderate NDVI (0.57) and relatively high NDBI/BSI (~0.6) combined with low imperviousness (0.17), indicating bare or sparsely vegetated, largely unsealed surfaces rather than built-up areas.
 
 With k = 6, the same overall structure as k = 4 is preserved. Tree cover (C1, dark green, 7%) and non-woody vegetation (C4, green, 23%) remain essentially unchanged. 
 ![profili_B0_k6 1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b189c5764ed92432c0457fcef60a2eea7c1117af/assets/yiyilv/profiliB0k6-1-1789687654701.png)
+<p align="center">
+  <em>Figure X. Cluster profiles for k = 6: mean normalised value (0–1) of each variable per cluster.</em>
+</p>
+
 The remaining clusters can be interpreted as a finer subdivision of the built-up and intermediate types of k = 4. The built-up domain appears as a dense type (C5, dark grey, 15%; imperviousness 0.83, LST 0.81) and an intermediate type (C2, light grey, 18%; imperviousness 0.52, LST 0.69). Unsealed surfaces appear as bare/sparsely vegetated (C0, brown, 16%; LST 0.56) and partially vegetated (C3, ochre, 21%; LST 0.43).
 
 With k = 9, the same behaviour is observed, and the additional clusters can be interpreted as further detail at both ends of the gradient. 
 ![profili_B0_k9.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/a96a09713bd649adc3c98e1a9ddbe2f105634e01/assets/martinolithomas-ui/profiliB0k9-1789688732488.png)
+<p align="center">
+  <em>Figure X. Cluster profiles for k = 9: mean normalised value (0–1) of each variable per cluster.</em>
+</p>
+
 The built-up domain is resolved into three levels of imperviousness (0.39 → 0.61 → 0.87), with LST increasing accordingly (0.62 → 0.72 → 0.83). The vegetated domain includes dense tree cover (C3, dark green, 5%; lowest LST 0.18), mixed tree–open vegetation (C8, olive, 6%), and two non-woody vegetation types of different density (C7 and C1). Partial tree cover (C8, LST 0.38) is not cooler than dense non-woody vegetation (C7, LST 0.21).
 
 Across all three solutions, the same pattern emerges: surface temperature rises as the landscape becomes more built-up and falls as vegetation increases. Vegetated areas are consistently the coolest, whether or not they are tree-covered. At k = 4, tree cover and non-woody vegetation reach almost the same LST (0.25 vs 0.28), and at k = 9 areas with partial tree cover are even warmer than dense grassland or cropland. At 100 m resolution, what keeps a surface cool is how densely it is vegetated, not whether that vegetation is trees. Albedo, by contrast, changes little between clusters (0.37–0.48) and plays only a minor role.
@@ -132,11 +143,14 @@ Across all three solutions, the same pattern emerges: surface temperature rises 
 
 #### Spatial distribution
 The clusters follow a clear spatial pattern. At k = 4, the built-up cluster covers Milan's urban core and extends north into the Monza-Brianza conurbation and along the main radial roads. The south is mostly non-woody vegetation, corresponding to the agricultural plain. Tree cover is concentrated in narrow corridors along the western and eastern edges, in line with the Ticino and Adda river valleys, plus a few patches in the north. The intermediate cluster is scattered across farmland and the urban fringe, where bare, cultivated and built surfaces are mixed at fine scale.
-
-At k = 6 and k = 9 the pattern does not change. The extra clusters mainly subdivide the built-up area into a dense core and less sealed surrounding zones and towns, while the agricultural south and the river corridors stay largely the same. Gaps within the study area are masked water bodies.
 ![map_b0_k4.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/eca453f839766d09967f956ae7d05e4baa445b04/assets/martinolithomas-ui/mapb0k4-1789689699736.png)
+
+At k = 6 and k = 9 the pattern does not change. 
+
 ![map_b0_k6.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b32fa2c0b2e2420a7a78c5b212d1b8909b424c9e/assets/yiyilv/mapb0k6-1789687722581.png)
-![map_b0_k9.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e654446fd8d4b84c9b04b55db7aa398dd77d59ef/assets/martinolithomas-ui/mapb0k9-1789688920085.png)
+![map_b0_k9.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e654446fd8d4b84c9b04b55db7aa398dd77d59ef/assets/martinolithomas-ui/mapb0k9-1789688920085.png)The extra clusters mainly subdivide the built-up area into a dense core and less sealed surrounding zones and towns, while the agricultural south and the river corridors stay largely the same. Gaps within the study area are masked water bodies.
+
+!
 
 
 #### Preliminary comparison of clustering resolutions
