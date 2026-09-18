@@ -6,7 +6,9 @@
 
 ## 
 <p align="center" style="margin-top:-20px; margin-bottom:-20px;">
-  <img src="https://cdn.freebiesupply.com/logos/large/2x/politecnico-di-milano-1-logo-png-transparent.png" alt="Politecnico di Milano" height="250"/>
+  <img src=https://www.policollege.polimi.it/wp-content/uploads/2026/04/logo-polimi-scaled.png alt="Politecnico di Milano" height="120"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://th.bing.com/th/id/R.023cad37e1b2bd876572ba2bd38432f7?rik=MFEIeBOIq6ojVQ&amp;pid=ImgRaw&amp;r=0" alt="ESA" height="120"/>
 </p>
 
 ## Challenge
