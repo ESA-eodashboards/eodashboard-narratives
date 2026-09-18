@@ -133,12 +133,6 @@ To mitigate urban heat, the city must prioritize de-paving wide avenues and plan
 
 To protect the aging population, the city should establish accessible cooling centers and implement early warning systems. Additionally, deploying mobile health units and strengthening neighborhood networks will ensure isolated elderly residents stay safe during extreme heatwaves.
 
-## Contributors
-- Francesco Mezza — Coding and data processing
-- Sona Guliyeva — Project lead and supervision
-- Sophia Dolla — Theoretical framework
-- Filippos Kostikiadis — Theoretical framework
-
 ## Open Science
 | **Name** | **Type** | **Agency / Provider** | **Description / Usage** |
 | --- | --- | --- | --- |
@@ -169,3 +163,9 @@ To protect the aging population, the city should establish accessible cooling ce
 
 ### Points of interest
 * OpenStreetMap contributors — hospitals, schools, elderly-care facilities, queried via Overpass API / osmnx
+
+## Contributors
+- Francesco Mezza — Coding and data processing
+- Sona Guliyeva — Project lead and supervision
+- Sophia Dolla — Theoretical framework
+- Filippos Kostikiadis — Theoretical framework
