@@ -13,8 +13,10 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Aristotle_University_of_Thessaloniki_logo.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Aristotle University of Thessaloniki" height="120" style="margin: 0 15px;"/>
 </p>
 
-## 
+## Introduction
+As extreme heat becomes a climate threat to European cities, we can no longer rely on simple weather forecasts to protect our most vulnerable citizens. That’s why we performed a dynamic, EO-based Thermal Risk Analysis for Turin. 
 
+Our index proves that heat vulnerability isn't just about the weather—it's a structural crisis driven by concrete and aging populations. This tool empowers city planners to pinpoint exact 'thermal traps', transforming broad climate goals into targeted, life-saving, actions exactly where they are needed most.
 
 ## Heat exposure and vulnerability
 Heat exposure refers to the presence of people, ecosystems, infrastructure or other assets in areas affected by excessive heat. It is influenced by temperature, humidity, wind, solar radiation and local geographical and urban characteristics. In urban areas, factors such as building materials, land cover, vegetation and the urban heat island (UHI) effect can create substantial spatial differences in heat exposure. 
