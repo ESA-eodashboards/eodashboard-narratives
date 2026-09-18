@@ -55,7 +55,7 @@ The team's methodology included the following steps and expected outcomes:
 
 **1. Data Retrieval & Anomaly Mapping**
 
-Selecting a time series over Turin between August 1-15, 2026 and retrieving Sentinel-3 Land Surface Temperature (LST) observations for both the heatwave and non-heatwave period to understand the temperature pattern.
+Selecting a time series over Turin between August 1-15, 2026 and retrieving Sentinel-3 Land Surface Temperature (LST) observations for the period to understand the temperature pattern.
 
 
 **2. Deriving Spatial Indicators**
@@ -70,7 +70,7 @@ Hazard, exposure, and vulnerability are the key drivers of physical climate risk
 
 The risk index ranges from 0-1, and is calculated based on: 
 
-- Surface heat (daily Sentinel-3 LST, clipped 15–42 °C)
+- Surface heat (nightly Sentinel-3 LST)
 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Nighttime%20LST%20Evolution%20-%20Turin%20Districts%20.png?raw=true" width="1000"/></p>
 
