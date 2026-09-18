@@ -125,6 +125,24 @@ To mitigate urban heat, the city must prioritize de-paving wide avenues and plan
 
 To protect the aging population, the city should establish accessible cooling centers and implement early warning systems. Additionally, deploying mobile health units and strengthening neighborhood networks will ensure isolated elderly residents stay safe during extreme heatwaves.
 
+## Contributors  - optional
+Francesco Mezza — Coding and data processing
+Sona Guliyeva — Project lead and supervision
+Sophia Dolla — Theoretical framework
+Filippos Kostikiadis — Theoretical framework
+
+## Open Science
+| **Name** | **Type** | **Agency / Provider** | **Description / Usage** |
+| --- | --- | --- | --- |
+| **[Sentinel-3 SLSTR L2 LST](https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-3-slstr/product-types/level-2-lst)** | Dataset | Copernicus / ESA | Daily (nighttime-pass) Land Surface Temperature, 1–15 Aug 2026 — the core heat-hazard layer of the index |
+| **Sentinel-2 MSI L2A (`COPERNICUS/S2_SR_HARMONIZED`)** | Dataset | Copernicus, via [Google Earth Engine](https://earthengine.google.com/) | Cloud-masked median composite used for NDVI/NDBI |
+| **[Imperviousness HRL 2024](https://land.copernicus.eu/en/products/high-resolution-layer-imperviousness)** | Dataset | Copernicus Land Monitoring Service | Soil sealing %, one of the 4 index components |
+| **[ThermalTrace](https://thermaltrace.climate.copernicus.eu/)** | Dataset / Tool | Copernicus C3S / ECMWF | ERA5 / UTCI daily temperature, used to select and corroborate the heatwave window |
+| **[Geoportale Piemonte](https://www.geoportale.piemonte.it/geonetwork/srv/api/records/c_l219:f71649ef-0855-4f16-abc6-9c6c0a4e4658)** | Dataset | Città di Torino open geodata (CC BY 4.0) | District boundaries, urban green areas, population by age and district |
+| **OpenStreetMap** | Dataset | OSM contributors, via Overpass API / [osmnx](https://osmnx.readthedocs.io/) | Hospitals, schools, elderly-care facility locations |
+| **[EO Dashboard](https://eodashboard.org/explore/?x=7.6869&y=45.0703&z=10.0000&datetime=2026-08-13&template=expert)** | Platform / Web Tool | EO Dashboard Consortium (ESA, NASA, JAXA) | Base layers and visualization tools for interactive exploration |
+
+
 ## References
 ### Earth Observation data
 * Sentinel-3 SLSTR Level-2 LST — Copernicus / ESA
