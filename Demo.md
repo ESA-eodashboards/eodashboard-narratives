@@ -19,7 +19,13 @@ The analysis focused on Nitrogen Dioxide, which is one of the compounds measured
 
 #### Nitrogen Dioxide
 
-Nitrogen Dioxide (NO<sub>2</sub>) is one of the Nitrogen Oxides (NOx) compounds together with Nitrogen Monoxide (NO). NO<sub>2</sub> comes from both natural and anthropogenic sources. Usually is emitted in small quantities from combustion processes (e.g. emissions from cars, trucks and buses, power plants, and off-road equipment) along with NO. NO<sub>2</sub> can also be formed by the oxidation of NO. This process is known as the first part of the NOx cycles, where NO<sub>2</sub> is produced from the interaction of NO with Ozone (O<sub>3</sub>), based on the following equation:
+Nitrogen Dioxide (NO<sub>2</sub>) is one of the Nitrogen Oxides (NOx) compounds together with Nitrogen Monoxide (NO). NO<sub>2</sub> comes from both natural and anthropogenic sources. Usually is emitted in small quantities from combustion processes (e.g. emissions from cars, trucks and buses, power plants, and off-road equipment) along with NO. 
+
+<div align="center">
+  <img src="https://aqicn.org/air/view/faq/images/no2-atmosphere/Simplified-cycle-of-NO-and-NO2.png?1">
+</div>
+
+NO<sub>2</sub> can also be formed by the oxidation of NO. This process is known as the first part of the NOx cycles, where NO<sub>2</sub> is produced from the interaction of NO with Ozone (O<sub>3</sub>), based on the following equation:
 
 NO+O<sub>3</sub>→ NO<sub>2</sub>+O<sub>2</sub>  (1)
 
@@ -33,7 +39,7 @@ The lifetime of NO<sub>2</sub> is short, oscillating from hours to days in the t
 
 #### Danger to health
 
-NO<sub>2</sub> is an important pollutant as its effects expand from human health to environment. Focusing on human health, it irritates airways in the human respiratory system, causing asthma, coughing, wheezing or difficulty breathing, affecting the children and the elderly more. 
+NO₂ is an important air pollutant because its effects extend from human health to the environment. From a health perspective, NO₂ exposure can irritate the airways and is associated with asthma symptoms, coughing, wheezing, and difficulty breathing. Children and older adults may be particularly susceptible, as older people more commonly have reduced lung function and pre-existing respiratory or cardiovascular conditions. Long-term exposure to NO₂ has also been associated with increased risks of hospital admission and premature mortality, although NO₂ often occurs alongside other traffic-related pollutants, making it difficult to isolate its independent effect. The European Environment Agency estimated that exposure to NO₂ concentrations above the World Health Organization annual guideline was attributable to approximately 34,000 deaths in the EU-27 in 2023. In densely populated areas, elevated exposure may therefore contribute to an increased demand for healthcare and emergency services.
 
 ## Challenge
 How can NO<sub>2</sub> exposure risk be assessed across an entire metropolitan area when ground-monitoring stations are expensive and too sparse to represent pollution variability in every neighbourhood?
@@ -75,8 +81,8 @@ Since 6 August 2019, NO₂ data are available with a spatial resolution of 3.5 x
 ## Methodology workflow
 The analysis focuses on the data from 01/10/2024 to 30/09/2025 over the metropolitan area of Milano.
 Since NO₂ is more problematic in winter than in summer, the study is divided in two periods:
-- hot months: from April to Semptember
-- cold months: from October to March
+- Hot months: from April to Semptember
+- Cold months: from October to March
 
 The analysis is further divided over different weekdays, providing a risk map for every day of the week (Monday, Tuesday ...) both for the hot and cold periods, which accounts for population density and age distribution.
 
@@ -84,7 +90,7 @@ The analysis is further divided over different weekdays, providing a risk map fo
 
 Milano province is divided into municipalities, called "comuni". Comune di Milano is the bigger one, which includes all the red area in the image below. To have a finer granularity we also considered the division in "quartieri", which are local areas inside the comune.
 
-![Administrative borders in Milano](https://res.cloudinary.com/dzxw0pvmr/image/upload/v1789654544/Immagine_17-09-26_-_14.31_np4hs2.png)
+![Pop.jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/75e7e06f830f0b358313ea92a7e852561f10f6ab/assets/SvevaZ/Pop-1789717175536.jpg)
 
 #### Population density and age distribution
 
@@ -204,6 +210,9 @@ The risk-priority maps show the value of combining satellite-derived NO<sub>2</s
 Hassaan, M.A., Abdallah, S.M., Shalaby, ES.A. et al. Assessing vulnerability of densely populated areas to air pollution using Sentinel-5P imageries: a case study of the Nile Delta, Egypt. Sci Rep 13, 17406 (2023). [https://doi.org/10.1038/s41598-023-44186-4](https://doi.org/10.1038/s41598-023-44186-4)
 
 European Environment Agency - Air pollution: [https://www.eea.europa.eu/en/topics/in-depth/air-pollution](https://www.eea.europa.eu/en/topics/in-depth/air-pollution)
+
+European Environment Agency - Mortality attributable to long-term exposure to NO2, 2023
+[https://www.eea.europa.eu/en/analysis/publications/harm-to-human-health-from-air-pollution-burden-of-disease-status-2025/mortality-attributable-exposure-no2](https://www.eea.europa.eu/en/analysis/publications/harm-to-human-health-from-air-pollution-burden-of-disease-status-2025/mortality-attributable-exposure-no2)
 
 S5P-PAL Data Portal: [https://data-portal.s5p-pal.com](https://data-portal.s5p-pal.com)
 
