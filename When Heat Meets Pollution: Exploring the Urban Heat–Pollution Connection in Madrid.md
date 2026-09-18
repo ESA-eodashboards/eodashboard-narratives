@@ -349,6 +349,7 @@ LST, air temperature, NO₂ and O₃ were matched by the same cell and date befo
 | July DAY | 0.291 | 0.305 | **+1.4 pp** |
 | July NIGHT | 0.361 | **0.455** | **+9.4 pp** |
 
+<p align="center"><em>**pp stands for percentage points</em></p>
 In January and during July daytime, adding NO₂ and O₃ improves the model only slightly.
 
 The main difference appears in **July nighttime**. The explained LST variability increases from **36.1% to 45.5%** when NO₂ and O₃ are added. This means that pollution patterns contain more additional spatial information during summer nights.
