@@ -25,7 +25,7 @@ Vulnerability describes the susceptibility of individuals or populations to adve
 
 Torino's geographic setting in the Po Valley basin creates a physical microclimate prone to atmospheric stagnation, weak ventilation, and pollutant entrapment. Enclosed by the Alpine arc to the west and north, the basin acts as a thermal trap during persistent heat domes. In the summer of 2026, as an African anticyclone pushed temperatures across Italy past 40°C, Turin's eight districts did not all suffer equally. A resident of a low-density neighborhood and a resident of a paved, high-density one lived through the same heatwave in very different modalities. 
 
-<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Torino%20sentinel.png?raw=true" width="600"/></p>
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Torino%20sentinel.png?raw=true" width="400"/></p>
 
 This study delivers a spatialized framework for mapping urban heat exposure and social vulnerability across Torino's administrative districts (circoscrizioni), linking satellite observations with climate analysis and demographic vulnerability. 
 
