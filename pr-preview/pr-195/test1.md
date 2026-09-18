@@ -155,13 +155,13 @@ At k = 6 and k = 9 the pattern does not change.
 <p align="center">
   <em>Figure X.Spatial distribution of the k = 6 clusters on the 100 m grid over the Milan and Monza-Brianza area.</em>
 </p>
+
 ![map_b0_k9.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e654446fd8d4b84c9b04b55db7aa398dd77d59ef/assets/martinolithomas-ui/mapb0k9-1789688920085.png)
 <p align="center">
   <em>Figure X.Spatial distribution of the k = 9 clusters on the 100 m grid over the Milan and Monza-Brianza area.</em>
 </p>
 The extra clusters mainly subdivide the built-up area into a dense core and less sealed surrounding zones and towns, while the agricultural south and the river corridors stay largely the same. Gaps within the study area are masked water bodies.
 
-!
 
 
 #### Preliminary comparison of clustering resolutions
