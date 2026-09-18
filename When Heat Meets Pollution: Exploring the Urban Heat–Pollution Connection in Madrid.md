@@ -294,63 +294,70 @@ The NO2–O3 relationship is strongly negative in all spatial cases, reaching va
 
 ### Simple spatial relationships with LST
 
-The simple regressions provide another view of how the controls on Madrid's surface temperature change with season and time of day. Air temperature is the strongest single atmospheric predictor in January daytime (`R² ≈ 0.17`) and January nighttime (`R² ≈ 0.19`). In July daytime, the spatial air-temperature field alone explains only about `5%` of LST variability, whereas at night the relationship becomes much stronger (`R² ≈ 0.32`).
+The simple regressions show that the relationship between LST and the other variables changes with season and time of day.
 
-For the pollution variables, the simple relationships are generally weaker during the day. The clearest bivariate pollution signal occurs in **July nighttime**, when NO₂ alone explains about `17%` of spatial LST variability and O₃ about `18%`. These percentages must not be added: NO₂ and O₃ share spatial information and are influenced by common meteorological and urban processes. The simple regressions are therefore a descriptive step before the multivariable analysis.
+Air temperature is the strongest atmospheric predictor in January, explaining about **17% of daytime** and **19% of nighttime** LST variability. In July, the relationship is weak during the day (`R² ≈ 0.05`) but much stronger at night (`R² ≈ 0.32`).
 
-### Vegetation and elevation: summer surface structure matters
+The pollution variables show weaker daytime relationships. The strongest simple pollution signal appears in **July nighttime**, when NO₂ explains about **17%** of LST variability and O₃ about **18%**. These values should not be added because NO₂ and O₃ partly describe the same spatial patterns.
 
-NDVI is a monthly surface descriptor and elevation is static, so it is more meaningful to relate them to a representative monthly LST than to interpret them as separate DAY/NIGHT variables. For each 1 km cell, all valid daytime LST observations were averaged across the month, all valid nighttime observations were averaged separately, and the two monthly summaries were then given equal weight.
+### Vegetation and elevation
 
-The simple spatial regressions show a clear seasonal strengthening of both relationships:
+NDVI and elevation were compared with a representative monthly LST, obtained by averaging the monthly daytime and nighttime LST values for each 1 km cell.
 
-| Predictor | January 2026 | July 2026 | Interpretation |
-|---|---:|---:|---|
-| **NDVI - Pearson r** | -0.271 | -0.481 | Greener cells tend to be cooler, especially in summer |
-| **NDVI - R²** | 0.073 | **0.231** | Vegetation explains much more of the summer spatial pattern |
-| **LST difference per +0.1 NDVI** | -0.29°C | **-0.91°C** | The fitted summer vegetation gradient is much stronger |
-| **Elevation - Pearson r** | -0.223 | -0.350 | Higher terrain tends to be cooler |
-| **Elevation - R²** | 0.050 | **0.123** | Topographic association also strengthens in July |
-| **LST difference per +100 m** | -0.42°C | **-0.61°C** | Negative elevation gradient in both months |
+| Predictor | January 2026 | July 2026 |
+|---|---:|---:|
+| **NDVI - Pearson r** | -0.271 | -0.481 |
+| **NDVI - R²** | 0.073 | **0.231** |
+| **LST change per +0.1 NDVI** | -0.29°C | **-0.91°C** |
+| **Elevation - Pearson r** | -0.223 | -0.350 |
+| **Elevation - R²** | 0.050 | **0.123** |
+| **LST change per +100 m** | -0.42°C | **-0.61°C** |
 
-The strongest surface result is the **July NDVI relationship**. NDVI alone explains about **23.1% of the spatial variability** in representative monthly LST, compared with only **7.3% in January**. A +0.1 difference in NDVI is associated with approximately **0.91°C lower LST in July**, versus about **0.29°C in January**. The stronger July relationship is compatible with a greater role for shading and evapotranspiration during intense summer solar heating.
+The clearest result is the **July NDVI relationship**. Greener areas tend to have lower LST, and the relationship is much stronger in summer. In July, NDVI alone explains about **23% of the spatial LST pattern**, compared with only **7% in January**.
 
-Elevation shows the same seasonal tendency, although its relationship is weaker than NDVI. A 100 m increase in elevation is associated with about **0.42°C lower LST in January** and **0.61°C lower LST in July**. Elevation alone explains about **12.3%** of the July spatial LST variation, compared with **5.0%** in January.
+Elevation shows a similar but weaker pattern. Higher areas are generally cooler, especially in July.
 
-#### Simple-regression figures
 
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/4397d81ad780cc21c1f91227eadcb68a00c0068f/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.19.03-1789684358349.jpeg" style="width: 48%;" />
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/133bf34e033fa16d2d6e55e69d3876b752ddc48b/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.19.06-1789684402666.jpeg" style="width: 48%;" />
+</div>
+
+Vegetation shows a much stronger relationship with surface temperature in summer. In January, NDVI explains about 7% of the spatial variation in representative LST, while in July this increases to about 23%. A +0.1 increase in NDVI is associated with around 0.29°C lower LST in January and about 0.91°C lower LST in July. The scatterplots also show a steeper negative relationship in July, suggesting that greener areas are more clearly associated with cooler surfaces during summer.
+
+Elevation shows the same seasonal tendency, although the relationship is weaker than for NDVI. Its explained variance increases from about 5% in January to 12% in July.
+<div style="display: flex; gap: 10px; flex-wrap: wrap;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/60b88ad1116638560fe5ada150aa0ba6032f9b7f/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.20.54-1789684433079.jpeg" style="width: 48%;" />
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/8b456053801a162507ab018e3da49ee50b631916/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.21.46-1789684480025.jpeg" style="width: 48%;" />
 </div>
 
-<p align="center"><em>Simple-regression figures summarising the seasonal relationships between representative LST, vegetation and topographic controls.</em></p>
+<p align="center"><em>Seasonal relationships between LST, vegetation and elevation.</em></p>
 
-### Multiple regression: does pollution add information beyond meteorology and surface controls?
+### Multiple regression: Does pollution add more information?
 
-Simple regressions cannot distinguish independent information from shared urban structure. A pollutant may correlate with LST because both are related to the same built-up areas, traffic corridors, elevation or atmospheric conditions. The multiple regression therefore compares a baseline model with a model that adds the two pollution variables.
+To understand whether pollution adds information beyond the main environmental controls, two models were compared:
 
 - **Baseline:** `LST ~ air temperature + NDVI + elevation`
 - **Full:** `LST ~ air temperature + NDVI + elevation + NO₂ + O₃`
 
-The dynamic variables were matched by **exact cell and date** before monthly spatial aggregation, ensuring that LST, air temperature, NO₂ and O₃ were summarised from the same valid observation dates.
+LST, air temperature, NO₂ and O₃ were matched by the same cell and date before the analysis.
 
-| Period | Cells | Baseline R² | Full R² | ΔR² from NO₂ + O₃ |
-|---|---:|---:|---:|---:|
-| January DAY | 2242 | 0.275 | 0.299 | **+0.024 (2.4 pp)** |
-| January NIGHT | 2268 | 0.307 | 0.320 | **+0.013 (1.3 pp)** |
-| July DAY | 2279 | 0.291 | 0.305 | **+0.014 (1.4 pp)** |
-| July NIGHT | 1766 | 0.361 | **0.455** | **+0.094 (9.4 pp)** |
+| Period | Baseline R² | Full R² | Added R² from NO₂ + O₃ |
+|---|---:|---:|---:|
+| January DAY | 0.275 | 0.299 | **+2.4 pp** |
+| January NIGHT | 0.307 | 0.320 | **+1.3 pp** |
+| July DAY | 0.291 | 0.305 | **+1.4 pp** |
+| July NIGHT | 0.361 | **0.455** | **+9.4 pp** |
 
-For **January daytime, January nighttime and July daytime**, adding NO₂ and O₃ increases explained variance by only about **1-2.4 percentage points**. The clear exception is **July nighttime**: the model rises from `R² = 0.361` to `R² = 0.455`. After accounting for air temperature, vegetation and elevation, the pollution fields therefore contain an additional **9.4 percentage points of spatial information** about where LST remains high at night.
+In January and during July daytime, adding NO₂ and O₃ improves the model only slightly.
 
-This is an **association**, not evidence that NO₂ or O₃ causes the additional warming. The added explanatory value may reflect common spatial patterns linked to urban density, retained heat, emissions, ventilation and nocturnal boundary-layer structure.
+The main difference appears in **July nighttime**. The explained LST variability increases from **36.1% to 45.5%** when NO₂ and O₃ are added. This means that pollution patterns contain more additional spatial information during summer nights.
 
-### Which variables matter after adjustment?
+This result shows an **association**, not a direct causal effect.
 
-Because the predictors use different physical units, **standardised regression coefficients (β*)** are more useful than raw slopes for comparing their relative strength within the same model.
+### Which variables matter most?
+
+Standardised coefficients help compare the importance of the different predictors.
 
 | Predictor | January DAY | January NIGHT | July DAY | July NIGHT |
 |---|---:|---:|---:|---:|
@@ -360,20 +367,37 @@ Because the predictors use different physical units, **standardised regression c
 | NO₂ | +0.063 | +0.265 | -0.153 | +0.271 |
 | O₃ | -0.117 | +0.206 | -0.043* | -0.163 |
 
-`*` The 95% confidence interval for O₃ in July daytime crosses zero, so its adjusted coefficient is not clearly different from zero in that model.
+`*` O₃ is not clearly significant in July daytime.
 
-The contrast between **July day and July night** is especially informative. During the day, NDVI is the dominant adjusted predictor (`β* = -0.512`), indicating lower LST in greener cells after the other variables are controlled. At night, the structure changes: air temperature becomes dominant (`β* = +0.522`), while NO₂ retains a positive adjusted association (`β* = +0.271`) and O₃ a negative one (`β* = -0.163`).
+The strongest contrast appears between **July day and July night**.
 
-January is more moderate. Air temperature remains the strongest positive predictor in both periods. January nighttime also shows moderate NO₂/O₃ multicollinearity, so the individual pollutant coefficients should be interpreted more cautiously than the combined contribution of the pollution block to model fit.
+During the day, **NDVI is the strongest predictor**, showing that greener areas are generally cooler.
 
-#### Multiple-regression figures
+At night, **air temperature becomes the strongest predictor**, while NO₂ also shows a positive relationship with LST.
 
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7cce28ec8659fbe30f9237070976b1ceaa6d857f/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.23.20-1789684514508.jpeg" style="width: 48%;" />
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/5b9b0d7e978f125f27a2184ed380a028ff5f413d/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.23.46-1789684533985.jpeg" style="width: 48%;" />
+Overall, the main controls on surface temperature change between day and night and between winter and summer.
+
+### How much does pollution add?
+<div style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7cce28ec8659fbe30f9237070976b1ceaa6d857f/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.23.20-1789684514508.jpeg"
+       style="width: 85%; max-width: 1100px;" />
+</div>
+<p align="center" style="color: #777; font-size: 0.85em;">
+  Comparison between the baseline model and the full model including NO₂ and O₃. The largest improvement is found during July nighttime.
+</p>
+
+The baseline model includes air temperature, NDVI and elevation. When NO₂ and O₃ are added, the improvement is small in January and during July daytime. The main difference appears in July nighttime, when the explained LST variability increases from about 36% to 46%. This means that pollution patterns provide much more additional information about nighttime summer LST than in the other periods.
+
+<div style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/5b9b0d7e978f125f27a2184ed380a028ff5f413d/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.23.46-1789684533985.jpeg"
+       style="width: 85%; max-width: 1100px;" />
 </div>
 
-<p align="center"><em>Matched-date multiple-regression summaries. The key comparison is the added explanatory value of NO₂ and O₃ and the shift in dominant standardised predictors between July daytime and nighttime.</em></p>
+The standardized coefficients show that the main drivers of LST change with season and time of day. In July daytime, NDVI has the strongest negative relationship with LST, meaning that greener areas tend to be cooler. In July nighttime, air temperature becomes the strongest predictor, while NO₂ also shows a positive relationship with LST. In January, air temperature remains the strongest positive predictor in both day and night.
+
+<p align="center" style="color: #777; font-size: 0.85em;">
+  Standardized regression coefficients for the full model. Positive values indicate a positive relationship with LST, while negative values indicate a negative relationship.
+</p>
 
 ### What the combined results tell us
 
@@ -381,35 +405,14 @@ Taken together, the results describe two different summer regimes. During **July
 
 The spatial-correlation analysis points in the same direction. The strongest positive temperature-NO₂ and LST-NO₂ overlap occurs in the summer evening case, while the multiple regression shows that the pollution block retains the largest added explanatory value in July NIGHT. These are related but not identical analyses because the time windows and matching rules differ; together they indicate that the **summer evening/night period is the clearest part of the dataset for joint heat-pollution spatial structure**.
 
-## Discussion
 
-### Madrid's heat story is also a time-of-day story
-
-External studies already show why Madrid deserves close attention. Arup's urban-heat comparison identified Madrid as an extreme heat-island case and highlighted evening exposure, while ESA's June 2026 Sentinel-3 observation illustrates the intensity of the surface heat environment immediately before the July study period. Our analysis does not reproduce those studies directly, but it places the January-July comparison in a broader context of documented heat vulnerability.
-
-The July results reinforce the importance of vegetation. The much stronger negative NDVI-LST relationship in summer is consistent with the physical role of green surfaces in moderating daytime heating through shading and evapotranspiration. The analysis does not isolate individual parks or interventions, but the spatial pattern is compatible with the broader expectation that greener surfaces are often cooler than densely built ones under strong solar forcing.
-
-### Why does the pollution signal become clearer in summer evening/night conditions?
-
-At night, solar forcing disappears and differences in stored heat release, atmospheric stability and urban ventilation become more important. A shallower nocturnal boundary layer can reduce pollutant dispersion while heat stored in buildings and paved surfaces continues to be released. These processes can make heat and pollution patterns more spatially aligned even if pollution itself is not the cause of the heat.
-
-The July-night multiple regression is therefore best interpreted as evidence of **shared spatial structure**. After controlling for air temperature, vegetation and elevation, NO₂ and O₃ still contain information associated with where LST remains high at night. The analysis cannot determine whether this arises from emissions, urban density, atmospheric stability, urban form not explicitly represented in the model, or other covarying processes.
-
-### NO₂ and O₃ should be interpreted together
-
-NO₂ and O₃ are chemically and meteorologically linked. Their strong negative correlations in the exploratory spatial analysis and the moderate multicollinearity seen in the January-night regression show that they are not independent urban tracers. For this reason, the **combined change in model R² after adding both pollutants** is more robust for the narrative than treating each individual coefficient as a separate causal effect.
 
 ### Limitations
 
-This is an exploratory **two-month case study**, not a climatology. January and July capture contrasting seasonal conditions but cannot represent interannual variability, the full annual cycle, or the diversity of individual heatwave and pollution episodes. A stronger follow-up study should include multiple years and several warm-season events.
+This is an exploratory **two-month case study**. January and July capture contrasting seasonal conditions but cannot represent interannual variability, the full annual cycle, or the diversity of individual heatwave and pollution episodes. A stronger follow-up study should include multiple years and several warm-season events.
 
 The datasets also operate at different physical scales. Sentinel-3 LST is close to the 1 km analysis grid, whereas ERA5 and especially CAMS atmospheric fields are much coarser. Interpolating them to 1 km improves co-registration but does not create independent 1 km atmospheric observations. Spatial smoothing and spatial autocorrelation among neighbouring cells mean that formal statistical significance can overstate the effective amount of independent information.
 
-Cloud cover is another limitation because thermal-infrared LST is unavailable beneath clouds. The number of valid LST observations therefore varies by grid cell and period. **July nighttime is the sparsest multiple-regression case, with a median of only three matched LST dates per cell**, so its strong result should be interpreted together with that sampling limitation.
-
-The exploratory spatial-correlation figure and the regression workflow also use slightly different time-window definitions. Their agreement in identifying stronger summer evening/night relationships is informative, but the exact correlation coefficients should not be directly substituted into the regression interpretation.
-
-Finally, the study is observational. Correlation and regression identify associations and shared spatial structure, not causal mechanisms.
 
 ## Conclusions
 
@@ -421,9 +424,7 @@ These findings do not imply that pollution causes urban surface warming. Instead
 
 The combined Earth-observation perspective is therefore more informative than any single layer. Sentinel-3 shows where surfaces are hot, ERA5 describes the atmospheric thermal background, Sentinel-5P and CAMS provide complementary views of atmospheric composition, Sentinel-2 reveals vegetation patterns, and the DEM separates part of the topographic signal. Together, they offer a reproducible framework for identifying places where heat and poor-air-quality conditions may coincide and for motivating more detailed neighbourhood-scale studies.
 
-## Open Science
-
-This workflow is built around openly accessible Earth-observation and Copernicus data and can be reproduced for other cities. Reproducibility would be strengthened by publishing the preprocessing and statistical scripts together with the common-grid definition, quality-control rules and metadata for each derived product.
+## Future work
 
 Future work should extend the analysis to more years and heat events, incorporate higher-resolution urban-form information and in-situ air-quality and meteorological stations, and use spatial statistical models that explicitly account for autocorrelation. Comparing satellite/reanalysis results with neighbourhood-scale measurements would also help distinguish physically resolved local variability from patterns inherited from coarser atmospheric products.
 
