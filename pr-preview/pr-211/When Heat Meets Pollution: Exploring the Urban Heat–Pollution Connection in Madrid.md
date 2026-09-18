@@ -437,7 +437,9 @@ By combining Sentinel-3, ERA5, CAMS, Sentinel-2 and elevation data, the analysis
 Future work should extend the analysis to **more months, multiple years and additional heatwave events**, in order to test whether the observed patterns remain consistent under different meteorological conditions.
 
 A key next step is to integrate the **Sentinel-5P Level-3 NO₂ dataset** into the statistical analysis. Level-3 NO₂ maps have already been produced for Madrid, but they were not yet included in the regression workflow used here. Their integration would allow a more direct comparison between satellite-observed NO₂ patterns and the current CAMS-based results.
+![NO2_monthly_mean_January_Madrid_ESRI.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/6fc9c7d11ae71366d7aa7498b69763d09d41ad68/assets/NikolinaZallemi/NO2monthlymeanJanuaryMadridESRI-1789717750419.png)
 
+![NO2_monthly_mean_July_Madrid_ESRI.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/20edab8a0e96c2596e04001bf739797a67573e82/assets/NikolinaZallemi/NO2monthlymeanJulyMadridESRI-1789717794026.png)
 Future developments should also include higher-resolution urban information, such as built-up density or local climate zones, together with in-situ air-quality and meteorological stations. Comparing satellite and reanalysis products with ground observations would help assess how well the observed spatial patterns represent neighbourhood-scale conditions.
 
 Spatial statistical methods that explicitly account for spatial autocorrelation could also improve the robustness of the analysis.
