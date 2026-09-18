@@ -13,12 +13,16 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Aristotle_University_of_Thessaloniki_logo.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Aristotle University of Thessaloniki" height="120" style="margin: 0 15px;"/>
 </p>
 
+## 
+
 ## Heat exposure and vulnerability
 Heat exposure refers to the presence of people, ecosystems, infrastructure or other assets in areas affected by excessive heat. It is influenced by temperature, humidity, wind, solar radiation and local geographical and urban characteristics. In urban areas, factors such as building materials, land cover, vegetation and the urban heat island (UHI) effect can create substantial spatial differences in heat exposure. 
 
 Vulnerability describes the susceptibility of individuals or populations to adverse effects from heat. It is influenced by physiological, demographic, social and socioeconomic factors, as well as housing conditions and access to cooling, healthcare and other essential services. Certain groups, such as older adults, children and outdoor workers, may be particularly susceptible to heat-related impacts. 
 
-Torino's geographic setting in the Po Valley basin creates a physical microclimate prone to atmospheric stagnation, weak ventilation, and pollutant entrapment. Enclosed by the Alpine arc to the west and north, the basin acts as a thermal trap during persistent synoptic heat domes. When extreme heatwaves occur, these topographies exacerbate thermal retention across dense urban fabric. This study delivers a spatialized framework for mapping urban heat exposure and social vulnerability across Torino's administrative districts (circoscrizioni), linking satellite observations with climate analysis and demographic vulnerability. 
+Torino's geographic setting in the Po Valley basin creates a physical microclimate prone to atmospheric stagnation, weak ventilation, and pollutant entrapment. Enclosed by the Alpine arc to the west and north, the basin acts as a thermal trap during persistent synoptic heat domes. In the summer of 2026, as an African anticyclone pushed temperatures across Italy past 40°C, Turin's eight districts did not all suffer equally. A resident of a low-density neighborhood and a resident of a paved, high-density one lived through the same heatwave in very different modalities. 
+
+This study delivers a spatialized framework for mapping urban heat exposure and social vulnerability across Torino's administrative districts (circoscrizioni), linking satellite observations with climate analysis and demographic vulnerability. 
 
 According to the climate risk framework, risk results from the interaction between hazard, exposure and vulnerability. Thus, a heatwave represents the hazard, while heat exposure and vulnerability determine how strongly individuals and populations may be affected.
 
@@ -77,7 +81,7 @@ The risk index ranges from 0-1, and is calculated based on:
 
 The risk index is therefore calculated as the average of all of these factors (each one normalized between 0-1).
 
-## Satellite View of Turin <!--{ as="eox-map" mode="tour" position="right" }-->
+## Analysis <!--{ as="eox-map" mode="tour" position="right" }-->
 
 ### <!--{ zoom=11 center=[7.6869,45.0703] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}},{"type":"Tile","properties":{"id":"heat-index-overlay"},"url":"https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/06_heat_exposure_index_map.png?raw=true"}]' animationOptions='{"duration":500}' }-->
 #### Turin Overview
