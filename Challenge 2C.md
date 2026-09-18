@@ -42,7 +42,7 @@ Europe. The contained datasets offer valuable insights for a variety of domains 
 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Torino%20-%20Imperviousness%202024.png?raw=true" width="400"/></p>
 
-- **District and Popolation Data (Municipality of Torino)**: Vector files to define the official administrative boundaries of the city (the 8 "circoscrizioni" or districts) and the number and age of the inhabitants in each district. They were used to aggregate the raster data and calculate statistics for each one. People aged 65 years or older are more at risk during extreme heat due to physiological changes associated with aging.
+- **District and Population Data (Municipality of Torino)**: Vector files to define the official administrative boundaries of the city (the 8 "circoscrizioni" or districts) and the number and age of the inhabitants in each district. They were used to aggregate the raster data and calculate statistics for each one. People aged 65 years or older are more at risk during extreme heat due to physiological changes associated with aging.
 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Vulnerability%20Map%20%20Over%2065%20by%20District%20(Turin).png?raw=true" width="400"/></p>
 
