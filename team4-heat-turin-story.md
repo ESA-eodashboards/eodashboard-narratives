@@ -125,7 +125,7 @@ Access the notebook to reproduce the study workflow.
 - [Geoportale Piemonte catalog record](https://www.geoportale.piemonte.it/geonetwork/srv/api/records/c_l219:f71649ef-0855-4f16-abc6-9c6c0a4e4658), Città di Torino open geodata, licensed CC BY 4.0
 - OpenStreetMap contributors, queried via [Overpass API](https://overpass-api.de/) and [osmnx](https://osmnx.readthedocs.io/)
 
-## Contributors
+## Contributors  - optional
 Francesco Mezza — Coding & data processing
 Sona Guliyeva — Project lead
 Sophia Dolla — **[FILL IN — role]**
