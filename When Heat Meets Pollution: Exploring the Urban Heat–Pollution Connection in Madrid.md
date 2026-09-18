@@ -171,7 +171,7 @@ The main multiple-regression quantity is:
 
 It measures how much additional spatial LST variance is associated with adding NO₂ and O₃ after air temperature, NDVI and elevation are already included.
 
-## Results
+## Data Analysis
 
 ### Land Surface Temperature: Madrid changes character between winter and summer
 
@@ -241,6 +241,7 @@ O₃ adds a complementary view of Madrid's atmospheric chemistry. Unlike NO₂, 
 
 <p align="center"><em>Seasonal and diurnal shifts in O₃ over Madrid.</em></p>
 
+## Results
 ### Air temperature: The atmospheric background to surface heating
 
  Although air and surface temperatures are related, they are not equivalent: surface temperature responds directly to solar radiation, material properties, moisture and shading, while near-surface air temperature is mixed through the lower atmosphere.
@@ -259,7 +260,7 @@ Interestingly, the July late-evening mean is slightly higher than the late-morni
 
 July presents a very different thermal regime, characterized by persistently high temperatures and relatively limited nighttime cooling. Mean air temperature was about 28.96 °C during the daytime window and 29.66 °C during the late-evening/nighttime window. The warmest periods occurred during the first third of the month and again around 21–23 July and at the end of July, when spatial mean temperatures exceeded 31–32 °C. In contrast, a pronounced cooler episode occurred around 25–26 July, when the spatial mean temporarily dropped to approximately 23–24 °C before rapidly increasing again. The relatively high nighttime values indicate that warm atmospheric conditions often persisted well into the evening during July.
 
-### Air temperature, NO₂ and O₃ correlation
+### Temporal co-variability of air temperature, NO₂ and O₃
 
 The atmospheric correlation plots illustrate why season and time of day must be treated separately. Air temperature, NO₂ and O₃ do not move in lockstep: atmospheric stability, mixing, emissions and photochemistry alter their relationships. In particular, NO₂ and O₃ can carry overlapping or opposing information, so their individual simple-regression slopes should not be interpreted as isolated physical effects.
 
@@ -270,18 +271,22 @@ The atmospheric correlation plots illustrate why season and time of day must be 
 ![July_2026_DAY_temperature_NO2_O3.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/c62611a1d7f80f0483996e0a6888a2a06ee7be77/assets/vittorez/July2026DAYtemperatureNO2O3-1789665645694.png)
 
 ![July_2026_NIGHT_temperature_NO2_O3.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/a364361583f954148f83f25bd6d0e2e19f31f984/assets/vittorez/July2026NIGHTtemperatureNO2O3-1789665686005.png)
+<p align="center" style="color: #777; font-size: 0.85em;">
+  Daily co-variability of ERA5 2-m air temperature, NO₂ and O₃ over Madrid in January and July 2026 for the selected daytime and nighttime windows.
+</p>
 
+The joint time series reveal a seasonal shift in Madrid’s atmospheric conditions. In January, near-surface air temperatures are low, while NO₂ concentrations are generally higher and O₃ concentrations lower than in July. This is consistent with winter conditions, when a shallower and more stable boundary layer can limit atmospheric mixing and favour the accumulation of locally emitted NO₂. During summer, the opposite seasonal pattern emerges: NO₂ concentrations are lower, while O₃ reaches much higher levels, reflecting stronger photochemical activity under warm and sunny conditions.
+
+The day–night comparison also shows that the three variables do not evolve independently. In January, NO₂ tends to be higher at night than during the daytime, while O₃ often varies in the opposite direction, which is consistent with the coupled NOₓ–O₃ chemistry and changing boundary-layer conditions. In July, NO₂ remains comparatively low throughout the month, whereas O₃ stays persistently elevated. Air temperature shows pronounced warm and cool episodes, and these meteorological variations provide an important background for interpreting changes in pollutant concentrations.
 ### Spatial correlations: Where do heat and pollution overlap?
 
-The spatial-correlation analysis indicates that warmer parts of Madrid generally tend to coincide with higher NO₂ concentrations, but the strength of the relationship depends strongly on season and time window.
+For ERA5-NO2, the strongest spatial association is found in July evening (21:00-23:00), with Pearson equal to 0.69 and Spearman equal to 0.67, based on 94% of valid cells. A similarly strong relationship is observed in January evening, with Pearson 0.64 and Spearman equal to 0.67. During the morning, the relationship is weaker but still positive, especially in July (r = 0.40, ρ = 0.41).
 
-For **ERA5 air temperature versus NO₂**, the strongest spatial association in the correlation product occurs in the **July evening window (21:00-23:00)**, with **Pearson r = 0.69** and **Spearman ρ = 0.67**, based on about **94% of valid cells**. A similarly strong relationship is seen in January evening (**r = 0.64, ρ = 0.67**). During the morning/daytime comparison, the relationship is weaker but remains positive, particularly in July (**r = 0.40, ρ = 0.41**).
+For LST-NO2, the clearest result occurs in July evening, with r equal to 0.48 and ρ equal to 0.49, although the valid-cell coverage is lower (73%). In January morning, the relationship is also moderate (r = 0.41, ρ = 0.45), while the January evening case is weak and slightly negative.
 
-For **LST versus NO₂**, the clearest result again appears in the **July evening** case, with **r = 0.48** and **ρ = 0.49**, although valid-cell coverage is lower at about **73%**. January daytime/morning shows a moderate positive relationship (**r = 0.41, ρ = 0.45**), while the January evening relationship is weak and slightly negative.
+Overall, these results suggest that urban heat islands and NO2 hotspots partially overlap spatially, likely because they are influenced by common urban factors such as dense built-up areas, traffic emissions, and reduced ventilation, rather than because temperature directly causes higher NO2.
+The NO2–O3 relationship is strongly negative in all spatial cases, reaching values close to -0.9 to -1.0, which is physically consistent with NOX-O3 chemistry and supports the overall coherence of the spatial patterns.
 
-Overall, these results indicate that urban heat and NO₂ hotspots **partially overlap spatially**, particularly under summer evening conditions. This overlap is more plausibly interpreted as the imprint of common urban controls - dense built-up areas, traffic activity, heat storage and reduced ventilation - than as evidence that temperature directly causes higher NO₂.
-
-The **NO₂-O₃ relationship is strongly negative** across the spatial cases, reaching values close to -0.9 to -1.0 in the correlation product. This is consistent with the coupled chemistry of NOx and ozone and reinforces the need to interpret the two pollutants together rather than independently.
 
 ![Spatial correlations - January and July](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/eda403b0143816867713b5a5cd7d33ac4dce016b/assets/vittorez/spatialcorrelationsjanuaryjulycombined-1-1789682024434.png)
 
