@@ -116,7 +116,7 @@ We first compared the three solutions in PCA feature space. The first two princi
 
 All three solutions show a similar overall structure. Rather than forming several completely separated groups, the data follow a relatively continuous environmental gradient. Moving from the left to the right side of the PCA space broadly corresponds to a transition from more vegetated and less built-up surfaces towards more built-up and warmer urban environments.
 
-With **k = 4**, this continuous gradient is divided into four broad regions, producing the simplest clustering structure. <br> With **k = 6**, some of these broader regions are further subdivided, particularly within intermediate built-up and transitional environments. With **k = 9**, the same gradient is divided into finer groups, revealing more local differences.
+With **k = 4**, this continuous gradient is divided into four broad regions, producing the simplest clustering structure. <br> With **k = 6**, some of these broader regions are further subdivided, particularly within intermediate built-up and transitional environments.<br> With **k = 9**, the same gradient is divided into finer groups, revealing more local differences.
 
 Overall, increasing k does not substantially change the underlying structure of the data, but progressively provides a finer subdivision of the same environmental gradient.
 #### Cluster profiles and environmental characteristics
