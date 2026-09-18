@@ -401,32 +401,46 @@ The standardized coefficients show that the main drivers of LST change with seas
 
 ### What the combined results tell us
 
-Taken together, the results describe two different summer regimes. During **July daytime**, the strongest spatial contrast is a surface one: vegetation is closely associated with lower LST, and pollution adds relatively little once vegetation, elevation and air temperature are considered. During **July nighttime**, the explanatory structure becomes more atmospheric: air temperature is the dominant predictor, and the pollution block adds substantially more information than in any other analysed period.
+The results show a clear difference between summer day and night.
 
-The spatial-correlation analysis points in the same direction. The strongest positive temperature-NO₂ and LST-NO₂ overlap occurs in the summer evening case, while the multiple regression shows that the pollution block retains the largest added explanatory value in July NIGHT. These are related but not identical analyses because the time windows and matching rules differ; together they indicate that the **summer evening/night period is the clearest part of the dataset for joint heat-pollution spatial structure**.
+During **July daytime**, vegetation is the main factor linked to surface temperature: greener areas are cooler, while adding NO₂ and O₃ only slightly improves the model.
 
+During **July nighttime**, the pattern changes. Air temperature becomes the strongest predictor, and the pollution variables add much more information than in the other periods. The spatial-correlation analysis supports this result, with the strongest heat–NO₂ overlap also appearing during the summer evening/night period.
+
+Together, these results suggest that **summer nighttime is the clearest period for the joint spatial pattern of heat and air pollution in Madrid**.
 
 
 ### Limitations
 
-This is an exploratory **two-month case study**. January and July capture contrasting seasonal conditions but cannot represent interannual variability, the full annual cycle, or the diversity of individual heatwave and pollution episodes. A stronger follow-up study should include multiple years and several warm-season events.
+This study is based on only **January and July 2026**, so it represents an exploratory comparison between winter and summer rather than the full annual cycle. More months, more years and additional heatwave periods would be needed to test whether the same patterns occur consistently.
 
-The datasets also operate at different physical scales. Sentinel-3 LST is close to the 1 km analysis grid, whereas ERA5 and especially CAMS atmospheric fields are much coarser. Interpolating them to 1 km improves co-registration but does not create independent 1 km atmospheric observations. Spatial smoothing and spatial autocorrelation among neighbouring cells mean that formal statistical significance can overstate the effective amount of independent information.
+The datasets also have different spatial resolutions. Sentinel-3 LST is close to the 1 km analysis grid, while ERA5 and CAMS are much coarser. Resampling these datasets to 1 km allows them to be compared on the same grid, but it does not create new high-resolution atmospheric information.
+
+Cloud cover and satellite availability also reduce the number of valid LST observations, especially for some nighttime periods. In addition, neighbouring grid cells are not fully independent, so the statistical results should be interpreted mainly in terms of spatial patterns and associations.
 
 
 ## Conclusions
 
-Madrid's heat-air-quality relationship is strongly dependent on **season and time of day**. The clearest daytime summer signal is vegetation: NDVI explains about **23%** of the spatial variability in representative July LST in the simple regression, and it remains the strongest standardised predictor in the July daytime multiple model.
+The relationship between urban heat and air quality in Madrid changes with **season and time of day**.
 
-The atmospheric picture becomes more important after sunset. In **July nighttime**, adding NO₂ and O₃ to a model already containing air temperature, NDVI and elevation raises the explained spatial LST variance from **36.1% to 45.5%**, an increase of **9.4 percentage points**. The complementary spatial-correlation analysis also shows its strongest temperature-NO₂ and LST-NO₂ overlap in the summer evening case.
+During **July daytime**, vegetation shows the clearest relationship with surface temperature. NDVI explains about **23% of the spatial variability in representative July LST**, and greener areas are consistently associated with cooler surfaces.
 
-These findings do not imply that pollution causes urban surface warming. Instead, they show that **heat retention and atmospheric-composition patterns can share the same urban geography**, particularly under summer evening/night conditions. Dense built-up structure, traffic activity, reduced ventilation, atmospheric stability and stored heat may all contribute to that overlap.
+At **July nighttime**, atmospheric conditions become more important. Adding NO₂ and O₃ to a model already including air temperature, NDVI and elevation increases the explained LST variability from **36.1% to 45.5%**, corresponding to an additional **9.4 percentage points**.
 
-The combined Earth-observation perspective is therefore more informative than any single layer. Sentinel-3 shows where surfaces are hot, ERA5 describes the atmospheric thermal background, Sentinel-5P and CAMS provide complementary views of atmospheric composition, Sentinel-2 reveals vegetation patterns, and the DEM separates part of the topographic signal. Together, they offer a reproducible framework for identifying places where heat and poor-air-quality conditions may coincide and for motivating more detailed neighbourhood-scale studies.
+These results do not mean that pollution directly causes higher surface temperature. Instead, heat and pollution can share the same urban spatial patterns because they are both influenced by factors such as dense built-up areas, traffic, limited ventilation and heat stored during the day.
+
+By combining Sentinel-3, ERA5, CAMS, Sentinel-2 and elevation data, the analysis provides a broader view of where thermal and air-quality pressures may overlap across Madrid.
+
 
 ## Future work
 
-Future work should extend the analysis to more years and heat events, incorporate higher-resolution urban-form information and in-situ air-quality and meteorological stations, and use spatial statistical models that explicitly account for autocorrelation. Comparing satellite/reanalysis results with neighbourhood-scale measurements would also help distinguish physically resolved local variability from patterns inherited from coarser atmospheric products.
+Future work should extend the analysis to **more months, multiple years and additional heatwave events**, in order to test whether the observed patterns remain consistent under different meteorological conditions.
+
+A key next step is to integrate the **Sentinel-5P Level-3 NO₂ dataset** into the statistical analysis. Level-3 NO₂ maps have already been produced for Madrid, but they were not yet included in the regression workflow used here. Their integration would allow a more direct comparison between satellite-observed NO₂ patterns and the current CAMS-based results.
+
+Future developments should also include higher-resolution urban information, such as built-up density or local climate zones, together with in-situ air-quality and meteorological stations. Comparing satellite and reanalysis products with ground observations would help assess how well the observed spatial patterns represent neighbourhood-scale conditions.
+
+Spatial statistical methods that explicitly account for spatial autocorrelation could also improve the robustness of the analysis.
 
 ## References
 
