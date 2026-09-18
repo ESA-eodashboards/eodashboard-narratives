@@ -33,8 +33,6 @@ This cycle continues with the dissolution of NO2 via photolysis which is one of 
 
 NO<sub>2</sub>+hv→NO+O (2)
 
-Even though this process seems effective for removing the NO2 from the atmosphere, improving the air quality, it creates secondary problems, such as acid rain shifting the problem form the atmosphere to the ground.
-
 The lifetime of NO<sub>2</sub> is short, oscillating from hours to days in the troposphere. During the day, the concertration is lower as it is removed by the process of photolysis.  NO<sub>2</sub> has also seasonal behavior, in which the concentration is high in the winter period where there is a reduced amount of solar radiation. In this case NO<sub>2</sub> has a lifetime of 1 – 3 days, indicating much more atmospheric pollution at that time. 
 
 #### Danger to health
