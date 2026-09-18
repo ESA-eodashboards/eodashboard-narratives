@@ -1,4 +1,4 @@
-# Air pollution risk mapping with Sentinel-5P and socio-environmental indicators/Challenge <!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2021/08/monitoring_air_quality/23426746-1-eng-GB/Monitoring_air_quality_pillars.jpg" }-->
+# Air pollution risk mapping with Sentinel-5P and socio-environmental indicators <!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2021/08/monitoring_air_quality/23426746-1-eng-GB/Monitoring_air_quality_pillars.jpg" }-->
 #### 
 
 ## Authors: Afshin Moazzam¹, Haipeng Zhu¹, Sveva Zanetti¹, Zacharias Lagouros² and Zoi Giakati²
@@ -46,7 +46,6 @@ NO<sub>2</sub> changes rapidly over space and time because of traffic, heating, 
 
 ## Objective
 To provide decision-makers with a practical basis for prioritising the most vulnerable locations in large cities, this study exploits the potential of Sentinel-5P/TROPOMI data to develop a spatial NO<sub>2</sub> risk-priority map for the Metropolitan Area of Milan. TROPOMI is particularly valuable because it was designed to monitor atmospheric composition at high spatial, temporal, and spectral resolution, providing observations of NO<sub>2</sub> and other trace gases across a wide 2,600 km swath. Its near-daily coverage and approximately 3.5 × 5.5 km² NO<sub>2</sub> ground-pixel resolution since August 2019 make it possible to analyse pollution patterns consistently across an entire metropolitan region—an extent that would be difficult and costly to represent using ground-monitoring stations alone. By combining satellite-derived tropospheric NO<sub>2</sub> patterns with demographic data, the study identifies areas where environmental hazard and population vulnerability overlap. The resulting map is intended as a relative spatial prioritisation tool that can support targeted monitoring, emission-reduction measures, mobility policies, and interventions aimed at reducing the risk of exposure for more vulnerable urban residents.
- 
 
 ## Data and Methods
 #### Dataset
@@ -54,6 +53,11 @@ To provide decision-makers with a practical basis for prioritising the most vuln
 ###### Sentinel-5P TROPOMI NO₂ Data
 
 The main dataset we used is Sentinel-5P TROPOMI data, and in particular NO₂ measurements, available in the Copernicus Dataspace portal: https://dataspace.copernicus.eu/
+
+<div align="center">
+  <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2017/06/sentinel-5p/17040704-2-eng-GB/Sentinel-5P_pillars.jpg" alt="Sentinel-5P">
+  <figcaption>Sentinel-5P satellite</figcaption>
+</div>
 
 The TROPOspheric Monitoring Instrument (TROPOMI) is a passive grating spectrometer that provides daily global coverage. The satellite operates in a sun-synchronous orbit with an equator-crossing time of approximately 13:30 local solar time and an orbital period of about 101.5 minutes. Combined with a wide swath width of 2,600 km, this temporal resolution ensures near-daily observations for most locations worldwide.  
 
@@ -108,6 +112,11 @@ Sentinel-5P/TROPOMI Level-2 NO₂ files from 1 September 2024 to 31 December 202
 #### Ground station NO₂ data
 Regione Lombardia provides hourly NO₂ data from a network of ground station. A first dataset contains sensor measurement, and the stationID links these observations to the station catalogue, which provides the coordinates and other metadata.
 
+<figure align="center">
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/13f5fb426d58b21d01f1917970c7274ae3dfd922/assets/SvevaZ/Immagine-17-09-26---23.32-1789680859623.png" alt="Ground stations">
+  <figcaption>Lombardy NO₂ ground stations. Credits: https://www.arpalombardia.it/temi-ambientali/aria/stazioni-fisse/ </figcaption>
+</figure>
+
 #### Sentinel-5P image validation with ground-station
 Observations from nine ground stations provide the reference measurements for calibration. The two datasets describe different quantities: ground stations measure surface NO₂ concentration in µg/m³, whereas the satellite measures the tropospheric NO₂ column.
  
@@ -115,7 +124,7 @@ Connecting these measurements requires alignment in both time and space. The mid
  
 For spatial alignment, each station is linked to the mean of the surrounding 3×3 cells. This step produce a paired dataset in which each row links one station and one satellite orbit, with the corresponding ground concentration and satellite column value.
  
-The plot below show that the data have the same trend over the period, confirming that Sentinel-5P TROPOMI NO₂ measurements can be used since they are strongly correlated to ground measurements
+The obtained R2 value is 0.76 and the plot below show that the data have the same trend over the period, confirming that Sentinel-5P TROPOMI NO₂ measurements can be used since they are strongly correlated to ground measurements
 
 ![01_raw_comparison_5549_satellite_center 2.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/4c3d60a6e1c8fb893dfada2cf47e0d2e4e8171a9/assets/SvevaZ/01rawcomparison5549satellitecenter-2-1789656316615.png)
 
@@ -166,7 +175,9 @@ Risk<sub>i,t</sub> = 0.50¯H<sub>i,t</sub> + 0.30E<sub>i</sub> + 0.20¯D<sub>i</
 The largest weight was assigned to NO<sub>2</sub> because it is the direct environmental hazard, while the elderly share received the second-largest weight. Population density was given a lower weight as an indirect proxy. It should be interpreted as a **relative spatial prioritization indicator**.
 
 ## Results
-The results below show the risk map for each day of the week, divided by cold days (left column) and hot days (right column)
+The results below show the risk map for each day of the week, divided by cold days and hot days.
+
+![milan_risk_maps_14_scenarios_story.gif](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/508bc3b8187a095478d6e6aca2887c2c3dfbbb03/assets/SvevaZ/milanriskmaps14scenariosstory-1789715661580.gif)
 
 ![block1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7f439238b0833c4ef947498ed0e10355fc5b580e/assets/SvevaZ/block1-1789675271217.png)
 ![block2.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/626c62a9c7c9c451b643b311e890fed1f9619599/assets/SvevaZ/block2-1789675283568.png)
@@ -192,7 +203,6 @@ Despite these challenges, Sentinel-5P/TROPOMI offers important advantages for ur
 The risk-priority maps show the value of combining satellite-derived NO<sub>2</sub> information with population density and the proportion of vulnerable residents. The resulting index should be interpreted as a relative spatial prioritisation tool rather than as a direct estimate of personal exposure or a substitute for regulatory ground stations. Nevertheless, it can help identify populated urban locations where elevated pollution patterns overlap with a higher concentration of potentially vulnerable residents. This information can support more targeted mitigation strategies, including traffic-management measures, local emission-reduction actions, the placement of additional ground-monitoring stations, and interventions designed to reduce exposure among vulnerable groups. Overall, the approach demonstrates how daily, large-area TROPOMI observations can complement conventional monitoring and provide an accessible, scalable basis for urban air-pollution risk assessment.
 
 ## Open Science
-
 Hassaan, M.A., Abdallah, S.M., Shalaby, ES.A. et al. Assessing vulnerability of densely populated areas to air pollution using Sentinel-5P imageries: a case study of the Nile Delta, Egypt. Sci Rep 13, 17406 (2023). [https://doi.org/10.1038/s41598-023-44186-4](https://doi.org/10.1038/s41598-023-44186-4)
 
 European Environment Agency - Air pollution: [https://www.eea.europa.eu/en/topics/in-depth/air-pollution](https://www.eea.europa.eu/en/topics/in-depth/air-pollution)
@@ -206,7 +216,6 @@ Copernicus Sentinel-5P data products: [https://sentinels.copernicus.eu/data-prod
 Atmospheric Toolbox - Use Cases: [https://atmospherictoolbox.org/usecases/](https://atmospherictoolbox.org/usecases/)
 
 Serco Italia SPA (2019). Air Quality Monitoring with Sentinel-5p (version 1.1): [https://eo4society.esa.int/wp-content/uploads/2022/01/ATMO01_AirQuality_Monitoring.pdf](https://eo4society.esa.int/wp-content/uploads/2022/01/ATMO01_AirQuality_Monitoring.pdf)
-
 
 ## Contributors
 Afshin Moazzam, Haipeng Zhu, Sveva Zanetti, Zacharias Lagouros and Zoi Giakati
