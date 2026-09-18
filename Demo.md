@@ -31,13 +31,9 @@ Even though this process seems effective for removing the NO2 from the atmospher
 
 The lifetime of NO<sub>2</sub> is short, oscillating from hours to days in the troposphere. During the day, the concertration is lower as it is removed by the process of photolysis.  NO<sub>2</sub> has also seasonal behavior, in which the concentration is high in the winter period where there is a reduced amount of solar radiation. In this case NO<sub>2</sub> has a lifetime of 1 – 3 days, indicating much more atmospheric pollution at that time. 
 
-#### Danger to health and the environment
+#### Danger to health
 
 NO<sub>2</sub> is an important pollutant as its effects expand from human health to environment. Focusing on human health, it irritates airways in the human respiratory system, causing asthma, coughing, wheezing or difficulty breathing, affecting the children and the elderly more. 
-
-NO<sub>2</sub> affects also the environment. More specifically, it contributes to the formation of HNO<sub>3</sub> and acid rain, polluting the ground, water etc., endangering the fauna and flora. Acid rain also affects cultural heritage by dissolving monuments (e.g. marble statues). 
-
-Finally, NO<sub>2</sub> contributes to the degradation of landscape, by making the atmosphere hazy and difficult to see through. All these effects lead to socioeconomical consequences. The need for health assistance raw materials increases in the hospitals. Crops are destroyed hitting farmers' income and driving up food prices, while the monuments are damaged increasing the cost of maintenance.
 
 ## Challenge
 How can NO<sub>2</sub> exposure risk be assessed across an entire metropolitan area when ground-monitoring stations are expensive and too sparse to represent pollution variability in every neighbourhood?
@@ -78,7 +74,7 @@ Since 6 August 2019, NO₂ data are available with a spatial resolution of 3.5 x
 
 ## Methodology workflow
 The analysis focuses on the data from 01/10/2024 to 30/09/2025 over the metropolitan area of Milano.
-Since Nitrogen Dioxide is more present in winter than in summer, the study is divided in two periods:
+Since NO₂ is more problematic in winter than in summer, the study is divided in two periods:
 - hot months: from April to Semptember
 - cold months: from October to March
 
@@ -178,6 +174,8 @@ The largest weight was assigned to NO<sub>2</sub> because it is the direct envir
 The results below show the risk map for each day of the week, divided by cold days and hot days.
 
 ![milan_risk_maps_14_scenarios_story.gif](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/508bc3b8187a095478d6e6aca2887c2c3dfbbb03/assets/SvevaZ/milanriskmaps14scenariosstory-1789715661580.gif)
+
+The hot period is represented in the left column, and the cold period is showed on the right one.
 
 ![block1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7f439238b0833c4ef947498ed0e10355fc5b580e/assets/SvevaZ/block1-1789675271217.png)
 ![block2.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/626c62a9c7c9c451b643b311e890fed1f9619599/assets/SvevaZ/block2-1789675283568.png)
