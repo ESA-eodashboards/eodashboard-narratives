@@ -94,7 +94,12 @@ The analysis followed a systematic processing pipeline:
 - **8- Comparison:** The **k = 4, 6 and 9** clustering solutions were compared in terms of their spatial patterns, cluster profiles and correspondence with **Local Climate Zones (LCZ)**. LCZ was used as an external reference to assess how the data-driven clusters relate to established urban climate types.
 
 ## Results
-Different clustering evaluation metrics suggested different numbers of clusters, so we further compared three solutions: **k = 4, 6 and 9**. These can be interpreted as different levels of detail within the same urban environmental structure: k = 4 captures broader environmental types, k = 6 provides an intermediate level of subdivision, and k = 9 describes finer-scale environmental differences. Cluster labels are independent across different values of k, so the comparison is based mainly on their characteristics and spatial patterns.
+Different clustering evaluation metrics suggested different numbers of clusters, so we further compared three solutions: **k = 4, 6 and 9**. These can be interpreted as different levels of detail within the same urban environmental structure: 
+- **k = 4** captures broader environmental types; 
+- **k = 6** provides an intermediate level of subdivision;  
+- **k = 9** describes finer-scale environmental differences. 
+ 
+Cluster labels are independent across different values of k, so the comparison is based mainly on their characteristics and spatial patterns.
 
 #### Clustering structure in PCA space
 
