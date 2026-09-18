@@ -1,4 +1,4 @@
-# Heat Risk Mapping - Turin case study<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/FrancescoMezza/torino-heat-exposure/main/Mole_Antonelliana_(Torino)_10.jpg" }-->
+# Heat Risk Mapping - Turin case study <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/FrancescoMezza/torino-heat-exposure/main/Mole_Antonelliana_(Torino)_10.jpg" }-->
 #### 
 
 ## Authors: Francesco Mezza¹, Sona Guliyeva², Filippos Kostikiadis³, and Sophia Dolla³
@@ -14,6 +14,7 @@
 </p>
 
 ## 
+
 
 ## Heat exposure and vulnerability
 Heat exposure refers to the presence of people, ecosystems, infrastructure or other assets in areas affected by excessive heat. It is influenced by temperature, humidity, wind, solar radiation and local geographical and urban characteristics. In urban areas, factors such as building materials, land cover, vegetation and the urban heat island (UHI) effect can create substantial spatial differences in heat exposure. 
@@ -85,7 +86,7 @@ The risk index is therefore calculated as the average of all of these factors (e
 
 ### <!--{ zoom=11 center=[7.6869,45.0703] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}},{"type":"Tile","properties":{"id":"heat-index-overlay"},"url":"https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/06_heat_exposure_index_map.png?raw=true"}]' animationOptions='{"duration":500}' }-->
 #### Turin Overview
-An overview of the city of Turin, showcasing the urban landscape and surrounding geography. 
+An overview of the city of Turin, showcasing the urban landscape and surrounding geography.
 
 ### <!--{ zoom=14 center=[7.68,45.07] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
 #### Historical Center
@@ -105,13 +106,16 @@ Areas with lower heat vulnerability due to younger population demographics.
 
 ### <!--{ zoom=13 center=[7.68,45.1] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
 #### Heat Risk Index
- <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/06_heat_exposure_index_map.png?raw=true" width="1400"/></p>
-### Daily Risk Ranking
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/06_heat_exposure_index_map.png?raw=true" width="1400"/></p>
+
+### <!--{ animationOptions='{"duration":500}' }-->
+#### Daily Risk Ranking
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/07_daily_vulnerability_ranking%20(1).png?raw=true" width="1000"/></p>
 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/percentages.png?raw=true" width="1000"/></p>
 
-### Critical Facilities
+### <!--{ animationOptions='{"duration":500}' }-->
+#### Critical Facilities
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/09_critical_facilities_map.png?raw=true" width="1000"/></p>
 
 ## Conclusions
@@ -125,11 +129,11 @@ To mitigate urban heat, the city must prioritize de-paving wide avenues and plan
 
 To protect the aging population, the city should establish accessible cooling centers and implement early warning systems. Additionally, deploying mobile health units and strengthening neighborhood networks will ensure isolated elderly residents stay safe during extreme heatwaves.
 
-## Contributors  - optional
-Francesco Mezza — Coding and data processing
-Sona Guliyeva — Project lead and supervision
-Sophia Dolla — Theoretical framework
-Filippos Kostikiadis — Theoretical framework
+## Contributors
+- Francesco Mezza — Coding and data processing
+- Sona Guliyeva — Project lead and supervision
+- Sophia Dolla — Theoretical framework
+- Filippos Kostikiadis — Theoretical framework
 
 ## Open Science
 | **Name** | **Type** | **Agency / Provider** | **Description / Usage** |
@@ -141,7 +145,6 @@ Filippos Kostikiadis — Theoretical framework
 | **[Geoportale Piemonte](https://www.geoportale.piemonte.it/geonetwork/srv/api/records/c_l219:f71649ef-0855-4f16-abc6-9c6c0a4e4658)** | Dataset | Città di Torino open geodata (CC BY 4.0) | District boundaries, urban green areas, population by age and district |
 | **OpenStreetMap** | Dataset | OSM contributors, via Overpass API / [osmnx](https://osmnx.readthedocs.io/) | Hospitals, schools, elderly-care facility locations |
 | **[EO Dashboard](https://eodashboard.org/explore/?x=7.6869&y=45.0703&z=10.0000&datetime=2026-08-13&template=expert)** | Platform / Web Tool | EO Dashboard Consortium (ESA, NASA, JAXA) | Base layers and visualization tools for interactive exploration |
-
 
 ## References
 ### Earth Observation data
