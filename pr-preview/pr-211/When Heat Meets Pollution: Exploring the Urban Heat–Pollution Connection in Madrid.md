@@ -374,6 +374,9 @@ Standardised coefficients help compare the importance of the different predictor
 | NO₂ | +0.063 | +0.265 | -0.153 | +0.271 |
 | O₃ | -0.117 | +0.206 | -0.043* | -0.163 |
 
+<p align="center" style="color: #777; font-size: 0.85em;">
+  Standardized regression coefficients
+</p>
 `*` O₃ is not clearly significant in July daytime.
 
 The strongest contrast appears between **July day and July night**.
