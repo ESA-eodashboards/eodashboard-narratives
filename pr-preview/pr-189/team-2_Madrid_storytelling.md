@@ -22,7 +22,7 @@ official: false
 </p>
 
 ## Challenge
-#### Can the same urban fabric that stores heat also shape the air we breathe?
+### Can the same urban fabric that stores heat also shape the air we breathe?
 
 Cities transform both the surface energy balance and atmospheric composition. Asphalt, roofs and other impervious materials absorb and store solar energy, vegetation is unevenly distributed, traffic and heating emit nitrogen oxides, and urban geometry changes ventilation and heat release. These processes do not operate independently: heat, atmospheric mixing, emissions and chemistry can reinforce or oppose one another depending on season and time of day.
 
@@ -33,6 +33,7 @@ Madrid's heat exposure was again visible from space in June 2026. During an exce
 <p align="center" style="color: #888; font-size: 0.85em;">
   Source: ESA.
 </p>
+
 This underlines a key distinction in our study: **Land Surface Temperature (LST)** describes the temperature of the surface and can become substantially hotter than the near-surface air temperature experienced by people.
 
 We ask a simple question with a complex answer: **Where heat persists across Madrid, do air-pollution patterns follow the same geography, and does that relationship change between winter and summer and between day and night?**
