@@ -7,8 +7,7 @@ official: false
 ---
 
 # Cooling Turin: Mapping Who Faces the Heat <!--{ as="img" mode="hero" src="https://placehold.co/1200x630/png?text=Heat+Risk+Mapping+Turin" }-->
-## Authors: Sona Guliyeva¹, Francesco Mezza², Sophia Dolla³ and Filippos Kostikiadis³ <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
-> ¹ Polytechnic University of Turin &nbsp;&nbsp;² Polytechnic University of Milan &nbsp;&nbsp;³ Aristotle University of Thessaloniki
+
 
 *This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in **2026**. It was developed by a team from the **Polytechnic University of Turin, Polytechnic University of Milan, and Aristotle University of Thessaloniki**.*
 
