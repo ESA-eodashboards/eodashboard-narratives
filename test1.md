@@ -144,11 +144,22 @@ Across all three solutions, the same pattern emerges: surface temperature rises 
 #### Spatial distribution
 The clusters follow a clear spatial pattern. At k = 4, the built-up cluster covers Milan's urban core and extends north into the Monza-Brianza conurbation and along the main radial roads. The south is mostly non-woody vegetation, corresponding to the agricultural plain. Tree cover is concentrated in narrow corridors along the western and eastern edges, in line with the Ticino and Adda river valleys, plus a few patches in the north. The intermediate cluster is scattered across farmland and the urban fringe, where bare, cultivated and built surfaces are mixed at fine scale.
 ![map_b0_k4.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/eca453f839766d09967f956ae7d05e4baa445b04/assets/martinolithomas-ui/mapb0k4-1789689699736.png)
+<p align="center">
+  <em>Figure X.Spatial distribution of the k = 4 clusters on the 100 m grid over the Milan and Monza-Brianza area.</em>
+</p>
+
 
 At k = 6 and k = 9 the pattern does not change. 
 
 ![map_b0_k6.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b32fa2c0b2e2420a7a78c5b212d1b8909b424c9e/assets/yiyilv/mapb0k6-1789687722581.png)
-![map_b0_k9.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e654446fd8d4b84c9b04b55db7aa398dd77d59ef/assets/martinolithomas-ui/mapb0k9-1789688920085.png)The extra clusters mainly subdivide the built-up area into a dense core and less sealed surrounding zones and towns, while the agricultural south and the river corridors stay largely the same. Gaps within the study area are masked water bodies.
+<p align="center">
+  <em>Figure X.Spatial distribution of the k = 6 clusters on the 100 m grid over the Milan and Monza-Brianza area.</em>
+</p>
+![map_b0_k9.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e654446fd8d4b84c9b04b55db7aa398dd77d59ef/assets/martinolithomas-ui/mapb0k9-1789688920085.png)
+<p align="center">
+  <em>Figure X.Spatial distribution of the k = 9 clusters on the 100 m grid over the Milan and Monza-Brianza area.</em>
+</p>
+The extra clusters mainly subdivide the built-up area into a dense core and less sealed surrounding zones and towns, while the agricultural south and the river corridors stay largely the same. Gaps within the study area are masked water bodies.
 
 !
 
