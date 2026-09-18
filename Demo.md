@@ -112,7 +112,10 @@ Sentinel-5P/TROPOMI Level-2 NO₂ files from 1 September 2024 to 31 December 202
 #### Ground station NO₂ data
 Regione Lombardia provides hourly NO₂ data from a network of ground station. A first dataset contains sensor measurement, and the stationID links these observations to the station catalogue, which provides the coordinates and other metadata.
 
-![Immagine 17-09-26 - 23.32.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/13f5fb426d58b21d01f1917970c7274ae3dfd922/assets/SvevaZ/Immagine-17-09-26---23.32-1789680859623.png)
+<figure align="center">
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/13f5fb426d58b21d01f1917970c7274ae3dfd922/assets/SvevaZ/Immagine-17-09-26---23.32-1789680859623.png" alt="Ground stations">
+  <figcaption>Lombardy NO₂ ground stations. Credits: https://www.arpalombardia.it/temi-ambientali/aria/stazioni-fisse/ </figcaption>
+</figure>
 
 #### Sentinel-5P image validation with ground-station
 Observations from nine ground stations provide the reference measurements for calibration. The two datasets describe different quantities: ground stations measure surface NO₂ concentration in µg/m³, whereas the satellite measures the tropospheric NO₂ column.
@@ -172,7 +175,9 @@ Risk<sub>i,t</sub> = 0.50¯H<sub>i,t</sub> + 0.30E<sub>i</sub> + 0.20¯D<sub>i</
 The largest weight was assigned to NO<sub>2</sub> because it is the direct environmental hazard, while the elderly share received the second-largest weight. Population density was given a lower weight as an indirect proxy. It should be interpreted as a **relative spatial prioritization indicator**.
 
 ## Results
-The results below show the risk map for each day of the week, divided by cold days (left column) and hot days (right column)
+The results below show the risk map for each day of the week, divided by cold days and hot days.
+
+![milan_risk_maps_14_scenarios_story.gif](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/508bc3b8187a095478d6e6aca2887c2c3dfbbb03/assets/SvevaZ/milanriskmaps14scenariosstory-1789715661580.gif)
 
 ![block1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7f439238b0833c4ef947498ed0e10355fc5b580e/assets/SvevaZ/block1-1789675271217.png)
 ![block2.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/626c62a9c7c9c451b643b311e890fed1f9619599/assets/SvevaZ/block2-1789675283568.png)
