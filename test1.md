@@ -165,6 +165,15 @@ The extra clusters mainly subdivide the built-up area into a dense core and less
 
 
 #### Preliminary comparison of clustering resolutions
+![lcz_vs_cluster_maps_k4.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/95991599905188b5293e002dc8c3f6f7342b22f6/assets/martinolithomas-ui/lczvsclustermapsk4-1789709512834.png)
+![sankey_cluster_lcz_K4.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/1a4e343ff56526ba896b8f9a86f9026acdf923f9/assets/martinolithomas-ui/sankeyclusterlczK4-1789709685932.png)
+![lcz_vs_cluster_maps_k6.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/fb7ac03c1b1dd28850ea0803817532af6010d26c/assets/martinolithomas-ui/lczvsclustermapsk6-1789709535499.png)
+
+
+
+![sankey_cluster_lcz_K6.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/aca123d1d7acf105cfe9e5cbd1aebd02b3e03724/assets/martinolithomas-ui/sankeyclusterlczK6-1789709707668.png)
+![lcz_vs_cluster_maps_k9.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/8b8fa7bd630829e3ed885bcd19771cb0f7d4c0ec/assets/martinolithomas-ui/lczvsclustermapsk9-1789709628806.png)
+![sankey_cluster_lcz_K9.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/8d6e8de3814240f037352f052cb4b214b9bbd62f/assets/martinolithomas-ui/sankeyclusterlczK9-1789709749868.png)
 
 ## Conclusions
 
@@ -174,7 +183,5 @@ The extra clusters mainly subdivide the built-up area into a dense core and less
 
 ## Contributors
 Authors, contibutors, reviewers
-
-
 
 
