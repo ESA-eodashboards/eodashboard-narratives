@@ -173,17 +173,44 @@ We compared the clusters with the global 100 m Local Climate Zone (LCZ) map (Dem
 At k = 4, the built-up cluster (C2) captures almost all the compact LCZ classes (LCZ 1–3, ~96%) and heavy industry (LCZ 10, 89%), as well as most large lowrise (LCZ 8) and open midrise (LCZ 5). Dense trees (LCZ 11) fall almost entirely in the tree-cover cluster (C3, 94%), and low plants (LCZ 14) mostly in non-woody vegetation (C1, 66%). More open built areas behave differently. About half of open lowrise (LCZ 6) and sparsely built (LCZ 9) falls in the intermediate cluster C0, because at 100 m these areas contain enough gardens and unsealed ground to look more peri-urban than urban. The match is less clean the other way round. Each cluster mixes several LCZ types with similar surface properties; only C1 is largely homogeneous (75% LCZ 14).
 
 ![sankey_cluster_lcz_K4.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/1a4e343ff56526ba896b8f9a86f9026acdf923f9/assets/martinolithomas-ui/sankeyclusterlczK4-1789709685932.png)
+
+At k = 6, the subdivision of the built-up domain is consistent with the LCZ distinction between compact and open built forms. The dense built-up cluster (C5) includes most of the compact classes (LCZ 1–3, 81–85%), heavy industry (LCZ 10, 89%) and approximately half of large lowrise (LCZ 8). The intermediate built-up cluster (C2) is instead associated with open built forms (LCZ 4–6). At k = 9, this subdivision extends to three levels: compact classes and large lowrise (C2), open midrise and highrise (C6), and open lowrise (C0).
+
 ![lcz_vs_cluster_maps_k6.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/fb7ac03c1b1dd28850ea0803817532af6010d26c/assets/martinolithomas-ui/lczvsclustermapsk6-1789709535499.png)
 
 
 
 ![sankey_cluster_lcz_K6.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/aca123d1d7acf105cfe9e5cbd1aebd02b3e03724/assets/martinolithomas-ui/sankeyclusterlczK6-1789709707668.png)
+
+At k = 9, the vegetated clusters also show a closer correspondence with LCZ. Dense tree cover (C3) is mainly associated with dense trees (LCZ 11), while mixed tree–open vegetation (C8) is mainly associated with scattered trees (LCZ 12).
+
 ![lcz_vs_cluster_maps_k9.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/8b8fa7bd630829e3ed885bcd19771cb0f7d4c0ec/assets/martinolithomas-ui/lczvsclustermapsk9-1789709628806.png)
 ![sankey_cluster_lcz_K9.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/8d6e8de3814240f037352f052cb4b214b9bbd62f/assets/martinolithomas-ui/sankeyclusterlczK9-1789709749868.png)
 
+Low plants (LCZ 14) show the opposite behaviour. Rather than corresponding to a single cluster, this class is divided into three clusters at k = 6 and four at k = 9. These range from dense vegetation to bare or sparsely vegetated surfaces and differ in relative surface temperature. This represents the main contribution of the clustering with respect to LCZ: a single "low plants" class, covering most of the southern plain, includes surfaces with distinct thermal conditions.
+
 ## Conclusions
+This study set out to test whether distinct urban thermal environments can be identified directly from multi-variable Earth Observation data, without defining classes in advance. For the Milan and Monza-Brianza area, the answer is largely positive. Combining Sentinel-2 spectral indices, Copernicus tree cover and imperviousness, and Landsat surface temperature, unsupervised clustering produced a small set of surface types that are physically interpretable and clearly organised in space.
 
+The data do not fall into sharply separated groups. They follow a continuous gradient from vegetated to built-up surfaces, and the clusters are best understood as segments of that gradient. Surface temperature follows the same direction: it rises with imperviousness and falls with vegetation density. The k = 4, 6 and 9 solutions describe the same structure at increasing levels of detail. The simplest solution already captures the main distinctions, while higher k mainly resolves intermediate built-up conditions and differences in vegetation density.
 
+The profiles also show that, at 100 m resolution, how densely a surface is vegetated matters more for its relative temperature than whether the vegetation consists of trees. Non-woody vegetation can be as cool as tree cover, and areas with partial tree cover are not necessarily cooler than dense crops or grassland. Albedo contributes little to the separation between clusters.
+
+The comparison with Local Climate Zones shows that the two approaches are complementary rather than equivalent. Compact and heavily built LCZ classes fall consistently within the densest built-up clusters, and dense tree cover is well matched. As k increases, the built-up clusters progressively reproduce the LCZ distinction between compact and open built forms. The main added value of the clustering lies in the low-plants class (LCZ 14), which covers most of the southern agricultural plain. There, the clusters separate densely vegetated fields from bare or sparsely vegetated ones with markedly different surface temperatures, which LCZ treats as a single class.
+
+These results come with limitations. The analysis covers a single summer and a single 100 m grid, so fine-scale urban heterogeneity is averaged out. Temperature is expressed in relative, normalised terms, and the thermal differences between clusters still need to be quantified in physical units. Spectral indices such as NDBI do not fully separate bare soil from built-up surfaces, and some narrow water features may not be removed by the water mask at this resolution. The LCZ comparison is descriptive and based on cell-level correspondence; a formal quantitative assessment is left for future work.
+
+Future developments include expressing cluster temperatures in degrees Celsius, extending the analysis to multiple years to test the stability of the clusters, and applying the same workflow to other metropolitan areas. Overall, the study shows that a simple, fully data-driven workflow based on open EO data can characterise urban surface–thermal environments, and can complement established classification systems by revealing thermal variability they do not explicitly represent.
+
+## Lessons Learnd
+Unsupervised clustering identified physically meaningful urban environments in the Milan and Monza-Brianza area without predefined classes, using open EO data (Sentinel-2, Copernicus CLMS, Landsat 8).
+The data form a continuous gradient from vegetated to built-up surfaces rather than separate groups. The k = 4, 6 and 9 solutions describe the same structure at increasing levels of detail.
+Relative surface temperature follows this gradient. It rises with imperviousness and falls with vegetation density.
+At 100 m, vegetation density matters more than vegetation type. Non-woody vegetation can be as cool as tree cover, and albedo plays only a minor role.
+Clusters and Local Climate Zones are complementary. Compact built-up classes and dense trees are well matched, and at higher k the built-up clusters progressively reproduce the LCZ distinction between compact and open forms.
+The main added value lies in the LCZ "low plants" class (LCZ 14). The clustering separates densely vegetated and bare or sparsely vegetated fields with different surface temperatures, which LCZ treats as a single class.
+The analysis has limitations. It covers a single summer at 100 m resolution, temperatures are relative rather than physical, NDBI partly confuses bare soil with built-up surfaces, and the LCZ comparison is descriptive only.
+Next steps: express temperatures in °C, test cluster stability across multiple years, and apply the workflow to other metropolitan areas.
 ## Open Science
 
 
