@@ -164,8 +164,14 @@ The extra clusters mainly subdivide the built-up area into a dense core and less
 
 
 
-#### Preliminary comparison of clustering resolutions
+#### Qualitative comparison of clustering resolutions
+We compared the clusters with the global 100 m Local Climate Zone (LCZ) map (Demuzere et al., 2022). The two systems are built differently: LCZ describes urban form, such as building height and density, while our clusters describe surface properties only. We therefore don't expect a one-to-one match, but we do expect a meaningful one.
+
+
 ![lcz_vs_cluster_maps_k4.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/95991599905188b5293e002dc8c3f6f7342b22f6/assets/martinolithomas-ui/lczvsclustermapsk4-1789709512834.png)
+
+At k = 4, the built-up cluster (C2) captures almost all the compact LCZ classes (LCZ 1–3, ~96%) and heavy industry (LCZ 10, 89%), as well as most large lowrise (LCZ 8) and open midrise (LCZ 5). Dense trees (LCZ 11) fall almost entirely in the tree-cover cluster (C3, 94%), and low plants (LCZ 14) mostly in non-woody vegetation (C1, 66%). More open built areas behave differently. About half of open lowrise (LCZ 6) and sparsely built (LCZ 9) falls in the intermediate cluster C0, because at 100 m these areas contain enough gardens and unsealed ground to look more peri-urban than urban. The match is less clean the other way round. Each cluster mixes several LCZ types with similar surface properties; only C1 is largely homogeneous (75% LCZ 14).
+
 ![sankey_cluster_lcz_K4.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/1a4e343ff56526ba896b8f9a86f9026acdf923f9/assets/martinolithomas-ui/sankeyclusterlczK4-1789709685932.png)
 ![lcz_vs_cluster_maps_k6.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/fb7ac03c1b1dd28850ea0803817532af6010d26c/assets/martinolithomas-ui/lczvsclustermapsk6-1789709535499.png)
 
