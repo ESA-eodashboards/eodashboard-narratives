@@ -322,16 +322,13 @@ Elevation shows a similar but weaker pattern. Higher areas are generally cooler,
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/4397d81ad780cc21c1f91227eadcb68a00c0068f/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.19.03-1789684358349.jpeg" style="width: 48%;" />
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/133bf34e033fa16d2d6e55e69d3876b752ddc48b/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.19.06-1789684402666.jpeg" style="width: 48%;" />
 </div>
+<p align="center"><em>Seasonal relationships between LST, vegetation and elevation.</em></p>
 
 Vegetation shows a much stronger relationship with surface temperature in summer. In January, NDVI explains about 7% of the spatial variation in representative LST, while in July this increases to about 23%. A +0.1 increase in NDVI is associated with around 0.29°C lower LST in January and about 0.91°C lower LST in July. The scatterplots also show a steeper negative relationship in July, suggesting that greener areas are more clearly associated with cooler surfaces during summer.
 
 Elevation shows the same seasonal tendency, although the relationship is weaker than for NDVI. Its explained variance increases from about 5% in January to 12% in July.
-<div style="display: flex; gap: 10px; flex-wrap: wrap;">
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/60b88ad1116638560fe5ada150aa0ba6032f9b7f/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.20.54-1789684433079.jpeg" style="width: 48%;" />
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/8b456053801a162507ab018e3da49ee50b631916/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.21.46-1789684480025.jpeg" style="width: 48%;" />
-</div>
 
-<p align="center"><em>Seasonal relationships between LST, vegetation and elevation.</em></p>
+
 
 ### Multiple regression: Does pollution add more information?
 
@@ -350,6 +347,15 @@ LST, air temperature, NO₂ and O₃ were matched by the same cell and date befo
 | July NIGHT | 0.361 | **0.455** | **+9.4 pp** |
 
 <p align="center"><em>**pp stands for percentage points</em></p>
+
+<div style="text-align: center;">
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7cce28ec8659fbe30f9237070976b1ceaa6d857f/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.23.20-1789684514508.jpeg"
+       style="width: 85%; max-width: 1100px;" />
+</div>
+<p align="center" style="color: #777; font-size: 0.85em;">
+  Comparison between the baseline model and the full model including NO₂ and O₃. The largest improvement is found during July nighttime.
+</p>
+
 In January and during July daytime, adding NO₂ and O₃ improves the model only slightly.
 
 The main difference appears in **July nighttime**. The explained LST variability increases from **36.1% to 45.5%** when NO₂ and O₃ are added. This means that pollution patterns contain more additional spatial information during summer nights.
@@ -379,26 +385,23 @@ At night, **air temperature becomes the strongest predictor**, while NO₂ also 
 Overall, the main controls on surface temperature change between day and night and between winter and summer.
 
 ### How much does pollution add?
-<div style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7cce28ec8659fbe30f9237070976b1ceaa6d857f/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.23.20-1789684514508.jpeg"
-       style="width: 85%; max-width: 1100px;" />
-</div>
-<p align="center" style="color: #777; font-size: 0.85em;">
-  Comparison between the baseline model and the full model including NO₂ and O₃. The largest improvement is found during July nighttime.
-</p>
 
-The baseline model includes air temperature, NDVI and elevation. When NO₂ and O₃ are added, the improvement is small in January and during July daytime. The main difference appears in July nighttime, when the explained LST variability increases from about 36% to 46%. This means that pollution patterns provide much more additional information about nighttime summer LST than in the other periods.
+The baseline model includes air temperature, NDVI and elevation. When NO₂ and O₃ are added, the improvement is small in January and during July daytime. 
 
 <div style="text-align: center;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/5b9b0d7e978f125f27a2184ed380a028ff5f413d/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.23.46-1789684533985.jpeg"
        style="width: 85%; max-width: 1100px;" />
 </div>
 
-The standardized coefficients show that the main drivers of LST change with season and time of day. In July daytime, NDVI has the strongest negative relationship with LST, meaning that greener areas tend to be cooler. In July nighttime, air temperature becomes the strongest predictor, while NO₂ also shows a positive relationship with LST. In January, air temperature remains the strongest positive predictor in both day and night.
-
 <p align="center" style="color: #777; font-size: 0.85em;">
-  Standardized regression coefficients for the full model. Positive values indicate a positive relationship with LST, while negative values indicate a negative relationship.
+  Standardized regression coefficients for the full model. Values farther from zero indicate a stronger relationship with LST after the other variables are taken into account. Positive values indicate a positive relationship with LST, while negative values indicate a negative relationship. Horizontal bars show the 95% confidence intervals.
 </p>
+
+The coefficient plot shows that the main controls on LST change with season and time of day. In **January daytime**, air temperature has the strongest positive coefficient (`β* ≈ +0.38`), while NDVI shows a clear negative relationship 
+(`β* ≈ -0.27`). At **January nighttime**, air temperature becomes even stronger (`β* ≈ +0.50`), while NO₂ and O₃ also show positive relationships (`β* ≈ +0.27` and `+0.21`).
+
+The clearest contrast appears in **July**. During the **day**, NDVI is the strongest predictor (`β* ≈ -0.51`), showing that greener cells are associated with lower LST after the other variables are taken into account. During the **night**, air temperature becomes the strongest predictor (`β* ≈ +0.52`), while NO₂ also keeps a positive relationship (`β* ≈ +0.27`) and O₃ a negative one (`β* ≈ -0.16`).
+
 
 ### What the combined results tell us
 
