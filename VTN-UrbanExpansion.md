@@ -116,6 +116,15 @@ Dong Anh lies north of the Red River and is considered a strategic area for Hano
 This rapid physical growth is driven by the extensive development of transportation networks, modern residential zones, and industrial clusters. Such profound modifications to land use and natural topography have placed considerable strain on local natural resources and the quality of the urban environment.
 
 ## ALOS-2 ScanSAR L2.2 Timeseries <!--{ as="eox-map" mode="tour" }-->
+### ALOS-2 PALSAR-2
+
+The **Advanced Land Observing Satellite-2 (ALOS-2)**, operated by the Japan Aerospace Exploration Agency (**JAXA**), is an Earth observation satellite equipped with the **Phased Array type L-band Synthetic Aperture Radar-2 (PALSAR-2)**. Unlike optical sensors, PALSAR-2 uses microwave radar signals, allowing observations **during both day and night and under cloudy conditions**.
+
+Its **L-band SAR** is particularly useful for monitoring land-surface characteristics, vegetation structure, forests, agriculture, disasters, and changes in built-up areas. In this case study, ALOS-2 PALSAR-2 annual mosaic data are used to examine the spatial evolution of **Hanoi between 2015, 2020, and 2025**. By comparing the radar backscatter patterns across these years, changes in the extent and density of urban and peri-urban areas can be visually assessed.
+<div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFC1CWV3wr_iYKFg1lq5pQgwHX_crcJ0XK2KpncluZJQ&s" style="max-width: 100%; width: 450px; height: auto;" alt="ALOS-2 Satellite" /> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [2].</b> Advanced Land Observing Satellite-2 "DAICHI-2" (ALOS-2) </p> 
+</div>
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light","visible":true},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }","tileGrid":{"tileSize":[256,256],"origin":[-20037508.342789244,20037508.342789244],"resolutions":[156543.03392804097,78271.51696402048,39135.75848201024,19567.87924100512,9783.93962050256,4891.96981025128,2445.98490512564,1222.99245256282,611.49622628141,305.748113140705,152.8740565703525,76.43702828517625,38.21851414258813,19.109257071294063,9.554628535647032,4.777314267823516,2.388657133911758,1.194328566955879,0.5971642834779395,0.29858214173896974,0.14929107086948487,0.07464553543474244,0.03732276771737122,0.01866138385868561,0.009330691929342804],"matrixIds":["0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],"extent":[-20037508.342789244,-20037508.342789244,20037508.342789244,20037508.342789244]}}},{"type":"WebGLTile","source":{"type":"GeoTIFF","normalize":false,"interpolate":false,"sources":[{"url":"https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2015.tif"}]},"properties":{"id":"palsar2-yearly-hanoi;:;2017-01-01T00:00:00Z;:;0","title":"Hanoi_2017"},"style":{"variables":{"band":1},"color":["case",[">",["band",1],0],["interpolate",["linear"],["/",["band",1],["case",["==",1,1],8000,4000]],0,[0,0,0,1],1,[255,255,255,1]],["color",0,0,0,0]]}},{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels","visible":true},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857","attributions":"{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }","tileGrid":{"tileSize":[256,256],"origin":[-20037508.342789244,20037508.342789244],"resolutions":[156543.03392804097,78271.51696402048,39135.75848201024,19567.87924100512,9783.93962050256,4891.96981025128,2445.98490512564,1222.99245256282,611.49622628141,305.748113140705,152.8740565703525,76.43702828517625,38.21851414258813,19.109257071294063,9.554628535647032,4.777314267823516,2.388657133911758,1.194328566955879,0.5971642834779395,0.29858214173896974,0.14929107086948487,0.07464553543474244,0.03732276771737122,0.01866138385868561,0.009330691929342804],"matrixIds":["0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],"extent":[-20037508.342789244,-20037508.342789244,20037508.342789244,20037508.342789244]}}}]' zoom="11.472983178708397" center=[105.675,21.10030306370011] projection="" animationOptions={duration:500}}-->
 #### Hanoi (2015)
@@ -148,7 +157,7 @@ The initial phase focuses on rigorous pre-processing, encompassing atmospheric c
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/2-Methodology.png?raw=true" style="max-width: 100%; width: 1000px; height: auto;" alt="Analysis workflow" /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 10px;"> <b>Figure [2].</b> Complete methodology workflow from data acquisition to analysis. </p> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 10px;"> <b>Figure [3].</b> Complete methodology workflow from data acquisition to analysis. </p> 
 </div>
 
 Following this, the system executes the extraction of core biophysical features through representative surface indices, such as the Normalized Difference Vegetation Index (NDVI), Normalized Difference Built-up Index (NDBI), and Normalized Difference Water Index (NDWI), while integrating Digital Elevation Model (DEM) data to characterize three-dimensional landscape structural variations.
@@ -160,15 +169,15 @@ By leveraging massive Earth Observation (EO) archives, this project has successf
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 5px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/3-LULC%20Maps.png?raw=true" style="max-width: 100%; width: 900px; height: auto;" alt="Analysis workflow" /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [3].</b> Land use/land cover map of Hanoi for the years. </p> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [4].</b> Land use/land cover map of Hanoi for the years. </p> 
 </div>
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/d99cbbe44f92394618df91dd5708ee7f56ad1e21/4-SankeyChart.jpg" style="max-width: 100%; width: 500px; height: auto;"/> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [4].</b> Changes in the proportion of land-use and LULC classes in the study area from 2015 to 2025. </p> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [5].</b> Changes in the proportion of land-use and LULC classes in the study area from 2015 to 2025. </p> 
 </div>
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/5-Chart.png?raw=true" style="max-width: 100%; width: 500px; height: auto;"  /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [5].</b> The chart shows the change in area of objects in the period from 2015 to 2025. </p> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [6].</b> The chart shows the change in area of objects in the period from 2015 to 2025. </p> 
 </div>
 
 The models provide visual evidence of the aggressive expansion of impervious surfaces representing concrete infrastructure spreading in corridors from the historical urban core toward peri-urban areas and satellite towns. Notably, the study scientifically quantifies the rate of urbanization through the Annual Growth Rate (AGR) index, helping to isolate and identify 'hot growth phases' of infrastructure linked to transportation network expansions and industrial zones.
@@ -176,7 +185,7 @@ The models provide visual evidence of the aggressive expansion of impervious sur
 </div>
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/6-UrbanExpan.png?raw=true" style="max-width: 100%; width: 400px; height: auto;"  /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [6].</b> Urban Expansion in Ha Noi city over 10 years. </p> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [7].</b> Urban Expansion in Ha Noi city over 10 years. </p> 
 </div>
 
 The surge in the Impervious Surface Index (ISI) across the urban change maps reflects more than just the scale of physical development; it highlights areas under significant micro-atmospheric pressure. These findings confirm that EO data is an irreplaceable tool for providing a holistic and accurate overview of urban dynamics, establishing a robust foundation for analyzing environmental impacts and evaluating planning efficiency. <!--{ style="font-size:1rem;opacity:1; margin-top:0px; margin-bottom:0px; margin-left:50px" }-->
@@ -184,7 +193,7 @@ The surge in the Impervious Surface Index (ISI) across the urban change maps ref
 </div>
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/7-Rate.jpg?raw=true" style="max-width: 100%; width: 600px; height: auto;"  /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [7].</b> The distribution of Urbanization ratio and Urban growth rate in Ha Noi city over 10 years. </p> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [8].</b> The distribution of Urbanization ratio and Urban growth rate in Ha Noi city over 10 years. </p> 
 </div>
 
 
