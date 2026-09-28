@@ -316,6 +316,28 @@ The R² values for NO₂ and O₃ should not be added because the pollutants des
 
 <p align="center"><em>Pearson correlations and corresponding R²=r² values for the simple spatial relationships with LST. July nighttime is highlighted as the principal analysis period, while January is included as a seasonal reference.</em></p>
 
+### Compound hotspot classification
+To assess the direct spatial overlap between nighttime heat and O₃, the matched July nighttime monthly-mean maps for 22:00–24:00 were classified using upper-quartile thresholds. Cells with LST at or above 27.39 °C were classified as heat hotspots, while cells with O₃ at or above 92.18 µg/m³ were classified as O₃ hotspots. Each of the 1,766 matched cells was assigned to one of four categories: heat only, O₃ only, combined heat–O₃, or neither.
+
+The observed combined-hotspot area was compared with the overlap expected if heat- and O₃-hotspot membership were independent. This comparison was used as a descriptive measure of spatial coincidence and not as a statistical significance test.
+
+### Compound nighttime heat–O₃ hotspot overlap
+The hotspot classification showed limited overlap between the highest nighttime LST and O₃ values. Of the 1,766 matched cells, 443 were heat hotspots and 442 were O₃ hotspots. Only 59 cells were classified as combined hotspots, corresponding to 3.3% of the valid grid. The remaining hotspot cells were divided almost equally between 384 heat-only cells and 383 O₃-only cells, while 940 cells belonged to neither category.
+
+![July_night_compound_LST_O3_hotspots.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/71c18ae31baf2734ecf9a428ff95073fd86978cd/assets/NikolinaZallemi/JulynightcompoundLSTO3hotspots-1790606571934.png)
+
+<p align="center"><em>Spatial classification of July nighttime heat and O₃ hotspots. Orange represents heat-only cells, blue represents O₃-only cells, purple represents combined hotspots, and grey represents cells belonging to neither category. Hotspots were defined using the upper quartile of the matched monthly-mean maps.</em></p>
+
+
+Only 13.3% of heat hotspots were also O₃ hotspots, and 13.3% of O₃ hotspots were also heat hotspots. If the two hotspot patterns were independent, approximately 110.9 combined cells, or 6.3% of the valid grid, would be expected. The 59 observed combined cells represented 53% of this expected overlap. The Jaccard index was 0.071, indicating that only 7.1% of all cells identified as either type of hotspot were shared by both categories.
+
+![July_night_compound_LST_O3_hotspot_summary.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/1ee1761bbe3747541fe7f69ff794e6e529102ba6/assets/NikolinaZallemi/JulynightcompoundLSTO3hotspotsummary-1790606649854.png)
+<p align="center"><em>Upper-quartile thresholds, hotspot counts and spatial-overlap measures for July nighttime LST and O₃.</em></p>
+
+These results confirm that Madrid’s principal nighttime heat and O₃ hotspots were generally spatially separated. The compound analysis therefore strengthens the earlier correlation result without repeating it: locations with the highest nighttime surface temperatures were not usually the locations with the highest O₃ concentrations.
+
+The thresholds represent relative hotspots within the study area and are not regulatory or health-based limits. Furthermore, LST availability varied across the grid, so the classification represents a composite of the available July observations rather than the frequency of hotspot occurrence on individual nights. January was retained as a seasonal reference and was not included in the compound-hotspot classification.
+
 ### Vegetation and elevation
 
 NDVI and elevation were compared with a representative monthly LST, obtained by averaging the monthly daytime and nighttime LST values for each 1 km cell.
