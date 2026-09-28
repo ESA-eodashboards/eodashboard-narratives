@@ -287,11 +287,11 @@ The observed nighttime O₃ should not be described as ozone produced by nightti
 
 ### Spatial correlations: Spatial relationship between nighttime heat and O₃
 
-The July nighttime spatial analysis focused on the 22:00–24:00 local-time window. Nighttime LST and O₃ showed a moderate negative spatial association, with a Pearson correlation of \(r=-0.41\) and a Spearman correlation of \(\rho=-0.42\). The calculation included 1,766 matched grid cells, corresponding to 73% of the complete study grid.
+The July nighttime spatial analysis focused on the 22:00–24:00 local-time window. Nighttime LST and O₃ showed a moderate negative spatial association, with a Pearson correlation of *r=-0.41* and a Spearman correlation of *ρ=-0.42*. The calculation included 1,766 matched grid cells, corresponding to 73% of the complete study grid.
 
 The negative relationship indicates that locations with higher nighttime LST generally had lower O₃ concentrations, whereas higher-O₃ locations tended to have cooler surfaces. Therefore, the July results do not indicate a direct spatial coincidence between Madrid’s hottest nighttime surfaces and its highest O₃ concentrations.
 
-A stronger negative association was found between ERA5 air temperature and O₃, with \(r=-0.60\) and \(\rho=-0.59\), based on 2,279 cells, or 94% of the grid. In contrast, nighttime LST and ERA5 air temperature were weakly positively correlated (\(r=+0.25\), \(\rho=+0.24\)), based on 1,766 cells. This weak spatial correlation reflects the fact that LST represents surface heating and heat storage, while ERA5 describes the coarser atmospheric thermal background.
+A stronger negative association was found between ERA5 air temperature and O₃, with *r=-0.60* and *ρ=-0.59*, based on 2,279 cells, or 94% of the grid. In contrast, nighttime LST and ERA5 air temperature were weakly positively correlated *r=+0.25*, \(\rho=+0.24\)), based on 1,766 cells. This weak spatial correlation reflects the fact that LST represents surface heating and heat storage, while ERA5 describes the coarser atmospheric thermal background.
 
 NO₂ was retained as a supporting pollution indicator. Nighttime LST was moderately positively correlated with NO₂ (\(r=+0.48\), \(\rho=+0.49\)), while NO₂ and O₃ were strongly negatively correlated (\(r=-0.93\), \(\rho=-0.85\)). Thus, hotter urban locations tended to contain more NO₂ but less O₃.
 
@@ -303,11 +303,13 @@ One possible explanation is that NO emitted in traffic- and combustion-influence
 
 ### Simple spatial relationships with LST
 
-The \(R^2=r^2\) values were used to compare the relative strength of the individual LST relationships across periods.
+The R²=r² values were used to compare the relative strength of the individual LST relationships across periods.
 
 During July nighttime, the pollution variables showed the strongest relationships with LST. NO₂ described approximately 23% of its spatial variability, while O₃ described approximately 17%. ERA5 air temperature described only about 6%, suggesting that the nighttime LST pattern was more closely associated with the spatial pollution structure than with the coarser atmospheric-temperature field.
 The corresponding July daytime relationships were weaker. ERA5 air temperature and O₃ each described approximately 10% of LST variability, while NO₂ described only about 2%. The increase from day to night was therefore particularly clear for NO₂ and O₃, supporting the selection of nighttime as the main period for analysing the combined heat–pollution pattern.
+
 January was retained as a seasonal reference. During January daytime, ERA5 air temperature, NO₂ and O₃ each described approximately 17% of spatial LST variability. At night, however, their relationships weakened substantially, accounting for only approximately 1–7%. The contrast with January confirms that the strong pollution–LST relationships observed during July nighttime were specific to the summer conditions examined.
+
 The \(R^2\) values for NO₂ and O₃ should not be added because the pollutants describe overlapping spatial structures. Each value represents a separate bivariate association and not an independent or causal contribution to LST.
 
 ![![simple_spatial_relationships_lst_table.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/49e9e28d776127e1cd3a216da43870c2e98d644b/assets/NikolinaZallemi/simplespatialrelationshipslsttable-1790598705926.png)](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/78c2347d4bc2285af2ff56419833a77867f16a5f/assets/NikolinaZallemi/simplespatialrelationshipslsttable-1790599034862.png)
@@ -341,9 +343,6 @@ Elevation shows a similar but weaker pattern. Higher areas are generally cooler,
 Vegetation shows a much stronger relationship with surface temperature in summer. In January, NDVI explains about 7% of the spatial variation in representative LST, while in July this increases to about 23%. A +0.1 increase in NDVI is associated with around 0.29°C lower LST in January and about 0.91°C lower LST in July. The scatterplots also show a steeper negative relationship in July, suggesting that greener areas are more clearly associated with cooler surfaces during summer.
 
 Elevation shows the same seasonal tendency, although the relationship is weaker than for NDVI. Its explained variance increases from about 5% in January to 12% in July.
-
-
-
 
 
 ### Limitations
