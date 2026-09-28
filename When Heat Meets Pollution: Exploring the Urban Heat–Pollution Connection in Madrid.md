@@ -303,21 +303,15 @@ One possible explanation is that NO emitted in traffic- and combustion-influence
 
 ### Simple spatial relationships with LST
 
-Simple regressions were used to quantify how much of the spatial variability in LST was described separately by air temperature, O₃ and NO₂. In every model, LST was the response variable, and only one predictor was included at a time. The results therefore represent individual bivariate relationships rather than independent causal contributions.
+The \(R^2=r^2\) values were used to compare the relative strength of the individual LST relationships across periods.
 
-The clearest results occurred during July nighttime. ERA5 air temperature was the strongest individual atmospheric predictor, accounting for approximately 32% of the spatial variability in nighttime LST. This suggests that the atmospheric thermal background became particularly relevant after sunset, when stored surface heat and warm air conditions persisted across Madrid.
+During July nighttime, the pollution variables showed the strongest relationships with LST. NO₂ described approximately 23% of its spatial variability, while O₃ described approximately 17%. ERA5 air temperature described only about 6%, suggesting that the nighttime LST pattern was more closely associated with the spatial pollution structure than with the coarser atmospheric-temperature field.
+The corresponding July daytime relationships were weaker. ERA5 air temperature and O₃ each described approximately 10% of LST variability, while NO₂ described only about 2%. The increase from day to night was therefore particularly clear for NO₂ and O₃, supporting the selection of nighttime as the main period for analysing the combined heat–pollution pattern.
+January was retained as a seasonal reference. During January daytime, ERA5 air temperature, NO₂ and O₃ each described approximately 17% of spatial LST variability. At night, however, their relationships weakened substantially, accounting for only approximately 1–7%. The contrast with January confirms that the strong pollution–LST relationships observed during July nighttime were specific to the summer conditions examined.
+The \(R^2\) values for NO₂ and O₃ should not be added because the pollutants describe overlapping spatial structures. Each value represents a separate bivariate association and not an independent or causal contribution to LST.
+![simple_spatial_relationships_lst_table.png](https://placehold.co/2058x921?font=inter&text=Upload%20in%20progress%0A(this%20might%20take%20a%20while)#1790598708214)
 
-The pollution variables also showed their strongest relationships with LST during July nighttime. O₃ accounted for approximately 18% of nighttime LST variability, while NO₂ accounted for approximately 17%. However, the two pollutants showed opposite spatial directions:
-- the LST–O₃ relationship was negative, indicating lower O₃ in locations with hotter nighttime surfaces;
-- the LST–NO₂ relationship was positive, indicating higher NO₂ in locations with hotter nighttime surfaces.
-
-NO₂ and O₃ are strongly related through atmospheric chemistry and contain overlapping—but oppositely directed—spatial information. Their strong negative correlation also suggests that Madrid’s nighttime heat–pollution relationship depends on the pollutant considered. Urban heat and NO₂ hotspots partially coincided, whereas the highest-O₃ areas tended to occur away from the hottest nighttime surfaces.
-
-During July daytime, the individual atmospheric relationships with LST were weaker. ERA5 air temperature accounted for approximately 5% of daytime LST variability, while the pollution variables provided less explanatory information than at night. Daytime LST is more directly controlled by solar radiation, vegetation, surface moisture and land-cover properties, which can weaken its spatial relationship with atmospheric variables.
-
-January is retained only as a seasonal reference. ERA5 air temperature accounted for approximately 17% of daytime and 19% of nighttime LST variability during January. The stronger summer-night pollution relationships nevertheless identify July nighttime as the principal period for investigating the combined spatial distribution of heat and air pollution.
-
-All regression results represent statistical associations. They do not demonstrate that O₃ or NO₂ directly changes surface temperature, because temperature, pollution and urban form are influenced by several common environmental processes.
+<p align="center"><em>Pearson correlations and corresponding \(R^2=r^2\) values for the simple spatial relationships with LST. July nighttime is highlighted as the principal analysis period, while January is included as a seasonal reference.</em></p>
 
 ### Vegetation and elevation
 
