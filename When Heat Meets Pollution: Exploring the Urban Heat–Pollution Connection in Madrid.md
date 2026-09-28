@@ -287,19 +287,19 @@ The observed nighttime O₃ should not be described as ozone produced by nightti
 
 ### Spatial correlations: Spatial relationship between nighttime heat and O₃
 
-The clearest simple pollution–LST relationship was observed during the July nighttime window of 22:00–24:00 local time. O₃ alone explained approximately 18% of the spatial variability in nighttime LST.
-This represents a moderate spatial association. In a simple regression with one predictor, \(R^2=0.18\) corresponds to a Pearson correlation magnitude of approximately \(0.42\). However, \(R^2\) does not indicate the direction of the relationship. The sign of the regression slope must therefore be considered to determine whether elevated nighttime O₃ was associated with hotter or cooler surfaces.
-During July nighttime, the O₃–LST relationship produced \(r\approx\) [+0.42 or −0.42, according to the regression slope], \(\rho=\) [insert Spearman value] and \(R^2\approx0.18\), based on [insert valid sample] matched grid cells.
+The July nighttime spatial analysis focused on the 22:00–24:00 local-time window. Nighttime LST and O₃ showed a moderate negative spatial association, with a Pearson correlation of \(r=-0.41\) and a Spearman correlation of \(\rho=-0.42\). The calculation included 1,766 matched grid cells, corresponding to 73% of the complete study grid.
 
-The relationship describes spatial co-variation and does not demonstrate that O₃ directly affects LST. O₃ and surface temperature can both be influenced by vegetation, elevation, urban structure, atmospheric mixing and regional transport.
-ERA5 air temperature showed a stronger relationship with nighttime LST, explaining approximately 32% of its spatial variability. This corresponds to a positive Pearson correlation of approximately \(r=+0.57\), provided that the correlation and regression were calculated from the same observations. The result confirms that the atmospheric thermal background is important for understanding where surface heat persists after sunset.
-NO₂ was retained as a supporting pollution indicator. It was positively correlated with nighttime LST (\(r=0.48\), \(\rho=0.49\)) but strongly negatively correlated with O₃ (\(r=-0.93\), \(\rho=-0.85\)).
+The negative relationship indicates that locations with higher nighttime LST generally had lower O₃ concentrations, whereas higher-O₃ locations tended to have cooler surfaces. Therefore, the July results do not indicate a direct spatial coincidence between Madrid’s hottest nighttime surfaces and its highest O₃ concentrations.
 
+A stronger negative association was found between ERA5 air temperature and O₃, with \(r=-0.60\) and \(\rho=-0.59\), based on 2,279 cells, or 94% of the grid. In contrast, nighttime LST and ERA5 air temperature were weakly positively correlated (\(r=+0.25\), \(\rho=+0.24\)), based on 1,766 cells. This weak spatial correlation reflects the fact that LST represents surface heating and heat storage, while ERA5 describes the coarser atmospheric thermal background.
 
+NO₂ was retained as a supporting pollution indicator. Nighttime LST was moderately positively correlated with NO₂ (\(r=+0.48\), \(\rho=+0.49\)), while NO₂ and O₃ were strongly negatively correlated (\(r=-0.93\), \(\rho=-0.85\)). Thus, hotter urban locations tended to contain more NO₂ but less O₃.
 
-![Spatial correlations - January and July](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/eda403b0143816867713b5a5cd7d33ac4dce016b/assets/vittorez/spatialcorrelationsjanuaryjulycombined-1-1789682024434.png)
+One possible explanation is that NO emitted in traffic- and combustion-influenced areas removes O₃ through chemical titration. Differences in elevation, ventilation, vegetation, emissions and regional ozone transport may also contribute to the observed spatial contrast. Nighttime O₃ reflects ozone produced earlier in the day, together with its subsequent transport and chemical removal; it should not be interpreted as ozone produced directly by nighttime heat.
 
-<p align="center"><em>Spatial correlation summary for January and July. Pearson describes linear association, while Spearman describes rank-based monotonic association.</em></p>
+![July_night_O3_spatial_results.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/28aef679fd6398340ffceed6d19fa53a414ecd68/assets/NikolinaZallemi/JulynightO3spatialresults-1790597479436.png)
+
+<p align="center"><em>Spatial correlations among nighttime LST, ERA5 air temperature, O₃ and NO₂ during July 2026. Pearson r measures linear spatial association, while Spearman ρ measures rank-based monotonic association. Sample percentages refer to the proportion of the complete 2,430-cell grid with valid matched observations.</em></p>
 
 ### Simple spatial relationships with LST
 
