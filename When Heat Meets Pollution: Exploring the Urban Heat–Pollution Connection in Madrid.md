@@ -321,7 +321,7 @@ To assess the direct spatial overlap between nighttime heat and O₃, the matche
 
 The observed combined-hotspot area was compared with the overlap expected if heat- and O₃-hotspot membership were independent. This comparison was used as a descriptive measure of spatial coincidence and not as a statistical significance test.
 
-### Compound nighttime heat–O₃ hotspot overlap
+#### Compound night-time heat–O₃ hotspot overlap
 The hotspot classification showed limited overlap between the highest nighttime LST and O₃ values. Of the 1,766 matched cells, 443 were heat hotspots and 442 were O₃ hotspots. Only 59 cells were classified as combined hotspots, corresponding to 3.3% of the valid grid. The remaining hotspot cells were divided almost equally between 384 heat-only cells and 383 O₃-only cells, while 940 cells belonged to neither category.
 
 ![July_night_compound_LST_O3_hotspots.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/71c18ae31baf2734ecf9a428ff95073fd86978cd/assets/NikolinaZallemi/JulynightcompoundLSTO3hotspots-1790606571934.png)
