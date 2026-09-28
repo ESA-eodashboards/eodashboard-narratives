@@ -125,7 +125,11 @@ Two contrasting months were selected: **January 2026** to represent winter condi
 
 Within each date and time window, valid observations were summarised using the **median**. Cloud-contaminated or unavailable LST pixels were retained as missing values rather than filled artificially.
 
-All layers were co-registered to a common **1 km grid in ETRS89 / UTM zone 30N (EPSG:25830)** and clipped to the Madrid study boundary. The common mask contained **2,279 analysis cells**. Resampling provides spatial alignment between datasets.
+All layers were co-registered to a common **1 km grid in ETRS89 / UTM zone 30N (EPSG:25830)** and clipped to the Madrid study boundary.
+
+The main analysis focuses on July 2026 and particularly on the selected nighttime window. Nighttime conditions are important because elevated land-surface and air temperatures after sunset indicate limited thermal relief. O₃ is treated as the principal pollution variable, while NO₂ is retained as a complementary indicator of urban emissions and NOₓ–O₃ chemistry.
+
+January results are used only as a seasonal reference and are not included in the principal summer analysis.
 
 ### Data
 
