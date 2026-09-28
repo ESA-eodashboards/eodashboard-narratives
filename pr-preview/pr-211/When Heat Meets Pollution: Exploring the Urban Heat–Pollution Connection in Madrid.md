@@ -314,7 +314,7 @@ The R² values for NO₂ and O₃ should not be added because the pollutants des
 
 ![![simple_spatial_relationships_lst_table.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/49e9e28d776127e1cd3a216da43870c2e98d644b/assets/NikolinaZallemi/simplespatialrelationshipslsttable-1790598705926.png)](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/78c2347d4bc2285af2ff56419833a77867f16a5f/assets/NikolinaZallemi/simplespatialrelationshipslsttable-1790599034862.png)
 
-<p align="center"><em>Pearson correlations and corresponding \(R^2=r^2\) values for the simple spatial relationships with LST. July nighttime is highlighted as the principal analysis period, while January is included as a seasonal reference.</em></p>
+<p align="center"><em>Pearson correlations and corresponding R²=r² values for the simple spatial relationships with LST. July nighttime is highlighted as the principal analysis period, while January is included as a seasonal reference.</em></p>
 
 ### Vegetation and elevation
 
