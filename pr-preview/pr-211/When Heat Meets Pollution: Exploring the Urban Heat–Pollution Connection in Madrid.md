@@ -149,7 +149,9 @@ The workflow was designed to preserve the physical meaning of each variable whil
 
 **1. Spatial harmonisation.** All layers were clipped to the Madrid study boundary, projected to EPSG:25830 and aligned to the same 1 km grid. Finer-resolution NDVI and elevation data were aggregated, whereas coarser atmospheric fields were interpolated for alignment only.
 
-**2. Temporal harmonisation.** Dynamic variables were organised by date and separated into the selected DAY and NIGHT windows. Daily medians were calculated within each time window. January and July were analysed separately to avoid mixing contrasting seasonal regimes.
+**2. Temporal harmonisation.** Dynamic variables were organised by date and separated into the selected DAY and NIGHT windows. Daily medians were calculated within each time window. January and July were analysed separately to avoid mixing contrasting seasonal regimes. 
+
+The principal analysis used July nighttime observations.
 
 **3. Exploratory mapping and correlation.** Monthly and daily maps were used to inspect heat, pollutant and air-temperature patterns. Pearson correlation measures linear spatial association, while Spearman correlation is based on ranks and captures monotonic relationships that may not be perfectly linear. Both were used to compare temperature and pollution fields while also reporting the fraction of cells with valid matched data.
 
@@ -160,20 +162,6 @@ The workflow was designed to preserve the physical meaning of each variable whil
 `Representative monthly LST = (mean daytime LST + mean nighttime LST) / 2`
 
 This uses all available daytime observations and all available nighttime observations without requiring day and night retrievals to occur on the same date. It should be interpreted as a representative combination of the selected day/night windows, **not** as a true 24-hour daily mean.
-
-**6. Multiple regression.** To evaluate whether pollution adds information beyond meteorology and surface controls, two model specifications were compared for each month and period:
-
-`Baseline: LST ~ Tair + NDVI + Elevation`
-
-`Full: LST ~ Tair + NDVI + Elevation + NO₂ + O₃`
-
-For this step, LST, air temperature, NO₂ and O₃ were first matched on the **same cell and the same valid dates** before monthly spatial medians were calculated. This prevents a predictor from being summarised over dates when LST was missing. Heteroskedasticity-consistent **HC3 robust standard errors** were used. Standardised coefficients were calculated to compare relative effect sizes across predictors, and variance-inflation factors (VIF) were inspected for multicollinearity.
-
-The main multiple-regression quantity is:
-
-`ΔR² = R²(full model) - R²(baseline model)`
-
-It measures how much additional spatial LST variance is associated with adding NO₂ and O₃ after air temperature, NDVI and elevation are already included.
 
 ## Data Analysis
 
@@ -213,22 +201,6 @@ Winter air temperatures show a clear day–night contrast across Madrid. During 
 </p>
 Summer temperatures are much higher and spatially more uniform across Madrid. The spatial mean reaches about 29.1 °C during the daytime window and 29.5 °C at night. The slightly higher nighttime monthly median reflects the specific selected time windows and the monthly aggregation of ERA5 data, rather than implying that nights are generally warmer than days. The maps nevertheless show that high near-surface air temperatures persist well into the evening, highlighting the limited nighttime thermal relief during summer.
 
-### Nitrogen dioxide: An urban signal shaped by emissions
-
-NO₂ patterns change between season and time of day because emissions, atmospheric mixing and chemistry all vary. The animations show that pollution does not simply follow the temperature field. A high-LST surface and a high-NO₂ atmosphere can coincide because both are linked to dense urban areas, but their relationship can weaken or reverse when boundary-layer mixing and photochemistry change.
-
-<div style="display: flex; gap: 10px;">
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e75cffa4e129c6611205f50637e88eeda8aab387/assets/vittorez/January2026NO2DAYESRI-1789655589787.gif" style="width: 48%;" />
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/516f4965e19cbc50cb353c5b548e59aa7a344e21/assets/vittorez/January2026NO2NIGHTESRI-1789655678870.gif" style="width: 48%;" />
-</div>
-
-<div style="display: flex; gap: 10px;">
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e8d59e29b342c013cbe967e990b9c538246f36b4/assets/vittorez/July2026NO2DAYESRI-1789655733388.gif" style="width: 48%;" />
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e9f4dacbb2e9ac5069bfe3b75f535e04825b9f6c/assets/vittorez/July2026NO2NIGHTESRI-1789656066047.gif" style="width: 48%;" />
-</div>
-
-<p align="center"><em>Seasonal and diurnal shifts in NO₂ over Madrid.</em></p>
-
 ### Ozone: A contrasting photochemical pattern
 
 O₃ adds a complementary view of Madrid's atmospheric chemistry. Unlike NO₂, ozone is not emitted directly by traffic. Its distribution reflects photochemical production, transport and chemical loss. The relationship between NO₂ and O₃ therefore changes with sunlight, emissions and atmospheric stability, which is one reason the pollutant-temperature relationship cannot be reduced to a single correlation coefficient.
@@ -244,6 +216,22 @@ O₃ adds a complementary view of Madrid's atmospheric chemistry. Unlike NO₂, 
 </div>
 
 <p align="center"><em>Seasonal and diurnal shifts in O₃ over Madrid.</em></p>
+
+### Nitrogen dioxide: An urban signal shaped by emissions
+
+NO₂ patterns change between season and time of day because emissions, atmospheric mixing and chemistry all vary. The animations show that pollution does not simply follow the temperature field. A high-LST surface and a high-NO₂ atmosphere can coincide because both are linked to dense urban areas, but their relationship can weaken or reverse when boundary-layer mixing and photochemistry change.
+
+<div style="display: flex; gap: 10px;">
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e75cffa4e129c6611205f50637e88eeda8aab387/assets/vittorez/January2026NO2DAYESRI-1789655589787.gif" style="width: 48%;" />
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/516f4965e19cbc50cb353c5b548e59aa7a344e21/assets/vittorez/January2026NO2NIGHTESRI-1789655678870.gif" style="width: 48%;" />
+</div>
+
+<div style="display: flex; gap: 10px;">
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e8d59e29b342c013cbe967e990b9c538246f36b4/assets/vittorez/July2026NO2DAYESRI-1789655733388.gif" style="width: 48%;" />
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e9f4dacbb2e9ac5069bfe3b75f535e04825b9f6c/assets/vittorez/July2026NO2NIGHTESRI-1789656066047.gif" style="width: 48%;" />
+</div>
+
+<p align="center"><em>Seasonal and diurnal shifts in NO₂ over Madrid.</em></p>
 
 ## Results
 ### Air temperature: The atmospheric background to surface heating
