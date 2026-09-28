@@ -309,7 +309,8 @@ During July nighttime, the pollution variables showed the strongest relationship
 The corresponding July daytime relationships were weaker. ERA5 air temperature and O₃ each described approximately 10% of LST variability, while NO₂ described only about 2%. The increase from day to night was therefore particularly clear for NO₂ and O₃, supporting the selection of nighttime as the main period for analysing the combined heat–pollution pattern.
 January was retained as a seasonal reference. During January daytime, ERA5 air temperature, NO₂ and O₃ each described approximately 17% of spatial LST variability. At night, however, their relationships weakened substantially, accounting for only approximately 1–7%. The contrast with January confirms that the strong pollution–LST relationships observed during July nighttime were specific to the summer conditions examined.
 The \(R^2\) values for NO₂ and O₃ should not be added because the pollutants describe overlapping spatial structures. Each value represents a separate bivariate association and not an independent or causal contribution to LST.
-![simple_spatial_relationships_lst_table.png](https://placehold.co/2058x921?font=inter&text=Upload%20in%20progress%0A(this%20might%20take%20a%20while)#1790598708214)
+
+![![simple_spatial_relationships_lst_table.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/49e9e28d776127e1cd3a216da43870c2e98d644b/assets/NikolinaZallemi/simplespatialrelationshipslsttable-1790598705926.png)](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/78c2347d4bc2285af2ff56419833a77867f16a5f/assets/NikolinaZallemi/simplespatialrelationshipslsttable-1790599034862.png)
 
 <p align="center"><em>Pearson correlations and corresponding \(R^2=r^2\) values for the simple spatial relationships with LST. July nighttime is highlighted as the principal analysis period, while January is included as a seasonal reference.</em></p>
 
