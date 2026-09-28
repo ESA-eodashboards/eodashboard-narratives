@@ -285,14 +285,16 @@ The observed nighttime O₃ should not be described as ozone produced by nightti
   Daily co-variability of ERA5 2-m air temperature, NO₂ and O₃ over Madrid in January 2026 for the selected daytime and nighttime windows.
 </p>
 
-### Spatial correlations: Where do heat and pollution overlap?
+### Spatial correlations: Spatial relationship between nighttime heat and O₃
 
-For ERA5-NO2, the strongest spatial association is found in July evening (21:00-23:00), with Pearson equal to 0.69 and Spearman equal to 0.67, based on 94% of valid cells. A similarly strong relationship is observed in January evening, with Pearson 0.64 and Spearman equal to 0.67. During the morning, the relationship is weaker but still positive, especially in July (r = 0.40, ρ = 0.41).
+The clearest simple pollution–LST relationship was observed during the July nighttime window of 22:00–24:00 local time. O₃ alone explained approximately 18% of the spatial variability in nighttime LST.
+This represents a moderate spatial association. In a simple regression with one predictor, \(R^2=0.18\) corresponds to a Pearson correlation magnitude of approximately \(0.42\). However, \(R^2\) does not indicate the direction of the relationship. The sign of the regression slope must therefore be considered to determine whether elevated nighttime O₃ was associated with hotter or cooler surfaces.
+During July nighttime, the O₃–LST relationship produced \(r\approx\) [+0.42 or −0.42, according to the regression slope], \(\rho=\) [insert Spearman value] and \(R^2\approx0.18\), based on [insert valid sample] matched grid cells.
 
-For LST-NO2, the clearest result occurs in July evening, with r equal to 0.48 and ρ equal to 0.49, although the valid-cell coverage is lower (73%). In January morning, the relationship is also moderate (r = 0.41, ρ = 0.45), while the January evening case is weak and slightly negative.
+The relationship describes spatial co-variation and does not demonstrate that O₃ directly affects LST. O₃ and surface temperature can both be influenced by vegetation, elevation, urban structure, atmospheric mixing and regional transport.
+ERA5 air temperature showed a stronger relationship with nighttime LST, explaining approximately 32% of its spatial variability. This corresponds to a positive Pearson correlation of approximately \(r=+0.57\), provided that the correlation and regression were calculated from the same observations. The result confirms that the atmospheric thermal background is important for understanding where surface heat persists after sunset.
+NO₂ was retained as a supporting pollution indicator. It was positively correlated with nighttime LST (\(r=0.48\), \(\rho=0.49\)) but strongly negatively correlated with O₃ (\(r=-0.93\), \(\rho=-0.85\)).
 
-Overall, these results suggest that urban heat islands and NO2 hotspots partially overlap spatially, likely because they are influenced by common urban factors such as dense built-up areas, traffic emissions, and reduced ventilation, rather than because temperature directly causes higher NO2.
-The NO2–O3 relationship is strongly negative in all spatial cases, reaching values close to -0.9 to -1.0, which is physically consistent with NOX-O3 chemistry and supports the overall coherence of the spatial patterns.
 
 
 ![Spatial correlations - January and July](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/eda403b0143816867713b5a5cd7d33ac4dce016b/assets/vittorez/spatialcorrelationsjanuaryjulycombined-1-1789682024434.png)
@@ -337,91 +339,6 @@ Elevation shows the same seasonal tendency, although the relationship is weaker 
 
 
 
-### Multiple regression: Does pollution add more information?
-
-To understand whether pollution adds information beyond the main environmental controls, two models were compared:
-
-- **Baseline:** `LST ~ air temperature + NDVI + elevation`
-- **Full:** `LST ~ air temperature + NDVI + elevation + NO₂ + O₃`
-
-LST, air temperature, NO₂ and O₃ were matched by the same cell and date before the analysis.
-
-| Period | Baseline R² | Full R² | Added R² from NO₂ + O₃ |
-|---|---:|---:|---:|
-| January DAY | 0.275 | 0.299 | **+2.4 pp** |
-| January NIGHT | 0.307 | 0.320 | **+1.3 pp** |
-| July DAY | 0.291 | 0.305 | **+1.4 pp** |
-| July NIGHT | 0.361 | **0.455** | **+9.4 pp** |
-
-<p align="center"><em>**pp stands for percentage points</em></p>
-
-<div style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7cce28ec8659fbe30f9237070976b1ceaa6d857f/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.23.20-1789684514508.jpeg"
-       style="width: 85%; max-width: 1100px;" />
-</div>
-<p align="center" style="color: #777; font-size: 0.85em;">
-  Comparison between the baseline model and the full model including NO₂ and O₃. The largest improvement is found during July nighttime.
-</p>
-
-In January and during July daytime, adding NO₂ and O₃ improves the model only slightly.
-
-The main difference appears in **July nighttime**. The explained LST variability increases from **36.1% to 45.5%** when NO₂ and O₃ are added. This means that pollution patterns contain more additional spatial information during summer nights.
-
-This result shows an **association**, not a direct causal effect.
-
-### Which variables matter most?
-
-Standardised coefficients help compare the importance of the different predictors.
-
-| Predictor | January DAY | January NIGHT | July DAY | July NIGHT |
-|---|---:|---:|---:|---:|
-| Air temperature | **+0.381** | **+0.502** | +0.132 | **+0.522** |
-| NDVI | -0.270 | -0.098 | **-0.512** | +0.103 |
-| Elevation | -0.109 | +0.333 | -0.061 | +0.260 |
-| NO₂ | +0.063 | +0.265 | -0.153 | +0.271 |
-| O₃ | -0.117 | +0.206 | -0.043* | -0.163 |
-
-<p align="center" style="color: #777; font-size: 0.85em;">
-  Standardized regression coefficients
-</p>
-`*` O₃ is not clearly significant in July daytime.
-
-The strongest contrast appears between **July day and July night**.
-
-During the day, **NDVI is the strongest predictor**, showing that greener areas are generally cooler.
-
-At night, **air temperature becomes the strongest predictor**, while NO₂ also shows a positive relationship with LST.
-
-Overall, the main controls on surface temperature change between day and night and between winter and summer.
-
-### How much does pollution add?
-
-The baseline model includes air temperature, NDVI and elevation. When NO₂ and O₃ are added, the improvement is small in January and during July daytime. 
-
-<div style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/5b9b0d7e978f125f27a2184ed380a028ff5f413d/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.23.46-1789684533985.jpeg"
-       style="width: 85%; max-width: 1100px;" />
-</div>
-
-<p align="center" style="color: #777; font-size: 0.85em;">
-  Standardized regression coefficients for the full model. Values farther from zero indicate a stronger relationship with LST after the other variables are taken into account. Positive values indicate a positive relationship with LST, while negative values indicate a negative relationship. Horizontal bars show the 95% confidence intervals.
-</p>
-
-The coefficient plot shows that the main controls on LST change with season and time of day. In **January daytime**, air temperature has the strongest positive coefficient (`β* ≈ +0.38`), while NDVI shows a clear negative relationship 
-(`β* ≈ -0.27`). At **January nighttime**, air temperature becomes even stronger (`β* ≈ +0.50`), while NO₂ and O₃ also show positive relationships (`β* ≈ +0.27` and `+0.21`).
-
-The clearest contrast appears in **July**. During the **day**, NDVI is the strongest predictor (`β* ≈ -0.51`), showing that greener cells are associated with lower LST after the other variables are taken into account. During the **night**, air temperature becomes the strongest predictor (`β* ≈ +0.52`), while NO₂ also keeps a positive relationship (`β* ≈ +0.27`) and O₃ a negative one (`β* ≈ -0.16`).
-
-
-### What the combined results tell us
-
-The results show a clear difference between summer day and night.
-
-During **July daytime**, vegetation is the main factor linked to surface temperature: greener areas are cooler, while adding NO₂ and O₃ only slightly improves the model.
-
-During **July nighttime**, the pattern changes. Air temperature becomes the strongest predictor, and the pollution variables add much more information than in the other periods. The spatial-correlation analysis supports this result, with the strongest heat–NO₂ overlap also appearing during the summer evening/night period.
-
-Together, these results suggest that **summer nighttime is the clearest period for the joint spatial pattern of heat and air pollution in Madrid**.
 
 
 ### Limitations
