@@ -234,42 +234,57 @@ NO₂ patterns change between season and time of day because emissions, atmosphe
 <p align="center"><em>Seasonal and diurnal shifts in NO₂ over Madrid.</em></p>
 
 ## Results
-### Air temperature: The atmospheric background to surface heating
+### July 2026: A summer-month case study of nighttime heat and ozone
+The main analysis focuses on July 2026 and particularly on the selected nighttime window. Nighttime conditions are important because elevated land-surface and air temperatures after sunset indicate limited thermal relief. O₃ is treated as the principal pollution variable, while NO₂ is retained as a complementary indicator of urban emissions and NOₓ–O₃ chemistry.
 
- Although air and surface temperatures are related, they are not equivalent: surface temperature responds directly to solar radiation, material properties, moisture and shading, while near-surface air temperature is mixed through the lower atmosphere.
+January results are used only as a seasonal reference and are not included in the principal summer analysis.
 
-![January_2026_DAY_temperature_timeseries.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/42b773597b70145ea3940828d26e4f286935757d/assets/vittorez/January2026DAYtemperaturetimeseries-1789665925063.png)
+#### Persistence of summer heat into the night
+Land-surface temperature and near-surface air temperature describe different components of the urban thermal environment. LST represents the temperature of the surface itself and responds to radiation, vegetation, moisture and construction materials. ERA5 2-m air temperature represents the thermal conditions of the lower atmosphere.
 
-![January_2026_NIGHT_temperature_timeseries.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/0ed1e6201a90d8dd0fd50eba66fbb287b5b9a0eb/assets/vittorez/January2026NIGHTtemperaturetimeseries-1789665960480.png)
+July was characterised by persistently high air temperatures and limited cooling during the selected nighttime window. Mean ERA5 air temperature was approximately 28.96 °C during the daytime window and 29.66 °C during the late-evening/nighttime window.
 
-In January, the mean temperature over the selected period was approximately 5.33 °C during the daytime window (11:00–13:00) and 4.45 °C during the nighttime window (22:00–24:00). Several short warm and cold episodes are visible during the month. Temperatures dropped markedly around 5–7 January, particularly at night, when the spatial mean approached or fell slightly below 0 °C, whereas warmer episodes occurred around 3 January, 13 January and toward the end of the month, with spatial means approaching 8–10 °C. The close agreement between the spatial mean and median indicates that the overall regional temperature signal is relatively coherent, while the wider separation between spatial minima and maxima shows that meaningful temperature differences remain across the Madrid study area.
+The slightly higher value during the nighttime window should not be interpreted as evidence that nights were generally warmer than days. It reflects the specific observation windows, daily aggregation and persistence of heat into the late evening.
 
-Interestingly, the July late-evening mean is slightly higher than the late-morning mean. This should not be interpreted as a general night-versus-day temperature inversion, but rather as a feature of the selected observation windows and the persistence of summer heat into the evening.
+The warmest periods occurred during the first third of July, around 21–23 July and toward the end of the month, when the spatial mean exceeded approximately 31–32 °C. A cooler episode occurred around 25–26 July, when the spatial mean fell temporarily to approximately 23–24 °C.
+
+These results show that elevated atmospheric temperatures frequently persisted into the evening, creating conditions with limited nighttime thermal relief.
 
 ![July_2026_DAY_temperature_timeseries.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/fb8a6d73f45ae30a58240f68fdedf0f85c44c677/assets/vittorez/July2026DAYtemperaturetimeseries-1789665978602.png)
 
 ![July_2026_NIGHT_temperature_timeseries.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/2160595e7ef4c116aa6725291f1c3e77f51fe2ca/assets/vittorez/July2026NIGHTtemperaturetimeseries-1789666002145.png)
 
-July presents a very different thermal regime, characterized by persistently high temperatures and relatively limited nighttime cooling. Mean air temperature was about 28.96 °C during the daytime window and 29.66 °C during the late-evening/nighttime window. The warmest periods occurred during the first third of the month and again around 21–23 July and at the end of July, when spatial mean temperatures exceeded 31–32 °C. In contrast, a pronounced cooler episode occurred around 25–26 July, when the spatial mean temporarily dropped to approximately 23–24 °C before rapidly increasing again. The relatively high nighttime values indicate that warm atmospheric conditions often persisted well into the evening during July.
+In January, the mean temperature over the selected period was approximately 5.33 °C during the daytime window (11:00–13:00) and 4.45 °C during the nighttime window (22:00–24:00). Several short warm and cold episodes are visible during the month. Temperatures dropped markedly around 5–7 January, particularly at night, when the spatial mean approached or fell slightly below 0 °C, whereas warmer episodes occurred around 3 January, 13 January and toward the end of the month, with spatial means approaching 8–10 °C.
 
-### Temporal co-variability of air temperature, NO₂ and O₃
+![January_2026_DAY_temperature_timeseries.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/42b773597b70145ea3940828d26e4f286935757d/assets/vittorez/January2026DAYtemperaturetimeseries-1789665925063.png)
 
-The atmospheric correlation plots illustrate why season and time of day must be treated separately. Air temperature, NO₂ and O₃ do not move in lockstep: atmospheric stability, mixing, emissions and photochemistry alter their relationships. In particular, NO₂ and O₃ can carry overlapping or opposing information, so their individual simple-regression slopes should not be interpreted as isolated physical effects.
+![January_2026_NIGHT_temperature_timeseries.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/0ed1e6201a90d8dd0fd50eba66fbb287b5b9a0eb/assets/vittorez/January2026NIGHTtemperaturetimeseries-1789665960480.png)
 
-![January_2026_DAY_temperature_NO2_O3.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b92dcccfedc5f5bd8294c312db9346590d8afb8e/assets/vittorez/January2026DAYtemperatureNO2O3-1789665595806.png)
+#### Summer O₃ behaviour and nighttime persistence
 
-![January_2026_NIGHT_temperature_NO2_O3.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/5f4a3180dda80702316cd740d213ee7a5612a19b/assets/vittorez/January2026NIGHTtemperatureNO2O3-1789665623159.png)
+O₃ is the principal pollutant considered in the summer analysis. Unlike NO₂, ozone is not emitted directly. It is produced through photochemical reactions involving nitrogen oxides and other precursors under sunlight. Nighttime O₃ therefore reflects ozone produced earlier in the day, regional transport, vertical mixing and chemical removal after sunset.
+
+O₃ remained elevated during much of July, including during the nighttime window. The temporal variations in O₃ did not correspond perfectly with air-temperature variations because ozone concentrations also depend on precursor availability, atmospheric transport, mixing and chemical removal.
+NO₂ remained comparatively low during July and frequently varied in the opposite direction to O₃. This contrast is consistent with their coupled atmospheric chemistry. NO₂ is retained as a supporting variable for interpreting the O₃ patterns, rather than as the principal pollutant investigated.
+The observed nighttime O₃ should not be described as ozone produced by nighttime heat. Instead, it represents residual or transported ozone persisting during nights when high temperatures may also limit environmental relief.
 
 ![July_2026_DAY_temperature_NO2_O3.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/c62611a1d7f80f0483996e0a6888a2a06ee7be77/assets/vittorez/July2026DAYtemperatureNO2O3-1789665645694.png)
 
 ![July_2026_NIGHT_temperature_NO2_O3.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/a364361583f954148f83f25bd6d0e2e19f31f984/assets/vittorez/July2026NIGHTtemperatureNO2O3-1789665686005.png)
 <p align="center" style="color: #777; font-size: 0.85em;">
-  Daily co-variability of ERA5 2-m air temperature, NO₂ and O₃ over Madrid in January and July 2026 for the selected daytime and nighttime windows.
+  Daily co-variability of ERA5 2-m air temperature, NO₂ and O₃ over Madrid in July 2026 for the selected daytime and nighttime windows.
 </p>
 
-The joint time series reveal a seasonal shift in Madrid’s atmospheric conditions. In January, near-surface air temperatures are low, while NO₂ concentrations are generally higher and O₃ concentrations lower than in July. This is consistent with winter conditions, when a shallower and more stable boundary layer can limit atmospheric mixing and favour the accumulation of locally emitted NO₂. During summer, the opposite seasonal pattern emerges: NO₂ concentrations are lower, while O₃ reaches much higher levels, reflecting stronger photochemical activity under warm and sunny conditions.
+ In January, near-surface air temperatures are low, while NO₂ concentrations are generally higher and O₃ concentrations lower than in July. This is consistent with winter conditions, when a shallower and more stable boundary layer can limit atmospheric mixing and favour the accumulation of locally emitted NO₂. During summer, the opposite seasonal pattern emerges: NO₂ concentrations are lower, while O₃ reaches much higher levels, reflecting stronger photochemical activity under warm and sunny conditions.
+ 
+![January_2026_DAY_temperature_NO2_O3.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b92dcccfedc5f5bd8294c312db9346590d8afb8e/assets/vittorez/January2026DAYtemperatureNO2O3-1789665595806.png)
 
-The day–night comparison also shows that the three variables do not evolve independently. In January, NO₂ tends to be higher at night than during the daytime, while O₃ often varies in the opposite direction, which is consistent with the coupled NOₓ–O₃ chemistry and changing boundary-layer conditions. In July, NO₂ remains comparatively low throughout the month, whereas O₃ stays persistently elevated. Air temperature shows pronounced warm and cool episodes, and these meteorological variations provide an important background for interpreting changes in pollutant concentrations.
+![January_2026_NIGHT_temperature_NO2_O3.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/5f4a3180dda80702316cd740d213ee7a5612a19b/assets/vittorez/January2026NIGHTtemperatureNO2O3-1789665623159.png)
+
+<p align="center" style="color: #777; font-size: 0.85em;">
+  Daily co-variability of ERA5 2-m air temperature, NO₂ and O₃ over Madrid in January 2026 for the selected daytime and nighttime windows.
+</p>
+
 ### Spatial correlations: Where do heat and pollution overlap?
 
 For ERA5-NO2, the strongest spatial association is found in July evening (21:00-23:00), with Pearson equal to 0.69 and Spearman equal to 0.67, based on 94% of valid cells. A similarly strong relationship is observed in January evening, with Pearson 0.64 and Spearman equal to 0.67. During the morning, the relationship is weaker but still positive, especially in July (r = 0.40, ρ = 0.41).
