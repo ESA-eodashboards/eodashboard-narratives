@@ -43,8 +43,6 @@ The objective is to investigate the spatial and temporal relationship between **
 
 Rather than asking only whether two maps look similar, the analysis quantifies how much of the observed spatial variability in LST is associated with meteorology, vegetation, topography and air-pollution.
 
-A second objective is to test whether NO₂ and O₃ provide additional explanatory information once air temperature, NDVI and elevation are already accounted for.
-
 ## Analysed phenomena
 
 ### Urban heat island and land-surface temperature
@@ -369,24 +367,28 @@ Elevation shows the same seasonal tendency, although the relationship is weaker 
 
 ### Limitations
 
-This study is based on only **January and July 2026**, so it represents an exploratory comparison between winter and summer rather than the full annual cycle. More months, more years and additional heatwave periods would be needed to test whether the same patterns occur consistently.
+The analysis covers only January and July 2026. It therefore represents a comparison between selected winter and summer conditions rather than the complete seasonal cycle. July nighttime is the principal study period, while January provides only a seasonal reference. Additional months, years and heatwave events would be required to determine whether the observed relationships are persistent.
 
-The datasets also have different spatial resolutions. Sentinel-3 LST is close to the 1 km analysis grid, while ERA5 and CAMS are much coarser. Resampling these datasets to 1 km allows them to be compared on the same grid, but it does not create new high-resolution atmospheric information.
+The input datasets have different native spatial resolutions. Sentinel-3 LST is close to the 1 km analysis grid, whereas ERA5 and CAMS represent much broader atmospheric fields. Aligning these datasets to a common grid enables spatial comparison but does not create neighbourhood-scale information for air temperature or pollutant concentrations.
 
-Cloud cover and satellite availability also reduce the number of valid LST observations, especially for some nighttime periods. In addition, neighbouring grid cells are not fully independent, so the statistical results should be interpreted mainly in terms of spatial patterns and associations.
+Cloud cover and satellite availability resulted in uneven LST coverage. The July nighttime analysis included 1,766 matched cells, corresponding to 73% of the grid, but the number of valid observations differed among cells. The monthly LST composite may therefore represent different observation dates in different locations. It should not be interpreted as a complete record of every July night.
+
+The reported correlations, simple regressions and hotspot classes describe spatial associations rather than causal effects. Nearby cells are also spatially related and cannot be considered fully independent observations. The comparison between observed and expected hotspot overlap is consequently descriptive and does not constitute a statistical significance test.
+
+Finally, the upper-quartile hotspot thresholds are relative to the July study area. They identify the highest values within the analysed maps but do not represent regulatory air-quality limits or health-based heat thresholds. LST also measures surface temperature rather than direct human exposure to near-surface air temperature.
 
 
 ## Conclusions
 
-The relationship between urban heat and air quality in Madrid changes with **season and time of day**.
+The July nighttime analysis does not support a simple positive spatial synergy between heat and O₃. The hottest surfaces generally occurred in locations with lower O₃, and the principal heat and O₃ hotspots were mostly separated. Only 3.3% of the valid grid was classified as a combined hotspot, compared with 6.3% expected if the two hotspot patterns were independent.
 
-During **July daytime**, vegetation shows the clearest relationship with surface temperature. NDVI explains about **23% of the spatial variability in representative July LST**, and greener areas are consistently associated with cooler surfaces.
+The relationship depended strongly on the pollutant considered. Nighttime LST was positively associated with NO₂ but negatively associated with O₃, while NO₂ and O₃ displayed a strong inverse spatial relationship. This contrast indicates that urban emissions, ozone removal, atmospheric transport and ventilation can produce different heat–pollution patterns within the same city.
 
-At **July nighttime**, atmospheric conditions become more important. Adding NO₂ and O₃ to a model already including air temperature, NDVI and elevation increases the explained LST variability from **36.1% to 45.5%**, corresponding to an additional **9.4 percentage points**.
+Near-surface air temperature provided the broader meteorological context but did not reproduce the detailed nighttime LST pattern. Surface heat storage, atmospheric temperature and air pollution should therefore be treated as related but distinct components of the urban environment.
 
-These results do not mean that pollution directly causes higher surface temperature. Instead, heat and pollution can share the same urban spatial patterns because they are both influenced by factors such as dense built-up areas, traffic, limited ventilation and heat stored during the day.
+Vegetation and elevation provided additional context for the spatial temperature pattern. Greener and higher-elevation areas were generally cooler, with the vegetation relationship becoming particularly clear in July. The weaker January nighttime pollution relationships further indicate that the July results were specific to the summer conditions examined.
 
-By combining Sentinel-3, ERA5, CAMS, Sentinel-2 and elevation data, the analysis provides a broader view of where thermal and air-quality pressures may overlap across Madrid.
+Overall, combined environmental risk in Madrid cannot be represented by a single heat–pollution hotspot map. Measures targeting nighttime urban heat and locally emitted NO₂ may be most relevant in dense urban areas, while O₃ mitigation also requires attention to precursor emissions and regional transport beyond the hottest parts of the city. The integrated Earth-observation approach helps identify these contrasting spatial patterns, although longer time series and ground-based validation are needed before drawing conclusions about long-term exposure or causality.
 
 
 ## Future work
