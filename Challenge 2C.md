@@ -112,7 +112,7 @@ Areas with lower heat vulnerability due to younger population demographics.
 #### Heat Risk Index
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/06_heat_exposure_index_map.png?raw=true" width="1400"/></p>
 
-Although socio-demographic data remains constant, temperatures (LST) change daily, continuously altering the level and distribution of risk across neighborhoods. Consequently, emergency planners cannot rely on a single static risk map, as the most vulnerable areas shift over time.
+Although socio-demographic data remains constant, temperatures (LST) change daily, continuously altering the level and distribution of risk across neighbourhoods. Consequently, emergency planners cannot rely on a single static risk map, as the most vulnerable areas shift over time.
 
 ### <!--{ animationOptions='{"duration":500}' }-->
 #### Daily Risk Ranking
@@ -135,7 +135,7 @@ Conversely, Borgo Po's vast forested hills demonstrate a green buffer effect tha
 
 Ultimately, the city's most impermeable, concrete-dense environments perfectly align with its oldest demographics, creating persistent thermal traps.
 
-In conclusion, while socio-demographic variables remain static, daily fluctuations in Land Surface Temperature (LST) continuously alter the spatial distribution and relative ranking of risk across neighborhoods. This dynamic has critical implications for contingency planning: it highlights the inadequacy of relying on a single, static risk map. Because neighborhood vulnerability shifts over time, effective emergency management requires dynamic, day-to-day assessment tools rather than fixed spatial representations.
+In conclusion, while socio-demographic variables remain static, daily fluctuations in Land Surface Temperature (LST) continuously alter the spatial distribution and relative ranking of risk across neighbourhoods. This dynamic has critical implications for contingency planning: it highlights the inadequacy of relying on a single, static risk map. Because neighborhood vulnerability shifts over time, effective emergency management requires dynamic, day-to-day assessment tools rather than fixed spatial representations.
 
 To mitigate urban heat, the city must prioritize de-paving wide avenues and planting shade trees to reduce surface temperatures. In the dense historical center, micro-interventions like green roofs and highly reflective materials are essential to cool narrow streets.
 
