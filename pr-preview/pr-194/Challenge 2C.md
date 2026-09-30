@@ -112,6 +112,8 @@ Areas with lower heat vulnerability due to younger population demographics.
 #### Heat Risk Index
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/06_heat_exposure_index_map.png?raw=true" width="1400"/></p>
 
+Although socio-demographic data remains constant, temperatures (LST) change daily, continuously altering the level and distribution of risk across neighborhoods. Consequently, emergency planners cannot rely on a single static risk map, as the most vulnerable areas shift over time.
+
 ### <!--{ animationOptions='{"duration":500}' }-->
 #### Daily Risk Ranking
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/07_daily_vulnerability_ranking%20(1).png?raw=true" width="1000"/></p>
