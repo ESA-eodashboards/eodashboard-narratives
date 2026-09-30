@@ -1,4 +1,4 @@
-# Heat Risk Mapping - Turin case study <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/FrancescoMezza/torino-heat-exposure/main/Mole_Antonelliana_(Torino)_10.jpg" }-->
+# Heat Risk Mapping - Turin case study <!--{ as="img" mode="hero" src="https://media.istockphoto.com/id/636399938/it/foto/paesaggio-urbano-di-torino-allalba.jpg?s=612x612&w=0&k=20&c=yemCm6bo7EFGa_CcPZfKIZ5lNfNY7e3tjfi-xITU0hU=" }-->
 #### 
 
 ## Authors: Francesco Mezza¹, Sona Guliyeva², Filippos Kostikiadis³, and Sophia Dolla³
@@ -126,7 +126,7 @@ As shown in the graphs, Surface Heat (LST) contributes only a small fraction (5.
 #### Critical Facilities
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/09_critical_facilities_map.png?raw=true" width="1000"/></p>
 
-The image maps critical facilities (hospitals, schools, and elderly care facilities) across Turin's districts based on their risk score. It highlights that the most vulnerable central and western districts, shown in dark red, contain a dense concentration of these sensitive locations.   
+The image maps critical facilities (hospitals, schools, and elderly care facilities) across Turin's districts based on their risk score. It highlights that the most vulnerable central and western districts, shown in dark red, contain a dense concentration of these sensitive locations.
 
 ## Conclusions
 Turin's heat vulnerability is structurally dictated by urban morphology and demographics, not daily weather. The historical center and south-western industrial belt form extreme-risk zones due to severe soil sealing, lack of vegetation, and aging populations.
