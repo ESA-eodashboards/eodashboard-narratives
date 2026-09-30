@@ -126,12 +126,16 @@ As shown in the graphs, Surface Heat (LST) contributes only a small fraction (5.
 #### Critical Facilities
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/09_critical_facilities_map.png?raw=true" width="1000"/></p>
 
+The image maps critical facilities (hospitals, schools, and elderly care facilities) across Turin's districts based on their risk score. It highlights that the most vulnerable central and western districts, shown in dark red, contain a dense concentration of these sensitive locations.   
+
 ## Conclusions
 Turin's heat vulnerability is structurally dictated by urban morphology and demographics, not daily weather. The historical center and south-western industrial belt form extreme-risk zones due to severe soil sealing, lack of vegetation, and aging populations.
 
 Conversely, Borgo Po's vast forested hills demonstrate a green buffer effect that drastically lowers thermal risk. Meanwhile, northern districts show lower vulnerability simply because their younger populations are statistically less heat-sensitive. 
 
 Ultimately, the city's most impermeable, concrete-dense environments perfectly align with its oldest demographics, creating persistent thermal traps.
+
+In conclusion, while socio-demographic variables remain static, daily fluctuations in Land Surface Temperature (LST) continuously alter the spatial distribution and relative ranking of risk across neighborhoods. This dynamic has critical implications for contingency planning: it highlights the inadequacy of relying on a single, static risk map. Because neighborhood vulnerability shifts over time, effective emergency management requires dynamic, day-to-day assessment tools rather than fixed spatial representations.
 
 To mitigate urban heat, the city must prioritize de-paving wide avenues and planting shade trees to reduce surface temperatures. In the dense historical center, micro-interventions like green roofs and highly reflective materials are essential to cool narrow streets.
 
