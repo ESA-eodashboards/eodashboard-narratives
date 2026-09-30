@@ -120,6 +120,8 @@ Although socio-demographic data remains constant, temperatures (LST) change dail
 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/percentages.png?raw=true" width="1000"/></p>
 
+As shown in the graphs, Surface Heat (LST) contributes only a small fraction (5.9% to 8.7%) to the total risk index. The vast majority of the vulnerability is instead driven by stable factors like Age and Lack of Greenery.
+
 ### <!--{ animationOptions='{"duration":500}' }-->
 #### Critical Facilities
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/09_critical_facilities_map.png?raw=true" width="1000"/></p>
