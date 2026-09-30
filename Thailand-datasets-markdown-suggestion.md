@@ -1,4 +1,4 @@
-# VIETNAME CASE STUDY MARKDOWN SUGGESTION
+# THAILAND CASE STUDY MARKDOWN SUGGESTION
 
 ## Case Study <!--{ as="eox-map" mode="tour" position="left" }-->
 
