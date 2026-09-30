@@ -1,4 +1,4 @@
-# THAILAND CASE STUDY MARKDOWN SUGGESTION
+# PHILIPPINES DATASET MARKDOWN SUGGESTION
 
 ## Case Study <!--{ as="eox-map" mode="tour" position="left" }-->
 
