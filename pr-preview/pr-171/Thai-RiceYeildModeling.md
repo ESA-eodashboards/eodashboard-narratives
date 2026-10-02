@@ -89,7 +89,7 @@ Agriculture is the dominant land use in Suphan Buri Province, with rice cultivat
 PALSAR-2, aboard JAXA's ALOS-2 satellite, is an L-band Synthetic Aperture Radar (SAR): it emits its own microwave signal and measures the reflection, so it can image the ground day or night, through cloud cover, and even partially through vegetation canopy. Shown here is the *HH (co-polarized) channel*, which is generally more sensitive to surface structure and moisture than to vegetation itself. 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFC1CWV3wr_iYKFg1lq5pQgwHX_crcJ0XK2KpncluZJQ&s" style="max-width: 100%; width: 450px; height: auto;" alt="ALOS-2 Satellite" /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [2].</b> Advanced Land Observing Satellite-2 "DAICHI-2" (ALOS-2) </p> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [4].</b> Advanced Land Observing Satellite-2 "DAICHI-2" (ALOS-2) </p> 
 </div>
  
  The next steps show instead the *HV (cross-polarized) channel*, temporally aggregated by growth season. HV backscatter is driven by volume scattering and tends to respond more strongly to canopy structure and biomass, making it the more informative band for tracking rice growth through the season. Rather than single acquisition dates, each following composite is a per-pixel median of all available scenes within a given rice growth stage. This averages out day-to-day noise while still capturing how backscatter shifts from one stage to the next.
@@ -132,20 +132,20 @@ Significant variables were incorporated into linear and multiple regression mode
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/Flowchart.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
-<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [4].</b> Conceptual framework.
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [5].</b> Conceptual framework.
 </div>
 
 ## Results
 The findings indicate that satellite imagery is suitable for rice yield prediction model development, as it provides sufficient temporal coverage across all rice growth stages. Nevertheless, the usefulness of optical Sentinel-2 imagery is constrained by cloud contamination, with only approximately 40% of vegetation index observations being available for analysis. 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/yieldPixelBased.jpg?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
-<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [5].</b> Result of rice yield estimation using the significant dry total biomass and the VV polarization.
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [6].</b> Result of rice yield estimation using the significant dry total biomass and the VV polarization.
 </div>
 Furthermore, the results demonstrated that rice dry biomass and Sentinel-1 SAR imagery in the VV polarization during the harvesting stage were the most effective variables for predicting rice yield.
 After masking rice cultivated area from raster output with Multiple Linear Regression (MLR) model, the work uses zonal statistic for average and maximum value of rice yield pixel in sub-district level. Zonal statistic is normally use for assessing vegetation indices within administrative boundaries or analyzing soil across different region. Zonal statistic operation calculates statistics on cell values of a raster (a value raster) within the zones defined by another dataset. The Maximum is the highest value in each zone is assigned to all cell in that zone whilst the Mean is the average of the values in each zone is assigned to all output cells in that zone.
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/MeanAPE.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
-<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [6].</b> The Mean Absolute Percentage Error (MAPE) in Suphan Buri Province with average and maximum zonal statistic.
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [7].</b> The Mean Absolute Percentage Error (MAPE) in Suphan Buri Province with average and maximum zonal statistic.
 </div>
 
 The results demonstrated that the multiple linear regression (MLR) model integrating Sentinel-1 SAR imagery in the VV polarization with total dry biomass at the harvesting stage provided a statistically significant model for rice yield estimation. 
