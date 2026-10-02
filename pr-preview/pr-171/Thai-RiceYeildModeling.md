@@ -8,7 +8,7 @@ collections: collectionIdentifier1, collectionIdentifier2
 ---
 
 # Satellites, Fields, and the Future of Rice Yield Estimation <!--{ as="img" mode="hero" src="https://github.com/phkh1366/eoxhub-related/blob/main/Thai-cover.JPG?raw=true" }-->
-### Authors: Jatuporn Nontasiri<sup>1</sup>, Natnaphat Subtaweepollert<sup>1</sup>, Matawee Srisawat<sup>2</sup>,Nathaphat Kingkaew<sup>3</sup>, Suppanut Makrak<sup>3</sup>, Premwadee Traitangwong<sup>4</sup><!--{ style="font-size:1.0rem;opacity:0.7;margin-top:1rem; color:Yellow" }-->
+### Authors: Jatuporn Nontasiri<sup>1</sup>, Natnaphat Subtaweepollert<sup>1</sup>, Matawee Srisawat<sup>2</sup>,Nathaphat Kingkaew<sup>3</sup>, Suppanut Makrak<sup>3</sup>, Premwadee Traitangwong<sup>4</sup><!--{ style="font-size:2.0rem;opacity:0.7;margin-top:1rem; color:Yellow" }-->
 
 <div style="text-align:left; font-size:0.95rem; opacity:0.85; margin-top:1rem; color:Yellow;">
 
