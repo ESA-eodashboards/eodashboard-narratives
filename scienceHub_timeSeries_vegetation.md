@@ -13,6 +13,7 @@ collections: ESDC_kndvi
 # 
 *This story is based on results from the [Science Hub Challenges in September 2025](https://sciencehub.esa.int/2025/09/29/science-hub-challenges-september-2025/) organised and hosted by ESA's ESRIN, by students from the Universty of Leeds:*
 
+##  <!--{ nav="false"}-->
 <p align="center">
   <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/ScienceHub-Challenge-September-2025/Team-1/images.png" 
        alt="University of Edinburgh" 
@@ -47,6 +48,8 @@ Five different types of forests were used as case studies to test and compare in
     <img src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/AparicioSF-patch-7/stories/ScienceHub-Challenge-September-2025/time-series-interpolation/Globe3_Amazonand.png" width="500"/>
     <p><b>Figure 3.</b> Use cases/forests locations.</p>
 </div>
+
+
 
 
 
@@ -213,9 +216,14 @@ The current data (~28 km) is suitable for large forests, but finer-resolution da
 | **[NDVI](https://eodashboard.org/explore/?x=0&y=0&z=2.5&datetime=2020-01-01&template=expert&indicator=NDVI)** | Dataset             | DeepESDL / ESDC                           | Normalized Difference Vegetation Index (NDVI) time series. |
 | **[EO Dashboard](https://eodashboard.org/explore/?x=15.0000&y=48.0000&z=4.0000&datetime=2025-09-19&template=expert)**                                    | Platform / Web Tool | EO Dashboard Consortium (ESA, NASA, JAXA) | Provides base layers and visualization tools for interactive exploration of NDVI and other Earth observation indicators.                                                                                                                |
 
+
+
 #### Notebook
 Access the notebook to reproduce the study workflow.
-<iframe width="100%" height="600" src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/openchallangenotebook-team-5-challenge-3-timeserie//" frameborder="0"></iframe>
+<iframe width="100%" height="600" src="https://esa-eodashboards.github.io/eodashboard-notebooks/notebooks/openchallangenotebook-team-5-challenge-3-timeserie/" frameborder="0"></iframe>
+
+
+
 
 
 #### References
