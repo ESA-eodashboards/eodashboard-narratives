@@ -211,8 +211,8 @@ The yearly ALOS-2 mosaics tell the same story at a coarser scale (Figure 6):
 - **Most of what it marks is unconfirmed.** Against about 1,000 ha of Landsat-mapped loss, ALOS-2 also marked about 4,500 ha that neither Landsat nor RADD recorded. The false-detection rate explains about 1,300 ha of that. The rest lies near forest edges, steep slopes and known clearings: possible degradation, or noise that needs checking.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;">
-<img src="assets/figure6_alos2_hv_change_composite.png" style="max-width: 100%; width: 1000px; height: auto;" />
-<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"><b>Figure [6].</b> ALOS-2 HV change composite (red = 2015, green = 2020, blue = 2024). Grey: stable forest; red and magenta: L-band loss after 2015; blue: gain by 2024 (plantations, regrowth). The yellow strip on the eastern edge has no 2024 coverage.</p>
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/Phil_fig6_hv_change_composite.png?raw=true" style="max-width: 100%; width: 1000px; height: auto;" />
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"><b>Figure [7].</b> ALOS-2 HV change composite (red = 2015, green = 2020, blue = 2024). Grey: stable forest; red and magenta: L-band loss after 2015; blue: gain by 2024 (plantations, regrowth). The yellow strip on the eastern edge has no 2024 coverage.</p>
 </div>
 
 With one ALOS-2 image every six weeks and clearings of a hectare or two, L-band radar is not the earliest warning in Davao de Oro. Its value is different: its signal still shows the lost forest structure after the ground looks green again to optical satellites.
