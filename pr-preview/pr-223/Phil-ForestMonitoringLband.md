@@ -28,7 +28,11 @@ This story is based on results from the **[ALOS-2 Ideathon: Bridging Space Data 
   <img src="https://upload.wikimedia.org/wikipedia/en/3/3d/University_of_The_Philippines_seal.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" height="70" style="margin: 0 0px;"/>
 </p>
 
-<!-- The original Word draft contains "XXXXXXXXXXX" in the organizer line. It has intentionally been preserved and should be confirmed before publication. -->
+The study, dedicated to assessimg **Forest Clearing in Mindanao with L-band Radar** developed by participants from the following organizations:
+<p align="center">
+  <img src="https://github.com/phkh1366/eoxhub-related/blob/main/logos_strip.png?raw=true" height="50" style="margin: 0 0px;"/>
+</p>
+
 
 ## Challenge <!--{ style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
 
@@ -48,17 +52,20 @@ Only satellites can watch every hectare of a frontier like this, but each one se
 
 Each feeds a ready-made forest-loss product: the Landsat-based Hansen map, the RADD alerts from Sentinel-1, and the JICA–JAXA JJ-FAST alerts from ALOS-2 (Watanabe et al., 2021). They were built for different jobs, so we look at how they complement each other, not to rank them.
 
-Two ALOS-2 measurements matter here. HV (horizontal send, vertical receive) comes mostly from volume scattering among branches in the crown, so it drops when trees are removed. HH also carries the bounce from the ground and between trunks and the ground, so it drops less, and the HH/HV ratio rises. We give changes in decibels (dB): a change of 1 dB is about a 26% change in the energy that returns to the satellite.
+Two ALOS-2 measurements matter here: 
+- HV (horizontal send, vertical receive) comes mostly from volume scattering among branches in the crown, so it drops when trees are removed. 
+- HH also carries the bounce from the ground and between trunks and the ground, so it drops less, and the HH/HV ratio rises. 
 
+We give changes in decibels (dB): a change of 1 dB is about a 26% change in the energy that returns to the satellite.
 If L-band senses structure, it might see a clearing, or even the first cuts under the canopy, before the other satellites do. That would make it an early warning. We tested this idea with one question: When forest is cleared in Davao de Oro, when does each satellite detect it, and what does L-band add?
 
 ## Objectives <!--{ style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
 
-### Main Objective
+##### Main Objective
 
 Find out when JAXA's ALOS-2 L-band radar detects forest clearing in Davao de Oro, compared with Landsat, Sentinel-1 and Sentinel-2, and what it adds.
 
-### Specific Objectives
+##### Specific Objectives
 
 - Follow individual clearings in detail, and find the order in which each satellite and product (including JJ-FAST) detected them.
 - Measure how often ALOS-2 detects a clearing, next to how often it makes false detections in undisturbed forest.
