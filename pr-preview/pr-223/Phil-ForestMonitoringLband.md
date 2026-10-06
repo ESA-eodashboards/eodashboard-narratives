@@ -21,10 +21,11 @@ collections: collectionIdentifier1, collectionIdentifier2
 ## Introduction
 This story is based on results from the **[ALOS-2 Ideathon: Bridging Space Data and Societal Need in Feb. 2025](https://philsa.gov.ph/news/philsa-jaxa-host-alos-2-ideathon-workshop-to-tackle-environmental-social-challenges/)**, organized by the Japan Aerospace Exploration Agency (JAXA), Philippine Space Agency (PhilSA), Keio University, Remote Sensing Technology Center of Japan (RESTEC), and University of the Philippines Department of Geodetic Engineering (UP-DGE). 
 <p align="center">
-  <img src="assets/logo_philsa.png" height="65" style="margin: 0 6px;"/>
-  <img src="assets/logo_dost_asti.png" height="65" style="margin: 0 6px;"/>
-  <img src="assets/logo_denr_fmb.png" height="65" style="margin: 0 6px;"/>
-  <img src="assets/logo_up_diliman.png" height="65" style="margin: 0 6px;"/>
+  <img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/2d25ca89ebc5fd3f1dbf204779815d5946de4496/Jaxa_logo.svg" height="50" style="margin: 0 0px;"/>
+  <img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/70e744b7293ec8103be20b1c8cde68caf8508c48/Philippine_Space_Agency_(PhilSA).svg" height="50" style="margin: 0 0px;"/>
+  <img src="https://github.com/phkh1366/eoxhub-related/blob/main/Keio_University_Logo.png?raw=true" height="50" style="margin: 0 0px;"/>
+  <img src="https://github.com/phkh1366/eoxhub-related/blob/main/RESTEClogo-trans.png?raw=true" height="80" style="margin: 0 0px;"/>
+  <img src="https://upload.wikimedia.org/wikipedia/en/3/3d/University_of_The_Philippines_seal.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" height="70" style="margin: 0 0px;"/>
 </p>
 
 <!-- The original Word draft contains "XXXXXXXXXXX" in the organizer line. It has intentionally been preserved and should be confirmed before publication. -->
