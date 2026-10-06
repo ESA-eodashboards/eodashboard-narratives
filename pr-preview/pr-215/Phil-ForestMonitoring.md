@@ -1,5 +1,5 @@
 ---
-cover-image: YOUR_PHILIPPINES_COVER_IMAGE_URL
+cover-image: https://www.philchm.ph/wp-content/uploads/DSC_3796-1024x683.jpg
 date: 2026-09-28
 theme: Forest
 tags: Forest Monitoring,Philippines,ALOS-2,Illegal Encroachment
