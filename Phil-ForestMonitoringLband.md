@@ -9,11 +9,15 @@ collections: collectionIdentifier1, collectionIdentifier2
 
 # Through Cloud and Canopy: Tracking Forest Clearing in Mindanao with L-band Radar <!--{ as="img" mode="hero" src="https://github.com/phkh1366/eoxhub-related/blob/main/Phil_cover_alos2_hv_composite.png?raw=true" }-->
 #### Authors: Romer Kristi D. Aranas<sup>1</sup>; Pocholo Miguel De Lara<sup>2</sup>; Elmar Sobrevega<sup>3</sup>; Mariel Juanillo<sup>1</sup>; Karina Amit<sup>4</sup> <!--{ style="font-size:1.0rem;opacity:0.7;margin-top:1rem; color:Yellow" }-->
-1. Philippine Space Agency (PhilSA)<br>
-2. Department of Science and Technology Advanced Science and Technology Institute (DOST-ASTI)<br>
-3. Department of Environment and Natural Resources Forest Management Bureau (DENR-FMB)<br>
-4. University of the Philippines – Diliman (UPD) <!--{style="font-size:0.8rem;opacity:1;margin-top:1rem; color:Yellow" }-->
 
+<div style="text-align:left; font-size:0.95rem; opacity:0.85; margin-top:1rem; color:Yellow;">
+
+1. Philippine Space Agency (PhilSA)
+2. Department of Science and Technology Advanced Science and Technology Institute (DOST-ASTI)
+3. Department of Environment and Natural Resources Forest Management Bureau (DENR-FMB)
+4. University of the Philippines – Diliman (UPD) 
+
+</div> 
 
 ## Introduction
 This story is based on results from the **[ALOS-2 Ideathon: Bridging Space Data and Societal Need in Feb. 2025](https://philsa.gov.ph/news/philsa-jaxa-host-alos-2-ideathon-workshop-to-tackle-environmental-social-challenges/)**, organized by the Japan Aerospace Exploration Agency (JAXA), Philippine Space Agency (PhilSA), Keio University, Remote Sensing Technology Center of Japan (RESTEC), and University of the Philippines Department of Geodetic Engineering (UP-DGE). 
