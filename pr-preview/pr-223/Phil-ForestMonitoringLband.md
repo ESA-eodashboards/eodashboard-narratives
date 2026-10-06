@@ -12,10 +12,10 @@ collections: collectionIdentifier1, collectionIdentifier2
 
 <div style="text-align:left; font-size:0.95rem; opacity:0.85; margin-top:1rem; color:Yellow;">
 
-1. Philippine Space Agency (PhilSA)
-2. Department of Science and Technology Advanced Science and Technology Institute (DOST-ASTI)
-3. Department of Environment and Natural Resources Forest Management Bureau (DENR-FMB)
-4. University of the Philippines – Diliman (UPD) 
+<sup>1</sup>Philippine Space Agency (PhilSA)
+<sup>2</sup>Department of Science and Technology Advanced Science and Technology Institute (DOST-ASTI)
+<sup>3</sup>Department of Environment and Natural Resources Forest Management Bureau (DENR-FMB)
+<sup>4</sup>University of the Philippines – Diliman (UPD) 
 
 </div> 
 
