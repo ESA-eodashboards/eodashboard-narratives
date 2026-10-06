@@ -7,7 +7,7 @@ official: true
 collections: collectionIdentifier1, collectionIdentifier2
 ---
 
-# Urbanization monitoring from EO data <!--{ as="img" mode="hero" src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN1-Story-header-.png?raw=true" style="width: 100%; height:800px;" }--> 
+# Urbanization monitoring from EO data <!--{ as="img" mode="hero" src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN1-Story-header-.png?raw=true"}--> 
 #### Authors: Nguyen Manh HUNG¹, Dang Do Nam PHUONG², Tong Thi Huyen AI¹, Nguyen Huu CHUYEN³ <!--{ style="font-size:1.0rem;opacity:0.7;margin-top:1rem; color:Yellow" }-->
 ¹ [Vietnam National Space Center, Vietnam Academy of Science and Technology]<br>
 ² [Vietnam National University, Hanoi]<br>
