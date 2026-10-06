@@ -143,7 +143,7 @@ All detection rules were fixed before we looked at the control results. The tech
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;">
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/Phi_fig2_workflow.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;" />
-<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"><b>Figure [4].</b> Workflow.</p>
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"><b>Figure [3].</b> Workflow.</p>
 </div>
 
 ## Results
