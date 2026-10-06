@@ -11,10 +11,10 @@ collections: collectionIdentifier1, collectionIdentifier2
 ### Authors: Jatuporn Nontasiri<sup>1</sup>, Natnaphat Subtaweepollert<sup>1</sup>, Matawee Srisawat<sup>2</sup>,Nathaphat Kingkaew<sup>3</sup>, Suppanut Makrak<sup>3</sup>, Premwadee Traitangwong<sup>4</sup><!--{ style="font-size:2.0rem;opacity:0.7;margin-top:1rem; color:Yellow" }-->
 
 <div style="text-align:left; font-size:1.5rem; opacity:0.85; margin-top:1rem; color:Yellow;">
-1. Office of Agricultural Economics  
-2. Geo-Informatics and Space Technology Development Agency  
-3. Rice Department 
-4. Thai Meteorological Department  
+1. Office of Agricultural Economics <br> 
+2. Geo-Informatics and Space Technology Development Agency <br>
+3. Rice Department <br> 
+4. Thai Meteorological Department <br>
 
 </div> 
 
