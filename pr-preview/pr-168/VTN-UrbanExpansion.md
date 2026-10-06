@@ -7,14 +7,14 @@ official: true
 collections: collectionIdentifier1, collectionIdentifier2
 ---
 
-# Urbanization monitoring from EO data <!--{ as="img" mode="hero" src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN1-Story-header-.png?raw=true" style="width: 100%; height:800px;" }-->
-### Authors: Nguyen Manh HUNG¹, Dang Do Nam PHUONG², Tong Thi Huyen AI¹, Nguyen Huu CHUYEN³ <!--{ style="font-size:1.0rem;opacity:0.7;margin-top:1rem; color:Yellow" }-->
-¹ [Vietnam National Space Center, Vietnam Acedamy of Science and Technology]  
-² [Vietnam National University, Hanoi]  
+# Urbanization monitoring from EO data <!--{ as="img" mode="hero" src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN1-Story-header-.png?raw=true" style="width: 100%; height:800px;" }--> 
+#### Authors: Nguyen Manh HUNG¹, Dang Do Nam PHUONG², Tong Thi Huyen AI¹, Nguyen Huu CHUYEN³ <!--{ style="font-size:1.0rem;opacity:0.7;margin-top:1rem; color:Yellow" }-->
+¹ [Vietnam National Space Center, Vietnam Academy of Science and Technology]<br>
+² [Vietnam National University, Hanoi]<br>
 ³ [Department of National Remote Sensing, Ministry of Agriculture and Environment] <!--{ style="font-size:0.8rem;opacity:1;margin-top:1rem; color:Yellow" }-->
 ...
 
-#
+## Introduction
 This story is based on results from **[ALOS-2 Ideathon Bridging Space Data and Societal Needs](https://vnsc.org.vn/en/news-events/vietnam-national-space-center-vietnam-academy-of-science-and-technology-organizes-workshop-on-application-ideas-for-alos-2-and-sar-satellite-data-in-vietnam/)**, organised by JAXA, VNSC, Keio University and RESTEC. 
 <p align="center">
   <img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/2d25ca89ebc5fd3f1dbf204779815d5946de4496/Jaxa_logo.svg" height="50" style="margin: 0 0px;"/>
