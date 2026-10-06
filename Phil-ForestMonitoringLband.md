@@ -9,10 +9,10 @@ collections: collectionIdentifier1, collectionIdentifier2
 
 # Through Cloud and Canopy: Tracking Forest Clearing in Mindanao with L-band Radar <!--{ as="img" mode="hero" src="https://github.com/phkh1366/eoxhub-related/blob/main/Phil_cover_alos2_hv_composite.png?raw=true" }-->
 #### Authors: Romer Kristi D. Aranas<sup>1</sup>; Pocholo Miguel De Lara<sup>2</sup>; Elmar Sobrevega<sup>3</sup>; Mariel Juanillo<sup>1</sup>; Karina Amit<sup>4</sup> <!--{ style="font-size:1.0rem;opacity:0.7;margin-top:1rem; color:Yellow" }-->
-<sup>1</sup> Philippine Space Agency (PhilSA)<br>
-<sup>2</sup> Department of Science and Technology Advanced Science and Technology Institute (DOST-ASTI)<br>
-<sup>3</sup> Department of Environment and Natural Resources Forest Management Bureau (DENR-FMB)<br>
-<sup>4</sup> University of the Philippines – Diliman (UPD) <!--{style="font-size:0.8rem;opacity:1;margin-top:1rem; color:Yellow" }-->
+1. Philippine Space Agency (PhilSA)<br>
+2. Department of Science and Technology Advanced Science and Technology Institute (DOST-ASTI)<br>
+3. Department of Environment and Natural Resources Forest Management Bureau (DENR-FMB)<br>
+4. University of the Philippines – Diliman (UPD) <!--{style="font-size:0.8rem;opacity:1;margin-top:1rem; color:Yellow" }-->
 
 
 ## Introduction
