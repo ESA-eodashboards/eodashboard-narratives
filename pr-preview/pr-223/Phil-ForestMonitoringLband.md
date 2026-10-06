@@ -164,15 +164,15 @@ By the end of 2020, crops, grass or regrowth had made the clearing look almost a
 <p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"><b>Figure [4].</b> Clearing S31: (A) Sentinel-2 greenness, (B) ALOS-2 HV and (C) HH/HV, each as clearing minus surrounding forest, with the Landsat loss year, RADD alert, Sentinel-2 date and ALOS-2 detections. Grey lines: the two control areas.</p>
 </div>
 
-S31 is only one pattern. Figure 4 puts four clearings on one time line.
+S31 is only one pattern. Figure 5 puts four clearings on one time line.
 
 - **S04 (1.0 ha, 2020): too small for L-band.** RADD alerted on 5 June 2020, six weeks before Sentinel-2 dated the clearing (17–22 July). ALOS-2 stayed within its normal variation. At 25 m, one hectare is only a handful of radar pixels: a job for 10 m sensors.
 - **S09 (0.8 ha, 2021): no satellite is always first.** Cloud hid the slope from 23 April to 22 July 2021, yet Sentinel-2 still saw the clearing first. The ALOS-2 six-month test detected it on 22 September, 11 days before RADD's alert on 3 October. The signal here is noisy, so we treat that detection with caution.
 - **S39 (7.3 ha, 2023): only the average sees it.** RADD alerted on 15 March 2023, before Sentinel-2 dated the clearing (24 March–18 April). Single ALOS-2 images showed only scattered dips, but the HH/HV ratio rose by about 1.4 dB and stayed high. The six-month test detected it on 4 October 2023, about six months after clearing. Averaging brings out even a large clearing, at the cost of time.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;">
-<img src="assets/figure4_detection_timeline.png" style="max-width: 100%; width: 1200px; height: auto;" />
-<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"><b>Figure [4].</b> When each satellite first detected the four case-study clearings.</p>
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/Phil_fig4_case_timeline.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;" />
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"><b>Figure [5].</b> When each satellite first detected the four case-study clearings.</p>
 </div>
 
 Across all 40 clearings, each tested next to two control areas (80 in total):
