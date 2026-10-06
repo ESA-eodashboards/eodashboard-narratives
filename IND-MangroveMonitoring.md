@@ -28,6 +28,7 @@ This story is based on results from **[ALOS-2 Ideathon Bridging Space Data and S
   <img src="https://github.com/phkh1366/eoxhub-related/blob/main/BRIN%20National%20Research%20and%20Innovation%20Agency.png?raw=true" height="50" style="margin: 0 0px;"/>
   <img src="https://github.com/phkh1366/eoxhub-related/blob/main/Keio_University_Logo.png?raw=true" height="50" style="margin: 0 0px;"/>
   <img src="https://github.com/phkh1366/eoxhub-related/blob/main/RESTEClogo-trans.png?raw=true" height="80" style="margin: 0 0px;"/>
+  
 </p>
 
 The study, dedicated to **Mangroves for Coastal Erosion Control**, was developed by participants from the following organizations:
