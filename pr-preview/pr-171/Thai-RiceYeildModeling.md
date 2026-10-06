@@ -19,7 +19,7 @@ collections: collectionIdentifier1, collectionIdentifier2
 </div> 
 
 ## Introduction
-This story is based on results from **ALOS-2 Ideathon Bridging Space Data and Societal Needs**, organised by JAXA, GISTDA, Keio University and RESTEC. 
+This story is based on results from **ALOS-2 Ideathon: Bridging Space Data and Societal Needs**, organised by JAXA, GISTDA, Keio University and RESTEC. 
 <p align="center">
   <img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/2d25ca89ebc5fd3f1dbf204779815d5946de4496/Jaxa_logo.svg" height="50" style="margin: 0 0px;"/>
   <img src="https://github.com/phkh1366/eoxhub-related/blob/main/GISTDA_LOGO.png?raw=true" height="70" style="margin: 0 0px;"/>
