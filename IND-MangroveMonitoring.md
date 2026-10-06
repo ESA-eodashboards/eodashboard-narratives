@@ -21,7 +21,7 @@ collections: collectionIdentifier1, collectionIdentifier2
 
 </div> 
 
-#
+## Intorduction
 This story is based on results from **[ALOS-2 Ideathon Bridging Space Data and Societal Needs](https://brin.go.id/news/122360/brin-tegaskan-pentingnya-data-satelit-dukung-ekosistem-mangrove)**, organised by JAXA, BRIN, Keio University and RESTEC. 
 <p align="center">
   <img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/2d25ca89ebc5fd3f1dbf204779815d5946de4496/Jaxa_logo.svg" height="50" style="margin: 0 0px;"/>
@@ -38,7 +38,6 @@ The study, dedicated to **Mangroves for Coastal Erosion Control**, was developed
   <img src="https://github.com/phkh1366/eoxhub-related/blob/main/Maritime%20Security%20Agency.png?raw=true" height="60" style="margin: 0 0px;"/>
   <img src="https://github.com/phkh1366/eoxhub-related/blob/main/Ministry%20of%20Forestry%20M4CR.png?raw=true" height="100" style="margin: 0 0px;"/>  
 </p>
-
 
 
 ## Challenge <!--{ style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
