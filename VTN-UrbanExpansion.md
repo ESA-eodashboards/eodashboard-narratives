@@ -19,7 +19,7 @@ collections: collectionIdentifier1, collectionIdentifier2
 </div> 
 
 ## Introduction <!--{ style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
-This story is based on results from **[ALOS-2 Ideathon Bridging Space Data and Societal Needs](https://vnsc.org.vn/en/news-events/vietnam-national-space-center-vietnam-academy-of-science-and-technology-organizes-workshop-on-application-ideas-for-alos-2-and-sar-satellite-data-in-vietnam/)**, organised by JAXA, VNSC, Keio University and RESTEC. 
+This story is based on results from **[ALOS-2 Ideathon: Bridging Space Data and Societal Needs](https://vnsc.org.vn/en/news-events/vietnam-national-space-center-vietnam-academy-of-science-and-technology-organizes-workshop-on-application-ideas-for-alos-2-and-sar-satellite-data-in-vietnam/)**, organised by JAXA, VNSC, Keio University and RESTEC. 
 <p align="center">
   <img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/2d25ca89ebc5fd3f1dbf204779815d5946de4496/Jaxa_logo.svg" height="50" style="margin: 0 0px;"/>
   <img src="https://github.com/phkh1366/eoxhub-related/blob/main/logo-VNSC-moi.png?raw=true" height="50" style="margin: 0 0px;"/>
