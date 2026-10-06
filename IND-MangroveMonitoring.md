@@ -7,7 +7,7 @@ official: true
 collections: collectionIdentifier1, collectionIdentifier2
 ---
 
-# Mangroves for Coastal Erosion Control: Harnessing Satellite Imagery for Effective Monitoring <!--{ as="img" mode="hero" src="https://github.com/phkh1366/eoxhub-related/blob/main/08.%20Preferred%20Cover%20Photo.jpg?raw=true" style="width: 100%; height:800px;" }-->
+# Mangroves for Coastal Erosion Control: Harnessing Satellite Imagery for Effective Monitoring <!--{ as="img" mode="hero" src="https://github.com/phkh1366/eoxhub-related/blob/main/08.%20Preferred%20Cover%20Photo.jpg?raw=true"}-->
 
 ### Authors: Garda Kalari Yustisiansyah<sup>1</sup>, Buchari<sup>2</sup>, Alit Aji<sup>3</sup>,Pratondi Ario Seno Sudiro<sup>4</sup>, Novie Indriasari<sup>5</sup>, Dede Dirgahayu<sup>5</sup><!--{ style="font-size:1.0rem;opacity:0.7;margin-top:1rem; color:Yellow" }-->
 
@@ -22,7 +22,7 @@ collections: collectionIdentifier1, collectionIdentifier2
 </div> 
 
 ## Intorduction
-This story is based on results from **[ALOS-2 Ideathon Bridging Space Data and Societal Needs](https://brin.go.id/news/122360/brin-tegaskan-pentingnya-data-satelit-dukung-ekosistem-mangrove)**, organised by JAXA, BRIN, Keio University and RESTEC. 
+This story is based on results from **[ALOS-2 Ideathon: Bridging Space Data and Societal Needs](https://brin.go.id/news/122360/brin-tegaskan-pentingnya-data-satelit-dukung-ekosistem-mangrove)**, organised by JAXA, BRIN, Keio University and RESTEC. 
 <p align="center">
   <img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/2d25ca89ebc5fd3f1dbf204779815d5946de4496/Jaxa_logo.svg" height="50" style="margin: 0 0px;"/>
   <img src="https://github.com/phkh1366/eoxhub-related/blob/main/BRIN%20National%20Research%20and%20Innovation%20Agency.png?raw=true" height="50" style="margin: 0 0px;"/>
