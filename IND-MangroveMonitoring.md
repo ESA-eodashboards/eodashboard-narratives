@@ -21,7 +21,7 @@ collections: collectionIdentifier1, collectionIdentifier2
 
 </div> 
 
-## Intorduction
+## Introduction
 This story is based on results from **[ALOS-2 Ideathon: Bridging Space Data and Societal Needs](https://brin.go.id/news/122360/brin-tegaskan-pentingnya-data-satelit-dukung-ekosistem-mangrove)**, organised by JAXA, BRIN, Keio University and RESTEC. 
 <p align="center">
   <img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/2d25ca89ebc5fd3f1dbf204779815d5946de4496/Jaxa_logo.svg" height="50" style="margin: 0 0px;"/>
@@ -43,6 +43,10 @@ The study, dedicated to **Mangroves for Coastal Erosion Control**, was developed
 
 ## Challenge <!--{ style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
 Coastal erosion poses **a critical and ongoing threat to Indonesia's mangrove ecosystems.** The sheer scale of this environmental degradation is immense; between 2009 and 2019, Indonesia experienced a total net loss of 128,176 hectares of mangrove area.
+<div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/Ind-Pie%20chart.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [1].</b> Total mangrove lost in Indonesia during 2009-2019. </p> 
+</div>
 
 This massive deforestation and degradation translates into direct **destruction for coastal zones**. For instance, localized areas like **Kuala Selat Village** experience intensive coastal abrasion and continuous seawater intrusion throughout the year, demonstrating the urgent need for monitoring. 
 
