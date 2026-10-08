@@ -73,7 +73,7 @@ Find out when JAXA's ALOS-2 L-band radar detects forest clearing in Davao de Oro
 
 ## Case Study <!--{ as="eox-map" mode="tour" }-->
 
-### ### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[126.02,7.55] zoom="10" animationOptions="{duration:500}" }-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[126.02,7.55] zoom="10" animationOptions="{duration:500}" }-->
 ##### Davao de Oro 
 The study area is the province of Davao de Oro. It covers forested mountains, the small-scale gold-mining frontier around Mt. Diwata (Diwalwal) and Maco, and farmland in the valleys.
 
