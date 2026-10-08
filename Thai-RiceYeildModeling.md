@@ -8,15 +8,16 @@ collections: collectionIdentifier1, collectionIdentifier2
 ---
 
 # Satellites, Fields, and the Future of Rice Yield Estimation <!--{ as="img" mode="hero" src="https://github.com/phkh1366/eoxhub-related/blob/main/Thai-cover.JPG?raw=true" }-->
-### Authors: Jatuporn Nontasiri<sup>1</sup>, Natnaphat Subtaweepollert<sup>1</sup>, Matawee Srisawat<sup>2</sup>,Nathaphat Kingkaew<sup>3</sup>, Suppanut Makrak<sup>3</sup>, Premwadee Traitangwong<sup>4</sup><!--{ style="font-size:2.0rem;opacity:0.7;margin-top:1rem; color:Yellow" }-->
+
+### Authors: Jatuporn Nontasiri<sup>1</sup>, Natnaphat Subtaweepollert<sup>1</sup>, Matawee Srisawat<sup>2</sup>, Nathaphat Kingkaew<sup>3</sup>, Suppanut Makrak<sup>3</sup>, Premwadee Traitangwong<sup>4</sup><!--{ style="font-size:2.0rem;opacity:0.7;margin-top:1rem; color:Yellow" }-->
 
 <div style="text-align:left; font-size:1.5rem; opacity:0.85; margin-top:1rem; color:Yellow;">
-1. Office of Agricultural Economics<br> 
-2. Geo-Informatics and Space Technology Development Agency<br>
-3. Rice Department<br> 
-4. Thai Meteorological Department<br>
+  <div style="display:block;">¹ Office of Agricultural Economics</div>
+  <div style="display:block;">² Geo-Informatics and Space Technology Development Agency</div>
+  <div style="display:block;">³ Rice Department</div>
+  <div style="display:block;">⁴ Thai Meteorological Department</div>
+</div>
 
-</div> 
 
 ## Introduction
 This story is based on results from **ALOS-2 Ideathon: Bridging Space Data and Societal Needs**, organised by JAXA, GISTDA, Keio University and RESTEC. 
