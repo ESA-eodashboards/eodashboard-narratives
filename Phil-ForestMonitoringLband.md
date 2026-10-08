@@ -250,7 +250,7 @@ Since November 2022, JAXA has released ALOS-2 ScanSAR data free of charge (JAXA,
 
 ## Acknowledgment
 
-We thank the Japan Aerospace Exploration Agency (JAXA) for ALOS-2 PALSAR-2 data. PhilSA, UP Department of Geodetic Engineering, Keio University, and RESTEC for  organizing the ALOS-2 Ideathon. JICA and JAXA for making the JJ-FAST alerts openly available. We also thank ESA and the Copernicus programme (Sentinel-1, Sentinel-2), NASA and USGS (Landsat), the University of Maryland (Global Forest Change) and Wageningen University (RADD alerts) for making this possible.
+We thank the Japan Aerospace Exploration Agency (JAXA) for ALOS-2 PALSAR-2 data. PhilSA, UP Department of Geodetic Engineering, Keio University, and RESTEC for  organizing the ALOS-2 Ideathon. We also acknowledge Department of Environment and Natural Resources Forest Management Bureau (DENR-FMB) for its participation in the ALOS-2 Ideathon last February 2025.JICA and JAXA for making the JJ-FAST alerts openly available. We also thank ESA and the Copernicus programme (Sentinel-1, Sentinel-2), NASA and USGS (Landsat), the University of Maryland (Global Forest Change) and Wageningen University (RADD alerts) for making this possible.
 
 ## References
 
