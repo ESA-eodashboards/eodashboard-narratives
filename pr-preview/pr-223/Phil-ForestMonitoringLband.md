@@ -8,7 +8,7 @@ collections: collectionIdentifier1, collectionIdentifier2
 ---
 
 # Through Cloud and Canopy: Tracking Forest Clearing in Mindanao with L-band Radar <!--{ as="img" mode="hero" src="https://github.com/phkh1366/eoxhub-related/blob/main/Phil_cover_alos2_hv_composite.png?raw=true" }-->
-#### Authors: Romer Kristi D. Aranas<sup>1</sup>; Pocholo Miguel De Lara<sup>2</sup>; Mariel Juanillo<sup>1</sup>; Karina Amit<sup>4</sup> <!--{ style="font-size:1.0rem;opacity:0.7;margin-top:1rem; color:Yellow" }-->
+#### Authors: Romer Kristi D. Aranas<sup>1</sup>; Pocholo Miguel De Lara<sup>2</sup>; Mariel Juanillo<sup>1</sup>; Karina Amit<sup>3</sup> <!--{ style="font-size:1.0rem;opacity:0.7;margin-top:1rem; color:Yellow" }-->
 
 <div style="text-align:left; font-size:0.95rem; opacity:0.85; margin-top:1rem; color:Yellow;">
 
