@@ -28,7 +28,7 @@ Peri-urban districts, Hoang Mai, Long Bien, Dong Anh, show denser built-up retur
 
 
 
-##  Open Science
+## <!--{ nav="false"}-->Open Science
 
 | **Name** | **Type** | **Agency / Provider** | **Description / Usage** |
 | --- | --- | --- | --- |
