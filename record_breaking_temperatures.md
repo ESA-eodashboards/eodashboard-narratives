@@ -4,7 +4,7 @@ date: 2025-01-01
 theme: extreme-events
 tags: sea-surface-temperature
 official: true
-collections: SLSTR1_LST, NASA_ECOSTRESS_LST
+collections: SLSTR1, NELST
 ---
 
 # El Niño 2023-2024 (Part 1): Record-breaking temperatures <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/el_nino_land_temperatures/hawkins-stripes.png" }-->

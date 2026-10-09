@@ -4,7 +4,7 @@ date: 2025-01-01
 theme: biomass
 tags: forest
 official: true
-collections: FNF_Palsar, E10e_ndvi, LIS_Global_DA_Evap, RECCAP2_6_deforested_biomass, N2_CO2_diff, RECCAP2_5_SF_biomass_growth
+collections: FNF, E10e, LIS_Global_DA_Evap, RECCAP2_6, N2_diff, RECCAP2_5
 ---
 
 # Forests on the Brink: Satellite Imagery unveiling Loss and Shifting Forest Landscapes <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/main/stories/forest_story/hero.jpg" }-->
