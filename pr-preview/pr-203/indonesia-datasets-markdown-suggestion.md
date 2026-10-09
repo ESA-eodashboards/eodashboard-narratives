@@ -54,3 +54,19 @@ Switching to the HV (cross-polarized) channel for the same 2021 composite reveal
 The same HV view three years later. As with Kuala Selat, any difference from the 2021 baseline may reflect a genuine change in mangrove structure, but could also partly reflect differences in tidal height or moisture conditions between the two acquisitions. 
 
 
+#### 
+
+## Open Science
+| **Name** | **Type** | **Agency / Provider** | **Description / Usage** |
+| --- | --- | --- | --- |
+| **[ALOS-2 PALSAR-2 ScanSAR L2.2](https://www.eorc.jaxa.jp/ALOS/en/alos-2/a2_about_e.htm)** | Dataset | JAXA | L-band SAR yearly median composites (HH and HV) for 2021 and 2024, used as the primary dataset for mangrove detection, area calculation and change analysis. Its canopy penetration makes it well suited to dense mangrove stands and cloud-prone coasts. |
+| **[Sentinel-2 L2A](https://sentinel.esa.int/web/sentinel/missions/sentinel-2)** | Dataset | ESA / Copernicus | 10 m optical imagery used to calculate the Mangrove Vegetation Index (MVI), validate the ScanSAR-derived products and visualise the study areas. |
+| **Indonesia's National Mangrove Map (PMN)** | Dataset | Ministry of Forestry, Indonesia | National reference map used to compare the total mangrove area against the ALOS-2 and MVI results. |
+| **[Indonesia's Administrative Boundaries](https://tanahair.indonesia.go.id)** | Dataset | Geospatial Information Agency (BIG), Indonesia | 1:25,000 official boundaries used to clip the ALOS-2, Sentinel-2 and PMN datasets to the study areas. |
+| **[Global Tidal Wetland Change](https://doi.org/10.1126/science.abm9583)** | Dataset | Murray et al. (2022) | Global map of tidal wetland losses and gains, providing context for mangrove change in the region. |
+| **[Mangrove Vegetation Index (MVI)](https://doi.org/10.1016/j.isprsjprs.2020.06.001)** | Method | Baloloy et al. (2020) | Optical index used in Rule 2 of the classification (MVI between 4.5 and 20) to separate mangroves from terrestrial forest. |
+| **Logistic Model Tree (LMT) classification** | Method | Pham et al. (2018) | Rule-based decision tree combining SAR backscatter thresholds (HH > -15.5, HV > -17.9) with MVI to produce the 2021 and 2024 mangrove maps and the Mangrove Change Map. |
+| **[ArcGIS Pro](https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview)** | Software | Esri | GIS environment used for preprocessing (Frost speckle filter), raster functions, geoprocessing toolboxes and area calculation. |
+| **[EO Dashboard](https://eodashboard.org)** | Platform / Web Tool | ESA, NASA, JAXA | Hosts the interactive map tour showing the ALOS-2 HV composites for Kuala Selat and Pangpang Bay in 2021 and 2024. |
+
+
