@@ -137,7 +137,7 @@ By integrating high-resolution Synthetic Aperture Radar (SAR) data with optical 
 
 | Name | Provider | Resolution | Temporal Coverage | Purpose |
 |---|---|---|---|---|
-| ALOS-2 L2.2 ScanSAR | JAXA (Japan Aerospace Exploration Agency) | Primary L-band SAR dataset (60–100 m) | 2021 and 2024 | Used for large-scale mangrove detection, area calculation, and change analysis. Its high penetration capability makes it suitable for dense mangrove canopies. |
+| ALOS-2 L2.2 ScanSAR | JAXA (Japan Aerospace Exploration Agency) | Primary L-band SAR dataset (25 m) | 2021 and 2024 | Used for large-scale mangrove detection, area calculation, and change analysis. Its high penetration capability makes it suitable for dense mangrove canopies. |
 | Sentinel-2 L2A | Copernicus | Visible bands (10 m) | 2021 and 2024 | Used for validation of ScanSAR-derived products and visualization of the study area. |
 | Indonesia’s National Mangrove Map | Ministry of Forestry, Indonesia | - | 2021 and 2024 | Used to compare the total mangrove area with the ALOS-2 analysis. |
 | Indonesia’s administrative boundary | Geospatial Information Agency (BIG), Indonesia | 1:25,000 scale | 2021 and 2024 | Used to divide the ALOS-2, Sentinel-2, and PMN datasets according to Indonesia’s official administrative boundaries. |
