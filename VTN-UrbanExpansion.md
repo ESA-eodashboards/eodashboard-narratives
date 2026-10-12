@@ -18,7 +18,9 @@ collections: collectionIdentifier1, collectionIdentifier2
 
 </div> 
 
-## Introduction <!--{ style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
+##  <!--{ nav="false"}-->
+#### Introduction
+<!--{nav="false" style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
 This story is based on results from **[ALOS-2 Ideathon: Bridging Space Data and Societal Needs](https://vnsc.org.vn/en/news-events/vietnam-national-space-center-vietnam-academy-of-science-and-technology-organizes-workshop-on-application-ideas-for-alos-2-and-sar-satellite-data-in-vietnam/)**, organised by JAXA, VNSC, Keio University and RESTEC. 
 <p align="center">
   <img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/2d25ca89ebc5fd3f1dbf204779815d5946de4496/Jaxa_logo.svg" height="50" style="margin: 0 0px;"/>
@@ -51,9 +53,9 @@ At present, there is no continuous and synchronized satellite-based monitoring s
 
 There is also a gap between scientific analysis and policy action. Even when satellite data are available, they are not always translated into clear and practical information for planners, policymakers, NGOs, or communities. A more systematic EO-based monitoring approach can help bridge this gap and support evidence-based urban governance.
 
-## Objectives <!--{ style="font-size:1.5rem;opacity:1;margin-top:1rem; color:Navy" }-->
+## Objective <!--{ style="font-size:1.5rem;opacity:1;margin-top:1rem; color:Navy" }-->
 **Primary Objective:** 
-To monitor **urbanization trends and urban area dynamics** in Hanoi using Earth Observation (EO) data through satellite image analysis and remote sensing techniques. Accordingly the specific Objectivesare: <!--{ style="font-size:1rem;opacity:1; margin-top:0px; margin-bottom:0px; color:blue" }-->
+To monitor **urbanization trends and urban area dynamics** in Hanoi using Earth Observation (EO) data through satellite image analysis and remote sensing techniques. Accordingly the specific Objectives are: <!--{ style="font-size:1rem;opacity:1; margin-top:0px; margin-bottom:0px; color:blue" }-->
 
 - **Objective 1:** Monitoring Urban Expansion – To track the growth and sprawl of urban areas over time (2015–2025). <!--{ style="font-size:1rem;opacity:1; margin-top:0px; margin-bottom:0px; color:blue" }-->
 - **Objective 2:** Assessing Land Use Dynamics – To develop detailed Land Use/Land Cover (LULC) maps with six classification categories: Built-up Land, Barren Land, Water Bodies, Forest, Agriculture, and Others. <!--{ style="font-size:1rem;opacity:1; color:blue"; margin-top:0px; margin-bottom:0px; }-->
@@ -61,8 +63,7 @@ To monitor **urbanization trends and urban area dynamics** in Hanoi using Earth 
 - **Objective 4:** Quantifying Urbanization Trends – To measure the rate of urban expansion and spatial patterns using indices such as the Impervious Surface Index (ISI), Urbanization Ratio (UR), and Annual Growth Rate (AGR). <!--{ style="font-size:1rem;opacity:1; color:blue" }-->
 - **Objective 5:** Supporting Sustainable Planning – To provide planning-relevant information for assessing development trends and guiding future zoning strategies. <!--{ style="font-size:1rem;opacity:1; color:blue" }--> 
 
-
-## Case Study <!--{ as="eox-map" mode="tour" }-->
+## Use case <!--{ as="eox-map" mode="tour" }-->
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[105.85,21.03] zoom="13" animationOptions="{duration:500}" }-->
 
@@ -75,10 +76,11 @@ Hanoi serves as the primary political, economic, and cultural hub of Vietnam, ha
 </div>
 
 Geographically situated within the Red River Delta, the city encompasses approximately 3,360 km², positioning it as one of the most expansive capital cities in Southeast Asia in terms of land area. Recent census data from 2024 indicates a population of nearly 8.7 million, ranking Hanoi as Vietnam’s second-largest city by population density. 
-The city's urban footprint has been steadily pushing outward into suburban districts, including Gia Lam, Long Bien, Ha Dong, Hoang Mai, Soc Son, and Dong Anh. This rapid physical growth is driven by the extensive development of transportation networks, modern residential zones, and industrial clusters. Such profound modifications to land use and natural topography have placed considerable strain on local natural resources and the quality of the urban environment.  
-## Suburban districts <!--{ as="eox-map" mode="tour" }-->
+The city's urban footprint has been steadily pushing outward into suburban districts, including Gia Lam, Long Bien, Ha Dong, Hoang Mai, Soc Son, and Dong Anh. This rapid physical growth is driven by the extensive development of transportation networks, modern residential zones, and industrial clusters. Such profound modifications to land use and natural topography have placed considerable strain on local natural resources and the quality of the urban environment.
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[105.85,21.03] zoom="15" animationOptions="{duration:500}" }-->
+### <!--{ as="eox-map" mode="tour" nav="false" }-->
+
+#### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[105.85,21.03] zoom="15" animationOptions="{duration:500}" }-->
 
 ##### Gia Lam
 Gia Lam is located to the east of central Hanoi and represents one of the important suburban expansion areas. Urban growth in this district is associated with new residential development, transport connections, and conversion of agricultural land.
@@ -119,9 +121,7 @@ Dong Anh lies north of the Red River and is considered a strategic area for Hano
 ##### Urban growth pressure
 This rapid physical growth is driven by the extensive development of transportation networks, modern residential zones, and industrial clusters. Such profound modifications to land use and natural topography have placed considerable strain on local natural resources and the quality of the urban environment.
 
-## ALOS-2 ScanSAR L2.2 Timeseries <!--{ as="eox-map" mode="tour" }-->
-### ALOS-2 PALSAR-2
-
+### <!--{ as="eox-map" mode="tour" nav="false" }--> ALOS-2 ScanSAR L2.2 Timeseries 
 The **Advanced Land Observing Satellite-2 (ALOS-2)**, operated by the Japan Aerospace Exploration Agency (**JAXA**), is an Earth observation satellite equipped with the **Phased Array type L-band Synthetic Aperture Radar-2 (PALSAR-2)**. Unlike optical sensors, PALSAR-2 uses microwave radar signals, allowing observations **during both day and night and under cloudy conditions**.
 
 Its **L-band SAR** is particularly useful for monitoring land-surface characteristics, vegetation structure, forests, agriculture, disasters, and changes in built-up areas. In this case study, ALOS-2 PALSAR-2 annual mosaic data are used to examine the spatial evolution of **Hanoi between 2015, 2020, and 2025**. By comparing the radar backscatter patterns across these years, changes in the extent and density of urban and peri-urban areas can be visually assessed.
@@ -144,17 +144,10 @@ Growth thickens along Ha Dong and Gia Lam, with new built-up clusters visible be
 Peri-urban districts, Hoang Mai, Long Bien, Dong Anh, show denser built-up returns, marking the mid-study acceleration.
 
 
-## Methodology Workflow & Data
+## Data and Methods
 The analytical workflow of this project is established upon the optimal integration of multi-sensor data sources within the Google Earth Engine (GEE) cloud computing platform, enabling high-performance processing of big geospatial data with superior precision and consistency. 
 
 
-| Dataset | Provider | Resolution | Period | Purpose |
-|---|---|---:|---|---|
-| Landsat | USGS | 30m | 2015 | Band extraction, NDVI/NDWI/NDBI calculation, cloud masking, and LULC classification. |
-| Sentinel-2 | ESA | 10m | 2020–2025 | Spectral band extraction, vegetation index calculation, and LULC classification. |
-| ALOS-2/PALSAR-2 | JAXA | 25m | 2015–2025 | Pre-processing (calibration), speckle filtering, decibel (dB) conversion, and HH/HV polarization feature extraction for ML classification. |
-| PlanetScope | Planet Labs | 3m | 2020, 2025 | High-resolution validation and sample collection support. |
-| SRTM | NASA | 30m |  | Digital Elevation Model (DEM) for classification support. |
 
 
 The initial phase focuses on rigorous pre-processing, encompassing atmospheric correction for optical spectral bands and advanced terrain correction for ALOS-2 PALSAR-2 Radar data to eliminate geometric and radiometric distortions.
@@ -201,21 +194,35 @@ The surge in the Impervious Surface Index (ISI) across the urban change maps ref
 </div>
 
 
-## Limitations
+## Conclusions
+
+#### Limitations
 Despite the systematic approach employed in this study, several limitations should be acknowledged. First, the dependency on cloud-masking techniques for optical datasets (Landsat/Sentinel-2) may hinder data acquisition during the rainy season. Second, the 25m spatial resolution of ALOS-2 SAR data limits the capacity for detailed urban mapping at a micro-scale. Third, the validation process is contingent upon the availability of field survey data and high-resolution imagery. Additionally, the six-class LULC classification system may lack the granularity required to distinguish specific urban land-use types, such as residential, industrial, and commercial zones. Furthermore, this study does not yet integrate socio-economic datasets to provide a comprehensive analysis of the drivers of urbanization. Finally, the research scope is geographically limited to Hanoi and has not yet been extended to other urban centers.
 
-## Future Development
+#### Future Development
 To enhance the scope and impact of this study, future research will focus on several key directions. We plan to:  
 
 - **1:** Expand the geographical coverage by applying our methodology to other major Vietnamese cities, such as Ho Chi Minh City, Da Nang, and Hai Phong. 
 - **2:**  Enrich our monitoring indices by incorporating water quality assessment, the Green Space Index, and population density tracking. 
 
 
-## References
+## Open Science
+
+| **Name** | **Type** | **Agency / Provider** | **Description / Usage** |
+| --- | --- | --- | --- |
+| **[ALOS-2 PALSAR-2](https://www.eorc.jaxa.jp/ALOS/en/alos-2/a2_about_e.htm)** | Dataset | JAXA | 25 m L-band SAR data (2015–2025), calibrated, speckle filtered and converted to dB to extract HH/HV polarisation features for the Random Forest classification. |
+| **[Global PALSAR-2/PALSAR Yearly Mosaic on Google Earth Engine](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR_YEARLY_SAR_EPOCH)** | Data Access Platform | Google Earth Engine / JAXA EORC | Source of the ALOS-2 PALSAR-2 yearly mosaics (HH polarisation) shown in the story's map tour for 2015, 2020 and 2024. |
+| **[Landsat](https://www.usgs.gov/landsat-missions)** | Dataset | USGS | 30 m optical imagery (2015) used for band extraction, NDVI/NDWI/NDBI calculation, cloud masking and LULC classification. |
+| **[Sentinel-2](https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2)** | Dataset | ESA / Copernicus | 10 m optical imagery (2020–2025) used for spectral band extraction, vegetation index calculation and LULC classification. |
+| **PlanetScope** | Dataset | Planet Labs | 3 m imagery (2020, 2025) used for high-resolution validation and training sample collection. |
+| **[SRTM](https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003)** | Dataset | NASA | 30 m Digital Elevation Model used to support the classification. |
+| **[EO Dashboard](https://eodashboard.org)** | Platform / Web Tool | ESA, NASA, JAXA | Hosts the interactive map tours of Hanoi, its suburban districts and the ALOS-2 PALSAR-2 time series. |
+
+## References <!--{ nav="false" }-->
 1.	Seto KC, Fragkias M, Güneralp B, Reilly MK (2011) A Meta-Analysis of Global Urban Land Expansion. PLOS ONE 6(8): e23777. https://doi.org/10.1371/journal.pone.0023777
 2.	Angel, S., Parent, J., Civco, D. L., Blei, A., & Potere, D. (2011). The dimensions of global urban expansion: Estimates and projections for all countries, 2000-2050. Progress in Planning, 75(2), 53–107. https://doi.org/10.1016/j.progress.2011.04.001.
 3.	United Nations Human Settlements Programme (UN-Habitat). (2016). World Cities Report 2016: Urbanization and Development - Emerging Futures. https://unhabitat.org/world-cities-report-2016 
-4.	Talukdar, S., Singha, P., Mahato, S., Shahfahad, Pal, S., Liou, Y.-A., & Rahman, A. (2020). Land-Use Land-Cover Classification by Machine Learning Classifiers for Satellite Observations—A Review. Remote Sensing, 12(7), 1135. 
- 
+4.	Talukdar, S., Singha, P., Mahato, S., Shahfahad, Pal, S., Liou, Y.-A., & Rahman, A. (2020). Land-Use Land-Cover Classification by Machine Learning Classifiers for Satellite Observations—A Review. Remote Sensing, 12(7), 1135.
+
 
 
