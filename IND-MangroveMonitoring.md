@@ -21,7 +21,9 @@ collections: collectionIdentifier1, collectionIdentifier2
 
 </div> 
 
-## Introduction
+##  <!--{ nav="false"}-->
+#### Introduction
+<!--{nav="false" style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
 This story is based on results from **[ALOS-2 Ideathon: Bridging Space Data and Societal Needs](https://brin.go.id/news/122360/brin-tegaskan-pentingnya-data-satelit-dukung-ekosistem-mangrove)**, organised by JAXA, BRIN, Keio University and RESTEC. 
 <p align="center">
   <img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/2d25ca89ebc5fd3f1dbf204779815d5946de4496/Jaxa_logo.svg" height="50" style="margin: 0 0px;"/>
@@ -67,12 +69,12 @@ Existing monitoring methods rely heavily on **conventional, labor-intensive grou
 **Consequently, current mangrove monitoring remains limited, featureless, and inaccessible, failing to provide the robust, up-to-date spatial data required to prevent coastal erosion.**
 
 
-## Objectives <!--{ style="font-size:1.5rem;opacity:1;margin-top:1rem; color:Navy" }-->
+## Objective <!--{ style="font-size:1.5rem;opacity:1;margin-top:1rem; color:Navy" }-->
 **Primary Objective:** 
 Mapping the **Multi-temporal analysis of mangrove gain/loss in Kuala Selat (Riau) and Pangpang Bay (East Java) using Logistic Model Tree (LMT)** to get the Mangrove Change Map (Gain and Loss) that is derived from SAR and multispectral band Satellite, highlighting areas of mangrove degradation and restoration potential in **Kuala Selat (Riau)** and **Pangpang Bay (East Java)**. 
 
 
-## Case Study <!--{ as="eox-map" mode="tour" }-->
+## Use case <!--{ as="eox-map" mode="tour" }-->
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[103.706861,0.183472] zoom="8" animationOptions="{duration:500}" }-->
 ##### Kuala Selat 
@@ -131,17 +133,7 @@ The same HV view three years later. As with Kuala Selat, any difference from the
 
 
 
-## Methodology Workflow & Data
-By integrating high-resolution Synthetic Aperture Radar (SAR) data with optical satellite imagery, this research addresses the shortcomings of conventional monitoring methods: 
-
-
-| Name | Provider | Resolution | Temporal Coverage | Purpose |
-|---|---|---|---|---|
-| ALOS-2 L2.2 ScanSAR | JAXA (Japan Aerospace Exploration Agency) | Primary L-band SAR dataset (25 m) | 2021 and 2024 | Used for large-scale mangrove detection, area calculation, and change analysis. Its high penetration capability makes it suitable for dense mangrove canopies. |
-| Sentinel-2 L2A | Copernicus | Visible bands (10 m) | 2021 and 2024 | Used for validation of ScanSAR-derived products and visualization of the study area. |
-| Indonesia’s National Mangrove Map | Ministry of Forestry, Indonesia | - | 2021 and 2024 | Used to compare the total mangrove area with the ALOS-2 analysis. |
-| Indonesia’s administrative boundary | Geospatial Information Agency (BIG), Indonesia | 1:25,000 scale | 2021 and 2024 | Used to divide the ALOS-2, Sentinel-2, and PMN datasets according to Indonesia’s official administrative boundaries. |
-
+## Data and Methods
 The methodology leverages a multi-sensor approach, integrating ALOS PALSAR-2 radar data with Sentinel-2 Level 2A optical imagery. Using GIS geoprocessing tools and raster functions, the data is preprocessed by applying a 5x5 Frost speckle filter to extract HH and HV backscattering coefficients, and by calculating a Mangrove Vegetation Index (MVI) from Sentinel-2 imagery to construct the foundational training datasets.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
@@ -181,44 +173,53 @@ To systematically quantify the spatial results, the geodetically measured areas 
 <p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [11].</b> Mangrove Areas Comparison 2021 and 2024 Chart at Kuala Selat and Pangpang Bay. </p> 
 </div>
 
-
-## Limitations
+## Conclusions
+#### Limitations
 The limitations of the current work include, but are not limited to:
 1.	The calculated mangrove area of “Rule 2: HH + MVI” and “Rule 2: HV and MVI” in our analysis is notably lower than the figures reported in the National Mangrove Map (PMN) due to the implementation of a significantly stricter classification methodology. To ensure baseline geodetic accuracy, the total area was precisely measured via ArcGIS Calculate Geometry using a World Cylindrical projected coordinate system. The core variance from the Rule 2 combination is that integrating SAR HH or HV with optical MVI, which is designed specifically to enhance the detection of "true positive" or ground truth mangroves. While standalone optical indices like the MVI yield statistics closer to the National Map, both often inadvertently capture "false positives" such as aquaculture ponds, cloud-shrouded areas, and other classification errors. By incorporating SAR data, which actively measures physical structure, volume, and moisture rather than just surface reflectance, our model successfully penetrates cloud cover and detects hidden degradation at lower canopies. Ultimately, this dual-sensor approach filters out the inaccuracies inherent in optical-only data, resulting in a highly accurate, albeit smaller, calculation of true mangrove extent.
 2.	The difference value of mangrove area from calculated mangrove area, MVI, and PMN can also occur due to the resolution difference between Sentinel-2 (which is used as a based of PMN and MVI) and ALOS-2 SCANSAR type. Sentinel-2 has a resolution of 10 m in the visible band, while ALOS-2 SCANSAR spatial resolution varies from 60m to 100m, depending on the swath length. 
 
 
-## Future Development
+#### Future Development
 The future development will include investigating the use of time-series datasets to detect coastal erosion/accretion changes in Kuala Selat (Riau) and Pangpang Bay (East Java), and comparing shoreline positions or backscatter boundaries across years. The outcome, Coastal Erosion and Accretion Map, will visualize shoreline changes and backscatter boundary shifts across multiple years.
+
+## Open Science
+
+| **Name** | **Type** | **Agency / Provider** | **Description / Usage** |
+| --- | --- | --- | --- |
+| **[ALOS-2 PALSAR-2 ScanSAR L2.2](https://www.eorc.jaxa.jp/ALOS/en/alos-2/a2_about_e.htm)** | Dataset | JAXA | L-band SAR yearly median composites (HH and HV) for 2021 and 2024, used as the primary dataset for mangrove detection, area calculation and change analysis. Its canopy penetration makes it well suited to dense mangrove stands and cloud-prone coasts. |
+| **[PALSAR-2 ScanSAR Level 2.2 on Google Earth Engine](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR-2_Level2_2_ScanSAR)** | Data Access Platform | Google Earth Engine / JAXA EORC | Source of the ALOS-2 PALSAR-2 data shown in the story's map visualisations. The 2021 and 2024 yearly median HV composites for Kuala Selat and Pangpang Bay were generated and exported from Google Earth Engine. |
+| **[Sentinel-2 L2A](https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2)** | Dataset | ESA / Copernicus | 10 m optical imagery used to calculate the Mangrove Vegetation Index (MVI), validate the ScanSAR-derived products and visualise the study areas. |
+| **Indonesia's National Mangrove Map (PMN)** | Dataset | Ministry of Forestry, Indonesia | National reference map used to compare the total mangrove area against the ALOS-2 and MVI results. |
+| **Indonesia's Administrative Boundaries** | Dataset | Geospatial Information Agency (BIG), Indonesia | 1:25,000 official boundaries used to clip the ALOS-2, Sentinel-2 and PMN datasets to the study areas. |
+| **[Global Tidal Wetland Change](https://doi.org/10.1126/science.abm9583)** | Dataset | Murray et al. (2022) | Global map of tidal wetland losses and gains, providing context for mangrove change in the region. |
+| **[Mangrove Vegetation Index (MVI)](https://doi.org/10.1016/j.isprsjprs.2020.06.001)** | Method | Baloloy et al. (2020) | Optical index used in Rule 2 of the classification (MVI between 4.5 and 20) to separate mangroves from terrestrial forest. |
+| **Logistic Model Tree (LMT) classification** | Method | Pham et al. (2018) | Rule-based decision tree combining SAR backscatter thresholds (HH > -15.5, HV > -17.9) with MVI to produce the 2021 and 2024 mangrove maps and the Mangrove Change Map. |
+| **[EO Dashboard](https://eodashboard.org)** | Platform / Web Tool | ESA, NASA, JAXA | Hosts the interactive map tour showing the ALOS-2 HV composites for Kuala Selat and Pangpang Bay in 2021 and 2024. |
 
 
 ## References
-Spatial Data Processing Methodology:
--	Pham, T. D., Bui, D. T., Yoshino, K., & Le, N. N. (2018). Optimized rule-based logistic model tree algorithm for mapping mangrove species using ALOS PALSAR imagery and GIS in the tropical region. Environmental earth sciences, 77(5), 159.
--	Baloloy, A. B., Blanco, A. C., Ana, R. R. C. S., & Nadaoka, K. (2020). Development and application of a new mangrove vegetation index (MVI) for rapid and accurate mangrove mapping. ISPRS Journal of Photogrammetry and Remote Sensing, 166, 95-117.
--	Pham, T. D., & Yoshino, K. (2012, November). Mangrove analysis using ALOS imagery in Hai Phong City, Vietnam. In Remote Sensing of the Marine Environment II (Vol. 8525, pp. 161-168). SPIE.
--	Pham, T. D., & Yoshino, K. (2016, June). Characterization of mangrove species using ALOS-2 PALSAR in Hai Phong city, Vietnam. In IOP Conference Series: Earth and Environmental Science (Vol. 37, No. 1, p. 012036). IOP Publishing.
--	Pham, T. D., Bui, D. T., Yoshino, K., & Le, N. N. (2018). Optimized rule-based logistic model tree algorithm for mapping mangrove species using ALOS PALSAR imagery and GIS in the tropical region. Environmental earth sciences, 77(5), 159.
--	Sari, S. P., & Rosalina, D. (2016). Mapping and monitoring of mangrove density changes on tin mining area. Procedia Environmental Sciences, 33, 436-442.
--	Tien Bui, D., Tuan, T. A., Klempe, H., Pradhan, B., & Revhaug, I. (2016). Spatial prediction models for shallow landslide hazards: a comparative assessment of the efficacy of support vector machines, artificial neural networks, kernel logistic regression, and logistic model tree. Landslides, 13(2), 361-378.
--	Pham, T. D., & Yoshino, K. (2017). Aboveground biomass estimation of mangrove species using ALOS-2 PALSAR imagery in Hai Phong City, Vietnam. Journal of Applied Remote Sensing, 11(2), 026010-026010.
--	Darmawan, S., Takeuchi, W., Vetrita, Y., Wikantika, K., & Sari, D. K. (2015). Impact of topography and tidal height on ALOS PALSAR polarimetric measurements to estimate aboveground biomass of mangrove forest in Indonesia. Journal of Sensors, 2015(1), 641798.
--	Darmawan, S., Takeuchi, W., Vetrita, Y., Winarso, G., Wikantika, K., & Sari, D. K. (2014, June). Characterization of mangrove forest types based on ALOS-PALSAR in overall Indonesian archipelago. In IOP Conference Series: Earth and Environmental Science (Vol. 20, No. 1, p. 012051). IOP Publishing.
--	Pham, T. D., & Yoshino, K. (2016, June). Characterization of mangrove species using ALOS-2 PALSAR in Hai Phong city, Vietnam. In IOP Conference Series: Earth and Environmental Science (Vol. 37, No. 1, p. 012036). IOP Publishing.
--	Pham, T. D., & Yoshino, K. (2016, June). Characterization of mangrove species using ALOS-2 PALSAR in Hai Phong city, Vietnam. In IOP Conference Series: Earth and Environmental Science (Vol. 37, No. 1, p. 012036). IOP Publishing.
--	Pham, T. D., & Yoshino, K. (2012, November). Mangrove analysis using ALOS imagery in Hai Phong City, Vietnam. In Remote Sensing of the Marine Environment II (Vol. 8525, pp. 161-168). SPIE.
-Datasets:
--	Rosenqvist, A., Shimada, M., Suzuki, S., Ohgushi, F., Tadono, T., Watanabe, M., ... & Aoki, E. (2014). Operational performance of the ALOS global systematic acquisition strategy and observation plans for ALOS-2 PALSAR-2. Remote Sensing of Environment, 155, 3-12.
--	Murray, N.J., Worthington, T.A., Bunting, P., Duce, S., Hagger, V., Lovelock, C.E., Lucas, R., Saunders, M.I., Sheaves, M., Spalding, M., Waltham, N.J., Lyons, M.B. (2022). High-resolution mapping of losses and gains of Earth's tidal wetlands. Science. doi:10.1126/science.abm9583
--	 Government of Indonesia. (2019). Law Number 27 of 2025 concerning the protection and management of mangrove ecosystems. State Gazette of the Republic of Indonesia, 2025 Number 27.
--	Clark Labs. (2015). Clark Labs | Geospatial Software for Monitoring and Modeling the Earth System [online]. Clark Labs. Available from: https://www.clarku.edu/geospatial-analytics/
-Scope Area:
--	Raharja, A. B., Widigdo, B., & Sutrisno, D. (2014). Kajian potensi kawasan mangrove di kawasan pesisir Teluk Pangpang, Banyuwangi. Depik, 3(1).
--	Sulastini, D., Dyah, S. M. W., Ssusilo, U., & Widiastuti, R. R. W. (2011). Seri Buku Informasi dan Potensi Mangrove Taman Nasional Alas Purwo. Balai Taman Nas. Alas Purwo. Bayuwangi.
--	Luthfiana, N., & Zamaya, Y. (2025, June). Alternative livelihoods for communities affected by coastal abrasion disasters case study on Kuala Selat village, Kateman district, Indragiri hilir regency, Piau province. In IOP Conference Series: Earth and Environmental Science (Vol. 1518, No. 1, p. 012020). IOP Publishing.
--	Lekatompessy, R. L., & Maturbongs, E. E. (2021). Faktor-Faktor Dalam Upaya Mengatasi Abrasi Di Pesisir Pantai Di Wilayah Kabupaten Merauke. Dialogue: Jurnal Ilmu Administrasi Publik, 3(1), 1-13.
--	Adhitama, S. Y., Puspitasari, D., Budiman, L. S., & Musthofa, A. (2025). Exploring Dynamics and Effective Strategies for Tidal Flood Risk Reduction in Indonesia's Coastal Cities. ASEAN Journal on Science and Technology for Development, 42(2), 6.
--	Arifanti, V. B., Kauffman, J. B., Subarno, Ilman, M., Tosiani, A., & Novita, N. (2022). Contributions of mangrove conservation and restoration to climate change mitigation in Indonesia. Global Change Biology, 28(15), 4523-4538.
+1. Pham, T. D., Bui, D. T., Yoshino, K., & Le, N. N. (2018). Optimized rule-based logistic model tree algorithm for mapping mangrove species using ALOS PALSAR imagery and GIS in the tropical region. Environmental Earth Sciences, 77(5), 159.
+2. Baloloy, A. B., Blanco, A. C., Ana, R. R. C. S., & Nadaoka, K. (2020). Development and application of a new mangrove vegetation index (MVI) for rapid and accurate mangrove mapping. ISPRS Journal of Photogrammetry and Remote Sensing, 166, 95–117.
+3. Pham, T. D., & Yoshino, K. (2012, November). Mangrove analysis using ALOS imagery in Hai Phong City, Vietnam. In Remote Sensing of the Marine Environment II (Vol. 8525, pp. 161–168). SPIE.
+4. Pham, T. D., & Yoshino, K. (2016, June). Characterization of mangrove species using ALOS-2 PALSAR in Hai Phong city, Vietnam. In IOP Conference Series: Earth and Environmental Science (Vol. 37, No. 1, p. 012036). IOP Publishing.
+5. Sari, S. P., & Rosalina, D. (2016). Mapping and monitoring of mangrove density changes on tin mining area. Procedia Environmental Sciences, 33, 436–442.
+6. Tien Bui, D., Tuan, T. A., Klempe, H., Pradhan, B., & Revhaug, I. (2016). Spatial prediction models for shallow landslide hazards: a comparative assessment of the efficacy of support vector machines, artificial neural networks, kernel logistic regression, and logistic model tree. Landslides, 13(2), 361–378.
+7. Pham, T. D., & Yoshino, K. (2017). Aboveground biomass estimation of mangrove species using ALOS-2 PALSAR imagery in Hai Phong City, Vietnam. Journal of Applied Remote Sensing, 11(2), 026010-026010.
+8. Darmawan, S., Takeuchi, W., Vetrita, Y., Wikantika, K., & Sari, D. K. (2015). Impact of topography and tidal height on ALOS PALSAR polarimetric measurements to estimate aboveground biomass of mangrove forest in Indonesia. Journal of Sensors, 2015(1), 641798.
+9. Darmawan, S., Takeuchi, W., Vetrita, Y., Winarso, G., Wikantika, K., & Sari, D. K. (2014, June). Characterization of mangrove forest types based on ALOS-PALSAR in overall Indonesian archipelago. In IOP Conference Series: Earth and Environmental Science (Vol. 20, No. 1, p. 012051). IOP Publishing.
+Datasets
+10. Rosenqvist, A., Shimada, M., Suzuki, S., Ohgushi, F., Tadono, T., Watanabe, M., ... & Aoki, E. (2014). Operational performance of the ALOS global systematic acquisition strategy and observation plans for ALOS-2 PALSAR-2. Remote Sensing of Environment, 155, 3–12.
+11. Murray, N. J., Worthington, T. A., Bunting, P., Duce, S., Hagger, V., Lovelock, C. E., Lucas, R., Saunders, M. I., Sheaves, M., Spalding, M., Waltham, N. J., & Lyons, M. B. (2022). High-resolution mapping of losses and gains of Earth's tidal wetlands. Science. https://doi.org/10.1126/science.abm9583
+12. Government of Indonesia. (2019). Law Number 27 of 2025 concerning the protection and management of mangrove ecosystems. State Gazette of the Republic of Indonesia, 2025 Number 27.
+13. Clark Labs. (2015). Clark Labs | Geospatial Software for Monitoring and Modeling the Earth System [online]. Clark Labs. https://www.clarku.edu/geospatial-analytics/
+Scope Area
+14. Raharja, A. B., Widigdo, B., & Sutrisno, D. (2014). Kajian potensi kawasan mangrove di kawasan pesisir Teluk Pangpang, Banyuwangi. Depik, 3(1).
+15. Sulastini, D., Dyah, S. M. W., Ssusilo, U., & Widiastuti, R. R. W. (2011). Seri Buku Informasi dan Potensi Mangrove Taman Nasional Alas Purwo. Balai Taman Nas. Alas Purwo. Bayuwangi.
+16. Luthfiana, N., & Zamaya, Y. (2025, June). Alternative livelihoods for communities affected by coastal abrasion disasters case study on Kuala Selat village, Kateman district, Indragiri hilir regency, Piau province. In IOP Conference Series: Earth and Environmental Science (Vol. 1518, No. 1, p. 012020). IOP Publishing.
+17. Lekatompessy, R. L., & Maturbongs, E. E. (2021). Faktor-Faktor Dalam Upaya Mengatasi Abrasi Di Pesisir Pantai Di Wilayah Kabupaten Merauke. Dialogue: Jurnal Ilmu Administrasi Publik, 3(1), 1–13.
+18. Adhitama, S. Y., Puspitasari, D., Budiman, L. S., & Musthofa, A. (2025). Exploring Dynamics and Effective Strategies for Tidal Flood Risk Reduction in Indonesia's Coastal Cities. ASEAN Journal on Science and Technology for Development, 42(2), 6.
+19. Arifanti, V. B., Kauffman, J. B., Subarno, Ilman, M., Tosiani, A., & Novita, N. (2022). Contributions of mangrove conservation and restoration to climate change mitigation in Indonesia. Global Change Biology, 28(15), 4523–4538.
 
  
 
