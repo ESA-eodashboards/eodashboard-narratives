@@ -218,7 +218,7 @@ To enhance the scope and impact of this study, future research will focus on sev
 | **[SRTM](https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003)** | Dataset | NASA | 30 m Digital Elevation Model used to support the classification. |
 | **[EO Dashboard](https://eodashboard.org)** | Platform / Web Tool | ESA, NASA, JAXA | Hosts the interactive map tours of Hanoi, its suburban districts and the ALOS-2 PALSAR-2 time series. |
 
-## References <!--{ nav="false" }-->
+### References <!--{ nav="false" }-->
 1.	Seto KC, Fragkias M, Güneralp B, Reilly MK (2011) A Meta-Analysis of Global Urban Land Expansion. PLOS ONE 6(8): e23777. https://doi.org/10.1371/journal.pone.0023777
 2.	Angel, S., Parent, J., Civco, D. L., Blei, A., & Potere, D. (2011). The dimensions of global urban expansion: Estimates and projections for all countries, 2000-2050. Progress in Planning, 75(2), 53–107. https://doi.org/10.1016/j.progress.2011.04.001.
 3.	United Nations Human Settlements Programme (UN-Habitat). (2016). World Cities Report 2016: Urbanization and Development - Emerging Futures. https://unhabitat.org/world-cities-report-2016 
