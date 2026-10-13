@@ -198,7 +198,7 @@ The future development will include investigating the use of time-series dataset
 | **[EO Dashboard](https://eodashboard.org)** | Platform / Web Tool | ESA, NASA, JAXA | Hosts the interactive map tour showing the ALOS-2 HV composites for Kuala Selat and Pangpang Bay in 2021 and 2024. |
 
 
-## References
+### References
 1. Pham, T. D., Bui, D. T., Yoshino, K., & Le, N. N. (2018). Optimized rule-based logistic model tree algorithm for mapping mangrove species using ALOS PALSAR imagery and GIS in the tropical region. Environmental Earth Sciences, 77(5), 159.
 2. Baloloy, A. B., Blanco, A. C., Ana, R. R. C. S., & Nadaoka, K. (2020). Development and application of a new mangrove vegetation index (MVI) for rapid and accurate mangrove mapping. ISPRS Journal of Photogrammetry and Remote Sensing, 166, 95–117.
 3. Pham, T. D., & Yoshino, K. (2012, November). Mangrove analysis using ALOS imagery in Hai Phong City, Vietnam. In Remote Sensing of the Marine Environment II (Vol. 8525, pp. 161–168). SPIE.
