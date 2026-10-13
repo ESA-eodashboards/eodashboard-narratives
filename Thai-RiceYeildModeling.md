@@ -19,7 +19,9 @@ collections: collectionIdentifier1, collectionIdentifier2
 </div>
 
 
-## Introduction
+##  <!--{ nav="false"}-->
+#### Introduction
+<!--{nav="false" style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
 This story is based on results from **ALOS-2 Ideathon: Bridging Space Data and Societal Needs**, organised by JAXA, GISTDA, Keio University and RESTEC. 
 <p align="center">
   <img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/2d25ca89ebc5fd3f1dbf204779815d5946de4496/Jaxa_logo.svg" height="50" style="margin: 0 0px;"/>
@@ -52,21 +54,21 @@ Earth Observation offers a faster and more scalable approach. Optical and radar 
 
 More timely and reliable yield information can help government agencies, farmers, insurers, exporters, and agribusinesses make better decisions. It can also strengthen climate resilience, improve food security assessments, and support more sustainable agricultural management in Thailand.
 
-### Problem Statment <!--{ style="font-size:1.30rem;opacity:1;margin-top:1rem; color:black" }-->
+### Problem Statement <!--{ style="font-size:1.30rem;opacity:1;margin-top:1rem; color:black" }-->
 Earth Observation (EO) represents a transformative approach for operational rice yield estimation by integrating multi-source remote sensing observations with advanced analytical and predictive modeling techniques. The synergistic use of optical and Synthetic Aperture Radar (SAR) satellite data enables continuous, large-scale monitoring of rice growth and improves the accuracy and timeliness of yield prediction. An EO-based operational framework enhances agricultural decision-making, strengthen climate resilience, improve market and food security planning, and supporting the transition toward sustainable, data-driven agricultural management at regional and national scales.
 
-## Objectives <!--{ style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
+## Objective <!--{ style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
 - Investigate the **relationships between rice growth stage, key rice biophysical parameters, and rice yield** to identify the most significant predictors for yield estimation.
 - **Evaluate and compare the potential of optical sensor and SAR** remote sensing data for **rice yield estimation** across different rice growth stages.
 - **Develop an operational rice yield estimation model** by integrating satellite-derived variables, rice biophysical parameters, and a Linear Regression Model (LRM) to improve the accuracy and spatial representation of yield estimates.
 - **Optimize the performance of Earth Observation (EO)**- based platform for operational rice yield estimation through model calibration, validation, and implementation for large-scale agricultural monitoring.
 
 
-## Case Study <!--{ as="eox-map" mode="tour" }-->
+## Use case  <!--{ as="eox-map" mode="tour" }-->
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[100.00,14.47] zoom="11" animationOptions="{duration:500}" style="width: 50%; max-width: 60%; box-sizing: border-box;"}-->
 ##### Suphan Buri
-is located in the central region of Thailand (Figure 1). The province covers an area of approximately 5,358 km² and lies at elevations ranging from 3 to 10 m above mean sea level. The topography is predominantly characterized by flat alluvial plains with slopes of approximately 0–3%, making the area highly suitable for intensive agricultural production. Small upland areas are primarily located in the western part of the province. The southeastern region represents the lowest elevation, averaging approximately 3m above mean sea level, whereas the northern part reaches elevations of approximately 10m.
+Suphan Buri is located in the central region of Thailand (Figure 2). The province covers an area of approximately 5,358 km² and lies at elevations ranging from 3 to 10 m above mean sea level. The topography is predominantly characterized by flat alluvial plains with slopes of approximately 0–3%, making the area highly suitable for intensive agricultural production. Small upland areas are primarily located in the western part of the province. The southeastern region represents the lowest elevation, averaging approximately 3m above mean sea level, whereas the northern part reaches elevations of approximately 10m.
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/StudyArea_Suphan1.jpg?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
 <p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [2].</b> Study area map of Central Thailand (Suphan Buri province).</p> 
@@ -111,7 +113,7 @@ The crop is at or near peak biomass. Flowering is one of the growth stages the s
 By harvest, crops have dried and ripened, changing both moisture content and structure. The study's own results found that Sentinel-1 VV backscatter combined with dry biomass at this stage was the single strongest predictor of rice yield in Suphan Buri. This makes the ALOS-2 view here a useful point of comparison for how L-band responds at the same moment in the crop cycle.
 
 
-## Methodology Workflow & Data
+## Data and Methods 
 Rice growth and yield were assessed by integrating multi-source Earth Observation data with field measurements. Sentinel-2 optical imagery was used to calculate vegetation indices such as NDVI and EVI, while Sentinel-1 C-band and ALOS-2 L-band SAR data provided information on crop structure, biomass, moisture, and surface conditions under all-weather conditions. UAV imagery was also collected during field surveys to generate high-resolution NDVI maps.
 
 Field measurements were conducted at five major rice growth stages—seedling, tillering, panicle development, flowering, and harvesting. Key biophysical variables, including plant height, leaf area index, chlorophyll content, biomass, and crop-cutting yield, were recorded for each experimental plot.
@@ -119,16 +121,6 @@ Field measurements were conducted at five major rice growth stages—seedling, t
 The satellite and UAV data were pre-processed and matched with the field observations. Average remote-sensing values were extracted from the central area of each plot to reduce mixed-pixel and boundary effects. Correlation analysis was then used to identify the variables most strongly related to rice yield.
 
 Significant variables were incorporated into linear and multiple regression models developed for different growth stages and provinces. The selected models were applied to satellite imagery to generate spatial rice-yield maps within mapped rice-growing areas. Model accuracy was evaluated by comparing predicted yields with crop-cutting measurements using RMSE and MAPE.
-| Dataset | Provider | Resolution | Period | Purpose |
-|:---:|:---:|:---:|:---:|:---:|
-| **Optical:** Sentinel-2A and Sentinel-2B MSI | ESA | 10–60 m | 1 May–31 October 2025 | Calculate vegetation indices, such as NDVI and EVI |
-| **Radar:** Sentinel-1A and Sentinel-1B SLC IW, VV and VH polarizations | ESA | 5 × 20 m | 1 May–31 October 2025 | Calculate backscatter coefficients, such as sigma nought (σ⁰), gamma nought, and beta nought |
-| ALOS-2 Level 1.1, HH and HV polarizations | JAXA | 25 m | 1 May–31 October 2025 | Calculate backscatter coefficients |
-| Drone imagery | OAE | 5-10 m | 1 May–31 October 2025 | Analyze NDVI |
-| Field data | OAE | — | 1 May–31 October 2025 | Collect rice biophysical variables from 29 sample units |
-| Statistical rice yield data | OAE | — | 2024 | Validate accuracy |
-| Rice area interpreted from Sentinel-2 | OAE | — | 2025 | Mask rice-growing areas after applying the model to satellite imagery |
-| Administrative boundary | LDD | — | 2013 | To analyze the yield results at the district and provincial levels |
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/Flowchart.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
@@ -151,7 +143,8 @@ After masking rice cultivated area from raster output with Multiple Linear Regre
 The results demonstrated that the multiple linear regression (MLR) model integrating Sentinel-1 SAR imagery in the VV polarization with total dry biomass at the harvesting stage provided a statistically significant model for rice yield estimation. 
 Based on the mean zonal statistic, the model estimated rice production in Suphan Buri Province at 906,089.23 tons, with a root mean square error (RMSE) of 9.96 tons. In contrast, the model based on the maximum zonal statistic estimated production at 959,933.53 tons, with an RMSE of 12.34 tons. The lower RMSE and Mean Absolute Percentage Error (MAPE) obtained using the mean zonal statistic (30.59%) compared with the maximum zonal statistic (31.25%) indicate that the mean zonal statistic provides more accurate and reliable estimates of rice production. Therefore, the mean zonal statistic is recommended for rice production estimation using Sentinel-1 SAR data and MLR models.
 
-## Limitation
+## Conclusions 
+#### Limitation
 * **Small and fragmented rice fields:** Rice fields in Thailand are often small and scattered, making it difficult to match satellite pixels accurately with individual plots.
 
 * **Different planting dates:** Extensive irrigation allows farmers to plant rice at different times. As a result, rice fields may be at different growth stages on the same satellite acquisition date, reducing the consistency of vegetation-index, backscatter coefficient and yield analyses.
@@ -162,14 +155,29 @@ Based on the mean zonal statistic, the model estimated rice production in Suphan
 
 * **Limited cloud-free optical imagery:** Wet-season rice monitoring takes place during the monsoon season, when frequent cloud cover limits the availability of Sentinel-2 imagery. Therefore, optical observations were not available for all five rice growth stages.
 
-## Future Work
+#### Future Work
 Future research will investigate the use of L-band SAR data from ALOS-2 and compare its performance with C-band SAR data from Sentinel-1 using comparable polarizations, such as VV and VH. This comparison will help clarify how different radar frequencies relate to rice biophysical variables. It is also expected that fully polarimetric ALOS-2 data may improve the performance of rice yield estimation models by providing more detailed information on crop structure and growth conditions.
 
 The current study focuses primarily on empirical and statistical approaches to rice yield estimation. Future work will therefore explore the integration of crop growth models to improve yield prediction. Biophysical variables derived from remote sensing, including photosynthetically active radiation and leaf area index, could also be assimilated into these models to support more accurate estimation of rice biomass and yield.
 
 Finally, further research should evaluate different speckle-filtering methods. Although speckle filtering is necessary to reduce noise in SAR imagery, it can also affect image quality and remove important spatial details. Comparing alternative filtering approaches may help identify methods that reduce noise while preserving information relevant to rice monitoring.
 
-##  References
+## Open Science
+| **Name** | **Type** | **Agency / Provider** | **Description / Usage** |
+| --- | --- | --- | --- |
+| **[Sentinel-2 MSI](https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2)** | Dataset | ESA / Copernicus | 10–60 m optical imagery (1 May–31 October 2025) used to calculate vegetation indices such as NDVI and EVI. |
+| **[Sentinel-1 SLC IW](https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-1)** | Dataset | ESA / Copernicus | 5 × 20 m C-band SAR data in VV and VH polarisations (1 May–31 October 2025) used to calculate backscatter coefficients (sigma, gamma and beta nought). VV backscatter at the harvesting stage was the strongest predictor of rice yield. |
+| **[ALOS-2 PALSAR-2](https://www.eorc.jaxa.jp/ALOS/en/alos-2/a2_about_e.htm)** | Dataset | JAXA | 25 m L-band SAR data in HH and HV polarisations (1 May–31 October 2025) used to calculate backscatter coefficients. |
+| **[PALSAR-2 ScanSAR Level 2.2 on Google Earth Engine](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR-2_Level2_2_ScanSAR)** | Data Access Platform | Google Earth Engine / JAXA EORC | Source of the ALOS-2 PALSAR-2 growth-stage median composites (HH and HV) shown in the story's map tour, from seedling to harvesting stage. |
+| **Drone imagery** | Dataset | Office of Agricultural Economics (OAE) | High-resolution UAV imagery collected during field surveys to analyse NDVI. |
+| **Field data** | Dataset | Office of Agricultural Economics (OAE) | Rice biophysical variables (plant height, leaf area index, chlorophyll content, biomass and crop-cutting yield) collected from 29 sample units across five growth stages. |
+| **Statistical rice yield data** | Dataset | Office of Agricultural Economics (OAE) | 2024 yield statistics used to validate model accuracy. |
+| **Rice area map** | Dataset | Office of Agricultural Economics (OAE) | 2025 rice-growing areas interpreted from Sentinel-2, used to mask the yield model outputs. |
+| **Administrative boundaries** | Dataset | Land Development Department (LDD), Thailand | 2013 boundaries used to aggregate yield results at district and provincial level. |
+| **[EO Dashboard](https://eodashboard.org)** | Platform / Web Tool | ESA, NASA, JAXA | Hosts the interactive map tour of Suphan Buri and the ALOS-2 PALSAR-2 growth-stage composites. |
+
+
+###  References
 * FAO, FAO cereal supply and demand brief: An Update, Committee on commodity problems, seventy-sixth session, Rome, 11 – 13 September 2024, August 2024,https://openknowledge.fao.org/server/api/core/bitstreams/8b3da396-2d9e-4db6-88ed-a059263e4853/content
 * Jordan, C. F. (1969). Derivation of leaf‐area index from quality of light on the forest floor. Ecology, 50(4), 663-666.
 * Liang, S., Li, X., & Wang, J. (2012). Fraction of absorbed photosynthetically active radiation by green vegetation. Advanced Remote Sensing: Terrestrial Information Extraction and Applications; Elsevier Inc.: Oxford, UK, 383-414.
@@ -179,3 +187,26 @@ Finally, further research should evaluate different speckle-filtering methods. A
 * Sah, S., Haldar, D., Singh, R. N., Das, B., & Nain, A. S. (2024). Rice yield prediction through integration of biophysical parameters with SAR and optical remote sensing data using machine learning models. Scientific reports, 14(1), 21674.
 * Tiwari, S. K., Prasada Rao, G., & Sundar, B. (2023). Assessment of Vegetation Dynamics of Paddy Crop Using “TIMESAT” and Remote Sensing and GIS Techniques in Command Areas. In Advances in Water Resource Planning and Sustainability (pp. 23-37). Singapore: Springer Nature Singapore.
 * Tucker, Compton, J. (1979) Red and photographic infrared linear combinations for monitoring vegetation, Remote Sensing of Environment, 8, 127-150.
+
+
+### Image and Visualisation Credits
+
+**Cover image:** Rice cultivation in Thailand. Credit: <a href="https://www.dreamstime.com/royalty-free-stock-image-rice-field-image6911486">6911486</a> @ <a href="https://www.dreamstime.com/komashyaru_info">Rayisa Nalivayko</a> | <a href="https://www.dreamstime.com/">Dreamstime.com</a>
+
+**Figure 1:** Thailand’s rice export value from 2015 to early 2026 (THB billion). Chart provided in the study materials from national statistical data.
+
+**Figure 2:** Study area map of Suphan Buri Province, Central Thailand. Map is original to the study team.
+
+**Figure 3:** Ground-truth data collection in the Suphan Buri study area. Field survey photographs and illustrations is original to the study team. 
+
+**Figure 4:** Illustration of the Advanced Land Observing Satellite-2 (ALOS-2, DAICHI-2). Satellite mission: Japan Aerospace Exploration Agency (JAXA). Original illustration source and image rights to be confirmed. [JAXA ALOS-2](https://global.jaxa.jp/projects/sat/alos2/).
+
+**Figure 5:** Conceptual framework for rice yield estimation integrating satellite observations, UAV imagery, field measurements, and statistical modelling are original to the study team.
+
+**Figure 6:** Spatial rice yield estimation using total dry biomass and Sentinel-1 VV polarisation. Analytical visualisation is original to the study team.
+
+**Figure 7:** Mean Absolute Percentage Error (MAPE) for rice yield estimation in Suphan Buri Province using mean and maximum zonal statistics. Analytical visualisation is original to the study team.
+
+
+
+
