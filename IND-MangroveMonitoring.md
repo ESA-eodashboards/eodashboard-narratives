@@ -221,6 +221,24 @@ Scope Area
 18. Adhitama, S. Y., Puspitasari, D., Budiman, L. S., & Musthofa, A. (2025). Exploring Dynamics and Effective Strategies for Tidal Flood Risk Reduction in Indonesia's Coastal Cities. ASEAN Journal on Science and Technology for Development, 42(2), 6.
 19. Arifanti, V. B., Kauffman, J. B., Subarno, Ilman, M., Tosiani, A., & Novita, N. (2022). Contributions of mangrove conservation and restoration to climate change mitigation in Indonesia. Global Change Biology, 28(15), 4523–4538.
 
- 
+### Image and Visualisation Credits
+
+**Header and Cover image:** Mangrove coastal ecosystem in Indonesia. Credit: Yustisinus Jah,2024
+
+**Figure 1:** Total mangrove loss in Indonesia (2009–2019). Chart reproduced from Arifanti, V. B., Kauffman, J. B., Subarno, Ilman, M., Tosiani, A., & Novita, N. (2022). Contributions of mangrove conservation and restoration to climate change mitigation in Indonesia. Global Change Biology, 28(15), 4523–4538..
+
+**Figures 2 and 5:** Study area maps of Kuala Selat (Riau) and Pangpang Bay (East Java). Maps are orignial to the Indonesian ALOS-2 Ideathon study team. 
+
+**Figures 3 and 6:** Aerial photograph of coastal erosion in Kuala Selat and ground-level fisheye photograph of mangrove biodiversity in Pangpang Bay provided by the Indonesian ALOS-2 Ideathon study team
+
+**Figure 4:** Illustration of the Advanced Land Observing Satellite-2 (ALOS-2, DAICHI-2). Satellite information: Japan Aerospace Exploration Agency (JAXA). Original illustration source and image rights to be confirmed. [JAXA ALOS-2 mission page](https://global.jaxa.jp/projects/sat/alos2/).
+
+**Figure 7:** General and technical methodology workflow diagrams illustrating the integration of SAR and optical imagery for mangrove classification. Diagrams are orignial to the Indonesian ALOS-2 Ideathon study team.
+
+**Figures 8–10:** SAR backscatter reclassification maps, Sentinel-2 Mangrove Vegetation Index (MVI), and mangrove classification results for Kuala Selat and Pangpang Bay (2021 and 2024). Visualisations are orignial to the Indonesian ALOS-2 Ideathon study team.
+
+**Figure 11:** Mangrove area comparison chart for Kuala Selat and Pangpang Bay (2021 and 2024). Visualisation provided by the Indonesian ALOS-2 Ideathon study team.
+
+
 
 
