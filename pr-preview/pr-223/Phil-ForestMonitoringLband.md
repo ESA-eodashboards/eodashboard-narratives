@@ -18,7 +18,9 @@ collections: collectionIdentifier1, collectionIdentifier2
 
 </div> 
 
-## Introduction
+##  <!--{ nav="false"}-->
+#### Introduction
+<!--{nav="false" style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
 This story is based on results from the **[ALOS-2 Ideathon: Bridging Space Data and Societal Need in Feb. 2025](https://philsa.gov.ph/news/philsa-jaxa-host-alos-2-ideathon-workshop-to-tackle-environmental-social-challenges/)**, organized by the Japan Aerospace Exploration Agency (JAXA), Philippine Space Agency (PhilSA), Keio University, Remote Sensing Technology Center of Japan (RESTEC), and University of the Philippines Department of Geodetic Engineering (UP-DGE). 
 <p align="center">
   <img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/2d25ca89ebc5fd3f1dbf204779815d5946de4496/Jaxa_logo.svg" height="50" style="margin: 0 0px;"/>
@@ -59,7 +61,7 @@ Two ALOS-2 measurements matter here:
 We give changes in decibels (dB): a change of 1 dB is about a 26% change in the energy that returns to the satellite.
 If L-band senses structure, it might see a clearing, or even the first cuts under the canopy, before the other satellites do. That would make it an early warning. We tested this idea with one question: When forest is cleared in Davao de Oro, when does each satellite detect it, and what does L-band add?
 
-## Objectives <!--{ style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
+## Objective <!--{ style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
 
 ##### Main Objective
 
@@ -71,7 +73,7 @@ Find out when JAXA's ALOS-2 L-band radar detects forest clearing in Davao de Oro
 - Measure how often ALOS-2 detects a clearing, next to how often it makes false detections in undisturbed forest.
 - Map L-band forest change across the province, and compare it with the Landsat and Sentinel-1 records.
 
-## Case Study <!--{ as="eox-map" mode="tour" }-->
+## Use case  <!--{ as="eox-map" mode="tour" }-->
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[126.02,7.55] zoom="10" animationOptions="{duration:500}" }-->
 ##### Davao de Oro 
@@ -108,21 +110,8 @@ The 2020 HV composite. This is the comparison the change-detection approach is b
 #### Canopy Structure, Five Years Later (2024, HV)
 The 2024 HV composite, the key comparison against the 2019 baseline. Forest cleared between 2019 and 2024 should appear as areas that are clearly darker here than in the baseline, since the canopy that produced the volume scattering is gone. Regrowth or new tree plantations can partly restore the HV signal over time, so older clearings may look less pronounced than recent ones. 
 
-## Methodology Workflow & Data
+## Data and Methods
 
-#### Data Used
-
-| Dataset | Agency / provider | Resolution | Period | Use in this story |
-| --- | --- | --- | --- | --- |
-| ALOS-2 PALSAR-2 ScanSAR Level 2.2 (HH, HV) | JAXA | 25 m, every ~42 days | 2014–present | L-band time series at each clearing and control area |
-| ALOS-2 PALSAR-2 yearly mosaics (HH, HV) | JAXA | 25 m, yearly | 2015–2024 | L-band change across the province |
-| JJ-FAST deforestation alerts | JICA–JAXA, from ALOS-2 ScanSAR | alerts of ~2 ha and more, every ~42 days | Sep 2018–Mar 2024 | The operational L-band alert |
-| Global Forest Change v1.11 / v1.12 (Hansen et al.) | Univ. of Maryland, from NASA/USGS Landsat | 30 m, yearly | 2001–2023 / 2001–2024 | Forest in 2000; Landsat loss year |
-| RADD forest-disturbance alerts | Wageningen University, from ESA Copernicus Sentinel-1 | 10 m, weekly | 2020–present | Date of the first C-band alert |
-| Sentinel-2 L1C with Cloud Score+ | ESA Copernicus; Google | 10 m, every ~5 days | 2016–2024 | Sentinel-2 date of each clearing |
-| AW3D30 digital surface model v3.2 | JAXA | 30 m | static | Removing slopes steeper than 30° |
-
-### Methodology
 We worked at two scales, in three steps (Figure 3), with Google Earth Engine and Python.
 
 1. **Date each clearing.** We followed the greenness (NDVI) of each clearing compared with the forest around it. The clearing happened between the last cloud-free Sentinel-2 image that still showed forest and the first that showed it cleared. We call that first cleared image the Sentinel-2 date. We also recorded the first RADD alert, the Landsat loss year and any JJ-FAST alert.
@@ -219,30 +208,46 @@ This agrees with work elsewhere in the tropics: combined radar and optical alert
 
 Since November 2022, JAXA has released ALOS-2 ScanSAR data free of charge (JAXA, 2022). That is what made this study possible for a national team. The same open data, code and design, with clearings and control areas tested side by side, can be applied to other cloudy, forested provinces in Southeast Asia and the wider Asia-Pacific.
 
+## Conclusions 
 ### What we cannot claim yet
 
 - that ALOS-2 warns earlier: early detections were rare, and no more frequent than chance;
 - reliable detection of clearings under about 1 ha;
 - that the L-band-only change, or JJ-FAST's unconfirmed alerts, are real degradation, until someone checks them on the ground or in imagery.
 
-## Limitations
+### Limitations
 
 - **Clearings chosen by other satellites.** RADD and Landsat chose the 40 clearings. This is a fair test of timing but it favors clearings that optical and C-band sensors detect well, and it cannot show what L-band detects but others miss.
 - **No field records.** All reference dates come from satellites. At 7 of the 40 clearings, Sentinel-2 dated a change more than a year after RADD, probably a later event at the same place.
 - **Small and steep clearings.** At 25 m, ALOS-2 resolves clearings of about 1 ha and more. Slopes over 30° were removed, so some steep mining slopes are not assessed.
 
-## Future Work
+### Future Work
 
 - **Check what only L-band sees.** For more robust results, it would be good to look at the 65 unconfirmed JJ-FAST alerts, and identified L-band-only areas, using high-resolution imagery and using field validation.
 - **Test on documented encroachment sites with field records.** This research focused on sites identified using satellites on documented forest encroachment areas. Using field records would provide ground validation and also provide information on whether the actual encroachment cases could have been detected using L-band or other remote sensing imagery earlier.
 - **Build on ALOS-4 and NISAR.** JAXA's ALOS-4 has a much wider swath and coupled with NISAR, would open the way to an L-band layer which could complement the CopPhil forest monitoring service.
 - **Work with the JJ-FAST team.** Explore how JJ-FAST's low false-alert design and the averaging approach could work together for small clearings in Southeast Asia.
 
-## Acknowledgment
+## Open Science
+
+| **Name** | **Type** | **Agency / Provider** | **Description / Usage** |
+| --- | --- | --- | --- |
+| **[ALOS-2 PALSAR-2 ScanSAR Level 2.2](https://www.eorc.jaxa.jp/ALOS/en/dataset/palsar2_l22_e.htm)** | Dataset | JAXA | 25 m L-band SAR data (HH, HV), every ~42 days from 2014 to present. Used for the L-band time series at each clearing and control area. |
+| **[Global PALSAR-2/PALSAR Yearly Mosaic on Google Earth Engine](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR_YEARLY_SAR_EPOCH)** | Dataset / Data Access Platform | JAXA EORC / Google Earth Engine | 25 m yearly mosaics (HH, HV), 2015–2024. Used to map L-band forest change across the province, and source of the 2019, 2020 and 2024 HV mosaics shown in the story's map tour. |
+| **[JJ-FAST deforestation alerts](https://www.eorc.jaxa.jp/jjfast/)** | Dataset | JICA–JAXA, from ALOS-2 ScanSAR | Operational L-band alerts of ~2 ha and more, every ~42 days (Sep 2018–Mar 2024). |
+| **[Global Forest Change v1.11 / v1.12](https://glad.earthengine.app/view/global-forest-change)** | Dataset | University of Maryland, from NASA/USGS Landsat | 30 m yearly forest loss (2001–2023 / 2001–2024), Hansen et al. Used for forest extent in 2000 and the Landsat loss year. |
+| **[RADD forest-disturbance alerts](https://www.globalforestwatch.org)** | Dataset | Wageningen University, from ESA Copernicus Sentinel-1 | 10 m weekly C-band alerts (2020–present). Used for the date of the first C-band alert. |
+| **[Sentinel-2 L1C](https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2)** | Dataset | ESA / Copernicus | 10 m optical imagery, every ~5 days (2016–2024). Used to date each clearing from NDVI. |
+| **[Cloud Score+](https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_CLOUD_SCORE_PLUS_V1_S2_HARMONIZED)** | Dataset | Google | Cloud masking for the Sentinel-2 time series. |
+| **[AW3D30 v3.2](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_AW3D30_V3_2)** | Dataset | JAXA | 30 m digital surface model, used to remove slopes steeper than 30°. |
+| **[Philippines administrative boundaries (COD-AB)](https://data.humdata.org/dataset/cod-ab-phl)** | Dataset | OCHA & PSA-NAMRIA | Subnational boundaries used to delimit Davao de Oro province. |
+| **[EO Dashboard](https://eodashboard.org)** | Platform / Web Tool | ESA, NASA, JAXA | Hosts the interactive map tour of Davao de Oro and the ALOS-2 PALSAR-2 HV mosaics. |
+
+### <!--{ nav="false"}--> Acknowledgment
 
 We thank the Japan Aerospace Exploration Agency (JAXA) for ALOS-2 PALSAR-2 data. PhilSA, UP Department of Geodetic Engineering, Keio University, and RESTEC for  organizing the ALOS-2 Ideathon. We also acknowledge Department of Environment and Natural Resources Forest Management Bureau (DENR-FMB) for its participation in the ALOS-2 Ideathon last February 2025.JICA and JAXA for making the JJ-FAST alerts openly available. We also thank ESA and the Copernicus programme (Sentinel-1, Sentinel-2), NASA and USGS (Landsat), the University of Maryland (Global Forest Change) and Wageningen University (RADD alerts) for making this possible.
 
-## References
+### <!--{ nav="false"}-->  References
 
 - Balling, J., Slagter, B., van der Woude, S., Herold, M., & Reiche, J. (2024). ALOS-2 PALSAR-2 ScanSAR and Sentinel-1 data for timely tropical forest disturbance mapping: A case study for Sumatra, Indonesia. International Journal of Applied Earth Observation and Geoinformation, 132, 103994. https://doi.org/10.1016/j.jag.2024.103994
 - European Space Agency. (n.d.). Copernicus Sentinel-1 and Sentinel-2 [Satellite imagery]. Copernicus Data Space Ecosystem. https://dataspace.copernicus.eu
