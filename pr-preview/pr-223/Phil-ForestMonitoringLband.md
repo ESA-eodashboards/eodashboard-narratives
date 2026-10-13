@@ -21,7 +21,7 @@ collections: collectionIdentifier1, collectionIdentifier2
 ##  <!--{ nav="false"}-->
 #### Introduction
 <!--{nav="false" style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
-This story is based on results from the **[ALOS-2 Ideathon: Bridging Space Data and Societal Need in Feb. 2025](https://philsa.gov.ph/news/philsa-jaxa-host-alos-2-ideathon-workshop-to-tackle-environmental-social-challenges/)**, organized by the Japan Aerospace Exploration Agency (JAXA), Philippine Space Agency (PhilSA), Keio University, Remote Sensing Technology Center of Japan (RESTEC), and University of the Philippines Department of Geodetic Engineering (UP-DGE). 
+This story is based on results from the **[ALOS-2 Ideathon: Bridging Space Data and Societal Needs in Feb. 2025](https://philsa.gov.ph/news/philsa-jaxa-host-alos-2-ideathon-workshop-to-tackle-environmental-social-challenges/)**, organized by the Japan Aerospace Exploration Agency (JAXA), Philippine Space Agency (PhilSA), Keio University, Remote Sensing Technology Center of Japan (RESTEC), and University of the Philippines Department of Geodetic Engineering (UP-DGE). 
 <p align="center">
   <img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/2d25ca89ebc5fd3f1dbf204779815d5946de4496/Jaxa_logo.svg" height="50" style="margin: 0 0px;"/>
   <img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/70e744b7293ec8103be20b1c8cde68caf8508c48/Philippine_Space_Agency_(PhilSA).svg" height="50" style="margin: 0 0px;"/>
@@ -30,7 +30,7 @@ This story is based on results from the **[ALOS-2 Ideathon: Bridging Space Data 
   <img src="https://upload.wikimedia.org/wikipedia/en/3/3d/University_of_The_Philippines_seal.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" height="70" style="margin: 0 0px;"/>
 </p>
 
-The study, dedicated to assessimg **Forest Clearing in Mindanao with L-band Radar** developed by participants from the following organizations:
+The study, dedicated to assessing **Forest Clearing in Mindanao with L-band Radar** developed by participants from the following organizations:
 <p align="center">
   <img src="https://github.com/phkh1366/eoxhub-related/blob/main/logos_strip.png?raw=true" height="50" style="margin: 0 0px;"/>
 </p>
@@ -111,14 +111,13 @@ The 2020 HV composite. This is the comparison the change-detection approach is b
 The 2024 HV composite, the key comparison against the 2019 baseline. Forest cleared between 2019 and 2024 should appear as areas that are clearly darker here than in the baseline, since the canopy that produced the volume scattering is gone. Regrowth or new tree plantations can partly restore the HV signal over time, so older clearings may look less pronounced than recent ones. 
 
 ## Data and Methods
-
 We worked at two scales, in three steps (Figure 3), with Google Earth Engine and Python.
 
 1. **Date each clearing.** We followed the greenness (NDVI) of each clearing compared with the forest around it. The clearing happened between the last cloud-free Sentinel-2 image that still showed forest and the first that showed it cleared. We call that first cleared image the Sentinel-2 date. We also recorded the first RADD alert, the Landsat loss year and any JJ-FAST alert.
 2. **Test ALOS-2 at each clearing and its control areas.** We followed the L-band signal in every ALOS-2 ScanSAR image since 2014. Each clearing has its own normal level, learned from a three-year period that ends a year before it was cut. We tested single images, and six-month averages that a second average three months later must confirm. The same test ran on the control areas, so any detection there is a false detection.
 3. **Map the whole province.** In the yearly ALOS-2 mosaics, we compared every forest pixel with the forest around it, and marked pixels whose signal changed by more than three times the normal year-to-year variation, two years in a row. We compared them with Landsat, RADD and control forest.
 
-All detection rules were fixed before we looked at the control results. The technical appendix gives full details.
+All detection rules were fixed before we looked at the control results. 
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;">
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/Phi_fig2_workflow.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;" />
@@ -128,7 +127,6 @@ All detection rules were fixed before we looked at the control results. The tech
 ## Results
 
 ### Key Findings
-
 Clearing S31 is a 3-hectare opening near Mt. Diwata (126.124°E, 7.896°N), among small farms and dirt roads. All four satellites saw it, but not at the same time (Figure 4).
 
 - **Sentinel-2** saw forest on 14 January 2020 and a clearing on 27 January.
@@ -159,7 +157,7 @@ Across all 40 clearings, each tested next to two control areas (80 in total):
 - **RADD is usually first.** It alerted a median of 29 days before the Sentinel-2 date. Sentinel-2 dated 35 of the 40 clearings, and Landsat agreed on the year for 27 of those 35.
 - **ALOS-2 is slower, but finds most clearings.** The six-month test detected 29 of 40 clearings (72%), a median of 255 days after RADD. It also made false detections at 10 of 80 control areas (12%). Single images found only 3.
 - **Early detections are rare.** At three clearings, ALOS-2 came before both RADD and Sentinel-2. That is about as many as the false-detection rate would produce by chance.
-- **The L-band change lasts.** Lined up on the day Sentinel-2 last saw forest (Figure 5), clearings look like undisturbed forest before the cut. Afterwards, HV drops by about 0.5–1 dB and HH/HV rises by about 0.5–0.9 dB, and both stay changed for at least two years. Meanwhile, 33 of 35 clearings looked green again to Sentinel-2 after a median of 110 days.
+- **The L-band change lasts.** Lined up on the day Sentinel-2 last saw forest (Figure 6), clearings look like undisturbed forest before the cut. Afterwards, HV drops by about 0.5–1 dB and HH/HV rises by about 0.5–0.9 dB, and both stay changed for at least two years. Meanwhile, 33 of 35 clearings looked green again to Sentinel-2 after a median of 110 days.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;">
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/Phil_fig5_lband_signal.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;" />
@@ -182,7 +180,7 @@ So we turned the roles around and let JJ-FAST choose 76 clearings. In the table,
 - **Many of its alerts have no optical match.** Across the province, 65 JJ-FAST alerts lie in forest where neither Landsat nor RADD recorded loss. They may be degradation under the canopy that optical sensors cannot see, clearings too small for Landsat, or false alerts. We have not yet checked them.
 - **When Sentinel-2 confirms the clearing, JJ-FAST is close behind:** a median of 41 days after the Sentinel-2 date, at those 11 clearings.
 
-The yearly ALOS-2 mosaics tell the same story at a coarser scale (Figure 6):
+The yearly ALOS-2 mosaics tell the same story at a coarser scale (Figure 7):
 
 - **A real signal, at a low false-detection rate.** ALOS-2 marked 7.7% of the forest that Landsat mapped as lost in 2017–2023 but only 0.5% of control forest. A lost pixel is about 15 times more likely to be marked than undisturbed forest.
 - **Bigger clearings are easier to see:** 5.3% of the loss in areas under 0.5 ha, and 9.6% in areas over 2 ha.
@@ -245,7 +243,7 @@ Since November 2022, JAXA has released ALOS-2 ScanSAR data free of charge (JAXA,
 
 ### <!--{ nav="false"}--> Acknowledgment
 
-We thank the Japan Aerospace Exploration Agency (JAXA) for ALOS-2 PALSAR-2 data. PhilSA, UP Department of Geodetic Engineering, Keio University, and RESTEC for  organizing the ALOS-2 Ideathon. We also acknowledge Department of Environment and Natural Resources Forest Management Bureau (DENR-FMB) for its participation in the ALOS-2 Ideathon last February 2025.JICA and JAXA for making the JJ-FAST alerts openly available. We also thank ESA and the Copernicus programme (Sentinel-1, Sentinel-2), NASA and USGS (Landsat), the University of Maryland (Global Forest Change) and Wageningen University (RADD alerts) for making this possible.
+We thank the Japan Aerospace Exploration Agency (JAXA) for ALOS-2 PALSAR-2 data. PhilSA, UP Department of Geodetic Engineering, Keio University, and RESTEC for  organizing the ALOS-2 Ideathon. We also acknowledge Department of Environment and Natural Resources Forest Management Bureau (DENR-FMB) for its participation in the ALOS-2 Ideathon last February 2025. JICA and JAXA for making the JJ-FAST alerts openly available. We also thank ESA and the Copernicus programme (Sentinel-1, Sentinel-2), NASA and USGS (Landsat), the University of Maryland (Global Forest Change) and Wageningen University (RADD alerts) for making this possible.
 
 ### <!--{ nav="false"}-->  References
 
@@ -267,4 +265,11 @@ We thank the Japan Aerospace Exploration Agency (JAXA) for ALOS-2 PALSAR-2 data.
 - United Nations Framework Convention on Climate Change. (2022). Philippine forest reference level.
 - U.S. Geological Survey. (n.d.). Landsat 8–9 OLI/TIRS [Satellite imagery]. Earth Resources Observation and Science Center. https://www.usgs.gov/landsat-missions
 - Watanabe, M., Koyama, C. N., Hayashi, M., Nagatani, I., Tadono, T., & Shimada, M. (2021). Refined algorithm for forest early warning system with ALOS-2/PALSAR-2 ScanSAR data in tropical forest regions. Remote Sensing of Environment, 265, 112643. https://doi.org/10.1016/j.rse.2021.112643
+
+### Image and Visualisation Credits
+**Header and Cover image:** ALOS-2 PALSAR-2 HV composite visualisation illustrating forest cover and structural variations in Davao de Oro, Mindanao, Philippines. Original to the story team. 
+
+**Figure 1:** Study area map of Davao de Oro Province map is original to the study team. 
+
+**Figure 2:** Illustration of the Advanced Land Observing Satellite-2 (ALOS-2, DAICHI-2). Image attributed in the story to the Japan Aerospace Exploration Agency (JAXA). Original illustration source and reuse permissions should be confirmed. [JAXA ALOS-2 mission page](https://global.jaxa.jp/projects/sat/alos2/).
 
