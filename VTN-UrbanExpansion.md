@@ -191,31 +191,22 @@ The maps show that built-up areas expanded from the established urban core towar
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN-Spatial%20Expansion.jpg?raw=true" style="max-width: 100%; width: 400px; height: auto;"  /> 
 <p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [8].</b> Spatial expansion of built-up areas in Hanoi from 2015 to 2025.</p> 
 </div>
-</div>
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/7-Rate.jpg?raw=true" style="max-width: 100%; width: 600px; height: auto;"  /> 
 <p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [9].</b> Spatial distribution of the Urbanization Ratio and Annual Growth Rate in Hanoi from 2015 to 2025 </p> 
 </div>
 
 
-**What do the results tell us?**
+## Conclusions
 Hanoi's urbanization is spatially uneven. Higher urbanization and growth are concentrated around the established urban area and major development corridors, while less-developed areas retain larger proportions of agricultural and vegetated land. Urbanization Ratio indicates the proportion of built-up surfaces, while Annual Growth Rate highlights areas experiencing faster expansion.
-
 Classification reliability should be reported together with the maps using the available validation results, such as Overall Accuracy (OA), Kappa, and class-wise accuracy. No values are added here because the current Dashboard draft does not provide them.
 The spatial increase in impervious surfaces provides an additional indication of urban intensification. Together, the LULC maps and urbanization indicators show not only how much Hanoi has changed, but also where development has been concentrated.
-<!--{ style="font-size:1rem;opacity:1; margin-top:0px; margin-bottom:0px; margin-left:50px" }-->
-
-## Conclusions
 
 #### Limitations
-Despite the systematic approach employed in this study, several limitations should be acknowledged. First, the dependency on cloud-masking techniques for optical datasets (Landsat/Sentinel-2) may hinder data acquisition during the rainy season. Second, the 25m spatial resolution of ALOS-2 SAR data limits the capacity for detailed urban mapping at a micro-scale. Third, the validation process is contingent upon the availability of field survey data and high-resolution imagery. Additionally, the six-class LULC classification system may lack the granularity required to distinguish specific urban land-use types, such as residential, industrial, and commercial zones. Furthermore, this study does not yet integrate socio-economic datasets to provide a comprehensive analysis of the drivers of urbanization. Finally, the research scope is geographically limited to Hanoi and has not yet been extended to other urban centers.
+Several limitations should be considered. First, optical observations can be affected by clouds, particularly during the rainy season. Second, the 25 m spatial resolution of ALOS-2 PALSAR-2 limits very detailed urban mapping. Third, validation depends on the availability of high-resolution imagery and field observations. Finally, the six-class LULC scheme does not distinguish detailed urban functions such as residential, commercial, and industrial areas.
 
 #### Future Development
-To enhance the scope and impact of this study, future research will focus on several key directions. We plan to:  
-
-- **1:** Expand the geographical coverage by applying our methodology to other major Vietnamese cities, such as Ho Chi Minh City, Da Nang, and Hai Phong. 
-- **2:**  Enrich our monitoring indices by incorporating water quality assessment, the Green Space Index, and population density tracking. 
-
+Future development will focus on three directions: (1) Expand — apply the monitoring framework to other major Vietnamese cities; (2) Integrate — combine urban expansion with green-space, water-quality, population, and air-quality indicators; and (3) Operationalize — develop an interactive EO dashboard with time-series visualization, cross-city comparison, and planning-oriented indicators.
 
 ## Open Science
 
