@@ -8,13 +8,12 @@ collections: collectionIdentifier1, collectionIdentifier2
 ---
 
 # Urbanization monitoring from EO data <!--{ as="img" mode="hero" src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN1-Story-header-.png?raw=true"}--> 
-#### Authors: Nguyen Manh HUNG¹, Dang Do Nam PHUONG², Tong Thi Huyen AI¹, Nguyen Huu CHUYEN³ <!--{ style="font-size:1.0rem;opacity:0.7;margin-top:1rem; color:Yellow" }-->
+#### Authors: Nguyen Manh HUNG¹, Dang Do Nam PHUONG¹, Tong Thi Huyen AI¹, Nguyen Huu CHUYEN² <!--{ style="font-size:1.0rem;opacity:0.7;margin-top:1rem; color:Yellow" }-->
 
 <div style="text-align:left; font-size:0.95rem; opacity:0.85; margin-top:1rem; color:Yellow;">
 
 ¹ [Vietnam National Space Center, Vietnam Academy of Science and Technology]<br>
-² [Vietnam National University, Hanoi]<br>
-³ [Department of National Remote Sensing, Ministry of Agriculture and Environment] 
+² [Department of National Remote Sensing, Ministry of Agriculture and Environment] 
 
 </div> 
 
@@ -33,50 +32,42 @@ The study, dedicated to **Urbanization monitoring from EO data**, was developed 
 <p align="center">
   <img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/2d25ca89ebc5fd3f1dbf204779815d5946de4496/Jaxa_logo.svg" height="50" style="margin: 0 0px;"/>
   <img src="https://github.com/phkh1366/eoxhub-related/blob/main/logo-VNSC-moi.png?raw=true" height="50" style="margin: 0 0px;"/>
-  <img src="https://github.com/phkh1366/eoxhub-related/blob/main/vietnam-national-university-logo-png_seeklogo-514017.png?raw=true" height="50" style="margin: 0 0px;"/>
   <img src="https://github.com/phkh1366/eoxhub-related/blob/main/VTNlogo.png?raw=true" height="40" style="margin: 0 0px;"/>
 </p>
 
 
 ## Challenge <!--{ style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
-Rapid urbanization is one of the major environmental and social challenges facing many countries today. In Asia and Africa, where most global urban expansion is taking place, cities are growing quickly and placing increasing pressure on land, infrastructure, natural resources, and communities.
+### Rapid Urbanization and Sustainable Urban Development<!--{ style="font-size:1.50rem;opacity:1;margin-top:1rem; color:Navy" }-->
 
-In Vietnam, cities such as Hanoi are expanding rapidly through outward growth, new satellite urban areas, and changes in administrative boundaries. This process can lead to the loss of green spaces, more impervious surfaces, stronger Urban Heat Island effects, water quality issues, and pressure on biodiversity. At the same time, government agencies, planners, NGOs, and local communities need reliable and up-to-date spatial information to better understand these changes and support sustainable urban development.
+Rapid urbanization in Vietnam, particularly in Hanoi, is driving significant land use changes, loss of green spaces, increasing impervious surfaces, and environmental challenges such as the Urban Heat Island (UHI) effect. However, fragmented and outdated spatial data make it difficult to monitor urban expansion, especially in peri-urban areas, and assess its environmental impacts.
 
-#### Problem Statement <!--{ style="font-size:2.0rem;opacity:1;margin-top:1rem; color:Navy" }-->
-This study addresses the lack of timely and consistent spatial information on urban expansion in rapidly growing Vietnamese cities, especially Hanoi. Current data are often fragmented, outdated, or not updated frequently enough to support effective planning.
+The lack of a **systematic, continuous satellite-based monitoring system** limits evidence-based urban planning, sustainable land management, and progress toward the Sustainable Development Goals (SDGs). **Timely and reliable Earth Observation (EO) data are essential** to bridge this information gap and support informed decision-making for sustainable urban development.
 
-As a result, it is difficult to monitor how fast cities are expanding, which land use types are being converted, and how urban growth is affecting peri-urban areas. This project uses Earth observation data to monitor urban growth, detect land use changes, and provide practical information for sustainable planning and decision-making.
-
-###### Current limitations: <!--{ style="font-size:1.50rem;opacity:0.7;margin-top:1rem; color:Navy" }-->
-At present, there is no continuous and synchronized satellite-based monitoring system for tracking urban sprawl and land use change in major Vietnamese cities. Existing data are often scattered across different sources and are not always easy to combine or use.
-
-There is also a gap between scientific analysis and policy action. Even when satellite data are available, they are not always translated into clear and practical information for planners, policymakers, NGOs, or communities. A more systematic EO-based monitoring approach can help bridge this gap and support evidence-based urban governance.
 
 ## Objective <!--{ style="font-size:1.5rem;opacity:1;margin-top:1rem; color:Navy" }-->
 **Primary Objective:** 
-To monitor **urbanization trends and urban area dynamics** in Hanoi using Earth Observation (EO) data through satellite image analysis and remote sensing techniques. Accordingly the specific Objectives are: <!--{ style="font-size:1rem;opacity:1; margin-top:0px; margin-bottom:0px; color:blue" }-->
+To **monitor and quantify urbanization and land-cover changes in Hanoi using multi-temporal Earth Observation data from 2015 to 2025**.Accordingly the specific Objectives are: <!--{ style="font-size:1rem;opacity:1; margin-top:0px; margin-bottom:0px; color:blue" }-->
+- **Objective 1**: Map land cover — Generate LULC maps for 2015, 2020, and 2025 using multi-source satellite data.
+- **Objective 2**: Detect urban expansion — Identify where built-up areas expanded and how urban growth patterns changed over the 10-year period.
+- **Objective 3**: Quantify urbanization — Measure changes using built-up area, Urbanization Ratio (UR), Impervious Surface Index (ISI), and Annual Growth Rate (AGR).
+- **Objective 4**: Support urban planning — Provide spatial evidence for monitoring development and guiding sustainable urban planning.
 
-- **Objective 1:** Monitoring Urban Expansion – To track the growth and sprawl of urban areas over time (2015–2025). <!--{ style="font-size:1rem;opacity:1; margin-top:0px; margin-bottom:0px; color:blue" }-->
-- **Objective 2:** Assessing Land Use Dynamics – To develop detailed Land Use/Land Cover (LULC) maps with six classification categories: Built-up Land, Barren Land, Water Bodies, Forest, Agriculture, and Others. <!--{ style="font-size:1rem;opacity:1; color:blue"; margin-top:0px; margin-bottom:0px; }-->
-- **Objective 3:** Mapping Urban Growth Patterns – To generate spatial maps illustrating the direction and extent of urban changes. <!--{ style="font-size:1rem;opacity:1; color:blue" }-->
-- **Objective 4:** Quantifying Urbanization Trends – To measure the rate of urban expansion and spatial patterns using indices such as the Impervious Surface Index (ISI), Urbanization Ratio (UR), and Annual Growth Rate (AGR). <!--{ style="font-size:1rem;opacity:1; color:blue" }-->
-- **Objective 5:** Supporting Sustainable Planning – To provide planning-relevant information for assessing development trends and guiding future zoning strategies. <!--{ style="font-size:1rem;opacity:1; color:blue" }--> 
+The four objectives above define the main analytical and planning-oriented outputs of the study.
+
 
 ## Use case <!--{ as="eox-map" mode="tour" }-->
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[105.85,21.03] zoom="13" animationOptions="{duration:500}" }-->
 
 ##### Hanoi 
-Hanoi serves as the primary political, economic, and cultural hub of Vietnam, having experienced one of the nation's most accelerated urbanization rates throughout the last twenty years.
+Hanoi serves as the primary political, economic, and cultural hub of Vietnam, having experienced one of the nation's most accelerated urbanization rates throughout the last twenty years. Geographically situated within the Red River Delta, the city encompasses approximately 3,360 km², positioning it as one of the most expansive capital cities in Southeast Asia in terms of land area.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
-<img src="https://github.com/phkh1366/eoxhub-related/blob/main/1-Hanoi-CaseStudy.jpg?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN-fig1-AoI.jpg?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
 <p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [1].</b> Study area </p> 
 </div>
 
-Geographically situated within the Red River Delta, the city encompasses approximately 3,360 km², positioning it as one of the most expansive capital cities in Southeast Asia in terms of land area. Recent census data from 2024 indicates a population of nearly 8.7 million, ranking Hanoi as Vietnam’s second-largest city by population density. 
-The city's urban footprint has been steadily pushing outward into suburban districts, including Gia Lam, Long Bien, Ha Dong, Hoang Mai, Soc Son, and Dong Anh. This rapid physical growth is driven by the extensive development of transportation networks, modern residential zones, and industrial clusters. Such profound modifications to land use and natural topography have placed considerable strain on local natural resources and the quality of the urban environment.
+ Recent census data from 2024 indicates a population of nearly 8.7 million, Hanoi is one of Vietnam's largest cities by population.  The city's urban footprint has been steadily pushing outward into suburban districts, including Gia Lam, Long Bien, Ha Dong, Hoang Mai, Soc Son, and Dong Anh. This rapid physical growth is driven by the extensive development of transportation networks, modern residential zones, and industrial clusters. Such profound modifications to land use and natural topography have placed considerable strain on local natural resources and the quality of the urban environment. Consequently, leveraging Earth Observation (EO) technologies for the systematic monitoring and quantification of Hanoi's urban sprawl has become a critical requirement for evidence-based sustainable planning and efficient territorial management.  
 
 ### <!--{ as="eox-map" mode="tour" nav="false" }-->
 
@@ -147,7 +138,11 @@ Peri-urban districts, Hoang Mai, Long Bien, Dong Anh, show denser built-up retur
 ## Data and Methods
 The analytical workflow of this project is established upon the optimal integration of multi-sensor data sources within the Google Earth Engine (GEE) cloud computing platform, enabling high-performance processing of big geospatial data with superior precision and consistency. 
 
-
+**Sentinel-2** optical and **ALOS-2 PALSAR-2** SAR imagery provide complementary observations of Hanoi's urban landscape. Optical data capture spectral characteristics of vegetation, built-up areas, and water, whereas SAR provides information related to surface structure and roughness. Combining the two data types therefore provides richer information for land-cover mapping and urban monitoring.
+<div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN-Optical-SAR-View.png?raw=true" style="max-width: 100%; width: 1000px; height: auto;" alt="Analysis workflow" /> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 10px;"> <b>Figure [3].</b> Optical and SAR observations of Hanoi. Sentinel-2 imagery highlights spectral characteristics, while ALOS-2 PALSAR-2 imagery provides complementary information on surface and structural properties. </p> 
+</div>
 
 
 The initial phase focuses on rigorous pre-processing, encompassing atmospheric correction for optical spectral bands and advanced terrain correction for ALOS-2 PALSAR-2 Radar data to eliminate geometric and radiometric distortions.
@@ -218,7 +213,7 @@ To enhance the scope and impact of this study, future research will focus on sev
 | **[SRTM](https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003)** | Dataset | NASA | 30 m Digital Elevation Model used to support the classification. |
 | **[EO Dashboard](https://eodashboard.org)** | Platform / Web Tool | ESA, NASA, JAXA | Hosts the interactive map tours of Hanoi, its suburban districts and the ALOS-2 PALSAR-2 time series. |
 
-## References <!--{ nav="false" }-->
+### References <!--{ nav="false" }-->
 1.	Seto KC, Fragkias M, Güneralp B, Reilly MK (2011) A Meta-Analysis of Global Urban Land Expansion. PLOS ONE 6(8): e23777. https://doi.org/10.1371/journal.pone.0023777
 2.	Angel, S., Parent, J., Civco, D. L., Blei, A., & Potere, D. (2011). The dimensions of global urban expansion: Estimates and projections for all countries, 2000-2050. Progress in Planning, 75(2), 53–107. https://doi.org/10.1016/j.progress.2011.04.001.
 3.	United Nations Human Settlements Programme (UN-Habitat). (2016). World Cities Report 2016: Urbanization and Development - Emerging Futures. https://unhabitat.org/world-cities-report-2016 
