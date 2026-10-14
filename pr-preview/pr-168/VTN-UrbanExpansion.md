@@ -166,37 +166,44 @@ How does the monitoring work?
 
 
 ## Results
-By leveraging massive Earth Observation (EO) archives, this project has successfully decoded the complex narrative of Hanoi’s urban surface transformation during the strategic period of 2015–2025. The central output of this research is a high-resolution, multi-temporal Land Use and Land Cover (LULC) mapping system, which enables the precise identification of not only the location but also the directional vectors of cover type transitions.
+Hanoi experienced substantial land-cover change between 2015 and 2025. The most prominent change was the expansion of built-up areas, accompanied by changes in agriculture, vegetation, water, barren land, and other surfaces. The spatial pattern shows that urban expansion was concentrated around the existing urban core and extended outward into peri-urban areas.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 5px 0;"> 
-<img src="https://github.com/phkh1366/eoxhub-related/blob/main/3-LULC%20Maps.png?raw=true" style="max-width: 100%; width: 900px; height: auto;" alt="Analysis workflow" /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [4].</b> Land use/land cover map of Hanoi for the years. </p> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN-LULCmaps.png?raw=true" style="max-width: 100%; width: 900px; height: auto;" alt="Analysis workflow" /> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [5].</b> Land use/land cover map of Hanoi for the years. </p> 
+</div>
+
+**Key findings**: Built-up land increased from 18.1% of the study area in 2015 to 25.2% in 2020 and 32.8% in 2025, an increase of 14.7 percentage points over the decade. Agriculture remained the largest class, accounting for 38.3%, 40.2%, and 38.0% in 2015, 2020, and 2025, respectively. Barren land decreased from 7.1% to 3.9%, while the proportion of Other land decreased from 21.8% to 11.2%.
+
+
+<div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN-Chart.jpg?raw=true" style="max-width: 100%; width: 500px; height: auto;"/> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [6].</b> LChanges in the proportion of land-cover classes in Hanoi from 2015 to 2025.</p> 
 </div>
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
-<img src="https://raw.githubusercontent.com/phkh1366/eoxhub-related/d99cbbe44f92394618df91dd5708ee7f56ad1e21/4-SankeyChart.jpg" style="max-width: 100%; width: 500px; height: auto;"/> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [5].</b> Changes in the proportion of land-use and LULC classes in the study area from 2015 to 2025. </p> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN-Chart2.png?raw=true" style="max-width: 100%; width: 500px; height: auto;"  /> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [7].</b> Changes in area of different land-cover and land-use classes in the period from 2015 to 2025. </p> 
 </div>
-<div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
-<img src="https://github.com/phkh1366/eoxhub-related/blob/main/5-Chart.png?raw=true" style="max-width: 100%; width: 500px; height: auto;"  /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [6].</b> The chart shows the change in area of objects in the period from 2015 to 2025. </p> 
-</div>
-
-The models provide visual evidence of the aggressive expansion of impervious surfaces representing concrete infrastructure spreading in corridors from the historical urban core toward peri-urban areas and satellite towns. Notably, the study scientifically quantifies the rate of urbanization through the Annual Growth Rate (AGR) index, helping to isolate and identify 'hot growth phases' of infrastructure linked to transportation network expansions and industrial zones.
+The maps show that built-up areas expanded from the established urban core toward surrounding peri-urban areas and along major development corridors. The Annual Growth Rate (AGR) further highlights locations where urban expansion was more concentrated during the study period.
 
 </div>
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
-<img src="https://github.com/phkh1366/eoxhub-related/blob/main/6-UrbanExpan.png?raw=true" style="max-width: 100%; width: 400px; height: auto;"  /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [7].</b> Urban Expansion in Ha Noi city over 10 years. </p> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN-Spatial%20Expansion.jpg?raw=true" style="max-width: 100%; width: 400px; height: auto;"  /> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [8].</b> Spatial expansion of built-up areas in Hanoi from 2015 to 2025.</p> 
 </div>
-
-The surge in the Impervious Surface Index (ISI) across the urban change maps reflects more than just the scale of physical development; it highlights areas under significant micro-atmospheric pressure. These findings confirm that EO data is an irreplaceable tool for providing a holistic and accurate overview of urban dynamics, establishing a robust foundation for analyzing environmental impacts and evaluating planning efficiency. <!--{ style="font-size:1rem;opacity:1; margin-top:0px; margin-bottom:0px; margin-left:50px" }-->
-
 </div>
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/7-Rate.jpg?raw=true" style="max-width: 100%; width: 600px; height: auto;"  /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [8].</b> The distribution of Urbanization ratio and Urban growth rate in Ha Noi city over 10 years. </p> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [9].</b> Spatial distribution of the Urbanization Ratio and Annual Growth Rate in Hanoi from 2015 to 2025 </p> 
 </div>
 
+
+**What do the results tell us?**
+Hanoi's urbanization is spatially uneven. Higher urbanization and growth are concentrated around the established urban area and major development corridors, while less-developed areas retain larger proportions of agricultural and vegetated land. Urbanization Ratio indicates the proportion of built-up surfaces, while Annual Growth Rate highlights areas experiencing faster expansion.
+
+Classification reliability should be reported together with the maps using the available validation results, such as Overall Accuracy (OA), Kappa, and class-wise accuracy. No values are added here because the current Dashboard draft does not provide them.
+The spatial increase in impervious surfaces provides an additional indication of urban intensification. Together, the LULC maps and urbanization indicators show not only how much Hanoi has changed, but also where development has been concentrated.
+<!--{ style="font-size:1rem;opacity:1; margin-top:0px; margin-bottom:0px; margin-left:50px" }-->
 
 ## Conclusions
 
