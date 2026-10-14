@@ -144,16 +144,25 @@ The analytical workflow of this project is established upon the optimal integrat
 <p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 10px;"> <b>Figure [3].</b> Optical and SAR observations of Hanoi. Sentinel-2 imagery highlights spectral characteristics, while ALOS-2 PALSAR-2 imagery provides complementary information on surface and structural properties. </p> 
 </div>
 
+**Why combine optical and SAR?** Optical imagery describes surface and vegetation properties, while SAR provides complementary structural information that can improve characterization of complex urban landscapes.
 
-The initial phase focuses on rigorous pre-processing, encompassing atmospheric correction for optical spectral bands and advanced terrain correction for ALOS-2 PALSAR-2 Radar data to eliminate geometric and radiometric distortions.
+The study combines optical, radar, and topographic data within Google Earth Engine (GEE). The datasets were pre-processed, co-registered, and integrated to generate land-cover features. Spectral indices, including NDVI, NDBI, and NDWI, were calculated from optical imagery, while ALOS-2 PALSAR-2 provided complementary radar information.
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
-<img src="https://github.com/phkh1366/eoxhub-related/blob/main/2-Methodology.png?raw=true" style="max-width: 100%; width: 1000px; height: auto;" alt="Analysis workflow" /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 10px;"> <b>Figure [3].</b> Complete methodology workflow from data acquisition to analysis. </p> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN-FlowchartHQ.png?raw=true" style="max-width: 100%; width: 1000px; height: auto;" alt="Analysis workflow" /> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 10px;"> <b>Figure [4].</b> Overall methodological workflow for multi-source EO-based LULC mapping and urban change analysis in Hanoi. </p> 
 </div>
 
-Following this, the system executes the extraction of core biophysical features through representative surface indices, such as the Normalized Difference Vegetation Index (NDVI), Normalized Difference Built-up Index (NDBI), and Normalized Difference Water Index (NDWI), while integrating Digital Elevation Model (DEM) data to characterize three-dimensional landscape structural variations.
-At the core of this methodology is the deployment of the Random Forest (RF) machine learning algorithm a robust classification model capable of handling complex non-linear correlations between spectral features. This algorithm is trained to automatically identify and categorize surfaces into six primary land cover classes: Built-up, Barren land, Water, Forest, Agriculture, and Others. The synergy between distinct spectral indices and advanced machine learning algorithms not only ensures exceptional accuracy for the classification maps but also provides a scientific analytical framework to quantify the expansion of impervious surfaces during the process of compact urbanization.
+Key features were derived from the satellite data using NDVI, NDBI, and NDWI, together with topographic information from the DEM. These features were used to distinguish major land-cover types.
+
+Random Forest was selected as the main classification model because it can handle multiple, non-linear input features. The classified maps provide the basis for measuring land-cover change and urban expansion.
+How does the monitoring work? 
+1) Observe — collect satellite observations; 
+2) Combine — integrate optical, radar, and topographic information; 
+3) Classify — identify major land-cover types; 
+4) Compare — analyse maps from different years; 
+5) Measure — quantify urban expansion and growth; 
+6) Support decisions — provide spatial evidence for planning.
 
 
 ## Results
