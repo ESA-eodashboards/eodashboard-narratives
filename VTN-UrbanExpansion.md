@@ -7,7 +7,7 @@ official: true
 collections: collectionIdentifier1, collectionIdentifier2
 ---
 
-# Urbanization monitoring from EO data <!--{ as="img" mode="hero" src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN1-Story-header-.png?raw=true"}--> 
+# Urbanization monitoring from EO data <!--{ as="img" mode="hero" src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN-Cover2.JPG?raw=true"}--> 
 #### Authors: Nguyen Manh HUNG¹, Dang Do Nam PHUONG¹, Tong Thi Huyen AI¹, Nguyen Huu CHUYEN² <!--{ style="font-size:1.0rem;opacity:0.7;margin-top:1rem; color:Yellow" }-->
 
 <div style="text-align:left; font-size:0.95rem; opacity:0.85; margin-top:1rem; color:Yellow;">
