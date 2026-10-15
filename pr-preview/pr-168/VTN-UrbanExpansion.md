@@ -1,5 +1,5 @@
 ---
-cover-image: https://image.vietnamnews.vn/uploadvnnews/Article/2026/3/18/491117_urban.jpg
+cover-image: https://github.com/phkh1366/eoxhub-related/blob/main/VTN-Cover2.JPG?raw=true
 date: 2026-08-01
 theme: Economy
 tags: Urbanization,Vietnam
@@ -40,6 +40,10 @@ The study, dedicated to **Urbanization monitoring from EO data**, was developed 
 ### Rapid Urbanization and Sustainable Urban Development<!--{ style="font-size:1.50rem;opacity:1;margin-top:1rem; color:Navy" }-->
 
 Rapid urbanization in Vietnam, particularly in Hanoi, is driving significant land use changes, loss of green spaces, increasing impervious surfaces, and environmental challenges such as the Urban Heat Island (UHI) effect. However, fragmented and outdated spatial data make it difficult to monitor urban expansion, especially in peri-urban areas, and assess its environmental impacts.
+<div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN-Field.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [1].</b> Overview of Hanoi showing the extent of urbanized areas. </p> 
+</div>
 
 The lack of a **systematic, continuous satellite-based monitoring system** limits evidence-based urban planning, sustainable land management, and progress toward the Sustainable Development Goals (SDGs). **Timely and reliable Earth Observation (EO) data are essential** to bridge this information gap and support informed decision-making for sustainable urban development.
 
@@ -64,7 +68,7 @@ Hanoi serves as the primary political, economic, and cultural hub of Vietnam, ha
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN-fig1-AoI.jpg?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
-<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [1].</b> Study area </p> 
+<p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [2].</b> Study area </p> 
 </div>
 
  Recent census data from 2024 indicates a population of nearly 8.7 million, Hanoi is one of Vietnam's largest cities by population.  The city's urban footprint has been steadily pushing outward into suburban districts, including Gia Lam, Long Bien, Ha Dong, Hoang Mai, Soc Son, and Dong Anh. This rapid physical growth is driven by the extensive development of transportation networks, modern residential zones, and industrial clusters. Such profound modifications to land use and natural topography have placed considerable strain on local natural resources and the quality of the urban environment. Consequently, leveraging Earth Observation (EO) technologies for the systematic monitoring and quantification of Hanoi's urban sprawl has become a critical requirement for evidence-based sustainable planning and efficient territorial management.  
@@ -118,7 +122,7 @@ The **Advanced Land Observing Satellite-2 (ALOS-2)**, operated by the Japan Aero
 Its **L-band SAR** is particularly useful for monitoring land-surface characteristics, vegetation structure, forests, agriculture, disasters, and changes in built-up areas. In this case study, ALOS-2 PALSAR-2 annual mosaic data are used to examine the spatial evolution of **Hanoi between 2015, 2020, and 2025**. By comparing the radar backscatter patterns across these years, changes in the extent and density of urban and peri-urban areas can be visually assessed.
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFC1CWV3wr_iYKFg1lq5pQgwHX_crcJ0XK2KpncluZJQ&s" style="max-width: 100%; width: 450px; height: auto;" alt="ALOS-2 Satellite" /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [2].</b> Advanced Land Observing Satellite-2 "DAICHI-2" (ALOS-2) </p> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [3].</b> Advanced Land Observing Satellite-2 "DAICHI-2" (ALOS-2) </p> 
 </div>
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light","visible":true},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }","tileGrid":{"tileSize":[256,256],"origin":[-20037508.342789244,20037508.342789244],"resolutions":[156543.03392804097,78271.51696402048,39135.75848201024,19567.87924100512,9783.93962050256,4891.96981025128,2445.98490512564,1222.99245256282,611.49622628141,305.748113140705,152.8740565703525,76.43702828517625,38.21851414258813,19.109257071294063,9.554628535647032,4.777314267823516,2.388657133911758,1.194328566955879,0.5971642834779395,0.29858214173896974,0.14929107086948487,0.07464553543474244,0.03732276771737122,0.01866138385868561,0.009330691929342804],"matrixIds":["0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],"extent":[-20037508.342789244,-20037508.342789244,20037508.342789244,20037508.342789244]}}},{"type":"WebGLTile","source":{"type":"GeoTIFF","normalize":false,"interpolate":false,"sources":[{"url":"https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2015.tif"}]},"properties":{"id":"palsar2-yearly-hanoi;:;2017-01-01T00:00:00Z;:;0","title":"Hanoi_2017"},"style":{"variables":{"band":1},"color":["case",[">",["band",1],0],["interpolate",["linear"],["/",["band",1],["case",["==",1,1],8000,4000]],0,[0,0,0,1],1,[255,255,255,1]],["color",0,0,0,0]]}},{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels","visible":true},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857","attributions":"{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }","tileGrid":{"tileSize":[256,256],"origin":[-20037508.342789244,20037508.342789244],"resolutions":[156543.03392804097,78271.51696402048,39135.75848201024,19567.87924100512,9783.93962050256,4891.96981025128,2445.98490512564,1222.99245256282,611.49622628141,305.748113140705,152.8740565703525,76.43702828517625,38.21851414258813,19.109257071294063,9.554628535647032,4.777314267823516,2.388657133911758,1.194328566955879,0.5971642834779395,0.29858214173896974,0.14929107086948487,0.07464553543474244,0.03732276771737122,0.01866138385868561,0.009330691929342804],"matrixIds":["0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],"extent":[-20037508.342789244,-20037508.342789244,20037508.342789244,20037508.342789244]}}}]' zoom="11.472983178708397" center=[105.675,21.10030306370011] projection="" animationOptions={duration:500}}-->
@@ -141,7 +145,7 @@ The analytical workflow of this project is established upon the optimal integrat
 **Sentinel-2** optical and **ALOS-2 PALSAR-2** SAR imagery provide complementary observations of Hanoi's urban landscape. Optical data capture spectral characteristics of vegetation, built-up areas, and water, whereas SAR provides information related to surface structure and roughness. Combining the two data types therefore provides richer information for land-cover mapping and urban monitoring.
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN-Optical-SAR-View.png?raw=true" style="max-width: 100%; width: 1000px; height: auto;" alt="Analysis workflow" /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 10px;"> <b>Figure [3].</b> Optical and SAR observations of Hanoi. Sentinel-2 imagery highlights spectral characteristics, while ALOS-2 PALSAR-2 imagery provides complementary information on surface and structural properties. </p> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 10px;"> <b>Figure [4].</b> Optical and SAR observations of Hanoi. Sentinel-2 imagery highlights spectral characteristics, while ALOS-2 PALSAR-2 imagery provides complementary information on surface and structural properties. </p> 
 </div>
 
 **Why combine optical and SAR?** Optical imagery describes surface and vegetation properties, while SAR provides complementary structural information that can improve characterization of complex urban landscapes.
@@ -150,7 +154,7 @@ The study combines optical, radar, and topographic data within Google Earth Engi
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN-FlowchartHQ.png?raw=true" style="max-width: 100%; width: 1000px; height: auto;" alt="Analysis workflow" /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 10px;"> <b>Figure [4].</b> Overall methodological workflow for multi-source EO-based LULC mapping and urban change analysis in Hanoi. </p> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 10px;"> <b>Figure [5].</b> Overall methodological workflow for multi-source EO-based LULC mapping and urban change analysis in Hanoi. </p> 
 </div>
 
 Key features were derived from the satellite data using NDVI, NDBI, and NDWI, together with topographic information from the DEM. These features were used to distinguish major land-cover types.
@@ -170,7 +174,7 @@ Hanoi experienced substantial land-cover change between 2015 and 2025. The most 
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 5px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN-LULCmaps.png?raw=true" style="max-width: 100%; width: 900px; height: auto;" alt="Analysis workflow" /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [5].</b> Land use/land cover map of Hanoi for the years. </p> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [6].</b> Land use/land cover map of Hanoi for the years. </p> 
 </div>
 
 **Key findings**: Built-up land increased from 18.1% of the study area in 2015 to 25.2% in 2020 and 32.8% in 2025, an increase of 14.7 percentage points over the decade. Agriculture remained the largest class, accounting for 38.3%, 40.2%, and 38.0% in 2015, 2020, and 2025, respectively. Barren land decreased from 7.1% to 3.9%, while the proportion of Other land decreased from 21.8% to 11.2%.
@@ -178,22 +182,22 @@ Hanoi experienced substantial land-cover change between 2015 and 2025. The most 
 
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN-Chart.jpg?raw=true" style="max-width: 100%; width: 500px; height: auto;"/> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [6].</b> LChanges in the proportion of land-cover classes in Hanoi from 2015 to 2025.</p> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [7].</b> LChanges in the proportion of land-cover classes in Hanoi from 2015 to 2025.</p> 
 </div>
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN-Chart2.png?raw=true" style="max-width: 100%; width: 500px; height: auto;"  /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [7].</b> Changes in area of different land-cover and land-use classes in the period from 2015 to 2025. </p> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [8].</b> Changes in area of different land-cover and land-use classes in the period from 2015 to 2025. </p> 
 </div>
 The maps show that built-up areas expanded from the established urban core toward surrounding peri-urban areas and along major development corridors. The Annual Growth Rate (AGR) further highlights locations where urban expansion was more concentrated during the study period.
 
 </div>
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN-Spatial%20Expansion.jpg?raw=true" style="max-width: 100%; width: 400px; height: auto;"  /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [8].</b> Spatial expansion of built-up areas in Hanoi from 2015 to 2025.</p> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [9].</b> Spatial expansion of built-up areas in Hanoi from 2015 to 2025.</p> 
 </div>
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/7-Rate.jpg?raw=true" style="max-width: 100%; width: 600px; height: auto;"  /> 
-<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [9].</b> Spatial distribution of the Urbanization Ratio and Annual Growth Rate in Hanoi from 2015 to 2025 </p> 
+<p style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 5px;"> <b>Figure [10].</b> Spatial distribution of the Urbanization Ratio and Annual Growth Rate in Hanoi from 2015 to 2025 </p> 
 </div>
 
 
@@ -238,8 +242,8 @@ Future development will focus on three directions: (1) Expand — apply the moni
 
 #### Image and visualisation credits
 
-- **Story header image:** [Vietnam urbanisation illustration hosted in the project repository](https://github.com/phkh1366/eoxhub-related/blob/main/VTN1-Story-header-.png). Generated by Open AI.
-- **Cover-image metadata:** [Vietnam News image](https://image.vietnamnews.vn/uploadvnnews/Article/2026/3/18/491117_urban.jpg) (Vietnam News;  VNA/VNS Photo Nguyễn Thành).
+
+- **Cover and header image:** Original to the study
 - **Figures 1 and 3–8:** Illustrations, maps and charts orginal to the study.
 - **Figure 2 (ALOS-2 satellite):** Japan Aerospace Exploration Agency (JAXA).
 - **ALOS-2 map-tour layers:** ALOS-2 PALSAR-2 yearly mosaics © JAXA/JAXA EORC, accessed through [Google Earth Engine](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR_YEARLY_SAR_EPOCH); visualisation hosted on the [EO Dashboard](https://eodashboard.org).
