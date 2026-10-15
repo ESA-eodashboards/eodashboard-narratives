@@ -41,7 +41,7 @@ This study delivers a **spatialized framework** for mapping **urban heat exposur
 
 ### Overall aim
 As extreme heat becomes a climate threat to European cities, we can **no longer rely on simple weather forecasts** to protect our most vulnerable citizens. That’s why we performed a **dynamic, EO-based Thermal Risk Analysis** for Turin.
-According to the climate risk framework, **risk results from the interaction between hazard, exposure and vulnerability**. Thus, a heatwave represents the **hazard**, while heat exposure and vulnerability determine how strongly individuals and populations may be affected.
+According to the climate risk framework, **risk results from the interaction between hazard, exposure and vulnerability**. Thus, a heatwave represents the **hazard**, while **heat exposure and vulnerability** determine how strongly individuals and populations may be affected.
 
 
 ## Use case
@@ -85,7 +85,8 @@ The team's methodology included the following steps and expected outcomes:
 
 ## Results
 
-The risk index ranges from 0-1, and is calculated based on: 
+The final risk index, scaled between 0 and 1, is calculated as the average of four normalized key factors: surface heat, age vulnerability, lack of greenery, and soil sealing.
+This climate risk represents the combination of three fundamental elements: the physical climate event or trend (Hazard), the elements present in hazard-prone areas (Exposure), and the resilience or lack thereof of the exposed elements to the hazard (Vulnerability).
 
 - **Surface heat (nightly Sentinel-3 LST)**: The 15-panel grid illustrates how nighttime temperatures fluctuate geographically. The maps reveal severe localized urban heat islands; while some areas effectively cool down overnight (shown in dark purple/black), specific districts consistently trap and retain high heat (glowing orange and yellow), preventing nighttime thermal relief.
 
@@ -99,12 +100,10 @@ The risk index ranges from 0-1, and is calculated based on:
 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Urban%20green%20areas.png?raw=true" width="400"/></p>
 
-- **Imperviousness (soil sealing)**: The High Resolution Layer (HRL) Imperviousness by the Copernicus Land Monitoring Service (CLMS) captures the spatial distribution and change over time of artificially sealed and built-up areas in high-resolution and harmonized manner over entire  Europe. The contained datasets offer valuable insights for a variety of domains and applications – from infrastructure planning, urban management and environmental monitoring to disaster preparedness, real estate and tourism.
+- **Imperviousness (soil sealing)**: The  imperviousness map reveals a  geographic divide in Torino's soil sealing. Central and western districts (like District 1, District 3, District 4, and District 5) feature near 100% impenetrable artificial surfaces (shown in black), acting as a massive thermal battery that elevates urban heat exposure. Conversely, the eastern periphery (District 7 and  District 8) remains highly permeable and unpaved (shown in white).
  
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Torino%20-%20Imperviousness%202024.png?raw=true" width="400"/></p>
 
-
-The risk index is therefore calculated as the average of all of these factors (each one normalized between 0-1).
 
 ## Analysis <!--{ as="eox-map" mode="tour" position="right" }-->
 
