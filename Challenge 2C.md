@@ -1,4 +1,4 @@
-# Heat Risk Mapping - Turin case study <!--{ as="img" mode="hero" src="https://media.istockphoto.com/id/636399938/it/foto/paesaggio-urbano-di-torino-allalba.jpg?s=612x612&w=0&k=20&c=yemCm6bo7EFGa_CcPZfKIZ5lNfNY7e3tjfi-xITU0hU=" }-->
+# Mapping urban heat exposure and vulnerability using EO data <!--{ as="img" mode="hero" src="https://media.istockphoto.com/id/636399938/it/foto/paesaggio-urbano-di-torino-allalba.jpg?s=612x612&w=0&k=20&c=yemCm6bo7EFGa_CcPZfKIZ5lNfNY7e3tjfi-xITU0hU=" }-->
 #### 
 
 ### Authors: Francesco Mezza¹, Sona Guliyeva², Filippos Kostikiadis³, and Sophia Dolla³ <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
@@ -27,7 +27,7 @@
 Torino's geographic setting in the **Po Valley basin** creates a physical microclimate prone to **atmospheric stagnation**, weak ventilation, and pollutant entrapment. Enclosed by the Alpine arc to the west and north, the basin acts as a **thermal trap** during persistent heat domes. In the **summer of 2026**, as an African anticyclone pushed temperatures across Italy past **40°C**, Turin's eight districts did not all suffer equally. A resident of a **low-density** neighborhood and a resident of a paved, **high-density** one lived through the same heatwave in very different modalities.
 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Torino%20sentinel.png?raw=true" width="400"/></p>
-<p align="center" style="font-size: 0.85em; color: #666;"><em> Optical Satellite Image over the Area of Turin.</em></p>
+<p align="center" style="font-size: 0.85em; color: #666;"><em> Fig.1 Optical Satellite Image over the Area of Turin.</em></p>
 
 This study delivers a **spatialized framework** for mapping **urban heat exposure** and **social vulnerability** across Torino's administrative districts (circoscrizioni), linking **satellite observations** with climate analysis and demographic vulnerability.
 
@@ -42,11 +42,6 @@ This study delivers a **spatialized framework** for mapping **urban heat exposur
 ### Overall aim
 As extreme heat becomes a climate threat to European cities, we can **no longer rely on simple weather forecasts** to protect our most vulnerable citizens. That’s why we performed a **dynamic, EO-based Thermal Risk Analysis** for Turin.
 According to the climate risk framework, **risk results from the interaction between hazard, exposure and vulnerability**. Thus, a heatwave represents the **hazard**, while **heat exposure and vulnerability** determine how strongly individuals and populations may be affected.
-
-
-## Use case
-Our index proves that heat vulnerability isn't just about the weather—it's a structural crisis driven by concrete and aging populations. This tool empowers city planners to pinpoint exact 'thermal traps', transforming broad climate goals into targeted, life-saving, actions exactly where they are needed most.
-
 
 ## Data and methods
 
@@ -81,7 +76,6 @@ The team's methodology included the following steps and expected outcomes:
 
 - Defining an index that combines thermal intensity with exposure indicators to map and rank the most exposed urban districts.
 - Hazard, exposure, and vulnerability are the key drivers of physical climate risk.
-<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/climate-change_v2.jpg?raw=true" width="1000"/></p>
 
 ## Results
 
@@ -105,7 +99,7 @@ This climate risk represents the combination of three fundamental elements: the 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Torino%20-%20Imperviousness%202024.png?raw=true" width="400"/></p>
 
 
-## Analysis <!--{ as="eox-map" mode="tour" position="right" }-->
+## Use cases <!--{ as="eox-map" mode="tour" position="right" }-->
 
 ### <!--{ zoom=11 center=[7.6869,45.0703] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}},{"type":"Tile","properties":{"id":"heat-index-overlay"},"url":"https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/06_heat_exposure_index_map.png?raw=true"}]' animationOptions='{"duration":500}' }-->
 #### Turin Overview
