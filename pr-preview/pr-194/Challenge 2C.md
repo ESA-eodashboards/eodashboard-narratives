@@ -20,26 +20,35 @@
 </p>
 
 ## Challenge
-Heat exposure refers to the presence of people, ecosystems, infrastructure or other assets in areas affected by excessive heat. It is influenced by temperature, humidity, wind, solar radiation and local geographical and urban characteristics. In urban areas, factors such as building materials, land cover, vegetation and the urban heat island (UHI) effect can create substantial spatial differences in heat exposure. 
+**Heat exposure** refers to the presence of people, ecosystems, infrastructure or other assets in areas affected by **excessive heat**. It is influenced by temperature, humidity, wind, solar radiation and local geographical and **urban characteristics**. In urban areas, factors such as **building materials**, land cover, **vegetation** and the **urban heat island (UHI)** effect can create substantial spatial differences in heat exposure.
 
-Vulnerability describes the susceptibility of individuals or populations to adverse effects from heat. It is influenced by physiological, demographic, social and socioeconomic factors, as well as housing conditions and access to cooling, healthcare and other essential services. Certain groups, such as older adults, children and outdoor workers, may be particularly susceptible to heat-related impacts. 
+**Vulnerability** describes the **susceptibility** of individuals or populations to adverse effects from heat. It is influenced by **physiological**, **demographic**, social and **socioeconomic factors**, as well as housing conditions and access to cooling, healthcare and other essential services. Certain groups, such as **older adults**, **children** and **outdoor workers**, may be particularly susceptible to heat-related impacts.
 
-Torino's geographic setting in the Po Valley basin creates a physical microclimate prone to atmospheric stagnation, weak ventilation, and pollutant entrapment. Enclosed by the Alpine arc to the west and north, the basin acts as a thermal trap during persistent heat domes. In the summer of 2026, as an African anticyclone pushed temperatures across Italy past 40°C, Turin's eight districts did not all suffer equally. A resident of a low-density neighborhood and a resident of a paved, high-density one lived through the same heatwave in very different modalities. 
+Torino's geographic setting in the **Po Valley basin** creates a physical microclimate prone to **atmospheric stagnation**, weak ventilation, and pollutant entrapment. Enclosed by the Alpine arc to the west and north, the basin acts as a **thermal trap** during persistent heat domes. In the **summer of 2026**, as an African anticyclone pushed temperatures across Italy past **40°C**, Turin's eight districts did not all suffer equally. A resident of a **low-density** neighborhood and a resident of a paved, **high-density** one lived through the same heatwave in very different modalities.
 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Torino%20sentinel.png?raw=true" width="400"/></p>
 <p align="center" style="font-size: 0.85em; color: #666;"><em> Optical Satellite Image over the Area of Turin.</em></p>
 
+This study delivers a **spatialized framework** for mapping **urban heat exposure** and **social vulnerability** across Torino's administrative districts (circoscrizioni), linking **satellite observations** with climate analysis and demographic vulnerability.
+
 ## Objective
-As extreme heat becomes a climate threat to European cities, we can no longer rely on simple weather forecasts to protect our most vulnerable citizens. That’s why we performed a dynamic, EO-based Thermal Risk Analysis for Turin. 
+ The primary objectives of this challenge are to:
+1. **Select one heatwave** events over a turin
+2. **Retrieve Sentinel-3 LST observations** and air temperature during a heatwave and reference (non-heatwave) periods
+3. **Compute LST**
+4. **Derive spatial indicators** describing the urban environment (e.g. vegetation cover, impervious surfaces, built-up density)
+5. **Define a heat exposure index**, combining both thermal intensity and exposure indicators, and identify/rank the most exposed urban districts.
 
-This study delivers a spatialized framework for mapping urban heat exposure and social vulnerability across Torino's administrative districts (circoscrizioni), linking satellite observations with climate analysis and demographic vulnerability. 
+### Overall aim
+As extreme heat becomes a climate threat to European cities, we can **no longer rely on simple weather forecasts** to protect our most vulnerable citizens. That’s why we performed a **dynamic, EO-based Thermal Risk Analysis** for Turin.
+According to the climate risk framework, **risk results from the interaction between hazard, exposure and vulnerability**. Thus, a heatwave represents the **hazard**, while heat exposure and vulnerability determine how strongly individuals and populations may be affected.
 
-According to the climate risk framework, risk results from the interaction between hazard, exposure and vulnerability. Thus, a heatwave represents the hazard, while heat exposure and vulnerability determine how strongly individuals and populations may be affected.
 
+## Use case
 Our index proves that heat vulnerability isn't just about the weather—it's a structural crisis driven by concrete and aging populations. This tool empowers city planners to pinpoint exact 'thermal traps', transforming broad climate goals into targeted, life-saving, actions exactly where they are needed most.
 
 
-## Method and datasets
+## Data and methods
 The core question addressed was whether EO data could be combined with geospatial information to locate urban areas experiencing heightened heat stress during heatwave events. To achieve this, the used datasets were:
 - **Sentinel-3 SLSTR (Land Surface Temperature - LST)**:  a European Earth Observation satellite mission developed to support Copernicus ocean, land, atmospheric, emergency, security, and cryospheric applications.The primary goal of the Sentinel-3 mission is to measure sea surface topography, sea and land surface temperature, and ocean and land surface color with high accuracy and reliability. 
 
@@ -60,37 +69,40 @@ Europe. The contained datasets offer valuable insights for a variety of domains 
 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Urban%20green%20areas.png?raw=true" width="400"/></p>
 
-## Heat risk from Earth Observation
+#### Methodology workflow
 The team's methodology included the following steps and expected outcomes:
 
 **1. Data Retrieval & Anomaly Mapping**
 
-Selecting a time series over Turin between August 1-15, 2026 and retrieving Sentinel-3 Land Surface Temperature (LST) observations for the period to understand the temperature pattern.
+- Selecting a time series over Turin between August 1-15, 2026
+- Retrieving Sentinel-3 Land Surface Temperature (LST) observations for the period to understand the temperature pattern
 
 
 **2. Deriving Spatial Indicators**
 
-Using additional datasets (such as green cover by Comune di Torino and Copernicus High Resolution Layer Imperviousness) to describe the urban environment through indicators like vegetation cover, impervious surfaces, and built-up density.
+- Using additional datasets (such as green cover by Comune di Torino and Copernicus High Resolution Layer Imperviousness) to describe the urban environment through indicators like vegetation cover, impervious surfaces, and built-up density.
 
 **3. Heat Risk Index** 
 
-Defining an index that combines thermal intensity with exposure indicators to map and rank the most exposed urban districts.
-Hazard, exposure, and vulnerability are the key drivers of physical climate risk. 
+- Defining an index that combines thermal intensity with exposure indicators to map and rank the most exposed urban districts.
+- Hazard, exposure, and vulnerability are the key drivers of physical climate risk.
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/climate-change_v2.jpg?raw=true" width="1000"/></p>
 
+## Results
 The risk index ranges from 0-1, and is calculated based on: 
 
-- Surface heat (nightly Sentinel-3 LST)
+- **Surface heat (nightly Sentinel-3 LST)**: The 15-panel grid illustrates how nighttime temperatures fluctuate geographically. The maps reveal severe localized urban heat islands; while some areas effectively cool down overnight (shown in dark purple/black), specific districts consistently trap and retain high heat (glowing orange and yellow), preventing nighttime thermal relief.
 
-<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Nighttime%20LST%20Evolution%20-%20Turin%20Districts%20.png?raw=true" width="1000"/></p>
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Nighttime%20LST%20Evolution%20-%20Turin%20Districts%20.png?raw=true" width="500"/></p>
 
-- Age vulnerability (% population over 65)
+- **Age vulnerability (percentage of population over 65)**: The demographic histograms demonstrate aging populations, showing a stark volume of residents in the red "65 and Older" category across all areas. The spatial vulnerability map pinpoints the exact risk concentration: District 2 is the most highly exposed with 28.6% of its population over 65, followed by District 8 (27.3%) and District 3 (26.8%), while District 6 remains relatively less vulnerable at 23.2%.
 
-<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/05_age_distribution_dashboard.png?raw=true" width="1200"/></p>
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/05_age_distribution_dashboard.png?raw=true" width="500"/></p>
 
-- Lack of greenery (inverse of green cover per district)
+- **Lack of greenery (inverse of green cover per district)**: The urban green areas map exposes a geographical divide in natural cooling infrastructure. While the eastern edge and specific peripheral zones feature dense, contiguous vegetation, the central and western urban core suffers from highly fragmented and sparse green coverage, directly indicating areas that will score high for "lack of greenery".
 
-- Imperviousness (soil sealing)
+- **Imperviousness (soil sealing)**: represent the highly paved, concrete-heavy urban core that absorbs heat and prevents water drainage.
+
 
 The risk index is therefore calculated as the average of all of these factors (each one normalized between 0-1).
 
@@ -160,7 +172,7 @@ To protect the aging population, the city should establish accessible cooling ce
 | **OpenStreetMap** | Dataset | OSM contributors, via Overpass API / [osmnx](https://osmnx.readthedocs.io/) | Hospitals, schools, elderly-care facility locations |
 | **[EO Dashboard](https://eodashboard.org/explore/?x=7.6869&y=45.0703&z=10.0000&datetime=2026-08-13&template=expert)** | Platform / Web Tool | EO Dashboard Consortium (ESA, NASA, JAXA) | Base layers and visualization tools for interactive exploration |
 
-## References
+## <!--{ nav="false"}--> References
 ### Earth Observation data
 * Sentinel-3 SLSTR Level-2 LST — Copernicus / ESA
 * Sentinel-2 MSI Level-2A (COPERNICUS/S2_SR_HARMONIZED) — Copernicus, via Google Earth Engine
@@ -180,7 +192,7 @@ To protect the aging population, the city should establish accessible cooling ce
 ### Points of interest
 * OpenStreetMap contributors — hospitals, schools, elderly-care facilities, queried via Overpass API / osmnx
 
-## Contributors
+## <!--{ nav="false"}--> Contributors
 - Francesco Mezza — Coding and data processing
 - Sona Guliyeva — Project lead and supervision
 - Sophia Dolla — Theoretical framework
