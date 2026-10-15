@@ -242,9 +242,8 @@ Future development will focus on three directions: (1) Expand — apply the moni
 
 #### Image and visualisation credits
 
-
-- **Cover and header image:** Original to the study
-- **Figures 1 and 3–8:** Illustrations, maps and charts orginal to the study.
+- **Cover and header image:** Original to the study.
+- **Figures 1:** Original to the study.
 - **Figure 2 (ALOS-2 satellite):** Japan Aerospace Exploration Agency (JAXA).
-- **ALOS-2 map-tour layers:** ALOS-2 PALSAR-2 yearly mosaics © JAXA/JAXA EORC, accessed through [Google Earth Engine](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR_YEARLY_SAR_EPOCH); visualisation hosted on the [EO Dashboard](https://eodashboard.org).
+
 
