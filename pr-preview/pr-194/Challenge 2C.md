@@ -84,7 +84,8 @@ This climate risk represents the combination of three fundamental elements: the 
 
 - **Surface heat (nightly Sentinel-3 LST)**: The 15-panel grid illustrates how nighttime temperatures fluctuate geographically. The maps reveal severe localized urban heat islands; while some areas effectively cool down overnight (shown in dark purple/black), specific districts consistently trap and retain high heat (glowing orange and yellow), preventing nighttime thermal relief.
 
-<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Nighttime%20LST%20Evolution%20-%20Turin%20Districts%20.png?raw=true" width="500"/></p>
+
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Nighttime%20LST%20Evolution%20-%20Turin%20Districts%20.png?raw=true" width="500"/> </p>
 
 - **Age vulnerability (percentage of population over 65)**: The demographic data demonstrate aging populations, showing a stark volume of residents in the red "65 and Older" category across all areas. The spatial vulnerability map pinpoints the exact risk concentration: District 2 is the most highly exposed with 28.6% of its population over 65, followed by District 8 (27.3%) and District 3 (26.8%), while District 6 remains relatively less vulnerable at 23.2%.
 
