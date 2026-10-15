@@ -148,39 +148,37 @@ As shown in the graphs, Surface Heat (LST) contributes only a small fraction (5.
 The image maps critical facilities (hospitals, schools, and elderly care facilities) across Turin's districts based on their risk score. It highlights that the most vulnerable central and western districts, shown in dark red, contain a dense concentration of these sensitive locations.
 
 ## Conclusions
-Turin's heat vulnerability is structurally dictated by urban morphology and demographics, not daily weather. The historical center and south-western industrial belt form extreme-risk zones due to severe soil sealing, lack of vegetation, and aging populations.
+Turin's heat vulnerability is structurally dictated by **urban morphology** and **demographics**, not daily weather:
 
-Conversely, Borgo Po's vast forested hills demonstrate a green buffer effect that drastically lowers thermal risk. Meanwhile, northern districts show lower vulnerability simply because their younger populations are statistically less heat-sensitive. 
+* The **historical center** and **south-western industrial belt** form **extreme-risk zones** due to severe **soil sealing**, lack of **vegetation**, and **aging populations**.
+* Conversely, **Borgo Po's** vast forested hills demonstrate a **green buffer effect** that drastically lowers thermal risk.
+* Meanwhile, **northern districts** show lower vulnerability simply because their **younger populations** are statistically less heat-sensitive.
 
-Ultimately, the city's most impermeable, concrete-dense environments perfectly align with its oldest demographics, creating persistent thermal traps.
+Ultimately, the city's most **impermeable, concrete-dense environments** perfectly align with its **oldest demographics**, creating persistent **thermal traps**.
 
-In conclusion, while socio-demographic variables remain static, daily fluctuations in Land Surface Temperature (LST) continuously alter the spatial distribution and relative ranking of risk across neighbourhoods. This dynamic has critical implications for contingency planning: it highlights the inadequacy of relying on a single, static risk map. Because neighborhood vulnerability shifts over time, effective emergency management requires dynamic, day-to-day assessment tools rather than fixed spatial representations.
+While **socio-demographic variables** remain static, daily fluctuations in **Land Surface Temperature (LST)** continuously alter the spatial distribution and relative ranking of risk across neighbourhoods. This dynamic has critical implications for contingency planning:
 
-To mitigate urban heat, the city must prioritize de-paving wide avenues and planting shade trees to reduce surface temperatures. In the dense historical center, micro-interventions like green roofs and highly reflective materials are essential to cool narrow streets.
+1. It highlights the inadequacy of relying on a **single, static risk map**.
+2. Because neighborhood vulnerability shifts over time, effective emergency management requires **dynamic, day-to-day assessment tools** rather than fixed spatial representations.
 
-To protect the aging population, the city should establish accessible cooling centers and implement early warning systems. Additionally, deploying mobile health units and strengthening neighborhood networks will ensure isolated elderly residents stay safe during extreme heatwaves.
+To mitigate urban heat, the city must prioritize specific spatial interventions:
+
+* **De-paving wide avenues** and planting **shade trees** to reduce surface temperatures.
+* Utilizing **micro-interventions** like **green roofs** and highly **reflective materials** in the dense historical center to cool narrow streets.
+
+To protect the aging population, the city should implement targeted social resilience measures:
+
+* Establish accessible **cooling centers** and implement **early warning systems**.
+* Deploy **mobile health units** and strengthen **neighborhood networks** to ensure isolated elderly residents stay safe during extreme heatwaves.
 
 ## Open Science
 
 ### References
-### Earth Observation data
-* Sentinel-3 SLSTR Level-2 LST — Copernicus / ESA
-* Sentinel-2 MSI Level-2A (COPERNICUS/S2_SR_HARMONIZED) — Copernicus, via Google Earth Engine
-* Imperviousness High Resolution Layer 2024 — Copernicus Land Monitoring Service
 
-### Meteorological context
-* ThermalTrace — daily air / UTCI feels-like temperature, ERA5, Copernicus C3S / ECMWF
 * Beretta, S. “Meteo oggi 4 agosto: bollino rosso in 25 città su 27, punte di 41°C”, Quotidiano Motori, 4 Aug 2026 — nationwide red-alert heatwave, corroborating the analysis window
-
-### Geospatial Information (Città di Torino, via Geoportale Piemonte)
-* District boundaries (circoscrizioni) and urban green areas — Comune di Torino open geodata, e.g. Geoportale Piemonte catalog record (CC BY 4.0)
-* Population by age and district (“B1 Pop per età annuale e circoscrizione 2025”) — Comune di Torino open data
 * https://dutchclimaterisk.nl/climate-risk/risk-assessment-guidance/
 * https://heat.gov/who-is-most-at-risk-to-extreme-heat/at-risk-older-adults/
 * https://www.sciencedirect.com/science/article/pii/S2212096325000452
-
-### Points of interest
-* OpenStreetMap contributors — hospitals, schools, elderly-care facilities, queried via Overpass API / osmnx
 
 ### Contributors
 - Francesco Mezza — Coding and data processing
