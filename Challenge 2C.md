@@ -63,24 +63,6 @@ The used datasets were:
 | 💻 **Platforms / Tools** | [EO Dashboard](https://eodashboard.org/explore/?x=7.6869&y=45.0703&z=10.0000&datetime=2026-08-13&template=expert) | Base layers and visualization tools for interactive exploration. *(EO Dashboard Consortium: ESA, NASA, JAXA)* |
 
 
-- **Sentinel-3 SLSTR (Land Surface Temperature - LST)**:  a European Earth Observation satellite mission developed to support Copernicus ocean, land, atmospheric, emergency, security, and cryospheric applications.The primary goal of the Sentinel-3 mission is to measure sea surface topography, sea and land surface temperature, and ocean and land surface color with high accuracy and reliability. 
-
-<p align="center"><img src="https://sentinels.copernicus.eu/documents/4634164/9bbb4317-7cb9-1c8b-a382-3ad82b6a28e4" width="400"/></p>
-<p align="center" style="font-size: 0.85em; color: #666;"><em>Sentinel-3 satellite, ESA.</em></p>
-
-
-- **High Resolution Layer Imperviousness**: The High Resolution Layer (HRL) Imperviousness by the Copernicus Land Monitoring Service (CLMS) captures the spatial distribution and change over time of artificially sealed and built-up areas in high-resolution and harmonized manner over entire 
-Europe. The contained datasets offer valuable insights for a variety of domains and applications – from infrastructure planning, urban management and environmental monitoring to disaster preparedness, real estate and tourism.
-
-<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Torino%20-%20Imperviousness%202024.png?raw=true" width="400"/></p>
-
-- **District and Population Data (Municipality of Torino)**: Vector files to define the official administrative boundaries of the city (the 8 "circoscrizioni" or districts) and the number and age of the inhabitants in each district. They were used to aggregate the raster data and calculate statistics for each one. People aged 65 years or older are more at risk during extreme heat due to physiological changes associated with aging.
-
-<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Vulnerability%20Map%20%20Over%2065%20by%20District%20(Turin).png?raw=true" width="400"/></p>
-
-- **Green Areas Data (Municipality of Torino Open Data)**: Vector files retrieved from the city's official open data portal, mapping the precise polygons of public green spaces across the urban area (including parks, gardens, and tree-lined avenues). Green areas can lower local temperatures by 1°C to 7°C through natural shade and plant cooling.
-
-<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Urban%20green%20areas.png?raw=true" width="400"/></p>
 
 #### Methodology workflow
 The team's methodology included the following steps and expected outcomes:
@@ -102,19 +84,24 @@ The team's methodology included the following steps and expected outcomes:
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/climate-change_v2.jpg?raw=true" width="1000"/></p>
 
 ## Results
+
 The risk index ranges from 0-1, and is calculated based on: 
 
 - **Surface heat (nightly Sentinel-3 LST)**: The 15-panel grid illustrates how nighttime temperatures fluctuate geographically. The maps reveal severe localized urban heat islands; while some areas effectively cool down overnight (shown in dark purple/black), specific districts consistently trap and retain high heat (glowing orange and yellow), preventing nighttime thermal relief.
 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Nighttime%20LST%20Evolution%20-%20Turin%20Districts%20.png?raw=true" width="500"/></p>
 
-- **Age vulnerability (percentage of population over 65)**: The demographic histograms demonstrate aging populations, showing a stark volume of residents in the red "65 and Older" category across all areas. The spatial vulnerability map pinpoints the exact risk concentration: District 2 is the most highly exposed with 28.6% of its population over 65, followed by District 8 (27.3%) and District 3 (26.8%), while District 6 remains relatively less vulnerable at 23.2%.
+- **Age vulnerability (percentage of population over 65)**: The demographic data demonstrate aging populations, showing a stark volume of residents in the red "65 and Older" category across all areas. The spatial vulnerability map pinpoints the exact risk concentration: District 2 is the most highly exposed with 28.6% of its population over 65, followed by District 8 (27.3%) and District 3 (26.8%), while District 6 remains relatively less vulnerable at 23.2%.
 
-<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/05_age_distribution_dashboard.png?raw=true" width="500"/></p>
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Vulnerability%20Map%20%20Over%2065%20by%20District%20(Turin).png?raw=true" width="400"/></p>
 
 - **Lack of greenery (inverse of green cover per district)**: The urban green areas map exposes a geographical divide in natural cooling infrastructure. While the eastern edge and specific peripheral zones feature dense, contiguous vegetation, the central and western urban core suffers from highly fragmented and sparse green coverage, directly indicating areas that will score high for "lack of greenery".
 
-- **Imperviousness (soil sealing)**: represent the highly paved, concrete-heavy urban core that absorbs heat and prevents water drainage.
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Urban%20green%20areas.png?raw=true" width="400"/></p>
+
+- **Imperviousness (soil sealing)**: The High Resolution Layer (HRL) Imperviousness by the Copernicus Land Monitoring Service (CLMS) captures the spatial distribution and change over time of artificially sealed and built-up areas in high-resolution and harmonized manner over entire  Europe. The contained datasets offer valuable insights for a variety of domains and applications – from infrastructure planning, urban management and environmental monitoring to disaster preparedness, real estate and tourism.
+ 
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Torino%20-%20Imperviousness%202024.png?raw=true" width="400"/></p>
 
 
 The risk index is therefore calculated as the average of all of these factors (each one normalized between 0-1).
