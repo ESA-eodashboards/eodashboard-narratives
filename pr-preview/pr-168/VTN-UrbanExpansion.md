@@ -212,11 +212,11 @@ Future development will focus on three directions: (1) Expand — apply the moni
 
 | **Name** | **Type** | **Agency / Provider** | **Description / Usage** |
 | --- | --- | --- | --- |
-| **[ALOS-2 PALSAR-2](https://www.eorc.jaxa.jp/ALOS/en/alos-2/a2_about_e.htm)** | Dataset | JAXA | 25 m L-band SAR data (2015–2025), calibrated, speckle filtered and converted to dB to extract HH/HV polarisation features for the Random Forest classification. |
+| **[ALOS-2 PALSAR-2](https://www.eorc.jaxa.jp/ALOS/en/alos-2/a2_about_e.htm)** | Dataset | JAXA | 25 m L-band SAR data (2015/07/22; 2020/03/25; 2025/01/22), calibrated, speckle filtered and converted to dB to extract HH/HV polarisation features for the Random Forest classification. |
 | **[Global PALSAR-2/PALSAR Yearly Mosaic on Google Earth Engine](https://developers.google.com/earth-engine/datasets/catalog/JAXA_ALOS_PALSAR_YEARLY_SAR_EPOCH)** | Data Access Platform | Google Earth Engine / JAXA EORC | Source of the ALOS-2 PALSAR-2 yearly mosaics (HH polarisation) shown in the story's map tour for 2015, 2020 and 2024. |
-| **[Landsat](https://www.usgs.gov/landsat-missions)** | Dataset | USGS | 30 m optical imagery (2015) used for band extraction, NDVI/NDWI/NDBI calculation, cloud masking and LULC classification. |
-| **[Sentinel-2](https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2)** | Dataset | ESA / Copernicus | 10 m optical imagery (2020–2025) used for spectral band extraction, vegetation index calculation and LULC classification. |
-| **PlanetScope** | Dataset | Planet Labs | 3 m imagery (2020, 2025) used for high-resolution validation and training sample collection. |
+| **[Landsat 8](https://www.usgs.gov/landsat-missions)** | Dataset | USGS | 30 m optical imagery (2015/07/01) used for band extraction, NDVI/NDWI/NDBI calculation, cloud masking and LULC classification. |
+| **[Sentinel-2](https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2)** | Dataset | ESA / Copernicus | 10 m optical imagery (2020/03/09;–2025/01/12) used for spectral band extraction, vegetation index calculation and LULC classification. |
+| **PlanetScope** | Dataset | Planet Labs | 3 m imagery (2020/11/13; 2025/01/12) used for high-resolution validation and training sample collection. |
 | **[SRTM](https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003)** | Dataset | NASA | 30 m Digital Elevation Model used to support the classification. |
 | **[EO Dashboard](https://eodashboard.org)** | Platform / Web Tool | ESA, NASA, JAXA | Hosts the interactive map tours of Hanoi, its suburban districts and the ALOS-2 PALSAR-2 time series. |
 
