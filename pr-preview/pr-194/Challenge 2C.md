@@ -162,7 +162,7 @@ To protect the aging population, the city should establish accessible cooling ce
 
 ## Open Science
 
-## <!--{ nav="false"}--> References
+### References
 ### Earth Observation data
 * Sentinel-3 SLSTR Level-2 LST — Copernicus / ESA
 * Sentinel-2 MSI Level-2A (COPERNICUS/S2_SR_HARMONIZED) — Copernicus, via Google Earth Engine
@@ -182,7 +182,7 @@ To protect the aging population, the city should establish accessible cooling ce
 ### Points of interest
 * OpenStreetMap contributors — hospitals, schools, elderly-care facilities, queried via Overpass API / osmnx
 
-## <!--{ nav="false"}--> Contributors
+### Contributors
 - Francesco Mezza — Coding and data processing
 - Sona Guliyeva — Project lead and supervision
 - Sophia Dolla — Theoretical framework
