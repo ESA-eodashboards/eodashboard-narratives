@@ -66,13 +66,15 @@ EO represents a transformative approach for operational rice yield estimation by
 
 ## Use case  <!--{ as="eox-map" mode="tour" }-->
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[100.00,14.47] zoom="11" animationOptions="{duration:500}" style="width: 50%; max-width: 60%; box-sizing: border-box;"}-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[100.13, 14.51] zoom="13" animationOptions="{duration:1000}" style="width: 100%; max-width: 50%; background:transparent; box-sizing: border-box;; color: #FFFFFF;"}-->
 ##### Suphan Buri
 Suphan Buri is located in the central region of Thailand (Figure 2). The province covers an area of approximately 5,358 km² and lies at elevations ranging from 3 to 10 m above mean sea level. The topography is predominantly characterized by flat alluvial plains with slopes of approximately 0–3%, making the area highly suitable for intensive agricultural production. Small upland areas are primarily located in the western part of the province. The southeastern region represents the lowest elevation, averaging approximately 3m above mean sea level, whereas the northern part reaches elevations of approximately 10m.
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/StudyArea_Suphan1.jpg?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
 <p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [2].</b> Study area map of Central Thailand (Suphan Buri province).</p> 
 </div> 
+
+The basemap uses Sentinel-2 Cloudless 2025 imagery to illustrate the agricultural landscape of Suphan Buri Province, highlighting cultivated fields, irrigation networks, and the region’s extensive rice-growing areas.
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"openstreetmap","title":"OpenStreetMap"},"source":{"type":"XYZ","urls":["https://tiles.maps.eox.at/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpg"],"attributions":"Data © OpenStreetMap contributors; rendering © EOX"}}]' center=[100.05,14.40] zoom="13" animationOptions="{duration:500}" style="width: 60%; max-width: 100%; box-sizing: border-box;"}-->
 
