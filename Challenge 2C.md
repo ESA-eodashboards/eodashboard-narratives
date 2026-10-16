@@ -47,17 +47,13 @@ According to the climate risk framework, **risk results from the interaction bet
 
 #### Dataset
 The used datasets were:
-| Category | Link | Description |
-|:-:|:-:|:-:|
-| 🛰️ **Satellite Imagery / EO** | [Sentinel-3 SLSTR L2 LST](https://sentiwiki.copernicus.eu/web/s3-slstr-products) | Daily (nighttime-pass) Land Surface Temperature, 1–15 Aug 2026 — the core heat-hazard layer of the index. *(Copernicus / ESA)* |
-| | Sentinel-2 MSI L2A (`COPERNICUS/S2_SR_HARMONIZED`) | Cloud-masked median composite used for NDVI/NDBI. *(Copernicus, via [Google Earth Engine](https://earthengine.google.com/))* |
-| 🌍 **Land Cover & Climate** | [Imperviousness HRL 2024](https://land.copernicus.eu/en/products/high-resolution-layer-imperviousness) | Soil sealing %, one of the 4 index components. *(Copernicus Land Monitoring Service)* |
-| | [ThermalTrace](https://thermaltrace.climate.copernicus.eu/) | ERA5 / UTCI daily temperature, used to select the heatwave window. *(Copernicus C3S / ECMWF)* |
-| 📍 **Geospatial & Vector Data** | [Geoportale Piemonte](https://igr.piemonte.it/) | District boundaries, urban green areas, population by age and district. *(Città di Torino open geodata CC BY 4.0)* |
-| | [OpenStreetMap](https://osmnx.readthedocs.io)| Hospitals, schools, elderly-care facility locations. *(OSM contributors, via Overpass API)* |
-| 💻 **Platforms / Tools** | [EO Dashboard](https://eodashboard.org/explore/?x=7.6869&y=45.0703&z=10.0000&datetime=2026-08-13&template=expert) | Base layers and visualization tools for interactive exploration. *(EO Dashboard Consortium: ESA, NASA, JAXA)* |
+- **Sentinel-3 SLSTR (Land Surface Temperature - LST)**:  a European Earth Observation satellite mission developed to measure sea surface topography, sea and land surface temperature, and ocean and land surface color. The Land Surface Temperature is provided with a spatial resolution of 1 km at nadir. 
 
+- **High Resolution Layer Imperviousness**: The High Resolution Layer (HRL) Imperviousness by the Copernicus Land Monitoring Service (CLMS) captures the spatial distribution and change over time of artificially sealed and built-up areas in high-resolution and harmonized manner over entire Europe.
 
+- **District and Popolation Data (Municipality of Torino)**: Vector files to define the official administrative boundaries of the city (the 8 "circoscrizioni" or districts) and the number and age of the inhabitants in each district. They were used to aggregate the raster data and calculate statistics for each one.
+
+- **Green Areas Data (Municipality of Torino Open Data)**: Vector files retrieved from the city's official open data portal, mapping the polygons of public green spaces across the urban area (including parks, gardens, and tree-lined avenues).
 
 #### Methodology workflow
 The team's methodology included the following steps and expected outcomes:
@@ -167,7 +163,16 @@ To protect the aging population, the city should implement targeted social resil
 * Deploy **mobile health units** and strengthen **neighborhood networks** to ensure isolated elderly residents stay safe during extreme heatwaves.
 
 ## Open Science
-
+The used datasets were:
+| Category | Link | Description |
+|:-:|:-:|:-:|
+| 🛰️ **Satellite Imagery / EO** | [Sentinel-3 SLSTR L2 LST](https://sentiwiki.copernicus.eu/web/s3-slstr-products) | Daily (nighttime-pass) Land Surface Temperature, 1–15 Aug 2026 — the core heat-hazard layer of the index. *(Copernicus / ESA)* |
+| | Sentinel-2 MSI L2A (`COPERNICUS/S2_SR_HARMONIZED`) | Cloud-masked median composite used for NDVI/NDBI. *(Copernicus, via [Google Earth Engine](https://earthengine.google.com/))* |
+| 🌍 **Land Cover & Climate** | [Imperviousness HRL 2024](https://land.copernicus.eu/en/products/high-resolution-layer-imperviousness) | Soil sealing %, one of the 4 index components. *(Copernicus Land Monitoring Service)* |
+| | [ThermalTrace](https://thermaltrace.climate.copernicus.eu/) | ERA5 / UTCI daily temperature, used to select the heatwave window. *(Copernicus C3S / ECMWF)* |
+| 📍 **Geospatial & Vector Data** | [Geoportale Piemonte](https://igr.piemonte.it/) | District boundaries, urban green areas, population by age and district. *(Città di Torino open geodata CC BY 4.0)* |
+| | [OpenStreetMap](https://osmnx.readthedocs.io)| Hospitals, schools, elderly-care facility locations. *(OSM contributors, via Overpass API)* |
+| 💻 **Platforms / Tools** | [EO Dashboard](https://eodashboard.org/explore/?x=7.6869&y=45.0703&z=10.0000&datetime=2026-08-13&template=expert) | Base layers and visualization tools for interactive exploration. *(EO Dashboard Consortium: ESA, NASA, JAXA)* |
 ### References
 
 * Beretta, S. “Meteo oggi 4 agosto: bollino rosso in 25 città su 27, punte di 41°C”, Quotidiano Motori, 4 Aug 2026 — nationwide red-alert heatwave, corroborating the analysis window
