@@ -174,11 +174,14 @@ The used datasets were:
 | | [OpenStreetMap](https://osmnx.readthedocs.io)| Hospitals, schools, elderly-care facility locations. *(OSM contributors, via Overpass API)* |
 | 💻 **Platforms / Tools** | [EO Dashboard](https://eodashboard.org/explore/?x=7.6869&y=45.0703&z=10.0000&datetime=2026-08-13&template=expert) | Base layers and visualization tools for interactive exploration. *(EO Dashboard Consortium: ESA, NASA, JAXA)* |
 ### References
+* **Beretta, S. (2026, August 4).** *Meteo oggi 4 agosto: bollino rosso in 25 città su 27, punte di 41°C*. Quotidiano Motori.
 
-* Beretta, S. “Meteo oggi 4 agosto: bollino rosso in 25 città su 27, punte di 41°C”, Quotidiano Motori, 4 Aug 2026 — nationwide red-alert heatwave, corroborating the analysis window
-* https://dutchclimaterisk.nl/climate-risk/risk-assessment-guidance/
-* https://heat.gov/who-is-most-at-risk-to-extreme-heat/at-risk-older-adults/
-* https://www.sciencedirect.com/science/article/pii/S2212096325000452
+* **Dutch Climate Risk.** *Risk Assessment Guidance*. [https://dutchclimaterisk.nl/climate-risk/risk-assessment-guidance/](https://dutchclimaterisk.nl/climate-risk/risk-assessment-guidance/)
+
+* **Heat.gov / National Integrated Heat Health Information System.** *Who is Most at Risk to Extreme Heat: Older Adults*.  [https://heat.gov/who-is-most-at-risk-to-extreme-heat/at-risk-older-adults/](https://heat.gov/who-is-most-at-risk-to-extreme-heat/at-risk-older-adults/)
+
+* **Karimi Firozjaei, M., Mahmoodi, H., Qureshi, S., & Haase, D.** *Seasonal dynamics of the urban anthropogenic heat island across human–natural systems: A case study of Ahvaz, Iran*.
+* **Soltanifard, H., & Amani-Beni, M.** *The cooling effect of urban green spaces as nature-based solutions for mitigating urban heat: insights from a decade-long systematic review*. [https://www.sciencedirect.com/science/article/pii/S2212096325000452](https://www.sciencedirect.com/science/article/pii/S2212096325000452)
 
 ### Contributors
 - Francesco Mezza — Coding and data processing
