@@ -1,18 +1,16 @@
-<!--
 ---
 cover-image: https://placehold.co/600x400/png
 date: 2025-01-01
 theme: theme_name
 tags: some,tags
 official: false
----
--->
 
 # When Heat Meets Pollution: Mapping Madrid’s Urban Heat–Air Quality Connection from Space <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7a9015e727bdd1b39edfc85fc116f6b7f4a9c91d/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.09.00-1789683136373.jpeg" }--> 
 
 
+####
 
-## <!--{ nav="false"}--> Authors: Gianluca Flaminio¹, Nikolina Zallemi¹, Vittoria Rezzuto¹, and Thomas Xolias²
+## Authors: Gianluca Flaminio¹, Nikolina Zallemi¹, Vittoria Rezzuto¹, and Thomas Xolias²
 > ¹ Politecnico di Milano  ² Aristotle University of Thessaloniki
 
 *This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub on 14-18 September 2026. It was developed by a team from Politecnico di Milano and Aristotle University of Thessaloniki.*
@@ -45,7 +43,7 @@ The objective is to investigate the spatial and temporal relationship between **
 
 Rather than asking only whether two maps look similar, the analysis quantifies how much of the observed spatial variability in LST is associated with meteorology, vegetation, topography and air-pollution.
 
-## <!--{ nav="false"}--> Analysed phenomena
+## Analysed phenomena
 
 ### Urban heat island and land-surface temperature
 
@@ -87,7 +85,7 @@ NO₂ also has a marked diurnal cycle. Concentrations can increase during traffi
   Digital Elevation Model of the Madrid study area. The bounding box indicates the area analysed in this study.
 </p>
 
-## Use case <!--{ as="eox-map" mode="tour" position="left" }-->
+## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
 ### <!--{ zoom=3 center=[0,20] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
 #### From Space
@@ -114,7 +112,7 @@ The event provides the large-scale thermal context for our July analysis: intens
 
 Madrid combines a dense built-up core, major transport corridors, large green spaces and a pronounced elevation gradient. This makes it possible to investigate whether the spatial footprint of heat overlaps with atmospheric-composition patterns and whether vegetation and topography help explain those contrasts.
 
-## Data and Methods
+## Methods
 
 ### Study design
 
@@ -163,9 +161,7 @@ The principal analysis used July nighttime observations.
 
 This uses all available daytime observations and all available nighttime observations without requiring day and night retrievals to occur on the same date. It should be interpreted as a representative combination of the selected day/night windows, **not** as a true 24-hour daily mean.
 
-## Results
-
-### Data Analysis
+## Data Analysis
 
 ### Land Surface Temperature: Madrid changes character between winter and summer
 
@@ -235,6 +231,7 @@ NO₂ patterns change between season and time of day because emissions, atmosphe
 
 <p align="center"><em>Seasonal and diurnal shifts in NO₂ over Madrid.</em></p>
 
+## Results
 ### July 2026: A summer-month case study of nighttime heat and ozone
 The main analysis focuses on July 2026 and particularly on the selected nighttime window. Nighttime conditions are important because elevated land-surface and air temperatures after sunset indicate limited thermal relief. O₃ is treated as the principal pollution variable, while NO₂ is retained as a complementary indicator of urban emissions and NOₓ–O₃ chemistry.
 
@@ -394,7 +391,7 @@ Vegetation and elevation provided additional context for the spatial temperature
 Overall, combined environmental risk in Madrid cannot be represented by a single heat–pollution hotspot map. Measures targeting nighttime urban heat and locally emitted NO₂ may be most relevant in dense urban areas, while O₃ mitigation also requires attention to precursor emissions and regional transport beyond the hottest parts of the city. The integrated Earth-observation approach helps identify these contrasting spatial patterns, although longer time series and ground-based validation are needed before drawing conclusions about long-term exposure or causality.
 
 
-## <!--{ nav="false"}--> Future work
+## Future work
 
 Future work should extend the analysis to **more months, multiple years and additional heatwave events**, in order to test whether the observed patterns remain consistent under different meteorological conditions.
 
@@ -406,32 +403,7 @@ Future developments should also include higher-resolution urban information, suc
 
 Spatial statistical methods that explicitly account for spatial autocorrelation could also improve the robustness of the analysis.
 
-## <!--{ as="div" }--> Open Science
-
-### Datasets and platforms
-
-The following table lists the datasets and the mapping and publication services identified in this story. Links point to the corresponding provider, dataset documentation or service. Data-access links identify where the resources are available; they do not imply that a particular portal was used for processing.
-
-| Name | Type | Agency / Provider | Description / Usage |
-|---|---|---|---|
-| [Sentinel-3 SLSTR Land Surface Temperature (SL_2_LST)](https://sentinels.copernicus.eu/documents/247904/4598082/Sentinel-3-SLSTR-Land-Handbook.pdf) | Satellite dataset | Copernicus / ESA / EUMETSAT | Land-surface temperature for the January and July 2026 daytime and nighttime analysis; main response variable on the common 1 km grid. |
-| [ERA5 hourly data on single levels](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-single-levels) | Reanalysis dataset / data-access platform | Copernicus Climate Change Service / ECMWF Climate Data Store | 2-m air temperature used as the meteorological background and a predictor in the spatial analysis. |
-| [CAMS European air quality forecasts / analyses](https://www.copernicus.eu/en/access-data/copernicus-services-catalogue/cams-european-air-quality-forecasts) | Atmospheric model dataset | Copernicus Atmosphere Monitoring Service | Gridded NO₂ and O₃ fields used in the quantitative harmonised analysis. The exact product, version and vertical level should be recorded with the analysis code. |
-| [Sentinel-5P TROPOMI data products](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P/Data_products) | Satellite datasets | Copernicus / ESA | NO₂ and O₃ products referenced for Earth-observation visualisation and future integration. The Level-3 NO₂ maps are shown in Future work; these satellite products are not part of the reported CAMS-based regression workflow. |
-| [Sentinel-2](https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2) | Satellite dataset / data-access platform | Copernicus / ESA; Copernicus Data Space Ecosystem | Imagery used to derive monthly NDVI for January and July 2026, aligned to the common 1 km grid. |
-| [MDT25 — 1ª cobertura](https://centrodedescargas.cnig.es/CentroDescargas/modelo-digital-terreno-mdt25-primera-cobertura) | Elevation dataset / download platform | CNIG / Instituto Geográfico Nacional, Spain | Digital terrain model used as the elevation control, aggregated or aligned to the analysis grid. |
-| [EOX Maps WMTS](https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml) | Basemap datasets / mapping service | EOX | Supplies the s2cloudless-2025 and terrain-light background layers configured in the interactive Use case map. |
-| [OpenStreetMap](https://www.openstreetmap.org/copyright) | Basemap dataset / mapping service | OpenStreetMap contributors | Street-map tiles used as a contextual overlay in the Madrid map tour. |
-| [Earth Observation Dashboard](https://eodashboard.org/) | Storytelling and visualisation platform | ESA / NASA / JAXA | Dashboard platform targeted by this Markdown story and its interactive map configuration. |
-| [EO Dashboard narratives repository](https://github.com/ESA-eodashboards/eodashboard-narratives) | Asset-hosting repository | ESA-eodashboards / GitHub | Hosts the image and animation assets linked throughout this story. |
-
-### Reproducibility
-
-The analysis uses a common 1 km grid in ETRS89 / UTM zone 30N (EPSG:25830), the Europe/Madrid time zone, and the daytime and nighttime windows documented in Data and Methods.
-
-<!-- Before publication: add the actual analysis notebook/code repository and processing platform, including links and software versions. Confirm the exact CAMS product and vertical level, Sentinel-2 processing level, Sentinel-5P Level-3 source, and study-boundary source. These details were not identified in the supplied draft; no platform or repository has been assumed. -->
-
-### References
+## References
 
 1. Weng, Q., Yang, S. *Urban Air Pollution Patterns, Land Use, and Thermal Landscape: An Examination of the Linkage Using GIS.* Environmental Monitoring and Assessment 117, 463-489 (2006). https://doi.org/10.1007/s10661-006-0888-9
 2. Fuladlu, K., Altan, H. *Examining land surface temperature and relations with the major air pollutants: A remote sensing research in case of Tehran.* Urban Climate 39, 100958 (2021). https://doi.org/10.1016/j.uclim.2021.100958
@@ -446,7 +418,7 @@ The analysis uses a common 1 km grid in ETRS89 / UTM zone 30N (EPSG:25830), the 
 11. European Space Agency. *Sentinel-5P data products.* https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-5P/Data_products
 12. Centro Nacional de Información Geográfica / Instituto Geográfico Nacional. *MDT25 - 1ª cobertura.* https://centrodedescargas.cnig.es/CentroDescargas/modelo-digital-terreno-mdt25-primera-cobertura
 
-## <!--{ nav="false"}--> Contributors
+## Contributors
 
 **Authors:** Gianluca Flaminio, Nikolina Zallemi, Vittoria Rezzuto and Thomas Xolias  
 **Institutions:** Politecnico di Milano and Aristotle University of Thessaloniki
