@@ -1,3 +1,4 @@
+<!--
 ---
 cover-image: https://placehold.co/600x400/png
 date: 2025-01-01
@@ -5,6 +6,7 @@ theme: theme_name
 tags: some,tags
 official: false
 ---
+-->
 
 # When Heat Meets Pollution: Mapping Madrid’s Urban Heat–Air Quality Connection from Space <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7a9015e727bdd1b39edfc85fc116f6b7f4a9c91d/assets/vittorez/WhatsApp-Image-2026-09-18-at-00.09.00-1789683136373.jpeg" }--> 
 
@@ -311,7 +313,7 @@ January was retained as a seasonal reference. During January daytime, ERA5 air t
 
 The R² values for NO₂ and O₃ should not be added because the pollutants describe overlapping spatial structures. Each value represents a separate bivariate association and not an independent or causal contribution to LST.
 
-![simple_spatial_relationships_lst_table.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/78c2347d4bc2285af2ff56419833a77867f16a5f/assets/NikolinaZallemi/simplespatialrelationshipslsttable-1790599034862.png)
+![![simple_spatial_relationships_lst_table.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/49e9e28d776127e1cd3a216da43870c2e98d644b/assets/NikolinaZallemi/simplespatialrelationshipslsttable-1790598705926.png)](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/78c2347d4bc2285af2ff56419833a77867f16a5f/assets/NikolinaZallemi/simplespatialrelationshipslsttable-1790599034862.png)
 
 <p align="center"><em>Pearson correlations and corresponding R²=r² values for the simple spatial relationships with LST. July nighttime is highlighted as the principal analysis period, while January is included as a seasonal reference.</em></p>
 
