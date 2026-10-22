@@ -46,7 +46,7 @@ The study, dedicated to **Mangroves for Coastal Erosion Control**, was developed
 ## Challenge <!--{ style="font-size:2.00rem;opacity:1;margin-top:1rem; color:Navy" }-->
 Coastal erosion poses **a critical and ongoing threat to Indonesia's mangrove ecosystems.** The sheer scale of this environmental degradation is immense; between 2009 and 2019, Indonesia experienced a total net loss of 128,176 hectares of mangrove area.
 <div style="display: flex; flex-direction: column; align-items: center; margin: 10px 0;"> 
-<img src="https://github.com/phkh1366/eoxhub-related/blob/main/PieChart.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
+<img src="https://github.com/phkh1366/eoxhub-related/blob/main/Ind-Pie%20chart_2.png?raw=true" style="max-width: 100%; width: 1200px; height: auto;"  /> 
 <p style="text-align: center; font-size: 0.9em; font-style: italic; margin-top: 5px; margin-bottom: 1px;"> <b>Figure [1].</b> Total mangrove lost in Indonesia during 2009-2019. </p> 
 </div>
 
