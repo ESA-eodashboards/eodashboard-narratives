@@ -273,3 +273,5 @@ We thank the Japan Aerospace Exploration Agency (JAXA) for ALOS-2 PALSAR-2 data.
 
 **Figure 2:** Illustration of the Advanced Land Observing Satellite-2 (ALOS-2, DAICHI-2). Image attributed in the story to the Japan Aerospace Exploration Agency (JAXA). Original illustration source and reuse permissions should be confirmed. [JAXA ALOS-2 mission page](https://global.jaxa.jp/projects/sat/alos2/).
 
+### Disclaimer:
+This paper is currently undergoing final editorial review. Minor revisions may be made during the publication process; however, no substantial changes to the scientific findings or conclusions are anticipated.
