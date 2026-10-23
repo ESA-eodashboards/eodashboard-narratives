@@ -135,7 +135,7 @@ Growth thickens along Ha Dong and Gia Lam, with new built-up clusters visible be
 Peri-urban districts, Hoang Mai, Long Bien, Dong Anh, show denser built-up returns, marking the mid-study acceleration.
 
 ## Data and Methods
-The analytical workflow of this project is established upon the optimal integration of multi-sensor data sources within the Google Earth Engine (GEE) cloud computing platform, enabling high-performance processing of big geospatial data with superior precision and consistency.
+The analytical workflow of this project is established upon the optimal integration of multi-sensor data sources:
 
 **Sentinel-2** optical and **ALOS-2 PALSAR-2** SAR imagery provide complementary observations of Hanoi's urban landscape. Optical data capture spectral characteristics of vegetation, built-up areas, and water, whereas SAR provides information related to surface structure and roughness. Combining the two data types therefore provides richer information for land-cover mapping and urban monitoring.
 
@@ -146,7 +146,7 @@ The analytical workflow of this project is established upon the optimal integrat
 
 **Why combine optical and SAR?** Optical imagery describes surface and vegetation properties, while SAR provides complementary structural information that can improve characterization of complex urban landscapes.
 
-The study combines optical, radar, and topographic data within Google Earth Engine (GEE). The datasets were pre-processed, co-registered, and integrated to generate land-cover features. Spectral indices, including NDVI, NDBI, and NDWI, were calculated from optical imagery, while ALOS-2 PALSAR-2 provided complementary radar information.
+The study combines optical, radar, and topographic data. The datasets were pre-processed, co-registered, and integrated to generate land-cover features. Spectral indices, including NDVI, NDBI, and NDWI, were calculated from optical imagery, while ALOS-2 PALSAR-2 provided complementary radar information.
 
 <div style="display:flex;flex-direction:column;align-items:center;margin:10px 0;">
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN-FlowchartHQ.png?raw=true" style="max-width:100%;width:1000px;height:auto;" alt="Analysis workflow" />
