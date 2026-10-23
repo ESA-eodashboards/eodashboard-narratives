@@ -1,5 +1,5 @@
 ---
-cover-image: https://github.com/phkh1366/eoxhub-related/blob/main/08.%20Preferred%20Cover%20Photo.jpg?raw=true
+cover-image: https://raw.githubusercontent.com/phkh1366/eoxhub-related/refs/heads/main/08.%20Preferred%20Cover%20Photo.jpg
 date: 2026-08-01
 theme: Biomass
 tags: Mangrove,Indonesia
