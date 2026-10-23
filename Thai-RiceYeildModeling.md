@@ -3,7 +3,7 @@ cover-image: https://static.bangkokpost.com/media/content/dcx/2023/09/23/4900669
 date: 2026-08-01
 theme: Agriculture
 tags: Yield Estimation,Rice
-official: true
+official: false
 collections: collectionIdentifier1, collectionIdentifier2
 ---
 
