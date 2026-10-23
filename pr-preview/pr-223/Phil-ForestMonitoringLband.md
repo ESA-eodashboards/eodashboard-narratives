@@ -42,7 +42,7 @@ The study, dedicated to assessing **Forest Clearing in Mindanao with L-band Rada
 
 On the forested slopes of Davao de Oro, in southern Mindanao, the forest seldom disappears all at once. A trail is cut, a camp goes up, a plot is cleared for farming or small-scale gold mining, and then another. The province lost about 43,000 ha of tree cover between 2001 and 2023 (Global Forest Watch, 2024), and two of its towns, Laak and Nabunturan, are listed as illegal-logging hotspots in the Philippine Forestry Statistics (Lopez, 2024). The slopes are steep and mined for gold: on 6 February 2024, a landslide buried part of the gold-mining village of Masara, in Maco, killing nearly 100 people (Fabro, 2024).
 
-Davao de Oro is part of a national story. The Philippines lost about 1.42 million hectares of tree cover between 2001 and 2022, roughly 7.6% of its 2000 extent, releasing on the order of 848 million tonnes of CO₂ (Global Forest Watch, 2024). The country also reports its forest emissions under the UNFCCC, through its forest reference level for REDD+ (UNFCCC, 2022). Rangers, local governments and national reporting all need timely maps of where and when the forest is cut. This story brings together the Philippine Space Agency (PhilSA) and the national forest agency (DENR-FMB) to ask what JAXA's L-band radar can add to those maps.
+Davao de Oro is part of a national story. The Philippines lost about 1.42 million hectares of tree cover between 2001 and 2022, roughly 7.6% of its 2000 extent, releasing on the order of 848 million tonnes of CO₂ (Global Forest Watch, 2024). The country also reports its forest emissions under the United Nations Framework Convention on Climate Change (UNFCCC), through its forest reference level for Reducing Emissions from Deforestation and forest Degradation in developing countrie (REDD+) (UNFCCC, 2022). Rangers, local governments and national reporting all need timely maps of where and when the forest is cut. This story brings together the Philippine Space Agency (PhilSA) and the Department of Environment and Natural Resources – Forest Management Bureau of Philippines (DENR-FMB) to ask what Japan Aerospace Exploration Agency (JAXA)'s L-band radar can add to those maps.
 
 ### Problem Statement <!--{ style="font-size:1.30rem;opacity:1;margin-top:1rem; color:black" }-->
 
@@ -52,7 +52,7 @@ Only satellites can watch every hectare of a frontier like this, but each one se
 - **C-band radar** (ESA Sentinel-1) sees through cloud, but its 5.6 cm waves bounce mostly off leaves and twigs.
 - **L-band radar** (JAXA ALOS-2) uses 24 cm waves that pass through cloud and foliage and bounce off trunks and large branches. It senses the structure of the forest.
 
-Each feeds a ready-made forest-loss product: the Landsat-based Hansen map, the RADD alerts from Sentinel-1, and the JICA–JAXA JJ-FAST alerts from ALOS-2 (Watanabe et al., 2021). They were built for different jobs, so we look at how they complement each other, not to rank them.
+Each feeds a ready-made forest-loss product: the Landsat-based Hansen map, the RAdar for Detecting Deforestation (RADD) alerts from Sentinel-1, and the JICA–JAXA Forest Early Warning System in the Tropics (JJ-FAST) alerts from ALOS-2 (Watanabe et al., 2021). They were built for different jobs, so we look at how they complement each other, not to rank them.
 
 Two ALOS-2 measurements matter here: 
 - HV (horizontal send, vertical receive) comes mostly from volume scattering among branches in the crown, so it drops when trees are removed. 
@@ -223,7 +223,7 @@ Since November 2022, JAXA has released ALOS-2 ScanSAR data free of charge (JAXA,
 
 - **Check what only L-band sees.** For more robust results, it would be good to look at the 65 unconfirmed JJ-FAST alerts, and identified L-band-only areas, using high-resolution imagery and using field validation.
 - **Test on documented encroachment sites with field records.** This research focused on sites identified using satellites on documented forest encroachment areas. Using field records would provide ground validation and also provide information on whether the actual encroachment cases could have been detected using L-band or other remote sensing imagery earlier.
-- **Build on ALOS-4 and NISAR.** JAXA's ALOS-4 has a much wider swath and coupled with NISAR, would open the way to an L-band layer which could complement the CopPhil forest monitoring service.
+- **Build on ALOS-4 and NISAR.** JAXA's ALOS-4 has a much wider swath and coupled with NASA–ISRO Synthetic Aperture Radar (NISAR), would open the way to an L-band layer which could complement the National Copernicus Capacity Support Action Programme for the Philippines (CopPhil) forest monitoring service.
 - **Work with the JJ-FAST team.** Explore how JJ-FAST's low false-alert design and the averaging approach could work together for small clearings in Southeast Asia.
 
 ## Open Science
@@ -273,3 +273,5 @@ We thank the Japan Aerospace Exploration Agency (JAXA) for ALOS-2 PALSAR-2 data.
 
 **Figure 2:** Illustration of the Advanced Land Observing Satellite-2 (ALOS-2, DAICHI-2). Image attributed in the story to the Japan Aerospace Exploration Agency (JAXA). Original illustration source and reuse permissions should be confirmed. [JAXA ALOS-2 mission page](https://global.jaxa.jp/projects/sat/alos2/).
 
+### Disclaimer:
+This paper is currently undergoing final editorial review. Minor revisions may be made during the publication process; however, no substantial changes to the scientific findings or conclusions are anticipated.
