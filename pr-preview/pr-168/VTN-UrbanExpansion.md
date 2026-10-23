@@ -241,9 +241,10 @@ Future development will focus on three directions: (1) Expand — apply the moni
 
 
 #### Image and visualisation credits
-
 - **Cover and header image:** Original to the study.
 - **Figures 1:** Original to the study.
 - **Figure 2 (ALOS-2 satellite):** Japan Aerospace Exploration Agency (JAXA).
 
 
+### Disclaimer:
+This paper is currently undergoing final editorial review. Minor revisions may be made during the publication process; however, no substantial changes to the scientific findings or conclusions are anticipated.
