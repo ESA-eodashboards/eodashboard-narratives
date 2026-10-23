@@ -240,5 +240,6 @@ Scope Area
 **Figure 11:** Mangrove area comparison chart for Kuala Selat and Pangpang Bay (2021 and 2024). Visualisation provided by the Indonesian ALOS-2 Ideathon study team.
 
 
-
+### Disclaimer:
+This paper is currently undergoing final editorial review. Minor revisions may be made during the publication process; however, no substantial changes to the scientific findings or conclusions are anticipated.
 
