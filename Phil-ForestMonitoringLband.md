@@ -1,7 +1,7 @@
 ---
 cover-image: https://raw.githubusercontent.com/phkh1366/eoxhub-related/refs/heads/main/Phil_cover_alos2_hv_composite.png
 date: 2026-10-06
-theme: Environment
+theme: biomass
 tags: Forest Monitoring,Deforestation,ALOS-2,L-band
 official: false
 collections: collectionIdentifier1, collectionIdentifier2
