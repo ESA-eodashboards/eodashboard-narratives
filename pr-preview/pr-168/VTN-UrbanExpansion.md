@@ -57,9 +57,9 @@ To **monitor and quantify urbanization and land-cover changes in Hanoi using mul
 
 The four objectives above define the main analytical and planning-oriented outputs of the study.
 
-## Use case <!--{ as="eox-map" mode="tour" nav="false" style="width:60%;max-width:60%;background:transparent;background-color:transparent;color:#FFFFFF;" }-->
+## Use case <!--{ as="eox-map" mode="tour" nav="false" style="width:75%;max-width:75%;background:transparent;background-color:transparent;color:#FFFFFF;" }-->
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[105.85,21.03] zoom="11" animationOptions="{duration:1000}" style="width:60%;max-width:60%;background:transparent;background-color:transparent;color:#FFFFFF;box-sizing:border-box;" }-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[105.85,21.03] zoom="11" animationOptions="{duration:1000}" style="width:75%;max-width:75%;background:transparent;background-color:transparent;color:#FFFFFF;box-sizing:border-box;" }-->
 
 #### Hanoi
 Hanoi serves as the primary political, economic, and cultural hub of Vietnam, having experienced one of the nation's most accelerated urbanization rates throughout the last twenty years. Geographically situated within the Red River Delta, the city encompasses approximately 3,360 km², positioning it as one of the most expansive capital cities in Southeast Asia in terms of land area.
@@ -71,44 +71,44 @@ Hanoi serves as the primary political, economic, and cultural hub of Vietnam, ha
 
 Recent census data from 2024 indicates a population of nearly 8.7 million, Hanoi is one of Vietnam's largest cities by population. The city's urban footprint has been steadily pushing outward into suburban districts, including Gia Lam, Long Bien, Ha Dong, Hoang Mai, Soc Son, and Dong Anh. This rapid physical growth is driven by the extensive development of transportation networks, modern residential zones, and industrial clusters. Such profound modifications to land use and natural topography have placed considerable strain on local natural resources and the quality of the urban environment. Consequently, leveraging Earth Observation (EO) technologies for the systematic monitoring and quantification of Hanoi's urban sprawl has become a critical requirement for evidence-based sustainable planning and efficient territorial management.
 
-### <!--{ center=[105.9618,21.0256] zoom="15" animationOptions="{duration:1000}" style="width:60%;max-width:60%;background:transparent;background-color:transparent;color:#FFFFFF;box-sizing:border-box;" }-->
+### <!--{ center=[105.9618,21.0256] zoom="15" animationOptions="{duration:1000}" style="width:75%;max-width:75%;background:transparent;background-color:transparent;color:#FFFFFF;box-sizing:border-box;" }-->
 
 #### Gia Lam
 Gia Lam is located to the east of central Hanoi and represents one of the important suburban expansion areas. Urban growth in this district is associated with new residential development, transport connections, and conversion of agricultural land.
 
-### <!--{ center=[105.91,21.03] zoom="15" animationOptions="{duration:1000}" style="width:60%;max-width:60%;background:transparent;background-color:transparent;color:#FFFFFF;box-sizing:border-box;" }-->
+### <!--{ center=[105.91,21.03] zoom="15" animationOptions="{duration:1000}" style="width:75%;max-width:75%;background:transparent;background-color:transparent;color:#FFFFFF;box-sizing:border-box;" }-->
 
 #### Long Bien
 Long Bien lies northeast of Hanoi’s historical center, across the Red River. It has experienced strong urban development due to improved connectivity, commercial growth, and expansion of residential areas.
 
-### <!--{ center=[105.78,20.97] zoom="15" animationOptions="{duration:1000}" style="width:60%;max-width:60%;background:transparent;background-color:transparent;color:#FFFFFF;box-sizing:border-box;" }-->
+### <!--{ center=[105.78,20.97] zoom="15" animationOptions="{duration:1000}" style="width:75%;max-width:75%;background:transparent;background-color:transparent;color:#FFFFFF;box-sizing:border-box;" }-->
 
 #### Ha Dong
 Ha Dong is located southwest of central Hanoi and has become one of the city’s major urban expansion zones. Its growth reflects the development of modern residential areas, road infrastructure, and urban services.
 
-### <!--{ center=[105.86,20.98] zoom="15" animationOptions="{duration:1000}" style="width:60%;max-width:60%;background:transparent;background-color:transparent;color:#FFFFFF;box-sizing:border-box;" }-->
+### <!--{ center=[105.86,20.98] zoom="15" animationOptions="{duration:1000}" style="width:75%;max-width:75%;background:transparent;background-color:transparent;color:#FFFFFF;box-sizing:border-box;" }-->
 
 #### Hoang Mai
 Hoang Mai is situated in the southern part of Hanoi. The district has seen rapid transformation from peri-urban and mixed land-use areas into dense residential and transport-linked urban zones.
 
-### <!--{ center=[105.85,21.25] zoom="14" animationOptions="{duration:1000}" style="width:60%;max-width:60%;background:transparent;background-color:transparent;color:#FFFFFF;box-sizing:border-box;" }-->
+### <!--{ center=[105.85,21.25] zoom="14" animationOptions="{duration:1000}" style="width:75%;max-width:75%;background:transparent;background-color:transparent;color:#FFFFFF;box-sizing:border-box;" }-->
 
 #### Soc Son
 Soc Son is located in northern Hanoi and includes more rural and peri-urban landscapes. Urban pressure in this area is influenced by transport infrastructure, industrial activities, and proximity to Noi Bai International Airport.
 
-### <!--{ center=[105.85,21.15] zoom="14" animationOptions="{duration:1000}" style="width:60%;max-width:60%;background:transparent;background-color:transparent;color:#FFFFFF;box-sizing:border-box;" }-->
+### <!--{ center=[105.85,21.15] zoom="14" animationOptions="{duration:1000}" style="width:75%;max-width:75%;background:transparent;background-color:transparent;color:#FFFFFF;box-sizing:border-box;" }-->
 
 #### Dong Anh
 Dong Anh lies north of the Red River and is considered a strategic area for Hanoi’s future urban expansion. Development in this district is linked to infrastructure projects, residential growth, and industrial zones.
 
-### <!--{ center=[105.85,21.08] zoom="11" animationOptions="{duration:1000}" style="width:60%;max-width:60%;background:transparent;background-color:transparent;color:#FFFFFF;box-sizing:border-box;" }-->
+### <!--{ center=[105.85,21.08] zoom="11" animationOptions="{duration:1000}" style="width:75%;max-width:75%;background:transparent;background-color:transparent;color:#FFFFFF;box-sizing:border-box;" }-->
 
 #### Urban growth pressure
 This rapid physical growth is driven by the extensive development of transportation networks, modern residential zones, and industrial clusters. Such profound modifications to land use and natural topography have placed considerable strain on local natural resources and the quality of the urban environment.
 
-## ALOS-2 ScanSAR L2.2 Timeseries <!--{ as="eox-map" mode="tour" nav="false" style="width:60%;max-width:60%;background:#333333;background-color:rgba(35,35,35,0.92);color:#FFFFFF;" }-->
+## ALOS-2 ScanSAR L2.2 Timeseries <!--{ as="eox-map" mode="tour" nav="false" style="width:75%;max-width:75%;background:#333333;background-color:rgba(35,35,35,0.92);color:#FFFFFF;" }-->
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light","visible":true},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"WebGLTile","source":{"type":"GeoTIFF","normalize":false,"interpolate":false,"sources":[{"url":"https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2015.tif"}]},"properties":{"id":"palsar2-yearly-hanoi;:;2015-01-01T00:00:00Z;:;0","title":"Hanoi_2015"},"style":{"variables":{"band":1},"color":["case",[">",["band",1],0],["interpolate",["linear"],["/",["band",1],8000],0,[0,0,0,1],1,[255,255,255,1]],["color",0,0,0,0]]}},{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels","visible":true},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]' center=[105.85,21.03] zoom="11.5" animationOptions="{duration:1000}" style="width:60%;max-width:60%;background:#333333;background-color:rgba(35,35,35,0.92);color:#FFFFFF;box-sizing:border-box;" }-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light","visible":true},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"WebGLTile","source":{"type":"GeoTIFF","normalize":false,"interpolate":false,"sources":[{"url":"https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2015.tif"}]},"properties":{"id":"palsar2-yearly-hanoi;:;2015-01-01T00:00:00Z;:;0","title":"Hanoi_2015"},"style":{"variables":{"band":1},"color":["case",[">",["band",1],0],["interpolate",["linear"],["/",["band",1],8000],0,["color",8,32,76,1],0.18,["color",28,78,128,1],0.38,["color",73,132,180,1],0.58,["color",161,169,119,1],0.78,["color",230,135,44,1],0.92,["color",214,69,33,1],1,["color",255,245,200,1]],["color",0,0,0,0]]}},{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels","visible":true},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]' center=[105.85,21.03] zoom="11.5" animationOptions="{duration:1000}" style="width:75%;max-width:75%;background:#333333;background-color:rgba(35,35,35,0.92);color:#FFFFFF;box-sizing:border-box;" }-->
 
 The **Advanced Land Observing Satellite-2 (ALOS-2)**, operated by the Japan Aerospace Exploration Agency (**JAXA**), is an Earth observation satellite equipped with the **Phased Array type L-band Synthetic Aperture Radar-2 (PALSAR-2)**. Unlike optical sensors, PALSAR-2 uses microwave radar signals, allowing observations **during both day and night and under cloudy conditions**.
 
@@ -124,18 +124,48 @@ The starting point of the study: Hanoi's urban core stands out against surroundi
 
 Early outward growth begins along the main transport corridors leading out of the city center.
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light","visible":true},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"WebGLTile","source":{"type":"GeoTIFF","normalize":false,"interpolate":false,"sources":[{"url":"https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2020.tif"}]},"properties":{"id":"palsar2-yearly-hanoi;:;2020-01-01T00:00:00Z;:;0","title":"Hanoi_2020"},"style":{"variables":{"band":1},"color":["case",[">",["band",1],0],["interpolate",["linear"],["/",["band",1],8000],0,[0,0,0,1],1,[255,255,255,1]],["color",0,0,0,0]]}},{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels","visible":true},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]' center=[105.85,21.03] zoom="11.5" animationOptions="{duration:1000}" style="width:60%;max-width:60%;background:#333333;background-color:rgba(35,35,35,0.92);color:#FFFFFF;box-sizing:border-box;" }-->
+<div style="width:100%; box-sizing:border-box; margin:16px 0 0 0; padding:10px 12px; background:rgba(38,38,38,0.9); border-radius:6px; color:#FFFFFF; font-size:0.88rem;">
+  <div style="font-weight:600; margin-bottom:7px; color:#FFFFFF;">ALOS-2 PALSAR-2 HH — Urban-feature visualization scale</div>
+  <div style="height:14px; width:100%; border-radius:3px; background:linear-gradient(to right, rgb(8,32,76) 0%, rgb(28,78,128) 18%, rgb(73,132,180) 38%, rgb(161,169,119) 58%, rgb(230,135,44) 78%, rgb(214,69,33) 92%, rgb(255,245,200) 100%);"></div>
+  <div style="display:flex; justify-content:space-between; margin-top:4px; color:#FFFFFF;">
+    <span>0</span><span>2,000</span><span>4,000</span><span>6,000</span><span>8,000</span>
+  </div>
+  <div style="margin-top:7px; font-size:0.82rem; color:#FFFFFF;">Lower HH values appear in dark blue tones, while higher values appear in orange to light cream tones, helping urban and built-up features stand out more clearly.</div>
+</div>
+
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light","visible":true},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"WebGLTile","source":{"type":"GeoTIFF","normalize":false,"interpolate":false,"sources":[{"url":"https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2020.tif"}]},"properties":{"id":"palsar2-yearly-hanoi;:;2020-01-01T00:00:00Z;:;0","title":"Hanoi_2020"},"style":{"variables":{"band":1},"color":["case",[">",["band",1],0],["interpolate",["linear"],["/",["band",1],8000],0,["color",8,32,76,1],0.18,["color",28,78,128,1],0.38,["color",73,132,180,1],0.58,["color",161,169,119,1],0.78,["color",230,135,44,1],0.92,["color",214,69,33,1],1,["color",255,245,200,1]],["color",0,0,0,0]]}},{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels","visible":true},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]' center=[105.85,21.03] zoom="11.5" animationOptions="{duration:1000}" style="width:75%;max-width:75%;background:#333333;background-color:rgba(35,35,35,0.92);color:#FFFFFF;box-sizing:border-box;" }-->
 
 #### Hanoi (2020)
 Growth thickens along Ha Dong and Gia Lam, with new built-up clusters visible beyond the historic core.
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light","visible":true},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"WebGLTile","source":{"type":"GeoTIFF","normalize":false,"interpolate":false,"sources":[{"url":"https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2024.tif"}]},"properties":{"id":"palsar2-yearly-hanoi;:;2024-01-01T00:00:00Z;:;0","title":"Hanoi_2024"},"style":{"variables":{"band":1},"color":["case",[">",["band",1],0],["interpolate",["linear"],["/",["band",1],8000],0,[0,0,0,1],1,[255,255,255,1]],["color",0,0,0,0]]}},{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels","visible":true},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]' center=[105.85,21.03] zoom="11.5" animationOptions="{duration:1000}" style="width:60%;max-width:60%;background:#333333;background-color:rgba(35,35,35,0.92);color:#FFFFFF;box-sizing:border-box;" }-->
+<div style="width:100%; box-sizing:border-box; margin:16px 0 0 0; padding:10px 12px; background:rgba(38,38,38,0.9); border-radius:6px; color:#FFFFFF; font-size:0.88rem;">
+  <div style="font-weight:600; margin-bottom:7px; color:#FFFFFF;">ALOS-2 PALSAR-2 HH — Urban-feature visualization scale</div>
+  <div style="height:14px; width:100%; border-radius:3px; background:linear-gradient(to right, rgb(8,32,76) 0%, rgb(28,78,128) 18%, rgb(73,132,180) 38%, rgb(161,169,119) 58%, rgb(230,135,44) 78%, rgb(214,69,33) 92%, rgb(255,245,200) 100%);"></div>
+  <div style="display:flex; justify-content:space-between; margin-top:4px; color:#FFFFFF;">
+    <span>0</span><span>2,000</span><span>4,000</span><span>6,000</span><span>8,000</span>
+  </div>
+  <div style="margin-top:7px; font-size:0.82rem; color:#FFFFFF;">Lower HH values appear in dark blue tones, while higher values appear in orange to light cream tones, helping urban and built-up features stand out more clearly.</div>
+</div>
+
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light","visible":true},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"WebGLTile","source":{"type":"GeoTIFF","normalize":false,"interpolate":false,"sources":[{"url":"https://workspace-ui-public.eodashboard-operations.hub-otc-sc.eox.at/api/public/share/public-ef89cd51-75/stories/alos2-ideation/Hanoi/ALOS_PALSAR_YEARLY_Hanoi_2024.tif"}]},"properties":{"id":"palsar2-yearly-hanoi;:;2024-01-01T00:00:00Z;:;0","title":"Hanoi_2024"},"style":{"variables":{"band":1},"color":["case",[">",["band",1],0],["interpolate",["linear"],["/",["band",1],8000],0,["color",8,32,76,1],0.18,["color",28,78,128,1],0.38,["color",73,132,180,1],0.58,["color",161,169,119,1],0.78,["color",230,135,44,1],0.92,["color",214,69,33,1],1,["color",255,245,200,1]],["color",0,0,0,0]]}},{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels","visible":true},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]' center=[105.85,21.03] zoom="11.5" animationOptions="{duration:1000}" style="width:75%;max-width:75%;background:#333333;background-color:rgba(35,35,35,0.92);color:#FFFFFF;box-sizing:border-box;" }-->
 
 #### Hanoi (2024)
 Peri-urban districts, Hoang Mai, Long Bien, Dong Anh, show denser built-up returns, marking the mid-study acceleration.
 
+<div style="width:100%; box-sizing:border-box; margin:16px 0 0 0; padding:10px 12px; background:rgba(38,38,38,0.9); border-radius:6px; color:#FFFFFF; font-size:0.88rem;">
+  <div style="font-weight:600; margin-bottom:7px; color:#FFFFFF;">ALOS-2 PALSAR-2 HH — Urban-feature visualization scale</div>
+  <div style="height:14px; width:100%; border-radius:3px; background:linear-gradient(to right, rgb(8,32,76) 0%, rgb(28,78,128) 18%, rgb(73,132,180) 38%, rgb(161,169,119) 58%, rgb(230,135,44) 78%, rgb(214,69,33) 92%, rgb(255,245,200) 100%);"></div>
+  <div style="display:flex; justify-content:space-between; margin-top:4px; color:#FFFFFF;">
+    <span>0</span><span>2,000</span><span>4,000</span><span>6,000</span><span>8,000</span>
+  </div>
+  <div style="margin-top:7px; font-size:0.82rem; color:#FFFFFF;">Lower HH values appear in dark blue tones, while higher values appear in orange to light cream tones, helping urban and built-up features stand out more clearly.</div>
+</div>
+
+
 ## Data and Methods
-The analytical workflow of this project is established upon the optimal integration of multi-sensor data sources:
+The analytical workflow of this project is established upon the optimal integration of multi-sensor data sources within the Google Earth Engine (GEE) cloud computing platform, enabling high-performance processing of big geospatial data with superior precision and consistency.
 
 **Sentinel-2** optical and **ALOS-2 PALSAR-2** SAR imagery provide complementary observations of Hanoi's urban landscape. Optical data capture spectral characteristics of vegetation, built-up areas, and water, whereas SAR provides information related to surface structure and roughness. Combining the two data types therefore provides richer information for land-cover mapping and urban monitoring.
 
@@ -146,7 +176,7 @@ The analytical workflow of this project is established upon the optimal integrat
 
 **Why combine optical and SAR?** Optical imagery describes surface and vegetation properties, while SAR provides complementary structural information that can improve characterization of complex urban landscapes.
 
-The study combines optical, radar, and topographic data. The datasets were pre-processed, co-registered, and integrated to generate land-cover features. Spectral indices, including NDVI, NDBI, and NDWI, were calculated from optical imagery, while ALOS-2 PALSAR-2 provided complementary radar information.
+The study combines optical, radar, and topographic data within Google Earth Engine (GEE). The datasets were pre-processed, co-registered, and integrated to generate land-cover features. Spectral indices, including NDVI, NDBI, and NDWI, were calculated from optical imagery, while ALOS-2 PALSAR-2 provided complementary radar information.
 
 <div style="display:flex;flex-direction:column;align-items:center;margin:10px 0;">
 <img src="https://github.com/phkh1366/eoxhub-related/blob/main/VTN-FlowchartHQ.png?raw=true" style="max-width:100%;width:1000px;height:auto;" alt="Analysis workflow" />
