@@ -210,6 +210,6 @@ Finally, further research should evaluate different speckle-filtering methods. A
 
 **Figure 7:** Mean Absolute Percentage Error (MAPE) for rice yield estimation in Suphan Buri Province using mean and maximum zonal statistics. Analytical visualisation is original to the study team.
 
-
-
+### Disclaimer:
+This paper is currently undergoing final editorial review. Minor revisions may be made during the publication process; however, no substantial changes to the scientific findings or conclusions are anticipated.
 
