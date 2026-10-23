@@ -3,7 +3,7 @@ cover-image: https://github.com/phkh1366/eoxhub-related/blob/main/08.%20Preferre
 date: 2026-08-01
 theme: Biomass
 tags: Mangrove,Indonesia
-official: true
+official: false
 collections: collectionIdentifier1, collectionIdentifier2
 ---
 
