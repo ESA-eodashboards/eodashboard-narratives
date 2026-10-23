@@ -59,7 +59,7 @@ To **monitor and quantify urbanization and land-cover changes in Hanoi using mul
 The four objectives above define the main analytical and planning-oriented outputs of the study.
 
 
-## Use case <!--{ as="eox-map" mode="tour" }-->
+## Use case <!--{ as="eox-map" mode="tour" style="width: 600px; background-color: rgba(255,255,255,0.15);" }-->
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"s2-cloudless-2025","title":"Sentinel-2 Cloudless 2025"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2025_3857/default/g/{z}/{y}/{x}.jpg"]}},{"type":"Tile","properties":{"id":"labels","title":"Labels"},"source":{"type":"XYZ","urls":["https://s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.jpg"]}}]' center=[105.85,21.03] zoom="13" animationOptions="{duration:500}" }-->
 
