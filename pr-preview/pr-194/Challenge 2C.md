@@ -39,9 +39,32 @@ This study delivers a **spatialized framework** for mapping **urban heat exposur
 4. **Derive spatial indicators** describing the urban environment (e.g. vegetation cover, impervious surfaces, built-up density)
 5. **Define a heat exposure index**, combining both thermal intensity and exposure indicators, and identify/rank the most exposed urban districts.
 
+
 ### Overall aim
 As extreme heat becomes a climate threat to European cities, we can **no longer rely on simple weather forecasts** to protect our most vulnerable citizens. That’s why we performed a **dynamic, EO-based Thermal Risk Analysis** for Turin.
 According to the climate risk framework, **risk results from the interaction between hazard, exposure and vulnerability**. Thus, a heatwave represents the **hazard**, while **heat exposure and vulnerability** determine how strongly individuals and populations may be affected.
+
+##  Use cases <!--{ as="eox-map" mode="tour" position="right" }-->
+
+### <!--{ zoom=11 center=[7.6869,45.0703] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
+#### Turin Overview
+An overview of the city of Turin, showcasing the urban landscape and surrounding geography.
+
+### <!--{ zoom=14 center=[7.68,45.07] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
+#### Historical Center
+Focusing on the highly dense historical center where heat trapping is most prominent.
+
+### <!--{ zoom=13 center=[7.63,45.04] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
+#### Industrial South-West
+Examining the industrial belt which experiences significant soil sealing.
+
+### <!--{ zoom=13 center=[7.71,45.05] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
+#### Borgo Po Green Buffer
+The green hills providing a natural cooling buffer effect for the city.
+
+### <!--{ zoom=13 center=[7.68,45.1] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
+#### Northern Districts
+Areas with lower heat vulnerability due to younger population demographics.
 
 ## Data and methods
 
@@ -80,6 +103,8 @@ This climate risk represents the combination of three fundamental elements: the 
 
 - **Surface heat (nightly Sentinel-3 LST)**: The 15-panel grid illustrates how nighttime temperatures fluctuate geographically. The maps reveal severe localized urban heat islands; while some areas effectively cool down overnight (shown in dark purple/black), specific districts consistently trap and retain high heat (glowing orange and yellow), preventing nighttime thermal relief.
 
+## Map Example <!--{as="eox-map" style="width: 100%; height: 500px;" layers='[{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light","visible":true},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857","attributions":"{ OSM: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors and <a href=\"https://maps.eox.at/#data\" target=\"_blank\">others</a>, Rendering &copy; <a href=\"http://eox.at\" target=\"_blank\">EOX</a> }","tileGrid":{"tileSize":[256,256],"origin":[-20037508.342789244,20037508.342789244],"resolutions":[156543.03392804097,78271.51696402048,39135.75848201024,19567.87924100512,9783.93962050256,4891.96981025128,2445.98490512564,1222.99245256282,611.49622628141,305.748113140705,152.8740565703525,76.43702828517625,38.21851414258813,19.109257071294063,9.554628535647032,4.777314267823516,2.388657133911758,1.194328566955879,0.5971642834779395,0.29858214173896974,0.14929107086948487,0.07464553543474244,0.03732276771737122,0.01866138385868561,0.009330691929342804],"matrixIds":["0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],"extent":[-20037508.342789244,-20037508.342789244,20037508.342789244,20037508.342789244]}}},{"type":"WebGLTile","source":{"type":"GeoTIFF","normalize":false,"interpolate":false,"sources":[{"url":"https://raw.githubusercontent.com/SonaGuliyeva/turin-heat-risk-story/main/lst_night_2026-08-13.tif"}],"sourceOptions":{"blockSize":65536}},"properties":{"id":"science-hub-september-team-2c-turin-lst-night;:;2026-08-13T00:00:00Z;:;0","title":"lst-night-20260813"},"style":{"variables":{"vmin":18,"vmax":32},"color":["case",["==",["band",2],0],["color",0,0,0,0],["<",["band",1],15],["color",160,160,160,0.6],["interpolate",["linear"],["/",["-",["band",1],18],["-",32,18]],0,[0,0,4,1],0.062,[10,8,34,1],0.125,[29,17,71,1],0.188,[54,16,107,1],0.25,[81,18,124,1],0.312,[106,28,129,1],0.375,[131,38,129,1],0.438,[156,46,127,1],0.5,[183,55,121,1],0.562,[208,65,111,1],0.625,[231,82,99,1],0.688,[245,107,92,1],0.75,[252,137,97,1],0.812,[254,167,114,1],0.875,[254,196,136,1],0.938,[253,226,163,1],1,[252,253,191,1]]]}},{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels","visible":true},"source":{"type":"XYZ","url":"https://{a-e}.s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857","attributions":"{ Overlay: Data &copy; <a href=\"http://www.openstreetmap.org/copyright\" target=\"_blank\">OpenStreetMap</a> contributors, Made with Natural Earth, Rendering &copy; <a href=\"https://eox.at\" target=\"_blank\">EOX</a> }","tileGrid":{"tileSize":[256,256],"origin":[-20037508.342789244,20037508.342789244],"resolutions":[156543.03392804097,78271.51696402048,39135.75848201024,19567.87924100512,9783.93962050256,4891.96981025128,2445.98490512564,1222.99245256282,611.49622628141,305.748113140705,152.8740565703525,76.43702828517625,38.21851414258813,19.109257071294063,9.554628535647032,4.777314267823516,2.388657133911758,1.194328566955879,0.5971642834779395,0.29858214173896974,0.14929107086948487,0.07464553543474244,0.03732276771737122,0.01866138385868561,0.009330691929342804],"matrixIds":["0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24"],"extent":[-20037508.342789244,-20037508.342789244,20037508.342789244,20037508.342789244]}}}]' zoom="12.206734337949754" center=[7.699102679795808,45.083981881787224] projection="" }-->
+
 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Nighttime%20LST%20Evolution%20-%20Turin%20Districts%20.png?raw=true" width="500"/> </p>
 
@@ -96,47 +121,25 @@ This climate risk represents the combination of three fundamental elements: the 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Torino%20-%20Imperviousness%202024.png?raw=true" width="400"/></p>
 
 
-## Use cases <!--{ as="eox-map" mode="tour" position="right" }-->
-
-### <!--{ zoom=11 center=[7.6869,45.0703] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}},{"type":"Tile","properties":{"id":"heat-index-overlay"},"url":"https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/06_heat_exposure_index_map.png?raw=true"}]' animationOptions='{"duration":500}' }-->
-#### Turin Overview
-An overview of the city of Turin, showcasing the urban landscape and surrounding geography.
-
-### <!--{ zoom=14 center=[7.68,45.07] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
-#### Historical Center
-Focusing on the highly dense historical center where heat trapping is most prominent.
-
-### <!--{ zoom=13 center=[7.63,45.04] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
-#### Industrial South-West
-Examining the industrial belt which experiences significant soil sealing.
-
-### <!--{ zoom=13 center=[7.71,45.05] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
-#### Borgo Po Green Buffer
-The green hills providing a natural cooling buffer effect for the city.
-
-### <!--{ zoom=13 center=[7.68,45.1] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
-#### Northern Districts
-Areas with lower heat vulnerability due to younger population demographics.
-
-### <!--{ zoom=13 center=[7.68,45.1] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
 #### Heat Risk Index
-<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/06_heat_exposure_index_map.png?raw=true" width="1400"/></p>
 
 Although socio-demographic data remains constant, temperatures (LST) change daily, continuously altering the level and distribution of risk across neighbourhoods. Consequently, emergency planners cannot rely on a single static risk map, as the most vulnerable areas shift over time.
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/06_heat_exposure_index_map.png?raw=true" width="1400"/></p>
 
-### <!--{ animationOptions='{"duration":500}' }-->
 #### Daily Risk Ranking
+
+As shown in the graphs, Surface Heat (LST) contributes only a small fraction (5.9% to 8.7%) to the total risk index. The vast majority of the vulnerability is instead driven by stable factors like Age and Lack of Greenery.
+
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/07_daily_vulnerability_ranking%20(1).png?raw=true" width="1000"/></p>
 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/percentages.png?raw=true" width="1000"/></p>
 
-As shown in the graphs, Surface Heat (LST) contributes only a small fraction (5.9% to 8.7%) to the total risk index. The vast majority of the vulnerability is instead driven by stable factors like Age and Lack of Greenery.
 
-### <!--{ animationOptions='{"duration":500}' }-->
 #### Critical Facilities
-<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/09_critical_facilities_map.png?raw=true" width="1000"/></p>
 
 The image maps critical facilities (hospitals, schools, and elderly care facilities) across Turin's districts based on their risk score. It highlights that the most vulnerable central and western districts, shown in dark red, contain a dense concentration of these sensitive locations.
+
+<p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/09_critical_facilities_map.png?raw=true" width="500"/></p>
 
 ## Conclusions
 Turin's heat vulnerability is structurally dictated by **urban morphology** and **demographics**, not daily weather:
