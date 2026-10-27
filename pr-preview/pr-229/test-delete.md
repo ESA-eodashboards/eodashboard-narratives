@@ -1,8 +1,8 @@
-## Results
+##  <!--{ nav="false" }-->
 The final risk index, scaled between 0 and 1, is calculated as the average of four normalized key factors: surface heat, age vulnerability, lack of greenery, and soil sealing.
 This climate risk represents the combination of three fundamental elements: the physical climate event or trend (Hazard), the elements present in hazard-prone areas (Exposure), and the resilience or lack thereof of the exposed elements to the hazard (Vulnerability).
 
-## Nighttime surface heat <!--{ as="eox-map" mode="tour" position="left" }-->
+## Results <!--{ as="eox-map" mode="tour" position="left" }-->
 
 
 
@@ -34,8 +34,9 @@ Lack of greenery (inverse of green cover per district): The urban green areas ma
 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Urban%20green%20areas.png?raw=true" width="400"/></p>
 
+##
 
-### Vulnerability and urban form
+### Vulnerability and urban form 
 - **Age vulnerability (percentage of population over 65)**: The demographic data demonstrate aging populations, showing a stark volume of residents in the red "65 and Older" category across all areas. The spatial vulnerability map pinpoints the exact risk concentration: District 2 is the most highly exposed with 28.6% of its population over 65, followed by District 8 (27.3%) and District 3 (26.8%), while District 6 remains relatively less vulnerable at 23.2%.
 
 <p align="center"><img src="https://github.com/FrancescoMezza/torino-heat-exposure/blob/main/Vulnerability%20Map%20%20Over%2065%20by%20District%20(Turin).png?raw=true" width="400"/></p>
