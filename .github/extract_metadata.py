@@ -116,11 +116,11 @@ def extract_metadata(file_path, base_url):
 
     # split a comma separated string to list
     if theme := metadata.get("theme"):
-        metadata.update({"theme": [t.strip() for t in theme.split(",")]})
+        metadata.update({"theme": [t.strip().lower() for t in theme.split(",")]})
 
     # split a comma separated string to list
     if tags := metadata.get("tags"):
-        metadata.update({"tags": [t.strip() for t in tags.split(",")]})
+        metadata.update({"tags": [t.strip().lower() for t in tags.split(",")]})
 
     # split a comma separated string to list
     if collections := metadata.get("collections"):
