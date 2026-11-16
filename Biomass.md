@@ -16,10 +16,10 @@
 </p>
 
 ## Challenge
-This study focuses on using Sentinel-1 and Sentinel-2 data to explore water dynamics—such as flooding, tides, and mangrove changes—within forest-covered areas, with the goal of developing reliable "forest wetness" indicators.
+The research challenge involves overcoming the limitations of optical satellite observations caused by dense forest canopies, which often mask hydrological processes occurring on the ground, such as seasonal inundation and tidal variability.
 
 ## Objective
-The objective of this study was to
+The objective of this study is to integrate multi-sensor data from Sentinel-1 and Sentinel-2 to detect and map water dynamics under forest cover. By leveraging the penetrative capabilities of SAR and the spectral resolution of optical imagery, we aim to develop robust forest wetness indicators to better monitor flooding, tidal influence, and long-term changes in mangrove ecosystems.
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
