@@ -8,8 +8,8 @@ official: false
 ---
 
 # Vegetation response to atmoshere-ocean circulations <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
-## Authors:  Theresa Mimi Freiß¹, Thomas Himmer² and Fabian Unterasinger³  <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
-> ¹ ² ³ Vienna University of Technology
+## Authors:  Theresa Mimi Freiß¹, Thomas Himmer¹ and Fabian Unterasinger¹  <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+> ¹ Vienna University of Technology
 
 *This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in **November 2026**. It was developed by a team from the **Vienna University of Technology**.*
 
@@ -20,6 +20,12 @@ official: false
 
 
 ## Challenge
+Atmoshere-ocean circulations significantly impact our environment. worldwide environmental and socioeconomic impacts
+The El Niño-Southern Oscillation (ENSO) is the most influencial climate variation. 
+The fluctuating year-to-year conditions in the tropical Pacific alter
+
+https://www.science.org/doi/full/10.1126/science.1132588?referrer=https%3A%2F%2Fscholar.google.com%2F
+
 This challenge focuses on vegetation response to atmoshere-ocean circulations.
 
 
