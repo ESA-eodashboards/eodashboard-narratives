@@ -28,8 +28,8 @@ Exploring water dynamics under forest cover near Harinagar, Bangladesh, using hi
 
 ## Data and Methods
 #### Dataset
-- **Source**: 
-- **Temporal coverage**: 
+- **Source**: SAR Data
+- **Temporal coverage**: Measurements are available every 3 days, from 07/25/2026 to 08/12/2026.
 
 #### Methodology workflow
 Description
