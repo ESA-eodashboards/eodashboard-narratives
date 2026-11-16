@@ -21,7 +21,7 @@ official: false
 
 
 ## Challenge
-Describe challenge
+Here goes the general introduction
 
 
 ## Objective
