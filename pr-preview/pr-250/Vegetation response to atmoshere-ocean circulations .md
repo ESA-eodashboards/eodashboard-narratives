@@ -45,10 +45,25 @@ Text
 #### Methodology workflow
 Description
 
+- Compute ENSO indices from SST over the required regions or extract ENSO indices from available datasets NOAA
+- Select study area and study period (or probably work global at very coarse resolution to identify big trends and differences in geographical areas or comapared to other times)
+- Potential study areas: Sub-saharan Africa (e.g. South Africa, Namibia, Kenya, Ghana), South America (Ecuador)
+- Decide whether to focus on current El Niño (probably not enought data to evaluate laged effect on vegetation) or to focus on past events
+- Data preprocessing: time-series extraction, time-series decomposition
+- Analysis of correlations between VI anomalies and ENSO indices, of trends and anomalies, geographical hotspots of anomalies, lags between the datasets
+- What makes El Niño events different from "normal" droughts/heatwaves?
+- Comparing sites where ENSO causes different climatic anomalies and their different impact
+
+
 
 
 ## Results
+- Timeseries plots
+- Plots of correlations and lag times
+- Maps of potential hotspots of anomalies/negative trends/positive trends
 
+Possible further experiments (not expected)
+- Identification of "turning points"/tipping points with regard to larger time-series. Do ecosystem get more resilient or collapse?
 
 ## Conclusions
 
