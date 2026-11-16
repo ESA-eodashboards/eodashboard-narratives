@@ -2,11 +2,11 @@
 #### 
 
 ## Authors: Inga Lammers(1), Emilian Tietze(2) and Niels Dedring(1)
-*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in 11/16/2026. It was developed by a team from the RUB and TU Wien.*
-
 **Affiliations:**
 (1) Ruhr University Bochum (RUB)
 (2) TU Wien
+
+*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in 11/2026. It was developed by a team from the RUB and TU Wien.*
 
 ## 
 <p align="center">
@@ -15,16 +15,32 @@
 </p>
 
 ## Challenge
-The challenge lies in the inherent difficulty of observing hydrological processes—such as inundation, tidal variability, and soil moisture changes—beneath thick, multi-layered forest canopies, which effectively block conventional optical remote sensing observations.
+The challenge involves observing hydrological processes like inundation and soil moisture beneath dense canopy layers. While traditional optical and shorter-wavelength SAR methods often struggle with such thick vegetation, the Biomass mission introduces P-band radar technology, which is specifically optimized for deeper penetration through complex biomass structures.
 
 ## Objective
-Our primary objective is to utilize high-resolution radar (SAR) data to penetrate dense vegetation and quantify subsurface water dynamics. 
+Our objective is to leverage the unique capabilities of the Biomass mission's P-band radar to accurately quantify subsurface water dynamics. To validate these findings, we cross-reference our data with Sentinel-1 observations, allowing us to assess the performance advantages of P-band radar in forest-covered environments.
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
-### <!--{ zoom=12 center=[89.3667,21.7583] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
+### <!--{ zoom=12 center=[89.3667,21.7583] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
 #### Harinagar, Bangladesh
-Exploring water dynamics under forest cover near Harinagar, Bangladesh, using high-resolution satellite imagery.
+The Sundarbans region presents a complex hydrological landscape. SAR data allows us to observe water levels even beneath the dense canopy.
+
+### <!--{ zoom=13 center=[89.38,21.76] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
+#### Tidal Dynamics
+Monitoring the daily tidal fluctuations is crucial for understanding nutrient transport. Radar signals reveal the inundation patterns in the mangroves.
+
+### <!--{ zoom=14 center=[89.35,21.74] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
+#### River Channel Analysis
+Narrow channels often remain obscured by tree branches. Our SAR processing emphasizes these features to calculate flow accumulation.
+
+### <!--{ zoom=12 center=[89.4,21.78] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
+#### Soil Moisture Gradients
+We analyze the backscatter intensity to map spatial soil moisture gradients across the forest floor.
+
+### <!--{ zoom=10 center=[89.3667,21.7583] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
+#### Regional Impact
+Synthesizing these observations provides a comprehensive view of how water dynamics influence the biomass growth of this fragile ecosystem.
 
 ## Data and Methods
 #### Dataset
