@@ -8,16 +8,15 @@ official: false
 ---
 
 # Title of the story/Challenge <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
-## Authors: Name Surname¹, Name Surname² and Name Surname³  <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
-> ¹ Affiliation ² Affiliation  ³ Affiliation
+## Authors: Everke Jakob ¹, Kyzer Gerez ¹, Siehtoff Jonas ²<!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+> ¹ Technische Universität Wien ² Ruhr-University Bochum
 
 *This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in **DATE**. It was developed by a team from the **AFFILIATIONS**.*
 
 ##  <!--{ nav="false"}-->
 <p align="center">
-  <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_250,h_250/https://markleisherproductions.com/wp-content/uploads/2021/01/logo-placeholder-png-2.png" alt="Ca' Foscari" height="80" style="margin: 0 15px;"/>
-  <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_250,h_250/https://markleisherproductions.com/wp-content/uploads/2021/01/logo-placeholder-png-2.png" alt="NOC" height="80" style="margin: 0 15px;"/>
-  <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_250,h_250/https://markleisherproductions.com/wp-content/uploads/2021/01/logo-placeholder-png-2.png" alt="BAS" height="80" style="margin: 0 15px;"/>
+  <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/TU_Wien-Logo.svg/960px-TU_Wien-Logo.svg.png" alt="TUW' Foscari" height="80" style="margin: 0 15px;"/>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyTL97S8-CF2SFUzfZfvT5Lq-xG_tWv8Kp2ZvFegOf83EpvQUkF5PmUTQ&s=10" alt="RUB" height="80" style="margin: 0 15px;"/>
 </p>
 
 
