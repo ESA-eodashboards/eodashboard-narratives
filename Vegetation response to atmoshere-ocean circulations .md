@@ -8,10 +8,10 @@ official: false
 ---
 
 # Title of the story/Challenge <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
-## Authors: Name Surname¹, Name Surname² and Name Surname³  <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
-> ¹ Affiliation ² Affiliation  ³ Affiliation
+## Authors:  Theresa Mimi Freiß¹, Thomas Himmer² and Fabian Unterasinger³  <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+> ¹ ² ³ Technische Universität Wien
 
-*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in **DATE**. It was developed by a team from the **AFFILIATIONS**.*
+*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in **November 2026**. It was developed by a team from the **Technische Universität Wien**.*
 
 ##  <!--{ nav="false"}-->
 <p align="center">
