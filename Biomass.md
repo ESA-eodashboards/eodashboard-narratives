@@ -16,7 +16,7 @@
 </p>
 
 ## Challenge
-Describe challenge
+This study focuses on using Sentinel-1 and Sentinel-2 data to explore water dynamics—such as flooding, tides, and mangrove changes—within forest-covered areas, with the goal of developing reliable "forest wetness" indicators.
 
 ## Objective
 The objective of this study was to
