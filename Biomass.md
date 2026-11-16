@@ -10,21 +10,21 @@
 
 ## 
 <p align="center">
-  <img src="https://services.ruhr-uni-bochum.de/en/rub-logo" alt="Ruhr University Bochum" height="80" style="margin: 0 15px;"/>
+  <img src="https://services.ruhr-uni-bochum.de/sites/services.ruhr-uni-bochum.de/files/styles/991x660px/public/2023-10/logo_rub_blau.png.webp?h=d95abdc4&itok=EIQbKx4O" alt="Ruhr University Bochum" height="80" style="margin: 0 15px;"/>
   <img src="https://fam.tuwien.ac.at/lehre/arbeiten/logos/Logos_TU/TU-Signet.jpg" alt="TU Wien" height="80" style="margin: 0 15px;"/>
 </p>
 
 ## Challenge
-The research challenge involves overcoming the limitations of optical satellite observations caused by dense forest canopies, which often mask hydrological processes occurring on the ground, such as seasonal inundation and tidal variability.
+The challenge lies in the inherent difficulty of observing hydrological processes—such as inundation, tidal variability, and soil moisture changes—beneath thick, multi-layered forest canopies, which effectively block conventional optical remote sensing observations.
 
 ## Objective
-The objective of this study is to integrate multi-sensor data from Sentinel-1 and Sentinel-2 to detect and map water dynamics under forest cover. By leveraging the penetrative capabilities of SAR and the spectral resolution of optical imagery, we aim to develop robust forest wetness indicators to better monitor flooding, tidal influence, and long-term changes in mangrove ecosystems.
+Our primary objective is to utilize high-resolution radar (SAR) data to penetrate dense vegetation and quantify subsurface water dynamics. Subsequently, we employ Sentinel-1 and Sentinel-2 multispectral and microwave datasets as a benchmark to validate the accuracy, reliability, and quality of our radar-based retrieval methods.
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
-### <!--{ zoom=12 center=[89.3667,21.7583] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
+### <!--{ zoom=12 center=[89.3667,21.7583] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
 #### Harinagar, Bangladesh
-Exploring water dynamics under forest cover near Harinagar, Bangladesh.
+Exploring water dynamics under forest cover near Harinagar, Bangladesh, using high-resolution satellite imagery.
 
 ## Data and Methods
 #### Dataset
@@ -45,3 +45,6 @@ Description
 
 ## Contributors
 Authors, contributors, and reviewers from [Ruhr University Bochum](https://services.ruhr-uni-bochum.de/en/rub-logo) and [TU Wien](https://fam.tuwien.ac.at/lehre/arbeiten/logos/Logos_TU/TU-Signet.jpg).
+
+**Reference:**
+ESA Science Hub Challenges (2026). Biomass mission for water dynamics under forest study.
