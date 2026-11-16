@@ -7,7 +7,7 @@ official: false
 
 ---
 
-# Title of the story/Challenge <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
+# Vegetation response to atmoshere-ocean circulations <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
 ## Authors:  Theresa Mimi Freiß¹, Thomas Himmer² and Fabian Unterasinger³  <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 > ¹ ² ³ Technische Universität Wien
 
