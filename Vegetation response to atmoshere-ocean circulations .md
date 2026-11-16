@@ -9,9 +9,9 @@ official: false
 
 # Vegetation response to atmoshere-ocean circulations <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
 ## Authors:  Theresa Mimi Freiß¹, Thomas Himmer² and Fabian Unterasinger³  <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
-> ¹ ² ³ Technische Universität Wien
+> ¹ ² ³ Vienna University of Technology
 
-*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in **November 2026**. It was developed by a team from the **Technische Universität Wien**.*
+*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in **November 2026**. It was developed by a team from the **Vienna University of Technology**.*
 
 ##  <!--{ nav="false"}-->
 <p align="left">
@@ -20,11 +20,13 @@ official: false
 
 
 ## Challenge
-Describe challenge
+This challenge focuses on vegetation response to atmoshere-ocean circulations.
+
 
 
 ## Objective
-The objective of this study was to 
+The objective of this study was to identify the impact of ENSO events/years (La Niña and El Niño) on vegetation dynamics compared to non-La Niña and El Niño years.
+The goal is to answer the research question 'How and what are the spatio-temporal scales at which vegetation responds to ENSO events?'.
 
 
 ## Earth observations <!--{ as="eox-map" mode="tour" }-->
