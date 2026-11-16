@@ -18,7 +18,7 @@
 The challenge lies in the inherent difficulty of observing hydrological processes—such as inundation, tidal variability, and soil moisture changes—beneath thick, multi-layered forest canopies, which effectively block conventional optical remote sensing observations.
 
 ## Objective
-Our primary objective is to utilize high-resolution radar (SAR) data to penetrate dense vegetation and quantify subsurface water dynamics. Subsequently, we employ Sentinel-1 and Sentinel-2 multispectral and microwave datasets as a benchmark to validate the accuracy, reliability, and quality of our radar-based retrieval methods.
+Our primary objective is to utilize high-resolution radar (SAR) data to penetrate dense vegetation and quantify subsurface water dynamics. 
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
