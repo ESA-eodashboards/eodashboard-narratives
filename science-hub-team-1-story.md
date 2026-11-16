@@ -1,5 +1,5 @@
 ---
-cover-image: https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/10/earthcare_for_a_better_understanding_of_earth_s_radiation_balance/25154725-1-eng-GB/EarthCARE_for_a_better_understanding_of_Earth_s_radiation_balance_pillars.png
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/stories/ScienceHub-Challenge-September-2025/Team-1/earthCareHeader.png
 date: 2025-01-01
 theme: atmosphere
 tags: EarthCARE, Clouds, Atmosphere, ScienceHub
@@ -7,7 +7,7 @@ official: false
 
 ---
 
-# Exploring our atmosphere with EarthCARE <!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/10/earthcare_for_a_better_understanding_of_earth_s_radiation_balance/25154725-1-eng-GB/EarthCARE_for_a_better_understanding_of_Earth_s_radiation_balance_pillars.png" }-->
+# Exploring our atmosphere with EarthCARE <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/stories/ScienceHub-Challenge-September-2025/Team-1/earthCareHeader.png" }-->
 ### Authors: Paula Romero Jure¹ and Giacomo Roversi²³ <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 > ¹ University of Leeds ² Ca’ Foscari University of Venice  ³ CNR-ISAC Rome
 
