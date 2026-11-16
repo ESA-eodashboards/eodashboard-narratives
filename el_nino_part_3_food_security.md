@@ -1,5 +1,5 @@
 ---
-cover-image: https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2014/05/crop_yield/14537834-1-eng-GB/Crop_yield_pillars.jpg
+cover-image: https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/stories/el_nino_part_3/elNinoPart3StoryHeaderImage.jpg
 date: 2025-01-01
 theme: agriculture
 tags: food-security
@@ -7,7 +7,7 @@ official: true
 collections: N6_geoglam
 ---
 
-# El Niño 2023-2024: Impacts on food security<!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2014/05/crop_yield/14537834-1-eng-GB/Crop_yield_pillars.jpg" }-->
+# El Niño 2023-2024: Impacts on food security<!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/eurodatacube/eodash-assets/refs/heads/main/stories/el_nino_part_3/elNinoPart3StoryHeaderImage.jpg" }-->
 
 ## <!--{ nav="false" }-->
 <div align="center">
