@@ -20,14 +20,15 @@ official: false
 
 
 ## Challenge
-Atmoshere-ocean circulations significantly impact our environment. worldwide environmental and socioeconomic impacts
-The El Niño-Southern Oscillation (ENSO) is the most influencial climate variation. 
-The fluctuating year-to-year conditions in the tropical Pacific alter
+Atmoshere-ocean circulations significantly impact our environmental and socioeconomic systems worldwide.
+The El Niño-Southern Oscillation (ENSO) is one of the most influencial climate variation altering weather patterns in various regions around the globe. 
+The year-to-year conditions in the tropical Pacific Ocean fluctuate between unusually warm (El Niño) and cold (La Niña).
+Typical timescales span from two to seven years and effect the atmospheric pressure pattern between the tropical Indian and Pacific Oceans.
+
+
+This challenge focuses on vegetation response to these atmoshere-ocean circulations.
 
 https://www.science.org/doi/full/10.1126/science.1132588?referrer=https%3A%2F%2Fscholar.google.com%2F
-
-This challenge focuses on vegetation response to atmoshere-ocean circulations.
-
 
 
 ## Objective
