@@ -43,17 +43,16 @@ Text
 #### Dataset
 Datasets of this study comprised indicators for ENSO, as well as for vegetation.
 
-**ENSO data**
+**NOAA Climate Oscillation Indices**
 - **Source**: 
 - **Temporal coverage**: 
-- NOAA Climate Oscillation Indices 
+- Relative Oceanic Niño Index (RONI):
 
-**Vegetation data**
+**ESDC Vegetation Indices**
 - **Source**: 
 - **Temporal coverage**: 
-- ESDC Vegetation Indices (kNDVI, NDVI, NIRv, SIF, GPP, etc.)
-- (ESA CCI Vegetation Parameters (LAI, fAPAR))
-- (ESA CCI AGB BiomassVegetation indicators (ESA CCI))
+-  Near Infrared Reflectance of Vegetation (NIRv):
+
 
 #### Methodology workflow
 Description
