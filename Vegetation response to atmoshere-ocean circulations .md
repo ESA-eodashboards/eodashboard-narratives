@@ -54,12 +54,15 @@ Datasets of this study comprised indicators for ENSO, as well as for vegetation.
 #### Methodology workflow
 Description
 
-- Compute ENSO indices from SST over the required regions or extract ENSO indices from available datasets NOAA
-- Select study area and study period (or probably work global at very coarse resolution to identify big trends and differences in geographical areas or comapared to other times)
-- Potential study areas: Sub-saharan Africa (e.g. South Africa, Namibia, Kenya, Ghana), South America (Ecuador)
-- Decide whether to focus on current El Niño (probably not enought data to evaluate laged effect on vegetation) or to focus on past events
+- Extract ENSO indices from available datasets NOAA (RONI)
+- Read DeepESDL ESDC Vegetation Indices data: extract indices of interest
+- First focus is on a global scale (to identify big trends and differences in geographical areas or comapared to other times?)
 - Data preprocessing: time-series extraction, time-series decomposition
-- Analysis of correlations between VI anomalies and ENSO indices, of trends and anomalies, geographical hotspots of anomalies, lags between the datasets
+- Select study area and study period for a more detailed investigation
+- Potential study areas: Sub-saharan Africa (e.g. South Africa, Namibia, Kenya, Ghana), South America (Ecuador)
+- 
+- Decide whether to focus on current El Niño (probably not enought data to evaluate laged effect on vegetation) or to focus on past events
+- Analysis of correlations between vegetation indices anomalies and ENSO indices, of trends and anomalies, geographical hotspots of anomalies, lags between the datasets
 - What makes El Niño events different from "normal" droughts/heatwaves?
 - Comparing sites where ENSO causes different climatic anomalies and their different impact
 
