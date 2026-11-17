@@ -27,8 +27,8 @@ The study contributes to answering the question of how and what the spatio-tempo
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Tile","properties":{"id":"ESDC_nirv"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/kndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-23T00:00:00Z&vmin=0&vmax=1&cbar=RdYlGn"}}]' zoom=2.6 center=[-10.5,7.8] animationOptions='{"duration":500}' }-->
 #### Global scale
-The global perspective allows to broadly observe climate anomalies and their relationship to vegetation health.
-A coarser resolution allows to identify large scale trends and differences in geographical areas or between time periods.
+The global perspective allows us to broadly observe climate anomalies and their relationship to vegetation health. 
+By utilizing coarse-resolution data, we can identify large-scale trends and regional or temporal differences.
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Tile","properties":{"id":"ESDC_nirv"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/kndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-23T00:00:00Z&vmin=0&vmax=1&cbar=RdYlGn"}}]' zoom=2.8 center=[-150,0] animationOptions='{"duration":500}' }-->
 #### ENSO
