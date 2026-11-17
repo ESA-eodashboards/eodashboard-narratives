@@ -4,7 +4,7 @@
 ## Authors: Daria Ilina, Anna Bartels and Elias Gmeiner
 > ¹ Affiliation ² Affiliation  ³ Affiliation
 
-*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in **DATE**. It was developed by a team from the **AFFILIATIONS**.*
+*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in november 2026. It was developed by a team from the TU Vienna and Ruhr Universtiy Bochum.
 
 ## 
 <p align="center">
