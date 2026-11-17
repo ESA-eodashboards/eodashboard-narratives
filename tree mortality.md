@@ -1,15 +1,16 @@
-# Drivers of tree mortality <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
+# Drivers of tree mortality <!--{ as="img" mode="hero" src="https://loremflickr.com/1280/720/dead,tree" }-->
 #### 
 
-## Authors: Daria Ilina, Anna Bartels and Elias Gmeiner
-> ¹ Affiliation ² Affiliation  ³ Affiliation
+## Authors:
+> ¹ Anna Bartels ² Daria Ilina  ³ Elias Gmeiner
 
 *This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in november 2026. It was developed by a team from the TU Vienna and Ruhr Universtiy Bochum.
 
 ## 
 <p align="center">
-  <img src="https://www.tuwien.at/fileadmin/_processed_/e/c/csm_TU_Wien_Logo_b13d282570.png" alt="TU Wien" height="80" style="margin: 0 15px;"/>
-  <img src="https://www.ruhr-uni-bochum.de/de/themes/custom/rub_theme/logo.svg" alt="Ruhr University Bochum" height="80" style="margin: 0 15px;"/>
+  <p align="center">
+  <img src="https://www.tuwien.at/index.php?eID=dumpFile&t=p&p=2420997&token=03c096e7a1c6df6c14c7e374869b07ce2d99852f" width="200" />
+  <img src="https://services.ruhr-uni-bochum.de/sites/services.ruhr-uni-bochum.de/files/styles/991x660px/public/2023-10/logo_rub_blau.png.webp?h=d95abdc4&itok=EIQbKx4O" width="200" />
 </p>
 
 ## Challenge
@@ -17,6 +18,9 @@ Describe challenge
 
 ## Objective
 The objective of this study was to
+
+
+</p>
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
