@@ -52,7 +52,7 @@ Datasets of this study comprised indicators for ENSO, as well as for vegetation.
 
 
 #### Methodology workflow
-Description
+The methodology follows steps of retreaval and processing of climate oscillation and vegetation indices data to compare and analyse them and further derive correlations, trends and anomalies:
 
 - Extract ENSO indices from available datasets NOAA (RONI)
 - Read DeepESDL ESDC Vegetation Indices data: extract indices of interest
