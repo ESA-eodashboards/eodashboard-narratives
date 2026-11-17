@@ -20,14 +20,15 @@ The altered environmental conditions of ENSO lead to variations in primary produ
 This challenge focuses on vegetation response to these atmoshere-ocean circulations.
 
 ## Objective
-The objective of this study was to identify the impact of ENSO events/years (La Niña and El Niño) on vegetation dynamics compared to non-La Niña and El Niño years.
+This study targets identifying the impact of ENSO events/years (La Niña and El Niño) on vegetation dynamics compared to non-La Niña and El Niño years.
 The study contributes to answering the question of how and what the spatio-temporal scales at which vegetation responds to ENSO events are.
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Tile","properties":{"id":"ESDC_nirv"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/kndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-23T00:00:00Z&vmin=0&vmax=1&cbar=RdYlGn"}}]' zoom=2.6 center=[-10.5,7.8] animationOptions='{"duration":500}' }-->
 #### Global scale
-The global perspective allows us to observe broad climate patterns and their relationship to vegetation productivity across major biomes.
+The global perspective allows to broadly observe climate anomalies and their relationship to vegetation health.
+A coarser resolution allows to identify large scale trends and differences in geographical areas or between time periods.
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Tile","properties":{"id":"ESDC_kndvi"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/kndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-23T00:00:00Z&vmin=0&vmax=1&cbar=RdYlGn"}}]' zoom=2.8 center=[-150,0] animationOptions='{"duration":500}' }-->
 #### ENSO
