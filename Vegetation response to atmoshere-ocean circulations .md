@@ -32,14 +32,14 @@ A coarser resolution allows to identify large scale trends and differences in ge
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Tile","properties":{"id":"ESDC_nirv"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/kndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-23T00:00:00Z&vmin=0&vmax=1&cbar=RdYlGn"}}]' zoom=2.8 center=[-150,0] animationOptions='{"duration":500}' }-->
 #### ENSO
-From the tropical Pacific and Indian Ocean interaction zone, where ENSO dynamics drive major shifts in atmospheric pressure and sea surface temperature the Relative Oceanic Niño Index (RONI) is derived.
-It distincts between unusually warm El Niño (red) and cold La Niña (blue) conditions:
+In the tropical Pacific-Indian Ocean interaction zone, ENSO dynamics drive major shifts in atmospheric pressure and sea surface temperatures. The Relative Oceanic Niño Index (RONI) serves as a key indicator, distinguishing between El Niño (usually warm) and La Niña (usually cold) conditions.
 
 ![RONI_1950.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7e7b36a5828df2276b62fec20cb411b6bfd5598a/assets/thmimif/RONI1950-1794923954055.png)
 ***Fig. 1:** Relative Oceanic Niño Index (RONI) fluctuations from 1950 to present, highlighting periods of positive (El Niño) and negative (La Niña) anomalies.*
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Tile","properties":{"id":"ESDC_nirv"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/kndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-23T00:00:00Z&vmin=0&vmax=1&cbar=RdYlGn"}}]' zoom=4 center=[-50,0] animationOptions='{"duration":500}' }-->
 #### Anomalies
+When analyzing the correlation between ENSO indices and vegetation index anomalies, we observe distinct spatio-temporal patterns. Negative vegetation anomalies often coincide with ENSO-driven extreme precipitation shifts, revealing sensitive regional ecosystems that experience delayed responses to these ocean-atmospheric forcing events.
 
 ## Data and Methods
 #### Dataset
