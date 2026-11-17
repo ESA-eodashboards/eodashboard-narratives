@@ -29,8 +29,7 @@ This challenge focuses on vegetation response to these atmoshere-ocean circulati
 
 ## Objective
 The objective of this study was to identify the impact of ENSO events/years (La Niña and El Niño) on vegetation dynamics compared to non-La Niña and El Niño years.
-The goal is to answer the research question 'How and what are the spatio-temporal scales at which vegetation responds to ENSO events?'.
-
+The goal is to answer how and what are the spatio-temporal scales at which vegetation responds to ENSO events?
 
 ## Earth observations <!--{ as="eox-map" mode="tour" }-->
 
@@ -42,8 +41,19 @@ Text
 
 ## Data and Methods
 #### Dataset
+Datasets of this study comprised indicators for ENSO, as well as for vegetation.
+
+**ENSO data**
 - **Source**: 
 - **Temporal coverage**: 
+- NOAA Climate Oscillation Indices 
+
+**Vegetation data**
+- **Source**: 
+- **Temporal coverage**: 
+- ESDC Vegetation Indices (kNDVI, NDVI, NIRv, SIF, GPP, etc.)
+- (ESA CCI Vegetation Parameters (LAI, fAPAR))
+- (ESA CCI AGB BiomassVegetation indicators (ESA CCI))
 
 #### Methodology workflow
 Description
