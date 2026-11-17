@@ -23,12 +23,9 @@ official: false
 Atmoshere-ocean circulations significantly impact our environmental and socioeconomic systems worldwide.
 The El Niño-Southern Oscillation (ENSO) is one of the most influencial climate variation altering weather patterns in various regions around the globe. 
 The year-to-year conditions in the tropical Pacific Ocean fluctuate between unusually warm (El Niño) and cold (La Niña).
-Typical timescales span from two to seven years and effect the atmospheric pressure pattern between the tropical Indian and Pacific Oceans.
-The altered environmental conditions of ENSO lead to variations of patterns in primary production in the carbon cycle.
+Typical timescales of these fluctuations span from two to seven years and effect the atmospheric pressure pattern between the tropical Indian and Pacific Oceans.
+The altered environmental conditions of ENSO lead to variations in primary production patterns in the carbon cycle.
 This challenge focuses on vegetation response to these atmoshere-ocean circulations.
-
-
-
 
 ## Objective
 The objective of this study was to identify the impact of ENSO events/years (La Niña and El Niño) on vegetation dynamics compared to non-La Niña and El Niño years.
