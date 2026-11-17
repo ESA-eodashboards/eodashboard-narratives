@@ -32,9 +32,10 @@ The global perspective allows us to observe broad climate patterns and their rel
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Tile","properties":{"id":"ESDC_kndvi"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/kndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-23T00:00:00Z&vmin=0&vmax=1&cbar=RdYlGn"}}]' zoom=2.8 center=[-150,0] animationOptions='{"duration":500}' }-->
 #### ENSO
 From the tropical Pacific and Indian Ocean interaction zone, where ENSO dynamics drive major shifts in atmospheric pressure and sea surface temperature the Relative Oceanic Niño Index (RONI) is derived.
-It distincts between unusually warm El Niño (red) and cold La Niña (blue)
+It distincts between unusually warm El Niño (red) and cold La Niña (blue) conditions:
 
 ![RONI_1950.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/7e7b36a5828df2276b62fec20cb411b6bfd5598a/assets/thmimif/RONI1950-1794923954055.png)
+***Fig. 1:** Relative Oceanic Niño Index (RONI) fluctuations from 1950 to present, highlighting periods of positive (El Niño) and negative (La Niña) anomalies.*
 
 ## Data and Methods
 #### Dataset
