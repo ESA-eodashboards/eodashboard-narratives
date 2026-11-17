@@ -27,7 +27,7 @@ Typical timescales span from two to seven years and effect the atmospheric press
 The altered environmental conditions of ENSO lead to variations of patterns in primary production in the carbon cycle.
 This challenge focuses on vegetation response to these atmoshere-ocean circulations.
 
-https://www.science.org/doi/full/10.1126/science.1132588?referrer=https%3A%2F%2Fscholar.google.com%2F
+
 
 
 ## Objective
@@ -87,12 +87,12 @@ Access the notebook to reproduce the study workflow.
 
 
 #### References
-- Reference 1
+- Michael J. McPhaden et al. ,ENSO as an Integrating Concept in Earth Science.Science314,1740-1745(2006).DOI:10.1126/science.1132588
 
-- Reference 2
+
 
 
 
 ## Contributors
-Authors, contibutors, reviewers 
+Theresa Mimi Freiß, Thomas Himmer and Fabian Unterasinger, contibutors, reviewers 
 
