@@ -44,13 +44,10 @@ Text
 Datasets of this study comprised indicators for ENSO, as well as for vegetation.
 
 **NOAA Climate Oscillation Indices**
-- **Source**: 
-- **Temporal coverage**: 
-- Relative Oceanic Niño Index (RONI):
+- **Relative Oceanic Niño Index (RONI):**
+ 3-Month Running Mean of Tropical-Adjusted Niño 3.4 SST Anomalies of the 1991–2020 base period
 
 **ESDC Vegetation Indices**
-- **Source**: 
-- **Temporal coverage**: 
 -  Near Infrared Reflectance of Vegetation (NIRv):
 
 
@@ -94,7 +91,8 @@ Access the notebook to reproduce the study workflow.
 
 #### References
 - Michael J. McPhaden et al. ,ENSO as an Integrating Concept in Earth Science.Science314,1740-1745(2006).DOI:10.1126/science.1132588
-
+- National Oceanic and Atmospheric Administration, RONI (https://www.ncei.noaa.gov/access/monitoring/enso/sst#roni, https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/)
+- DeepESDL, Earth System Data Cube (ESDC) v3.0.1 (https://earthsystemdatalab.net/guide/data/pre-generated/ESDC/#earth-system-data-cube-esdc-v301)
 
 
 
