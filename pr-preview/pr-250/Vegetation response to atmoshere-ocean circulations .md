@@ -45,10 +45,10 @@ Datasets of this study comprised indicators for ENSO, as well as for vegetation.
 
 **NOAA Climate Oscillation Indices**
 - **Relative Oceanic Niño Index (RONI):**
- 3-Month Running Mean of Tropical-Adjusted Niño 3.4 SST Anomalies of the 1991–2020 base period
+ 3-Month Running Mean of Tropical-Adjusted Niño 3.4 SST Anomalies of the 1991–2020 base period, time period 1950-2026
 
 **ESDC Vegetation Indices**
--  **Near Infrared Reflectance of Vegetation (NIRv):** MODIS/Terra+Aqua BRDF/Albedo Nadir BRDF-Adjusted Reflectance Daily L3 Global 0.05 Deg CMG and Vegetation Indices, spacial resolution: 0.25°
+-  **Near Infrared Reflectance of Vegetation (NIRv):** MODIS/Terra+Aqua BRDF/Albedo Nadir BRDF-Adjusted Reflectance Daily L3 Global 0.05 Deg CMG and Vegetation Indices, spacial resolution of 0.25°
 
 
 #### Methodology workflow
