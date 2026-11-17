@@ -29,7 +29,7 @@ This challenge focuses on vegetation response to these atmoshere-ocean circulati
 
 ## Objective
 The objective of this study was to identify the impact of ENSO events/years (La Niña and El Niño) on vegetation dynamics compared to non-La Niña and El Niño years.
-The goal is to answer how and what are the spatio-temporal scales at which vegetation responds to ENSO events?
+The study contributes to answering the question of how and what the spatio-temporal scales at which vegetation responds to ENSO events are.
 
 ## Earth observations <!--{ as="eox-map" mode="tour" }-->
 
