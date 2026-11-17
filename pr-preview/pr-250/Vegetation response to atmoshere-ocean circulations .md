@@ -25,7 +25,7 @@ The study contributes to answering the question of how and what the spatio-tempo
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
-### <!--{ layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Tile","properties":{"id":"ESDC_kndvi"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/kndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-23T00:00:00Z&vmin=0&vmax=1&cbar=RdYlGn"}}]' zoom=2.6 center=[-10.5,7.8] animationOptions='{"duration":500}' }-->
+### <!--{ layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Tile","properties":{"id":"ESDC_nirv"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/kndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-23T00:00:00Z&vmin=0&vmax=1&cbar=RdYlGn"}}]' zoom=2.6 center=[-10.5,7.8] animationOptions='{"duration":500}' }-->
 #### Global scale
 The global perspective allows us to observe broad climate patterns and their relationship to vegetation productivity across major biomes.
 
