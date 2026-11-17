@@ -1,5 +1,5 @@
-# Vegetation response to atmosphere-ocean circulations <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
-#### An analysis of the spatio-temporal dynamics of vegetation in relation to the El Niño-Southern Oscillation.
+# Vegetation response to atmosphere-ocean circulations <!--{ as="img" mode="hero" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6sLngkW81-dkp8ahp-4uDHv0WJeYS_kqXKjHQVWBbEw&s=10" }-->
+#### Spatio-temporal dynamics of vegetation response in relation to the El Niño-Southern Oscillation
 
 ## Authors: Theresa Mimi Freiß¹, Thomas Himmer¹ and Fabian Unterasinger¹
 > ¹ Vienna University of Technology
