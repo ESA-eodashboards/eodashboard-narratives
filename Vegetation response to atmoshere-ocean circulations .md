@@ -53,7 +53,8 @@ This study utilizes climate and vegetation indices to assess ecosystem sensitivi
 
 **ESDC Vegetation Indices**
 - **Near Infrared Reflectance of Vegetation (NIRv):** Derived from MODIS/Terra+Aqua BRDF/Albedo data at a 0.25° spatial resolution and 8-day temporal cadence.
-- **Normalized Difference Vegetation Index (NDVI):**
+- **Normalized Difference Vegetation Index (NDVI):** MODIS/Terra+Aqua BRDF/Albedo Nadir BRDF-Adjusted Reflectance Daily L3 Global 0.05 Deg CMG and Vegetation Indices, 0.25° spatial resolution
+- **Gross Primary Productivity (GPP):** FLUXCOM, 0.25° spatial resolution
 
 #### Methodology
 Our analytical workflow includes:
