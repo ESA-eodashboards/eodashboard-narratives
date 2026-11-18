@@ -66,19 +66,18 @@ This study utilizes climate and vegetation indices to assess ecosystem sensitivi
 - **Gross Primary Productivity (GPP):** FLUXCOM, 0.25° spatial resolution
 
 #### Methodology
+The study is carried out first at a coarse global sclale to identify large-scale spatio-temporal patterns and trends.
+Then two major areas are analyzed in more detail: the southeastern region of South America and Sub-Saharan Africa.
 Our analytical workflow includes:
-1. **Data Retrieval:** Extraction of RONI indices and DeepESDL vegetation datasets.
-2. **Preprocessing:** Time-series extraction and harmonic decomposition to isolate seasonal components.
-3. **Correlation Analysis:** Evaluating lag-time responses between ENSO indices and vegetation anomalies across global biomes.
-4. **Hotspot Identification:** Mapping geographical areas that show statistically significant vegetation response to atmospheric forcing.
+1. **Data Retrieval:** Extraction of NOAA RONI indices and DeepESDL ESDC vegetation indices (NIRv, NDVI and GPP).
+2. **Preprocessing:** Time-series extraction and decomposition to isolate components, as well as computation of lag-times. 
+3. **Correlation Analysis:** Evaluating lag-time responses between ENSO indices and vegetation anomalies across global biomes. Identifying trends and anomalies.
+4. **Hotspot Identification:** Mapping geographical areas that show statistically significant vegetation response to ENSO.
 
-- Extract ENSO indices from available NOAA datasets
--  Work global at very coarse resolution to identify big trends and differences in geographical areas or comapared to other times)
-- Data preprocessing: time-series extraction, time-series decomposition, calculate lag times
-- Additionally select study area and study period of an anomaly
-- Potential study areas: Sub-saharan Africa (e.g. South Africa, Namibia, Kenya, Ghana), South America (Ecuador)
-- Decide whether to focus on current El Niño (probably not enought data to evaluate laged effect on vegetation) or to focus on past events
-- Analysis of correlations between VI anomalies and ENSO indices, of trends and anomalies, geographical hotspots of anomalies, lags between the datasets
+
+
+
+
 - What makes El Niño events different from "normal" droughts/heatwaves?
 - Comparing sites where ENSO causes different climatic anomalies and their different impact
 
