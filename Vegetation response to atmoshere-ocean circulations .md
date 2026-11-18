@@ -31,6 +31,20 @@ In the tropical Pacific-Indian Ocean interaction zone, ENSO dynamics drive major
 ![RONI_1950.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/c78f6483ad0c6f630909e0498cefeaf3e5d45d51/assets/thmimif/RONI1950-1794992576572.png)
 ***Fig. 1:*** *Relative Oceanic Niño Index (RONI) from 1950 to 2026 indicating warm El Niño (positive, red) and cold La Niña (negative, blue) periods.*
 
+These variations in climate conditions result in altered weather patterns.
+
+![el_winter1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/637f242ae961a9c2ba0753e9780fb156c1c5f254/assets/thmimif/elwinter1-1795000251975.png)
+***Fig. 2:*** *El Niño effects from December to February.*
+
+![el_summer1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/6f3393ebf5cbd98cb168cd3570c5ff0a03f049a2/assets/thmimif/elsummer1-1795000283074.png)
+***Fig. 3:*** *El Niño effects from June to August.*
+
+![la_winter1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e9d73b5cb2886282ded9f638a84ee46666478627/assets/thmimif/lawinter1-1795000306894.png)
+***Fig. 4:*** *La Niña effects from December to February.*
+
+![la_summer1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/9f04d681a2c8214a44cbe21881c2e1d92b25dbf2/assets/thmimif/lasummer1-1795000351654.png)
+***Fig. 4:*** *La Niña effects from June to August.*
+
 
 ### <!--{ zoom=4 center=[-50,0] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Tile","properties":{"id":"ESDC_nirv"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/kndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-23T00:00:00Z&vmin=0&vmax=1&cbar=RdYlGn"}}]' animationOptions='{"duration":500}' }-->
 #### Anomalies
@@ -107,3 +121,4 @@ Historical El Niño / La Niña episodes (1950–Present). https://cpc.ncep.noaa.
 ## Contributors
 Theresa Mimi Freiß, Thomas Himmer, and Fabian Unterasinger. 
 
+![el_winter1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/947e1b12f637d25388b8a2fdbc378613f091bdfb/assets/thmimif/elwinter1-1795000170828.png)
