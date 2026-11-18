@@ -69,12 +69,16 @@ Our analytical workflow includes:
 The preliminary analysis generates:
 - **Time-series correlation maps:** Identifying regions where vegetation lags behind ENSO cycles.
 - **Anomaly Hotspots:** Regional focus areas (e.g., Sub-Saharan Africa and Ecuador) exhibiting high sensitivity.
+
+Optional:
 - **Tipping Point Analysis:** Exploration of long-term ecosystem resilience to understand if recurring ENSO cycles lead to permanent structural changes or degradation.
 
 - Timeseries plots
 - Plots of correlations and lag times
 - Maps of potential hotspots of anomalies/negative trends/positive trends
 
+Optional:
+- Identification of "turning points"/tipping points with regard to larger time-series. Do ecosystem get more resilient or collapse?
 
 ## Conclusions
 
