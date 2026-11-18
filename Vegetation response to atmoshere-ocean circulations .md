@@ -56,7 +56,7 @@ Our analytical workflow includes:
 
 - Extract ENSO indices from available NOAA datasets
 -  Work global at very coarse resolution to identify big trends and differences in geographical areas or comapared to other times)
--  - Data preprocessing: time-series extraction, time-series decomposition, calculate lag times
+- Data preprocessing: time-series extraction, time-series decomposition, calculate lag times
 - Additionally select study area and study period of an anomaly
 - Potential study areas: Sub-saharan Africa (e.g. South Africa, Namibia, Kenya, Ghana), South America (Ecuador)
 - Decide whether to focus on current El Niño (probably not enought data to evaluate laged effect on vegetation) or to focus on past events
@@ -71,8 +71,13 @@ The preliminary analysis generates:
 - **Anomaly Hotspots:** Regional focus areas (e.g., Sub-Saharan Africa and Ecuador) exhibiting high sensitivity.
 - **Tipping Point Analysis:** Exploration of long-term ecosystem resilience to understand if recurring ENSO cycles lead to permanent structural changes or degradation.
 
+- Timeseries plots
+- Plots of correlations and lag times
+- Maps of potential hotspots of anomalies/negative trends/positive trends
+
+
 ## Conclusions
-Preliminary findings suggest that vegetation response to ENSO is non-uniform and highly dependent on regional moisture availability. Future work will focus on refining lag-time estimates to better predict vegetation recovery after extreme ENSO-driven drought events.
+
 
 ## Open Science
 All processing workflows and data analysis scripts are developed within an open-science framework to ensure reproducibility and transparency in our findings regarding Earth system health.
