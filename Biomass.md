@@ -1,4 +1,4 @@
-# Biomass mission for water dynamics under forest <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
+# Biomass mission for water dynamics under forest <!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/02/biomass_satellite_over_forest/24725063-1-eng-GB/Biomass_satellite_over_forest_pillars.jpg" }-->
 #### 
 
 ## Authors: Inga Lammers(1), Emilian Tietze(2) and Niels Dedring(1)
@@ -60,7 +60,7 @@ Description
 
 
 ## Contributors
-Authors, contributors, and reviewers from [Ruhr University Bochum](https://services.ruhr-uni-bochum.de/en/rub-logo) and [TU Wien](https://fam.tuwien.ac.at/lehre/arbeiten/logos/Logos_TU/TU-Signet.jpg).
+Authors, contributors, and reviewers from [Ruhr University Bochum](https://services.ruhr-uni-bochum.de/en/rub-logo) and [TU Wien](https://fam.tuwien.ac.at/lehre/arbeiten/logos/Logos_TU/TU-Signet.jpg). (https://www.esa.int)
 
 **Reference:**
 ESA Science Hub Challenges (2026). Biomass mission for water dynamics under forest study.
