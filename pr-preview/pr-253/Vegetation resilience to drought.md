@@ -1,5 +1,5 @@
 # Recovering from drought? <!--{ as="img" mode="hero" src="https://www.amnesty.org/en/wp-content/uploads/2021/08/hunger-angola-1276x710.png" }-->
-#### <span style="color: orange;">Authors: Maximilian Losbichler¹, Carina Villegas¹ and Hannah Kemper²</span>
+#### <span style="color: orange;">Authors: Maximilian Losbichler¹, Carina Villegas¹ and Hannah Kemper²</span><br><span style="color: white; font-size: 0.8em; font-weight: normal;"> <span style="color: white;">¹Vienna University of Technology and ²Ruhr-University Bochum</span></span>
 
 ## 
 <p align="center" style="margin: 40px 0;">
@@ -45,13 +45,16 @@ Description
 ## Conclusions
 
 
-## References
-https://science.nasa.gov/earth/earth-observatory/drought-harms-corn-crops-in-southern-africa-144704/
-
-## Image and Visualization Credits
-Fig. 1: https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/imagerecords/144000/144704/southernafrica_fldas_201902.png?w=720&h=545&fit=clip
 
 
+## Open Science
 #### Notebook
 Access the notebook to reproduce the study workflow.
 <iframe width="100%" height="600" src="LINK TO NOTEBOOK" frameborder="0"></iframe>
+
+
+## References
+https://science.nasa.gov/earth/earth-observatory/drought-harms-corn-crops-in-southern-africa-144704/
+
+### Image and Visualization Credits
+Fig. 1: https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/imagerecords/144000/144704/southernafrica_fldas_201902.png?w=720&h=545&fit=clip
