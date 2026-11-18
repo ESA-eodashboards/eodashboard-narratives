@@ -77,7 +77,16 @@ Preliminary findings suggest that vegetation response to ENSO is non-uniform and
 ## Open Science
 All processing workflows and data analysis scripts are developed within an open-science framework to ensure reproducibility and transparency in our findings regarding Earth system health.
 
+| **Name** | **Type** | **Agency / Provider** | **Description / Usage** |
+| --- | --- | --- | --- |
+| **[Name of dataset 1](link-to-dataset-1)** | Dataset | Source | Brief description. |
+| **[Name of dataset 2](link-to-dataset-2)** | Dataset | Source | Brief description. |
+| **[DeepESDL]** | Platform  | Name/Info | Brief description of how the platform was used. |
+
+#### Notebook
+Access the notebook to reproduce the study workflow.
+<iframe width="100%" height="600" src="link-to-notebook" frameborder="0"></iframe>
+
 ## Contributors
 Theresa Mimi Freiß, Thomas Himmer, and Fabian Unterasinger. 
 
-![globe_transparent_background.jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/c4ed21918274ec4cea124699c59c4862babc5840/assets/thmimif/globetransparentbackground-1794928378057.jpg)
