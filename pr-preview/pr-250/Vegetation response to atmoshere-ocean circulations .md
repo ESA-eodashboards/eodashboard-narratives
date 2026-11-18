@@ -1,4 +1,4 @@
-# Vegetation response to atmosphere-ocean circulations <!--{ as="img" mode="hero" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6sLngkW81-dkp8ahp-4uDHv0WJeYS_kqXKjHQVWBbEw&s=10" }-->
+# Vegetation response to atmosphere-ocean circulations <!--{ as="img" mode="hero" src="https://cdn.pixabay.com/photo/2011/12/13/17/07/earth-11048_1280.jpg" }-->
 #### Spatio-temporal dynamics of vegetation response in relation to the El Niño-Southern Oscillation
 
 ## Authors: Theresa Mimi Freiß¹, Thomas Himmer¹ and Fabian Unterasinger¹
