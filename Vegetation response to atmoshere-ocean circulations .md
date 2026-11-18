@@ -87,6 +87,12 @@ All processing workflows and data analysis scripts are developed within an open-
 Access the notebook to reproduce the study workflow.
 <iframe width="100%" height="600" src="link-to-notebook" frameborder="0"></iframe>
 
+#### References
+- Michael J. McPhaden et al. ,ENSO as an Integrating Concept in Earth Science.Science314,1740-1745(2006). DOI:10.1126/science.1132588
+- National Oceanigraphic and Atmospheric Administration (NOAA), Cold & Warm Episodes by Season - Relative Oceanic Niño Index (RONI):
+Historical El Niño / La Niña episodes (1950–Present). https://cpc.ncep.noaa.gov/products/analysis_monitoring/enso/roni/
+
+
 ## Contributors
 Theresa Mimi Freiß, Thomas Himmer, and Fabian Unterasinger. 
 
