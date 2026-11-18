@@ -7,9 +7,10 @@
 *This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in **2026**. It was developed by a team from the **Vienna University of Technology** and **Ruhr-University Bochum**.*
 
 ## 
-<p align="center" style="margin: 40px 0;">
+<p align="right" style="margin: 40px 0;">
   <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/TU_Wien-Logo.svg/960px-TU_Wien-Logo.svg.png?utm_source=de.wikipedia.org&utm_campaign=index&utm_content=thumbnail" alt="Tu Vienna" height="80" style="margin: 0 60px;"/>
-  
+
+<p align="left" style="margin: 40px 0;">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcvO78N_y9ImdRMAL4O-MNFKmJ74ZFHI_onFSFEmc-XA&s=10" alt="NOC" height="80" style="margin: 0 60px;"/>
 </p>
 
