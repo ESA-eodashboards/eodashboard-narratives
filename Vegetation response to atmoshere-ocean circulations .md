@@ -99,7 +99,7 @@ All processing workflows and data analysis scripts are developed within an open-
 | --- | --- | --- | --- |
 | **[RONI](https://www.ncei.noaa.gov/access/monitoring/enso/sst#roni)** | Dataset | NOAA | Climate Oscillation Indices |
 | **[ESDC](https://earthsystemdatalab.net/guide/data/pre-generated/ESDC/#ndvi)** | Dataset | DeepESDL | Vegetation Indices |
-| **[DeepESDL]** | Platform  | Name/Info | Brief description of how the platform was used. |
+| **[DeepESDL](https://earthsystemdatalab.net/)** | Platform  | Name/Info | Brief description of how the platform was used. |
 
 #### Notebook
 Access the notebook to reproduce the study workflow.
