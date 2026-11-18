@@ -142,4 +142,4 @@ Description
 ## Open Science <!--{ as="div" component="div" }-->
 
 ## Contributors
-Authors, contibutors, reviewers
+Authors, contibutors, reviewers[tree_mortality_cells.geojson](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/0a170e04d6f36168a9572b25a46c5bf19a9776d7/assets/egmeiner/treemortalitycells-1795012656467.geojson)
