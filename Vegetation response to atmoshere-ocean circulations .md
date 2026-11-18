@@ -31,7 +31,8 @@ In the tropical Pacific-Indian Ocean interaction zone, ENSO dynamics drive major
 ![RONI_1950.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/c78f6483ad0c6f630909e0498cefeaf3e5d45d51/assets/thmimif/RONI1950-1794992576572.png)
 ***Fig. 1:*** *Relative Oceanic Niño Index (RONI) from 1950 to 2026 indicating warm El Niño (positive, red) and cold La Niña (negative, blue) periods.*
 
-These variations in climate conditions result in altered weather patterns.
+These ENSO-driven variations in climate conditions result in altered weather patterns globally.
+Differences unreval wether an El Niño or La Niña period occurs in winter or in summer.
 
 ![el_winter1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/637f242ae961a9c2ba0753e9780fb156c1c5f254/assets/thmimif/elwinter1-1795000251975.png)
 ***Fig. 2:*** *El Niño effects from December to February.*
