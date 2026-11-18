@@ -120,3 +120,8 @@ Authors, contributors, and reviewers from [Ruhr University Bochum](https://servi
 
 **Reference:**
 ESA Science Hub Challenges (2026). Biomass mission for water dynamics under forest study.
+
+**Image references:**
+https://www.esa.int [Accessed: 18/11/2026]
+https://services.ruhr-uni-bochum.de/en/rub-logo [Accessed: 18/11/2026]
+https://fam.tuwien.ac.at/lehre/arbeiten/logos/Logos_TU/TU-Signet.jpg [Accessed: 18/11/2026]
