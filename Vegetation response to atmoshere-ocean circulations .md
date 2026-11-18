@@ -6,12 +6,11 @@ tags: some,tags
 official: false
 
 ---
+<!-- Spatio-temporal dynamics of vegetation response in relation to the El Niño-Southern Oscillation-->
 
 # Vegetation response to atmosphere-ocean circulations <!--{ as="img" mode="hero" src="https://cdn.pixabay.com/photo/2011/12/13/17/07/earth-11048_1280.jpg" }-->
-## Authors: Theresa Mimi Freiß¹, Thomas Himmer¹ and Fabian Unterasinger¹
+## Authors: Theresa Mimi Freiß¹, Thomas Himmer¹ and Fabian Unterasinger¹  <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 > ¹ Vienna University of Technology
-
-<!-- Spatio-temporal dynamics of vegetation response in relation to the El Niño-Southern Oscillation-->
 
 *This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in **November 2026**. It was developed by a team from the **Vienna University of Technology**.*
 
