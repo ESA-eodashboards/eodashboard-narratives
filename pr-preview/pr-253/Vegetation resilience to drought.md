@@ -1,5 +1,5 @@
 # Recovering from drought? <!--{ as="img" mode="hero" src="https://www.amnesty.org/en/wp-content/uploads/2021/08/hunger-angola-1276x710.png" }-->
-#### <span style="color: orange;">Authors: Maximilian Losbichler¹, Carina Villegas¹ and Hannah Kemper²</span><br><span style="color: white; font-size: 0.8em; font-weight: normal;"> <span style="color: white;">¹Vienna University of Technology and ²Ruhr-University Bochum</span></span>
+#### <span style="color: orange; font-size: 0.9em;;">Authors: Maximilian Losbichler¹, Carina Villegas¹ and Hannah Kemper²</span><br><span style="color: white; font-size: 0.8em; font-weight: normal;"> <span style="color: white;">¹Vienna University of Technology and ²Ruhr-University Bochum</span></span>
 
 ## 
 <p align="center" style="margin: 40px 0;">
@@ -24,6 +24,18 @@ Given that drought conditions persisted over several months, both vegetation and
 
 ### Study Area
 The Southern districts of Huíla, Namibe and Cunene of Angola were heavily affected by the 2018 drought resulting in 1.1 million people facing hunger and existential threat[3]. By 2021 malnutrition was widespread among the local population, resulting in illegal migration of thousand across the border to Namibia. In May 2021, the WFP estimated that 6 million people in Angola had insufficient food, with food insecurity most prevalent in the south of the country. It also noted that more than 15 million people are using crisis or emergency livelihood-based coping strategies, such as spending savings or reducing non-food expenses[4].
+
+## 
+<p align="center" style="margin: 6px 0;">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1eXhhAq71PMxV_Lw21j_CKH4RONZ5UQAQUtxBrtcBsEOyhCsBQOmhYyQ&s=10" alt="angola_drought" height="300" style="margin: 0 10px;"/>
+</p>
+
+**Fig. 2:** Drought-affected pasture lands put livestock herders at risk of food insecurity.
+
+#### Landscapes of Angola
+Angola's landscapes range from savanna, over grasslands to broadleave wood forests. Meanwhile the North of Angola has tropical moist climate, the Southern districts have more arid conditions.
+
+A dominant proportion of the landcover is
 
 
 ## Objective
@@ -53,9 +65,14 @@ Access the notebook to reproduce the study workflow.
 
 ## References
 [1] https://blogs.worldbank.org/en/africacan/building-drought-resilience-across-southern-africa-a-regional-imperative
+
 [2] https://science.nasa.gov/earth/earth-observatory/drought-harms-corn-crops-in-southern-africa-144704/
+
 [3] https://reliefweb.int/report/angola/over-one-million-angolans-affected-drought
+
 [4] https://www.amnesty.org/en/latest/news/2021/07/angola-millions-facing-hunger-as-thousands-flee-their-homes-as-drought-ravages-the-south-of-angola-2/
 
 ### Image and Visualization Credits
 Fig. 1: https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/imagerecords/144000/144704/southernafrica_fldas_201902.png?w=720&h=545&fit=clip
+
+Fig. 2: https://www.forafrika.org/angola/drought-in-angola-dismantles-families/
