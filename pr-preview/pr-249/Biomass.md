@@ -45,10 +45,66 @@ Synthesizing these observations provides a comprehensive view of how water dynam
 ## Data and Methods
 #### Dataset
 - **Source**: SAR Data
-- **Temporal coverage**: Measurements are available every 3 days, from 07/25/2026 to 08/12/2026.
-
+- **Temporal coverage**: Measurements are available every 3 days, from 07/25/2026 to 08/12/2026 resulting in 7 SAR .
+- **Spatial resolution**: The raw data has an inital resolution of 39m azimuth and 6m range. After applying the "multilooking method" a resolution of about 40m per pixel is achieved.
+- **Area**: The inital datafile has a width of 1363 pixels
+and a height of 3425 pixels.
 #### Methodology workflow
-Description
+
+
+Our methodology consists of six main steps, starting with the reconstruction of the polarimetric SAR data and ending with the development of a potential wetness indicator.
+
+##### 1. Scattering Matrix Reconstruction
+
+The amplitude and phase information from the Biomass Level 1C measurement files are combined to reconstruct the complex scattering matrix:
+
+<p align="center">
+  <i>S</i><sub>pq</sub> = |<i>S</i><sub>pq</sub>| e<sup>j&phi;<sub>pq</sub></sup>
+</p>
+
+This matrix contains the complex scattering coefficients for the four polarimetric channels (HH, HV, VH and VV), preserving both amplitude and phase information.
+
+##### 2. Polarimetric Multilooking
+
+To reduce speckle and better characterize distributed targets such as mangrove forests, spatial averaging is applied to neighbouring pixels.
+
+Two polarimetric matrices are generated:
+
+- **Covariance Matrix (C3):** Calculated using the lexicographic target vector.
+- **Coherency Matrix (T3):** Calculated using the Pauli target vector.
+
+These matrices provide complementary representations of the polarimetric information and form the basis for the subsequent decomposition techniques.
+
+##### 3. Polarimetric Visualization and Decomposition
+
+
+ The Freeman-Durden method was applied to separate the signal into odd-bounce, double-bounce and volume scattering contributions.
+
+
+This methods helps to distinguish the radar responses associated with vegetation, water and the underlying surface.
+
+##### 4. Temporal Coherence Analysis
+
+Temporal coherence is calculated for the seven SAR acquisitions (25 July–12 August 2026) using two approaches:
+
+- **Consecutive comparison:** Each acquisition is compared with the following one to identify short-term changes.
+- **Reference comparison:** All acquisitions are compared against the first timestamp to investigate changes relative to a common reference.
+
+The resulting coherence maps reveal areas of different temporal stability.
+
+##### 5. Analysis of Selected Areas
+
+Areas exhibiting the highest temporal coherence are selected for further investigation. Within these areas, the temporal evolution of the polarimetric scattering powers and decomposition parameters is analysed.
+
+The objective is to identify which scattering contributions change most significantly throughout the observation period and how these changes relate to the underlying water conditions.
+
+##### 6. Copernicus Sea-Level Comparison and Wetness Indicator
+
+Finally, the temporal changes in the SAR-derived parameters are compared with marine sea-level measurements from the Copernicus Marine Service.
+
+By investigating the relationship between sea-level variations and changes in the polarimetric scattering contributions, we aim to identify the radar parameter most sensitive to changing water conditions.
+
+Based on this relationship, we explore the development of an empirical **wetness indicator** to investigate the potential of P-band SAR for monitoring water dynamics beneath mangrove forests.
 
 ## Results
 
