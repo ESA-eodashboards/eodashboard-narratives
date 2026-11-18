@@ -45,7 +45,7 @@ Synthesizing these observations provides a comprehensive view of how water dynam
 ## Data and Methods
 #### Dataset
 - **Source**: SAR Data
-- **Temporal coverage**: Measurements are available every 3 days, from 07/25/2026 to 08/12/2026 resulting in 7 SAR .
+- **Temporal coverage**: Measurements are available every 3 days, from 07/25/2026 to 08/12/2026 resulting in 7 SAR measurements.
 - **Spatial resolution**: The raw data has an inital resolution of 39m azimuth and 6m range. After applying the "multilooking method" a resolution of about 40m per pixel is achieved.
 - **Area**: The inital datafile has a width of 1363 pixels
 and a height of 3425 pixels.
