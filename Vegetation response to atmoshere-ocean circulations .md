@@ -28,6 +28,10 @@ The global perspective allows us to broadly observe climate anomalies and their 
 #### ENSO
 In the tropical Pacific-Indian Ocean interaction zone, ENSO dynamics drive major shifts in atmospheric pressure and sea surface temperatures. The Relative Oceanic Niño Index (RONI) serves as a key indicator, distinguishing between El Niño (warm) and La Niña (cold) conditions.
 
+![RONI_1950.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/c78f6483ad0c6f630909e0498cefeaf3e5d45d51/assets/thmimif/RONI1950-1794992576572.png)
+***Fig. 1:*** *Relative Oceanic Niño Index (RONI) from 1950 to 2026 indicating warm El Niño (positive, red) and cold La Niña (negative, blue) periods.*
+
+
 ### <!--{ zoom=4 center=[-50,0] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Tile","properties":{"id":"ESDC_nirv"},"source":{"type":"XYZ","url":"https://api.earthsystemdatalab.net/api/tiles/esdc/kndvi/{z}/{y}/{x}?crs=EPSG:3857&time=2021-12-23T00:00:00Z&vmin=0&vmax=1&cbar=RdYlGn"}}]' animationOptions='{"duration":500}' }-->
 #### Anomalies
 When analyzing the correlation between ENSO indices and vegetation index anomalies, we observe distinct spatio-temporal patterns. Negative vegetation anomalies often coincide with ENSO-driven extreme precipitation shifts, revealing sensitive regional ecosystems that experience delayed responses to ocean-atmospheric forcing.
@@ -48,6 +52,16 @@ Our analytical workflow includes:
 2. **Preprocessing:** Time-series extraction and harmonic decomposition to isolate seasonal components.
 3. **Correlation Analysis:** Evaluating lag-time responses between ENSO indices and vegetation anomalies across global biomes.
 4. **Hotspot Identification:** Mapping geographical areas that show statistically significant vegetation response to atmospheric forcing.
+
+- Extract ENSO indices from available datasets NOAA
+- Select study area and study period (or probably work global at very coarse resolution to identify big trends and differences in geographical areas or comapared to other times)
+- Potential study areas: Sub-saharan Africa (e.g. South Africa, Namibia, Kenya, Ghana), South America (Ecuador)
+- Decide whether to focus on current El Niño (probably not enought data to evaluate laged effect on vegetation) or to focus on past events
+- Data preprocessing: time-series extraction, time-series decomposition
+- Analysis of correlations between VI anomalies and ENSO indices, of trends and anomalies, geographical hotspots of anomalies, lags between the datasets
+- What makes El Niño events different from "normal" droughts/heatwaves?
+- Comparing sites where ENSO causes different climatic anomalies and their different impact
+
 
 ## Results
 The preliminary analysis generates:
