@@ -1,4 +1,4 @@
-# Drivers of tree mortality <!--{ as="img" mode="hero" src="https://loremflickr.com/1280/720/dead,tree" }-->
+# Drivers of tree mortality <!--{ as="img" mode="hero" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoQjsfbD7h_AsxjQTRhWyIqKCHuItJhqu-SjN7Rq2NZ492SPlzK3cRgls&s=10" }-->
 #### 
 
 ## Authors:
@@ -22,13 +22,12 @@ The objective of this study was to
 
 </p>
 
-## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
-### <!--{ zoom=6 center=[15,50] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}},{"type":"Tile","properties":{"id":"soil-moisture"},"source":{"type":"WMTS","url":"https://sdi.eea.europa.eu/data/sm/wms","layer":"soil_moisture_index"}}]' animationOptions='{"duration":500}' }-->
-#### Soil Moisture Analysis - Central Europe
-Examining moisture patterns across Germany, Austria, Slovakia, Czechia, and Poland to assess forestry impacts.
 
 ## Data and Methods
+
+All the data was spacialy matched to 0.25 degrees of cell size.
+If a 0.25 cell has more than 30% of forest we keep it as a forest pixel.
 #### Dataset
 - **Source**: 
 - **Temporal coverage**: 
