@@ -74,14 +74,6 @@ Our analytical workflow includes:
 3. **Correlation Analysis:** Evaluating lag-time responses between ENSO indices and vegetation anomalies across global biomes. Identifying trends and anomalies.
 4. **Hotspot Identification:** Mapping geographical areas that show statistically significant vegetation response to ENSO.
 
-
-
-
-
-- What makes El Niño events different from "normal" droughts/heatwaves?
-- Comparing sites where ENSO causes different climatic anomalies and their different impact
-
-
 ## Results
 The preliminary analysis generates:
 - **Time-series correlation maps:** Identifying regions where vegetation lags behind ENSO cycles.
