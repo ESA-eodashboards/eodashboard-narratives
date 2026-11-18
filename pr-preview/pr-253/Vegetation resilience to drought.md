@@ -10,8 +10,8 @@
 </p>
 
 ## Challenge
-Droughts are slow-onset disasters that unfold live-threatening impacts on ecosystems and people's livelihoods. Such impacts range from crop loss and increase in food insecurity, but also result in the reduction of drinking water, displacement or power shortages. 
-Form 2018 to 2020 the Southern African drought hit the local population at a very vulnerable time: just when crops were planted. Decrease in rainfall resulted in decrease in soil moisture.
+Droughts are slow-onset disasters that unfold live-threatening impacts on ecosystems and people's livelihoods. Such impacts range from crop loss and increase in food insecurity, but also result in the reduction of drinking water, displacement or power shortages. According to the World Bank between 600.000 and 900.000 people in Sub-Sahara Africa loose their job due to water scaricity every year. Rural employment drops by 7.4 percentage points when drought strikes, hitting women, older workers, landless farmers, and low-skilled laborers the hardest[1].
+Form 2018 to 2020 the Southern African drought hit the local population at a very vulnerable time: just when crops were planted. Decrease in rainfall resulted in decrease in soil moisture[2].
 
 ## 
 <p align="center" style="margin: 6px 0;">
@@ -20,9 +20,10 @@ Form 2018 to 2020 the Southern African drought hit the local population at a ver
 
 **Fig. 1:** Satellite-derived soil moisture anomalies across Southern Africa in February 2019, highlighting significant dryness in key agricultural zones.
 
-Given that drought conditions persisted over several months, both vegetation and soil moisture decreased substantially, resulting in crop failure across all Southern African Countries. Widespread humanitarian assistance was requested to alleviate the acute food insecurity across the continent.
+Given that drought conditions persisted over several months, both vegetation and soil moisture decreased substantially, resulting in crop failure across all Southern African countries. Widespread humanitarian assistance was requested to alleviate the acute food insecurity across the continent.
 
-## Study Area
+### Study Area
+The Southern districts of Huíla, Namibe and Cunene of Angola were heavily affected by the 2018 drought resulting in 1.1 million people facing hunger and existential threat[3]. By 2021 malnutrition was widespread among the local population, resulting in illegal migration of thousand across the border to Namibia. In May 2021, the WFP estimated that 6 million people in Angola had insufficient food, with food insecurity most prevalent in the south of the country. It also noted that more than 15 million people are using crisis or emergency livelihood-based coping strategies, such as spending savings or reducing non-food expenses[4].
 
 
 ## Objective
@@ -45,16 +46,16 @@ Description
 ## Conclusions
 
 
-
-
 ## Open Science
 #### Notebook
 Access the notebook to reproduce the study workflow.
 <iframe width="100%" height="600" src="LINK TO NOTEBOOK" frameborder="0"></iframe>
 
-
 ## References
-https://science.nasa.gov/earth/earth-observatory/drought-harms-corn-crops-in-southern-africa-144704/
+[1] https://blogs.worldbank.org/en/africacan/building-drought-resilience-across-southern-africa-a-regional-imperative
+[2] https://science.nasa.gov/earth/earth-observatory/drought-harms-corn-crops-in-southern-africa-144704/
+[3] https://reliefweb.int/report/angola/over-one-million-angolans-affected-drought
+[4] https://www.amnesty.org/en/latest/news/2021/07/angola-millions-facing-hunger-as-thousands-flee-their-homes-as-drought-ravages-the-south-of-angola-2/
 
 ### Image and Visualization Credits
 Fig. 1: https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/imagerecords/144000/144704/southernafrica_fldas_201902.png?w=720&h=545&fit=clip
