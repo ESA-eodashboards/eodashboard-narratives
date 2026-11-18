@@ -1,8 +1,8 @@
 ---
-cover-image: https://placehold.co/600x400/png
+cover-image: https://cdn.pixabay.com/photo/2011/12/13/17/07/earth-11048_1280.jpg
 date: 2025-01-01
-theme: theme_name
-tags: some,tags
+theme: Vegetation-response-to-atmosphere-ocean-circulations
+tags: vegetation,ENSO
 official: false
 
 ---
