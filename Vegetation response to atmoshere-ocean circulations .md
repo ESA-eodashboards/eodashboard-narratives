@@ -82,16 +82,13 @@ The results comprise global and regional maps of lag-time correlation and region
 Global lagged correlation analysis between the Relative Oceanic Niño Index (RONI) and the three vegetation metrics (NDVI, NIRv, and GPP) reveals consistent, geographically coherent ENSO teleconnection patterns across tropical and subtropical land surfaces. Strong negative correlations (r < -0.5) at short lag times (0–4 months) dominate across Australia, Southeast Asia, India, southern Africa, and northern South America, reflecting rapid vegetation stress and reduced photosynthetic uptake during warm ENSO phases. Conversely, pronounced positive correlations (r > 0.5) with short-to-moderate lags occur in southern South America, the southwestern United States, eastern Africa, and Central Asia. Across the metrics, GPP and NIRv exhibit stronger and spatially more contiguous negative responses than NDVI over the Maritime Continent, northern Australia, and southern Africa—a pattern clearly captured in the zonal median anomalies around 15°S–30°S and the meridional anomalies between 120°E and 150°E. Unlike the reflectance-based indices, GPP masks out barren, ice-covered, and hyper-arid regions (such as the Sahara, Greenland, and Antarctica), while northern high latitudes across all three datasets generally display weak correlations (|r| < 0.3) and longer, more heterogeneous optimal lag times.
 
 **NIRv vs. RONI**
-Global spatial distribution of the maximum absolute Pearson correlation coefficient (r
-, vertical legend axis) and corresponding optimal time lag in months (0–12 months, horizontal legend axis) for the Near-Infrared Reflectance of Vegetation (NIRv) and RONI, showing enhanced negative responses across Southeast Asia and Australia.
+<figcaption>***Fig. 6:*** *Global spatial distribution of the maximum absolute Pearson correlation coefficient (r, vertical legend axis) and corresponding optimal time lag in months (0–12 months, horizontal legend axis) for the Near-Infrared Reflectance of Vegetation (NIRv) and RONI, showing enhanced negative responses across Southeast Asia and Australia.*</figcaption>
 
 **NDVI vs. RONI**
-Global spatial distribution of the maximum absolute Pearson correlation coefficient (r
-, vertical legend axis) and corresponding optimal time lag in months (0–12 months, horizontal legend axis) between NDVI and the Relative Oceanic Niño Index (RONI). Right and bottom margin bands indicate zonal and meridional median values, respectively.
+<figcaption>***Fig. 7:*** *Global spatial distribution of the maximum absolute Pearson correlation coefficient (r, vertical legend axis) and corresponding optimal time lag in months (0–12 months, horizontal legend axis) between NDVI and the Relative Oceanic Niño Index (RONI). Right and bottom margin bands indicate zonal and meridional median values, respectively.*</figcaption>
 
 **GPP vs. RONI**
-Global spatial distribution of the maximum absolute Pearson correlation coefficient (r
-, vertical legend axis) and corresponding optimal time lag in months (0–12 months, horizontal legend axis) for Gross Primary Productivity (GPP) and RONI across vegetated land areas, highlighting pronounced short-lag reductions in primary productivity over Australia, southern Africa, and the Maritime Continent.
+<figcaption>***Fig. 8:*** *Global spatial distribution of the maximum absolute Pearson correlation coefficient (r, vertical legend axis) and corresponding optimal time lag in months (0–12 months, horizontal legend axis) for Gross Primary Productivity (GPP) and RONI across vegetated land areas, highlighting pronounced short-lag reductions in primary productivity over Australia, southern Africa, and the Maritime Continent.*</figcaption>
 
 #### Regional study
 
