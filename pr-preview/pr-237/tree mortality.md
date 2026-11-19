@@ -156,6 +156,8 @@ A correlation to the mortality as already visible.
 
 
 ## Conclusions
+![correlation_correlogram.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/0e34bc4029287c6e4e4b8e424b457fff297c22d4/assets/egmeiner/correlationcorrelogram-1795101035484.png)
+
 ![Scatter Plot](https://github.com/egmeiner/eodashboard-narratives/blob/4b0cc1c6d3d913f85bd80ca20c45a1bfc1c690e1/assets/egmeiner/scatter2x4-1795099462987.png?raw=true)
 
 ![RF_model_performance.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/2e5c0dec61a3e025e440ce644ba97f7e44865db0/assets/egmeiner/RFmodelperformance-1795100211414.png)
