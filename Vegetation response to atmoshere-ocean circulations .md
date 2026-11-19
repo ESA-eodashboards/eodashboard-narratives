@@ -76,7 +76,7 @@ Our analytical workflow includes:
 
 ## Results
 Our findings, derived from comparing NIRv, NDVI, and GPP vegetation indices against RONI, provide insight into vegetation response to ENSO at different scales.
-The results comprise global and regional maps of lag-time correlation and regional timeseries, alongside phase-specific analyses that reveal how vegetation indices shift in response to El Niño and La Niña periods. Here, only the most pronounced responses are shown. For further response analysis access the notebook linked in the *Notebook* section.
+The results comprise global and regional maps of lag-time correlation and regional timeseries, alongside phase-specific analyses that reveal how vegetation indices shift in response to El Niño and La Niña periods. Only the most pronounced responses are shown here. Further response analysis can be accessed via the notebook linked in the *Notebook* section.
 
 #### Global study
 
