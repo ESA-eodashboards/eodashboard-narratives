@@ -1,5 +1,5 @@
 ---
-cover-image: https://placehold.co/600x400/png
+cover-image: https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/Title_600x400.png
 date: 2026-11-18
 theme: esa-biomass-terramind
 tags: biomass, terramind, forest-canopy-height, sar, sentinel-1, sentinel-2, foundation-models, germany
@@ -7,7 +7,7 @@ official: false
 
 ---
 
-# Global-to-Regional Forest Canopy Height Estimation with TerraMind and ESA BIOMASS Level-2A <!--{ as="img" mode="hero" src="https://placehold.co/600x400/png" }-->
+# Global-to-Regional Forest Canopy Height Estimation with TerraMind and ESA BIOMASS Level-2A <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/Title_600x400.png" }-->
 ## Authors: [Name Surname]¹, [Name Surname]² and [Name Surname]³  <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 > ¹ [Affiliation 1]  ² [Affiliation 2]  ³ [Affiliation 3]
 
