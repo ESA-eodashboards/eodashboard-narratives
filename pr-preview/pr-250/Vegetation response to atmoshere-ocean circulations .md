@@ -84,6 +84,8 @@ Global lagged correlation analysis between the Relative Oceanic Niño Index (RON
 **NIRv vs. RONI**
 
 **NDVI vs. RONI**
+Global spatial distribution of the maximum absolute Pearson correlation coefficient (r
+, vertical legend axis) and corresponding optimal time lag in months (0–12 months, horizontal legend axis) between NDVI and the Relative Oceanic Niño Index (RONI). Right and bottom margin bands indicate zonal and meridional median values, respectively.
 
 **GPP vs. RONI**
 
