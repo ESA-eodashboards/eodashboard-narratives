@@ -2,32 +2,29 @@
 cover-image: https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/Title_600x400.png
 date: 2026-11-18
 theme: esa-biomass-terramind
-tags: biomass, terramind, forest-canopy-height, sar, sentinel-1, sentinel-2, foundation-models, germany
+tags: biomass, terramind, forest-canopy-height, sar, sentinel-1, sentinel-2, foundation-models
 official: false
 
 ---
 
-# Global-to-Regional Forest Canopy Height Estimation with TerraMind and ESA BIOMASS Level-2A <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/Title_600x400.png" }-->
-## Authors: [Name Surname]¹, [Name Surname]² and [Name Surname]³  <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
-> ¹ [Affiliation 1]  ² [Affiliation 2]  ³ [Affiliation 3]
+# Forest Canopy Height Beyond the BIOMASS Mission: Learning P-band Forest Structure from Sentinel Data with TerraMind <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/Title_600x400.png" }-->
+## Authors: Torben Dedring¹  <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
+> ¹ Ruhr-Universität Bochum
 
 *This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in **[Month Year / 2026]**. It was developed by a team from **[Affiliations]**.*
 
 ##  <!--{ nav="false"}-->
 <p align="center">
-  <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_250,h_250/https://markleisherproductions.com/wp-content/uploads/2021/01/logo-placeholder-png-2.png" alt="Affiliation 1" height="80" style="margin: 0 15px;"/>
-  <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_250,h_250/https://markleisherproductions.com/wp-content/uploads/2021/01/logo-placeholder-png-2.png" alt="Affiliation 2" height="80" style="margin: 0 15px;"/>
-  <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_250,h_250/https://markleisherproductions.com/wp-content/uploads/2021/01/logo-placeholder-png-2.png" alt="Affiliation 3" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/RUB_Logo.png" alt="Ruhr-Universität Bochum" height="80" style="margin: 0 15px;"/>
+  <img src="https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/indygis_Logo.png" alt="indygis" height="80" style="margin: 0 15px;"/>
 </p>
 
 
 ## Challenge
-ESA's BIOMASS mission (Earth Explorer 7) is the first satellite to carry a spaceborne P-band (~70 cm wavelength) Synthetic Aperture Radar (SAR). Its long wavelength penetrates dense forest canopies down to the ground, allowing retrieval of vertical forest structure such as Forest Canopy Height (FH). However, International Telecommunication Union (ITU) frequency restrictions that protect Space Object Tracking Radars prohibit P-band acquisitions over large regions, including Europe and North America, and the active swaths provide strip-based rather than wall-to-wall coverage. Globally available missions such as Sentinel-2 (optical) and Sentinel-1 (C-band SAR) do offer continuous coverage, but optical reflectance saturates in dense multi-layered forests and C-band radar mainly interacts with the upper canopy.
-
+ESA's BIOMASS mission (Earth Explorer 7), launched in April 2025, is the first satellite to carry a spaceborne P-band (~70 cm wavelength) Synthetic Aperture Radar (SAR). Its long wavelength penetrates dense forest canopies down to the ground, allowing retrieval of vertical forest structure such as Forest Canopy Height (FH). However, BIOMASS is a research mission with a planned lifetime of about five and a half years. Its acquisitions are also strip-based and, due to frequency-allocation restrictions, unavailable over some regions. Sentinel-1 (C-band SAR) and Sentinel-2 (optical), in contrast, provide continuous global coverage and are planned to continue for decades within the Copernicus programme. On their own, however, they are less sensitive to forest structure: optical reflectance saturates in dense multi-layered forests and C-band radar mainly interacts with the upper canopy.
 
 ## Objective
-The objective of this study was to reproduce the ESA BIOMASS Level-2A Forest Canopy Height product from freely available, wall-to-wall data: Sentinel-2, Sentinel-1 and the Copernicus DEM. To do so, we adapted **TerraMind v1**, a deep-learning foundation model for Earth observation developed by IBM and ESA Φ-lab, and trained it on BIOMASS canopy height across globally distributed forest regions. The trained model is then applied over Germany, where BIOMASS does not acquire data, to produce a BIOMASS-like canopy height map.
-
+The objective of this study is to learn, while BIOMASS is in orbit, how its P-band canopy height relates to freely available Sentinel-2, Sentinel-1 and Copernicus DEM data. To do so, we adapted **TerraMind v1**, a deep-learning foundation model for Earth observation developed by IBM and ESA Φ-lab, and trained it on BIOMASS canopy height across globally distributed forest regions. Once trained, such a model needs only Sentinel and DEM data. It could therefore continue to provide BIOMASS-like canopy height estimates after the BIOMASS mission has ended, and fill gaps between BIOMASS acquisitions.
 
 ## Methodology
 
@@ -138,32 +135,21 @@ The model's prediction from Sentinel-2, Sentinel-1 and DEM only, on the same col
 <img src="https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/Amazon_Legend_Height.png" width="300"/>
 
 
-## Canopy Height Map of Germany
-Using the trained model, a wall-to-wall canopy height map is produced for Germany (5.8°E–15.1°E, 47.2°N–55.1°N) on the BIOMASS grid (~51 × 92 m at 51°N), from leaf-on 2026 Sentinel-1/2 mosaics and the Copernicus DEM. The model predicts a height for every land pixel, so a forest mask is applied before display.
-
-- **Spatial & Ecological Patterns**: [Describe observed regional gradients across Germany, e.g. tall coniferous and mixed montane stands in the Black Forest, Bavarian Forest, Harz and Alpine foothills vs. managed lowland pine forests in Brandenburg/Lower Saxony.]
-
-
 ## Conclusions
-- **Feasibility**: A frozen Earth observation foundation model with a small, terrain-aware refiner can learn BIOMASS-like canopy height from globally available Sentinel-2, Sentinel-1 and Copernicus DEM data, and apply it to regions without P-band coverage, such as Germany.
+- **Feasibility**: A frozen Earth observation foundation model with a small, terrain-aware refiner can learn BIOMASS-like canopy height from globally available Sentinel-2, Sentinel-1 and Copernicus DEM data, and transfer it to scenes it has never seen.
+- **Beyond the mission**: Because the trained model needs no P-band input, it offers a way to extend BIOMASS-like canopy height estimates in time, beyond the lifetime of the mission, using the long-term Sentinel and Copernicus data streams.
 - **Labels set the limit**: Repeat BIOMASS passes agree at only r = 0.18, and whole scenes can be offset by 10–25 m. Model accuracy must be read as agreement with BIOMASS, and improving label quality (e.g. using the BIOMASS quality layer) is as important as improving the model.
-- **Limitations**: Only one validation scene per region in four regions; Sentinel-1/2 inputs are quarterly mosaics rather than single acquisitions; the Germany map has no direct BIOMASS reference and is not yet validated.
-- **Future work**: Validate the Germany map against independent references such as NASA GEDI, national airborne laser scanning and forest inventories; include the BIOMASS quality layer; and extend validation to more scenes and regions.
-
+- **Limitations**: Only one validation scene per region in four regions; Sentinel-1/2 inputs are quarterly mosaics rather than single acquisitions; and whether the relation learned in 2026 stays valid for later years, as forests and sensors change, has not yet been tested.
+- **Future work**: Test the model on Sentinel data from other years against later BIOMASS acquisitions; compare with independent references such as NASA GEDI and airborne laser scanning; include the BIOMASS quality layer; and extend validation to more scenes and regions.
 
 ## <!--{ as="div" }--> Open Science
 | **Name** | **Type** | **Agency / Provider** | **Description / Usage** |
 | :--- | :--- | :--- | :--- |
 | **[ESA BIOMASS Level-2A (MAAP STAC)](https://catalog.maap.eo.esa.int/catalogue/)** | Dataset | ESA (Earth Explorer 7 / MAAP) | P-band Forest Canopy Height (labels) and Ground Notch (auxiliary labels) used for training and validation. |
-| **[Copernicus Sentinel-1 & Sentinel-2 Global Mosaics (CDSE)](https://dataspace.copernicus.eu/)** | Dataset | European Commission / ESA (CDSE) | Quarterly Sentinel-2 optical and Sentinel-1 C-band radar mosaics used for training and the Germany map. |
+| **[Copernicus Sentinel-1 & Sentinel-2 Global Mosaics (CDSE)](https://dataspace.copernicus.eu/)** | Dataset | European Commission / ESA (CDSE) | Quarterly Sentinel-2 optical and Sentinel-1 C-band radar mosaics used as model inputs for training and validation. |
 | **[Copernicus DEM GLO-30](https://registry.opendata.aws/copernicus-dem/)** | Dataset | ESA / Copernicus (AWS Open Data) | 30 m global elevation used for elevation, relief and slope. |
 | **[IBM/ESA TerraMind v1](https://huggingface.co/ibm-esa-geospatial)** | Foundation Model | IBM Research & ESA Φ-lab | Pretrained multimodal Earth observation foundation model, used frozen via TerraTorch. |
 | **[EO Dashboard](https://eodashboard.org/explore/?x=15.0000&y=48.0000&z=4.0000&datetime=2025-09-19&template=expert)** | Platform / Web Tool | EO Dashboard Consortium (ESA, NASA, JAXA) | Base layers and tools for interactive exploration of Earth observation indicators. |
-
-#### Notebook
-Access the notebook to reproduce the study workflow.
-<iframe width="100%" height="600" src="[LINK TO NOTEBOOK]" frameborder="0"></iframe>
-
 
 #### References
 - **ESA BIOMASS Mission**: Quegan, S., et al. (2019). The European Space Agency BIOMASS mission: Measuring forest above-ground biomass from space. *Remote Sensing of Environment*, 227, 44–60. https://doi.org/10.1016/j.rse.2019.03.032
@@ -172,6 +158,6 @@ Access the notebook to reproduce the study workflow.
 
 
 ## Contributors
-- **[Author 1 Name]** ([Affiliation 1]) — Methodology, model architecture, data pipeline, and regional inference.
+- **[Author 1 Name]** ([Affiliation 1]) — Methodology, model architecture, data pipeline, and validation.
 - **[Author 2 Name]** ([Affiliation 2]) — Validation, geospatial analysis, and scientific review.
 - **[Author 3 Name]** ([Affiliation 3]) — Supervision and StoryMap curation.
