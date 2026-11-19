@@ -257,7 +257,7 @@ Post-fire vegetation recovery differs substantially between land-cover classes, 
 
 #### Notebook
 Access the notebook to reproduce the study workflow.
-<iframe width="100%" height="600" src="LINK_TO_NOTEBOOK" frameborder="0"></iframe>
+<iframe width="100%" height="600" src="https://jupyterhub.deepesdl-v2.eox.at/hub/user-redirect/lab/tree/sciencehub-challenges-user-data/processing/team-3/main.ipynb" frameborder="0"></iframe>
 
 #### References
 - Forzieri, G., Dakos, V., McDowell, N. G., Ramdane, A., & Cescatti, A. (2022). Emerging signals of declining forest resilience under climate change. *Nature*, 608, 534–539. https://doi.org/10.1038/s41586-022-04959-9
