@@ -100,6 +100,12 @@ Q1: How do different landcover types behave before, during and after a drought? 
 
 ![basic_ts_ndvi_all_landcovers (1).jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/ec56351c62157265196c5470ed98b04ad8083998/assets/HannahKemper/basictsndvialllandcovers-1-1795102375117.jpg)
 
+Looking at generic NDVI mean values across the study areas, there are very little difference visible for the identified drought period. It is crucial to consider landcover types and ecosystems while studying drought impacts.
+While splitting the NDVI mean values into different landcover types, more differences are visible.
+
+
+![basic_ts_std_ndvi_anom_all_landcovers (1).jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/aa5c8acb79a98b81ad826f76a0a97a1ae51c76f3/assets/HannahKemper/basictsstdndvianomalllandcovers-1-1795102522833.jpg)
+
 ## Conclusions
 
 
