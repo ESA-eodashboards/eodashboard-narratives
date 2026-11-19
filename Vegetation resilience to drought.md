@@ -79,7 +79,7 @@ Remote Sensing is a suitable method to study the observed drought impacts and th
 Explore the response and recovery of different landuse types during the 2018/20 drought in Southern Africa focusing on the Southern regions of Angola comparing the time-series of different indicators.
 
 #### Dataset
-- **Source**: 
+- **Source**: ESA CCI Landcover, Irrigated Land (identified through very-high resolution imagery), ESDC Vegetation Indices,Extreme events dataset (Dheed) 
 - **Temporal coverage**: 
 
 #### Methodology workflow
