@@ -106,6 +106,26 @@ While splitting the NDVI mean values into different landcover types, more differ
 
 ![basic_ts_std_ndvi_anom_all_landcovers (1).jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/aa5c8acb79a98b81ad826f76a0a97a1ae51c76f3/assets/HannahKemper/basictsstdndvianomalllandcovers-1-1795102522833.jpg)
 
+Forests:
+- Forest anomalies fluctuate around zero throughout the record.
+- - During drought (2019 especially), several strong negative anomalies occur (down to -1.5).
+- Recovery is relatively quick, with values frequently returning near normal or slightly positive levels during 2020-2021.
+
+Rainfed cropland:
+- Clear decline in anomalies during 2019.
+- Prolonged negative phase between mid-2019 and early 2020.
+- Lowest values reach approximately -1.4 to -1.5.
+- Some recovery in 2020, but variability remains high through 2021.
+
+Irrigated cropland:
+- Largest overall variability of all land-cover types.
+- Strong negative anomalies in 2019, some approaching -2.
+- Strong positive anomalies later (up to +2).
+- Noticeable recovery beginning in 2020 and particularly during parts of 2021.
+
+
+
+
 ## Conclusions
 
 
