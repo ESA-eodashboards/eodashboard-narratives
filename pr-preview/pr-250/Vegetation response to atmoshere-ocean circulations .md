@@ -122,9 +122,13 @@ In central and northern Argentina (22°S-38°S), Gross Primary Productivity (GPP
 
 ##### Sub-Saharan-Africa
 
-![Eastern-Africa_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/97d75058a1acdbfdc3b4e308274113a81d7542de/assets/thmimif/Eastern-Africacombined-1795115846355.png)<figcaption>***Fig. 14:*** **</figcaption>
+**Eastern Africa** displays a distinct spatial dipole between coastal/equatorial lowlands and the northwestern interior. Coastal and equatorial zones show strong short-lag positive correlations accompanied by substantial El Niño productivity gains and La Niña deficits, whereas the northwestern highlands exhibit negative correlations and inverse phase anomalies.
 
-![Southern-Africa_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/565d320dbb69cec23090d3b685beacaf48d21f63/assets/thmimif/Southern-Africacombined-1795115869464.png)<figcaption>***Fig. 15:*** **</figcaption>
+![Eastern-Africa_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/97d75058a1acdbfdc3b4e308274113a81d7542de/assets/thmimif/Eastern-Africacombined-1795115846355.png)<figcaption>***Fig. 14:*** *Time-lag correlations and anomaly analysis of GPP for eastern Africa.*</figcaption>
+
+**Southern Africa** (15°S–32°S) is characterized by widespread short-lag (1–4 months) negative correlations (r < -0.5) across the interior. Consequently, the region experiences severe GPP reductions ( < -0.2) following El Niño events and marked productivity enhancements ( > 0.15) during La Niña phases.
+
+![Southern-Africa_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/565d320dbb69cec23090d3b685beacaf48d21f63/assets/thmimif/Southern-Africacombined-1795115869464.png)<figcaption>***Fig. 15:*** *Time-lag correlations and anomaly analysis of GPP for southern Africa.*</figcaption>
 
 ## Conclusions
 The global and regional lag-time correlations of all three vegetation indices reveal strong regionally varying positive or negative responses to El Niño and La Niña patterns. In general, these vegetation responses coincide well with expected climate oscillation driven weather anomalies on both the global and investigated regional scale.
