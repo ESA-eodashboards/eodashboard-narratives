@@ -118,7 +118,7 @@ At a 3-month lag relative to neutral conditions, Gross Primary Productivity (GPP
 ##### South America
 In central and northern Argentina (22°S-38°S), Gross Primary Productivity (GPP) exhibits robust positive correlations (r > 0.5) with RONI at short-to-moderate lags (2–6 months). At a 3-month lag, this relationship manifests as pronounced positive GPP anomalies ( > 0.2) during El Niño events and sharp productivity declines ( < -0.2) under La Niña conditions.
 
-![Argentina_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b8cb181a91b5e2594948623c6f3794c9a85496d5/assets/thmimif/Argentinacombined-1795115775699.png)<figcaption>***Fig. 13:*** *In central and northern Argentina ($22^\circ\text{S}$–$38^\circ\text{S}$), Gross Primary Productivity (GPP) exhibits robust positive correlations ($r > 0.5$) with RONI at short-to-moderate lags (2–6 months). At a 3-month lag, this relationship manifests as pronounced positive GPP anomalies ($> 0.2$) during El Niño events and sharp productivity declines ($< -0.2$) under La Niña conditions (Fig. 1).*</figcaption>
+![Argentina_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b8cb181a91b5e2594948623c6f3794c9a85496d5/assets/thmimif/Argentinacombined-1795115775699.png)<figcaption>***Fig. 13:*** *Time-lag correlations and anomaly analysis of GPP for central and northern Argentina.*</figcaption>
 
 ##### Sub-Saharan-Africa
 
