@@ -39,22 +39,37 @@ Angola's landscapes range from savanna, over grasslands to broadleave wood fores
 
 Insert map of Area of Interest
 
-This case study focuses on the Southern part of Angola where cropland, shrubland and forests are dominant landscape components.
+This case study focuses on the Southern part of Angola where cropland, grassland and forests are dominant landscape components.
 
 ##### Cropland
 Angola's agricultural production focuses on cassava, maize, sweet potaoes and bananas [5]. The majority of the agricultural land is rainfed, with smallholder farmers reling on the seasonal cycles where rains usually last from October to May [6].
 
-<p align="center" style="margin: 20px 0;"><img src="https://furtherafrica.com/content-files/uploads/2020/05/900rwanda_farmers.jpg" alt="Farmers in field"/></p>
+<p align="center" style="margin: 20px 0;"><img src="https://360angola.com/wp-content/uploads/2026/05/agricultura-angola.jpeg" alt="Farmers in field"/></p>
+
+**Fig. 3:** Smallholder farming in Cunene province
+
+
 
 A big percentage of the local population relies on the subsistence farming or livestock herding. During droughts Angolan farmers have reported a 40% loss in crops affecting their livelihoods and food security [7].
 Only 4% of the farmland is currently irrigated, with the Minister of Agriculture stressing the importance of investment in irrigation schemes to assure production during dry spells [8].
 
 ##### Grassland and Rangelands
 
-Grasslands are used traditionally for cattle and goat herding in South-Western Angola. 
+Grasslands are used traditionally for cattle and goat herding in South-Western Angola. Communities living of their cattle move according to water and grass availability between different geographic areas within Angola. This region has a semi-arid climate with a summer rainy season, though rainfall can be highly variable.
 
-<p align="center" style="margin: 20px 0;"><img src="https://zoomafricanews.com/wp-content/uploads/2026/10/IMG-20261018-WA0023.jpg"/></p>
+<p align="center" style="margin: 20px 0;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg8v3WmFWWIeIEB-AjGT_2NiYKSiuSzFPnWLLYsKKCqg&s=10"/></p>
 
+**Fig. 4:** Grassland dominated by wildlife and livestock herders.
+
+The present flora is dominantly grasses but also shrubs and singular trees can be present. Wildlife is commonly present in from of elephants, kudus, rhinoceros, felines or zebras.
+
+##### Forested areas
+
+Though the Southern parts of Angola are not covered in dense tropical rainforest like the North, though there is substantial tree cover and woodlands are present. In Cunene province the dominant woodlands are composed of mopane trees with several grass species and big mammals being present in the area. Further North the slightly wetter miombo woodlands are composed of Brachystegia, Julbernardia, and Isoberlinia. There is substantial wildlife inlcuding hippopotamus, anitlopes, felines, rhinos and smaller mammals. Since most of the vegetation remains dry for several months, there is substantial risk for wildfires.
+
+<p align="center" style="margin: 20px 0;"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4qCYNzBS7urOo1ZDv3xACGBXFO5zUSnyOV_2Oq9gOWA&s=10"/></p>
+
+**Fig. 5:** Miombo Woodlands in Southern and Central Angola
 
 ## Objective
 The objective of this study was to compare the recovery trajectory of different land cover types and ecosystems after severe drought impacts in order to understand how this recovery unfolds and differs based on the present ecosystem.
