@@ -78,35 +78,35 @@ Our analytical workflow includes:
 Our findings, derived from comparing NIRv, NDVI, and GPP vegetation indices against RONI, provide insight into vegetation response to ENSO at different scales.
 The results comprise global and regional maps of lag-time correlation and regional timeseries, alongside phase-specific analyses that reveal how vegetation indices shift in response to El Niño and La Niña periods.
 
-##### Global study
+#### Global study
 
-NIRv vs. RONI
+**NIRv vs. RONI**
 
-NDVI vs. RONI
+**NDVI vs. RONI**
 
-GPP vs. RONI
+**GPP vs. RONI**
 
-##### Regional study
+#### Regional study
 
-**South America**
+##### South America
 
-NIRv vs. RONI
+**NIRv vs. RONI**
 
-NDVI vs. RONI
+**NDVI vs. RONI**
 
-GPP vs. RONI
+**GPP vs. RONI**
 
-**Sub-Saharan-Africa**
+##### Sub-Saharan-Africa
 
-NIRv vs. RONI
+**NIRv vs. RONI**
 
-NDVI vs. RONI
+**NDVI vs. RONI**
 
-GPP vs. RONI
+**GPP vs. RONI**
 
-##### Phase-specific analysis
+#### Phase-specific analysis
 
-El Niño 
+##### El Niño 
 
 **Global**
 
@@ -114,7 +114,7 @@ El Niño
 
 **Sub-Saharan-Africa**
 
-La Niña
+##### La Niña
 
 **Global**
 
