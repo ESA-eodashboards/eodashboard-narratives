@@ -78,20 +78,34 @@ Our analytical workflow includes:
 Our findings, derived from comparing NIRv, NDVI, and GPP vegetation indices against RONI, provide insight into vegetation response to ENSO at different scales.
 The results comprise global and regional maps of lag-time correlation and regional timeseries, alongside phase-specific analyses that reveal how vegetation indices shift in response to El Niño and La Niña periods. Only the most pronounced responses are shown here. Further response analysis can be accessed via the notebook linked in the *Notebook* section.
 
-#### Global study
+### Global study
 Global lagged correlation analysis between the Relative Oceanic Niño Index (RONI) and the three vegetation metrics (NDVI, NIRv, and GPP) reveals consistent, geographically coherent ENSO teleconnection patterns across tropical and subtropical land surfaces. Strong negative correlations (r < -0.5) at short lag times (0-4 months) dominate across Australia, Southeast Asia, India, southern Africa, and northern South America, reflecting rapid vegetation stress and reduced photosynthetic uptake during warm ENSO phases. Conversely, pronounced positive correlations (r > 0.5) with short-to-moderate lags occur in southern South America, the southwestern United States, eastern Africa, and Central Asia. Across the metrics, GPP and NIRv exhibit stronger and spatially more contiguous negative responses than NDVI over the Maritime Continent, northern Australia, and southern Africa. The pattern is clearly captured in the zonal median anomalies around 15°S-30°S and the meridional anomalies between 120°E and 150°E. Unlike the reflectance-based indices, GPP masks out barren, ice-covered, and hyper-arid regions (such as the Sahara, Greenland, and Antarctica), while northern high latitudes across all three datasets generally display weak correlations (|r| < 0.3) and longer, more heterogeneous optimal lag times.
 
-**NIRv vs. RONI**
+#### NIRv vs. RONI
 
 ![global_nirv_R+lag.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/96116f20b8f5c9ab32db4f90f0c1fbbad0e2a158/assets/thmimif/globalnirvRlag-1795114033282.png)<figcaption>***Fig. 6:*** *Global spatial distribution of the maximum absolute Pearson correlation coefficient (r, vertical legend axis) and corresponding optimal time lag in months (0–12 months, horizontal legend axis) for the Near-Infrared Reflectance of Vegetation (NIRv) and RONI, showing enhanced negative responses across Southeast Asia and Australia.*</figcaption>
 
-**NDVI vs. RONI**
+#### NDVI vs. RONI
 
 ![global_ndvi_R+lag.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/159fc204b09e2bf14e77aa9a6b9b97a2ce4b0c36/assets/thmimif/globalndviRlag-1795114136029.png)<figcaption>***Fig. 7:*** *Global spatial distribution of the maximum absolute Pearson correlation coefficient (r, vertical legend axis) and corresponding optimal time lag in months (0–12 months, horizontal legend axis) between NDVI and the Relative Oceanic Niño Index (RONI). Right and bottom margin bands indicate zonal and meridional median values, respectively.*</figcaption>
 
-**GPP vs. RONI**
+#### GPP vs. RONI
 
 ![global_gpp_R+lag.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/ff552c4d572cfeb450f21461d0c44701544c2a8d/assets/thmimif/globalgppRlag-1795114249979.png)<figcaption>***Fig. 8:*** *Global spatial distribution of the maximum absolute Pearson correlation coefficient (r, vertical legend axis) and corresponding optimal time lag in months (0–12 months, horizontal legend axis) for Gross Primary Productivity (GPP) and RONI across vegetated land areas, highlighting pronounced short-lag reductions in primary productivity over Australia, southern Africa, and the Maritime Continent.*</figcaption>
+
+#### Phase-specific analysis
+
+##### El Niño 
+
+![global_gpp_phases_el_nino.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/1cfaeb105cdda0a6e0c1e95762e0129518149185/assets/thmimif/globalgppphaseselnino-1795115087894.png)
+
+![global_gpp_phases_el_nino_anomaly.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/27860d79a594d1295d1bcd33d18603c0061ba27d/assets/thmimif/globalgppphaseselninoanomaly-1795115100589.png)
+
+##### La Niña
+
+![global_gpp_phases_la_nina.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/afe44c2bec963f9da667fd95beafc4f7b41778a4/assets/thmimif/globalgppphaseslanina-1795115163361.png)
+
+![global_gpp_phases_la_nina_anomaly.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e42a2015d8a7e9400ebc1d524a56922238863cab/assets/thmimif/globalgppphaseslaninaanomaly-1795115179453.png)
 
 #### Regional study
 
@@ -110,32 +124,6 @@ Global lagged correlation analysis between the Relative Oceanic Niño Index (RON
 **NDVI vs. RONI**
 
 **GPP vs. RONI**
-
-#### Phase-specific analysis
-
-##### El Niño 
-
-**Global**
-
-![global_gpp_phases_el_nino.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/1cfaeb105cdda0a6e0c1e95762e0129518149185/assets/thmimif/globalgppphaseselnino-1795115087894.png)
-
-![global_gpp_phases_el_nino_anomaly.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/27860d79a594d1295d1bcd33d18603c0061ba27d/assets/thmimif/globalgppphaseselninoanomaly-1795115100589.png)
-
-**South America**
-
-**Sub-Saharan-Africa**
-
-##### La Niña
-
-**Global**
-
-![global_gpp_phases_la_nina.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/afe44c2bec963f9da667fd95beafc4f7b41778a4/assets/thmimif/globalgppphaseslanina-1795115163361.png)
-
-![global_gpp_phases_la_nina_anomaly.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e42a2015d8a7e9400ebc1d524a56922238863cab/assets/thmimif/globalgppphaseslaninaanomaly-1795115179453.png)
-
-**South America**
-
-**Sub-Saharan-Africa**
 
 ## Conclusions
 The global and regional lag-time correlations of all three vegetation indices reveal strong regionally varying positive or negative responses to El Niño and La Niña patterns. In general, these vegetation responses coincide well with expected climate oscillation driven weather anomalies on both the global and investigated regional scale.
