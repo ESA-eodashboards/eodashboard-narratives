@@ -32,10 +32,14 @@ The Southern districts of Huíla, Namibe and Cunene of Angola were heavily affec
 
 **Fig. 2:** Drought-affected pasture lands put livestock herders at risk of food insecurity.
 
+
+
 #### Landscapes of Angola
 Angola's landscapes range from savanna, over grasslands to broadleave wood forests. Meanwhile the North of Angola has tropical moist climate, the Southern districts have more arid conditions.
 
-A dominant proportion of the landcover is
+Insert map of Area of Interest
+
+This case study focuses on the Southern part of Angola where cropland, shrubland and forests are dominant landscape components.
 
 
 ## Objective
