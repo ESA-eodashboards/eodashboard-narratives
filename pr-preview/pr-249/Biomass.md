@@ -26,8 +26,6 @@ Our objective is to leverage the unique capabilities of the Biomass mission's P-
 #### Harinagar, Bangladesh
 The Sundarbans region presents a complex hydrological landscape. SAR data allows us to observe water levels even beneath the dense canopy.
 
-
-
 ## Data and Methods
 #### Dataset
 - **Source**: SAR Data
@@ -68,6 +66,10 @@ These matrices provide complementary representations of the polarimetric informa
 
 
 This methods helps to distinguish the radar responses associated with vegetation, water and the underlying surface.
+<figure>
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b76e756fbf2baba7413b126be171ed058ad6820c/assets/TrufE400/20260725yamaguchinativelinear-1795097898110.png" alt="Polarimetric decomposition">
+  <figcaption>Figure 1: Yamaguchi decomposition of the polarimetric signal.</figcaption>
+</figure>
 
 ##### 4. Temporal Coherence Analysis
 
@@ -77,6 +79,15 @@ Temporal coherence is calculated for the seven SAR acquisitions (25 July–12 Au
 - **Reference comparison:** All acquisitions are compared against the first timestamp to investigate changes relative to a common reference.
 
 The resulting coherence maps reveal areas of different temporal stability.
+<figure>
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/2e3020c1d07c3edd9404fce8d847de862167cc25/assets/TrufE400/coherenceHHallpairs-1795096788920.png" alt="Coherence HH all pairs map">
+  <figcaption>Figure 2: Coherence maps / Consecutive comparison.</figcaption>
+</figure>
+<figure>
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/f1bb8d85076e7ed809af1e2beedb301218f5f735/assets/TrufE400/coherencemapsfirstHH-1795098249822.png" alt="Coherence maps">
+  <figcaption>Figure 3: Coherence maps / Reference comparison.</figcaption>
+</figure>
+
 
 ##### 5. Selected Areas
 Three approaches are considered to find specific areas of interest: 
@@ -88,7 +99,18 @@ Three approaches are considered to find specific areas of interest:
  A square is slid over the mean coherence (forest only). The 3 squares with the lowest coherence and 1 with the highest (a stable reference) is picked, without overlapping. A square is only allowed if at least MIN_VALID of it is forest. Only the AOIs of the consecutive approach is saved as shapefiles and considered in the following steps.
  Within these chosen areas, the temporal evolution of the polarimetric scattering powers and decomposition parameters is analysed.
 
+<figure>
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/6e87bb45ca40b9a54f235289a5b8a44df3ecdec7/assets/TrufE400/coherenceaoisallapproachesHH-1795097272516.png" alt="AOI selection">
+  <figcaption>Figure 4: AOIs selected based on different approaches.</figcaption>
+</figure>
+
+
+
+
 The objective is to identify which scattering contributions change most significantly throughout the observation period and how these changes relate to the underlying water conditions.
+
+![yamaguchi_fractions_barplots_mean.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/d48131c741352dc445ef2689fab7a479a24b987b/assets/TrufE400/yamaguchifractionsbarplotsmean-1795098645108.png) Figure X Yamaguchi 4-component scattering fraction for AOI 3
+
 ##### 6. Temporal Pixel-wise Decomposition of Signal Power Pixel-wise comparison of signal power composition
 
 
@@ -107,9 +129,13 @@ Finally, the temporal changes in the SAR-derived parameters are compared with ma
 By investigating the relationship between sea-level variations and changes in the polarimetric scattering contributions, we aim to identify the radar parameter most sensitive to changing water conditions.
 
 Based on this relationship, we explore the development of an empirical **wetness indicator** to investigate the potential of P-band SAR for monitoring water dynamics beneath mangrove forests.
+<figure>
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/3f5087b6f60442a823ad2ea16146ceb5feb8a968/assets/TrufE400/sealevelabsolute3daybarplot-1795094689011.png" alt="Sea level changes">
+  <figcaption>Figure 5: Sea level changes over the observation period.</figcaption>
+</figure>
 
 ## Results
-![sea_level_absolute_3day_barplot.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/3f5087b6f60442a823ad2ea16146ceb5feb8a968/assets/TrufE400/sealevelabsolute3daybarplot-1795094689011.png)
+
 
 ## Conclusions
 
@@ -126,4 +152,4 @@ ESA Science Hub Challenges (2026). Biomass mission for water dynamics under fore
 **Image references:**
 https://www.esa.int [Accessed: 18/11/2026]
 https://services.ruhr-uni-bochum.de/en/rub-logo [Accessed: 18/11/2026]
-https://fam.tuwien.ac.at/lehre/arbeiten/logos/Logos_TU/TU-Signet.jpg [Accessed: 18/11/2026]![sea_level_absolute_3day_barplot.png]
+https://fam.tuwien.ac.at/lehre/arbeiten/logos/Logos_TU/TU-Signet.jpg [Accessed: 18/11/2026]
