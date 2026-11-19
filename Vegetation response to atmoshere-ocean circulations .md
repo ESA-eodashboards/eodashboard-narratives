@@ -57,13 +57,13 @@ In this study, we investigate the southeastern region of South America and Sub-S
 #### Dataset
 This study utilizes climate and vegetation indices to assess ecosystem sensitivity.
 
-**NOAA Climate Oscillation Indices**
-- **Relative Oceanic Niño Index (RONI):** A 3-month running mean of tropical-adjusted Niño 3.4 SST anomalies (1991–2020 base period), covering 1950–2026.
+**NOAA Climate Oscillation Indices** (2001–2021, monthly resolution)
+- **Relative Oceanic Niño Index (RONI):** A 3-month running mean of tropical-adjusted Niño 3.4 SST anomalies (1991–2020 base period)
 
-**ESDC Vegetation Indices**
-- **Near Infrared Reflectance of Vegetation (NIRv):** Derived from MODIS/Terra+Aqua BRDF/Albedo data at a 0.25° spatial resolution and 8-day temporal cadence.
-- **Normalized Difference Vegetation Index (NDVI):** MODIS/Terra+Aqua BRDF/Albedo Nadir BRDF-Adjusted Reflectance Daily L3 Global 0.05 Deg CMG and Vegetation Indices, 0.25° spatial resolution
-- **Gross Primary Productivity (GPP):** FLUXCOM, 0.25° spatial resolution
+**ESDC Vegetation Indices** (2001–2021, 0.25° and 1° spatial resolution, monthly temporal resolution)
+- **Near Infrared Reflectance of Vegetation (NIRv):** Derived from MODIS/Terra+Aqua BRDF/Albedo data
+- **Normalized Difference Vegetation Index (NDVI):** MODIS/Terra+Aqua BRDF/Albedo Nadir BRDF-Adjusted Reflectance Daily L3 Global 0.05 Deg CMG and Vegetation Indices
+- **Gross Primary Productivity (GPP):** FLUXCOM
 
 #### Methodology
 The study is carried out first at a coarse global sclale to identify large-scale spatio-temporal patterns and trends.
