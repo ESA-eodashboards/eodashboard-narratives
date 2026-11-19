@@ -96,7 +96,7 @@ Large areas are predicted in overlapping 256 × 256 pixel windows that are blend
 
 
 ## Results
-### 1. Validation on Unseen BIOMASS Scenes
+### Validation on Unseen BIOMASS Scenes
 The model is evaluated on one complete BIOMASS scene per region that was never part of the training data. Metrics are computed at the ~92 m pixel level and after 2 × 2 averaging (~184 m, close to the 200 m product resolution).
 
 | Validation Region | RMSE (m) | Bias (m) | R² | r | RMSE, 2 × 2 (m) | Bias, 0–10 m labels (m) |
@@ -106,9 +106,39 @@ The model is evaluated on one complete BIOMASS scene per region that was never p
 | **Taiga, Siberia** *(Boreal needleleaf)* | [XX.XX] | [+X.XX] | [0.XXX] | [0.XX] | [XX.XX] | [+X.XX] |
 | **Temperate Mixed Forest, West Russia** *(Hemiboreal mixed)* | [XX.XX] | [+X.XX] | [0.XXX] | [0.XX] | [XX.XX] | [+X.XX] |
 
-*(Note: Fill in once validation is complete, and add the six-panel comparison figures per region: Sentinel-2 RGB, Sentinel-1, DEM, BIOMASS label, prediction and difference. Optionally report the spread of predictions vs. labels as an indicator of range compression.)*
+*(Note: Fill in once validation is complete.)*
 
-### 2. Canopy Height Map of Germany
+The map below shows one of these scenes step by step: the three inputs, the BIOMASS reference and the model prediction.
+
+
+## Validation Scene: Amazon, Central Brazil <!--{ as="eox-map" mode="tour" }-->
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":true},{"type":"Image","properties":{"id":"Amazon_Central_Brazil_s2","title":"Sentinel-2 input"},"source":{"type":"ImageStatic","url":"https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/Amazon_S2.png","imageExtent":[-6443542.97,-732757.04,-6350363.04,-580001.53],"projection":"EPSG:3857","crossOrigin":"anonymous","interpolate":false},"visible":true}]' center=[-57.4648,-5.8856] zoom="9.1" projection="EPSG:3857" animationOptions={duration:500}}-->
+#### Sentinel-2 input
+True-colour composite (red, green, blue) of the quarterly Sentinel-2 mosaic matching the BIOMASS acquisition.
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":true},{"type":"Image","properties":{"id":"Amazon_Central_Brazil_s1","title":"Sentinel-1 input"},"source":{"type":"ImageStatic","url":"https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/Amazon_S1.png","imageExtent":[-6443542.97,-732757.04,-6350363.04,-580001.53],"projection":"EPSG:3857","crossOrigin":"anonymous","interpolate":false},"visible":true}]' center=[-57.4648,-5.8856] zoom="9.1" projection="EPSG:3857" animationOptions={duration:500}}-->
+#### Sentinel-1 input
+VV (red), VH (green) and VV/VH ratio (blue). Forests appear green because of strong volume scattering.
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":true},{"type":"Image","properties":{"id":"Amazon_Central_Brazil_dem","title":"Copernicus DEM input"},"source":{"type":"ImageStatic","url":"https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/Amazon_DEM.png","imageExtent":[-6443542.97,-732757.04,-6350363.04,-580001.53],"projection":"EPSG:3857","crossOrigin":"anonymous","interpolate":false},"visible":true}]' center=[-57.4648,-5.8856] zoom="9.1" projection="EPSG:3857" animationOptions={duration:500}}-->
+#### Copernicus DEM input
+Elevation from 59 m to 252 m, shown with hillshading.
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":true},{"type":"Image","properties":{"id":"Amazon_Central_Brazil_fh_gt","title":"BIOMASS canopy height"},"source":{"type":"ImageStatic","url":"https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/Amazon_Height_BIOMASS.png","imageExtent":[-6443542.97,-732757.04,-6350363.04,-580001.53],"projection":"EPSG:3857","crossOrigin":"anonymous","interpolate":false},"visible":true}]' center=[-57.4648,-5.8856] zoom="9.1" projection="EPSG:3857" animationOptions={duration:500}}-->
+#### BIOMASS canopy height
+The P-band BIOMASS Level-2A canopy height used as reference.
+
+<img src="https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/Amazon_Legend_Height.png" width="300"/>
+
+### <!--{ layers='[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":true},{"type":"Image","properties":{"id":"Amazon_Central_Brazil_fh_pred","title":"Predicted canopy height"},"source":{"type":"ImageStatic","url":"https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/Amazon_Height_Predicted.png","imageExtent":[-6443542.97,-732757.04,-6350363.04,-580001.53],"projection":"EPSG:3857","crossOrigin":"anonymous","interpolate":false},"visible":true}]' center=[-57.4648,-5.8856] zoom="9.1" projection="EPSG:3857" animationOptions={duration:500}}-->
+#### Predicted canopy height
+The model's prediction from Sentinel-2, Sentinel-1 and DEM only, on the same colour scale. Agreement with BIOMASS: RMSE [X.X] m, bias [±X.X] m, r = [0.XX].
+
+<img src="https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/Amazon_Legend_Height.png" width="300"/>
+
+
+## Canopy Height Map of Germany
 Using the trained model, a wall-to-wall canopy height map is produced for Germany (5.8°E–15.1°E, 47.2°N–55.1°N) on the BIOMASS grid (~51 × 92 m at 51°N), from leaf-on 2026 Sentinel-1/2 mosaics and the Copernicus DEM. The model predicts a height for every land pixel, so a forest mask is applied before display.
 
 - **Spatial & Ecological Patterns**: [Describe observed regional gradients across Germany, e.g. tall coniferous and mixed montane stands in the Black Forest, Bavarian Forest, Harz and Alpine foothills vs. managed lowland pine forests in Brandenburg/Lower Saxony.]
