@@ -67,7 +67,7 @@ This study utilizes climate and vegetation indices to assess ecosystem sensitivi
 
 #### Methodology
 The study is carried out first at a coarse global sclale to identify large-scale spatio-temporal patterns and trends.
-Then two major areas are analyzed in more detail: the southeastern region of South America and Sub-Saharan Africa.
+Then two major areas are analyzed spacially in more detail: the southeastern region of South America and Sub-Saharan Africa.
 Our analytical workflow includes:
 1. **Data Retrieval:** Extraction of NOAA RONI indices and DeepESDL ESDC vegetation indices (NIRv, NDVI and GPP).
 2. **Preprocessing:** Time-series extraction and decomposition to isolate components, as well as computation of lag-times. 
