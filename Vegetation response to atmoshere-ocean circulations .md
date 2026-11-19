@@ -123,7 +123,7 @@ The results comprise global and regional maps of lag-time correlation and region
 **Sub-Saharan-Africa**
 
 ## Conclusions
-Lag-time correlations of the three vegetation indices reveal strong regionally varying positive or negative responses. 
+The global and regional lag-time correlations of the three vegetation indices reveal strong regionally varying positive or negative responses to El Niño and La Niña patterns. These vegetation responses coincide well with expected climate oscillation driven weather anomalies.
 
 ## Open Science
 All processing workflows and data analysis scripts are developed within an open-science framework to ensure reproducibility and transparency in our findings regarding vegetation response to ENSO.
