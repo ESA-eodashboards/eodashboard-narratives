@@ -96,19 +96,21 @@ The workflow combined landcover datasets with visual inspection and literature r
 
 
 ## Results
-Q1: How do different landcover types behave before, during and after a drought? Is there any difference visible during the recovery?
+**Q1:** How do different landcover types behave before, during and after a drought? Is there any difference visible during the recovery?
 
 ![basic_ts_ndvi_all_landcovers (1).jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/ec56351c62157265196c5470ed98b04ad8083998/assets/HannahKemper/basictsndvialllandcovers-1-1795102375117.jpg)
+**Fig. 6:** General NDVI time-series without considering landcover types
 
 Looking at generic NDVI mean values across the study areas, there are very little difference visible for the identified drought period. It is crucial to consider landcover types and ecosystems while studying drought impacts.
 While splitting the NDVI mean values into different landcover types, more differences are visible.
 
 
 ![basic_ts_std_ndvi_anom_all_landcovers (1).jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/aa5c8acb79a98b81ad826f76a0a97a1ae51c76f3/assets/HannahKemper/basictsstdndvianomalllandcovers-1-1795102522833.jpg)
+**Fig. 7:** NDVI time-series over different landcover
 
 Forests:
 - Forest anomalies fluctuate around zero throughout the record.
-- - During drought (2019 especially), several strong negative anomalies occur (down to -1.5).
+- During drought (2019 especially), several strong negative anomalies occur (down to -1.5).
 - Recovery is relatively quick, with values frequently returning near normal or slightly positive levels during 2020-2021.
 
 Rainfed cropland:
@@ -124,6 +126,29 @@ Irrigated cropland:
 - Noticeable recovery beginning in 2020 and particularly during parts of 2021.
 
 
+![first_order_autocorrelation.jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/12fbc189f464b2efd77e8437865ead88c3fd0f6d/assets/HannahKemper/firstorderautocorrelation-1795103176705.jpg)
+
+**Fig. 8:** First order autocorrelation and de-seasonalized NDVI per landcover type
+
+This graph depicts the legacy of previous NDVI values for current values, where a higher auto-correlation results in slower vegetation changes and current conditions are heavily influenced by previous conditions. In drought studies, a rise in autocorrelation is often considered an early warning signal of ecosystem stress.
+The shaded drought period generally coincides with:
+
+- Elevated autocorrelation in several land-cover types.
+- Particularly strong increases after 2019.
+- Highest values observed toward 2020-2021.
+
+This suggests that vegetation dynamics became increasingly persistent during the drought period, meaning that vegetation conditions were more strongly dependent on previous months and less capable of rapid recovery.
+
+Although forests remained relatively productive in the anomaly graph, this autocorrelation analysis suggests that forests nonetheless became more sensitive to prolonged stress.
+Both cropland classes showed an increase in auto-correlation suggesting that the irrigation practices did not shield sufficiently to avoid any long-term impacts.
+
+
+
+**Q2:** Which landcover type shows the biggest drought impact? Where was the drought impact located in Southern Angola?
+
+![event_dheed_angola.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/22881e15563025dc173d5cfd74e4a2d04f71bc16/assets/HannahKemper/eventdheedangola-1795103695551.png)
+
+**Fig. 9:**
 
 
 ## Conclusions
