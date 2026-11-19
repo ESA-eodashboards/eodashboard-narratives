@@ -107,23 +107,17 @@ Global lagged correlation analysis between the Relative Oceanic Niño Index (RON
 
 ![global_gpp_phases_la_nina_anomaly.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e42a2015d8a7e9400ebc1d524a56922238863cab/assets/thmimif/globalgppphaseslaninaanomaly-1795115179453.png)
 
-#### Regional study
+#### Regional GPP study
 
 ##### South America
 
-**NIRv vs. RONI**
-
-**NDVI vs. RONI**
-
-**GPP vs. RONI**
+![Argentina_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b8cb181a91b5e2594948623c6f3794c9a85496d5/assets/thmimif/Argentinacombined-1795115775699.png)
 
 ##### Sub-Saharan-Africa
 
-**NIRv vs. RONI**
+![Eastern-Africa_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/97d75058a1acdbfdc3b4e308274113a81d7542de/assets/thmimif/Eastern-Africacombined-1795115846355.png)
 
-**NDVI vs. RONI**
-
-**GPP vs. RONI**
+![Southern-Africa_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/565d320dbb69cec23090d3b685beacaf48d21f63/assets/thmimif/Southern-Africacombined-1795115869464.png)
 
 ## Conclusions
 The global and regional lag-time correlations of all three vegetation indices reveal strong regionally varying positive or negative responses to El Niño and La Niña patterns. In general, these vegetation responses coincide well with expected climate oscillation driven weather anomalies on both the global and investigated regional scale.
