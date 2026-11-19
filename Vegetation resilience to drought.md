@@ -205,6 +205,14 @@ The spatial distribution of the recovery rater and variance shows spatial patter
 
 ## Conclusions
 
+Drought is a spatially and timely complex phenomenon affecting vast areas and diverse ecosystems. The slow-onset nature of drought affects livelihoods and local population. The conducted study implies that grasslands are the most drought-sensitive land-cover type with up to 32% of all pixels affected by drought in 2019 and negative anomalies of -2 standard deviations. Although grasslands experienced the strongest drought-induced declines, they also showed the most pronounced post-drought greening. NDVI anomalies shifted from strongly negative values during drought to sustained positive anomalies for much of the year following drought termination. This indicates high sensitivity to rainfall deficits but also a strong capacity for recovery when water becomes available.
+
+Forest have the highest median recovery rates but also show the greatest variability, indicating that the vegetation recovery could depend on the plant composition and other external factors.
+
+Rainfed croplands repeatedly showed negative NDVI anomalies during drought and had 18% of pixels affected during the 2019 event. In contrast, irrigated croplands were largely unaffected during that event (0% affected pixels), demonstrating the buffering effect of irrigation against short-term moisture deficits. However, irrigated systems still showed increased autocorrelation during prolonged drought, suggesting that irrigation does not completely eliminate drought stress.
+
+The lag-1 autocorrelation (AR1) analysis showed increasing persistence during the 2018-2021 drought period. Higher autocorrelation means vegetation conditions became more dependent on previous conditions and less able to recover quickly from disturbance. This pattern suggests a general decline in ecosystem resilience during prolonged drought.
+
 
 ## Open Science
 #### Notebook
