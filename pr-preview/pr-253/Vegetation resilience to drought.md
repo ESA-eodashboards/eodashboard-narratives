@@ -37,7 +37,8 @@ The Southern districts of Huíla, Namibe and Cunene of Angola were heavily affec
 #### Landscapes of Angola
 Angola's landscapes range from savanna, over grasslands to broadleave wood forests. Meanwhile the North of Angola has tropical moist climate, the Southern districts have more arid conditions.
 
-Insert map of Area of Interest
+![AOI_final.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e19aad70ede8486cb2cb257237fdbc6ddbb1220a/assets/HannahKemper/AOIfinal-1795099237169.png)
+
 
 This case study focuses on the Southern part of Angola where cropland, grassland and forests are dominant landscape components.
 
