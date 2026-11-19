@@ -158,6 +158,4 @@ The model's prediction from Sentinel-2, Sentinel-1 and DEM only, on the same col
 
 
 ## Contributors
-- **[Author 1 Name]** ([Affiliation 1]) — Methodology, model architecture, data pipeline, and validation.
-- **[Author 2 Name]** ([Affiliation 2]) — Validation, geospatial analysis, and scientific review.
-- **[Author 3 Name]** ([Affiliation 3]) — Supervision and StoryMap curation.
+- **Torben Dedring** (Torben Dedring) — Methodology, model architecture, data pipeline, validation and StoryMap curation.
