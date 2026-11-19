@@ -218,8 +218,9 @@ The lag-1 autocorrelation (AR1) analysis showed increasing persistence during th
 #### Notebook
 Access the notebook to reproduce the study workflow.
 <iframe width="100%" height="600" src="LINK TO NOTEBOOK" frameborder="0"></iframe>
+https://jupyterhub.deepesdl-v2.eox.at/hub/user-redirect/lab/tree/sciencehub-challenges-user-data/processing/team-2_vegetation_drought/ScienceHubChallengeNov2026_Notebook-Team-2-Vegetation_Drought.ipynb
 
-## References
+#### References
 [1] https://blogs.worldbank.org/en/africacan/building-drought-resilience-across-southern-africa-a-regional-imperative
 
 [2] https://science.nasa.gov/earth/earth-observatory/drought-harms-corn-crops-in-southern-africa-144704/
@@ -236,7 +237,15 @@ Access the notebook to reproduce the study workflow.
 
 [8] https://360angola.com/business/agri-business/irrigation-systems-cover-only-4-of-angolas-agricultural-fields/
 
-### Image and Visualization Credits
+#### Image and Visualization Credits
 Fig. 1: https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/imagerecords/144000/144704/southernafrica_fldas_201902.png?w=720&h=545&fit=clip
 
 Fig. 2: https://www.forafrika.org/angola/drought-in-angola-dismantles-families/
+
+Fig. 3: https://360angola.com/wp-content/uploads/2026/05/agricultura-angola.jpeg
+
+Fig. 4: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg8v3WmFWWIeIEB-AjGT_2NiYKSiuSzFPnWLLYsKKCqg&s=10
+
+Fig. 5: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4qCYNzBS7urOo1ZDv3xACGBXFO5zUSnyOV_2Oq9gOWA&s=10
+
+All other Figures from authors.
