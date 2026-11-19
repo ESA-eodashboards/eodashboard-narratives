@@ -41,6 +41,19 @@ Insert map of Area of Interest
 
 This case study focuses on the Southern part of Angola where cropland, shrubland and forests are dominant landscape components.
 
+##### Cropland
+Angola's agricultural production focuses on cassava, maize, sweet potaoes and bananas [5]. The majority of the agricultural land is rainfed, with smallholder farmers reling on the seasonal cycles where rains usually last from October to May [6].
+
+<p align="center" style="margin: 20px 0;"><img src="https://furtherafrica.com/content-files/uploads/2020/05/900rwanda_farmers.jpg" alt="Farmers in field"/></p>
+
+A big percentage of the local population relies on the subsistence farming or livestock herding. During droughts Angolan farmers have reported a 40% loss in crops affecting their livelihoods and food security [7].
+Only 4% of the farmland is currently irrigated, with the Minister of Agriculture stressing the importance of investment in irrigation schemes to assure production during dry spells [8].
+
+##### Grassland and Rangelands
+
+Grasslands are used traditionally for cattle and goat herding. 
+
+
 
 ## Objective
 The objective of this study was to compare the recovery trajectory of different land cover types and ecosystems after severe drought impacts in order to understand how this recovery unfolds and differs based on the present ecosystem.
@@ -75,6 +88,14 @@ Access the notebook to reproduce the study workflow.
 [3] https://reliefweb.int/report/angola/over-one-million-angolans-affected-drought
 
 [4] https://www.amnesty.org/en/latest/news/2021/07/angola-millions-facing-hunger-as-thousands-flee-their-homes-as-drought-ravages-the-south-of-angola-2/
+
+[5] https://www.fao.org/faostat/en/#data/QCL
+
+[6] https://www.trade.gov/market-intelligence/angola-agribusiness-cold-chain-industry
+
+[7] https://actalliance.org/alerts/angola-drought-2/
+
+[8] https://360angola.com/business/agri-business/irrigation-systems-cover-only-4-of-angolas-agricultural-fields/
 
 ### Image and Visualization Credits
 Fig. 1: https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/imagerecords/144000/144704/southernafrica_fldas_201902.png?w=720&h=545&fit=clip
