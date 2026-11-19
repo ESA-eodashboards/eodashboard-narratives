@@ -75,9 +75,9 @@ Though the Southern parts of Angola are not covered in dense tropical rainforest
 The objective of this study was to compare the recovery trajectory of the different land cover types and ecosystems after severe drought impacts in order to understand how this recovery unfolds and differs based on the present ecosystem.
 Remote Sensing is a suitable method to study the observed drought impacts and the development of different ecosystem after the rainfall onset as it allows the processing over vast landscapes and in conditions where field data collection is challenging.
 
-Q1: How do different landcover types behave before, during and after a drought? Is there any difference visible during the recovery?
+**Q1: How do different landcover types behave before, during and after a drought? Is there any difference visible during the recovery?**
 
-Q2: Which landcover type shows the biggest drought impact? Where was the drought impact located in Southern Angola?
+**Q2: Which landcover type shows the biggest drought impact? Where was the drought impact located in Southern Angola?**
 
 ## Data and Methods
 Explore the response and recovery of different landuse types during the 2018/20 drought in Southern Africa focusing on the Southern regions of Angola comparing the time-series of different indicators.
