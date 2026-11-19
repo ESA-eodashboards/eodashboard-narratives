@@ -93,7 +93,7 @@ Global lagged correlation analysis between the Relative Oceanic Niño Index (RON
 
 ![global_gpp_R+lag.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/ff552c4d572cfeb450f21461d0c44701544c2a8d/assets/thmimif/globalgppRlag-1795114249979.png)<figcaption>***Fig. 8:*** *Global spatial distribution of the maximum absolute Pearson correlation coefficient (r, vertical legend axis) and corresponding optimal time lag in months (0–12 months, horizontal legend axis) for Gross Primary Productivity (GPP) and RONI across vegetated land areas, highlighting pronounced short-lag reductions in primary productivity over Australia, southern Africa, and the Maritime Continent.*</figcaption>
 
-#### Phase-specific analysis
+#### Phase-specific analysis of GPP
 
 ##### El Niño 
 
