@@ -52,7 +52,7 @@ and a height of 3425 pixels.
 #### Methodology workflow
 
 
-Our methodology consists of six main steps, starting with the reconstruction of the polarimetric SAR data and ending with the development of a potential wetness indicator.
+Our methodology consists of seven main steps, starting with the reconstruction of the polarimetric SAR data and ending with the development of a potential wetness indicator.
 
 ##### 1. Scattering Matrix Reconstruction
 
@@ -92,13 +92,20 @@ Temporal coherence is calculated for the seven SAR acquisitions (25 July–12 Au
 
 The resulting coherence maps reveal areas of different temporal stability.
 
-##### 5. Analysis of Selected Areas
-
-Areas exhibiting the highest temporal coherence are selected for further investigation. Within these areas, the temporal evolution of the polarimetric scattering powers and decomposition parameters is analysed.
+##### 5. Selected Areas
+Three approaches were considered: 
+<ul>
+  <li><strong>First:</strong> Mean of all pairs relative to the first image (t0→t1, t0→t2, …).</li>
+  <li><strong>Consecutive:</strong> Mean of all image-to-image pairs (t0→t1, t1→t2, …).</li>
+  <li><strong>All:</strong> Mean of every pair from both groups.</li>
+</ul>
+ A square is slid over the mean coherence (forest only). The 3 squares with the lowest coherence and 1 with the highest (a stable reference) is picked, without overlapping. A square is only allowed if at least MIN_VALID of it is forest. Only the AOIs of the consecutive approach is saved as shapefiles and considered in the following steps.
+ Within these chosen areas, the temporal evolution of the polarimetric scattering powers and decomposition parameters is analysed.
 
 The objective is to identify which scattering contributions change most significantly throughout the observation period and how these changes relate to the underlying water conditions.
+##### 6. Pixel-wise comparison of 
 
-##### 6. Copernicus Sea-Level Comparison and Wetness Indicator
+##### 7. Copernicus Sea-Level Comparison and Wetness Indicator
 
 Finally, the temporal changes in the SAR-derived parameters are compared with marine sea-level measurements from the Copernicus Marine Service.
 
