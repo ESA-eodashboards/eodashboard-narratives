@@ -144,9 +144,10 @@ The shaded drought period generally coincides with:
 
 This suggests that vegetation dynamics became increasingly persistent during the drought period, meaning that vegetation conditions were more strongly dependent on previous months and less capable of rapid recovery.
 
-Although forests remained relatively productive in the anomaly graph, this autocorrelation an![basic_ts_std_ndvi_anom_agriculture.jpg](https://placehold.co/6000x4000?font=inter&text=Upload%20in%20progress%0A(this%20might%20take%20a%20while)#1795123568578)alysis suggests that forests nonetheless became more sensitive to prolonged stress.
+Although forests remained relatively productive in the anomaly graph, this autocorrelation analysis suggests that forests nonetheless became more sensitive to prolonged stress.
 Both cropland classes showed an increase in auto-correlation suggesting that the irrigation practices did not shield sufficiently to avoid any long-term impacts.
 Grasslands show the strongest increase in auto-correlation, demonstrating the higher vulnerability to drought periods affecting the NDVI values.
+
 ![boxplots_ndvi_absolute.jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/70f86f44bd6383117435d34f08b5506ca66192c3/assets/HannahKemper/boxplotsndviabsolute-1795123292493.jpg)
 
 **Fig. 9:** NDVI distribution before, during and after the 2018/20 drought per landcover class. The NDVI distribution of the irrigated cropland shows much less variation compared to rainfed cropland.
@@ -184,6 +185,23 @@ Irrigated cropland:
 - This strongly suggests that irrigation mitigated moisture stress sufficiently to prevent conditions from reaching the extreme drought threshold.
 - Alternatively, the irrigated cropland area may be relatively small and located outside the drought core.
 
+![ndvi_after_drought_angola.jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e4fb9903bc7f48a901460cde20f2631e47b32336/assets/HannahKemper/ndviafterdroughtangola-1795124093289.jpg)
+**Fig. 12:** Drought recovery trajectory after the end of drought.
+
+- Grassland shows strong and sustained recovery with positive anomalies after 100 days
+- Forests show heterogeneous results in the recovery, with positive and negative anomalies, which shows that there are further indicators to consider
+- Cropland recovers quickly after drought but anomalies are closer to 0 compared to grassland. Crop types and planting are decisive.
+
+
+![resilience_by_landcover.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/67f264a4a5e9b73cce2bc0853d9b7623a80dbdf7/assets/HannahKemper/resiliencebylandcover-1795124436198.png)
+**Fig. 13:** Resilience matrix of landcover types.
+
+Looking at the recovery rate (standard devidation getting back to -1 minus the lowest standard deviatoin in the month) forests show the highest variance in recovery, meaning that there is heterogeneous recovery time across the forest cover class. Rainfed cropland and grasslands shows more homogeneous recovery time.
+
+![resilience_maps_studybox (1).png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b7b00ea3578060553585df278a8ddc2b2fbae263/assets/HannahKemper/resiliencemapsstudybox-1-1795124693167.png)
+**Fig. 14:** Resilience maps.
+
+The spatial distribution of the recovery rater and variance shows spatial patterns, that could be connected to landcover classes. The main constraint of this approach is the spatial resolution of the NDVI data used.
 
 ## Conclusions
 
