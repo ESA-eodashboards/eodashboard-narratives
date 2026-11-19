@@ -98,14 +98,14 @@ The workflow combined landcover datasets with visual inspection and literature r
 ## Results
 **Q1:** How do different landcover types behave before, during and after a drought? Is there any difference visible during the recovery?
 
-![basic_ts_ndvi_all_landcovers (1).jpg]![basic_ts_ndvi_all_landcovers (1).jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/176ad53215a8285136c339c5b7713e14b6e9973c/assets/HannahKemper/basictsndvialllandcovers-1-1795104263539.jpg)
+
 **Fig. 6:** General NDVI time-series without considering landcover types
 
 Looking at generic NDVI mean values across the study areas, there are very little difference visible for the identified drought period. It is crucial to consider landcover types and ecosystems while studying drought impacts.
 While splitting the NDVI mean values into different landcover types, more differences are visible.
 
 
-![basic_ts_std_ndvi_anom_all_landcovers (1).jpg]![basic_ts_std_ndvi_anom_all_landcovers (2).jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/cda8fc85679a9442c84451eccf15815a0e19687f/assets/HannahKemper/basictsstdndvianomalllandcovers-2-1795104293679.jpg)
+
 **Fig. 7:** NDVI time-series over different landcover
 
 Forests:
@@ -133,7 +133,6 @@ Grassland:
 
 This behaviour is typical of grass-dominated ecosystems because: Grasses have shallow root systems and depend heavily on recent rainfall. Productivity responds quickly to changes in water availability. Recovery can also be rapid since grasses have shorter growth cycles than forests or shrublands.
 
-![first_order_autocorrelation.jpg]![basic_ts_std_ndvi_anom_all_landcovers (2).jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/8e86cea80cdf143b5397461b199ae49f0a463734/assets/HannahKemper/basictsstdndvianomalllandcovers-2-1795104417357.jpg)
 
 **Fig. 8:** First order autocorrelation and de-seasonalized NDVI per landcover type
 
@@ -154,7 +153,7 @@ Grasslands show the strongest increase in auto-correlation, demonstrating the hi
 
 **Q2:** Which landcover type shows the biggest drought impact? Where was the drought impact located in Southern Angola?
 
-![event_dheed_angola.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/22881e15563025dc173d5cfd74e4a2d04f71bc16/assets/HannahKemper/eventdheedangola-1795103695551.png)
+
 
 **Fig. 9:**
 
