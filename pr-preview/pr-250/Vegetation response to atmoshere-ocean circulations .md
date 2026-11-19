@@ -57,7 +57,7 @@ In this study, we investigate the southeastern region of South America and Sub-S
 #### Dataset
 This study utilizes climate and vegetation indices to assess ecosystem sensitivity.
 
-**NOAA Climate Oscillation Indices** (2001–2021, monthly resolution)
+**NOAA Climate Oscillation Indices** (2001–2021, global scale, monthly resolution)
 - **Relative Oceanic Niño Index (RONI):** A 3-month running mean of tropical-adjusted Niño 3.4 SST anomalies (1991–2020 base period)
 
 **ESDC Vegetation Indices** (2001–2021, 0.25° and 1° spatial resolution, monthly temporal resolution)
@@ -75,9 +75,15 @@ Our analytical workflow includes:
 4. **Hotspot Identification:** Mapping geographical areas that show statistically significant vegetation response to ENSO. Creation of global maps and time series of southeastern South America and Sub-Saharan-Africa. Production of phase-specific (El Niño vs. La Niña) maps.
 
 ## Results
-The preliminary analysis generates:
-- **Lag-time/correlation maps:** Identifying regions where vegetation lags behind ENSO cycles.
-- **Anomaly Hotspots:** Regional focus areas (southeastern region of South America and Sub-Saharan Africa) exhibiting high sensitivity. Evaluated in timeseries plots.
+Our findings of comparing the three vegetation indices NIRv, NDVI and GPP to RONI comprise global and regional maps of lag-time correlation, ENSO phase specific maps and regional timeseries.
+
+##### Global study
+
+##### Regional study
+
+##### Phase-specific analysis
+
+
 
 
 ## Conclusions
