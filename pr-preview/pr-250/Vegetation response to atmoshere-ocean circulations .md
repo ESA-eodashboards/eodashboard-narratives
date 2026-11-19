@@ -99,6 +99,8 @@ The rest of the study focused on GPP due to the highest absolute values detected
 
 Alongside other strongly affected regions worldwide Argentina, southern Africa, and eastern Africa exhibit pronounced, asymmetric Gross Primary Productivity (GPP) responses when stratified into El Niño (RONI > 0.5) and La Niña (RONI < -0.5) phases. During El Niño, positive correlations at short-to-moderate lags dominate across Argentina and coastal eastern Africa, whereas southern Africa shows predominantly positive or mixed, longer-lag responses. Under La Niña, strong short-lag negative correlations emerge across southern Africa-indicating marked productivity gains as RONI decreases-while eastern Africa shifts toward negative correlations and Argentina retains a localized positive signal.
 
+At a 3-month lag relative to neutral conditions, Gross Primary Productivity (GPP) anomalies exhibit stark sign reversals between El Niño and La Niña across the three primary study areas of Argentina, southern Africa, and eastern Africa. During El Niño, GPP anomalies are strongly positive ( > 0.15) across Argentina and eastern Africa, whereas southern Africa experiences pronounced productivity reductions ( < -0.15). Under La Niña, this spatial response completely inverts: strong negative anomalies emerge over Argentina and eastern Africa, while southern Africa shifts to marked positive GPP anomalies.  
+
 ##### El Niño 
 
 ![global_gpp_phases_el_nino.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/1cfaeb105cdda0a6e0c1e95762e0129518149185/assets/thmimif/globalgppphaseselnino-1795115087894.png)<figcaption>***Fig. 9:*** *Global spatial distribution of the maximum absolute Pearson correlation coefficient (r, vertical legend axis) and corresponding optimal time lag in months (0-12 months, horizontal legend axis) between Gross Primary Productivity (GPP) and the Relative Oceanic Niño Index (RONI) under warm El Niño conditions (RONI > 0.5)*</figcaption>
@@ -107,7 +109,7 @@ Alongside other strongly affected regions worldwide Argentina, southern Africa, 
 
 ##### La Niña
 
-![global_gpp_phases_la_nina.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/afe44c2bec963f9da667fd95beafc4f7b41778a4/assets/thmimif/globalgppphaseslanina-1795115163361.png)<figcaption>***Fig. 11:*** **</figcaption>
+![global_gpp_phases_la_nina.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/afe44c2bec963f9da667fd95beafc4f7b41778a4/assets/thmimif/globalgppphaseslanina-1795115163361.png)<figcaption>***Fig. 11:*** *Same as Figure 9 but for La Nina conditions (RONI < -0.5)*</figcaption>
 
 ![global_gpp_phases_la_nina_anomaly.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e42a2015d8a7e9400ebc1d524a56922238863cab/assets/thmimif/globalgppphaseslaninaanomaly-1795115179453.png)<figcaption>***Fig. 12:*** **</figcaption>
 
