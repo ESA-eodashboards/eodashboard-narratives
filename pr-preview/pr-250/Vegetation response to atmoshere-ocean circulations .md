@@ -72,7 +72,7 @@ Our analytical workflow includes:
 1. **Data Retrieval:** Extraction of NOAA RONI indices and DeepESDL ESDC vegetation indices (NIRv, NDVI and GPP).
 2. **Preprocessing:** Time-series extraction, spatio-temporal aggregation,  decomposition to remove mean seasonal cycle and linear trend. 
 3. **Correlation Analysis:** Evaluation of lag-time correlation responses between ENSO indices and vegetation anomalies. Identification trends and anomalies. Phase-specific (El Niño vs. La Niña) analysis.
-4. **Hotspot Identification:** Mapping geographical areas that show statistically significant vegetation response to ENSO. Creation of global maps and time series of southeastern South America and Sub-Saharan-Africa. Production of hase-specific (El Niño vs. La Niña) maps.
+4. **Hotspot Identification:** Mapping geographical areas that show statistically significant vegetation response to ENSO. Creation of global maps and time series of southeastern South America and Sub-Saharan-Africa. Production of phase-specific (El Niño vs. La Niña) maps.
 
 ## Results
 The preliminary analysis generates:
@@ -84,7 +84,7 @@ The preliminary analysis generates:
 
 
 ## Open Science
-All processing workflows and data analysis scripts are developed within an open-science framework to ensure reproducibility and transparency in our findings regarding Earth system health.
+All processing workflows and data analysis scripts are developed within an open-science framework to ensure reproducibility and transparency in our findings regarding vegetation response to ENSO.
 
 | **Name** | **Type** | **Agency / Provider** | **Description / Usage** |
 | --- | --- | --- | --- |
