@@ -27,7 +27,7 @@ Our objective is to leverage the unique capabilities of the Biomass mission's P-
 The Sundarbans region presents a complex hydrological landscape. SAR data allows us to observe water levels even beneath the dense canopy.
 
 ## Data
-- **Source**: SAR Data
+- **Source**: SAR Data, Biomass l1c, Biomass l2a, Sentinel 1
 - **Temporal coverage**: Measurements are available every 3 days, from 07/25/2026 to 08/12/2026 resulting in 7 SAR measurements.
 - **Spatial resolution**: The raw data has an inital resolution of 39m azimuth and 6m range. After applying the "multilooking method" a resolution of about 40m per pixel is achieved.
 - **Area**: The inital datafile has a width of 1363 pixels
@@ -62,7 +62,7 @@ These matrices provide complementary representations of the polarimetric informa
 ##### 3. Polarimetric Visualization and Decomposition
 
 
- The Freeman-Durden method is applied to separate the signal into odd-bounce, double-bounce and volume scattering contributions.
+ The Freeman-Durden method is applied to separate the signal into odd-bounce, double-bounce and volume scattering contributions. The Yamaguchi decomposition further refines this approach by adding a helix scattering component, which is essential for characterizing complex, non-symmetric forest structures where canopy orientation and geometric interaction create non-standard radar reflections.
 
 
 This methods helps to distinguish the radar responses associated with vegetation, water and the underlying surface.
@@ -103,9 +103,11 @@ Three approaches are considered to find specific areas of interest:
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/6e87bb45ca40b9a54f235289a5b8a44df3ecdec7/assets/TrufE400/coherenceaoisallapproachesHH-1795097272516.png" alt="AOI selection">
   <figcaption>Figure 4: AOIs selected based on different approaches.</figcaption>
 </figure>
-
-
-
+ A comparison with Sentinel 1 data is also created for the same timeframe consisting of 3 timestamps.
+ 
+ 
+ 
+![s1_mean_coherence_VV_aois.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/4a98bb695b5247bfbbef159500c64c6c21f1a1a8/assets/TrufE400/s1meancoherenceVVaois-1795101962784.png)
 
 The objective is to identify which scattering contributions change most significantly throughout the observation period and how these changes relate to the underlying water conditions.
 
@@ -125,6 +127,13 @@ To investigate tidal movement and its influence on radar backscatter, a pixel-wi
 By examining the evolution of signal power over time, potential tidal-driven changes in scattering behaviour can be identified and compared with observed sea-level variations. This provides a basis for assessing the sensitivity of different scattering mechanisms to underlying water dynamics.
 </p>
 
+![GIF_Coherence_AOI_1.gif](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/4ea7ae7d816f79a31d53d6f15da36cdf2744f833/assets/TrufE400/GIFCoherenceAOI1-1795101153710.gif) GIF 1: coherence map of selected area over time 
+
+![GIF_Coherence_AOI_2.gif](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/ecb58e35a41a7a3346d5ce8cd74325c48256828c/assets/TrufE400/GIFCoherenceAOI2-1795101252570.gif) GIF 2: coherence map of selected area over time
+
+![GIF_Yama_AOI_1.gif](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/8facd38fa3dc2e8a1b15757f6ce198d546266ef3/assets/TrufE400/GIFYamaAOI1-1795101283727.gif) GIF 3: yamaguchi 4-component scattering fraction over time series
+![GIF_Yama_AOI_2.gif](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/ed29a59e6ad400612a73d005ff6163f48368d6ce/assets/TrufE400/GIFYamaAOI2-1795101379791.gif) GIF 4: yamaguchi 4-component scattering fraction over time series
+
 ##### 7. Copernicus Sea-Level Comparison and Wetness Indicator
 
 Finally, the temporal changes in the SAR-derived parameters are compared with marine sea-level measurements from the Copernicus Marine Service.
@@ -132,15 +141,17 @@ Finally, the temporal changes in the SAR-derived parameters are compared with ma
 By investigating the relationship between sea-level variations and changes in the polarimetric scattering contributions, we aim to identify the radar parameter most sensitive to changing water conditions.
 
 Based on this relationship, we explore the development of an empirical **wetness indicator** to investigate the potential of P-band SAR for monitoring water dynamics beneath mangrove forests.
-<figure style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/3f5087b6f60442a823ad2ea16146ceb5feb8a968/assets/TrufE400/sealevelabsolute3daybarplot-1795094689011.png" alt="Sea level changes">
-  <figcaption>Figure 6: Sea level changes over the observation period.</figcaption>
-</figure>
 
-<figure style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/32db49dff656979627fcce84642779b24182a29a/assets/TrufE400/yamaguchi-power-aoi-3-1795099856008.png" alt="AOI 3 yamaguchi power">
-  <figcaption>Figure 7: AOI 3 yamaguchi power.</figcaption>
-</figure>
+<div style="display: flex; gap: 10px;">
+  <figure style="flex: 1; text-align: center;">
+    <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/3f5087b6f60442a823ad2ea16146ceb5feb8a968/assets/TrufE400/sealevelabsolute3daybarplot-1795094689011.png" alt="Sea level changes" style="width: 100%; height: auto;">
+    <figcaption>Figure 6: Sea level changes over the observation period.</figcaption>
+  </figure>
+  <figure style="flex: 1; text-align: center;">
+    <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/32db49dff656979627fcce84642779b24182a29a/assets/TrufE400/yamaguchi-power-aoi-3-1795099856008.png" alt="AOI 3 yamaguchi power" style="width: 100%; height: auto;">
+    <figcaption>Figure 7: AOI 3 yamaguchi power.</figcaption>
+  </figure>
+</div>
 
 ## Conclusions
 
