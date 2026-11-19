@@ -22,7 +22,7 @@ Our objective is to leverage the unique capabilities of the Biomass mission's P-
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
-### <!--{ zoom=12 center=[89.3667,21.7583] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
+### <!--{ zoom=9 center=[89.355626,21.989834] layers='[{"type":"Tile","properties":{"id":"s2cloudless"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"s2cloudless-2025_3857"}}]' animationOptions='{"duration":500}' }-->
 #### Harinagar, Bangladesh
 The Sundarbans region presents a complex hydrological landscape. SAR data allows us to observe water levels even beneath the dense canopy.
 
@@ -134,7 +134,7 @@ By examining the evolution of signal power over time, potential tidal-driven cha
   <figcaption style="text-align: center;">Figure 7: Coherence map HH of selected area (AOI 1) over time.</figcaption>
 </figure>
 <figure style="text-align: center;">
-  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/ecb58e35a41a7a3346d5ce8cd74325c48256828c/assets/TrufE400/GIFCoherenceAOI2-1795101252570.gif" alt="Coherence map AOI 2">
+  <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/ecb58e35a41a7a3346d5ce8cd74325c48256828c/assets/TrufE400/GIFCoherenceAOI2-1795101252570.gif" alt="Coherence map HH of selected area (AOI 2) over time.">
   <figcaption style="text-align: center;">Figure 8: Coherence map HH of selected area (AOI 2) over time.</figcaption>
 </figure>
 <figure style="text-align: center;">
@@ -166,7 +166,7 @@ Based on this relationship, we explore the development of an empirical **wetness
 
 <div style="display: flex; gap: 10px;">
   <figure style="flex: 1; text-align: center;">
-    <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/3f5087b6f60442a823ad2ea16146ceb5feb8a968/assets/TrufE400/sealevelabsolute3daybarplot-1795094689011.png" alt="Sea level changes" style="width: 100%; height: auto;">
+    <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/3f5087b6f60442a823ad2ea16146ceb5feb8a968/assets/TrufE400/sealevelabsolute3daybarplot-1795094689011.png" alt="Sea level changes" style="width: 200%; height: 240;">
     <figcaption style="text-align: center;">Figure 13: Sea level changes over the observation period.</figcaption>
   </figure>
   <figure style="flex: 1; text-align: center;">
@@ -176,7 +176,6 @@ Based on this relationship, we explore the development of an empirical **wetness
 </div>
 
 ## Limitations & Conclusions
-
 <h3>Conclusion</h3>
 
 <p>
@@ -221,7 +220,6 @@ Based on this relationship, we explore the development of an empirical **wetness
 <p>
   Overall, the results highlight the potential of Biomass P-band SAR for observing temporal changes in complex mangrove environments. However, longer time series, more precise sea-level data, and in-situ measurements will be necessary to better understand the relationship between radar scattering and water dynamics and to establish a reliable wetness indicator in the future.
 </p>
-
 
 ## Open Science
 
