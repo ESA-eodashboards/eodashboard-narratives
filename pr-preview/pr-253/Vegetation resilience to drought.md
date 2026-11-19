@@ -51,8 +51,9 @@ Only 4% of the farmland is currently irrigated, with the Minister of Agriculture
 
 ##### Grassland and Rangelands
 
-Grasslands are used traditionally for cattle and goat herding. 
+Grasslands are used traditionally for cattle and goat herding in South-Western Angola. 
 
+<p align="center" style="margin: 20px 0;"><img src="https://zoomafricanews.com/wp-content/uploads/2026/10/IMG-20261018-WA0023.jpg"/></p>
 
 
 ## Objective
