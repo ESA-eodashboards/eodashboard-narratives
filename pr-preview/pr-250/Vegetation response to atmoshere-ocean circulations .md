@@ -93,7 +93,11 @@ Global lagged correlation analysis between the Relative Oceanic Niño Index (RON
 
 ![global_gpp_R+lag.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/ff552c4d572cfeb450f21461d0c44701544c2a8d/assets/thmimif/globalgppRlag-1795114249979.png)<figcaption>***Fig. 8:*** *Same as Figure 6, but for Gross Primary Productivity (GPP) and RONI across vegetated land areas, highlighting pronounced short-lag reductions in primary productivity over Australia, southern Africa, and the Maritime Continent.*</figcaption>
 
+The rest of the study focused on GPP due to the highest absolute values detected in further difference analysis.
+
 #### Phase-specific analysis of GPP
+
+Alongside other strongly affected regions worldwide Argentina, southern Africa, and eastern Africa exhibit pronounced, asymmetric Gross Primary Productivity (GPP) responses when stratified into El Niño (RONI > 0.5) and La Niña (RONI < -0.5) phases. During El Niño, positive correlations at short-to-moderate lags dominate across Argentina and coastal eastern Africa, whereas southern Africa shows predominantly positive or mixed, longer-lag responses. Under La Niña, strong short-lag negative correlations emerge across southern Africa-indicating marked productivity gains as RONI decreases-while eastern Africa shifts toward negative correlations and Argentina retains a localized positive signal.
 
 ##### El Niño 
 
