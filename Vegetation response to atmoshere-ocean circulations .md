@@ -105,13 +105,13 @@ At a 3-month lag relative to neutral conditions, Gross Primary Productivity (GPP
 
 ![global_gpp_phases_el_nino.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/1cfaeb105cdda0a6e0c1e95762e0129518149185/assets/thmimif/globalgppphaseselnino-1795115087894.png)<figcaption>***Fig. 9:*** *Global spatial distribution of the maximum absolute Pearson correlation coefficient (r, vertical legend axis) and corresponding optimal time lag in months (0-12 months, horizontal legend axis) between Gross Primary Productivity (GPP) and the Relative Oceanic Niño Index (RONI) under warm El Niño conditions (RONI > 0.5)*</figcaption>
 
-![global_gpp_phases_el_nino_anomaly.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/27860d79a594d1295d1bcd33d18603c0061ba27d/assets/thmimif/globalgppphaseselninoanomaly-1795115100589.png)<figcaption>***Fig. 10:*** **</figcaption>
+![global_gpp_phases_el_nino_anomaly.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/27860d79a594d1295d1bcd33d18603c0061ba27d/assets/thmimif/globalgppphaseselninoanomaly-1795115100589.png)<figcaption>***Fig. 10:*** *Global distribution of Gross Primary Productivity (GPP) anomaly differences between El Niño and neutral ENSO conditions at a 3-month time lag, highlighting positive anomalies in Argentina and eastern Africa and negative anomalies in southern Africa.*</figcaption>
 
 ##### La Niña
 
 ![global_gpp_phases_la_nina.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/afe44c2bec963f9da667fd95beafc4f7b41778a4/assets/thmimif/globalgppphaseslanina-1795115163361.png)<figcaption>***Fig. 11:*** *Same as Figure 9 but for La Nina conditions (RONI < -0.5)*</figcaption>
 
-![global_gpp_phases_la_nina_anomaly.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e42a2015d8a7e9400ebc1d524a56922238863cab/assets/thmimif/globalgppphaseslaninaanomaly-1795115179453.png)<figcaption>***Fig. 12:*** **</figcaption>
+![global_gpp_phases_la_nina_anomaly.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e42a2015d8a7e9400ebc1d524a56922238863cab/assets/thmimif/globalgppphaseslaninaanomaly-1795115179453.png)<figcaption>***Fig. 12:*** *Global distribution of Gross Primary Productivity (GPP) anomaly differences between La Niña and neutral ENSO conditions at a 3-month time lag, illustrating the inverted GPP response across the three study regions.*</figcaption>
 
 #### Regional GPP study
 
