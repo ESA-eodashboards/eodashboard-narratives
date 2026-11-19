@@ -98,14 +98,14 @@ The workflow combined landcover datasets with visual inspection and literature r
 ## Results
 **Q1:** How do different landcover types behave before, during and after a drought? Is there any difference visible during the recovery?
 
-![basic_ts_ndvi_all_landcovers (1).jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/ec56351c62157265196c5470ed98b04ad8083998/assets/HannahKemper/basictsndvialllandcovers-1-1795102375117.jpg)
+![basic_ts_ndvi_all_landcovers (1).jpg]![basic_ts_ndvi_all_landcovers (1).jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/176ad53215a8285136c339c5b7713e14b6e9973c/assets/HannahKemper/basictsndvialllandcovers-1-1795104263539.jpg)
 **Fig. 6:** General NDVI time-series without considering landcover types
 
 Looking at generic NDVI mean values across the study areas, there are very little difference visible for the identified drought period. It is crucial to consider landcover types and ecosystems while studying drought impacts.
 While splitting the NDVI mean values into different landcover types, more differences are visible.
 
 
-![basic_ts_std_ndvi_anom_all_landcovers (1).jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/aa5c8acb79a98b81ad826f76a0a97a1ae51c76f3/assets/HannahKemper/basictsstdndvianomalllandcovers-1-1795102522833.jpg)
+![basic_ts_std_ndvi_anom_all_landcovers (1).jpg]![basic_ts_std_ndvi_anom_all_landcovers (2).jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/cda8fc85679a9442c84451eccf15815a0e19687f/assets/HannahKemper/basictsstdndvianomalllandcovers-2-1795104293679.jpg)
 **Fig. 7:** NDVI time-series over different landcover
 
 Forests:
@@ -126,7 +126,14 @@ Irrigated cropland:
 - Noticeable recovery beginning in 2020 and particularly during parts of 2021.
 
 
-![first_order_autocorrelation.jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/12fbc189f464b2efd77e8437865ead88c3fd0f6d/assets/HannahKemper/firstorderautocorrelation-1795103176705.jpg)
+Grassland:
+- The strongest and most prolonged decline in NDVI during 2019.
+- Rapid losses in vegetation greenness when water becomes limiting.
+- A relatively rapid recovery once conditions improve.
+
+This behaviour is typical of grass-dominated ecosystems because: Grasses have shallow root systems and depend heavily on recent rainfall. Productivity responds quickly to changes in water availability. Recovery can also be rapid since grasses have shorter growth cycles than forests or shrublands.
+
+![first_order_autocorrelation.jpg]![basic_ts_std_ndvi_anom_all_landcovers (2).jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/8e86cea80cdf143b5397461b199ae49f0a463734/assets/HannahKemper/basictsstdndvianomalllandcovers-2-1795104417357.jpg)
 
 **Fig. 8:** First order autocorrelation and de-seasonalized NDVI per landcover type
 
@@ -141,6 +148,7 @@ This suggests that vegetation dynamics became increasingly persistent during the
 
 Although forests remained relatively productive in the anomaly graph, this autocorrelation analysis suggests that forests nonetheless became more sensitive to prolonged stress.
 Both cropland classes showed an increase in auto-correlation suggesting that the irrigation practices did not shield sufficiently to avoid any long-term impacts.
+Grasslands show the strongest increase in auto-correlation, demonstrating the higher vulnerability to drought periods affecting the NDVI values.
 
 
 
