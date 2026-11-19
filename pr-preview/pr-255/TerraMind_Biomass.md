@@ -46,14 +46,14 @@ The dataset spans **20 global Regions of Interest** across four regimes:
 
 
 ### Data Sources & Normalization
-Sentinel-1 and Sentinel-2 come from the quarterly global mosaics of the same quarter as each BIOMASS acquisition (2026). All data are streamed as Cloud-Optimized GeoTIFFs and resampled to the BIOMASS grid.
+Sentinel-2 comes from the 2026 quarterly mosaic of the BIOMASS acquisition quarter, or the nearest available quarter. Sentinel-1 comes from the global mosaics over the same area; their acquisition period could not always be matched to the BIOMASS date. All data are streamed as Cloud-Optimized GeoTIFFs and resampled to the BIOMASS grid.
 
 | Modality | Product | Source | Preprocessing | Normalization |
 | :--- | :--- | :--- | :--- | :--- |
 | **Canopy Height (label)** | ESA BIOMASS L2A Forest Height | ESA MAAP STAC | Defines the reference grid; values above 75 m masked | Scaled by 38 m; outputs limited to 0–75 m |
 | **Ground Notch (auxiliary label)** | ESA BIOMASS L2A Ground Notch (HH, HV, VV) | ESA MAAP STAC | Converted to dB | Standardized per polarization |
-| **Optical (S2)** | Sentinel-2 L2A quarterly mosaics (B02, B03, B04, B08) | Copernicus Data Space Ecosystem | Reflectance × 10,000; resampled to the BIOMASS grid | TerraMind pretraining statistics for the foundation model; dataset statistics for the refiner |
-| **Radar (S1)** | Sentinel-1 GRD quarterly mosaics (VV, VH) | Copernicus Data Space Ecosystem | Converted to dB; resampled to the BIOMASS grid | TerraMind pretraining statistics for the foundation model; dataset statistics for the refiner |
+| **Optical (S2)** | Sentinel-2 L2A 2026 quarterly mosaics (B02, B03, B04, B08) | Copernicus Data Space Ecosystem | Reflectance × 10,000; resampled to the BIOMASS grid | TerraMind pretraining statistics for the foundation model; dataset statistics for the refiner |
+| **Radar (S1)** | Sentinel-1 GRD global mosaics (VV, VH) | Copernicus Data Space Ecosystem | Converted to dB; resampled to the BIOMASS grid | TerraMind pretraining statistics for the foundation model; dataset statistics for the refiner |
 | **Terrain (DEM)** | Copernicus DEM GLO-30 | AWS Open Data | Bilinear resampling to the BIOMASS grid; relief and slope derived | TerraMind pretraining statistics for the foundation model; dataset statistics for the refiner |
 
 ### Training & Validation Split
@@ -94,16 +94,23 @@ Large areas are predicted in overlapping 256 × 256 pixel windows that are blend
 
 ## Results
 ### Validation on Unseen BIOMASS Scenes
-The model is evaluated on one complete BIOMASS scene per region that was never part of the training data. Metrics are computed at the ~92 m pixel level and after 2 × 2 averaging (~184 m, close to the 200 m product resolution).
+During training, the selected model (epoch 10) reached an RMSE of 9.16 m and an R² of 0.35 on the validation patches, and an RMSE of 8.85 m after aggregation to roughly the 200 m BIOMASS product resolution.
 
-| Validation Region | RMSE (m) | Bias (m) | R² | r | RMSE, 2 × 2 (m) | Bias, 0–10 m labels (m) |
+The model is then evaluated on one complete BIOMASS scene per region that was never part of the training data. Metrics are computed at the ~92 m pixel level against the BIOMASS label (0–75 m), without geographic coordinates. Bias is prediction minus BIOMASS.
+
+| Validation Region | RMSE (m) | MAE (m) | Bias (m) | R² | r | Bias, tall canopy > 20 m (m) |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Amazon, Central Brazil** *(Tropical moist broadleaf)* | [XX.XX] | [+X.XX] | [0.XXX] | [0.XX] | [XX.XX] | [+X.XX] |
-| **Eucalyptus Forest, East Australia** *(Subtropical/temperate sclerophyll)* | [XX.XX] | [+X.XX] | [0.XXX] | [0.XX] | [XX.XX] | [+X.XX] |
-| **Taiga, Siberia** *(Boreal needleleaf)* | [XX.XX] | [+X.XX] | [0.XXX] | [0.XX] | [XX.XX] | [+X.XX] |
-| **Temperate Mixed Forest, West Russia** *(Hemiboreal mixed)* | [XX.XX] | [+X.XX] | [0.XXX] | [0.XX] | [XX.XX] | [+X.XX] |
+| **Amazon, Central Brazil** *(Tropical moist broadleaf)* | 6.49 | 4.55 | +1.18 | 0.152 | 0.43 | −0.83 |
+| **Eucalyptus Forest, East Australia** *(Subtropical/temperate sclerophyll)* | 5.77 | 4.55 | −1.50 | −1.024 | −0.02 | −1.50 |
+| **Taiga, Siberia** *(Boreal needleleaf)* | 28.88 | 26.76 | −24.09 | −3.920 | −0.29 | −28.68 |
+| **Temperate Mixed Forest, West Russia** *(Hemiboreal mixed)* | 17.43 | 13.97 | −6.37 | −0.067 | 0.36 | −10.41 |
 
-*(Note: Fill in once validation is complete.)*
+- **Amazon**: The best agreement (RMSE 6.5 m, r = 0.43, almost no bias in tall forest). The model reproduces the large-scale pattern, such as lower canopy along rivers and floodplains, but its map is smoother than the BIOMASS label.
+- **Eucalyptus Forest**: A low RMSE (5.8 m), but no correlation with BIOMASS (r = −0.02). BIOMASS heights in this scene vary little (standard deviation about 4 m), so the low RMSE mainly reflects this narrow range; the model does not reproduce the spatial pattern.
+- **Taiga**: A large negative bias (−24.1 m). This most likely reflects a scene-wide offset: the BIOMASS heights of this scene are far higher than those of the training scenes from the same region, which the model cannot reproduce from Sentinel data.
+- **Temperate Mixed Forest**: A moderate correlation (r = 0.36), with tall forest underestimated by about 10 m. 10.5% of this scene overlaps training footprints; these pixels were excluded from the metrics.
+
+Negative R² values mean that, for that scene, the predictions agree less well with BIOMASS than the scene's average BIOMASS height would.
 
 The map below shows one of these scenes step by step: the three inputs, the BIOMASS reference and the model prediction.
 
@@ -112,7 +119,7 @@ The map below shows one of these scenes step by step: the three inputs, the BIOM
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":true},{"type":"Image","properties":{"id":"Amazon_Central_Brazil_s2","title":"Sentinel-2 input"},"source":{"type":"ImageStatic","url":"https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/Amazon_S2.png","imageExtent":[-6443542.97,-732757.04,-6350363.04,-580001.53],"projection":"EPSG:3857","crossOrigin":"anonymous","interpolate":false},"visible":true}]' center=[-57.4648,-5.8856] zoom="9.1" projection="EPSG:3857" animationOptions={duration:500}}-->
 #### Sentinel-2 input
-True-colour composite (red, green, blue) of the quarterly Sentinel-2 mosaic matching the BIOMASS acquisition.
+True-colour composite (red, green, blue) of the 2026 quarterly Sentinel-2 mosaic of the BIOMASS acquisition quarter.
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":true},{"type":"Image","properties":{"id":"Amazon_Central_Brazil_s1","title":"Sentinel-1 input"},"source":{"type":"ImageStatic","url":"https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/Amazon_S1.png","imageExtent":[-6443542.97,-732757.04,-6350363.04,-580001.53],"projection":"EPSG:3857","crossOrigin":"anonymous","interpolate":false},"visible":true}]' center=[-57.4648,-5.8856] zoom="9.1" projection="EPSG:3857" animationOptions={duration:500}}-->
 #### Sentinel-1 input
@@ -130,23 +137,23 @@ The P-band BIOMASS Level-2A canopy height used as reference.
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":true},{"type":"Image","properties":{"id":"Amazon_Central_Brazil_fh_pred","title":"Predicted canopy height"},"source":{"type":"ImageStatic","url":"https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/Amazon_Height_Predicted.png","imageExtent":[-6443542.97,-732757.04,-6350363.04,-580001.53],"projection":"EPSG:3857","crossOrigin":"anonymous","interpolate":false},"visible":true}]' center=[-57.4648,-5.8856] zoom="9.1" projection="EPSG:3857" animationOptions={duration:500}}-->
 #### Predicted canopy height
-The model's prediction from Sentinel-2, Sentinel-1 and DEM only, on the same colour scale. Agreement with BIOMASS: RMSE [X.X] m, bias [±X.X] m, r = [0.XX].
+The model's prediction from Sentinel-2, Sentinel-1 and DEM only, on the same colour scale. Agreement with BIOMASS: RMSE 6.5 m, bias +1.2 m, r = 0.43. The large-scale pattern is reproduced, but the prediction is smoother than the BIOMASS label.
 
 <img src="https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/Amazon_Legend_Height.png" width="300"/>
 
 
 ## Conclusions
-- **Feasibility**: A frozen Earth observation foundation model with a small, terrain-aware refiner can learn BIOMASS-like canopy height from globally available Sentinel-2, Sentinel-1 and Copernicus DEM data, and transfer it to scenes it has never seen.
+- **Feasibility**: A frozen Earth observation foundation model with a small, terrain-aware refiner can learn BIOMASS-like canopy height from globally available Sentinel-2, Sentinel-1 and Copernicus DEM data. On unseen scenes, agreement ranges from good in the Amazon (RMSE 6.5 m, r = 0.43) to poor where BIOMASS scenes are offset from the training data, as in the Siberian taiga.
 - **Beyond the mission**: Because the trained model needs no P-band input, it offers a way to extend BIOMASS-like canopy height estimates in time, beyond the lifetime of the mission, using the long-term Sentinel and Copernicus data streams.
 - **Labels set the limit**: Repeat BIOMASS passes agree at only r = 0.18, and whole scenes can be offset by 10–25 m. Model accuracy must be read as agreement with BIOMASS, and improving label quality (e.g. using the BIOMASS quality layer) is as important as improving the model.
-- **Limitations**: Only one validation scene per region in four regions; Sentinel-1/2 inputs are quarterly mosaics rather than single acquisitions; and whether the relation learned in 2026 stays valid for later years, as forests and sensors change, has not yet been tested.
+- **Limitations**: Only one validation scene per region in four regions; Sentinel-1/2 inputs are mosaics rather than single acquisitions, and the Sentinel-1 acquisition period could not always be matched to the BIOMASS date; and whether the relation learned in 2026 stays valid for later years, as forests and sensors change, has not yet been tested.
 - **Future work**: Test the model on Sentinel data from other years against later BIOMASS acquisitions; compare with independent references such as NASA GEDI and airborne laser scanning; include the BIOMASS quality layer; and extend validation to more scenes and regions.
 
 ## <!--{ as="div" }--> Open Science
 | **Name** | **Type** | **Agency / Provider** | **Description / Usage** |
 | :--- | :--- | :--- | :--- |
 | **[ESA BIOMASS Level-2A (MAAP STAC)](https://catalog.maap.eo.esa.int/catalogue/)** | Dataset | ESA (Earth Explorer 7 / MAAP) | P-band Forest Canopy Height (labels) and Ground Notch (auxiliary labels) used for training and validation. |
-| **[Copernicus Sentinel-1 & Sentinel-2 Global Mosaics (CDSE)](https://dataspace.copernicus.eu/)** | Dataset | European Commission / ESA (CDSE) | Quarterly Sentinel-2 optical and Sentinel-1 C-band radar mosaics used as model inputs for training and validation. |
+| **[Copernicus Sentinel-1 & Sentinel-2 Global Mosaics (CDSE)](https://dataspace.copernicus.eu/)** | Dataset | European Commission / ESA (CDSE) | Sentinel-2 quarterly optical mosaics and Sentinel-1 C-band radar global mosaics used as model inputs for training and validation. |
 | **[Copernicus DEM GLO-30](https://registry.opendata.aws/copernicus-dem/)** | Dataset | ESA / Copernicus (AWS Open Data) | 30 m global elevation used for elevation, relief and slope. |
 | **[IBM/ESA TerraMind v1](https://huggingface.co/ibm-esa-geospatial)** | Foundation Model | IBM Research & ESA Φ-lab | Pretrained multimodal Earth observation foundation model, used frozen via TerraTorch. |
 | **[EO Dashboard](https://eodashboard.org/explore/?x=15.0000&y=48.0000&z=4.0000&datetime=2025-09-19&template=expert)** | Platform / Web Tool | EO Dashboard Consortium (ESA, NASA, JAXA) | Base layers and tools for interactive exploration of Earth observation indicators. |
@@ -158,6 +165,4 @@ The model's prediction from Sentinel-2, Sentinel-1 and DEM only, on the same col
 
 
 ## Contributors
-- **[Author 1 Name]** ([Affiliation 1]) — Methodology, model architecture, data pipeline, and validation.
-- **[Author 2 Name]** ([Affiliation 2]) — Validation, geospatial analysis, and scientific review.
-- **[Author 3 Name]** ([Affiliation 3]) — Supervision and StoryMap curation.
+- **Torben Dedring** (Ruhr-Universität Bochum) — Methodology, model architecture, data pipeline, validation and StoryMap curation.
