@@ -98,13 +98,13 @@ The workflow combined landcover datasets with visual inspection and literature r
 ## Results
 **Q1:** How do different landcover types behave before, during and after a drought? Is there any difference visible during the recovery?
 
-
+![basic_ts_ndvi_all_landcovers (1).jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/92f3669788faccff93042ca65c48545ceadb7880/assets/HannahKemper/basictsndvialllandcovers-1-1795122923083.jpg)
 **Fig. 6:** General NDVI time-series without considering landcover types
 
 Looking at generic NDVI mean values across the study areas, there are very little difference visible for the identified drought period. It is crucial to consider landcover types and ecosystems while studying drought impacts.
 While splitting the NDVI mean values into different landcover types, more differences are visible.
 
-
+![basic_ts_std_ndvi_anom_all_landcovers (1).jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/bde327f894f16a439c508ec0090e6243df4c8957/assets/HannahKemper/basictsstdndvianomalllandcovers-1-1795122981144.jpg)
 
 **Fig. 7:** NDVI time-series over different landcover
 
@@ -133,7 +133,7 @@ Grassland:
 
 This behaviour is typical of grass-dominated ecosystems because: Grasses have shallow root systems and depend heavily on recent rainfall. Productivity responds quickly to changes in water availability. Recovery can also be rapid since grasses have shorter growth cycles than forests or shrublands.
 
-
+![first_order_autocorrelation.jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/08c07def60e43c63cce690a80118b83c81783ae7/assets/HannahKemper/firstorderautocorrelation-1795123033146.jpg)
 **Fig. 8:** First order autocorrelation and de-seasonalized NDVI per landcover type
 
 This graph depicts the legacy of previous NDVI values for current values, where a higher auto-correlation results in slower vegetation changes and current conditions are heavily influenced by previous conditions. In drought studies, a rise in autocorrelation is often considered an early warning signal of ecosystem stress.
@@ -148,6 +148,11 @@ This suggests that vegetation dynamics became increasingly persistent during the
 Although forests remained relatively productive in the anomaly graph, this autocorrelation analysis suggests that forests nonetheless became more sensitive to prolonged stress.
 Both cropland classes showed an increase in auto-correlation suggesting that the irrigation practices did not shield sufficiently to avoid any long-term impacts.
 Grasslands show the strongest increase in auto-correlation, demonstrating the higher vulnerability to drought periods affecting the NDVI values.
+![boxplots_ndvi_absolute.jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/70f86f44bd6383117435d34f08b5506ca66192c3/assets/HannahKemper/boxplotsndviabsolute-1795123292493.jpg)
+
+**Fig. 9:** NDVI distribution before, during and after the 2018/20 drought per landcover class. The NDVI distribution of the irrigated cropland shows much less variation compared to rainfed cropland.
+
+
 
 
 
@@ -155,7 +160,7 @@ Grasslands show the strongest increase in auto-correlation, demonstrating the hi
 
 
 
-**Fig. 9:**
+
 
 
 ## Conclusions
