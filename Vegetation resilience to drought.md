@@ -80,10 +80,10 @@ Explore the response and recovery of different landuse types during the 2018/20 
 
 #### Dataset
 - **Source**: ESA CCI Landcover, Irrigated Land (identified through very-high resolution imagery), ESDC Vegetation Indices,Extreme events dataset (Dheed) 
-- **Temporal coverage**: 
+- **Temporal coverage**: 2000 to 2021
 
 #### Methodology workflow
-Description
+
 
 ## Results
 
