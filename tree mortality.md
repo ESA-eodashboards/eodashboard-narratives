@@ -14,8 +14,6 @@
 </p>
 
 ## Challenge
-Which environmental factors explain observed tree mortality across Europe?
-
 Climate change is reshaping the vegetation structure and dynamics. These transformations are already measurable across the globe (IPCC 2013; Neumann et al. 2017). For the upcoming time, further significant changes are expected regarding the range and distribution of species.
 
 In Central Europe, forests have already experienced an increase in the frequency and intensity of tree mortality. These effects are primarily driven by recurring extreme droughts and compounding biotic stressors, which exceed the adaptive capacities of long-lived species (Seidl et al. 2017).
@@ -25,8 +23,22 @@ The increasing mortality rate threatens the resilience of forests in Europe and 
 Additionally, tree mortality is a crucial factor as it can trigger irreversible changes in forest communities by pushing ecosystems past critical ecological thresholds (Scheffer et al. 2012). Addressing this vulnerability requires a large-scale understanding of the climatic factors causing tree mortality to identify potential changes before critical tipping points are reached.
 
 ## Objective
-The objective of this study was to
 
+
+  <p>
+    Forests across Europe are under growing pressure from drought, heat and bark beetle
+    outbreaks, and tree mortality has risen sharply in many regions in recent years.
+    But which environmental factors best explain where trees are dying?
+  </p>
+
+  <p>
+    In this study, we investigate this question for Central Europe, covering Germany,
+    Austria, Czechia, Slovakia and Poland. Using a gridded data cube, we relate the
+    observed fraction of tree mortality in each forest cell to a set of environmental
+    predictors.
+  </p>
+
+  
 
 </p>
 
@@ -166,7 +178,9 @@ A correlation to the mortality as already visible.
 
 ![grouped_importance.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/f5accb1cef07224fc53026132314ec8d3d633ede/assets/egmeiner/groupedimportance-1795100416363.png)
 
+![mortality_when_where.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/bfcf8ccc24b4c3cc3e441d1e68c22621936ccaba/assets/egmeiner/mortalitywhenwhere-1795101907763.png)
 
+![predictor_anomaly_maps.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b6ae2a403c4e141314e49e2736dd0de52e42275e/assets/egmeiner/predictoranomalymaps-1795102253495.png)
 
 
 
