@@ -61,33 +61,33 @@ This study utilizes climate and vegetation indices to assess ecosystem sensitivi
 - **Relative Oceanic Niño Index (RONI):** A 3-month running mean of tropical-adjusted Niño 3.4 SST anomalies (1991–2020 base period)
 
 **ESDC Vegetation Indices** (2001–2021, 0.25° and 1° spatial resolution, monthly temporal resolution)
-- **Near Infrared Reflectance of Vegetation (NIRv):** Derived from MODIS/Terra+Aqua BRDF/Albedo data
 - **Normalized Difference Vegetation Index (NDVI):** MODIS/Terra+Aqua BRDF/Albedo Nadir BRDF-Adjusted Reflectance Daily L3 Global 0.05 Deg CMG and Vegetation Indices
+- **Near Infrared Reflectance of Vegetation (NIRv):** Derived from MODIS/Terra+Aqua BRDF/Albedo data
 - **Gross Primary Productivity (GPP):** FLUXCOM
 
 #### Methodology
 The study is carried out first at a coarse global sclale to identify large-scale spatio-temporal patterns and trends.
 Then two major areas are analyzed spacially in more detail: the southeastern region of South America and Sub-Saharan Africa.
 Our analytical workflow includes:
-1. **Data Retrieval:** Extraction of NOAA RONI indices and DeepESDL ESDC vegetation indices (NIRv, NDVI and GPP).
+1. **Data Retrieval:** Extraction of NOAA RONI indices and DeepESDL ESDC vegetation indices (NDVI, NIRv and GPP).
 2. **Preprocessing:** Time-series extraction, spatio-temporal aggregation,  decomposition to remove mean seasonal cycle and linear trend. 
 3. **Correlation Analysis:** Evaluation of lag-time correlation responses between ENSO indices and vegetation anomalies. Identification trends and anomalies. Phase-specific (El Niño vs. La Niña) analysis.
 4. **Hotspot Identification:** Mapping geographical areas that show statistically significant vegetation response to ENSO. Creation of global maps southeastern South America and Sub-Saharan-Africa. Production of phase-specific (El Niño vs. La Niña) maps.
 
 ## Results
-Our findings, derived from comparing NIRv, NDVI, and GPP vegetation indices against RONI, provide insight into vegetation response to ENSO at different scales.
+Our findings, derived from comparing NDVI, NIRv, and GPP vegetation indices against RONI, provide insight into vegetation response to ENSO at different scales.
 The results comprise global and regional maps of lag-time correlation and regional timeseries, alongside phase-specific analyses that reveal how vegetation indices shift in response to El Niño and La Niña periods. Only the most pronounced responses are shown here. Further response analysis can be accessed via the notebook linked in the *Notebook* section.
 
 ### Global study
 Global lagged correlation analysis between the Relative Oceanic Niño Index (RONI) and the three vegetation metrics (NDVI, NIRv, and GPP) reveals consistent, geographically coherent ENSO teleconnection patterns across tropical and subtropical land surfaces. Strong negative correlations (r < -0.5) at short lag times (0-4 months) dominate across Australia, Southeast Asia, India, southern Africa, and northern South America, reflecting rapid vegetation stress and reduced photosynthetic uptake during warm ENSO phases. Conversely, pronounced positive correlations (r > 0.5) with short-to-moderate lags occur in southern South America, the southwestern United States, eastern Africa, and Central Asia. Across the metrics, GPP and NIRv exhibit stronger and spatially more contiguous negative responses than NDVI over the Maritime Continent, northern Australia, and southern Africa. The pattern is clearly captured in the zonal median anomalies around 15°S-30°S and the meridional anomalies between 120°E and 150°E. Unlike the reflectance-based indices, GPP masks out barren, ice-covered, and hyper-arid regions (such as the Sahara, Greenland, and Antarctica), while northern high latitudes across all three datasets generally display weak correlations (|r| < 0.3) and longer, more heterogeneous optimal lag times.
 
-#### NIRv vs. RONI
-
-![global_nirv_R+lag.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/96116f20b8f5c9ab32db4f90f0c1fbbad0e2a158/assets/thmimif/globalnirvRlag-1795114033282.png)<figcaption>***Fig. 6:*** *Global spatial distribution of the maximum absolute Pearson correlation coefficient (r, vertical legend axis) and corresponding optimal time lag in months (0–12 months, horizontal legend axis) for the Near-Infrared Reflectance of Vegetation (NIRv) and RONI, showing enhanced negative responses across Southeast Asia and Australia.*</figcaption>
-
 #### NDVI vs. RONI
 
 ![global_ndvi_R+lag.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/159fc204b09e2bf14e77aa9a6b9b97a2ce4b0c36/assets/thmimif/globalndviRlag-1795114136029.png)<figcaption>***Fig. 7:*** *Global spatial distribution of the maximum absolute Pearson correlation coefficient (r, vertical legend axis) and corresponding optimal time lag in months (0–12 months, horizontal legend axis) between NDVI and the Relative Oceanic Niño Index (RONI). Right and bottom margin bands indicate zonal and meridional median values, respectively.*</figcaption>
+
+#### NIRv vs. RONI
+
+![global_nirv_R+lag.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/96116f20b8f5c9ab32db4f90f0c1fbbad0e2a158/assets/thmimif/globalnirvRlag-1795114033282.png)<figcaption>***Fig. 6:*** *Global spatial distribution of the maximum absolute Pearson correlation coefficient (r, vertical legend axis) and corresponding optimal time lag in months (0–12 months, horizontal legend axis) for the Near-Infrared Reflectance of Vegetation (NIRv) and RONI, showing enhanced negative responses across Southeast Asia and Australia.*</figcaption>
 
 #### GPP vs. RONI
 
