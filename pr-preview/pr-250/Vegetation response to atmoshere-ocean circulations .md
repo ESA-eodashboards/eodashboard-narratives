@@ -146,7 +146,7 @@ All processing workflows and data analysis scripts are developed within an open-
 
 #### Notebook
 Access the notebook to reproduce the study workflow.
-<iframe width="100%" height="600" src="link-to-notebook" frameborder="0"></iframe>
+<iframe width="100%" height="600" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/9f025e0e474ccf4ed81f1e962496b093bd0cb8b5/assets/thmimif/CH4VegetENSO-1795120778313.ipynb" frameborder="0"></iframe>
 
 #### References
 - Michael J. McPhaden et al. ,ENSO as an Integrating Concept in Earth Science.Science314,1740-1745(2006). DOI:10.1126/science.1132588
