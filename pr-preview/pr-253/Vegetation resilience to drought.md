@@ -49,7 +49,6 @@ Angola's agricultural production focuses on cassava, maize, sweet potaoes and ba
 **Fig. 3:** Smallholder farming in Cunene province
 
 
-
 A big percentage of the local population relies on the subsistence farming or livestock herding. During droughts Angolan farmers have reported a 40% loss in crops affecting their livelihoods and food security [7].
 Only 4% of the farmland is currently irrigated, with the Minister of Agriculture stressing the importance of investment in irrigation schemes to assure production during dry spells [8].
 
@@ -72,11 +71,11 @@ Though the Southern parts of Angola are not covered in dense tropical rainforest
 **Fig. 5:** Miombo Woodlands in Southern and Central Angola
 
 ## Objective
-The objective of this study was to compare the recovery trajectory of different land cover types and ecosystems after severe drought impacts in order to understand how this recovery unfolds and differs based on the present ecosystem.
-Remote Sensing is a suitable method to study the observed drought impacts and the development of different ecosystem after the rainfall onset.
+The objective of this study was to compare the recovery trajectory of the different land cover types and ecosystems after severe drought impacts in order to understand how this recovery unfolds and differs based on the present ecosystem.
+Remote Sensing is a suitable method to study the observed drought impacts and the development of different ecosystem after the rainfall onset as it allows the processing over vast landscapes and in conditions where field data collection is challenging.
 
 ## Data and Methods
-Explore the response and recovery of different landuse types during the 2023/24 drought in Southern Africa comparing the time-series of different indicators.
+Explore the response and recovery of different landuse types during the 2019/20 drought in Southern Africa focusing on the Southern regions of Angola comparing the time-series of different indicators.
 
 #### Dataset
 - **Source**: 
