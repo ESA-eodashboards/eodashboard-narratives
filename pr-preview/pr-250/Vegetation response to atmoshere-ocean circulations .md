@@ -80,12 +80,47 @@ The results comprise global and regional maps of lag-time correlation and region
 
 ##### Global study
 
+NIRv vs. RONI
+
+NDVI vs. RONI
+
+GPP vs. RONI
+
 ##### Regional study
+
+**South America**
+
+NIRv vs. RONI
+
+NDVI vs. RONI
+
+GPP vs. RONI
+
+**Sub-Saharan-Africa**
+
+NIRv vs. RONI
+
+NDVI vs. RONI
+
+GPP vs. RONI
 
 ##### Phase-specific analysis
 
+El Niño 
 
+**Global**
 
+**South America**
+
+**Sub-Saharan-Africa**
+
+La Niña
+
+**Global**
+
+**South America**
+
+**Sub-Saharan-Africa**
 
 ## Conclusions
 
