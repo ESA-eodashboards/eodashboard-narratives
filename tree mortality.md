@@ -26,8 +26,7 @@ Additionally, tree mortality is a crucial factor as it can trigger irreversible 
 
 
   <p>
-    Forests across Europe are under growing pressure from drought, heat and bark beetle
-    outbreaks, and tree mortality has risen sharply in many regions in recent years.
+    Tree mortality has risen sharply in many regions in recent years.
     But which environmental factors best explain where trees are dying?
   </p>
 
@@ -43,21 +42,13 @@ Additionally, tree mortality is a crucial factor as it can trigger irreversible 
 </p>
 
 ## Data and Methods
-All the data was spacialy matched to 0.25 degrees of cell size.
-If a 0.25 cell has more than 30% of forest we keep it as a forest pixel.
 #### Dataset
-- **Source**: 
-- **Temporal coverage**: 
-
 
 <table style="border-collapse: collapse; width: 100%;">
   <thead>
     <tr>
       <th style="text-align:center; border:1px solid #ccc; padding:6px;">Datacube name</th>
       <th style="text-align:center; border:1px solid #ccc; padding:6px;">Variable name</th>
-      <th style="text-align:left; border:1px solid #ccc; padding:6px;">Description</th>
-      <th style="text-align:center; border:1px solid #ccc; padding:6px;">Reference*</th>
-      <th style="text-align:center; border:1px solid #ccc; padding:6px;">Region</th>
       <th style="text-align:center; border:1px solid #ccc; padding:6px;">Time range</th>
       <th style="text-align:center; border:1px solid #ccc; padding:6px;">Resolution</th>
     </tr>
@@ -66,83 +57,62 @@ If a 0.25 cell has more than 30% of forest we keep it as a forest pixel.
     <tr>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">deadtrees.earth v5</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">tree_mortality_fraction</td>
-      <td style="text-align:left; border:1px solid #ccc; padding:6px;">Ratio of standing deadwood cover to total tree cover. Both layers were aggregated separately using area-averaged resampling (Resampling.average), with invalid pixels masked, before calculating the ratio. Mean mortality fraction calculated over the period.</td>
-      <td style="text-align:center; border:1px solid #ccc; padding:6px;"><a href="https://deadtrees.earth/" target="_blank">deadtrees.earth</a></td>
-      <td style="text-align:center; border:1px solid #ccc; padding:6px;">Study area</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">2019–2022</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">10 m (input); 0.25° (output), EPSG:3035 input, pyramid level 7 (1.28 km)</td>
     </tr>
     <tr>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">ESDC</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">air_temperature</td>
-      <td style="text-align:left; border:1px solid #ccc; padding:6px;">Mean summer air temperature (June–August), representing heat exposure during the drought period. No resampling required, as the dataset is already available at the target grid resolution.</td>
-      <td style="text-align:center; border:1px solid #ccc; padding:6px;">ESDC</td>
-      <td style="text-align:center; border:1px solid #ccc; padding:6px;">Study area</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">2018–2021</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">0.25°, 8-day</td>
     </tr>
     <tr>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">ESDC</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">surface_moisture</td>
-      <td style="text-align:left; border:1px solid #ccc; padding:6px;">Mean summer surface moisture (June–August), representing water availability during the drought period.</td>
-      <td style="text-align:center; border:1px solid #ccc; padding:6px;">ESDC</td>
-      <td style="text-align:center; border:1px solid #ccc; padding:6px;">Study area</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">2018–2021</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">0.25°, 8-day</td>
     </tr>
     <tr>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">ESDC</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">root_zone_moisture</td>
-      <td style="text-align:left; border:1px solid #ccc; padding:6px;">Mean summer root-zone soil moisture (June–August), representing water availability in the soil layer accessible to tree roots.</td>
-      <td style="text-align:center; border:1px solid #ccc; padding:6px;">ESDC</td>
-      <td style="text-align:center; border:1px solid #ccc; padding:6px;">Study area</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">2018–2021</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">0.25°, 8-day</td>
     </tr>
     <tr>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">ESDC</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">evaporative_stress</td>
-      <td style="text-align:left; border:1px solid #ccc; padding:6px;">Mean summer evaporative stress (June–August), indicating the degree to which water availability limits evapotranspiration and reflects plant water stress.</td>
-      <td style="text-align:center; border:1px solid #ccc; padding:6px;">ESDC</td>
-      <td style="text-align:center; border:1px solid #ccc; padding:6px;">Study area</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">2018–2021</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">0.25°, 8-day</td>
     </tr>
     <tr>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">ESDC</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">kNDVI</td>
-      <td style="text-align:left; border:1px solid #ccc; padding:6px;">Mean summer kernel Normalized Difference Vegetation Index (June–August), representing vegetation greenness and vigor during the drought period.</td>
-      <td style="text-align:center; border:1px solid #ccc; padding:6px;">ESDC</td>
-      <td style="text-align:center; border:1px solid #ccc; padding:6px;">Study area</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">2018–2021</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">0.25°, 8-day</td>
     </tr>
     <tr>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">ESDC</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">gpp_2017</td>
-      <td style="text-align:left; border:1px solid #ccc; padding:6px;">Mean summer Gross Primary Productivity (June–August) for 2017, used as a pre-drought productivity baseline to avoid potential circularity associated with reduced productivity following tree mortality.</td>
-      <td style="text-align:center; border:1px solid #ccc; padding:6px;">ESDC</td>
-      <td style="text-align:center; border:1px solid #ccc; padding:6px;">Study area</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">2017</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">0.25°, 8-day</td>
     </tr>
     <tr>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">ESA CCI Land Cover 2018</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">forest_fraction</td>
-      <td style="text-align:left; border:1px solid #ccc; padding:6px;">Fraction of each grid cell covered by forest. Forest classes (50–90) were assigned a value of 1 and all other classes 0, followed by area-averaged aggregation to 0.25°. Used both to define the forest mask (≥ 0.3) and as a measure of forest cover.</td>
-      <td style="text-align:center; border:1px solid #ccc; padding:6px;"><a href="https://climate.esa.int/en/projects/land-cover/" target="_blank">ESA Climate Change Initiative – Land Cover</a></td>
-      <td style="text-align:center; border:1px solid #ccc; padding:6px;">Study area</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">2018</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">300 m (input); 0.25° (output)</td>
     </tr>
     <tr>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">ESA CCI Land Cover 2018</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">needleleaf_fraction</td>
-      <td style="text-align:left; border:1px solid #ccc; padding:6px;">Fraction of each grid cell covered by needleleaf forest. Needleleaf classes (70–72, 80–82) were assigned a value of 1 and all other classes 0, followed by area-averaged aggregation to 0.25°. Used as a proxy for spruce abundance, the main host of bark beetles.</td>
-      <td style="text-align:center; border:1px solid #ccc; padding:6px;"><a href="https://climate.esa.int/en/projects/land-cover/" target="_blank">ESA Climate Change Initiative – Land Cover</a></td>
-      <td style="text-align:center; border:1px solid #ccc; padding:6px;">Study area</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">2018</td>
       <td style="text-align:center; border:1px solid #ccc; padding:6px;">300 m (input); 0.25° (output)</td>
+    </tr>
+    <tr>
+      <td style="text-align:center; border:1px solid #ccc; padding:6px;">Dheed v4</td>
+      <td style="text-align:center; border:1px solid #ccc; padding:6px;">EventCube</td>
+      <td style="text-align:center; border:1px solid #ccc; padding:6px;">1950–2023</td>
+      <td style="text-align:center; border:1px solid #ccc; padding:6px;">0.25°, daily</td>
     </tr>
   </tbody>
 </table>
@@ -161,26 +131,33 @@ Description
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Vector","properties":{"id":"needleleaf_frac","title":"Tree mortality fraction"},"source":{"type":"Vector","url":"https://raw.githubusercontent.com/egmeiner/eodashboard-narratives/egmeiner/tree-mortality/assets/egmeiner/treemortalitycells-1795012656467.geojson","format":"GeoJSON"},"style":{"fill-color":["interpolate",["linear"],["get","needleleaf_frac"],0,"rgba(255,255,255,0.75)",0.2,"rgba(199,233,192,0.75)",0.4,"rgba(116,196,118,0.75)",0.7,"rgba(0,109,44,0.75)"],"stroke-width":0}},{"type":"Vector","properties":{"id":"country-borders","title":"Country borders"},"source":{"type":"Vector","url":"https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson","format":"GeoJSON"},"style":{"stroke-color":"#111111","stroke-width":1.5,"fill-color":"rgba(0,0,0,0)"}},{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]' zoom=5.5 center=[10.4,51.1] projection="" animationOptions='{"duration":1500}' }-->
 #### Needleleaf Fraction
-A correlation to the mortality as already visible.
 
 ### <!--{ layers='[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"}},{"type":"Vector","properties":{"id":"kndvi![scatter_2x4.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/4b0cc1c6d3d913f85bd80ca20c45a1bfc1c690e1/assets/egmeiner/scatter2x4-1795099462987.png)","title":"Tree mortality fraction"},"source":{"type":"Vector","url":"https://raw.githubusercontent.com/egmeiner/eodashboard-narratives/egmeiner/tree-mortality/assets/egmeiner/treemortalitycells-1795012656467.geojson","format":"GeoJSON"},"style":{"fill-color":["interpolate",["linear"],["get","kndvi"],0.35,"rgba(255,255,255,0.75)",0.43,"rgba(199,233,192,0.75)",0.52,"rgba(116,196,118,0.75)",0.6,"rgba(0,109,44,0.75)"],"stroke-width":0}},{"type":"Vector","properties":{"id":"country-borders","title":"Country borders"},"source":{"type":"Vector","url":"https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson","format":"GeoJSON"},"style":{"stroke-color":"#111111","stroke-width":1.5,"fill-color":"rgba(0,0,0,0)"}},{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]' zoom=5.5 center=[10.4,51.1] projection="" animationOptions='{"duration":1500}' }-->
 #### kNDVI
 
 
 ## Conclusions
-![correlation_correlogram.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/0e34bc4029287c6e4e4b8e424b457fff297c22d4/assets/egmeiner/correlationcorrelogram-1795101035484.png)
+![mortality_when_where.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/bfcf8ccc24b4c3cc3e441d1e68c22621936ccaba/assets/egmeiner/mortalitywhenwhere-1795101907763.png)
+
+![predictor_anomaly_maps.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b6ae2a403c4e141314e49e2736dd0de52e42275e/assets/egmeiner/predictoranomalymaps-1795102253495.png)
 
 ![Scatter Plot](https://github.com/egmeiner/eodashboard-narratives/blob/4b0cc1c6d3d913f85bd80ca20c45a1bfc1c690e1/assets/egmeiner/scatter2x4-1795099462987.png?raw=true)
 
+Mortality vs each predictor (hexbin) Each panel is one predictor (x) against mortality (y), one dot per cell. Hexagons show how many cells fall in each region, which avoids overplotting. Spearman rho (in the title) measures how consistently mortality rises or falls with the predictor, based on ranks. It is robust to outliers and does not assume a straight line. Reasoning: shows the shape of each relationship (linear, threshold, none), which is why a non-linear model like Random Forest is worth trying.
+
+![correlation_correlogram.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/0e34bc4029287c6e4e4b8e424b457fff297c22d4/assets/egmeiner/correlationcorrelogram-1795101035484.png)
+
+Shows the correlation between all variable pairs. First row/column: the individual relationship of each predictor with mortality. Rest of the matrix: correlations between predictors (collinearity). Pairs with |rho| > 0.8 (printed below the plot) carry overlapping information, so permutation importance in the Random Forest will split or understate them.
+
 ![RF_model_performance.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/2e5c0dec61a3e025e440ce644ba97f7e44865db0/assets/egmeiner/RFmodelperformance-1795100211414.png)
+
+Shows: predictions against observations on held-out cells for Random Forest and linear regression, and R² for three validation schemes. Analysis: both models were trained on the same split. Random split, spatial split, and spatial 5-fold CV were compared. RMSE was compared against a mean-prediction baseline. Reading: RF reaches R² = [x] (spatial CV) vs [y] for linear regression, so non-linear effects [do / do not] add substantial skill. The gap between random and spatial R² ([x] vs [y]) shows how much spatial leakage inflates the score.
 
 ![RF_permutation_importance.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e3de738be1adccd2c2dd7f2639fe437d183ef010/assets/egmeiner/RFpermutationimportance-1795100357242.png)
 
 ![grouped_importance.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/f5accb1cef07224fc53026132314ec8d3d633ede/assets/egmeiner/groupedimportance-1795100416363.png)
 
-![mortality_when_where.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/bfcf8ccc24b4c3cc3e441d1e68c22621936ccaba/assets/egmeiner/mortalitywhenwhere-1795101907763.png)
 
-![predictor_anomaly_maps.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b6ae2a403c4e141314e49e2736dd0de52e42275e/assets/egmeiner/predictoranomalymaps-1795102253495.png)
 
 
 
