@@ -103,13 +103,13 @@ Alongside other strongly affected regions worldwide Argentina, southern Africa, 
 
 ![global_gpp_phases_el_nino.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/1cfaeb105cdda0a6e0c1e95762e0129518149185/assets/thmimif/globalgppphaseselnino-1795115087894.png)<figcaption>***Fig. 9:*** *Global spatial distribution of the maximum absolute Pearson correlation coefficient (r, vertical legend axis) and corresponding optimal time lag in months (0-12 months, horizontal legend axis) between Gross Primary Productivity (GPP) and the Relative Oceanic Niño Index (RONI) under warm El Niño conditions (RONI > 0.5)*</figcaption>
 
-![global_gpp_phases_el_nino_anomaly.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/27860d79a594d1295d1bcd33d18603c0061ba27d/assets/thmimif/globalgppphaseselninoanomaly-1795115100589.png)
+![global_gpp_phases_el_nino_anomaly.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/27860d79a594d1295d1bcd33d18603c0061ba27d/assets/thmimif/globalgppphaseselninoanomaly-1795115100589.png)<figcaption>***Fig. 10:*** **</figcaption>
 
 ##### La Niña
 
-![global_gpp_phases_la_nina.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/afe44c2bec963f9da667fd95beafc4f7b41778a4/assets/thmimif/globalgppphaseslanina-1795115163361.png)
+![global_gpp_phases_la_nina.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/afe44c2bec963f9da667fd95beafc4f7b41778a4/assets/thmimif/globalgppphaseslanina-1795115163361.png)<figcaption>***Fig. 11:*** **</figcaption>
 
-![global_gpp_phases_la_nina_anomaly.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e42a2015d8a7e9400ebc1d524a56922238863cab/assets/thmimif/globalgppphaseslaninaanomaly-1795115179453.png)
+![global_gpp_phases_la_nina_anomaly.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e42a2015d8a7e9400ebc1d524a56922238863cab/assets/thmimif/globalgppphaseslaninaanomaly-1795115179453.png)<figcaption>***Fig. 12:*** **</figcaption>
 
 #### Regional GPP study
 
