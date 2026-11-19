@@ -116,7 +116,7 @@ At a 3-month lag relative to neutral conditions, Gross Primary Productivity (GPP
 #### Regional GPP study
 
 ##### South America
-In central and northern Argentina (22°S-38°S), Gross Primary Productivity (GPP) exhibits robust positive correlations (r > 0.5) with RONI at short-to-moderate lags (2–6 months). At a 3-month lag, this relationship manifests as pronounced positive GPP anomalies ( > 0.2) during El Niño events and sharp productivity declines ( < -0.2) under La Niña conditions.
+In **central and northern Argentina (22°S-38°S)**, Gross Primary Productivity (GPP) exhibits robust positive correlations (r > 0.5) with RONI at short-to-moderate lags (2–6 months). At a 3-month lag, this relationship manifests as pronounced positive GPP anomalies ( > 0.2) during El Niño events and sharp productivity declines ( < -0.2) under La Niña conditions.
 
 ![Argentina_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b8cb181a91b5e2594948623c6f3794c9a85496d5/assets/thmimif/Argentinacombined-1795115775699.png)<figcaption>***Fig. 13:*** *Time-lag correlations and anomaly analysis of GPP for central and northern Argentina.*</figcaption>
 
@@ -131,7 +131,9 @@ In central and northern Argentina (22°S-38°S), Gross Primary Productivity (GPP
 ![Southern-Africa_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/565d320dbb69cec23090d3b685beacaf48d21f63/assets/thmimif/Southern-Africacombined-1795115869464.png)<figcaption>***Fig. 15:*** *Time-lag correlations and anomaly analysis of GPP for southern Africa.*</figcaption>
 
 ## Conclusions
-The global and regional lag-time correlations of all three vegetation indices reveal strong regionally varying positive or negative responses to El Niño and La Niña patterns. In general, these vegetation responses coincide well with expected climate oscillation driven weather anomalies on both the global and investigated regional scale.
+All in all, global and regional lag-time correlations of all three vegetation indices reveal strong regionally varying positive or negative responses to El Niño and La Niña patterns. In general, these vegetation responses coincide well with expected climate oscillation driven weather anomalies on both the global and investigated regional scale.
+
+Lagged correlation and phase-composite analyses demonstrate that ENSO teleconnections exert a strong, rapid control on terrestrial Gross Primary Productivity (GPP) across Argentina, Eastern Africa, and Southern Africa within a 1- to 6-month window. These observed productivity anomalies closely align with expected ENSO-induced hydroclimatic regimes: wet and warm conditions during El Niño enhance photosynthetic uptake in central/northern Argentina and coastal Eastern Africa, whereas El Niño-associated drought and heat stress severely suppress GPP across interior Southern Africa. Conversely, La Niña inverts this spatial pattern, driving productivity declines under drier conditions in Argentina and Eastern Africa while stimulating vegetation growth across wetter Southern Africa. Overall, the strong spatial overlap between expected moisture-temperature anomalies and lagged GPP responses underscores that ENSO-driven water availability—rather than temperature alone—acts as the primary biophysical mechanism governing interannual carbon uptake variability in these semi-arid and subtropical regions.
 
 ## Open Science
 All processing workflows and data analysis scripts are developed within an open-science framework to ensure reproducibility and transparency in our findings regarding vegetation response to ENSO.
