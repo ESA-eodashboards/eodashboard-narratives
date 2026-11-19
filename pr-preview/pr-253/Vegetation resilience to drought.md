@@ -125,7 +125,6 @@ Irrigated cropland:
 - Strong positive anomalies later (up to +2).
 - Noticeable recovery beginning in 2020 and particularly during parts of 2021.
 
-
 Grassland:
 - The strongest and most prolonged decline in NDVI during 2019.
 - Rapid losses in vegetation greenness when water becomes limiting.
@@ -145,7 +144,7 @@ The shaded drought period generally coincides with:
 
 This suggests that vegetation dynamics became increasingly persistent during the drought period, meaning that vegetation conditions were more strongly dependent on previous months and less capable of rapid recovery.
 
-Although forests remained relatively productive in the anomaly graph, this autocorrelation analysis suggests that forests nonetheless became more sensitive to prolonged stress.
+Although forests remained relatively productive in the anomaly graph, this autocorrelation an![basic_ts_std_ndvi_anom_agriculture.jpg](https://placehold.co/6000x4000?font=inter&text=Upload%20in%20progress%0A(this%20might%20take%20a%20while)#1795123568578)alysis suggests that forests nonetheless became more sensitive to prolonged stress.
 Both cropland classes showed an increase in auto-correlation suggesting that the irrigation practices did not shield sufficiently to avoid any long-term impacts.
 Grasslands show the strongest increase in auto-correlation, demonstrating the higher vulnerability to drought periods affecting the NDVI values.
 ![boxplots_ndvi_absolute.jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/70f86f44bd6383117435d34f08b5506ca66192c3/assets/HannahKemper/boxplotsndviabsolute-1795123292493.jpg)
@@ -153,14 +152,37 @@ Grasslands show the strongest increase in auto-correlation, demonstrating the hi
 **Fig. 9:** NDVI distribution before, during and after the 2018/20 drought per landcover class. The NDVI distribution of the irrigated cropland shows much less variation compared to rainfed cropland.
 
 
+![basic_ts_std_ndvi_anom_agriculture.jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/2e52a993f91f9f4d4fb1c12a722f32a4fe796c15/assets/HannahKemper/basictsstdndvianomagriculture-1795123587760.jpg)
+**Fig. 10:** NDVI distribution of rainfed and irrigated cropland during drought event.
 
 
 
 **Q2:** Which landcover type shows the biggest drought impact? Where was the drought impact located in Southern Angola?
 
+The Dheed dataset indicates areas which experienced drought stress according the PEI 1st percentile.
 
+![event_dheed_angola.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/6ea6f26028a9f88fcf8fd7cf920b9d34df8bd2a1/assets/HannahKemper/eventdheedangola-1795123706038.png)
+**Fig. 11:** Drought affected pixels per landcover category.
 
+Grassland:
+- Grasslands show the highest drought impact during this event.
+- The orange curve reaches approximately 32% affected area, meaning almost one-third of grassland pixels experienced extreme moisture deficit.
+- Grasslands frequently show large peaks through the record, indicating high sensitivity to drought variability.
 
+Rainfed cropland:
+- Rainfed cropland records about 18% affected area.
+- This is above the overall land average and suggests substantial agricultural exposure.
+- Since rainfed systems rely directly on precipitation, their response is expected to be strong.
+
+Forest:
+- Forests show about 15% affected area.
+- Although affected, forests appear slightly less impacted than rainfed cropland and substantially less than grasslands.
+- This suggests greater drought buffering capacity, likely due to deeper rooting systems.
+
+Irrigated cropland:
+- Irrigated cropland shows 0% affected pixels during this event.
+- This strongly suggests that irrigation mitigated moisture stress sufficiently to prevent conditions from reaching the extreme drought threshold.
+- Alternatively, the irrigated cropland area may be relatively small and located outside the drought core.
 
 
 ## Conclusions
