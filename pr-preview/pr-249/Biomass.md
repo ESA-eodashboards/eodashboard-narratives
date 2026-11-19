@@ -109,7 +109,7 @@ By investigating the relationship between sea-level variations and changes in th
 Based on this relationship, we explore the development of an empirical **wetness indicator** to investigate the potential of P-band SAR for monitoring water dynamics beneath mangrove forests.
 
 ## Results
-
+![sea_level_absolute_3day_barplot.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/3f5087b6f60442a823ad2ea16146ceb5feb8a968/assets/TrufE400/sealevelabsolute3daybarplot-1795094689011.png)
 
 ## Conclusions
 
@@ -126,4 +126,4 @@ ESA Science Hub Challenges (2026). Biomass mission for water dynamics under fore
 **Image references:**
 https://www.esa.int [Accessed: 18/11/2026]
 https://services.ruhr-uni-bochum.de/en/rub-logo [Accessed: 18/11/2026]
-https://fam.tuwien.ac.at/lehre/arbeiten/logos/Logos_TU/TU-Signet.jpg [Accessed: 18/11/2026]
+https://fam.tuwien.ac.at/lehre/arbeiten/logos/Logos_TU/TU-Signet.jpg [Accessed: 18/11/2026]![sea_level_absolute_3day_barplot.png]
