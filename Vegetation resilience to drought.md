@@ -11,7 +11,7 @@
 
 ## Challenge
 Droughts are slow-onset disasters that unfold live-threatening impacts on ecosystems and people's livelihoods. Such impacts range from crop loss and increase in food insecurity, but also result in the reduction of drinking water, displacement or power shortages. According to the World Bank between 600.000 and 900.000 people in Sub-Sahara Africa loose their job due to water scaricity every year. Rural employment drops by 7.4 percentage points when drought strikes, hitting women, older workers, landless farmers, and low-skilled laborers the hardest[1].
-Form 2018 to 2020 the Southern African drought hit the local population at a very vulnerable time: just when crops were planted. Decrease in rainfall resulted in decrease in soil moisture[2].
+From 2018 to 2020 the Southern African drought hit the local population at a very vulnerable time: just when crops were planted. Decrease in rainfall resulted in decrease in soil moisture[2].
 
 ## 
 <p align="center" style="margin: 6px 0;">
@@ -76,7 +76,7 @@ The objective of this study was to compare the recovery trajectory of the differ
 Remote Sensing is a suitable method to study the observed drought impacts and the development of different ecosystem after the rainfall onset as it allows the processing over vast landscapes and in conditions where field data collection is challenging.
 
 ## Data and Methods
-Explore the response and recovery of different landuse types during the 2019/20 drought in Southern Africa focusing on the Southern regions of Angola comparing the time-series of different indicators.
+Explore the response and recovery of different landuse types during the 2018/20 drought in Southern Africa focusing on the Southern regions of Angola comparing the time-series of different indicators.
 
 #### Dataset
 - **Source**: 
