@@ -75,6 +75,10 @@ Though the Southern parts of Angola are not covered in dense tropical rainforest
 The objective of this study was to compare the recovery trajectory of the different land cover types and ecosystems after severe drought impacts in order to understand how this recovery unfolds and differs based on the present ecosystem.
 Remote Sensing is a suitable method to study the observed drought impacts and the development of different ecosystem after the rainfall onset as it allows the processing over vast landscapes and in conditions where field data collection is challenging.
 
+Q1: How do different landcover types behave before, during and after a drought? Is there any difference visible during the recovery?
+
+Q2: Which landcover type shows the biggest drought impact? Where was the drought impact located in Southern Angola?
+
 ## Data and Methods
 Explore the response and recovery of different landuse types during the 2018/20 drought in Southern Africa focusing on the Southern regions of Angola comparing the time-series of different indicators.
 
@@ -85,8 +89,22 @@ Explore the response and recovery of different landuse types during the 2018/20 
 #### Methodology workflow
 
 
-## Results
+![workflow.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/127f0535702b65d892654ca2f22017a2a8281d88/assets/HannahKemper/workflow-1795102175032.png)
 
+The workflow combined landcover datasets with visual inspection and literature research. The Data processing looked into NDVI time-series analysis and Dheed extreme data processing for identifying the location and gravity of drought impacts.
+
+
+
+## Results
+Q1: How do different landcover types behave before, during and after a drought? Is there any difference visible during the recovery?
+
+![basic_ts_ndvi_all_landcovers (1).jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/ec56351c62157265196c5470ed98b04ad8083998/assets/HannahKemper/basictsndvialllandcovers-1-1795102375117.jpg)
+
+Looking at generic NDVI mean values across the study areas, there are very little difference visible for the identified drought period. It is crucial to consider landcover types and ecosystems while studying drought impacts.
+While splitting the NDVI mean values into different landcover types, more differences are visible.
+
+
+![basic_ts_std_ndvi_anom_all_landcovers (1).jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/aa5c8acb79a98b81ad826f76a0a97a1ae51c76f3/assets/HannahKemper/basictsstdndvianomalllandcovers-1-1795102522833.jpg)
 
 ## Conclusions
 
