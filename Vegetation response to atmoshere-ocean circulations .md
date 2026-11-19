@@ -70,8 +70,8 @@ The study is carried out first at a coarse global sclale to identify large-scale
 Then two major areas are analyzed spacially in more detail: the southeastern region of South America and Sub-Saharan Africa.
 Our analytical workflow includes:
 1. **Data Retrieval:** Extraction of NOAA RONI indices and DeepESDL ESDC vegetation indices (NIRv, NDVI and GPP).
-2. **Preprocessing:** Time-series extraction and decomposition to isolate components, as well as computation of lag-times. 
-3. **Correlation Analysis:** Evaluating lag-time responses between ENSO indices and vegetation anomalies across global biomes. Identifying trends and anomalies.
+2. **Preprocessing:** Time-series extraction, spatio-temporal aggregation,  decomposition to remove mean seasonal cycle and linear trend. 
+3. **Correlation Analysis:** Evaluation of lag-time correlation responses between ENSO indices and vegetation anomalies. Identification trends and anomalies.
 4. **Hotspot Identification:** Mapping geographical areas that show statistically significant vegetation response to ENSO.
 
 ## Results
