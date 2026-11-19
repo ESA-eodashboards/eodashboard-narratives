@@ -26,21 +26,7 @@ Our objective is to leverage the unique capabilities of the Biomass mission's P-
 #### Harinagar, Bangladesh
 The Sundarbans region presents a complex hydrological landscape. SAR data allows us to observe water levels even beneath the dense canopy.
 
-### <!--{ zoom=13 center=[89.38,21.76] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
-#### Tidal Dynamics
-Monitoring the daily tidal fluctuations is crucial for understanding nutrient transport. Radar signals reveal the inundation patterns in the mangroves.
 
-### <!--{ zoom=14 center=[89.35,21.74] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
-#### River Channel Analysis
-Narrow channels often remain obscured by tree branches. Our SAR processing emphasizes these features to calculate flow accumulation.
-
-### <!--{ zoom=12 center=[89.4,21.78] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
-#### Soil Moisture Gradients
-We analyze the backscatter intensity to map spatial soil moisture gradients across the forest floor.
-
-### <!--{ zoom=10 center=[89.3667,21.7583] layers='[{"type":"Tile","properties":{"id":"terrain-light"},"source":{"type":"WMTSCapabilities","url":"https://tiles.maps.eox.at/wmts/1.0.0/WMTSCapabilities.xml","layer":"terrain-light_3857"}}]' animationOptions='{"duration":500}' }-->
-#### Regional Impact
-Synthesizing these observations provides a comprehensive view of how water dynamics influence the biomass growth of this fragile ecosystem.
 
 ## Data and Methods
 #### Dataset
@@ -78,7 +64,7 @@ These matrices provide complementary representations of the polarimetric informa
 ##### 3. Polarimetric Visualization and Decomposition
 
 
- The Freeman-Durden method was applied to separate the signal into odd-bounce, double-bounce and volume scattering contributions.
+ The Freeman-Durden method is applied to separate the signal into odd-bounce, double-bounce and volume scattering contributions.
 
 
 This methods helps to distinguish the radar responses associated with vegetation, water and the underlying surface.
@@ -93,7 +79,7 @@ Temporal coherence is calculated for the seven SAR acquisitions (25 July–12 Au
 The resulting coherence maps reveal areas of different temporal stability.
 
 ##### 5. Selected Areas
-Three approaches were considered: 
+Three approaches are considered to find specific areas of interest: 
 <ul>
   <li><strong>First:</strong> Mean of all pairs relative to the first image (t0→t1, t0→t2, …).</li>
   <li><strong>Consecutive:</strong> Mean of all image-to-image pairs (t0→t1, t1→t2, …).</li>
@@ -103,7 +89,16 @@ Three approaches were considered:
  Within these chosen areas, the temporal evolution of the polarimetric scattering powers and decomposition parameters is analysed.
 
 The objective is to identify which scattering contributions change most significantly throughout the observation period and how these changes relate to the underlying water conditions.
-##### 6. Pixel-wise comparison of 
+##### 6. Temporal Pixel-wise Decomposition of Signal Power Pixel-wise comparison of signal power composition
+
+
+<p>
+To investigate tidal movement and its influence on radar backscatter, a pixel-wise decomposition of signal power was generated across the entire time series. This allows temporal changes in the individual scattering contributions to be tracked at each pixel, helping to identify areas where variations in water levels affect the radar response.
+</p>
+
+<p>
+By examining the evolution of signal power over time, potential tidal-driven changes in scattering behaviour can be identified and compared with observed sea-level variations. This provides a basis for assessing the sensitivity of different scattering mechanisms to underlying water dynamics.
+</p>
 
 ##### 7. Copernicus Sea-Level Comparison and Wetness Indicator
 
