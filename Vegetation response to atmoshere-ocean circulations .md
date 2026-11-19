@@ -109,21 +109,22 @@ At a 3-month lag relative to neutral conditions, Gross Primary Productivity (GPP
 
 ##### La Niña
 
-![global_gpp_phases_la_nina.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/afe44c2bec963f9da667fd95beafc4f7b41778a4/assets/thmimif/globalgppphaseslanina-1795115163361.png)<figcaption>***Fig. 11:*** *Same as Figure 9 but for La Nina conditions (RONI < -0.5)*</figcaption>
+![global_gpp_phases_la_nina.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/afe44c2bec963f9da667fd95beafc4f7b41778a4/assets/thmimif/globalgppphaseslanina-1795115163361.png)<figcaption>***Fig. 11:*** *Same as Figure 9 but for La Nina conditions (RONI < -0.5).*</figcaption>
 
 ![global_gpp_phases_la_nina_anomaly.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e42a2015d8a7e9400ebc1d524a56922238863cab/assets/thmimif/globalgppphaseslaninaanomaly-1795115179453.png)<figcaption>***Fig. 12:*** *Global distribution of Gross Primary Productivity (GPP) anomaly differences between La Niña and neutral ENSO conditions at a 3-month time lag, illustrating the inverted GPP response across the three study regions.*</figcaption>
 
 #### Regional GPP study
 
 ##### South America
+In central and northern Argentina (22°S-38°S), Gross Primary Productivity (GPP) exhibits robust positive correlations (r > 0.5) with RONI at short-to-moderate lags (2–6 months). At a 3-month lag, this relationship manifests as pronounced positive GPP anomalies ( > 0.2) during El Niño events and sharp productivity declines ( < -0.2) under La Niña conditions.
 
-![Argentina_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b8cb181a91b5e2594948623c6f3794c9a85496d5/assets/thmimif/Argentinacombined-1795115775699.png)
+![Argentina_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b8cb181a91b5e2594948623c6f3794c9a85496d5/assets/thmimif/Argentinacombined-1795115775699.png)<figcaption>***Fig. 13:*** *In central and northern Argentina ($22^\circ\text{S}$–$38^\circ\text{S}$), Gross Primary Productivity (GPP) exhibits robust positive correlations ($r > 0.5$) with RONI at short-to-moderate lags (2–6 months). At a 3-month lag, this relationship manifests as pronounced positive GPP anomalies ($> 0.2$) during El Niño events and sharp productivity declines ($< -0.2$) under La Niña conditions (Fig. 1).*</figcaption>
 
 ##### Sub-Saharan-Africa
 
-![Eastern-Africa_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/97d75058a1acdbfdc3b4e308274113a81d7542de/assets/thmimif/Eastern-Africacombined-1795115846355.png)
+![Eastern-Africa_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/97d75058a1acdbfdc3b4e308274113a81d7542de/assets/thmimif/Eastern-Africacombined-1795115846355.png)<figcaption>***Fig. 14:*** **</figcaption>
 
-![Southern-Africa_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/565d320dbb69cec23090d3b685beacaf48d21f63/assets/thmimif/Southern-Africacombined-1795115869464.png)
+![Southern-Africa_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/565d320dbb69cec23090d3b685beacaf48d21f63/assets/thmimif/Southern-Africacombined-1795115869464.png)<figcaption>***Fig. 15:*** **</figcaption>
 
 ## Conclusions
 The global and regional lag-time correlations of all three vegetation indices reveal strong regionally varying positive or negative responses to El Niño and La Niña patterns. In general, these vegetation responses coincide well with expected climate oscillation driven weather anomalies on both the global and investigated regional scale.
