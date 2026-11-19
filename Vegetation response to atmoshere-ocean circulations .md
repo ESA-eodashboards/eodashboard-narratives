@@ -75,7 +75,8 @@ Our analytical workflow includes:
 4. **Hotspot Identification:** Mapping geographical areas that show statistically significant vegetation response to ENSO. Creation of global maps and time series of southeastern South America and Sub-Saharan-Africa. Production of phase-specific (El Niño vs. La Niña) maps.
 
 ## Results
-Our findings of comparing the three vegetation indices NIRv, NDVI and GPP to RONI comprise global and regional maps of lag-time correlation, ENSO phase specific maps and regional timeseries.
+Our findings, derived from comparing NIRv, NDVI, and GPP vegetation indices against RONI, provide insight into vegetation response to ENSO at different scales.
+The results comprise global and regional maps of lag-time correlation and regional timeseries, alongside phase-specific analyses that reveal how vegetation indices shift in response to El Niño and La Niña events.
 
 ##### Global study
 
