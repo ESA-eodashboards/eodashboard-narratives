@@ -7,7 +7,7 @@ official: false
 
 ---
 
-# Vegetation response to atmosphere-ocean circulations <!--{ as="img" mode="hero" src="https://cdn.pixabay.com/photo/2016/11/19/11/11/hands-1838659_1280.jpg" }--> 
+# Vegetation response to atmosphere-ocean circulations <!--{ as="img" mode="hero" src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/89c699125d9c76a3a02b0a52d76c74bde174dc36/assets/thmimif/titleimage-1795163269394.jpg") }--> 
 ## Authors: Theresa Mimi Freiß¹, Thomas Himmer¹ and Fabian Unterasinger¹ <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 > ¹ Vienna University of Technology
 
