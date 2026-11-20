@@ -33,7 +33,7 @@ The Sundarbans region presents a complex hydrological landscape. SAR data allows
 - **Area**: The inital datafile has a width of 1363 pixels
 and a height of 3425 pixels.
 
-#### Methodology & Results
+## Methodology & Results
 
 
 Our methodology consists of seven main steps, starting with the reconstruction of the polarimetric SAR data and ending with the development of a potential wetness indicator.
@@ -58,6 +58,8 @@ Two polarimetric matrices are generated:
 - **Coherency Matrix (T3):** Calculated using the Pauli target vector.
 
 These matrices provide complementary representations of the polarimetric information and form the basis for the subsequent decomposition techniques.
+<p align="center"><img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/8b9abbddd42a6edf2e39667f0a9de4b2ed1d9377/assets/TrufE400/PauliRGB1-1795104288425.png" alt="PauliRGB" width="400"/></p>
+<div style="text-align: center;">Figure 1: Pauli RGB showing distribution of power</div>
 
 ##### 3. Polarimetric Visualization and Decomposition
 
@@ -68,7 +70,7 @@ These matrices provide complementary representations of the polarimetric informa
 This methods helps to distinguish the radar responses associated with vegetation, water and the underlying surface.
 <figure style="text-align: center;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b76e756fbf2baba7413b126be171ed058ad6820c/assets/TrufE400/20260725yamaguchinativelinear-1795097898110.png" alt="Polarimetric decomposition">
-  <figcaption style="text-align: center;">Figure 1: Yamaguchi decomposition of the polarimetric signal.</figcaption>
+  <figcaption style="text-align: center;">Figure 2: Yamaguchi decomposition of the polarimetric signal.</figcaption>
 </figure>
 
 ##### 4. Temporal Coherence Analysis
@@ -81,11 +83,11 @@ Temporal coherence is calculated for the seven SAR acquisitions (25 July–12 Au
 The resulting coherence maps reveal areas of different temporal stability.
 <figure style="text-align: center;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/2e3020c1d07c3edd9404fce8d847de862167cc25/assets/TrufE400/coherenceHHallpairs-1795096788920.png" alt="Coherence HH all pairs map">
-  <figcaption style="text-align: center;">Figure 2: Coherence maps / Consecutive comparison.</figcaption>
+  <figcaption style="text-align: center;">Figure 3: Coherence maps / Consecutive comparison.</figcaption>
 </figure>
 <figure style="text-align: center;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/f1bb8d85076e7ed809af1e2beedb301218f5f735/assets/TrufE400/coherencemapsfirstHH-1795098249822.png" alt="Coherence maps">
-  <figcaption style="text-align: center;">Figure 3: Coherence maps / Reference comparison.</figcaption>
+  <figcaption style="text-align: center;">Figure 4: Coherence maps / Reference comparison.</figcaption>
 </figure>
 
 
@@ -101,7 +103,7 @@ Three approaches are considered to find specific areas of interest:
 
 <figure style="text-align: center;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/6e87bb45ca40b9a54f235289a5b8a44df3ecdec7/assets/TrufE400/coherenceaoisallapproachesHH-1795097272516.png" alt="AOI selection">
-  <figcaption style="text-align: center;">Figure 4: AOIs selected based on different approaches.</figcaption>
+  <figcaption style="text-align: center;">Figure 5: AOIs selected based on different approaches.</figcaption>
 </figure>
  A comparison with Sentinel 1 data is also created for the same timeframe consisting of 3 timestamps.
  
@@ -109,14 +111,14 @@ Three approaches are considered to find specific areas of interest:
  
 <figure style="text-align: center;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/4a98bb695b5247bfbbef159500c64c6c21f1a1a8/assets/TrufE400/s1meancoherenceVVaois-1795101962784.png" alt="Sentinel 1 coherence mean map">
-  <figcaption style="text-align: center;">Figure 5: Sentinel 1 coherence mean map over 3 time stamps.</figcaption>
+  <figcaption style="text-align: center;">Figure 6: Sentinel 1 coherence mean map over 3 time stamps.</figcaption>
 </figure>
 
 The objective is to identify which scattering contributions change most significantly throughout the observation period and how these changes relate to the underlying water conditions.
 
 <figure style="text-align: center;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/d48131c741352dc445ef2689fab7a479a24b987b/assets/TrufE400/yamaguchifractionsbarplotsmean-1795098645108.png" alt="Yamaguchi 4-component scattering fraction for AOI 3">
-  <figcaption style="text-align: center;">Figure 6: Yamaguchi 4-component scattering fraction for AOI 3.</figcaption>
+  <figcaption style="text-align: center;">Figure 7: Yamaguchi 4-component scattering fraction for AOI 3.</figcaption>
 </figure>
 
 ##### 6. Temporal Pixel-wise Decomposition of Signal Power
@@ -131,27 +133,27 @@ By examining the evolution of signal power over time, potential tidal-driven cha
 
 <figure style="text-align: center;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/4ea7ae7d816f79a31d53d6f15da36cdf2744f833/assets/TrufE400/GIFCoherenceAOI1-1795101153710.gif" alt="Coherence map AOI 1">
-  <figcaption style="text-align: center;">Figure 7: Coherence map HH of selected area (AOI 1) over time.</figcaption>
+  <figcaption style="text-align: center;">Figure 8: Coherence map HH of selected area (AOI 1) over time.</figcaption>
 </figure>
 <figure style="text-align: center;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/ecb58e35a41a7a3346d5ce8cd74325c48256828c/assets/TrufE400/GIFCoherenceAOI2-1795101252570.gif" alt="Coherence map HH of selected area (AOI 2) over time.">
-  <figcaption style="text-align: center;">Figure 8: Coherence map HH of selected area (AOI 2) over time.</figcaption>
+  <figcaption style="text-align: center;">Figure 9: Coherence map HH of selected area (AOI 2) over time.</figcaption>
 </figure>
 <figure style="text-align: center;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/96211248334dd13d996af663169f2be38cbc5855/assets/TrufE400/GIFCoherenceVVAOI1-1795102201034.gif" alt="Coherence map VV of selected area (AOI 1)">
-  <figcaption style="text-align: center;">Figure 9: Coherence map VV of selected area (AOI 1) over time.</figcaption>
+  <figcaption style="text-align: center;">Figure 10: Coherence map VV of selected area (AOI 1) over time.</figcaption>
 </figure>
 <figure style="text-align: center;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/71d0bd29cba2eabffc763ec6ba1c5144c6f1a7b4/assets/TrufE400/GIFCoherenceVVAOI2-1795102397636.gif" alt="Coherence map VV of selected area (AOI 2)">
-  <figcaption style="text-align: center;">Figure 10: Coherence map VV of selected area (AOI 2) over time.</figcaption>
+  <figcaption style="text-align: center;">Figure 11: Coherence map VV of selected area (AOI 2) over time.</figcaption>
 </figure>
 <figure style="text-align: center;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/8facd38fa3dc2e8a1b15757f6ce198d546266ef3/assets/TrufE400/GIFYamaAOI1-1795101283727.gif" alt="Yamaguchi AOI 1">
-  <figcaption style="text-align: center;">Figure 11: Yamaguchi 4-component scattering fraction (AOI 1) over time series.</figcaption>
+  <figcaption style="text-align: center;">Figure 12: Yamaguchi 4-component scattering fraction (AOI 1) over time series.</figcaption>
 </figure>
 <figure style="text-align: center;">
   <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/ed29a59e6ad400612a73d005ff6163f48368d6ce/assets/TrufE400/GIFYamaAOI2-1795101379791.gif" alt="Yamaguchi AOI 2">
-  <figcaption style="text-align: center;">Figure 12: Yamaguchi 4-component scattering fraction (AOI 2) over time series.</figcaption>
+  <figcaption style="text-align: center;">Figure 13: Yamaguchi 4-component scattering fraction (AOI 2) over time series.</figcaption>
 </figure>
 
 
@@ -166,12 +168,12 @@ Based on this relationship, we explore the development of an empirical **wetness
 
 <div style="display: flex; gap: 10px;">
   <figure style="flex: 1; text-align: center;">
-    <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/3f5087b6f60442a823ad2ea16146ceb5feb8a968/assets/TrufE400/sealevelabsolute3daybarplot-1795094689011.png" alt="Sea level changes" style="width: 200%; height: 240;">
-    <figcaption style="text-align: center;">Figure 13: Sea level changes over the observation period.</figcaption>
+    <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/3f5087b6f60442a823ad2ea16146ceb5feb8a968/assets/TrufE400/sealevelabsolute3daybarplot-1795094689011.png" alt="Sea level changes" style="width: 100%; height: auto;">
+    <div style="text-align: center;">Figure 14: Sea level changes over the observation period.</div>
   </figure>
   <figure style="flex: 1; text-align: center;">
     <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/32db49dff656979627fcce84642779b24182a29a/assets/TrufE400/yamaguchi-power-aoi-3-1795099856008.png" alt="AOI 3 yamaguchi power" style="width: 100%; height: auto;">
-    <figcaption style="text-align: center;">Figure 14: AOI 3 yamaguchi power.</figcaption>
+    <div style="text-align: center;">Figure 15: AOI 3 yamaguchi power.</div>
   </figure>
 </div>
 
