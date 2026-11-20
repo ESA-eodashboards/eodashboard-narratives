@@ -36,6 +36,12 @@ All inputs are resampled onto the native BIOMASS Level-2A grid (3 arcsec, about 
 - **Radar inputs**: Sentinel-1 GRD VV and VH backscatter (dB).
 - **Terrain inputs**: Copernicus DEM GLO-30 elevation.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/Example_Patch.png" alt="Example training patch: Sentinel-2, Sentinel-1 and Copernicus DEM inputs, BIOMASS Ground Notch (auxiliary target) and BIOMASS canopy height (target)" style="width:100%;max-width:1200px;"/>
+</p>
+
+*Example training patch (256 × 256 pixels): the three inputs, the auxiliary target and the canopy height target.*
+
 A pixel is used only where the BIOMASS label is valid and Sentinel-2, Sentinel-1 and the DEM all have data.
 
 The dataset spans **20 global Regions of Interest** across four regimes:
