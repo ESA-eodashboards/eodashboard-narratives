@@ -83,7 +83,7 @@ Remote Sensing is a suitable method to study the observed drought impacts and th
 Explore the response and recovery of different landuse types during the 2018/20 drought in Southern Africa focusing on the Southern regions of Angola comparing the time-series of different indicators.
 
 #### Dataset
-- **Source**: ESA CCI Landcover, Irrigated Land (identified through very-high resolution imagery), ESDC Vegetation Indices,Extreme events dataset (Dheed) 
+- **Source**: ESA CCI Landcover, Irrigated Land (identified through very-high resolution imagery), ESDC Vegetation Indices, Extreme events dataset (Dheed) 
 - **Temporal coverage**: 2000 to 2021
 
 #### Methodology workflow
@@ -104,8 +104,8 @@ The workflow combined landcover datasets with visual inspection and literature r
 Looking at generic NDVI mean values across the study areas, there are very little difference visible for the identified drought period. It is crucial to consider landcover types and ecosystems while studying drought impacts.
 While splitting the NDVI mean values into different landcover types, more differences are visible.
 
-![basic_ts_std_ndvi_anom_all_landcovers (1).jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/bde327f894f16a439c508ec0090e6243df4c8957/assets/HannahKemper/basictsstdndvianomalllandcovers-1-1795122981144.jpg)
 
+![basic_ts_std_ndvi_anom_all_landcovers (2).jpg](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/fc6ca2cbf58f51b4c6bf4da3fdea0dfcf925a816/assets/HannahKemper/basictsstdndvianomalllandcovers-2-1795162713346.jpg)
 **Fig. 7:** NDVI time-series over different landcover
 
 Forests:
@@ -192,16 +192,19 @@ Irrigated cropland:
 - Forests show heterogeneous results in the recovery, with positive and negative anomalies, which shows that there are further indicators to consider
 - Cropland recovers quickly after drought but anomalies are closer to 0 compared to grassland. Crop types and planting are decisive.
 
+![resilience_maps_studybox (1).png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b7b00ea3578060553585df278a8ddc2b2fbae263/assets/HannahKemper/resiliencemapsstudybox-1-1795124693167.png)
+**Fig. 13:** Resilience maps.
+
+The spatial distribution of the recovery rater and variance shows spatial patterns, that could be connected to landcover classes. The main constraint of this approach is the spatial resolution of the NDVI data used.
 
 ![resilience_by_landcover.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/67f264a4a5e9b73cce2bc0853d9b7623a80dbdf7/assets/HannahKemper/resiliencebylandcover-1795124436198.png)
-**Fig. 13:** Resilience matrix of landcover types.
+
+**Fig. 14:** Resilience matrix of landcover types.
 
 Looking at the recovery rate (standard devidation getting back to -1 minus the lowest standard deviatoin in the month) forests show the highest variance in recovery, meaning that there is heterogeneous recovery time across the forest cover class. Rainfed cropland and grasslands shows more homogeneous recovery time.
 
-![resilience_maps_studybox (1).png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b7b00ea3578060553585df278a8ddc2b2fbae263/assets/HannahKemper/resiliencemapsstudybox-1-1795124693167.png)
-**Fig. 14:** Resilience maps.
 
-The spatial distribution of the recovery rater and variance shows spatial patterns, that could be connected to landcover classes. The main constraint of this approach is the spatial resolution of the NDVI data used.
+
 
 ## Conclusions
 
