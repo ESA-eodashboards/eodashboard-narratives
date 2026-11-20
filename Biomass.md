@@ -33,7 +33,7 @@ The Sundarbans region presents a complex hydrological landscape. SAR data allows
 - **Area**: The inital datafile has a width of 1363 pixels
 and a height of 3425 pixels.
 
-#### Methodology & Results
+## Methodology & Results
 
 
 Our methodology consists of seven main steps, starting with the reconstruction of the polarimetric SAR data and ending with the development of a potential wetness indicator.
