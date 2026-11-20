@@ -81,10 +81,50 @@ Training means repeatedly showing the model patches, measuring how far its predi
 - **Height-balanced weighting**: Each pixel is weighted by how rare its height class is, so both low and tall forest count more. This counters a compressed height range, in which low forest is overestimated and tall forest underestimated.
 - **Down-weighting implausible scenes**: Scenes whose median height deviates strongly from the other scenes of their region count only 25% in training, which reduces the effect of scene-wide offsets.
 - **Region-balanced sampling**: Small regions are sampled more often than their size alone would give, so large regions do not dominate.
-- **Simple loss**: The loss deliberately does not enforce sharp edges or fine texture, because the 200 m labels cannot support pixel-scale detail and such terms tend to cause grid-like artefacts.
 - **Augmentation**: Patches are randomly flipped and rotated, Sentinel-2 brightness and haze and Sentinel-1 calibration and speckle are slightly perturbed, and in 5% of cases Sentinel-2 or Sentinel-1 is removed entirely. This makes the model robust to sensor differences and missing data.
 
-The model is trained for up to 20 epochs (passes over the training data) and stops early if validation RMSE does not improve for 6 epochs. The checkpoint with the lowest validation RMSE is kept.
+- **Weight averaging**: The model used for validation and mapping is a running average of the trainable weights over roughly the last 1,000 training steps. This smooths out jumps between epochs and reduces overfitting to individual training scenes.
+
+The model is trained for 12 epochs (passes over the training data), with a learning rate that decreases gradually towards zero. The version with the lowest validation RMSE (epoch 10) is kept.
+
+### Loss Function
+During training, the model minimises a weighted sum of four terms. For every valid pixel *i*, *h<sub>i</sub>* is the BIOMASS canopy height and *ĥ<sub>i</sub>* the predicted height, both in metres.
+
+<style>
+.lf-eq{font-family:"Cambria Math","STIX Two Math","Latin Modern Math","Times New Roman",serif;font-size:1.3rem;text-align:center;margin:1.4rem 0 0.4rem;line-height:2.2}
+.lf-term{position:relative;display:inline-block;padding:0 3px;border-bottom:1px dotted currentColor;cursor:help;outline:none}
+.lf-term:hover,.lf-term:focus{background:rgba(0,119,255,0.10);border-radius:4px}
+.lf-tip{position:absolute;bottom:130%;left:50%;transform:translateX(-50%);width:270px;padding:8px 11px;border-radius:6px;background:#1f2937;color:#fff;font:400 0.85rem/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;font-style:normal;text-align:left;box-shadow:0 4px 14px rgba(0,0,0,0.25);z-index:20;white-space:normal}
+.lf-tip b{display:block;margin-bottom:2px}
+.lf-term:hover .lf-tip,.lf-term:focus .lf-tip{display:block !important}
+.lf-hint{text-align:center;font-size:0.85rem;opacity:0.7;margin:0 0 1.2rem}
+</style>
+<div class="lf-eq">
+<i>ℒ</i> =
+<span class="lf-term" tabindex="0"><i>ℒ</i><sub>Huber</sub><span class="lf-tip" style="display:none"><b>Height loss (Huber)</b>The main term: it penalises the difference between predicted and BIOMASS height, and is less sensitive to outliers in the noisy labels than a squared error.</span></span>
++ 0.25&thinsp;<span class="lf-term" tabindex="0"><i>ℒ</i><sub>log</sub><span class="lf-tip" style="display:none"><b>Log-height loss</b>Measures errors relative to tree height, so that mistakes in low forest and regrowth count as much as in tall forest.</span></span>
++ 0.10&thinsp;<span class="lf-term" tabindex="0"><i>ℒ</i><sub>struct</sub><span class="lf-tip" style="display:none"><b>Coarse structure loss</b>Compares height changes between neighbouring blocks of about 180 m and 370 m, so the map keeps stand boundaries at the scale BIOMASS can resolve.</span></span>
++ 0.05&thinsp;<span class="lf-term" tabindex="0"><i>ℒ</i><sub>GN</sub><span class="lf-tip" style="display:none"><b>Ground Notch loss (auxiliary)</b>Asks the model to also predict the BIOMASS ground backscatter, which helps it learn the ground and canopy structure.</span></span>
+</div>
+<p class="lf-hint">Hover over or tap a term for a short explanation.</p>
+
+The height terms are averaged with a per-pixel weight *w<sub>i</sub>* = *b<sub>i</sub>* · *s<sub>i</sub>*:
+- *b<sub>i</sub>* is the **height-balance weight**: the inverse square root of how often the pixel's height class (0–5, 5–10, …, 40–50, > 50 m) occurs in the batch, normalised to a mean of 1 and limited to 0.25–4. Rare heights, both low and tall, therefore count more.
+- *s<sub>i</sub>* is the **scene weight**: 0.25 for scenes whose median height is implausible for their region, otherwise 1.
+
+<details>
+<summary><b>Show the individual terms</b></summary>
+<div style="font-family:'Cambria Math','STIX Two Math','Latin Modern Math','Times New Roman',serif;font-size:1.1rem;line-height:2.1;margin:0.8rem 0 0.4rem 1rem">
+<i>ℒ</i><sub>Huber</sub> = ( Σ<sub><i>i</i></sub> <i>w<sub>i</sub></i> )<sup>−1</sup> Σ<sub><i>i</i></sub> <i>w<sub>i</sub></i> · <i>H</i><sub>0.065</sub>( <i>ĥ<sub>i</sub></i>/38 m − <i>h<sub>i</sub></i>/38 m )<br>
+<i>ℒ</i><sub>log</sub> = ( Σ<sub><i>i</i></sub> <i>w<sub>i</sub></i> )<sup>−1</sup> Σ<sub><i>i</i></sub> <i>w<sub>i</sub></i> · <i>H</i><sub>0.08</sub>( ln(1 + <i>ĥ<sub>i</sub></i>/10 m) − ln(1 + <i>h<sub>i</sub></i>/10 m) )<br>
+<i>ℒ</i><sub>struct</sub> = Σ<sub><i>s</i> ∈ {2, 4}</sub> ½ · ⟨ <i>S</i><sub>0.03</sub>( ∇<i>ĥ</i><sup>(<i>s</i>)</sup> − ∇<i>h</i><sup>(<i>s</i>)</sup> ) ⟩<br>
+<i>ℒ</i><sub>GN</sub> = ⟨ <i>S</i><sub>0.35</sub>( <i>ĝ<sub>i,p</sub></i> − <i>g<sub>i,p</sub></i> ) ⟩<sub><i>i</i>, <i>p</i> ∈ {HH, HV, VV}</sub>
+</div>
+<div style="font-size:0.9rem;margin-left:1rem">
+<i>H</i><sub>δ</sub>: Huber loss (quadratic for errors below δ, linear above) · <i>S</i><sub>β</sub>: Smooth-L1 loss with threshold β · ⟨ ⟩: mean over valid pixels · ∇<i>h</i><sup>(<i>s</i>)</sup>: differences between neighbouring <i>s</i> × <i>s</i>-averaged blocks in x and y, on <i>h</i>/38 m · <i>g</i>: standardised BIOMASS Ground Notch backscatter (dB).
+</div>
+</details>
+
 
 ### Map Production
 Large areas are predicted in overlapping 256 × 256 pixel windows that are blended smoothly to avoid seams. Each window is predicted four times (original, flipped and rotated) and the results are averaged.
