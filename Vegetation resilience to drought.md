@@ -1,5 +1,5 @@
 # Recovering from drought? <!--{ as="img" mode="hero" src="https://www.amnesty.org/en/wp-content/uploads/2021/08/hunger-angola-1276x710.png" }-->
-#### <span style="color: orange; font-size: 0.9em;;">Authors: Maximilian Losbichler¹, Carina Villegas¹ and Hannah Kemper²</span><br><span style="color: white; font-size: 0.8em; font-weight: normal;"> <span style="color: white;">¹Vienna University of Technology and ²Ruhr-University Bochum</span></span>
+#### <span style="color: orange; font-size: 0.9em;;">Authors: Maximilian Losbichler¹, Carina Villegas-Lituma¹ and Hannah Kemper²</span><br><span style="color: white; font-size: 0.8em; font-weight: normal;"> <span style="color: white;">¹Vienna University of Technology and ²Ruhr-University Bochum</span></span>
 
 ## 
 <p align="center" style="margin: 40px 0;">
