@@ -1,7 +1,7 @@
 # Biomass mission for water dynamics under forest <!--{ as="img" mode="hero" src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2023/02/biomass_satellite_over_forest/24725063-1-eng-GB/Biomass_satellite_over_forest_pillars.jpg" }-->
 #### 
 
-## Authors: Inga Lammers(1), Emilian Tietze(2) and Niels Dedring(1)
+## Authors: Inga Lammers<sup>1</sup>, Emilian Tietze<sup>2</sup> and Niels Dedring<sup>1</sup> 
 **Affiliations:**
 (1) Ruhr University Bochum (RUB)
 (2) TU Wien
@@ -19,6 +19,11 @@ The challenge involves observing hydrological processes like inundation and soil
 
 ## Objective
 Our objective is to leverage the unique capabilities of the Biomass mission's P-band radar to accurately quantify subsurface water dynamics. To validate these findings, we cross-reference our data with Sentinel-1 observations, allowing us to assess the performance advantages of P-band radar in forest-covered environments.
+##### Guiding questions
+- **What scatters, and how?** Polarimetric decompositions split the radar return into physical scattering mechanisms. Water under trees is expected to strengthen double-bounce scattering (trunk → smooth water surface → sensor). Exposed mud or a dry floor gives more surface scattering and less double-bounce.
+- **Where does something change?** Interferometric coherence between the 3-day repeat acquisitions shows where the scene stays stable and where it decorrelates. Areas with low coherence under forest are candidates for changing water conditions; an area with high coherence is the stable reference.
+- **Is the change linked to water?** The scattering components inside these areas are tracked over the seven dates and compared with the tide at each acquisition time. Sentinel-1 (C-band) is used as a contrast to show what a shorter wavelength sees over the same forest.
+
 
 ## Earth observations <!--{ as="eox-map" mode="tour" position="left" }-->
 
@@ -27,7 +32,62 @@ Our objective is to leverage the unique capabilities of the Biomass mission's P-
 The Sundarbans region presents a complex hydrological landscape. SAR data allows us to observe water levels even beneath the dense canopy.
 
 ## Data
-- **Source**: SAR Data, Biomass l1c, Biomass l2a, Sentinel 1
+
+<table>
+  <thead>
+    <tr>
+      <th>Data name</th>
+      <th>Variable name</th>
+      <th>Description</th>
+      <th>Reference*</th>
+      <th>Region</th>
+      <th>Time range</th>
+      <th>Resolution</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Biomass L1C</td>
+      <td>backscatter</td>
+      <td><a href="https://earth.esa.int/eogateway/missions/biomass/biomass-data" target="_blank">metadata description</a></td>
+      <td><a href="https://earth.esa.int/eogateway/catalog/biomass-level-1c" target="_blank">link to source</a></td>
+      <td>Bangladesh Bhagba</td>
+      <td>every 3 days</td>
+      <td>40 m<sup>2</sup> per pixel</td>
+    </tr>
+    <tr>
+      <td>BIOMASS L2A</td>
+      <td>forest / non-forest mask</td>
+      <td>Forest mask from the L2A <code>annotation</code> folder, used to keep forest pixels only</td>
+      <td><code>FOREST_MASK_TIF</code> (Section 4)</td>
+      <td>Sundarbans, Bangladesh</td>
+      <td>2026</td>
+      <td>~50 m grid (0.0005°) after regridding</td>
+    </tr>
+    <tr>
+      <td>Copernicus Marine global analysis &amp; forecast (<code>cmems_mod_glo_phy_anfc_merged-sl_PT1H-i</code>)</td>
+      <td><code>total_sea_level</code></td>
+      <td>Hourly total sea level, nearest valid cell to 21.6456° N, 89.5396° E</td>
+      <td><code>sciencehub-challenges-user-data/processing/team-5/Biomass/</code></td>
+      <td>Sundarbans coast</td>
+      <td>25 Jul – 12 Aug 2026</td>
+      <td>hourly</td>
+    </tr>
+    <tr>
+      <td>Sentinel-1 SLC bursts (Copernicus Data Space, openEO <code>sentinel1_sar_coherence</code>)</td>
+      <td>coherence (VV)</td>
+      <td>C-band interferometric coherence for comparison with BIOMASS</td>
+      <td><a href="https://dataspace.copernicus.eu" target="_blank">Copernicus Data Space</a></td>
+      <td>AOIs from 6.6</td>
+      <td>BIOMASS window ± 12 days</td>
+      <td>6 or 12-day pairs, regridded to 0.0005°</td>
+    </tr>
+  </tbody>
+</table>
+
+
+- **Source**: SAR Data: Biomass l1c, Biomass l2a, Sentinel 1
+Copernicus marine sea level data
 - **Temporal coverage**: Measurements are available every 3 days, from 07/25/2026 to 08/12/2026 resulting in 7 SAR measurements.
 - **Spatial resolution**: The raw data has an inital resolution of 39m azimuth and 6m range. After applying the "multilooking method" a resolution of about 40m per pixel is achieved.
 - **Area**: The inital datafile has a width of 1363 pixels
@@ -168,7 +228,7 @@ Based on this relationship, we explore the development of an empirical **wetness
 
 <div style="display: flex; gap: 10px;">
   <figure style="flex: 1; text-align: center;">
-    <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/3f5087b6f60442a823ad2ea16146ceb5feb8a968/assets/TrufE400/sealevelabsolute3daybarplot-1795094689011.png" alt="Sea level changes" style="width: 100%; height: auto;">
+    <img src="https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/3f5087b6f60442a823ad2ea16146ceb5feb8a968/assets/TrufE400/sealevelabsolute3daybarplot-1795094689011.png" alt="Sea level changes" style="width: 100%; height: 150;">
     <div style="text-align: center;">Figure 14: Sea level changes over the observation period.</div>
   </figure>
   <figure style="flex: 1; text-align: center;">
@@ -222,8 +282,6 @@ Based on this relationship, we explore the development of an empirical **wetness
 <p>
   Overall, the results highlight the potential of Biomass P-band SAR for observing temporal changes in complex mangrove environments. However, longer time series, more precise sea-level data, and in-situ measurements will be necessary to better understand the relationship between radar scattering and water dynamics and to establish a reliable wetness indicator in the future.
 </p>
-
-## Open Science
 
 
 ## Contributors
