@@ -1,6 +1,6 @@
 ---
 cover-image: https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/Title_600x400.png
-date: 2026-11-18
+date: 2026-11-20
 theme: esa-biomass-terramind
 tags: biomass, terramind, forest-canopy-height, sar, sentinel-1, sentinel-2, foundation-models
 official: false
@@ -11,7 +11,7 @@ official: false
 ## Authors: Torben Dedring¹  <!--{ style="font-size:1.5rem;opacity:0.7;margin-top:1rem;" }-->
 > ¹ Ruhr-Universität Bochum
 
-*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in **[Month Year / 2026]**. It was developed by a team from **[Affiliations]**.*
+*This story is based on results from the Science Hub Challenges organised and hosted by ESA's ESRIN Science Hub in **11/2026**. It was developed by a team from **Ruhr-Universität Bochum**.*
 
 ##  <!--{ nav="false"}-->
 <p align="center">
@@ -62,7 +62,7 @@ About 15% of each region is held out for validation, chosen so that validation a
 
 ## Earth observations <!--{ as="eox-map" mode="tour" }-->
 
-### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":true},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":false},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":false}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Vector","properties":{"id":"trainvalfootprints","title":"Training & Validation Footprints (Train vs. Val)"},"source":{"type":"Vector","url":"https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/TrainValFootprints-1795009646433.geojson","format":"GeoJSON"},"visible":true,"style":{"stroke-color":["match",["get","split"],"train","#0077ff","val","#ff3300","#ff9900"],"stroke-width":2,"fill-color":["match",["get","split"],"train","rgba(0, 119, 255, 0.25)","val","rgba(255, 51, 0, 0.35)","rgba(255, 153, 0, 0.25)"]}}]},{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]}]' zoom="2.1" center=[-10.569682342641302,7.8903138332408105] projection="EPSG:3857" animationOptions={duration:500}}-->
+### <!--{ layers='[{"type":"Group","properties":{"id":"BaseLayersGroup","title":"Base Layers"},"layers":[{"type":"Tile","properties":{"id":"cloudless-2024;:;EPSG:3857","title":"EOxCloudless 2024"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":true},{"type":"Tile","properties":{"id":"OSM;:;EPSG:3857","title":"OSM Background"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/osm_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":false},{"type":"Tile","properties":{"id":"terrain-light;:;EPSG:3857","title":"Terrain Light"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/terrain-light_3857/default/g/{z}/{y}/{x}.jpeg","projection":"EPSG:3857"},"visible":false}]},{"type":"Group","properties":{"id":"AnalysisGroup","title":"Data Layers"},"layers":[{"type":"Vector","properties":{"id":"trainvalfootprints","title":"Training & Validation Footprints (Train vs. Val)"},"source":{"type":"Vector","url":"https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/TrainValRegions.geojson","format":"GeoJSON"},"visible":true,"style":{"stroke-color":["match",["get","split"],"train","#0077ff","val","#ff3300","#ff9900"],"stroke-width":2,"fill-color":["match",["get","split"],"train","rgba(0, 119, 255, 0.25)","val","rgba(255, 51, 0, 0.35)","rgba(255, 153, 0, 0.25)"]}}]},{"type":"Group","properties":{"id":"OverlayGroup","title":"Overlay Layers"},"layers":[{"type":"Tile","properties":{"id":"overlay_bright;:;EPSG:3857","title":"Overlay labels"},"source":{"type":"XYZ","url":"//s2maps-tiles.eu/wmts/1.0.0/overlay_base_bright_3857/default/g/{z}/{y}/{x}.png","projection":"EPSG:3857"}}]}]' zoom="2.1" center=[-10.569682342641302,7.8903138332408105] projection="EPSG:3857" animationOptions={duration:500}}-->
 #### Training & Validation Footprints
 Training (blue) and validation (red) footprints across the 20 regions. Validation areas are chosen to overlap training areas as little as possible.
 
@@ -82,7 +82,6 @@ Training means repeatedly showing the model patches, measuring how far its predi
 - **Down-weighting implausible scenes**: Scenes whose median height deviates strongly from the other scenes of their region count only 25% in training, which reduces the effect of scene-wide offsets.
 - **Region-balanced sampling**: Small regions are sampled more often than their size alone would give, so large regions do not dominate.
 - **Augmentation**: Patches are randomly flipped and rotated, Sentinel-2 brightness and haze and Sentinel-1 calibration and speckle are slightly perturbed, and in 5% of cases Sentinel-2 or Sentinel-1 is removed entirely. This makes the model robust to sensor differences and missing data.
-
 - **Weight averaging**: The model used for validation and mapping is a running average of the trainable weights over roughly the last 1,000 training steps. This smooths out jumps between epochs and reduces overfitting to individual training scenes.
 
 The model is trained for 12 epochs (passes over the training data), with a learning rate that decreases gradually towards zero. The version with the lowest validation RMSE (epoch 10) is kept.
@@ -94,19 +93,16 @@ During training, the model minimises a weighted sum of four terms. For every val
 .lf-eq{font-family:"Cambria Math","STIX Two Math","Latin Modern Math","Times New Roman",serif;font-size:1.3rem;text-align:center;margin:1.4rem 0 0.4rem;line-height:2.2}
 .lf-term{position:relative;display:inline-block;padding:0 3px;border-bottom:1px dotted currentColor;cursor:help;outline:none}
 .lf-term:hover,.lf-term:focus{background:rgba(0,119,255,0.10);border-radius:4px}
-.lf-tip{position:absolute;bottom:130%;left:50%;transform:translateX(-50%);width:270px;padding:8px 11px;border-radius:6px;background:#1f2937;color:#fff;font:400 0.85rem/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;font-style:normal;text-align:left;box-shadow:0 4px 14px rgba(0,0,0,0.25);z-index:20;white-space:normal}
-.lf-tip b{display:block;margin-bottom:2px}
-.lf-term:hover .lf-tip,.lf-term:focus .lf-tip{display:block !important}
 .lf-hint{text-align:center;font-size:0.85rem;opacity:0.7;margin:0 0 1.2rem}
 </style>
 <div class="lf-eq">
 <i>ℒ</i> =
-<span class="lf-term" tabindex="0"><i>ℒ</i><sub>Huber</sub><span class="lf-tip" style="display:none"><b>Height loss (Huber)</b>The main term: it penalises the difference between predicted and BIOMASS height, and is less sensitive to outliers in the noisy labels than a squared error.</span></span>
-+ 0.25&thinsp;<span class="lf-term" tabindex="0"><i>ℒ</i><sub>log</sub><span class="lf-tip" style="display:none"><b>Log-height loss</b>Measures errors relative to tree height, so that mistakes in low forest and regrowth count as much as in tall forest.</span></span>
-+ 0.10&thinsp;<span class="lf-term" tabindex="0"><i>ℒ</i><sub>struct</sub><span class="lf-tip" style="display:none"><b>Coarse structure loss</b>Compares height changes between neighbouring blocks of about 180 m and 370 m, so the map keeps stand boundaries at the scale BIOMASS can resolve.</span></span>
-+ 0.05&thinsp;<span class="lf-term" tabindex="0"><i>ℒ</i><sub>GN</sub><span class="lf-tip" style="display:none"><b>Ground Notch loss (auxiliary)</b>Asks the model to also predict the BIOMASS ground backscatter, which helps it learn the ground and canopy structure.</span></span>
+<span class="lf-term" tabindex="0" title="𝗛𝗲𝗶𝗴𝗵𝘁 𝗹𝗼𝘀𝘀 (𝗛𝘂𝗯𝗲𝗿)&#10;The main term: it penalises the difference between predicted and BIOMASS height, and is less sensitive to outliers in the noisy labels than a squared error.&#10;&#10;Formula: Σᵢ wᵢ · H( ĥᵢ/38 m − hᵢ/38 m ) / Σᵢ wᵢ&#10;H: Huber loss with δ = 0.065 · wᵢ: pixel weight"><i>ℒ</i><sub>Huber</sub></span>
++ 0.25&thinsp;<span class="lf-term" tabindex="0" title="𝗟𝗼𝗴-𝗵𝗲𝗶𝗴𝗵𝘁 𝗹𝗼𝘀𝘀&#10;Measures errors relative to tree height, so that mistakes in low forest and regrowth count as much as in tall forest.&#10;&#10;Formula: Σᵢ wᵢ · H( ln(1 + ĥᵢ/10 m) − ln(1 + hᵢ/10 m) ) / Σᵢ wᵢ&#10;H: Huber loss with δ = 0.08 · wᵢ: pixel weight"><i>ℒ</i><sub>log</sub></span>
++ 0.10&thinsp;<span class="lf-term" tabindex="0" title="𝗖𝗼𝗮𝗿𝘀𝗲 𝘀𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲 𝗹𝗼𝘀𝘀&#10;Compares height changes between neighbouring blocks of about 180 m and 370 m, so the map keeps stand boundaries at the scale BIOMASS can resolve.&#10;&#10;Formula: Σₛ ½ · mean[ S( ∇ĥ⁽ˢ⁾ − ∇h⁽ˢ⁾ ) ],  s ∈ {2, 4}&#10;S: Smooth-L1 loss with β = 0.03 · ∇h⁽ˢ⁾: height differences between neighbouring s × s blocks (in x and y, on h/38 m)"><i>ℒ</i><sub>struct</sub></span>
++ 0.05&thinsp;<span class="lf-term" tabindex="0" title="𝗚𝗿𝗼𝘂𝗻𝗱 𝗡𝗼𝘁𝗰𝗵 𝗹𝗼𝘀𝘀 (𝗮𝘂𝘅𝗶𝗹𝗶𝗮𝗿𝘆)&#10;Asks the model to also predict the BIOMASS ground backscatter, which helps it learn the ground and canopy structure.&#10;&#10;Formula: mean over pixels i and p ∈ {HH, HV, VV} of S( ĝᵢ,ₚ − gᵢ,ₚ )&#10;S: Smooth-L1 loss with β = 0.35 · g: standardised Ground Notch backscatter (dB)"><i>ℒ</i><sub>GN</sub></span>
 </div>
-<p class="lf-hint">Hover over or tap a term for a short explanation.</p>
+<p class="lf-hint">Hover over a term for a short explanation (on touch devices, see “Show the individual terms” below).</p>
 
 The height terms are averaged with a per-pixel weight *w<sub>i</sub>* = *b<sub>i</sub>* · *s<sub>i</sub>*:
 - *b<sub>i</sub>* is the **height-balance weight**: the inverse square root of how often the pixel's height class (0–5, 5–10, …, 40–50, > 50 m) occurs in the batch, normalised to a mean of 1 and limited to 0.25–4. Rare heights, both low and tall, therefore count more.
@@ -123,6 +119,12 @@ The height terms are averaged with a per-pixel weight *w<sub>i</sub>* = *b<sub>i
 <div style="font-size:0.9rem;margin-left:1rem">
 <i>H</i><sub>δ</sub>: Huber loss (quadratic for errors below δ, linear above) · <i>S</i><sub>β</sub>: Smooth-L1 loss with threshold β · ⟨ ⟩: mean over valid pixels · ∇<i>h</i><sup>(<i>s</i>)</sup>: differences between neighbouring <i>s</i> × <i>s</i>-averaged blocks in x and y, on <i>h</i>/38 m · <i>g</i>: standardised BIOMASS Ground Notch backscatter (dB).
 </div>
+<ul style="font-size:0.9rem;margin:0.6rem 0 0 1rem">
+<li><b>Height loss (Huber)</b>: The main term: it penalises the difference between predicted and BIOMASS height, and is less sensitive to outliers in the noisy labels than a squared error.</li>
+<li><b>Log-height loss</b>: Measures errors relative to tree height, so that mistakes in low forest and regrowth count as much as in tall forest.</li>
+<li><b>Coarse structure loss</b>: Compares height changes between neighbouring blocks of about 180 m and 370 m, so the map keeps stand boundaries at the scale BIOMASS can resolve.</li>
+<li><b>Ground Notch loss (auxiliary)</b>: Asks the model to also predict the BIOMASS ground backscatter, which helps it learn the ground and canopy structure.</li>
+</ul>
 </details>
 
 
@@ -136,23 +138,7 @@ Large areas are predicted in overlapping 256 × 256 pixel windows that are blend
 ### Validation on Unseen BIOMASS Scenes
 During training, the selected model (epoch 10) reached an RMSE of 9.16 m and an R² of 0.35 on the validation patches, and an RMSE of 8.85 m after aggregation to roughly the 200 m BIOMASS product resolution.
 
-The model is then evaluated on one complete BIOMASS scene per region that was never part of the training data. Metrics are computed at the ~92 m pixel level against the BIOMASS label (0–75 m), without geographic coordinates. Bias is prediction minus BIOMASS.
-
-| Validation Region | RMSE (m) | MAE (m) | Bias (m) | R² | r | Bias, tall canopy > 20 m (m) |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Amazon, Central Brazil** *(Tropical moist broadleaf)* | 6.49 | 4.55 | +1.18 | 0.152 | 0.43 | −0.83 |
-| **Eucalyptus Forest, East Australia** *(Subtropical/temperate sclerophyll)* | 5.77 | 4.55 | −1.50 | −1.024 | −0.02 | −1.50 |
-| **Taiga, Siberia** *(Boreal needleleaf)* | 28.88 | 26.76 | −24.09 | −3.920 | −0.29 | −28.68 |
-| **Temperate Mixed Forest, West Russia** *(Hemiboreal mixed)* | 17.43 | 13.97 | −6.37 | −0.067 | 0.36 | −10.41 |
-
-- **Amazon**: The best agreement (RMSE 6.5 m, r = 0.43, almost no bias in tall forest). The model reproduces the large-scale pattern, such as lower canopy along rivers and floodplains, but its map is smoother than the BIOMASS label.
-- **Eucalyptus Forest**: A low RMSE (5.8 m), but no correlation with BIOMASS (r = −0.02). BIOMASS heights in this scene vary little (standard deviation about 4 m), so the low RMSE mainly reflects this narrow range; the model does not reproduce the spatial pattern.
-- **Taiga**: A large negative bias (−24.1 m). This most likely reflects a scene-wide offset: the BIOMASS heights of this scene are far higher than those of the training scenes from the same region, which the model cannot reproduce from Sentinel data.
-- **Temperate Mixed Forest**: A moderate correlation (r = 0.36), with tall forest underestimated by about 10 m. 10.5% of this scene overlaps training footprints; these pixels were excluded from the metrics.
-
-Negative R² values mean that, for that scene, the predictions agree less well with BIOMASS than the scene's average BIOMASS height would.
-
-The map below shows one of these scenes step by step: the three inputs, the BIOMASS reference and the model prediction.
+The map below shows one of the unseen validation scenes, in the Amazon, step by step: the three inputs, the BIOMASS reference and the model prediction.
 
 
 ## Validation Scene: Amazon, Central Brazil <!--{ as="eox-map" mode="tour" }-->
@@ -181,6 +167,23 @@ The model's prediction from Sentinel-2, Sentinel-1 and DEM only, on the same col
 
 <img src="https://raw.githubusercontent.com/tdedring/eodashboard-narratives/refs/heads/tdedring/terramindbiomass/assets/tdedring/Amazon_Legend_Height.png" width="300"/>
 
+
+## Validation Across All Unseen Scenes
+The model is then evaluated on one complete BIOMASS scene per region that was never part of the training data. Metrics are computed at the ~92 m pixel level against the BIOMASS label (0–75 m), without geographic coordinates. Bias is prediction minus BIOMASS.
+
+| Validation Region | <span class="lf-term" tabindex="0" title="𝗥𝗼𝗼𝘁-𝗺𝗲𝗮𝗻-𝘀𝗾𝘂𝗮𝗿𝗲 𝗲𝗿𝗿𝗼𝗿&#10;Typical size of the difference between predicted and BIOMASS height; large errors count more than small ones.&#10;&#10;RMSE = √( mean[ (ĥᵢ − hᵢ)² ] )&#10;ĥᵢ: predicted height · hᵢ: BIOMASS height, over all valid pixels of the scene">RMSE (m)</span> | <span class="lf-term" tabindex="0" title="𝗠𝗲𝗮𝗻 𝗮𝗯𝘀𝗼𝗹𝘂𝘁𝗲 𝗲𝗿𝗿𝗼𝗿&#10;Average size of the difference between predicted and BIOMASS height, regardless of its sign; less affected by single large errors than RMSE.&#10;&#10;MAE = mean[ &#124;ĥᵢ − hᵢ&#124; ]&#10;ĥᵢ: predicted height · hᵢ: BIOMASS height, over all valid pixels of the scene">MAE (m)</span> | <span class="lf-term" tabindex="0" title="𝗕𝗶𝗮𝘀 (𝗺𝗲𝗮𝗻 𝗲𝗿𝗿𝗼𝗿)&#10;Average difference between predicted and BIOMASS height: positive values mean the model overestimates, negative values that it underestimates.&#10;&#10;Bias = mean[ ĥᵢ − hᵢ ]&#10;ĥᵢ: predicted height · hᵢ: BIOMASS height, over all valid pixels of the scene">Bias (m)</span> | <span class="lf-term" tabindex="0" title="𝗖𝗼𝗲𝗳𝗳𝗶𝗰𝗶𝗲𝗻𝘁 𝗼𝗳 𝗱𝗲𝘁𝗲𝗿𝗺𝗶𝗻𝗮𝘁𝗶𝗼𝗻&#10;Share of the variation in BIOMASS height that the prediction explains: 1 is perfect, 0 is no better than the scene's mean height, negative is worse.&#10;&#10;R² = 1 − Σ(ĥᵢ − hᵢ)² / Σ(hᵢ − h̄)²&#10;ĥᵢ: predicted height · hᵢ: BIOMASS height, over all valid pixels of the scene">R²</span> | <span class="lf-term" tabindex="0" title="𝗣𝗲𝗮𝗿𝘀𝗼𝗻 𝗰𝗼𝗿𝗿𝗲𝗹𝗮𝘁𝗶𝗼𝗻&#10;How consistently predicted and BIOMASS heights rise and fall together (−1 to 1), regardless of any constant offset.&#10;&#10;r = cov(ĥ, h) / (σ_ĥ · σ_h)&#10;ĥᵢ: predicted height · hᵢ: BIOMASS height, over all valid pixels of the scene">r</span> | <span class="lf-term" tabindex="0" title="𝗧𝗮𝗹𝗹-𝗰𝗮𝗻𝗼𝗽𝘆 𝗯𝗶𝗮𝘀&#10;Bias computed only over pixels where BIOMASS height exceeds 20 m; negative values show that tall forest is underestimated.&#10;&#10;Bias = mean[ ĥᵢ − hᵢ ] over pixels with hᵢ > 20 m&#10;ĥᵢ: predicted height · hᵢ: BIOMASS height, over all valid pixels of the scene">Bias, tall canopy > 20 m (m)</span> |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Amazon, Central Brazil** *(Tropical moist broadleaf)* | 6.49 | 4.55 | +1.18 | 0.152 | 0.43 | −0.83 |
+| **Eucalyptus Forest, East Australia** *(Subtropical/temperate sclerophyll)* | 5.77 | 4.55 | −1.50 | −1.024 | −0.02 | −1.50 |
+| **Taiga, Siberia** *(Boreal needleleaf)* | 28.88 | 26.76 | −24.09 | −3.920 | −0.29 | −28.68 |
+| **Temperate Mixed Forest, West Russia** *(Hemiboreal mixed)* | 17.43 | 13.97 | −6.37 | −0.067 | 0.36 | −10.41 |
+
+- **Amazon**: The best agreement (RMSE 6.5 m, r = 0.43, almost no bias in tall forest). The model reproduces the large-scale pattern, such as lower canopy along rivers and floodplains, but its map is smoother than the BIOMASS label.
+- **Eucalyptus Forest**: A low RMSE (5.8 m), but no correlation with BIOMASS (r = −0.02). BIOMASS heights in this scene vary little (standard deviation about 4 m), so the low RMSE mainly reflects this narrow range; the model does not reproduce the spatial pattern.
+- **Taiga**: A large negative bias (−24.1 m). This most likely reflects a scene-wide offset: the BIOMASS heights of this scene are far higher than those of the training scenes from the same region, which the model cannot reproduce from Sentinel data.
+- **Temperate Mixed Forest**: A moderate correlation (r = 0.36), with tall forest underestimated by about 10 m. 10.5% of this scene overlaps training footprints; these pixels were excluded from the metrics.
+
+Hover over a metric name in the table for a short explanation. Negative R² values mean that, for that scene, the predictions agree less well with BIOMASS than the scene's average BIOMASS height would.
 
 ## Conclusions
 - **Feasibility**: A frozen Earth observation foundation model with a small, terrain-aware refiner can learn BIOMASS-like canopy height from globally available Sentinel-2, Sentinel-1 and Copernicus DEM data. On unseen scenes, agreement ranges from good in the Amazon (RMSE 6.5 m, r = 0.43) to poor where BIOMASS scenes are offset from the training data, as in the Siberian taiga.
