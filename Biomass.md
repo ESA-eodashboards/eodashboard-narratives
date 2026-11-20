@@ -62,7 +62,7 @@ The Sundarbans region presents a complex hydrological landscape. SAR data allows
       <td>~50 m grid (0.0005°) after regridding</td>
     </tr>
     <tr>
-      <td>Copernicus Marine global analysis &amp; forecast (<code>cmems_mod_glo_phy_anfc_merged-sl_PT1H-i</code>)</td>
+      <td>Copernicus Marine global analysis &amp; forecast</td>
       <td><code>total_sea_level</code></td>
       <td>Hourly total sea level, nearest valid cell to 21.6456° N, 89.5396° E</td>
       <td>Sundarbans coast</td>
@@ -70,7 +70,7 @@ The Sundarbans region presents a complex hydrological landscape. SAR data allows
       <td>hourly</td>
     </tr>
     <tr>
-      <td>Sentinel-1 SLC bursts (Copernicus Data Space, openEO <code>sentinel1_sar_coherence</code>)</td>
+      <td>Sentinel-1 SLC bursts (Copernicus Data Space, openEO</td>
       <td>coherence (VV)</td>
       <td>C-band interferometric coherence for comparison with BIOMASS</td>
       <td>AOIs from 6.6</td>
