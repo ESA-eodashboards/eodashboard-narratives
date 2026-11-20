@@ -15,7 +15,7 @@
 </p>
 
 ## Challenge
-The challenge involves observing hydrological processes like inundation and soil moisture beneath dense canopy layers. While traditional optical and shorter-wavelength SAR methods often struggle with such thick vegetation, the Biomass mission introduces P-band radar technology, which is specifically optimized for deeper penetration through complex biomass structures.
+The challenge involves observing hydrological processes like inundation and moisture in dense canopy layers. While traditional optical and shorter-wavelength SAR methods often struggle with such thick vegetation, the Biomass mission introduces P-band radar technology, which is specifically optimized for deeper penetration through complex biomass structures.
 
 ## Objective
 Our objective is to leverage the unique capabilities of the Biomass mission's P-band radar to accurately quantify subsurface water dynamics. To validate these findings, we cross-reference our data with Sentinel-1 observations, allowing us to assess the performance advantages of P-band radar in forest-covered environments.
@@ -39,7 +39,6 @@ The Sundarbans region presents a complex hydrological landscape. SAR data allows
       <th>Data name</th>
       <th>Variable name</th>
       <th>Description</th>
-      <th>Reference*</th>
       <th>Region</th>
       <th>Time range</th>
       <th>Resolution</th>
@@ -50,7 +49,6 @@ The Sundarbans region presents a complex hydrological landscape. SAR data allows
       <td>Biomass L1C</td>
       <td>backscatter</td>
       <td><a href="https://earth.esa.int/eogateway/missions/biomass/biomass-data" target="_blank">metadata description</a></td>
-      <td><a href="https://earth.esa.int/eogateway/catalog/biomass-level-1c" target="_blank">link to source</a></td>
       <td>Bangladesh Bhagba</td>
       <td>every 3 days</td>
       <td>40 m<sup>2</sup> per pixel</td>
@@ -59,7 +57,6 @@ The Sundarbans region presents a complex hydrological landscape. SAR data allows
       <td>BIOMASS L2A</td>
       <td>forest / non-forest mask</td>
       <td>Forest mask from the L2A <code>annotation</code> folder, used to keep forest pixels only</td>
-      <td><code>FOREST_MASK_TIF</code> (Section 4)</td>
       <td>Sundarbans, Bangladesh</td>
       <td>2026</td>
       <td>~50 m grid (0.0005°) after regridding</td>
@@ -68,7 +65,6 @@ The Sundarbans region presents a complex hydrological landscape. SAR data allows
       <td>Copernicus Marine global analysis &amp; forecast (<code>cmems_mod_glo_phy_anfc_merged-sl_PT1H-i</code>)</td>
       <td><code>total_sea_level</code></td>
       <td>Hourly total sea level, nearest valid cell to 21.6456° N, 89.5396° E</td>
-      <td><code>sciencehub-challenges-user-data/processing/team-5/Biomass/</code></td>
       <td>Sundarbans coast</td>
       <td>25 Jul – 12 Aug 2026</td>
       <td>hourly</td>
@@ -77,7 +73,6 @@ The Sundarbans region presents a complex hydrological landscape. SAR data allows
       <td>Sentinel-1 SLC bursts (Copernicus Data Space, openEO <code>sentinel1_sar_coherence</code>)</td>
       <td>coherence (VV)</td>
       <td>C-band interferometric coherence for comparison with BIOMASS</td>
-      <td><a href="https://dataspace.copernicus.eu" target="_blank">Copernicus Data Space</a></td>
       <td>AOIs from 6.6</td>
       <td>BIOMASS window ± 12 days</td>
       <td>6 or 12-day pairs, regridded to 0.0005°</td>
