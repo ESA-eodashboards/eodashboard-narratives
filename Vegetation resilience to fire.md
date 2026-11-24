@@ -33,11 +33,12 @@ The objective of this study was to measure how vegetation responds to and recove
 1. **Did the fire cause a significant drop in vegetation?**
 2. **How severe were the fires?**
 3. **Did the vegetation recover, and how long did it take?**
-4. **Does recovery differ between land-cover types?**
+4. **Does recovery differ between land-cover types and across vegetation indicators?**
 
 
 ## Where did it burn?
-![annual_burn_area.gif](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/cf912039cca955403a22b0d160abaedd2ef8347a/assets/JSiethoff/annualburnarea-1795100153560.gif)
+
+![annual_burn_area3.gif](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/a87df0077beff4a777aaa8bc7f798e01b192b83d/assets/JSiethoff/annualburnarea3-1795163368126.gif)
 
 *Burned area per year across Europe, 2003–2022, from the ESA CCI Fire Burned Area product.*
 
@@ -81,10 +82,20 @@ In most of Europe, fires burned only a **small share** of a cell's burnable area
 
 *Maximum fire severity 2003–2022 for the cells kept after the quality and land-cover filters used in the analysis.*
 
-After filtering, far fewer cells remain, and most of them show **low to moderate severity**, which is typical of forest fires that affect only part of a 25 km grid cell.
+After filtering for only forest land-cover classes, far fewer cells remain, and most of them show **low to moderate severity**, which is typical of forest fires that affect only part of a 25 km grid cell.
 
 #### Back to baseline?
 The time series and the recovery map below are based on **NDVI**.
+
+
+![04_ndvi_41.625000_26.125000_2016.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/8214ed0283cc98afa78b82a340746e53068bb8f1/assets/JSiethoff/04ndvi41.62500026.1250002016-1795100514448.png)
+
+**Bulgaria, fire 2016:** NDVI barely changed and stayed above the baseline, so the fire had **no significant impact** on this cell.
+
+
+![03_ndvi_37.375000_-6.875000_2019.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/73d1f1fe2f92e49b3f62bf0e2df5a3b758eba02b/assets/JSiethoff/03ndvi37.375000-6.8750002019-1795100498349.png)
+
+**Spain, fire 2019:** NDVI fell sharply around the fire and has only started to rise again by the end of the record in 2021.
 
 ![01_ndvi_49.625000_50.375000_2012.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/6c2ce1838ef7b896de68e9714aa9648672e1626e/assets/JSiethoff/01ndvi49.62500050.3750002012-1795100418841.png)
 
@@ -94,13 +105,7 @@ The time series and the recovery map below are based on **NDVI**.
 
 **Portugal, fire 2016:** a small drop of 2 % that recovered after about **4 years**, after which NDVI rose well above its pre-fire level.
 
-![03_ndvi_37.375000_-6.875000_2019.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/73d1f1fe2f92e49b3f62bf0e2df5a3b758eba02b/assets/JSiethoff/03ndvi37.375000-6.8750002019-1795100498349.png)
 
-**Spain, fire 2019:** NDVI fell sharply around the fire and has only started to rise again by the end of the record in 2021.
-
-![04_ndvi_41.625000_26.125000_2016.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/8214ed0283cc98afa78b82a340746e53068bb8f1/assets/JSiethoff/04ndvi41.62500026.1250002016-1795100514448.png)
-
-**Bulgaria, fire 2016:** NDVI barely changed and stayed above the baseline, so the fire had **no significant impact** on this cell.
 
 *NDVI trend (seasonal cycle removed) of four burned cells. The first two cells recovered. The third has not recovered within the roughly two years of data available after its fire in 2019. The fourth shows no significant fire impact. Grey band: the three years before the fire (baseline). Red band: the fire year. Dashed lines: baseline level (grey), threshold for a significant drop (red), 80 % recovery line (green). Red dot: lowest value within 24 months after the start of the fire year, used to measure the drop; the trend can keep falling after this window. Green dot: the moment 80 % of the loss is regained.*
 
@@ -223,7 +228,7 @@ The vegetation types come directly from the Fire CCI product, which reports for 
 
 ## Conclusions
 #### Key findings
-- **Recovery rates differ between land-cover classes.** Broadleaved evergreen forest (BEF), mosaic tree and shrub (MTS) and flooded forest (FLD) show recovery rates close to **100 %**, with nearly all evaluated cells regaining at least 80 % of their fire-induced loss. These classes have considerably smaller sample sizes than the others, so their high rates should be interpreted cautiously. Most of the remaining classes recover in about **80 %** of cases, whereas mosaic natural vegetation (MNV) has the lowest rate, at around **30 %**.
+- **Recovery proportions differ between land-cover classes.** Broadleaved evergreen forest (BEF), mosaic tree and shrub (MTS) and flooded forest (FLD) show a recovery proportion close to **100 %**, with nearly all evaluated cells regaining at least 80 % of their fire-induced loss. These classes have considerably smaller sample sizes than the others, so their high rates should be interpreted cautiously. Most of the remaining classes recover in about **80 %** of cases, whereas mosaic natural vegetation (MNV) has the lowest rate, at around **30 %**.
 - **Recovery times vary between land-cover classes.** BEF, MNV and MTS have the longest median recovery times, at around **4.5 years**. Broadleaved deciduous (BDF) and needle-leaved evergreen forests (NEF) recover faster, with median recovery times of about **3.5 to 4 years**.
 - **Recovery times are broadly consistent across vegetation indicators.** NDVI, kNDVI and NIRv all show similar median recovery times of about **3.5 to 4 years**. The three indicators therefore capture broadly comparable patterns of post-fire vegetation recovery, despite measuring different aspects of vegetation.
 
@@ -231,13 +236,9 @@ The vegetation types come directly from the Fire CCI product, which reports for 
 - **Spatial resolution:** the 0.25° resolution is a major limitation. At this scale, a grid cell covers a large, heterogeneous area that can combine burned and unburned vegetation, different forest types and varying fire severity. The observed response therefore cannot necessarily be attributed to the burned forest itself. This limits the spatial detail at which post-fire dynamics can be resolved and adds uncertainty to the recovery times.
 - **Recovery is not ecological restoration:** the metric describes how much of the fire-induced loss in a vegetation indicator has been regained (at least 80 %), not the restoration of the original ecosystem. A rise in NDVI may reflect understory regrowth or pioneer vegetation, even if the original canopy structure, species composition or ecological functions have not recovered. The results describe the recovery of **remotely sensed vegetation conditions**, not complete ecosystem recovery.
 - **Land-cover differences need careful interpretation:** the high recovery rates of BEF, MTS and FLD must be seen in light of their much smaller sample sizes. The relatively high recovery rates of some needle-leaved forest classes may also differ from expectations based on literature that suggests lower post-fire resilience than in broadleaved forests. Such comparisons, however, depend strongly on how resilience is defined and measured, and differences in geographic distribution, fire characteristics, forest composition and spatial resolution may contribute as well.
-- **Indicator-specific limits:** NDVI, kNDVI and NIRv mainly capture greenness and canopy properties. Their consistent recovery times support the robustness of the general pattern, but they do not provide a comprehensive assessment of ecosystem recovery. Biomass, species composition, forest structure and ecosystem functioning may follow different trajectories.
-- **Timing:** only the fire year is known, not the exact fire date, so impact windows and recovery times are counted from 1 January of the fire year. Fires in the last years of the record have only a short observation period afterwards.
 
-#### Conclusion
-Post-fire vegetation recovery differs substantially between land-cover classes, while recovery times are relatively consistent across the analysed indicators. The findings should be understood as **patterns of remotely sensed vegetation recovery at a coarse spatial scale**, not as direct measurements of forest resilience or ecosystem restoration.
 
-#### Outlook
+#### Future work
 - **Higher-resolution satellite products** would help to separate burned forest from surrounding vegetation and to capture spatially heterogeneous recovery.
 - **Combining greenness indicators with biomass, canopy structure and species composition** would give a more complete picture of ecosystem recovery.
 - **Larger and more balanced samples** across land-cover classes, together with information on fire severity and pre-fire conditions, would help to explain differences in recovery trajectories.
