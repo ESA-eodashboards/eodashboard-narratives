@@ -98,7 +98,7 @@ The rest of the study focused on GPP in comparison to RONI, due to the most pron
 #### Phase-specific analysis of GPP
 
 Alongside other strongly affected regions worldwide Argentina, southern Africa, and eastern Africa exhibit pronounced, asymmetric GPP responses when stratified into El Niño (RONI > 0.5) and La Niña (RONI < -0.5) phases. During El Niño, positive correlations at short-to-moderate lags dominate across Argentina, whereas southern Africa shows positive correlations in the west and negative ones in the east. Under La Niña, strong short-lag negative correlations emerge across southern Africa (indicating marked productivity gains as RONI decreases) while eastern Africa shows positive correlations (GPP decreases) and Argentina also retains a localized positive signal (GPP decrease). 
-The patterns retrieved from our analysis correspond to the expected weather impacts explained via [NOAA](https://www.noaa.gov/jetstream/enso_impacts).
+Also, the anomaly patterns retrieved from our analysis correspond to the expected weather impacts explained via [NOAA](https://www.noaa.gov/jetstream/enso_impacts).
 
 ##### El Niño 
 
@@ -124,7 +124,7 @@ The patterns retrieved from our analysis correspond to the expected weather impa
 
 #### Regional GPP study
 
-At a 3-month lag relative to neutral conditions, GPP anomalies exhibit stark sign reversals between El Niño and La Niña across the three primary study areas of Argentina, southern Africa, and eastern Africa. During El Niño, GPP anomalies are strongly positive ( > 0.15) across Argentina and eastern Africa, whereas southern Africa experiences pronounced productivity reductions ( < -0.15). Under La Niña, this spatial response completely inverts: strong negative anomalies emerge over Argentina and eastern Africa, while southern Africa shifts to marked positive GPP anomalies. 
+At a 3-month lag relative to neutral conditions, GPP anomalies exhibit sign reversals between El Niño and La Niña across the three primary study areas of Argentina, southern Africa, and eastern Africa. During El Niño, GPP anomalies are strongly positive ( > 0.15) across Argentina and eastern Africa, whereas southern Africa experiences pronounced productivity reductions ( < -0.15). Under La Niña, this spatial response inverts: strong negative anomalies emerge over Argentina and eastern Africa, while southern Africa shifts to positive GPP anomalies. 
 
 ##### South America
 In **central and northern Argentina (22°S-38°S)**, GPP exhibits robust positive correlations (r > 0.5) with RONI at short-to-moderate lags (2–6 months). At a 3-month lag, this relationship manifests as pronounced positive GPP anomalies ( > 0.2) during El Niño events and sharp productivity declines ( < -0.2) under La Niña conditions.
