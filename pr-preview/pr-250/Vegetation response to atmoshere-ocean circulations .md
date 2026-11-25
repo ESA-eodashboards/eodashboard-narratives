@@ -167,4 +167,4 @@ Historical El Niño / La Niña episodes (1950–Present). https://cpc.ncep.noaa.
 - DeepESDL, Earth System Data Cube (ESDC) v3.0.1. https://earthsystemdatalab.net/guide/data/pre-generated/ESDC/
 
 ## Contributors
-Theresa Mimi Freiß, Thomas Himmer, and Fabian Unterasinger. [link text](url)
+Theresa Mimi Freiß, Thomas Himmer, and Fabian Unterasinger.
