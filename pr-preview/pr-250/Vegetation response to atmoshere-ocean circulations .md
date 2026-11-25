@@ -87,13 +87,13 @@ Global lagged correlation analysis between the Relative Oceanic Niño Index (RON
 
 #### NIRv vs. RONI
 
-![global_nirv_R+lag.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/96116f20b8f5c9ab32db4f90f0c1fbbad0e2a158/assets/thmimif/globalnirvRlag-1795114033282.png)<figcaption>***Fig. 7:*** *Same as Figure 6, but for the Near-Infrared Reflectance of Vegetation (NIRv) and RONI, showing enhanced negative responses across Southeast Asia and Australia.*</figcaption>
+![global_nirv_R+lag.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/96116f20b8f5c9ab32db4f90f0c1fbbad0e2a158/assets/thmimif/globalnirvRlag-1795114033282.png)<figcaption>***Fig. 7:*** *Same as Figure 6, but for the Near-Infrared Reflectance of Vegetation (NIRv) and RONI.*</figcaption>
 
 #### GPP vs. RONI
 
 ![global_gpp_R+lag.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/ff552c4d572cfeb450f21461d0c44701544c2a8d/assets/thmimif/globalgppRlag-1795114249979.png)<figcaption>***Fig. 8:*** *Same as Figure 6, but for GPP and RONI across vegetated land areas, highlighting pronounced short-lag reductions in primary productivity over Australia, southern Africa, and the Maritime Continent.*</figcaption>
 
-The rest of the study focused on GPP due to the highest absolute values detected in further difference analysis.
+The rest of the study focused on GPP in comparison to RONI, due to the most pronounced patterns detected in further difference analysis.
 
 #### Phase-specific analysis of GPP
 
