@@ -19,7 +19,7 @@ official: false
 </p>
 
 ## Challenge
-Atmosphere-ocean circulations significantly impact our environmental and socioeconomic systems worldwide. The El Niño-Southern Oscillation (ENSO) is one of the most influential climate variations, altering weather patterns across the globe. Year-to-year conditions in the tropical Pacific Ocean fluctuate between unusually warm (El Niño) and cold (La Niña) phases. These fluctuations, typically spanning two to seven years, disrupt atmospheric pressure patterns between the tropical Indian and Pacific Oceans. The resulting shifts in environmental conditions directly influence primary production patterns within the global carbon cycle. This challenge investigates the sensitivity of vegetation to these atmosphere-ocean circulations.
+Atmosphere-ocean circulations significantly impact our environmental and socioeconomic systems worldwide. The [El Niño-Southern Oscillation (ENSO)](https://www.noaa.gov/jetstream/tropical/enso) is one of the most influential climate variations, altering weather patterns across the globe. Year-to-year conditions in the tropical Pacific Ocean fluctuate between unusually warm (El Niño) and cold (La Niña) phases. These fluctuations, typically spanning two to seven years, disrupt atmospheric pressure patterns between the tropical Indian and Pacific Oceans. The resulting shifts in environmental conditions directly influence primary production patterns within the global carbon cycle. This challenge investigates the sensitivity of vegetation to these atmosphere-ocean circulations.
 
 ## Objective
 This study aims to quantify the impact of ENSO phases (La Niña and El Niño) on vegetation dynamics compared to neutral baseline conditions. 
@@ -107,28 +107,38 @@ At a 3-month lag relative to neutral conditions, GPP anomalies exhibit stark sig
 
 ![global_gpp_phases_el_nino_anomaly.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/27860d79a594d1295d1bcd33d18603c0061ba27d/assets/thmimif/globalgppphaseselninoanomaly-1795115100589.png)<figcaption>***Fig. 10:*** *Global distribution of GPP anomaly differences between El Niño and neutral ENSO conditions at a 3-month time lag, highlighting positive anomalies in Argentina and eastern Africa and negative anomalies in southern Africa.*</figcaption>
 
+![el_winter1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/637f242ae961a9c2ba0753e9780fb156c1c5f254/assets/thmimif/elwinter1-1795000251975.png)<figcaption>***Fig. 11:*** *El Niño effects from December to February (for comparison, see [Weather Impacts of ENSO](https://www.noaa.gov/jetstream/enso_impacts)).*</figcaption>
+
+![el_summer1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/6f3393ebf5cbd98cb168cd3570c5ff0a03f049a2/assets/thmimif/elsummer1-1795000283074.png)<figcaption>***Fig. 12:*** *El Niño effects from June to August (for comparison, see [Weather Impacts of ENSO](https://www.noaa.gov/jetstream/enso_impacts)).*</figcaption>
+
+
+
 ##### La Niña
 
-![global_gpp_phases_la_nina.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/afe44c2bec963f9da667fd95beafc4f7b41778a4/assets/thmimif/globalgppphaseslanina-1795115163361.png)<figcaption>***Fig. 11:*** *Same as Figure 9 but for La Nina conditions (RONI < -0.5).*</figcaption>
+![global_gpp_phases_la_nina.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/afe44c2bec963f9da667fd95beafc4f7b41778a4/assets/thmimif/globalgppphaseslanina-1795115163361.png)<figcaption>***Fig. 13:*** *Same as Figure 9 but for La Nina conditions (RONI < -0.5).*</figcaption>
 
-![global_gpp_phases_la_nina_anomaly.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e42a2015d8a7e9400ebc1d524a56922238863cab/assets/thmimif/globalgppphaseslaninaanomaly-1795115179453.png)<figcaption>***Fig. 12:*** *Global distribution of GPP anomaly differences between La Niña and neutral ENSO conditions at a 3-month time lag, illustrating the inverted GPP response across the three study regions.*</figcaption>
+![global_gpp_phases_la_nina_anomaly.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e42a2015d8a7e9400ebc1d524a56922238863cab/assets/thmimif/globalgppphaseslaninaanomaly-1795115179453.png)<figcaption>***Fig. 14:*** *Global distribution of GPP anomaly differences between La Niña and neutral ENSO conditions at a 3-month time lag, illustrating the inverted GPP response across the three study regions.*</figcaption>
+
+![la_winter1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/e9d73b5cb2886282ded9f638a84ee46666478627/assets/thmimif/lawinter1-1795000306894.png)<figcaption>***Fig. 15:*** *La Niña effects from December to February (for comparison, see [Weather Impacts of ENSO](https://www.noaa.gov/jetstream/enso_impacts)).*</figcaption>
+
+![la_summer1.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/9f04d681a2c8214a44cbe21881c2e1d92b25dbf2/assets/thmimif/lasummer1-1795000351654.png)<figcaption>***Fig. 16:*** *La Niña effects from June to August (for comparison, see [Weather Impacts of ENSO](https://www.noaa.gov/jetstream/enso_impacts)).*</figcaption>
 
 #### Regional GPP study
 
 ##### South America
 In **central and northern Argentina (22°S-38°S)**, GPP exhibits robust positive correlations (r > 0.5) with RONI at short-to-moderate lags (2–6 months). At a 3-month lag, this relationship manifests as pronounced positive GPP anomalies ( > 0.2) during El Niño events and sharp productivity declines ( < -0.2) under La Niña conditions.
 
-![Argentina_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b8cb181a91b5e2594948623c6f3794c9a85496d5/assets/thmimif/Argentinacombined-1795115775699.png)<figcaption>***Fig. 13:*** *Time-lag correlations and anomaly analysis of GPP for central and northern Argentina.*</figcaption>
+![Argentina_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/b8cb181a91b5e2594948623c6f3794c9a85496d5/assets/thmimif/Argentinacombined-1795115775699.png)<figcaption>***Fig. 17:*** *Time-lag correlations and anomaly analysis of GPP for central and northern Argentina.*</figcaption>
 
 ##### Sub-Saharan-Africa
 
 **Eastern Africa** displays a distinct spatial dipole between coastal/equatorial lowlands and the northwestern interior. Coastal and equatorial zones show strong short-lag positive correlations accompanied by substantial El Niño productivity gains and La Niña deficits, whereas the northwestern highlands exhibit negative correlations and inverse phase anomalies.
 
-![Eastern-Africa_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/97d75058a1acdbfdc3b4e308274113a81d7542de/assets/thmimif/Eastern-Africacombined-1795115846355.png)<figcaption>***Fig. 14:*** *Time-lag correlations and anomaly analysis of GPP for eastern Africa.*</figcaption>
+![Eastern-Africa_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/97d75058a1acdbfdc3b4e308274113a81d7542de/assets/thmimif/Eastern-Africacombined-1795115846355.png)<figcaption>***Fig. 18:*** *Time-lag correlations and anomaly analysis of GPP for eastern Africa.*</figcaption>
 
 **Southern Africa** (15°S–32°S) is characterized by widespread short-lag (1–4 months) negative correlations (r < -0.5) across the interior. Consequently, the region experiences severe GPP reductions ( < -0.2) following El Niño events and marked productivity enhancements ( > 0.15) during La Niña phases.
 
-![Southern-Africa_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/565d320dbb69cec23090d3b685beacaf48d21f63/assets/thmimif/Southern-Africacombined-1795115869464.png)<figcaption>***Fig. 15:*** *Time-lag correlations and anomaly analysis of GPP for southern Africa.*</figcaption>
+![Southern-Africa_combined.png](https://raw.githubusercontent.com/ESA-eodashboards/eodashboard-narratives/565d320dbb69cec23090d3b685beacaf48d21f63/assets/thmimif/Southern-Africacombined-1795115869464.png)<figcaption>***Fig. 19:*** *Time-lag correlations and anomaly analysis of GPP for southern Africa.*</figcaption>
 
 ## Conclusions
 All in all, global and regional lag-time correlations of all three vegetation indices reveal strong regionally varying positive or negative responses to El Niño and La Niña patterns. In general, these vegetation responses coincide well with expected climate oscillation driven weather anomalies on both the global and investigated regional scale.
@@ -156,4 +166,4 @@ Historical El Niño / La Niña episodes (1950–Present). https://cpc.ncep.noaa.
 - DeepESDL, Earth System Data Cube (ESDC) v3.0.1. https://earthsystemdatalab.net/guide/data/pre-generated/ESDC/
 
 ## Contributors
-Theresa Mimi Freiß, Thomas Himmer, and Fabian Unterasinger. 
+Theresa Mimi Freiß, Thomas Himmer, and Fabian Unterasinger. [link text](url)
